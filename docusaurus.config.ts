@@ -24,7 +24,6 @@ const config: Config = {
   projectName: 'lifewell-docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
 
@@ -35,6 +34,9 @@ const config: Config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 

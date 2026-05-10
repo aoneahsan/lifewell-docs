@@ -15,7 +15,7 @@ LifeWell — a private health and wellness companion for web, Android, and the b
 - Get cited by AI search engines and indexed by traditional search engines, so people looking for "how to track blood pressure across devices" or "private wellness app" find a real, structured answer.
 - Credit me — Ahsan Mahmood — as the developer, on every page, in a place that's stable, indexable, and shareable.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## What's published today
 
