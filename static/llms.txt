@@ -1,0 +1,58 @@
+# LifeWell
+
+> LifeWell is a private health & wellness companion: web app, Capacitor Android (iOS in prep), and a Chrome-Web-Store-compliant browser extension. Built and maintained by Ahsan Mahmood.
+
+## What LifeWell does
+
+- Health tracking — vitals (blood pressure, blood sugar, BMI, weight, height), water intake, medications, sleep, exercise, nutrition.
+- Mental health — affirmations, breathing exercises, gratitude journaling, mood tracking.
+- Reproductive health — period and fertility tracking, pregnancy log, breastfeeding records.
+- Baby tracking — feeding, diapers, growth, sleep, milestones, baby names.
+- Family — family tree, family groups, connections, journeys, location tracking, work-tree, structured data sharing.
+- Memories and notes — rich notes with folders, scrapbook memories, Google Drive sync.
+- Community — public communities, partner features, in-app chats, optional consultations.
+- Maps — memory, note, people, and event maps.
+- Tools — 12+ calculators (BMI, BMR, calorie, TDEE, macro, protein, age) and timers (interval, workout, kegel).
+- Profile — achievements, blood-donor card, medical info, preferences, reminders, security, theme customizer, premium features.
+
+## What LifeWell does NOT do
+
+- Does not give medical advice. The app is for personal tracking and informational reference only. Health decisions must involve a qualified clinician.
+- Does not sell or share user data. See https://lifewell-docs.aoneahsan.com/docs/concepts/privacy-and-security.
+- Does not require an account for client-side tools (BMI/BMR calculators run entirely in the browser).
+
+## Documentation index
+
+- Get started: https://lifewell-docs.aoneahsan.com/docs/intro
+- Install on web: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-web
+- Install on Android: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-android
+- Install browser extension: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-extension
+- Privacy and security: https://lifewell-docs.aoneahsan.com/docs/concepts/privacy-and-security
+- Architecture: https://lifewell-docs.aoneahsan.com/docs/concepts/architecture
+- Health module: https://lifewell-docs.aoneahsan.com/docs/health/overview
+- Tools and calculators: https://lifewell-docs.aoneahsan.com/docs/tools/overview
+- Family features: https://lifewell-docs.aoneahsan.com/docs/family/overview
+- Mobile app guide: https://lifewell-docs.aoneahsan.com/docs/mobile/overview
+- Browser extension guide: https://lifewell-docs.aoneahsan.com/docs/extension/overview
+- Tech stack: https://lifewell-docs.aoneahsan.com/docs/about/tech-stack
+- Changelog: https://lifewell-docs.aoneahsan.com/docs/about/changelog
+
+## About the developer
+
+Ahsan Mahmood — full-stack engineer working across React, TypeScript, Capacitor, Firebase, and Cloudflare Workers.
+
+- Email: aoneahsan@gmail.com
+- Portfolio: https://aoneahsan.com
+- GitHub: https://github.com/aoneahsan
+- LinkedIn: https://linkedin.com/in/aoneahsan
+- NPM: https://npmjs.com/~aoneahsan
+
+## Canonical facts
+
+- LifeWell version: 2.0.0 (as of 2026-05-10)
+- Stack: React 19 + TypeScript + Vite 8 + Capacitor 8 + Firebase + Cloudflare Workers + Tailwind 4 + Radix UI + TanStack Router + react-hook-form + Zod + Zustand + i18next (10 languages) + D3 + Amplitude + Sentry + OneSignal
+- Project license: MIT (app code), CC-BY-4.0 (this documentation)
+- Live app: https://lifewell.aoneahsan.com
+- Documentation: https://lifewell-docs.aoneahsan.com
+- Documentation source: https://github.com/aoneahsan/lifewell-docs
+- Bug reports / feedback: aoneahsan@gmail.com

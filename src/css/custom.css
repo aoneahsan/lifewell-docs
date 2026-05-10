@@ -1,0 +1,122 @@
+/**
+ * LifeWell Documentation theme.
+ * Brand tokens (per LIFEWELL_portfolio-info_*.md):
+ *   Primary   = Emerald 500   #10B981
+ *   Secondary = Cyan 500      #06B6D4
+ *   Surface L = Slate 50      #F8FAFC
+ *   Surface D = Slate 900     #0F172A
+ *   Warning   = Amber 500     #F59E0B
+ *   Danger    = Red 500       #EF4444
+ */
+
+:root {
+  /* Primary — Emerald (LifeWell brand) */
+  --ifm-color-primary: #10b981;
+  --ifm-color-primary-dark: #0fa674;
+  --ifm-color-primary-darker: #0e9d6e;
+  --ifm-color-primary-darkest: #0b815b;
+  --ifm-color-primary-light: #20c48f;
+  --ifm-color-primary-lighter: #2bcb96;
+  --ifm-color-primary-lightest: #4fd5a5;
+
+  /* Secondary — Cyan accent */
+  --lifewell-cyan: #06b6d4;
+  --lifewell-cyan-light: #22d3ee;
+
+  /* Surfaces */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+
+  /* Code blocks */
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(16, 185, 129, 0.12);
+
+  /* Typography */
+  --ifm-font-family-base:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.625rem;
+
+  /* Layout */
+  --ifm-navbar-height: 64px;
+  --ifm-container-width-xl: 1320px;
+}
+
+/* Dark mode — lighten primary for contrast on slate-900 background */
+[data-theme='dark'] {
+  --ifm-color-primary: #34d399;
+  --ifm-color-primary-dark: #20c48f;
+  --ifm-color-primary-darker: #18bd87;
+  --ifm-color-primary-darkest: #109b6f;
+  --ifm-color-primary-light: #4ddca7;
+  --ifm-color-primary-lighter: #58dfb1;
+  --ifm-color-primary-lightest: #75e5be;
+
+  --lifewell-cyan: #22d3ee;
+  --lifewell-cyan-light: #67e8f9;
+
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+
+  --docusaurus-highlighted-code-line-bg: rgba(52, 211, 153, 0.18);
+}
+
+/* Subtle gradient accent for hero / landing buttons */
+.button--primary {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px -8px rgba(16, 185, 129, 0.55);
+}
+
+[data-theme='dark'] .button--primary {
+  background: linear-gradient(135deg, #34d399 0%, #22d3ee 100%);
+  color: #0f172a;
+}
+
+/* Footer brand polish */
+.footer--dark {
+  --ifm-footer-background-color: #0f172a;
+  --ifm-footer-color: #e2e8f0;
+  --ifm-footer-link-color: #94a3b8;
+}
+
+.footer__title {
+  color: #f1f5f9;
+}
+
+/* Article reading polish */
+.markdown h2 {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.4em;
+  margin-top: 2.4rem;
+}
+
+.markdown h3 {
+  margin-top: 1.8rem;
+}
+
+/* "Last updated" + author footer styling on doc pages */
+.theme-last-updated {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.875rem;
+}
+
+/* Honest framing block — used on "what LifeWell does NOT do" callouts */
+.honest-framing {
+  border-left: 4px solid var(--lifewell-cyan);
+  background: var(--ifm-background-surface-color);
+  padding: 1rem 1.25rem;
+  border-radius: 0.4rem;
+  margin: 1.5rem 0;
+}
+
+[data-theme='dark'] .honest-framing {
+  background: rgba(34, 211, 238, 0.05);
+}

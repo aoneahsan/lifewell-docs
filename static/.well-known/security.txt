@@ -1,0 +1,6 @@
+Contact: mailto:aoneahsan@gmail.com
+Expires: 2027-05-10T11:44:57Z
+Preferred-Languages: en
+Canonical: https://lifewell-docs.aoneahsan.com/.well-known/security.txt
+Policy: https://lifewell-docs.aoneahsan.com/docs/concepts/privacy-and-security
+Acknowledgments: https://lifewell-docs.aoneahsan.com/docs/about/about-the-developer

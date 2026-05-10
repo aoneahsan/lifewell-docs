@@ -1,0 +1,82 @@
+/**
+ * Landing-page hero styling.
+ * Brand gradient: emerald (#10B981) → cyan (#06B6D4).
+ */
+
+.heroBanner {
+  padding: 5rem 0 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #047857 0%, #0e7490 100%);
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(800px circle at 10% 20%, rgba(255, 255, 255, 0.18), transparent 50%),
+    radial-gradient(600px circle at 90% 80%, rgba(255, 255, 255, 0.12), transparent 50%);
+  pointer-events: none;
+}
+
+.heroBanner > div {
+  position: relative;
+}
+
+.heroBanner :global(.hero__title) {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.02em;
+}
+
+.heroBanner :global(.hero__subtitle) {
+  font-size: 1.25rem;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  opacity: 0.95;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1.25rem;
+  }
+  .heroBanner :global(.hero__title) {
+    font-size: 2.25rem;
+  }
+  .heroBanner :global(.hero__subtitle) {
+    font-size: 1.05rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.builtBy {
+  margin-top: 2.25rem;
+  font-size: 0.95rem;
+  opacity: 0.92;
+}
+
+.builtBy a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.builtBy a:hover {
+  opacity: 0.9;
+}
