@@ -1,0 +1,47 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: yarn build
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: TypeScript check
+        run: yarn typecheck
+
+      - name: Build site
+        run: yarn build
+
+      - name: Verify required SEO files
+        run: |
+          test -f build/robots.txt || { echo "Missing build/robots.txt"; exit 1; }
+          test -f build/sitemap.xml || { echo "Missing build/sitemap.xml"; exit 1; }
+          test -f build/llms.txt || { echo "Missing build/llms.txt"; exit 1; }
+          test -f build/.well-known/security.txt || { echo "Missing build/.well-known/security.txt"; exit 1; }
+          echo "All required SEO files present."
+
+      - name: Upload build artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build
+          retention-days: 7
