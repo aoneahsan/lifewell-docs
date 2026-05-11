@@ -83,7 +83,7 @@ Use BMI as one input among several, not as the metric.
 ## Related tools
 
 - [Calorie calculator](./calorie-calculator) — uses BMR + activity + goal.
-- [Ideal weight calculator](./bmi-calculator#related) — alternative reference range based on Devine / Robinson / Miller formulas (covered alongside BMI).
+- [BMR calculator](./bmr-calculator) — basal metabolic rate at rest.
 - [TDEE calculator](./tdee-calculator) — daily energy expenditure for nutrition planning.
 
 The `/health/bmi` page in the health module also logs your BMI over time if you want to track the trend — same formula, with persistence.
