@@ -1,0 +1,50 @@
+# LifeWell Docs — AGENTS.md
+
+**Last Updated**: 2026-05-29
+
+Public documentation / knowledge-base site for **LifeWell** (the private health & wellness app). Built with **Docusaurus 3.10**. This repo is **documentation source only** — the LifeWell app source lives in a separate private repo.
+
+- Live docs: https://lifewell-docs.aoneahsan.com
+- App: https://lifewell.aoneahsan.com (Capacitor app id `com.aoneahsan.lifewell`)
+- Repo: https://github.com/aoneahsan/lifewell-docs
+- License: docs content **CC-BY-4.0**; embedded code snippets MIT; "LifeWell" name/logo reserved.
+
+---
+
+## What this is
+
+- Docusaurus static site, ~108 MD/MDX doc pages + blog + `/about` + custom `src/pages/index.tsx` landing.
+- Brand palette: Emerald `#10B981` → Cyan `#06B6D4` gradient. Light + dark mode (respects `prefers-color-scheme`).
+- Content domains: getting-started, concepts, profile/settings, health, tools, baby, family, memories/notes, maps, community, mobile, extension, admin, reference, FAQ.
+- SEO/AEO already shipped: JSON-LD `@graph` (WebSite + Organization + Person) in `docusaurus.config.ts` headTags, `static/robots.txt`, `static/llms.txt`, IndexNow key file + `indexnow:ping` script, `sitemap.xml` (weekly changefreq), OG/Twitter card meta.
+- Deployment target: **Firebase Hosting** (project `lifewell-docs`, see `.firebaserc` + `firebase.json`). Deploy: `yarn build && yarn firebase:deploy`.
+
+## Commands
+
+```bash
+yarn install
+yarn typecheck      # tsc — passes clean
+yarn build          # docusaurus build (Rspack via @docusaurus/faster)
+yarn firebase:deploy
+```
+
+> **KNOWN LOCAL-ONLY BUILD QUIRK:** `@docusaurus/faster` (Rspack) eagerly runs `git submodule status` from the repo's git root. Because the `01-code` parent workspace contains project gitlinks (e.g. `github-profile`) with **no `.gitmodules`**, that command exits 128 and the local `yarn build` aborts during VCS init. This is environmental, not a code/dep problem — `yarn typecheck` passes and a standalone/CI checkout (no sibling gitlinks) builds fine. Do NOT modify the workspace or fight this locally.
+
+## Do / Don't
+
+- No automated tests (this is a docs site).
+- Never run dev/preview/emulator servers (`yarn start`, `firebase emulators:start`). One-shot `yarn typecheck` / `yarn build` only.
+- Keep health claims source-cited (CDC, WHO, Mayo, ACOG, AAP, NHLBI, etc.).
+- App identifiers / store URLs are tracked in the main `lifewell` project, not here.
+
+---
+
+## Portfolio Info File — Weekly Update Rule
+- Canonical portfolio info file: `/home/ahsan/Documents/ahsan-notebook/static/assets/personal/projects-info-as-portfolio-item/apps/LIFEWELL-DOCS_portfolio-info_2026-05-29.md`
+- Update at least once per week (and on any material change). Keep the last-updated date in the filename.
+- Keep a max-10-entry update history inside the file. On each refresh: prepend today's row, delete the previous dated file, write the new one.
+- Tracker: `/home/ahsan/Documents/01-code/docs/tracking/portfolio-info-files-update-tracker.json`
+- Last applied: 2026-05-29
+
+## Package Upgrades: Use `npm-check-updates`
+For dependency upgrades use `npx -y npm-check-updates -u && yarn install` (latest STABLE), NOT `yarn upgrade --latest`. Full rule in global `~/.claude/CLAUDE.md`. Last applied: 2026-05-29
