@@ -49,10 +49,11 @@ Ahsan Mahmood — full-stack engineer working across React, TypeScript, Capacito
 
 ## Canonical facts
 
-- LifeWell version: 2.0.0 (as of 2026-05-10)
+- LifeWell version: 2.15.0 (as of 2026-06-22)
 - Stack: React 19 + TypeScript + Vite 8 + Capacitor 8 + Firebase + Cloudflare Workers + Tailwind 4 + Radix UI + TanStack Router + react-hook-form + Zod + Zustand + i18next (10 languages) + D3 + Amplitude + Sentry + OneSignal
 - Project license: MIT (app code), CC-BY-4.0 (this documentation)
 - Live app: https://lifewell.aoneahsan.com
+- Android app (Google Play): https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell
 - Documentation: https://lifewell-docs.aoneahsan.com
 - Documentation source: https://github.com/aoneahsan/lifewell-docs
 - Bug reports / feedback: aoneahsan@gmail.com

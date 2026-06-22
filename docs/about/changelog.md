@@ -21,6 +21,50 @@ The internal `build` number increments per CI run for traceability.
 
 ---
 
+## v2.15.0 — June 2026
+
+The current Android release (versionCode 16).
+
+- **Reminders use battery-friendly scheduling.** Medication, water, and bedtime reminders now use inexact alarms (`@capacitor/local-notifications` falls back automatically), so the app no longer requests the Android "alarms & reminders" permission. Google Play reserves the exact-alarm permission for alarm-clock and calendar apps; a wellness app is not eligible, so the permission was removed.
+- **Fewer device permissions.** Permission footprint tidied up across the manifest.
+- Stability and performance improvements.
+
+---
+
+## v2.14.1 — June 2026
+
+A privacy, honesty, and Play Store compliance release.
+
+- **Clearer "not medical advice" reminders.** A reusable medical-disclaimer notice now appears on the home page, the dashboard, every health tool, and both footers — LifeWell is for general wellness and education, never a substitute for a clinician.
+- **More complete account deletion.** Deletion now removes every current data collection plus your memories sub-collection and FilesHub media. The previous list used legacy names and could orphan data.
+- **Fuller privacy policy.** The policy now names every third-party service in use (Firebase, OneSignal, Amplitude, Sentry, Microsoft Clarity, FilesHub, Google Drive); `/data-deletion` redirects to `/delete-account`; web-only location and microphone features are framed honestly.
+- Backup of sensitive health data disabled (security hardening); smaller download via resource shrinking.
+
+---
+
+## v2.13.0 — June 2026
+
+Android release-build hardening.
+
+- Declared the Advertising ID permission required by analytics and push on Android 13+.
+- Enabled R8 code minification and NDK debug symbols for higher release-build quality.
+- Privacy policy updated with Advertising ID and push-notification sections.
+
+---
+
+## v2.1.0 — May 2026
+
+Native polish, offline access, and simpler first-use flows.
+
+- **Hardware back button** behaves correctly on Android — navigates back through history, exits only from a top-level screen.
+- **Offline access** — cached data is available without a network connection (Firestore local cache).
+- **Edge-to-edge / notch support** — content respects the device safe area.
+- **Simplified first-use flows** for memories, notes, people, and the family tree (progressive disclosure — full depth stays available in detail/edit views).
+- Accessibility: the whole app now respects the reduced-motion preference.
+- Fixed: a lab-result numeric value that was not saved correctly, and ~69 colour-utility classes that silently applied no colour.
+
+---
+
 ## v2.0.x — May 2026
 
 ### v2.0.0 — May 2026
@@ -120,5 +164,5 @@ Pre-launch development. Internal builds, not publicly released.
 
 ---
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-06-22
 **Author**: [Ahsan Mahmood](/docs/about/about-the-developer)

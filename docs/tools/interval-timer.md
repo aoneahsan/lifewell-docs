@@ -107,3 +107,7 @@ Not yet. Preset save/load is a planned feature. For now, screenshot or remember.
 
 **Last updated**: 2026-05-11
 **Author**: [Ahsan Mahmood](/docs/about/about-the-developer)
+
+:::note Health information — not medical advice
+LifeWell and this documentation are provided for general wellness and educational purposes only. They are not a substitute for professional medical advice, diagnosis, or treatment, and nothing here is intended to diagnose, treat, cure, or prevent any condition. Always consult a qualified healthcare professional with questions about your health, and never disregard or delay professional advice because of something you read here. In an emergency, contact your local emergency services.
+:::

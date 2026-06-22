@@ -1,8 +1,8 @@
 # LifeWell Docs — CLAUDE.md
 
-**Last Updated**: 2026-05-29
+**Last Updated**: 2026-06-22 (finalization: added "not medical advice" disclaimers to all 22 health/tool/baby docs; Play Store cross-links in navbar + footer + Organization JSON-LD; changelog brought current to v2.15.0; `llms.txt` version → 2.15.0; repo flipped PUBLIC per fleet docs-public policy — no secrets tracked, only `.firebaserc` project id)
 
-Public documentation / knowledge-base site for **LifeWell** (the private health & wellness app). Built with **Docusaurus 3.10**. This repo is **documentation source only** — the LifeWell app source lives in a separate private repo.
+Public documentation / knowledge-base site for **LifeWell** (the health & wellness app; app source lives in a separate **private** repo). Built with **Docusaurus 3.10**. This repo is **documentation source only** and is itself **public** (CC-BY-4.0 content, no secrets).
 
 - Live docs: https://lifewell-docs.aoneahsan.com
 - App: https://lifewell.aoneahsan.com (Capacitor app id `com.aoneahsan.lifewell`)

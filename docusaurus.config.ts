@@ -4,6 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const SITE_URL = 'https://lifewell-docs.aoneahsan.com';
 const APP_URL = 'https://lifewell.aoneahsan.com';
+const PLAY_STORE_URL =
+  'https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell';
 const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
 const AUTHOR_URL = 'https://aoneahsan.com';
 
@@ -102,7 +104,12 @@ const config: Config = {
               '@type': 'ImageObject',
               url: `${SITE_URL}/img/logo.svg`,
             },
-            sameAs: [GITHUB_REPO, AUTHOR_URL, 'https://linkedin.com/in/aoneahsan'],
+            sameAs: [
+              GITHUB_REPO,
+              AUTHOR_URL,
+              PLAY_STORE_URL,
+              'https://linkedin.com/in/aoneahsan',
+            ],
             founder: {
               '@type': 'Person',
               name: 'Ahsan Mahmood',
@@ -209,6 +216,11 @@ const config: Config = {
           position: 'right',
         },
         {
+          href: PLAY_STORE_URL,
+          label: 'Get on Android',
+          position: 'right',
+        },
+        {
           href: GITHUB_REPO,
           label: 'GitHub',
           position: 'right',
@@ -237,6 +249,7 @@ const config: Config = {
           title: 'Project',
           items: [
             {label: 'Open LifeWell', href: APP_URL},
+            {label: 'Get it on Google Play', href: PLAY_STORE_URL},
             {label: 'About this site', to: '/about'},
             {label: 'Changelog', to: '/docs/about/changelog'},
             {label: 'GitHub', href: GITHUB_REPO},
