@@ -28,12 +28,20 @@
 .DS_Store
 Thumbs.db
 
-# Env
+# Env (PUBLIC repo — never track real env files; keep templates)
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Secrets / signing material (PUBLIC repo — never track)
+*.jks
+*.keystore
+key.properties
+keystore.properties
+*service-account*.json
+.npmrc
 
 # Logs
 npm-debug.log*
