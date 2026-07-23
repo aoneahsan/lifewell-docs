@@ -21,9 +21,22 @@ The internal `build` number increments per CI run for traceability.
 
 ---
 
+## v2.20.0 — July 2026
+
+The current release (versionCode 20). (Versions 2.16–2.19 were internal increments folded into this release.)
+
+- **Get in touch from inside the app.** The contact form now delivers your message straight to support (with your email set as the reply-to), instead of only opening your mail app.
+- **Transactional emails.** A friendly welcome email when you first sign in, and a confirmation email when you delete your account. These are the only emails LifeWell sends — there is no user-to-user email. Delivery is handled by [FilesHub](https://fileshub.zaions.com); your name and email are shared with it only to send the message.
+- **Over-the-air updates (Android).** Groundwork for shipping small web-layer fixes without waiting for a store release, alongside the existing in-app-update prompt and review flow. Off until enabled.
+- **Clearer upload fields.** File and image pickers now tell you the accepted types and size before you choose a file.
+- **Faster, more reliable syncing.** Data reads are bounded and server-side, counts use aggregation, and all saved preferences now persist reliably on mobile (with a one-time migration for existing web users).
+- Broader product analytics and behind-the-scenes stability + privacy improvements.
+
+---
+
 ## v2.15.0 — June 2026
 
-The current Android release (versionCode 16).
+Android release versionCode 16.
 
 - **Reminders use battery-friendly scheduling.** Medication, water, and bedtime reminders now use inexact alarms (`@capacitor/local-notifications` falls back automatically), so the app no longer requests the Android "alarms & reminders" permission. Google Play reserves the exact-alarm permission for alarm-clock and calendar apps; a wellness app is not eligible, so the permission was removed.
 - **Fewer device permissions.** Permission footprint tidied up across the manifest.
