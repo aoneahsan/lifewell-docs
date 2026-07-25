@@ -43,7 +43,6 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "firebase:deploy": "npx -y firebase-tools@latest deploy --only hosting",
     "firebase:emulate": "npx -y firebase-tools@latest emulators:start --only hosting",
     "deploy:firebase": "yarn build && yarn firebase:deploy",
     "indexnow:ping": "curl -X POST 'https://api.indexnow.org/indexnow' -H 'Content-Type: application/json' -d '{\"host\":\"lifewell-docs.aoneahsan.com\",\"key\":\"j97agdpm9f3cz9yqkz8mzu9o929kqvm6\",\"keyLocation\":\"https://lifewell-docs.aoneahsan.com/j97agdpm9f3cz9yqkz8mzu9o929kqvm6.txt\",\"urlList\":[\"https://lifewell-docs.aoneahsan.com/\",\"https://lifewell-docs.aoneahsan.com/sitemap.xml\"]}'"
