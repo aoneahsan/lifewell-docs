@@ -1,7 +1,7 @@
 {
   "name": "lifewell-docs",
   "version": "0.1.0",
-  "description": "Public documentation for LifeWell — a private health & wellness companion. Web app, Capacitor Android (iOS in prep), Chrome-Web-Store-compliant browser extension. Documentation built and maintained by Ahsan Mahmood (https://aoneahsan.com).",
+  "description": "Public documentation for LifeWell — a life companion: health, family, work, memories and the everyday things that hold them together. Web app and Capacitor Android app. Documentation built and maintained by Ahsan Mahmood (https://aoneahsan.com).",
   "homepage": "https://lifewell-docs.aoneahsan.com",
   "repository": {
     "type": "git",

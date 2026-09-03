@@ -1,6 +1,13 @@
 # LifeWell — Documentation
 
-Public documentation for **LifeWell** — a private, personal wellness platform built by [Ahsan Mahmood](https://aoneahsan.com). Covers health tracking, family records, baby tracking, memories, notes, community, consultations, and more across web, Android, iOS (in progress), and a browser extension.
+Public documentation for **LifeWell** — *a life companion*: one account holding a person's whole life — health,
+family, work, memories, and the everyday things that hold them together. Web and Android. Built by
+[Ahsan Mahmood](https://aoneahsan.com).
+
+> **Status (2026-09-03).** The app at `lifewell.aoneahsan.com` is the **v3 rebuild** (Supabase, React Aria,
+> Tailwind v4, Capacitor Android). **These pages still describe v2.x** — Firebase, iOS "in progress", a browser
+> extension — and are being refreshed for v3 as a recorded stage of the rebuild. Until that lands, treat any
+> page naming Firebase, Firestore, Radix, iOS or the extension as historical.
 
 - **Live site**: <https://lifewell-docs.aoneahsan.com>
 - **App**: <https://lifewell.aoneahsan.com>
@@ -33,7 +40,7 @@ Every page is **source-verified** against the actual LifeWell codebase and cites
 - [Docusaurus 3](https://docusaurus.io) — static-site generator.
 - Custom CSS using LifeWell's emerald/cyan brand palette.
 - Yarn 4 with the `node-modules` linker.
-- Deployed to Firebase Hosting.
+- Deployed to **GitHub Pages** (custom domain) by the `deploy-pages.yml` workflow — a push to `main` deploys.
 
 ## Local development
 
@@ -54,14 +61,8 @@ Generates static HTML/CSS/JS into the `build/` directory. Build takes ~5–30 se
 
 ## Deploy
 
-The site deploys to Firebase Hosting (`lifewell-docs` project):
-
-```bash
-yarn build
-yarn deploy:firebase
-```
-
-See `docs/docusaurus-build-plan/04-deployment.md` (in the main lifewell repo) for the full deploy + Search Console submission workflow.
+The site deploys to **GitHub Pages** with the custom domain `lifewell-docs.aoneahsan.com`: pushing to `main`
+runs `.github/workflows/deploy-pages.yml`, which builds and publishes. There is no manual deploy step.
 
 ## License
 
@@ -77,7 +78,7 @@ Improvements welcome — typo fixes, clarifications, additional examples. The fu
 
 ## Acknowledgements
 
-LifeWell stands on a lot of open-source work — React, Docusaurus, Firebase, Capacitor, Radix UI, Tailwind CSS, D3.js, Zustand, TanStack Router, TipTap, and many more. Thanks to those communities.
+LifeWell stands on a lot of open-source work — React, Docusaurus, Supabase, Capacitor, React Aria, Tailwind CSS, D3.js, Zustand, TanStack Router, TipTap, and many more. Thanks to those communities.
 
 ---
 
