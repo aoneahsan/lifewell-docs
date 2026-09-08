@@ -1,7 +1,7 @@
 ---
 title: Professionals
-description: A directory of practitioners who listed themselves, checked against a register — and a verification badge that claims exactly one thing.
-keywords: [lifewell professionals, practitioner directory, verified professional, consultation]
+description: A directory of practitioners who listed themselves. LifeWell does not check anyone's qualifications — it prints the registration number and links to the register so you can check it yourself.
+keywords: [lifewell professionals, practitioner directory, professional register, consultation]
 tags: [features, people]
 sidebar_position: 5
 ---
@@ -11,21 +11,33 @@ sidebar_position: 5
 `/professionals` is a directory of practitioners who have listed themselves. `/profile` is where you create
 your own listing if you are one.
 
-## What a verified badge means
+## LifeWell does not check anyone's qualifications
 
-A listing can be checked against a professional register. When it has been, the directory shows the register
-it was checked against — for example *Verified — PMDC*.
+That sentence is printed on the directory itself, above the fold, and it is the most important thing on this
+page.
 
-That badge claims **exactly one thing**: on the date it was granted, an administrator compared this listing
-against the named register and it matched.
+Everything on a listing was typed in by the person in it. The listing prints their registration number in
+full and links to the public register that issued it, so you can check it yourself in about a minute — that
+is the part LifeWell can honestly offer. There are no ratings here and nobody is recommended.
 
-It is not a recommendation, not a quality rating, and not a statement that the person is currently in good
-standing. Registers change; a badge is a record of one check on one day.
+## What they told us, and what anyone checked
+
+A listing shows three columns: what they told us, what was checked by LifeWell, and how you can check it
+yourself. **The middle column is usually blank, and that is the feature.**
+
+A tick reading *verified* would compress five different claims — qualifications, registration, insurance,
+identity and availability — into one symbol that stands for none of them. Three columns instead tell you
+which sentence you are trusting and who you would have to ask to confirm it. There is no verified badge in
+the directory, and the column an administrator writes cannot be set by the professional.
+
+The one thing LifeWell confirms is that the email address is reachable, because the person clicked a link
+sent to it. Only the server can write it, and it proves nothing about their qualifications.
 
 :::note[A claim with no register cannot be approved at all]
-A listing that names no register can only be refused. That is enforced in the database rather than by a
-reviewer remembering — the function raises rather than writing a verification with nothing behind it. A badge
-that could be granted without a register is a badge that means nothing.
+An administrator can record a check against a named professional register, and a claim that names no register
+can only be refused. That is enforced in the database rather than by a reviewer remembering — the function
+raises rather than writing a check with nothing behind it. A check that could be granted without a register
+is a check that means nothing.
 :::
 
 Every approval and every refusal is written to an audit log, and a refusal carries its reason.

@@ -25,6 +25,13 @@ linked from somewhere we do not control. **The rebuild changes code, not contrac
 | Standalone pages | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Legal and compliance | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
+:::note[One more feature page is decided and not published]
+`/features/professionals` will be a twenty-ninth feature page and the ninety-seventh address. It is not
+published, so it is not counted above; the two numbers move on the day it ships and not before. The
+professionals directory itself is a signed-in screen at `/professionals`, it is not indexed, and it does not
+move — see [Professionals](../features/professionals.md).
+:::
+
 :::note[`/feed` is the blog feed, and never a social feed]
 An earlier version of this documentation described `/feed` as a social feed. It is not, and never was. It is
 the **public readable feed of recent blog content** — the human-readable companion to `/feed.xml`. There is no

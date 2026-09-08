@@ -1,7 +1,7 @@
 ---
 title: What changed in 3.0.0
-description: LifeWell 3.0.0 is a full rebuild on a new backend. What is new, what was removed, what was corrected, and the reset that comes with it.
-keywords: [lifewell 3.0.0, changelog, release notes, what is new]
+description: LifeWell 3.0, the release that carries the version string 3.22.0, is a full rebuild on a new backend. What is new, what was removed, what was corrected, and the reset that comes with it.
+keywords: [lifewell 3.0, lifewell 3.22.0, changelog, release notes, what is new]
 tags: [about, changelog]
 sidebar_position: 2
 ---
@@ -10,13 +10,34 @@ sidebar_position: 2
 
 A full rebuild of the 2.x app. Same product, rewritten, on a different backend.
 
-:::warning[3.0.0 resets your record]
+:::warning[3.22.0 resets your record]
+**IMPORTANT: LifeWell 3.0 starts fresh. Data you logged in earlier versions is not carried over — this version
+uses a new account system and your previous entries are not migrated.**
+
 The backend was replaced with **no migration path**. The record held by 2.x is not carried across. This was a
 deliberate decision taken while the app had no real users, and it is stated plainly because a deliberate reset
 and a catastrophic bug look identical from the inside.
 
 [Export from 2.x before updating](../your-data/export.md) if you have anything in it.
 :::
+
+What is new in it:
+
+- Rebuilt from the ground up: faster, lighter, and organised around your whole life — health, mind, life
+  stages, family, memories and the everyday.
+- Your photos and files go to your own Google Drive, never to our servers.
+- Sign in with Google on every device.
+
+The rest of this page is the long version of those points.
+
+## The two version numbers
+
+The store listing calls this release **LifeWell 3.0**. The build carries the version string **3.22.0**. They
+are the same release.
+
+The middle number of a LifeWell version name is its Android version code, and this one is 22 — so the name
+has to read 3.22.0 and the build refuses to be made if it does not. Release notes for each version appear on
+the [Google Play listing](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell).
 
 ## The backend changed
 
