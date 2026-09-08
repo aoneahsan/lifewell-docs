@@ -11,14 +11,14 @@
 |---|------|--------------|--------|
 | 1 | **Add DNS.** In Hostinger, add a `CNAME` record `lifewell-docs` → `aoneahsan.github.io` on `aoneahsan.com`. | Only you control the `aoneahsan.com` DNS zone. | ☐ Not started |
 | 2 | **Configure GitHub Pages.** Repo **Settings → Pages**: source = **GitHub Actions**, custom domain = `lifewell-docs.aoneahsan.com`, then **Enforce HTTPS** once the certificate provisions. | Repo settings are owner-only. | ☐ Not started |
-| 3 | **Submit the sitemap.** In Search Console (`sc-domain:aoneahsan.com`) submit `https://lifewell-docs.aoneahsan.com/sitemap.xml`. The site publishes it — 63 URLs, regenerated on every build — so this is a submission gap, not a build problem. | Search Console access is yours. | ☐ Not started |
+| 3 | **Submit the sitemap.** In Search Console (`sc-domain:aoneahsan.com`) submit `https://lifewell-docs.aoneahsan.com/sitemap.xml`. The site publishes it — 63 URLs, regenerated on every build — so this is a submission gap, not a build problem. | Submitting a sitemap is a console action. No agent can do it, which is why this finding stays open in `SEARCH-DISCOVERY-ISSUES.md` rather than moving to the fixed file. | ☐ Not started |
 
 `static/CNAME` already ships `lifewell-docs.aoneahsan.com` inside `build/`, and `.github/workflows/deploy-pages.yml` builds and
 publishes on every push to `main` — these steps are all that remain.
 
 ⚠️ Rows 1 and 2 read *Not started*, but on 2026-09-08 `https://lifewell-docs.aoneahsan.com` answered **200** and served the
 current build, so both appear to have been done already. Only you tick these off, so they are left as they are — please close
-them if that is right. Row 3 came from the search-discovery runner's `sitemap-not-submitted` finding.
+them if that is right. Row 3 is the search-discovery runner's `fnd-sitemap-not-submitted-ac34c86428`. It is the one finding on that queue only you can close; everything else on it is the agent's to fix.
 
 ## ✅ Completed manual tasks
 
