@@ -1,59 +1,118 @@
 # LifeWell
 
-> LifeWell is a private health & wellness companion: web app, Capacitor Android (iOS in prep), and a Chrome-Web-Store-compliant browser extension. Built and maintained by Ahsan Mahmood.
+> LifeWell is one record for a whole life — health, mind, life stages, people, memories and the everyday week
+> — kept by the person it belongs to. Web app and Capacitor Android app. Built and maintained by Ahsan
+> Mahmood. It is NOT a health tracker: health is the largest of its six areas and deliberately not the point
+> of it.
 
-## What LifeWell does
+Tagline: Your whole life, in one place.
 
-- Health tracking — vitals (blood pressure, blood sugar, BMI, weight, height), water intake, medications, sleep, exercise, nutrition.
-- Mental health — affirmations, breathing exercises, gratitude journaling, mood tracking.
-- Reproductive health — period and fertility tracking, pregnancy log, breastfeeding records.
-- Baby tracking — feeding, diapers, growth, sleep, milestones, baby names.
-- Family — family tree, family groups, connections, journeys, location tracking, work-tree, structured data sharing.
-- Memories and notes — rich notes with folders, scrapbook memories, Google Drive sync.
-- Community — public communities, partner features, in-app chats, optional consultations.
-- Maps — memory, note, people, and event maps.
-- Tools — 12+ calculators (BMI, BMR, calorie, TDEE, macro, protein, age) and timers (interval, workout, kegel).
-- Profile — achievements, blood-donor card, medical info, preferences, reminders, security, theme customizer, premium features.
+## Structure
+
+Six areas, with You in the middle. You is the account, not an area, and cannot be switched off.
+
+- Health — trackers (water, steps, weight, blood pressure, blood sugar, sleep and more), medications, food
+  and meals, exercise, conditions, lab results.
+- Mind — journal (mood, gratitude, dreams, free writing), guided breathing, meditation, sleep sounds, desk
+  wellness breaks.
+- Life stages — cycle, trying to conceive, ovulation, PCOS, menopause, breastfeeding, children (feeds, sleep,
+  nappies, growth, milestones).
+- People — family tree, work tree, connections, family groups, journeys, saved places and maps, messages,
+  community groups, professionals directory, blood donor directory.
+- Memories — photos, albums, scrapbook, tags, captions.
+- Everyday — calendar and appointments, notes and folders, saved places, reminders, shopping list.
+
+Each of the six can be switched off. Off means the menu stops listing it; nothing is deleted, and any page
+still opens if you go to it directly.
 
 ## What LifeWell does NOT do
 
-- Does not give medical advice. The app is for personal tracking and informational reference only. Health decisions must involve a qualified clinician.
-- Does not sell or share user data. See https://lifewell-docs.aoneahsan.com/docs/concepts/privacy-and-security.
-- Does not require an account for client-side tools (BMI/BMR calculators run entirely in the browser).
+- It does not give medical advice and it is not a medical device.
+- It does not keep a streak, a score, a rank, a level or a badge. There is no column for them.
+- It does not sell or share your record, and there is no advertising network in the product.
+- It is NOT end-to-end encrypted. The record is encrypted in transit and at rest and is readable by the
+  database. Claiming otherwise would be false.
+- It does not run on iOS. iOS was removed on 2026-07-16 and will be re-added when an Apple Developer account
+  exists.
+- It does not ship a browser extension. One is planned and not built.
+- It does not connect to Google Calendar or any external calendar.
+- It does not require an account for the public tools, the baby-name browser or the blood donor directory.
+
+## Not built yet, as of 2026-09-08
+
+- Push notifications — subscription wired, sending service not written. No push arrives.
+- Global search — the server query exists; the page is a declared placeholder.
+- The referral member screen — the server half is live; there is no screen showing your code.
+- Deleting one area — the database transaction exists; there is no screen opening it.
+- Deleting your account in-app — the button is wired; the server function is not deployed. The working route
+  is https://lifewell.aoneahsan.com/delete-account
+- Google Play Billing — built and tested against recorded responses; not configured and switched off.
+- Over-the-air updates — planned. No package in the build.
+
+## Your data
+
+- Written on the device first, synced when there is a connection.
+- Photos and files live in the user's own Google Drive, under a scope reaching only files LifeWell created.
+  LifeWell holds a reference, not the file.
+- Export everything as JSON, CSV or PDF, built in the browser rather than on a server. JSON and CSV are
+  complete; the PDF deliberately omits the journal, notes, memories and messages.
+- Export is available on every plan, including Free.
+- Format documented field by field: https://lifewell-docs.aoneahsan.com/reference/export-format
+
+## Plans
+
+Free, Pro (£3/month, £30/year) and Family (£6/month, £60/year). Split by what a use costs to run rather than
+by how much of the product you get: unlimited entries on every tier, 50 people on Free, AI estimates limited
+tightest and removed entirely by bringing your own key on any tier. Web payment is arranged manually; Android
+sells through Google Play Billing, which is built and not switched on.
 
 ## Documentation index
 
-- Get started: https://lifewell-docs.aoneahsan.com/docs/intro
-- Install on web: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-web
-- Install on Android: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-android
-- Install browser extension: https://lifewell-docs.aoneahsan.com/docs/getting-started/install-extension
-- Privacy and security: https://lifewell-docs.aoneahsan.com/docs/concepts/privacy-and-security
-- Architecture: https://lifewell-docs.aoneahsan.com/docs/concepts/architecture
-- Health module: https://lifewell-docs.aoneahsan.com/docs/health/overview
-- Tools and calculators: https://lifewell-docs.aoneahsan.com/docs/tools/overview
-- Family features: https://lifewell-docs.aoneahsan.com/docs/family/overview
-- Mobile app guide: https://lifewell-docs.aoneahsan.com/docs/mobile/overview
-- Browser extension guide: https://lifewell-docs.aoneahsan.com/docs/extension/overview
-- Tech stack: https://lifewell-docs.aoneahsan.com/docs/about/tech-stack
-- Changelog: https://lifewell-docs.aoneahsan.com/docs/about/changelog
-
-## About the developer
-
-Ahsan Mahmood — full-stack engineer working across React, TypeScript, Capacitor, Firebase, and Cloudflare Workers.
-
-- Email: aoneahsan@gmail.com
-- Portfolio: https://aoneahsan.com
-- GitHub: https://github.com/aoneahsan
-- LinkedIn: https://linkedin.com/in/aoneahsan
-- NPM: https://npmjs.com/~aoneahsan
+- Start here: https://lifewell-docs.aoneahsan.com/intro
+- The six areas: https://lifewell-docs.aoneahsan.com/domains/overview
+- Install on the web: https://lifewell-docs.aoneahsan.com/getting-started/install-web
+- Install on Android: https://lifewell-docs.aoneahsan.com/getting-started/install-android
+- Privacy and security: https://lifewell-docs.aoneahsan.com/concepts/privacy-and-security
+- Architecture: https://lifewell-docs.aoneahsan.com/concepts/architecture
+- The data model: https://lifewell-docs.aoneahsan.com/concepts/data-model
+- Offline and sync: https://lifewell-docs.aoneahsan.com/concepts/offline-and-sync
+- Export everything: https://lifewell-docs.aoneahsan.com/your-data/export
+- The export file format: https://lifewell-docs.aoneahsan.com/reference/export-format
+- Delete your record: https://lifewell-docs.aoneahsan.com/your-data/delete
+- Where your record lives: https://lifewell-docs.aoneahsan.com/your-data/where-it-lives
+- Plans: https://lifewell-docs.aoneahsan.com/plans
+- Third-party services: https://lifewell-docs.aoneahsan.com/reference/integrations
+- Addresses that do not move: https://lifewell-docs.aoneahsan.com/reference/addresses
+- Android: https://lifewell-docs.aoneahsan.com/platforms/android
+- iOS (removed): https://lifewell-docs.aoneahsan.com/platforms/ios
+- Browser extension (planned): https://lifewell-docs.aoneahsan.com/platforms/browser-extension
+- The admin panel: https://lifewell-docs.aoneahsan.com/admin
+- Questions people ask: https://lifewell-docs.aoneahsan.com/faq
+- What changed in 3.0.0: https://lifewell-docs.aoneahsan.com/about/changelog
 
 ## Canonical facts
 
-- LifeWell version: 2.15.0 (as of 2026-06-22)
-- Stack: React 19 + TypeScript + Vite 8 + Capacitor 8 + Firebase + Cloudflare Workers + Tailwind 4 + Radix UI + TanStack Router + react-hook-form + Zod + Zustand + i18next (10 languages) + D3 + Amplitude + Sentry + OneSignal
-- Project license: MIT (app code), CC-BY-4.0 (this documentation)
+- LifeWell version: 3.0.0 — a full rebuild of the 2.x app, on a new backend, with no migration of 2.x data.
+- Android application id: com.aoneahsan.lifewell · minimum Android 9 (API 28).
+- Stack: React 19, TypeScript, Vite 8, Capacitor 8 (Android only), Supabase (Postgres, row-level security,
+  Google-only auth), TanStack Router and Query, Tailwind v4, React Aria Components, Zustand, react-hook-form
+  with Zod, Tiptap, D3, Sentry, Google Analytics 4, Amplitude, Microsoft Clarity, OneSignal.
+- NOT used: Firebase as a backend, any third-party component library, Supabase Storage, production source
+  maps, plain textareas.
+- Interface language: British English only. Every string goes through the translation layer, so a second
+  language is one new file; none is planned.
 - Live app: https://lifewell.aoneahsan.com
-- Android app (Google Play): https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell
+- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell
 - Documentation: https://lifewell-docs.aoneahsan.com
-- Documentation source: https://github.com/aoneahsan/lifewell-docs
-- Bug reports / feedback: aoneahsan@gmail.com
+- Documentation source: https://github.com/aoneahsan/lifewell-docs (CC BY 4.0). Application source is private.
+- Contact: aoneahsan@gmail.com
+
+## About the developer
+
+Ahsan Mahmood — full-stack engineer. One person, and the product is direct about what it cannot do because of
+it.
+
+- Portfolio: https://aoneahsan.com
+- GitHub: https://github.com/aoneahsan
+- LinkedIn: https://linkedin.com/in/aoneahsan
+- npm: https://npmjs.com/~aoneahsan

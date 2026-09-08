@@ -2,11 +2,11 @@
 
 **Mirror of `CLAUDE.md`** — byte-identical except this header. Update one, update the other.
 
-| Context Budget Last Verified | 2026-09-03 — CLAUDE.md ~6 KB / no PENDING-TASKS.md; re-check due 2026-09-13 |
+| Context Budget Last Verified | 2026-09-08 — AGENTS.md ~6 KB / no PENDING-TASKS.md; re-check due 2026-09-18 |
 |---|---|
 
-**Last Updated:** 2026-09-03 — the audit pass: this guide, `README.md` and `package.json` now describe the site
-honestly; the **content still describes v2.x** and its refresh is a recorded stage.
+**Last Updated:** 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2 pages were deleted and 44 written
+against the app's own source. The site now describes LifeWell 3.0.0.
 
 Public documentation site for **LifeWell** — *a life companion: one account holding a person's whole life;
 health, family, work, memories and the everyday things that hold them together* (never "a health & wellness
@@ -17,63 +17,79 @@ app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source o
 - Repo: https://github.com/aoneahsan/lifewell-docs (`main`, remote `o`)
 - License: content **CC-BY-4.0**; embedded snippets MIT; "LifeWell" name/logo reserved.
 
-## 🔴 Where this site stands (2026-09-03)
+## 🔴 Four things that will break if you do not know them
 
-The app at `lifewell.aoneahsan.com` is the **v3 rebuild** (React 19 · Tailwind v4 · React Aria · Supabase
-hosted · Capacitor 8 Android · Google Drive for media; web + Android only). **The 109 pages here still
-document v2.x** — Firebase/Firestore, Radix, "iOS in prep", a browser extension, a health-and-wellness
-positioning — and three claims are recorded as false in the rebuild's frozen contract
-(`../02-FROZEN-CONTRACTS.md` §8): **F1** `/feed` is the public blog feed, not a social feed · **F2** the
-analytics stack is GA4 + Amplitude + Clarity + Sentry (the page saying Firebase Analytics is banned
-misinforms) · **F3** native-update OTA is part of 3.0 (the page says "not integrated").
-
-**The refresh is Stage 7 of `../remaining-work.md`** (kit root, one folder up): fix F1/F2/F3 at their pages,
-rewrite the 18 categories for v3, keep the extension URL as an honest "deferred" page (OD-10/OD-67), write
-the export format-notes page the app links to, add the v3 announcement post (through the story pipeline,
-GATE 4), then push. Until then, do not "touch up" single pages piecemeal — a half-refreshed site contradicts
-itself.
+1. 🔴 **THE DOCS ARE SERVED FROM THE SITE ROOT — `routeBasePath: '/'`, and it is load-bearing.** The app
+   links to `https://lifewell-docs.aoneahsan.com/reference/export-format` from its export screen
+   (`../lifewell/src/features/export/components/states.tsx`). That link **already ships**, so with the
+   default `docs` base the page would sit at `/docs/reference/export-format` and the shipped link would 404
+   in production. Never restore the `docs` prefix. Every old `/docs/**` address is redirected by
+   `@docusaurus/plugin-client-redirects`.
+2. 🔴 **THIS REPO IS PUBLIC AND THE OWNER'S PRIVATE VAULT TOOLING MUST NEVER BE NAMED IN IT** — not the
+   product name, not its host, not a token prefix, in prose, config, front matter, a comment or a file name.
+   16 files carried it before the rewrite. Say "the secure vault", or drop the sentence.
+   🔴 **The gate is `grep -ril <the vault product's name> .` and `… build/`, both → 0 — and THIS FILE MUST NOT
+   SPELL THAT NAME**, or the gate matches its own instructions and can never reach 0. The name is in
+   the vault's own rule file under `~/.claude/rules/` (`ls ~/.claude/rules | grep -i vault -e api` finds it);
+   read it there, never write it here. That is the same trap as an archive that quotes the line a gate
+   looks for.
+3. 🔴 **`docs/MANUAL-TASKS.md` is EXCLUDED from the build** via the docs plugin's `exclude` array — which
+   **replaces** the plugin defaults, so they are restated there. Verify in `build/`, never in the config:
+   `ls build/ | grep -i manual` → nothing.
+4. 🔴 **A page may only describe what the product actually does.** The v2 site described a removed platform,
+   an unshipped extension, the wrong database and an inverted analytics stack — every one written in good
+   faith, then left behind by the product. Not built → the page says **not built**, never *coming soon*.
+   Built but not switched on → say which. A limitation goes next to the claim it limits, in the same
+   paragraph.
 
 ## What this is
 
-- Docusaurus static site: `docs/` (18 categories, ~109 MD/MDX pages) + `blog/` + `/about` + a custom
-  `src/pages/index.tsx` landing. Brand palette emerald `#10B981` → cyan `#06B6D4`, light + dark.
+- Docusaurus static site: `docs/` (44 pages) + `blog/` + a custom `src/pages/index.tsx` landing. Brand
+  palette emerald `#10B981` → cyan `#06B6D4`, light + dark.
+- Structure mirrors the product: **six life areas around You** (`domains/`), then `features/`, `plans`,
+  `your-data/`, `concepts/`, `platforms/`, `admin`, `reference/`, `faq`, `about/`.
+- **`onBrokenLinks: 'throw'`** and `onBrokenMarkdownLinks: 'throw'` — **the build is the link checker.**
+- Local search via `@easyops-cn/docusaurus-search-local` (`docsRouteBasePath: '/'` — it must match).
 - SEO/AEO shipped: JSON-LD `@graph` (WebSite + Organization + Person) in `docusaurus.config.ts` headTags,
-  `static/robots.txt`, `static/llms.txt`, an IndexNow key file + `indexnow:ping` script, `sitemap.xml`,
-  OG/Twitter meta. Re-verify all of it in the built output at the refresh.
+  `static/robots.txt`, `static/llms.txt` (rewritten for v3), an IndexNow key file + `indexnow:ping` script,
+  `sitemap.xml`, OG/Twitter meta.
 - **Deployment: GitHub Pages** via `.github/workflows/deploy-pages.yml` with the custom domain — **a push
-  to `main` IS the deploy.** (Adopted 2026-07-25; the old Firebase Hosting target is gone.) Read the push
-  output; the repo's ruleset may print `Bypassed rule violations` for the owner's direct push — quote it.
-- `docs/MANUAL-TASKS.md` is excluded from the build — verify in `build/`, not in the config.
+  to `main` IS the deploy.** 🔴 **No Firebase project, ever** — no `firebase.json`, no `.firebaserc`, no
+  deploy script. Read the push output; the repo's ruleset may print `Bypassed rule violations` for the
+  owner's direct push — quote it, never call it a clean push.
 
 ## Commands
 
 ```bash
 yarn install
-yarn typecheck      # tsc — passes clean
+yarn typecheck      # tsc
 yarn build          # docusaurus build (Rspack via @docusaurus/faster)
+yarn serve          # inspect the real build; never `yarn start`
 ```
-
-> **Known local-only build quirk:** `@docusaurus/faster` runs `git submodule status` from the git root; the
-> `01-code` parent workspace holds project gitlinks with no `.gitmodules`, so a local `yarn build` can abort
-> during VCS init. Environmental — `yarn typecheck` passes and a standalone/CI checkout builds. Do not
-> modify the workspace to fight it.
 
 ## Do / Don't (project-specific)
 
 - Never run `yarn start` or any dev/preview server; one-shot `yarn typecheck` / `yarn build` only.
 - No automated tests (a docs site).
+- **The voice is the app's, and it is binding** — second person · **no contractions** · **zero exclamation
+  marks** · en-GB · sentence case headings · em dash welcome. It was measured from the 61 approved click-dummy
+  pages, not invented: `../lifewell/docs/story/story-bible.md` §4 and `voice-fingerprint.md`. Never *empower*,
+  *journey*, *seamless*, *unlock*, *effortless*, and never *streak*, *score*, *badge* or *rank* as something
+  the product offers.
+- Every page carries `title` + `description` front matter, or it is invisible to search.
+- Facts come from the app's own source, never from memory: the export tables from
+  `../lifewell/src/features/export/tables.ts`, plan limits from `../lifewell/src/config/plans.ts`, the Android
+  floor from `../lifewell/android/variables.gradle`, the admin surface from
+  `../lifewell/docs/admin/ADMIN-SURFACE.md`, the frozen addresses from `../02-FROZEN-CONTRACTS.md`.
 - Keep every health claim source-cited (CDC, WHO, Mayo, ACOG, AAP, NHLBI…); never a fabricated statistic.
 - App identifiers and store URLs are tracked in the main `lifewell` project, never here.
-- Portfolio info file (weekly): `/home/ahsan/Documents/ahsan-notebook/static/assets/personal/projects-info-as-portfolio-item/apps/LIFEWELL-DOCS_portfolio-info_2026-05-29.md`
-  — tracker `/home/ahsan/Documents/01-code/docs/tracking/portfolio-info-files-update-tracker.json`; last applied 2026-05-29.
-- Gitignore last verified 2026-06-24 — PUBLIC repo: no `.env`, no keys, ever.
+- Gitignore last verified 2026-09-08 — PUBLIC repo: no `.env`, no keys, ever.
 
 ## Fleet rules — pointers, never copies
 
 Every rule below is loaded from `~/.claude/rules/` and is not restated here: docs-site standard + the direct
 push (`docs-sites.md`) · package hierarchy nvm → npm (global) → yarn (local), upgrades via
-`npm-check-updates` (`package-management.md`) · share feature (`share-feature.md`) · gitignore
-(`project-config.md`) · sub-agents — `aoneahsan-ccca-*` only, `EXCLUSIVE SCOPE`
-(`subagent-orchestration.md`) · model floor Fable 5 / Opus 5 or newer (`01-authorizations.md`) · the
-storytelling gates for any new prose (`storytelling-content.md`; the Bible lives in
-`../lifewell/docs/story/`) · task speed over docs (`00-house-rules.md`).
+`npm-check-updates` (`package-management.md`) · gitignore (`project-config.md`) · sub-agents —
+`aoneahsan-ccca-*` only, `EXCLUSIVE SCOPE` (`subagent-orchestration.md`) · model floor Fable 5 / Opus 5 or
+newer (`01-authorizations.md`) · the storytelling gates for any new prose (`storytelling-content.md`; the
+Bible lives in `../lifewell/docs/story/`) · task speed over docs (`00-house-rules.md`).

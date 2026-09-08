@@ -1,83 +1,72 @@
 ---
-title: Welcome to LifeWell — health & wellness companion
-description: LifeWell is a private health & wellness companion for web, Android, and the browser. Track vitals, medications, family, memories, and more — built by Ahsan Mahmood.
-keywords: [lifewell, health tracking, wellness app, ahsan mahmood, capacitor, firebase]
-sidebar_position: 1
+id: intro
+title: LifeWell
+description: LifeWell is one record for a whole life — health, mind, life stages, people, memories and the everyday week. Web and Android, built by one person, kept by you.
+keywords: [lifewell, life companion, personal record, health, memories, family, android app, ahsan mahmood]
+tags: [overview, getting-started]
 slug: /intro
+sidebar_position: 1
 ---
 
-# Welcome to LifeWell
+# LifeWell
 
-LifeWell is a private health and wellness companion that runs on the web, on Android (iOS in prep), and as a Chrome-Web-Store-compliant browser extension. It helps you track vitals, medications, sleep, exercise, nutrition, mental-health practices, family connections, memories, notes, and 12+ everyday wellness calculators — without selling your data and without needing an account for the simple tools.
+**Your whole life, in one place.**
 
-This site is the public documentation for LifeWell. It is maintained by [Ahsan Mahmood](https://aoneahsan.com), the developer who built the app.
+Health, family, work, memories, and the everyday things that hold them together. One record, kept by you.
 
-## What you'll find here
+LifeWell is not a health tracker. Health is its largest area — more of the app sits under `/health` than
+under anything else — but the largest single folder of screens is the one about people, and the point of the
+product is that none of the six areas is the whole of you.
 
-| Section | What it covers |
-| --- | --- |
-| [Get started](./getting-started/install-web) | Install LifeWell on web, Android, or as a browser extension. First-time setup and a 5-minute tour. |
-| [Concepts](./concepts/architecture) | How LifeWell is built and why — architecture, data model, privacy posture, offline-first design, theming, multi-platform strategy. |
-| [Health](./health/overview) | Vitals, water, medications, exercise, sleep, nutrition, mental health, conditions, period & fertility, pregnancy, breastfeeding, medical records. |
-| [Tools](./tools/overview) | BMI, BMR, calorie, TDEE, macro, protein, age calculators. Sleep tracker, step counter, interval/workout/kegel timers. |
-| [Family & people](./family/overview) | Family tree, connections, journeys, location tracking, work-tree, structured data sharing. |
-| [Memories & notes](./memories-and-notes/memories) | Rich notes with folders, scrapbook memories, Google Drive sync. |
-| [Mobile & extension](./mobile/overview) | Android-specific guidance, push notifications, offline usage; browser-extension installation and quick tracking. |
-| [Reference & FAQ](./reference/data-model) | Data model, environment variables, third-party integrations, and answers to the questions people ask most often. |
+## The six areas, and you in the middle
 
-## What LifeWell is for
+| Area | What lives there |
+|---|---|
+| [Health](./domains/health.md) | Vitals, medication, food, movement, sleep, conditions, lab results |
+| [Mind](./domains/mind.md) | A journal, guided sessions, mood, gratitude, breathing |
+| [Life stages](./domains/stages.md) | Cycle, fertility, pregnancy, menopause, a child's early years |
+| [People](./domains/people.md) | Family and work trees, connections, groups, chats, sharing |
+| [Memories](./domains/memories.md) | Photos, albums, a scrapbook, the captions that make them readable |
+| [Everyday](./domains/everyday.md) | Calendar, notes, saved places, reminders, the shopping list |
 
-LifeWell is for people who want a single place to track the things that affect their health and life over time. It's especially useful if you:
+**You** is not one of the six. It is the account — your profile, your plan, your settings, and the controls
+over everything above.
 
-- Want to see how vitals like blood pressure or sleep change month-over-month, not just today.
-- Need a structured way to record medications, dosages, and reminders.
-- Are tracking a pregnancy, a baby's growth, or a family member's care needs.
-- Want a private place for memories and notes that syncs across devices without third-party platforms.
-- Need quick access to wellness calculators (BMI, BMR, calorie, TDEE) without pop-up ads or signups for the basic tools.
+Any of the six can be [switched off](./domains/overview.md#switching-an-area-off). Off means quiet: the menu
+stops listing it, anything you recorded is kept, and any page still opens if you go to it directly.
 
-## What LifeWell is NOT
+## What it runs on
 
-:::caution Honest framing
-LifeWell does not give medical advice. Calculators and tracking tools provide information for personal reference only. **Always consult a qualified clinician** for medical decisions.
+| | |
+|---|---|
+| Web | Any current browser, at [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) |
+| Android | A Capacitor build of the same app — see [Android](./platforms/android.md) |
+| iOS | [Removed on 2026-07-16](./platforms/ios.md). There is no Apple Developer account behind it |
+| Browser extension | [Planned](./platforms/browser-extension.md), not built |
 
-LifeWell is not a substitute for a doctor, a therapist, or a clinical electronic health record (EHR). It is a personal tracker.
+## What is true of your record
 
-LifeWell does not sell or share user data. See [Privacy & security](./concepts/privacy-and-security) for the full data model and what touches the network.
+- **It is written on your device first** and syncs when there is a connection. A tunnel is not a reason to
+  lose a day.
+- **Photos and files go to your own Google Drive**, under a scope that only reaches the files LifeWell
+  created. See [Where your record lives](./your-data/where-it-lives.md).
+- **You can take all of it out** — JSON, CSV or PDF, from inside the app. The file format is documented
+  [field by field](./reference/export-format.md).
+- **You can delete all of it, or one area of it**, and the app says which rows went.
+
+## Version
+
+This documentation describes **LifeWell 3.0.0**, a full rebuild of the shipped 2.x app on a new backend.
+
+:::warning[3.0.0 resets your data]
+The backend was replaced with no migration path. When 3.0.0 reaches your device, the record held by 2.x is
+not carried across. This was a deliberate decision taken while the app had no real users, and it is stated
+here because a deliberate reset and a catastrophic bug look identical from the inside.
 :::
 
-## Who built LifeWell
+## Where to go next
 
-LifeWell is designed and developed by **Ahsan Mahmood**, a full-stack engineer working with React, TypeScript, Capacitor, Firebase, and Cloudflare Workers. Reach Ahsan at:
-
-- Email — [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com)
-- Portfolio — [aoneahsan.com](https://aoneahsan.com)
-- GitHub — [github.com/aoneahsan](https://github.com/aoneahsan)
-- LinkedIn — [linkedin.com/in/aoneahsan](https://linkedin.com/in/aoneahsan)
-- WhatsApp — +92 304 6619706
-
-The full developer profile and the story of why LifeWell exists is on the [About the developer](./about/about-the-developer) page.
-
-## Where to start
-
-If you've never opened LifeWell before, start with [Install on web](./getting-started/install-web) — no download, just open it in any modern browser at [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com).
-
-If you're a developer evaluating the stack, jump to [Architecture](./concepts/architecture) and [Tech stack](./about/tech-stack).
-
-## Frequently asked
-
-**Is LifeWell free?**
-The web app and the browser extension are free. The mobile app is free to install. Some advanced features (premium reminders, expanded storage, future cloud features) are gated under a paid tier — see [Premium and payments](./profile-and-settings/premium-and-payments).
-
-**Does LifeWell need an account?**
-The simple wellness calculators (BMI, BMR, etc.) work in the browser without an account. Tracking history, family features, memories, notes, and reminders need a sign-in so they sync across devices. Sign-in supports Google, Apple, and email.
-
-**Where is my data stored?**
-Tracked data is stored in your account on Firebase Firestore (a Google Cloud product) under per-user security rules. Files (avatars, memory media) are stored on FilesHub. Calculators run entirely in your browser and store nothing. See [Privacy & security](./concepts/privacy-and-security) for full detail.
-
-**Is the source code public?**
-The documentation source (this site) is public at [github.com/aoneahsan/lifewell-docs](https://github.com/aoneahsan/lifewell-docs) under the **CC BY 4.0** license. The application source is currently private.
-
----
-
-**Last updated**: 2026-05-10
-**Author**: [Ahsan Mahmood](./about/about-the-developer)
+- Install it: [web](./getting-started/install-web.md) · [Android](./getting-started/install-android.md)
+- Then: [the first run](./getting-started/first-run.md) and [a short tour](./getting-started/tour.md)
+- If you are here about your data: [export](./your-data/export.md) ·
+  [delete](./your-data/delete.md) · [the export file format](./reference/export-format.md)

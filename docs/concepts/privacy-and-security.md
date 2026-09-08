@@ -1,145 +1,89 @@
 ---
-title: Privacy and security in LifeWell — what data lives where
-description: Honest data flow for LifeWell. Per-user Firestore rules, FilesHub storage, no third-party data sale, client-side calculators, Capacitor permission hygiene. What does and doesn't leave your device.
-keywords: [lifewell privacy, lifewell security, firestore security rules, fileshub, capacitor permissions, gdpr, ahsan mahmood]
+title: Privacy and security
+description: What leaves your device and what does not — sign-in without a password, per-row database rules, scrubbed analytics, and the claims LifeWell deliberately does not make.
+keywords: [lifewell privacy, health data privacy, row level security, analytics scrubbing, data security]
+tags: [concepts, privacy]
 sidebar_position: 3
 ---
 
 # Privacy and security
 
-LifeWell stores per-user health and personal data, so privacy needs to be more than a marketing line. This page is the honest data-flow document: where each kind of data lives, what touches the network, what doesn't, and what permissions the mobile app requests with what fallback. If something below ever stops being true, it's a bug — please tell me at [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com).
+The honest version, including the parts that are less flattering than a marketing page would carry.
 
-## What we don't do
+## Sign-in
 
-Before describing what LifeWell does, here's what it doesn't do:
+Google only. There is no password field, so **we never see or store a password** — there is not one to store.
 
-- **No data sales.** LifeWell never sells, rents, or licenses your data to advertisers, brokers, insurers, or any third party.
-- **No advertising profile.** LifeWell does not build cross-app or cross-site profiles. There are no third-party ad pixels on the app.
-- **No clinician access by the developer.** I (Ahsan) cannot read your medical records, vitals, period log, pregnancy log, family tree, or any other tracked data. Firestore Security Rules block it.
-- **No "soft archive" after deletion.** When you delete an entry or your account, the data is gone — no backup the developer can restore.
-- **No end-to-end encryption claim.** LifeWell is NOT a zero-knowledge product. Your data is encrypted at rest by Firestore and in transit by TLS, but Google (the Firestore operator) holds the keys at rest. If your threat model requires that no operator ever has key access, LifeWell isn't the right tool.
+The session lives in browser storage on the web and in the platform keystore on Android. Signing out
+everywhere ends every session, not only the one in front of you.
 
-If a feature appears to violate any of these, that's the bug. Report it.
+## What stops another account reading your record
 
-## Where each kind of data lives
+Every table has row-level security enabled, and every read runs **as you**. There is no administrative key in
+the browser and no path the app can take on your behalf.
 
-| Data type | Storage | Accessible to | Notes |
-| --- | --- | --- | --- |
-| Account credentials | Firebase Authentication (Google) | Firebase Auth service, locked to your provider | We never see your password. Google/Apple sign-in tokens are validated by Firebase. |
-| Tracking history (vitals, water, medications, mood, etc.) | Firestore — `lifewell_*` collections | Only the user matching `request.auth.uid == userId` | Per-document Security Rules; the developer can't read |
-| Family tree, journeys, location pins | Firestore | Only the user (and shared family members on explicit invite) | Sharing is explicit per-document; no auto-share |
-| Memories, scrapbook, notes | Firestore | Only the user | Optional Drive sync exports media to your own Drive |
-| Memory / avatar media (images) | FilesHub (https://fileshub.zaions.com) | Only the user via signed URLs | Files are deleted when you delete the parent record |
-| Calculators (BMI, BMR, etc.) | Browser only | Nobody — input is never sent | Calculators run client-side, no network call |
-| Theme + UI preferences | Capacitor Preferences (local) + Firestore mirror | Only the user | Local cache survives offline; remote sync for cross-device |
-| Reminders | Firestore + OneSignal (delivery only) | Only the user | OneSignal stores delivery metadata; not the reminder content |
-| Push notification tokens | Firestore + OneSignal | Only the user | Used only to deliver your own reminders |
-| Logs (errors, perf) | Sentry (errors), Amplitude (events) | Aggregated, no PII attached | Both gracefully no-op if env keys aren't set |
+Three things underneath that are worth stating, because each of them is where this normally goes wrong:
 
-## How Firestore Security Rules protect you
+- **A list is filtered, not refused.** Postgres row-level security returns fewer rows rather than an error, so
+  a query missing its owner filter looks like a working feature. Every list read filters on the column the
+  rule reads.
+- **Rules are proved against seeded rows.** A query returning zero rows satisfies any rule vacuously, so the
+  test accounts hold real data — one with ninety days of readings, one with fourteen, neither of them an
+  administrator.
+- **Every list is capped.** A list read returns twenty rows by default and fifty at most, enforced in the
+  database. There is no query that walks the whole table.
 
-Every collection in LifeWell follows the same pattern: documents include a `userId` field, and Security Rules permit read/write only when the requesting auth user matches that field. A simplified example:
+## What we collect about how you use it
 
-```
-match /lifewell_vitals/{docId} {
-  allow read, write: if request.auth != null
-                      && request.auth.uid == resource.data.userId;
-  allow create: if request.auth != null
-                 && request.auth.uid == request.resource.data.userId;
-}
-```
+Four services, and every one of them is off when its key is absent:
 
-This means:
+| Service | For |
+|---|---|
+| Google Analytics 4 | Which pages get used |
+| Amplitude | Which actions get taken |
+| Microsoft Clarity | Session replay, to see where an interface fails |
+| Sentry | Errors |
 
-- A logged-out user can read nothing.
-- A logged-in user can read only their own documents.
-- A user can never write a document that claims to belong to a different user.
-- The developer (signed in as a different user) cannot read your data either.
+**None of them carries the contents of your record.** That is enforced by an allowlist rather than a
+convention: an analytics property survives only if the registry declares it for that event *and* the value
+passes a type guard. A string has to be a bounded token, so a sentence, an email address or a note body
+cannot pass. A number has to be a small non-negative integer, so a measurement cannot pass as a count.
 
-The actual rules in `firestore.rules` cover ~50 collections and are versioned in the source repo. They're deployed via `firebase deploy --only firestore:indexes,firestore:rules` and audited on every release.
+The scrubbers are tested by pushing real identifiers through them and failing if any survives. A scrubber
+verified by reading is a scrubber that regresses silently.
 
-## Capacitor permission hygiene (Android)
+Session replay is the one to be most aware of, because it records an interface rather than an event. The app
+marks sensitive elements so they are masked in a recording.
 
-LifeWell on Android requests sensitive permissions only when a feature actually needs them, with non-permission fallbacks. The full list and fallbacks:
+:::note[Firebase Analytics is not banned, and this page used to say it was]
+An earlier version of this documentation stated that Firebase Analytics was forbidden and had been replaced.
+That was wrong. Google Analytics 4 **is** the Firebase analytics property — one property, two ways of talking
+to it — and it runs alongside Amplitude, Clarity and Sentry rather than instead of them. The four together are
+the analytics stack, and the sentence claiming otherwise misinformed readers about what the product does.
+:::
 
-| Permission | When prompted | Fallback if denied |
-| --- | --- | --- |
-| Camera | "Take photo" on avatar / memory upload | Use gallery picker instead |
-| Photos / media | "Choose from gallery" | None needed (system picker) |
-| Notifications | When you enable a reminder | Reminder still saves; just no push delivery |
-| Location (optional) | When geo-tagging a memory or opening a map view | Manual map placement |
-| Calendar | Only if you enable wellness-event sync | Manual entry only |
+## Permissions
 
-LifeWell does NOT request: contacts, SMS, call log, body sensors, activity recognition. You can verify this in **Android Settings → Apps → LifeWell → Permissions**.
+[`/permissions`](https://lifewell.aoneahsan.com/permissions) lists every permission the app declares and what
+it is for. The list is short and it is checked against the merged Android manifest rather than against
+intentions — plugins inject permissions, and an unaudited manifest is how an app ends up asking for something
+nobody chose.
 
-The 2026-04-18 Play Console rejection happened because Capacitor's `@capacitor/camera` plugin auto-injected the CAMERA permission into the merged AndroidManifest, even though we only prompt at the moment of "Take photo." That now appears in the privacy policy, the Data Safety form, and this page. Future plugin additions go through a merged-manifest audit before any release.
+Nothing asks for contacts, SMS or call logs.
 
-## Browser extension privacy
+## What LifeWell does not claim
 
-The [browser extension](/docs/extension/overview) is the most-restricted surface. Per Chrome Web Store policy:
+- **Not end-to-end encrypted.** Your record is encrypted in transit and at rest by the database provider, and
+  it is readable by that database. Claiming otherwise would be false.
+- **Not a medical device**, and nothing in it is a diagnosis.
+- **No advertising network.** Nothing about you is sold, and there is no third-party ad code in the product.
+- **No point-in-time recovery.** Backups are taken by hand and verified by replay. Your own copy is the
+  [export](../your-data/export.md), which is why export is on every plan.
 
-- The extension does not request `<all_urls>` host permissions.
-- It never injects content scripts into your tabs.
-- It never reads page content from any website.
-- It never loads remote auth scripts (no Firebase Auth SDK, no `gapi.js`, no `signInWithPopup`).
-- Sign-in goes through Chrome's built-in Identity API; the access token is sent directly to Firestore via REST.
-- Document ownership is verified by `userId` field, not `request.auth.uid` (Chrome Identity returns access tokens, not Firebase auth credentials).
+## Getting it out, or getting rid of it
 
-Permissions: `storage`, `alarms`, `notifications`, `identity`. Nothing else.
+[Export everything](../your-data/export.md) · [Delete your record](../your-data/delete.md) ·
+[Where your record lives](../your-data/where-it-lives.md).
 
-You can verify the extension's full permission list in `chrome://extensions` → LifeWell → "Details" → "Permissions."
-
-## Account deletion
-
-You can delete your LifeWell account at any time from **Profile → Security → Delete account**. The flow:
-
-1. You confirm in-app and re-enter your password (or re-authenticate via Google / Apple).
-2. The deletion is queued and reversible for 30 days. During that window, sign back in to cancel.
-3. After 30 days, LifeWell:
-   - Deletes every Firestore document where `userId` matches your UID (including vitals, medications, memories, notes, family entries, reminders, preferences).
-   - Deletes every FilesHub file owned by your account (avatars, memory media).
-   - Removes your push notification tokens from OneSignal.
-   - Disables your Firebase Auth record.
-4. After deletion completes, your data is unrecoverable. No backup the developer can restore.
-
-If you want a copy of your data before deletion, email [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com) — you'll get a JSON export of every document tagged with your `userId`.
-
-## What's encrypted
-
-| Layer | Encryption |
-| --- | --- |
-| In transit (everywhere) | TLS 1.2+ |
-| At rest (Firestore) | Google-managed envelope encryption |
-| At rest (FilesHub) | Server-side encryption at the storage layer |
-| At rest (Capacitor Preferences on Android) | Android Keystore-backed (when device has a screen lock) |
-| In Cloudflare Workers | Workers Secrets (encrypted, not exposed to logs) |
-
-LifeWell does NOT add an additional client-side encryption layer. If your threat model needs end-to-end encryption (so the operator can't ever decrypt), LifeWell isn't the right product — the trade-off would be losing search, analytics across vitals, and shared family features.
-
-## Frequently asked
-
-**Can the developer read my data?**
-No, not under normal operation. Firestore Security Rules block read access for any user other than the data owner. The developer (signed in as a different user) gets the same denial as a stranger. There is one exception: if you email asking for a data export or to fix a stuck account, I can use the Firebase admin SDK to read your specific records — but only with your explicit request.
-
-**What about Google? Doesn't Firebase mean Google can read my data?**
-Google (the Firestore operator) controls the at-rest encryption keys for Firestore. Google's policies say they don't read your application data, but the technical capability exists at their layer. If that's a deal-breaker for your threat model, LifeWell isn't the right product.
-
-**Why Amplitude and Sentry?**
-Amplitude tracks aggregate event-level analytics (e.g. "users who open the BMI calculator within 7 days of signup are 3× more likely to log a vital next week"). It's used for product-direction decisions. Sentry tracks runtime errors so I can fix bugs. Both are configured to scrub PII (no email, no name, no UID in event payloads). Both gracefully no-op if their env keys aren't set, so users on a self-hosted LifeWell variant get neither.
-
-**Does LifeWell comply with GDPR / CCPA?**
-LifeWell honors the rights both regulations cover: right to access (data export on request), right to erasure (account deletion), right to data portability (JSON export), right to object to processing. It does not have a regional sales channel that would trigger sale-of-data CCPA provisions because no data is sold.
-
-**Will this page change?**
-Yes — every time the data model or permission set changes, this page gets updated and the `Last updated` date bumps. The `Author` line always says Ahsan Mahmood, since I'm the one accountable for what it says.
-
-## Where to read next
-
-- [Data model](/docs/concepts/data-model) — exhaustive Firestore collection list and document shapes.
-- [About the developer](/docs/about/about-the-developer) — who's behind LifeWell and how to reach me.
-- [Architecture](./architecture) — high-level shape of the system.
-
----
-
-**Last updated**: 2026-05-10
-**Author**: [Ahsan Mahmood](/docs/about/about-the-developer)
+The legal pages are [`/privacy`](https://lifewell.aoneahsan.com/privacy) and
+[`/terms`](https://lifewell.aoneahsan.com/terms). They are written to be read, not to be survived.
