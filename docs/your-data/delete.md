@@ -1,6 +1,6 @@
 ---
 title: Delete your record
-description: Delete your whole account, or one of the six areas and keep the rest. What each one removes, what it deliberately keeps, and where each stands today.
+description: Delete your whole account, or one of the seven areas and keep the rest. What each one removes, what it deliberately keeps, and where each stands today.
 keywords: [delete lifewell account, delete my data, gdpr deletion, account deletion]
 tags: [your-data, privacy]
 sidebar_position: 2
@@ -32,7 +32,8 @@ never a moment when deletion is impossible.
 
 ## Delete one area
 
-Remove everything in Health, or in Memories, and keep the rest.
+Remove everything in Health, or in Memories, and keep the rest. It is in `/settings` → **Your data** →
+*Delete a single domain*.
 
 - It runs as **one transaction**. Every table commits together or none of them does — a half-deleted area
   with no record of where it stopped is worse than either outcome.
@@ -48,6 +49,13 @@ Deleting **People** also removes the photo tags that say who is in a picture, be
 who will no longer exist. Those rows are counted and reported rather than vanishing into an area you did not
 choose.
 
+### People and Sharing are deleted separately
+
+Deleting **People** removes your people, your trees and your places, and it does not touch what you share.
+Deleting **Sharing** revokes every link, ends every connection and deletes every reply waiting for you, and
+your people stay exactly where they are. Clearing out a contact list should never quietly end what your doctor
+can read. See [Sharing](../domains/sharing.md).
+
 ### What deleting an area deliberately keeps
 
 | Kept | Why |
@@ -57,12 +65,6 @@ choose.
 | Your Google Drive connection | A live credential and an external connection. Severing it is its own action, in settings |
 | A Play purchase record | Account-level. Deleting it would strand an entitlement you paid for |
 | AI usage metering | Account-level, and it is what a limit is counted from |
-
-:::warning[The screen for this is not built yet]
-The capability is live in the database — the transaction, the counts, the typed confirmation and the audit
-line all exist and were tested. **The settings panel that opens it is not written**, so today there is no way
-to reach it from the app. Deleting your whole account is the only deletion currently offered.
-:::
 
 ## Hiding is not deleting
 

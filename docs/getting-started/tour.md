@@ -18,7 +18,7 @@ all.
 
 ## The menu
 
-The left menu is grouped by the [six areas](../domains/overview.md). It lists only the areas you have on, and
+The left menu is grouped by the [seven areas](../domains/overview.md). It lists only the areas you have on, and
 inside an area it lists only the screens that apply to you — see
 [the first run](./first-run.md#the-one-answer-that-changes-what-you-see).
 
@@ -42,7 +42,7 @@ table, which is why a glass logged in one appears in the other two immediately.
 `/settings` holds the things that are about the account rather than about a record:
 
 - **Your data** — export, delete an area, delete the account
-- **Areas** — the six switches
+- **Domains** — six switches, and a row for Sharing, which has none
 - **Reminders** — what the app is allowed to send you
 - **Sharing** — who can read what
 - **Security** — sessions and sign-out

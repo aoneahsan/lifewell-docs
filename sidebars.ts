@@ -3,7 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 /**
  * LifeWell documentation sidebar.
  *
- * Structure mirrors the product: six life areas around You, then the features
+ * Structure mirrors the product: seven areas around You, then the features
  * that cut across them, then plans, data, concepts, platforms, admin and
  * reference. Every id below is a real file — `onBrokenLinks: 'throw'` and this
  * sidebar together make the build the link checker.
@@ -29,7 +29,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'The six areas',
+      label: 'The seven areas',
       link: {type: 'doc', id: 'domains/overview'},
       items: [
         'domains/health',
@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
         'domains/people',
         'domains/memories',
         'domains/everyday',
+        'domains/sharing',
       ],
     },
     {
@@ -55,7 +56,6 @@ const sidebars: SidebarsConfig = {
         'features/community-and-chats',
         'features/professionals',
         'features/blood-donation',
-        'features/sharing',
         'features/referrals',
         'features/shopping-list',
         'features/maps',

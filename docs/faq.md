@@ -12,8 +12,8 @@ sidebar_position: 10
 
 No. Health is its largest area and there are more screens under it than under anything else, but the largest
 single folder of screens is the one about people. LifeWell holds
-[six areas](./domains/overview.md) — health, mind, life stages, people, memories and everyday — with **you**
-in the middle.
+[seven areas](./domains/overview.md) — health, mind, life stages, people, memories, everyday and sharing —
+with **you** in the middle.
 
 Introducing it as a health tracker gets the product wrong.
 
@@ -76,8 +76,8 @@ documentation was describing something that is not shipping.
 
 ## Who can see what I record?
 
-Nobody, unless you [shared it](./features/sharing.md). A share between two accounts can cover trackers or
-medications and nothing else — there is no scope for your journal, your memories, your notes or your location.
+Nobody, unless you [shared it](./domains/sharing.md). A link can carry a tracker, your medications or a tree,
+and nothing else — there is no scope for your journal, your memories, your notes or your location.
 
 An administrator cannot read your record either: the account list returns an allowlist of columns and no
 health column is in it.

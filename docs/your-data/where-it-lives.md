@@ -12,7 +12,7 @@ Three places, and they hold different things on purpose.
 
 | What | Where | Who can read it |
 |---|---|---|
-| Everything you type | A Postgres database, hosted by Supabase | You, and anyone you [shared it with](../features/sharing.md) |
+| Everything you type | A Postgres database, hosted by Supabase | You, and anyone you [shared it with](../domains/sharing.md) |
 | Photos and files | **Your own Google Drive** | You, through Google |
 | Preferences, session, drafts | Your device | You, on that device |
 

@@ -16,24 +16,26 @@ Health, family, work, memories, and the everyday things that hold them together.
 
 LifeWell is not a health tracker. Health is its largest area — more of the app sits under `/health` than
 under anything else — but the largest single folder of screens is the one about people, and the point of the
-product is that none of the six areas is the whole of you.
+product is that none of the seven areas is the whole of you.
 
-## The six areas, and you in the middle
+## The seven areas, and you in the middle
 
 | Area | What lives there |
 |---|---|
 | [Health](./domains/health.md) | Vitals, medication, food, movement, sleep, conditions, lab results |
 | [Mind](./domains/mind.md) | A journal, guided sessions, mood, gratitude, breathing |
 | [Life stages](./domains/stages.md) | Cycle, fertility, pregnancy, menopause, a child's early years |
-| [People](./domains/people.md) | Family and work trees, connections, groups, chats, sharing |
+| [People](./domains/people.md) | Family and work trees, groups, chats |
 | [Memories](./domains/memories.md) | Photos, albums, a scrapbook, the captions that make them readable |
 | [Everyday](./domains/everyday.md) | Calendar, notes, saved places, reminders, the shopping list |
+| [Sharing](./domains/sharing.md) | What you have let other people read — links, partner sharing, the replies that come back |
 
-**You** is not one of the six. It is the account — your profile, your plan, your settings, and the controls
+**You** is not one of the seven. It is the account — your profile, your plan, your settings, and the controls
 over everything above.
 
-Any of the six can be [switched off](./domains/overview.md#switching-an-area-off). Off means quiet: the menu
-stops listing it, anything you recorded is kept, and any page still opens if you go to it directly.
+Six of the seven can be [switched off](./domains/overview.md#switching-an-area-off). Off means quiet: the
+menu stops listing it, anything you recorded is kept, and any page still opens if you go to it directly.
+Sharing has no switch, because what you have let other people read has to stay visible to you.
 
 ## What it runs on
 

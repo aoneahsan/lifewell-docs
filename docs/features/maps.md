@@ -34,9 +34,9 @@ recorded until you switch them on, and switching them off stops the recording wi
 already there.
 
 :::note[Location is never shared with another account]
-A share between two accounts can cover trackers or medications and nothing else. There is no location scope,
-and that is a fact about the database rather than a screen that chooses not to offer one. See
-[Sharing](./sharing.md).
+A link can carry a tracker, your medications or a tree, and nothing else. There is no location scope, and
+that is a fact about the database rather than a screen that chooses not to offer one. See
+[Sharing](../domains/sharing.md).
 :::
 
 ## What the export carries

@@ -55,4 +55,4 @@ nothing about you.
 ## Sharing a stage with someone
 
 A partner or a family member can be given read access to part of this area rather than all of it. That is a
-sharing decision rather than a life-stage one — see [Sharing](../features/sharing.md).
+sharing decision rather than a life-stage one — see [Sharing](./sharing.md).

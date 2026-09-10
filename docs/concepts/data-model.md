@@ -76,5 +76,5 @@ is not a smaller export, it is a broken one.
   a screen not showing them.
 - **No email column.** The identity provider owns your email address; a second copy would have two writers
   and go stale on the first change.
-- **No location sharing scope.** The enum naming what one account may share with another has two members,
-  trackers and medications, and there is no third.
+- **No location sharing scope.** The enum naming what a share may carry has three members — trackers,
+  medications and trees — and none of them is location.

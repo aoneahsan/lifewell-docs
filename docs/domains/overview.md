@@ -1,31 +1,32 @@
 ---
-title: The six areas
-description: LifeWell is organised into six areas around You — health, mind, life stages, people, memories and everyday. Each can be switched off without deleting anything.
-keywords: [lifewell domains, life areas, switch off a domain, lifewell navigation]
+title: The seven areas
+description: LifeWell is organised into seven areas around You — health, mind, life stages, people, memories, everyday and sharing. Six can be switched off without deleting anything; Sharing cannot.
+keywords: [lifewell domains, life areas, switch off a domain, lifewell navigation, lifewell sharing]
 tags: [concepts, domains]
 sidebar_position: 1
 ---
 
-# The six areas
+# The seven areas
 
 Six apps each knew a piece of you. None of them knew you.
 
-LifeWell holds six areas, with **You** in the middle. You is the account — your profile, your plan, your
-settings — and it is not one of the six, because it is not something you can switch off.
+LifeWell holds seven areas, with **You** in the middle. You is the account — your profile, your plan, your
+settings — and it is not one of the seven, because it is not something you can switch off.
 
 | Area | Menu group | What it holds |
 |---|---|---|
 | [Health](./health.md) | Health | Trackers, medications, food and meals, exercise, conditions |
 | [Mind](./mind.md) | Mind | Journal, breathing and sleep, desk wellness |
 | [Life stages](./stages.md) | Life stages | Cycle, baby, growth |
-| [People](./people.md) | Family and work | People, connections, trees, places, messages, community, professionals, blood donors |
+| [People](./people.md) | Family and work | People, trees, places, messages, community, professionals, blood donors |
 | [Memories](./memories.md) | Memories | Photos and memories, notes |
 | [Everyday](./everyday.md) | Everyday | Calendar |
+| [Sharing](./sharing.md) | Sharing | What you have let other people read — links, partner sharing, the replies that come back |
 
 ## Why the addresses do not match the areas
 
-`/health/mood-journal` is in the **Mind** area. `/health/menopause` is in **Life stages**. The prefix is
-wrong about the area, and it stays wrong on purpose.
+`/health/mood-journal` is in the **Mind** area. `/health/menopause` is in **Life stages**.
+`/people/share-links` is in **Sharing**. The prefix is wrong about the area, and it stays wrong on purpose.
 
 Those addresses were indexed by search engines under the 2.x app, and a URL that has been indexed is a
 promise to everyone who linked to it. The rebuild changes code, not addresses. The complete list is
@@ -35,7 +36,9 @@ An area is a product idea. A prefix is a historical fact. Never read one as the 
 
 ## Switching an area off
 
-`/settings` → **Areas** carries six switches, in the order above.
+`/settings?tab=domains` carries six switches, in the order above. Sharing is listed there too, as a row with
+no switch: what you have let other people read has to stay visible to you. See
+[Sharing](./sharing.md#why-it-has-no-switch).
 
 **Off means quiet, and all three halves of that are real:**
 
@@ -54,7 +57,7 @@ Two different things, deliberately kept apart:
 
 | | Where | What happens |
 |---|---|---|
-| Switch an area off | `/settings` → Areas | The menu stops listing it. Every row stays |
+| Switch an area off | `/settings` → Domains | The menu stops listing it. Every row stays |
 | [Delete an area](../your-data/delete.md#delete-one-area) | `/settings` → Your data | Every row in it goes, in one transaction, and the app tells you how many |
 
 A person who wanted the first and got the second would have no way back. That is why the second one makes

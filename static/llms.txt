@@ -2,14 +2,14 @@
 
 > LifeWell is one record for a whole life — health, mind, life stages, people, memories and the everyday week
 > — kept by the person it belongs to. Web app and Capacitor Android app. Built and maintained by Ahsan
-> Mahmood. It is NOT a health tracker: health is the largest of its six areas and deliberately not the point
+> Mahmood. It is NOT a health tracker: health is the largest of its seven areas and deliberately not the point
 > of it.
 
 Tagline: Your whole life, in one place.
 
 ## Structure
 
-Six areas, with You in the middle. You is the account, not an area, and cannot be switched off.
+Seven areas, with You in the middle. You is the account, not an area, and cannot be switched off.
 
 - Health — trackers (water, steps, weight, blood pressure, blood sugar, sleep and more), medications, food
   and meals, exercise, conditions, lab results.
@@ -21,9 +21,11 @@ Six areas, with You in the middle. You is the account, not an area, and cannot b
   community groups, professionals directory, blood donor directory.
 - Memories — photos, albums, scrapbook, tags, captions.
 - Everyday — calendar and appointments, notes and folders, saved places, reminders, shopping list.
+- Sharing — links you make to show someone a tracker, your medications or a family tree, or to ask for
+  something back; each carries only what you choose and can be ended at any time.
 
-Each of the six can be switched off. Off means the menu stops listing it; nothing is deleted, and any page
-still opens if you go to it directly.
+Each of the first six can be switched off. Off means the menu stops listing it; nothing is deleted, and any
+page still opens if you go to it directly. Sharing has no switch: it is where you end what you have shared.
 
 ## What LifeWell does NOT do
 
@@ -69,7 +71,8 @@ sells through Google Play Billing, which is built and not switched on.
 ## Documentation index
 
 - Start here: https://lifewell-docs.aoneahsan.com/intro
-- The six areas: https://lifewell-docs.aoneahsan.com/domains/overview
+- The seven areas: https://lifewell-docs.aoneahsan.com/domains/overview
+- Sharing: https://lifewell-docs.aoneahsan.com/domains/sharing
 - Install on the web: https://lifewell-docs.aoneahsan.com/getting-started/install-web
 - Install on Android: https://lifewell-docs.aoneahsan.com/getting-started/install-android
 - Privacy and security: https://lifewell-docs.aoneahsan.com/concepts/privacy-and-security

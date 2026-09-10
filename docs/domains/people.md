@@ -25,7 +25,8 @@ rather than two.
 
 ## Connections and groups
 
-- **`/people/connections`** — people who also use LifeWell and have agreed to be connected to you.
+- **`/people/connections`** — people who also use LifeWell and have agreed to be connected to you. In the
+  menu it sits under [Sharing](./sharing.md), as *Partner sharing*.
 - **`/people/family-groups`** — a household or family group, which is how a Family plan shares its seats.
 - **`/people/journeys`** — a shared trip or period, with its own photos and notes.
 
@@ -35,8 +36,8 @@ rather than two.
 where they happened. `/people/location-tracking` and `/people/location-history` are opt-in and off by default.
 
 :::note[There is no location sharing between accounts]
-Saved places and location history are yours. A share between two accounts can cover trackers or medications
-and nothing else — the database enum that names what a share may cover has two members and neither is
+Saved places and location history are yours. A link can carry a tracker, your medications or a tree, and
+nothing else — the database enum that names what a share may carry has three members and none of them is
 location. That absence is the enforcement, rather than a screen that simply does not offer the option.
 :::
 
@@ -67,5 +68,5 @@ register. See [Professionals](../features/professionals.md).
 
 ## Sharing
 
-Everything above answers to one sharing model, described in [Sharing](../features/sharing.md). Nothing here is
-visible to another account unless you made it so.
+Everything above answers to one sharing model, which is an area of its own: [Sharing](./sharing.md).
+Nothing here is visible to another account unless you made it so.

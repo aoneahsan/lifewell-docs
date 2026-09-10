@@ -44,9 +44,9 @@ app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source o
 
 ## What this is
 
-- Docusaurus static site: `docs/` (44 pages) + `blog/` + a custom `src/pages/index.tsx` landing. Brand
+- Docusaurus static site: `docs/` (45 pages) + `blog/` + a custom `src/pages/index.tsx` landing. Brand
   palette emerald `#10B981` → cyan `#06B6D4`, light + dark.
-- Structure mirrors the product: **six life areas around You** (`domains/`), then `features/`, `plans`,
+- Structure mirrors the product: **seven areas around You** (`domains/`), then `features/`, `plans`,
   `your-data/`, `concepts/`, `platforms/`, `admin`, `reference/`, `faq`, `about/`.
 - **`onBrokenLinks: 'throw'`** and `onBrokenMarkdownLinks: 'throw'` — **the build is the link checker.**
 - Local search via `@easyops-cn/docusaurus-search-local` (`docsRouteBasePath: '/'` — it must match).

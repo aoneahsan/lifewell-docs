@@ -68,6 +68,8 @@ drifted. They are now three views over one store. A glass logged anywhere appear
 - **[The shopping list](../features/shopping-list.md)**, shareable as plain text.
 - **[Six area switches](../domains/overview.md#switching-an-area-off)** — turn an area off without deleting
   anything.
+- **[Sharing](../domains/sharing.md)**, the seventh area and the only one with no switch — a link can now show a
+  tracker, your medications or a tree at a level you choose, one tab per thing shared.
 - **[Gender-aware screens](../getting-started/first-run.md#the-one-answer-that-changes-what-you-see)** — one
   answer decides whether six life-stage screens are listed.
 - **[Export in three formats](../your-data/export.md)**, built on your device, plus scheduled exports on a paid
@@ -109,7 +111,6 @@ Stated here in one place so nothing on this site has to be read hopefully:
 | Push notifications | Subscription wired, sending service not written |
 | Global search | The query exists; the page is a declared placeholder |
 | Referral member screen | The server half is live; there is no screen showing your code |
-| Delete one area | The transaction exists; there is no screen opening it |
 | Delete your account, in-app | The button is wired; the server function is not deployed. Use [`/delete-account`](https://lifewell.aoneahsan.com/delete-account) |
 | Google Play Billing | Built and tested against recorded responses; not configured and switched off |
 | Over-the-air updates | Planned |

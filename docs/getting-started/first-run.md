@@ -17,7 +17,7 @@ permanent — every one has a home in settings afterwards.
 |---|---|---|
 | Welcome | Nothing. It says what the app is for | — |
 | About you | A display name, a preferred name, and who you are | Yes, all three |
-| What matters | Which of the six areas you want | Yes — leaving it blank keeps all six |
+| What matters | Which of the six areas with a switch you want | Yes — leaving it blank keeps all six |
 | Reminders | Whether you want a daily nudge, and when | Yes |
 | Done | Nothing. It hands you the dashboard | — |
 
@@ -38,16 +38,17 @@ either way.
 
 ## What matters
 
-The third step is the same list as the [six areas](../domains/overview.md). Turning one off here is exactly
-the same switch as the one in settings, and it behaves the same way — quiet, not deleted.
+The third step lists the six [areas](../domains/overview.md) that have a switch. Turning one off here is
+exactly the same switch as the one in settings, and it behaves the same way — quiet, not deleted.
 
-You is not on that list, because You is the account rather than an area you can switch off.
+You is not on that list, because You is the account rather than an area you can switch off. Sharing is not on
+it either: it is the one area with no switch.
 
 ## Afterwards
 
 Everything the setup asked lives in two places once you are through it:
 
 - **Profile** — your names, who you are, your medical basics.
-- **Settings** — the six areas, reminders, appearance, and everything about your data.
+- **Settings** — the six area switches, reminders, appearance, and everything about your data.
 
 Nothing in the setup is a one-time decision that cannot be revisited.
