@@ -5,7 +5,7 @@
 | Context Budget Last Verified | 2026-09-08 — CLAUDE.md ~6 KB / no PENDING-TASKS.md; re-check due 2026-09-18 |
 |---|---|
 
-**Last Updated:** 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2 pages were deleted and 44 written
+**Last Updated:** 2026-09-11 — the Sharing area page (`docs/domains/sharing.md`; the seventh domain, OD-80), the `/blog` level-one heading fixed at the theme level, the changelog running to 3.22.0; the one open search-discovery finding (sitemap submission) is the owner's #13 (`../lifewell/SEARCH-DISCOVERY-ISSUES.md`). Earlier, 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2 pages were deleted and 44 written
 against the app's own source. The site now describes LifeWell 3.0.0.
 
 Public documentation site for **LifeWell** — *a life companion: one account holding a person's whole life;

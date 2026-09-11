@@ -4,7 +4,7 @@ Public documentation for **LifeWell** — *a life companion*: one account holdin
 family, work, memories, and the everyday things that hold them together. Web and Android. Built by
 [Ahsan Mahmood](https://aoneahsan.com).
 
-> **These pages describe LifeWell 3.0.0**, a full rebuild of the 2.x app on a new backend. The previous
+> **These pages describe LifeWell 3** (3.22.0 at the Play release), a full rebuild of the 2.x app on a new backend, with Sharing as its seventh area since 2026-09-11. The previous
 > documentation described a removed platform, an unshipped browser extension, a database the app no longer
 > uses and an inverted analytics stack; all 108 pages were deleted on 2026-09-08 and rewritten against the
 > application's own source. See [What changed in 3.0.0](https://lifewell-docs.aoneahsan.com/about/changelog).
