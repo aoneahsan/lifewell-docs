@@ -2,11 +2,19 @@
 
 **Mirror of `AGENTS.md`** — byte-identical except this header. Update one, update the other.
 
-| Context Budget Last Verified | 2026-09-08 — CLAUDE.md ~6 KB / no PENDING-TASKS.md; re-check due 2026-09-18 |
+| Context Budget Last Verified | 2026-09-12 — CLAUDE.md 7,814 B / no PENDING-TASKS.md; re-check due 2026-09-22 |
 |---|---|
 
-**Last Updated:** 2026-09-11 — the Sharing area page (`docs/domains/sharing.md`; the seventh domain, OD-80), the `/blog` level-one heading fixed at the theme level, the changelog running to 3.22.0; the one open search-discovery finding (sitemap submission) is the owner's #13 (`../lifewell/SEARCH-DISCOVERY-ISSUES.md`). Earlier, 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2 pages were deleted and 44 written
-against the app's own source. The site now describes LifeWell 3.0.0.
+**Last Updated:** 2026-09-12 — **these pages describe LifeWell 3.22.0.** The 3.0.0 address `/features/sharing`
+and its 2.x `/docs/` form now redirect to the Sharing area (OD-90 A6), so `docs/features/sharing.md` is
+excluded from the build rather than rendered; the Sharing page now says what a copied address does and does
+not carry. 🔴 **The one open search-discovery finding is OWNER-ONLY** — submitting the sitemap to Search
+Console (`fnd-sitemap-not-submitted-ac34c86428`; row 3 of `docs/MANUAL-TASKS.md`, and
+`../lifewell/SEARCH-DISCOVERY-ISSUES.md`). The site publishes `/sitemap.xml` with 63 URLs on every build, so
+it is a submission gap and never a build problem; no agent can close it. Earlier, 2026-09-11 — the Sharing
+area page (`docs/domains/sharing.md`; the seventh domain, OD-80), the `/blog` level-one heading fixed at the
+theme level, the changelog running to 3.22.0. Earlier, 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2
+pages were deleted and rewritten against the app's own source.
 
 Public documentation site for **LifeWell** — *a life companion: one account holding a person's whole life;
 health, family, work, memories and the everyday things that hold them together* (never "a health & wellness
@@ -35,7 +43,10 @@ app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source o
    looks for.
 3. 🔴 **`docs/MANUAL-TASKS.md` is EXCLUDED from the build** via the docs plugin's `exclude` array — which
    **replaces** the plugin defaults, so they are restated there. Verify in `build/`, never in the config:
-   `ls build/ | grep -i manual` → nothing.
+   `ls build/ | grep -i manual` → nothing. `docs/features/sharing.md` sits in the same array for a different
+   reason: it is a redirect now, and **a client redirect whose `from` is still a real route is silently
+   ignored**, so the page has to stop being one. Verify the redirect in `build/`, never in the config:
+   `build/features/sharing/index.html` must be a meta refresh to `/domains/sharing`.
 4. 🔴 **A page may only describe what the product actually does.** The v2 site described a removed platform,
    an unshipped extension, the wrong database and an inverted analytics stack — every one written in good
    faith, then left behind by the product. Not built → the page says **not built**, never *coming soon*.

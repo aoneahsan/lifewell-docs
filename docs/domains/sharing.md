@@ -141,6 +141,12 @@ a screenshot is a screenshot.
 
 ## Copying and sending an address
 
+The address itself says nothing. It is 64 random characters with no name, no tree and nothing about what the
+link carries written into it, so somebody who sees it in a message learns nothing until they open it. It is
+built from LifeWell's own web address rather than from the device you copied it on, so there is one address
+per link rather than a web one and an Android one — copy it in the app or copy it in a browser and you send
+the same string, and it opens the shared page in a browser anywhere you send it.
+
 LifeWell keeps only a scrambled hash of each address — a form that cannot be turned back into it — and its
 first eight characters, so you can tell two links apart. The address itself is made on your device and never
 sent to us, so it can be copied or sent again only on the device that made it.

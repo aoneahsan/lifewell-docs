@@ -4,10 +4,11 @@ Public documentation for **LifeWell** — *a life companion*: one account holdin
 family, work, memories, and the everyday things that hold them together. Web and Android. Built by
 [Ahsan Mahmood](https://aoneahsan.com).
 
-> **These pages describe LifeWell 3** (3.22.0 at the Play release), a full rebuild of the 2.x app on a new backend, with Sharing as its seventh area since 2026-09-11. The previous
-> documentation described a removed platform, an unshipped browser extension, a database the app no longer
-> uses and an inverted analytics stack; all 108 pages were deleted on 2026-09-08 and rewritten against the
-> application's own source. See [What changed in 3.0.0](https://lifewell-docs.aoneahsan.com/about/changelog).
+> **These pages describe LifeWell 3.22.0**, a full rebuild of the 2.x app on a new backend, with Sharing as
+> its seventh area since 2026-09-11. The previous documentation described a removed platform, an unshipped
+> browser extension, a database the app no longer uses and an inverted analytics stack; all 108 pages were
+> deleted on 2026-09-08 and rewritten against the application's own source.
+> See [What changed in 3.0.0](https://lifewell-docs.aoneahsan.com/about/changelog).
 
 - **Live site**: <https://lifewell-docs.aoneahsan.com>
 - **App**: <https://lifewell.aoneahsan.com>
@@ -18,13 +19,13 @@ application source is a separate private repository.
 
 ## What is documented here
 
-44 pages, structured the way the product is — six life areas around **You**:
+45 pages, structured the way the product is — seven areas around **You**:
 
 - **Get started** — install on the web or Android, the five-step first run, a short tour.
-- **The six areas** — health, mind, life stages, people, memories, everyday, and the switches that turn one
-  off without deleting anything.
+- **The seven areas** — health, mind, life stages, people, memories, everyday and sharing. Six carry a switch
+  that turns the area off without deleting anything; sharing does not.
 - **Features** — calendar and appointments, reminders, search, community and chats, professionals, blood
-  donation, sharing, referrals, the shopping list, maps, tools.
+  donation, referrals, the shopping list, maps, tools.
 - **Plans** — Free, Pro and Family, how the free tier is drawn, and the two ways to pay.
 - **Your data** — export everything, delete everything or one area, and where the record actually lives.
 - **How it works** — architecture, the data model, privacy and security, offline and sync, appearance,
@@ -67,6 +68,10 @@ rather than shipping. There is no dev-server step in this project's workflow; in
 Pushing to `main` runs `.github/workflows/deploy-pages.yml`, which builds and publishes to GitHub Pages at
 `lifewell-docs.aoneahsan.com`. There is no manual deploy step and no Firebase project.
 
+One search-discovery finding on this site is still open, and it is **owner-only**: the sitemap has not been
+submitted to Search Console. Every build publishes `/sitemap.xml` with 63 URLs, so it is a submission gap
+rather than a build problem, and no agent can close it — it is row 3 of `docs/MANUAL-TASKS.md`.
+
 ## License
 
 - **Documentation content**: [CC-BY-4.0](LICENSE) — share, adapt, attribute.
@@ -91,4 +96,4 @@ CSS, D3.js, Zustand, TanStack Router, Tiptap, and many more. Thanks to those com
 ---
 
 **Maintainer**: Ahsan Mahmood · [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com)
-**Last updated**: 2026-09-08
+**Last updated**: 2026-09-12

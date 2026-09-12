@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     to: '/domains/overview',
-    cta: 'Read about the six areas',
+    cta: 'Read about the seven areas',
   },
   {
     title: 'Your record, and a way out of it',

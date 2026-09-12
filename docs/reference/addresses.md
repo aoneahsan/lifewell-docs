@@ -93,7 +93,7 @@ because a crawler obeys its own group and ignores the wildcard one.
 ## Why the addresses do not match the areas
 
 `/health/mood-journal` is in the Mind area and `/health/menopause` is in Life stages. The prefix is wrong
-about the area, and it stays wrong on purpose — see [The six areas](../domains/overview.md#why-the-addresses-do-not-match-the-areas).
+about the area, and it stays wrong on purpose — see [The seven areas](../domains/overview.md#why-the-addresses-do-not-match-the-areas).
 
 ## Not in the list
 

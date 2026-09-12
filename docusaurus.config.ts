@@ -74,11 +74,14 @@ const config: Config = {
           {to: '/domains/people', from: ['/docs/family/overview']},
           {to: '/domains/memories', from: ['/docs/memories-and-notes/memories']},
           {to: '/domains/everyday', from: ['/docs/memories-and-notes/notes']},
+          // Sharing became the seventh AREA in 3.22.0 (OD-80), so it moved out of
+          // /features. Both its old addresses come here rather than 404ing (OD-90 A6):
+          // the 3.0.0 one, and the 2.x /docs/ form of it.
+          {to: '/domains/sharing', from: ['/docs/family/data-sharing', '/docs/profile-and-settings/data-sharing', '/docs/community/partner-features', '/features/sharing', '/docs/features/sharing']},
           {to: '/features/maps', from: ['/docs/maps/overview']},
           {to: '/features/community-and-chats', from: ['/docs/community/communities', '/docs/community/chats']},
           {to: '/features/professionals', from: ['/docs/community/consultations']},
           {to: '/features/blood-donation', from: ['/docs/profile-and-settings/blood-donor']},
-          {to: '/features/sharing', from: ['/docs/family/data-sharing', '/docs/profile-and-settings/data-sharing', '/docs/community/partner-features']},
           {to: '/features/reminders', from: ['/docs/profile-and-settings/reminders', '/docs/mobile/push-notifications']},
           {to: '/features/tools', from: ['/docs/tools/overview']},
           {to: '/plans', from: ['/docs/profile-and-settings/premium-and-payments', '/docs/faq/billing']},
@@ -317,7 +320,7 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {label: 'Get started', to: '/intro'},
-            {label: 'The six areas', to: '/domains/overview'},
+            {label: 'The seven areas', to: '/domains/overview'},
             {label: 'Export your record', to: '/your-data/export'},
             {label: 'Privacy and security', to: '/concepts/privacy-and-security'},
           ],
