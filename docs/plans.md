@@ -1,7 +1,7 @@
 ---
 title: Plans
-description: Free, Pro and Family — what each one includes, how the free tier is drawn, and the two ways to pay. Prices in pounds, monthly or yearly.
-keywords: [lifewell plans, lifewell pricing, free plan, pro plan, family plan, google play billing]
+description: Free, Pro and Family — what each one includes, how Family seats work, how the free tier is drawn, and the two ways to pay. Prices in US dollars, monthly or yearly.
+keywords: [lifewell plans, lifewell pricing, free plan, pro plan, family plan, family seats, google play billing]
 tags: [plans, account]
 sidebar_position: 8
 ---
@@ -11,11 +11,13 @@ sidebar_position: 8
 Three tiers. [`/plans`](https://lifewell.aoneahsan.com/plans) in the app is the live version of this page, and
 it renders from the same table the server gates on.
 
+Prices are in US dollars.
+
 | | Free | Pro | Family |
 |---|---|---|---|
-| Monthly | — | **£3** | **£6** |
-| Yearly | — | **£30** | **£60** |
-| Accounts | 1 | 1 | 6 |
+| Monthly | $0 | **$9.99** | **$8.99 per seat** |
+| Yearly | $0 | **$99.90** | **$89.90 per seat** |
+| Seats | 1 | 1 | 3 or more, no upper limit |
 | People you can record | 50 | Unlimited | Unlimited |
 | Entries | Unlimited | Unlimited | Unlimited |
 | Storage | 5 GB | 50 GB | 200 GB |
@@ -24,6 +26,21 @@ it renders from the same table the server gates on.
 | Scheduled exports | — | Yes | Yes |
 | Consultations | — | Yes | Yes |
 | AI estimates a month | 50 | 1,000 | 1,500 |
+
+Family starts at three seats — $26.97 a month for three. You choose the number when you buy, and hand the
+seats out afterwards.
+
+## Family seats
+
+A seat changes which plan somebody is on, and nothing else.
+
+- **Who can be given one.** Somebody already connected to you on LifeWell as family, and kept in your
+  [Family group](./domains/people.md#connections-and-groups). A seat cannot go to a stranger.
+- **It shares nothing.** You cannot see the record, entries, people or files of somebody holding one of your
+  seats, and they cannot see yours. What you see is that they hold a seat, and the date they took it.
+- **Either side can end it**, at any time.
+- **If the plan ends, every seat ends with it.** Each record stays exactly as it is; anything above Free's
+  limits becomes read-only until that person chooses a plan of their own.
 
 ## How the free tier is drawn
 
@@ -50,9 +67,9 @@ form: you pay, you tell us, and an administrator applies the plan against your c
 
 ### On Android
 
-The Android app sells through **Google Play Billing**, because Google requires digital goods on Android to be
-sold that way. The Android panel therefore never shows a web price, never links out in order to pay, and
-never compares the two.
+On Android, purchases go through **Google Play Billing**, because Google requires digital goods on Android to
+be sold that way. There is never a link inside the app to pay somewhere else, and the Android panel never
+shows a web price or compares the two.
 
 :::warning[Play Billing is built and not switched on]
 The purchase flow, the server verification and Google's renewal notifications are written, compiled and

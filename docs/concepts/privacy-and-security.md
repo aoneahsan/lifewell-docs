@@ -1,7 +1,7 @@
 ---
 title: Privacy and security
-description: What leaves your device and what does not — sign-in without a password, per-row database rules, scrubbed analytics, and the claims LifeWell deliberately does not make.
-keywords: [lifewell privacy, health data privacy, row level security, analytics scrubbing, data security]
+description: What leaves your device and what does not — sign-in without a password, per-row database rules, scrubbed analytics, the contacts permission, identity card pictures, and the claims LifeWell deliberately does not make.
+keywords: [lifewell privacy, health data privacy, row level security, analytics scrubbing, data security, contacts permission, family seats]
 tags: [concepts, privacy]
 sidebar_position: 3
 ---
@@ -69,7 +69,29 @@ it is for. The list is short and it is checked against the merged Android manife
 intentions — plugins inject permissions, and an unaudited manifest is how an app ends up asking for something
 nobody chose.
 
-Nothing asks for contacts, SMS or call logs.
+Nothing asks for SMS or call logs.
+
+### Contacts
+
+Asked only when you press **Contacts** beside a phone number. Android asks for reading and changing contacts as
+one permission, so both are declared; LifeWell only reads the one contact you pick — its name and numbers —
+and keeps only the number you choose. It never adds, changes or removes a contact, and your address book is
+never uploaded, searched or stored. Say no and you type the number instead.
+
+## A picture of somebody else's identity card
+
+A front and back picture you add to a person in your own record is kept with LifeWell, encrypted, and not in
+your Google Drive — the one picture in LifeWell that works that way, because an administrator has to be able
+to open it for a check. Only LifeWell administrators can open it, and every opening is logged. You see that it
+is kept, its size and its date, but not the picture; the person it belongs to, your connections and every
+shared link never see it. It is removed for good when you remove it, delete that person or delete your
+account. Details: [People](../domains/people.md#identity-card-pictures).
+
+## Family seats share nothing
+
+A seat on somebody's Family plan changes which plan you are on and nothing else. The payer cannot see your
+record, entries, people or files, and you cannot see theirs; the payer sees only that you hold a seat and the
+date you took it. See [Family seats](../plans.md#family-seats).
 
 ## What LifeWell does not claim
 

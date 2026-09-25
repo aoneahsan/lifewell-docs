@@ -1,6 +1,6 @@
 ---
 title: What changed in 3.0.0
-description: LifeWell 3.0, the release that carries the version string 3.22.0, is a full rebuild on a new backend. What is new, what was removed, what was corrected, and the reset that comes with it.
+description: LifeWell 3.0, the release that carries the version string 3.22.0, is a full rebuild on a new backend. What is new, what was removed, what was corrected, the reset that comes with it, and what changed on 25 September 2026.
 keywords: [lifewell 3.0, lifewell 3.22.0, changelog, release notes, what is new]
 tags: [about, changelog]
 sidebar_position: 2
@@ -29,6 +29,27 @@ What is new in it:
 - Sign in with Google on every device.
 
 The rest of this page is the long version of those points.
+
+## 25 September 2026
+
+- **Prices are in US dollars.** Pro is $9.99 a month or $99.90 a year. Family is $8.99 per seat a month or
+  $89.90 per seat a year, from three seats with no upper limit; you choose the number and hand seats out
+  afterwards, only to somebody already connected to you as family. A seat shares nothing, either side can end
+  it, and if the plan ends every seat ends. On Android you buy through Google Play, and the app never links
+  elsewhere to pay. See [Plans](../plans.md#family-seats).
+- **Choose a number from your contacts.** A *Contacts* button beside every phone number field lets you pick
+  one number. Android asks for reading and changing contacts as one permission; LifeWell reads only the
+  contact you pick and never changes your address book. See
+  [People](../domains/people.md#choosing-a-number-from-your-contacts).
+- **Identity card pictures for a person in your record** — front and back, kept with LifeWell, encrypted,
+  opened only by administrators for a check, and never shown to you, the person or any link. See
+  [People](../domains/people.md#identity-card-pictures).
+- **A shorter menu.** Star any page to keep it under *Favourites* at the top of the menu, up to 12. *All
+  pages* at the foot of the menu lists everything, each page ends with a *More in …* row, and *Sign out* is
+  easier to find — under your name on a phone, at the foot of the sidebar on a desktop, on your profile and
+  first under Settings → Security.
+- **Asking somebody to connect is one request.** When it cannot be sent — their entry has no email address,
+  the address is your own, or you have asked too often — the app says which.
 
 ## The two version numbers
 

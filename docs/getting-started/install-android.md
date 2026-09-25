@@ -34,7 +34,8 @@ stated here because Play will simply hide the listing rather than explaining why
 ## What it does not ask for
 
 The app declares a deliberately small set of permissions, and each one is explained inside the app at
-`/permissions`. Nothing asks for contacts, SMS or call logs, and the reminder engine never requests the
+`/permissions`. Nothing asks for SMS or call logs, contacts are asked for only when you press Contacts beside a phone
+number (see the Android permissions table), and the reminder engine never requests the
 exact-alarm permission — a reminder is scheduled inexactly on purpose, because the exact one is reserved by
 Google for alarm clocks and calendars.
 

@@ -1,7 +1,7 @@
 ---
 title: People
 description: Family and work trees, connections, places, messages, community, professionals and blood donation — the largest folder of screens in LifeWell.
-keywords: [lifewell family tree, work tree, connections, community, chats, professionals directory, blood donors]
+keywords: [lifewell family tree, work tree, connections, contacts picker, identity card picture, community, chats, professionals directory, blood donors]
 tags: [domains, people]
 sidebar_position: 5
 ---
@@ -15,6 +15,29 @@ The largest single folder of screens in the app, and the reason LifeWell is not 
 `/people` is a record of the people in your life — who they are to you, and the details you would otherwise
 keep in four places. `/people/import` brings a list in rather than making you type it.
 
+### Choosing a number from your contacts
+
+On Android, a **Contacts** button sits beside every phone number field. Press it and your phone shows your
+contacts; you pick one, and LifeWell reads only that contact's name and numbers and keeps just the number you
+choose. Android asks for reading and changing contacts as one permission, and it asks only when you press
+Contacts. LifeWell never adds, changes or removes a contact, and your address book is never uploaded, searched
+or stored. Say no and you type the number instead — every phone field works either way.
+
+### Identity card pictures
+
+On a person in your own record you can add a picture of the front and back of their identity card — JPEG,
+PNG or WebP, up to 5 MB a side. A number alone can be mistyped; the picture is what a check is made against
+if a match is ever questioned.
+
+- **Where it is kept.** With LifeWell, encrypted, and not in your Google Drive — the one picture in LifeWell
+  that works that way.
+- **Who can open it.** Only LifeWell administrators, for a check, and every opening is written to the
+  administrators' log. You can see that it is kept, its size and the date you added it, but not the picture
+  itself.
+- **Who never sees it.** The person it belongs to, anybody you connect with, and any shared link.
+- **How it goes.** You remove it, you delete that person, or you delete your account — any of the three
+  deletes it for good.
+
 ## Trees
 
 - **`/people/family-tree`** — who is related to whom.
@@ -27,8 +50,12 @@ rather than two.
 
 - **`/people/connections`** — people who also use LifeWell and have agreed to be connected to you. In the
   menu it sits under [Sharing](./sharing.md), as *Partner sharing*.
-- **`/people/family-groups`** — a household or family group, which is how a Family plan shares its seats.
+- **`/people/family-groups`** — a household or family group. A Family plan's seats can only go to somebody
+  already connected to you here, and a seat shares nothing — see [Family seats](../plans.md#family-seats).
 - **`/people/journeys`** — a shared trip or period, with its own photos and notes.
+
+Asking somebody to connect is one request. If their entry has no email address, if the address is your own,
+or if you have asked too often, the app says which rather than failing quietly.
 
 ## Places
 

@@ -1,7 +1,7 @@
 ---
 title: Android
-description: LifeWell on Android — minimum Android 9, six permissions and why each one is there, local reminders, and the two things that are built but not switched on.
-keywords: [lifewell android, android permissions, minsdk 28, capacitor android, play store]
+description: LifeWell on Android — minimum Android 9, every permission the app declares and why each one is there, local reminders, and the two things that are built but not switched on.
+keywords: [lifewell android, android permissions, contacts permission, minsdk 28, capacitor android, play store]
 tags: [platforms, android]
 sidebar_position: 2
 ---
@@ -25,19 +25,29 @@ explaining why.
 
 ## Permissions
 
-Six, and the app explains each one at
-[`/permissions`](https://lifewell.aoneahsan.com/permissions).
+Ten, and the app explains each one at
+[`/permissions`](https://lifewell.aoneahsan.com/permissions). The first five are asked for when you use
+the feature and can be refused — the two contacts rows arrive as one prompt; the rest are granted by Android
+at install.
 
 | Permission | Why |
 |---|---|
+| Camera | Taking a photo straight into your memories or your record. Asked the first time you tap *Take a photo*; refuse, and you can still pick from your device |
+| Location (approximate) | Your position, while the professionals page is open, to sort by distance. Asked when you tap *Use my position*, and never stored |
+| Contacts (reading) | The one contact you pick when you press **Contacts** beside a phone number — its name and numbers — so the number you choose goes into the field. Asked when you press Contacts, never at start |
+| Contacts (changing) | Nothing. Android grants reading and changing contacts as one permission; LifeWell only reads, and never adds, changes or removes a contact |
+| Notifications | To deliver a reminder you asked for |
 | Internet | To sync your record |
 | Network state | To know whether it can, and to say so instead of failing quietly |
-| Notifications | To deliver a reminder you asked for |
 | Run at startup | So reminders survive a restart |
 | Wake lock | So a scheduled reminder can be delivered |
 | Advertising id | Declared, and see below |
 
-Nothing asks for contacts, SMS, call logs, location or the camera roll.
+Say no to contacts and you type the number instead — every phone field works either way. Your address book
+is never uploaded, searched or stored.
+
+Nothing asks for SMS, call logs, background location, the microphone or broad access to your photos and
+files.
 
 ### Two that are actively removed
 

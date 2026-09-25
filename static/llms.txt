@@ -63,7 +63,8 @@ page still opens if you go to it directly. Sharing has no switch: it is where yo
 
 ## Plans
 
-Free, Pro (£3/month, £30/year) and Family (£6/month, £60/year). Split by what a use costs to run rather than
+Free ($0), Pro ($9.99 a month or $99.90 a year) and Family ($8.99 per seat a month, from three seats, with no upper
+limit; a seat goes only to somebody connected as family and shares nothing). Split by what a use costs to run rather than
 by how much of the product you get: unlimited entries on every tier, 50 people on Free, AI estimates limited
 tightest and removed entirely by bringing your own key on any tier. Web payment is arranged manually; Android
 sells through Google Play Billing, which is built and not switched on.

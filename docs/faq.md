@@ -1,7 +1,7 @@
 ---
 title: Questions people ask
 description: Answers to what people ask before trusting an app with a life — cost, privacy, getting your record out, offline use, and what LifeWell refuses to do.
-keywords: [lifewell faq, is lifewell free, lifewell privacy questions, export data, delete account]
+keywords: [lifewell faq, is lifewell free, lifewell privacy questions, export data, delete account, family seats, contacts permission, favourites]
 tags: [faq]
 sidebar_position: 10
 ---
@@ -19,11 +19,19 @@ Introducing it as a health tracker gets the product wrong.
 
 ## What does it cost?
 
-There is a Free tier and two paid ones — Pro at £3 a month and Family at £6. The full comparison is
-[Plans](./plans.md).
+There is a Free tier and two paid ones, priced in US dollars — Pro at $9.99 a month or $99.90 a year, and
+Family at $8.99 per seat a month or $89.90 per seat a year, from three seats. On Android you buy through
+Google Play, and the app never links you elsewhere to pay. The full comparison is [Plans](./plans.md).
 
 **Export is on every tier, including Free.** A product that holds your life and charges you to get a copy of
 it is a product with a hostage.
+
+## What does a Family seat give the person who holds it?
+
+The Family plan's limits, and nothing of yours. A seat shares no record, entry, person or file in either
+direction; the payer sees only that you hold a seat and the date you took it. A seat can only go to somebody
+already connected to the payer as family, either of you can end it, and if the plan ends every seat ends —
+anything above Free's limits then becomes read-only. See [Family seats](./plans.md#family-seats).
 
 ## Can I get my record out?
 
@@ -73,6 +81,32 @@ exists. The web app runs in Safari and is the same application.
 
 No. It is [planned and not built](./platforms/browser-extension.md). Older documentation described one; that
 documentation was describing something that is not shipping.
+
+## Why does Android ask about my contacts?
+
+Because you pressed **Contacts** beside a phone number, and only then. Android asks for reading and changing
+contacts as one permission; LifeWell reads only the one contact you pick — its name and numbers — keeps only
+the number you choose, and never adds, changes or removes a contact. Your address book is never uploaded,
+searched or stored. Say no and you type the number instead. See
+[Privacy and security](./concepts/privacy-and-security.md#permissions).
+
+## Who can see a picture of somebody else's identity card?
+
+Only LifeWell administrators, for a check, and every opening is logged. You can see that the picture is kept,
+its size and the date, but not the picture itself, and it is never shown to the person, any connection or any
+shared link. It is kept with LifeWell, encrypted — not in your Google Drive — until you remove it, delete the
+person or delete your account. See [People](./domains/people.md#identity-card-pictures).
+
+## How do I keep the pages I use at the top of the menu?
+
+Press the star in the top bar on any page. It appears under **Favourites** at the top of the menu — up to 12,
+kept on your account, and removing one asks first. **All pages** at the foot of the menu lists every page,
+and each page ends with a *More in …* row of related pages.
+
+## Where is Sign out?
+
+Under your name in the phone menu, at the foot of the sidebar on a desktop, on your profile, and first under
+Settings → Security.
 
 ## Who can see what I record?
 
