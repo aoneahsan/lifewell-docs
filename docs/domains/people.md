@@ -38,6 +38,14 @@ if a match is ever questioned.
 - **How it goes.** You remove it, you delete that person, or you delete your account — any of the three
   deletes it for good.
 
+### Email needed
+
+The **Email needed** filter on the People page (`/people?filter=email-needed`) lists the people in your record
+who have no email address and whom you have not marked as having none. People you import by name alone arrive
+with no email address, so they appear here. Tick that a person has no email address and they leave the list.
+When nobody is owed one, the page says so: *Everyone in your record has an email address, or you have said
+they have none.* An email address is what [a request to connect](#when-somebody-invites-you) is sent to.
+
 ## Trees
 
 - **`/people/family-tree`** — who is related to whom.
@@ -55,7 +63,22 @@ rather than two.
 - **`/people/journeys`** — a shared trip or period, with its own photos and notes.
 
 Asking somebody to connect is one request. If their entry has no email address, if the address is your own,
-or if you have asked too often, the app says which rather than failing quietly.
+or if you have asked too often, the app says which rather than failing quietly. [Email needed](#email-needed)
+lists everybody in your record who still has no address.
+
+### When somebody invites you
+
+If somebody adds you as a person in their record with your email address before you have a LifeWell account,
+and presses **Invite**, you receive an invitation email with a link. Open the link, create your account and
+finish onboarding, and the invitation is kept: their request to connect is waiting for you when you are in.
+
+| Who | Notice | What it says | Action |
+|---|---|---|---|
+| You | *[their name] added you as family on LifeWell* | Their request to connect is waiting for you. | *Review the request* |
+| The person who invited you | *[your name] joined LifeWell* | The person you invited now has an account. | *See their page* |
+| The person who invited you, if you accept | *[your name] accepted your request* | You are now connected. | *What they can see* |
+
+Nothing is shared until you accept, and declining is always fine.
 
 ## Places
 
