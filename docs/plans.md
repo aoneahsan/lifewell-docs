@@ -100,7 +100,7 @@ A [referral reward](./features/referrals.md) extends a paid plan rather than rep
 
 - **Web** — the plan runs to its end date. There is no auto-renewal to cancel.
 - **Android** — manage or cancel the subscription in Google Play, which is where the transaction lives.
-  LifeWell has no cancel or refund control of its own, because Google holds the transaction and a button
+  LifeWell has no cancel control of its own, because Google holds the transaction and a button
   wired to nothing is worse than no button.
 
 Nothing about your record changes when a plan ends. You drop to Free limits for new writes; what you already
