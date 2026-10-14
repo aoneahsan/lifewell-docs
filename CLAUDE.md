@@ -1,20 +1,14 @@
 # LifeWell Docs — CLAUDE.md
 
-**Mirror of `AGENTS.md`** — byte-identical except this header. Update one, update the other.
+**Mirror of `CLAUDE.md`** — byte-identical except this header.
 
-| Context Budget Last Verified | 2026-09-12 — CLAUDE.md 7,814 B / no PENDING-TASKS.md; re-check due 2026-09-22 |
+| Context Budget Last Verified | 2026-10-14; re-check due 2026-11-13. See the workspace context tracker. |
 |---|---|
 
-**Last Updated:** 2026-09-12 — **these pages describe LifeWell 3.22.0.** The 3.0.0 address `/features/sharing`
-and its 2.x `/docs/` form now redirect to the Sharing area (OD-90 A6), so `docs/features/sharing.md` is
-excluded from the build rather than rendered; the Sharing page now says what a copied address does and does
-not carry. 🔴 **The one open search-discovery finding is OWNER-ONLY** — submitting the sitemap to Search
-Console (`fnd-sitemap-not-submitted-ac34c86428`; row 3 of `docs/MANUAL-TASKS.md`, and
-`../lifewell/SEARCH-DISCOVERY-ISSUES.md`). The site publishes `/sitemap.xml` with 63 URLs on every build, so
-it is a submission gap and never a build problem; no agent can close it. Earlier, 2026-09-11 — the Sharing
-area page (`docs/domains/sharing.md`; the seventh domain, OD-80), the `/blog` level-one heading fixed at the
-theme level, the changelog running to 3.22.0. Earlier, 2026-09-08 — 🔴 **the v3 rewrite landed.** All 108 v2
-pages were deleted and rewritten against the app's own source.
+**Last Updated:** 2026-10-14. These public pages describe the LifeWell
+3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
+and read `../STATUS.md`. The sitemap submission remains an owner task;
+the docs build alone does not complete it.
 
 Public documentation site for **LifeWell** — *a life companion: one account holding a person's whole life;
 health, family, work, memories and the everyday things that hold them together* (never "a health & wellness
