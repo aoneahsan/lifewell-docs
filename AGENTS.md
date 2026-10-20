@@ -5,7 +5,7 @@
 | Context Budget Last Verified | 2026-10-14; re-check due 2026-11-13. See the workspace context tracker. |
 |---|---|
 
-**Last Updated:** 2026-10-14. These public pages describe the LifeWell
+**Last Updated:** 2026-10-20. These public pages describe the LifeWell
 3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
 and read `../STATUS.md`. The sitemap submission remains an owner task;
 the docs build alone does not complete it.
@@ -98,3 +98,9 @@ push (`docs-sites.md`) · package hierarchy nvm → npm (global) → yarn (local
 `aoneahsan-ccca-*` only, `EXCLUSIVE SCOPE` (`subagent-orchestration.md`) · model floor Fable 5 / Opus 5 or
 newer (`01-authorizations.md`) · the storytelling gates for any new prose (`storytelling-content.md`; the
 Bible lives in `../lifewell/docs/story/`) · task speed over docs (`00-house-rules.md`).
+
+## Stop-work Git gate
+
+<!-- RULE:stop-work-git-gate v2026-10-20 -->
+
+Before stopping, commit every legitimate change and work-progress checkpoint in this repository and each independent nested repository, fetch and merge the designated upstream, push the documented working branch, then verify an empty worktree and `0 0` ahead/behind. Never stash, discard, reset, rebase, or force-push. If synchronization is blocked, report the exact repository, branch, blocker, and next action instead of calling the work complete. The full workflow remains authoritative in `~/.claude/rules/git-workflow.md`.
