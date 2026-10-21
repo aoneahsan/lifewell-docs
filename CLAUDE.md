@@ -5,7 +5,7 @@
 | Context Budget Last Verified | 2026-10-14; re-check due 2026-11-13. See the workspace context tracker. |
 |---|---|
 
-**Last Updated:** 2026-10-20. These public pages describe the LifeWell
+**Last Updated:** 2026-10-21. These public pages describe the LifeWell
 3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
 and read `../STATUS.md`. The sitemap submission remains an owner task;
 the docs build alone does not complete it.
@@ -98,6 +98,14 @@ push (`docs-sites.md`) · package hierarchy nvm → npm (global) → yarn (local
 `aoneahsan-ccca-*` only, `EXCLUSIVE SCOPE` (`subagent-orchestration.md`) · model floor Fable 5 / Opus 5 or
 newer (`01-authorizations.md`) · the storytelling gates for any new prose (`storytelling-content.md`; the
 Bible lives in `../lifewell/docs/story/`) · task speed over docs (`00-house-rules.md`).
+
+## Fleet maintenance checkpoint
+
+Pass 2 completed 2026-10-21 on Yarn 4.18.1, Docusaurus 3.10.2 and React 19.3.1. Direct Docusaurus search
+peers are declared, Pages uses the current official action majors with Node 24, and immutable install,
+typecheck, production build and exact-output desktop/mobile browser checks passed. The `main` push is the
+only deployment in this pass. Do not repeat this fleet maintenance before 2026-11-20 unless a documented
+exception applies.
 
 ## Stop-work Git gate
 
