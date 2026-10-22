@@ -18,11 +18,12 @@ type FeatureItem = {
  */
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Six areas, and you in the middle',
+    title: 'The people in your life first',
     icon: '🧭',
     description: (
       <>
-        Health, mind, life stages, people, memories and the everyday week. Any of the six can be
+        You start with yourself and add the people who matter. Memories, the everyday and sharing sit
+        with them, and health, mind and life stages around them. Six of the seven areas can be
         switched off — off means the menu stops listing it, not that anything is deleted.
       </>
     ),

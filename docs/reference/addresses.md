@@ -1,6 +1,6 @@
 ---
 title: Addresses that do not move
-description: Ninety-six public LifeWell addresses and fifteen redirects that are frozen. A rebuild changes code, not addresses.
+description: Ninety-nine public LifeWell addresses and fifteen redirects that are frozen. A rebuild changes code, not addresses.
 keywords: [lifewell urls, permanent links, redirects, sitemap, frozen urls]
 tags: [reference, seo]
 sidebar_position: 2
@@ -8,8 +8,9 @@ sidebar_position: 2
 
 # Addresses that do not move
 
-Ninety-six public addresses on [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) are frozen. Every one
-of them resolves in 3.0.0, and none of them changed in the rebuild.
+Ninety-six public addresses on [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) were frozen at the
+rebuild. Every one of them resolves in 3.0.0, and none of them changed. Three have been added since and are frozen
+the same way: `/features/professionals`, `/changelog` and `/how-lifewell-works` — ninety-nine in all.
 
 They are frozen because they are already public — indexed by search engines, shipped to installed apps, or
 linked from somewhere we do not control. **The rebuild changes code, not contracts.**

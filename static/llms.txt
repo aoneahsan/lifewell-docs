@@ -1,30 +1,33 @@
 # LifeWell
 
-> LifeWell is one record for a whole life — health, mind, life stages, people, memories and the everyday week
-> — kept by the person it belongs to. Web app and Capacitor Android app. Built and maintained by Ahsan
-> Mahmood. It is NOT a health tracker: health is the largest of its seven areas and deliberately not the point
-> of it.
+> LifeWell keeps the people and moments of your life in one place. You start with yourself, add the people who
+> matter — family on one side, work on the other — and keep what you know about them, your memories and your
+> plans. Wellbeing, mind, life stages and health sit around that, to help a life go well. It is not a health
+> tracker. It runs on the web at https://lifewell.aoneahsan.com and on Android via Google Play.
+> Last updated: 2026-10-22.
 
-Tagline: Your whole life, in one place.
+LifeWell is built and maintained by the LifeWell team.
+
+Tagline: Keep the people and moments of your life in one place — and everything around them.
 
 ## Structure
 
 Seven areas, with You in the middle. You is the account, not an area, and cannot be switched off.
 
-- Health — trackers (water, steps, weight, blood pressure, blood sugar, sleep and more), medications, food
-  and meals, exercise, conditions, lab results.
-- Mind — journal (mood, gratitude, dreams, free writing), guided breathing, meditation, sleep sounds, desk
-  wellness breaks.
-- Life stages — cycle, trying to conceive, ovulation, PCOS, menopause, breastfeeding, children (feeds, sleep,
-  nappies, growth, milestones).
 - People — family tree, work tree, connections, family groups, journeys, saved places and maps, messages,
   community groups, professionals directory, blood donor directory.
 - Memories — photos, albums, scrapbook, tags, captions.
 - Everyday — calendar and appointments, notes and folders, saved places, reminders, shopping list.
 - Sharing — links you make to show someone a tracker, your medications or a family tree, or to ask for
   something back; each carries only what you choose and can be ended at any time.
+- Health — trackers (water, steps, weight, blood pressure, blood sugar, sleep and more), medications, food
+  and meals, exercise, conditions, lab results.
+- Mind — journal (mood, gratitude, dreams, free writing), guided breathing, meditation, sleep sounds, desk
+  wellness breaks.
+- Life stages — cycle, trying to conceive, ovulation, PCOS, menopause, breastfeeding, children (feeds, sleep,
+  nappies, growth, milestones).
 
-Each of the first six can be switched off. Off means the menu stops listing it; nothing is deleted, and any
+Every area except Sharing can be switched off. Off means the menu stops listing it; nothing is deleted, and any
 page still opens if you go to it directly. Sharing has no switch: it is where you end what you have shared.
 
 ## What LifeWell does NOT do
@@ -76,6 +79,7 @@ sells through Google Play Billing, which is built and not switched on.
 - Sharing: https://lifewell-docs.aoneahsan.com/domains/sharing
 - Install on the web: https://lifewell-docs.aoneahsan.com/getting-started/install-web
 - Install on Android: https://lifewell-docs.aoneahsan.com/getting-started/install-android
+- The page tour and the walkthrough: https://lifewell-docs.aoneahsan.com/getting-started/tours-and-walkthrough
 - Privacy and security: https://lifewell-docs.aoneahsan.com/concepts/privacy-and-security
 - Architecture: https://lifewell-docs.aoneahsan.com/concepts/architecture
 - The data model: https://lifewell-docs.aoneahsan.com/concepts/data-model
@@ -111,12 +115,7 @@ sells through Google Play Billing, which is built and not switched on.
 - Documentation source: https://github.com/aoneahsan/lifewell-docs (CC BY 4.0). Application source is private.
 - Contact: aoneahsan@gmail.com
 
-## About the developer
+## About the team
 
-Ahsan Mahmood — full-stack engineer. One person, and the product is direct about what it cannot do because of
-it.
-
-- Portfolio: https://aoneahsan.com
-- GitHub: https://github.com/aoneahsan
-- LinkedIn: https://linkedin.com/in/aoneahsan
-- npm: https://npmjs.com/~aoneahsan
+LifeWell is built and maintained by the LifeWell team, which is direct about what the product cannot do.
+More: https://lifewell-docs.aoneahsan.com/about/the-developer

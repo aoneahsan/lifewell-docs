@@ -26,6 +26,7 @@ inside an area it lists only the screens that apply to you — see
 
 | Control | What it does |
 |---|---|
+| Page tour | The signpost beside the star. A short tour of the page you are on — see [the page tour and the walkthrough](./tours-and-walkthrough.md) |
 | Search | Opens the record search. [Being built](../features/search.md) |
 | Notifications | What the app has sent you — reminders, share activity, admin notices |
 | Appearance | One icon, one panel, every appearance setting. See [Appearance](../concepts/appearance.md) |

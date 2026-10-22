@@ -10,9 +10,9 @@
 and read `../STATUS.md`. The sitemap submission remains an owner task;
 the docs build alone does not complete it.
 
-Public documentation site for **LifeWell** — *a life companion: one account holding a person's whole life;
-health, family, work, memories and the everyday things that hold them together* (never "a health & wellness
-app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source only** and is itself **public**
+Public documentation site for **LifeWell** — *it keeps the people and moments of your life in one place, with
+everything else around them to help your life go well* (people first, OD-113, 2026-10-22; never "a health &
+wellness app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source only** and is itself **public**
 (CC-BY-4.0 content; no secrets, no private tooling names, ever).
 
 - Live docs: https://lifewell-docs.aoneahsan.com · App: https://lifewell.aoneahsan.com (`com.aoneahsan.lifewell`)
@@ -55,7 +55,7 @@ app", OD-25). Built with **Docusaurus 3**. This repo is **documentation source o
   `your-data/`, `concepts/`, `platforms/`, `admin`, `reference/`, `faq`, `about/`.
 - **`onBrokenLinks: 'throw'`** and `onBrokenMarkdownLinks: 'throw'` — **the build is the link checker.**
 - Local search via `@easyops-cn/docusaurus-search-local` (`docsRouteBasePath: '/'` — it must match).
-- SEO/AEO shipped: JSON-LD `@graph` (WebSite + Organization + Person) in `docusaurus.config.ts` headTags,
+- SEO/AEO shipped: JSON-LD `@graph` (WebSite + Organization — no Person since 2026-10-22, team voice) in `docusaurus.config.ts` headTags,
   `static/robots.txt`, `static/llms.txt` (rewritten for v3), an IndexNow key file + `indexnow:ping` script,
   `sitemap.xml`, OG/Twitter meta.
 - **Deployment: GitHub Pages** via `.github/workflows/deploy-pages.yml` with the custom domain — **a push

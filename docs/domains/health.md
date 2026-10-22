@@ -1,15 +1,16 @@
 ---
 title: Health
-description: Trackers, medications, food and meals, exercise and conditions — the largest area in LifeWell, and one of six rather than the point of it.
+description: Trackers, medications, food and meals, exercise and conditions — one area around the people in your life, there if you want it, and not the point of LifeWell.
 keywords: [lifewell health, health tracking, medication tracker, symptom tracker, vitals]
 tags: [domains, health]
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 # Health
 
-The largest area, and one of six. LifeWell is a life companion; health is where most of the screens happen
-to be.
+One area around the people in your life, and there if you want it. LifeWell keeps the people and moments of
+your life in one place; health is one of the things around them that help your life go well, not the point of
+the app.
 
 ## Trackers
 

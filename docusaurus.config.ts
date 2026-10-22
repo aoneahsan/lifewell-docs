@@ -7,11 +7,10 @@ const APP_URL = 'https://lifewell.aoneahsan.com';
 const PLAY_STORE_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell';
 const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
-const AUTHOR_URL = 'https://aoneahsan.com';
 
 const config: Config = {
   title: 'LifeWell Documentation',
-  tagline: 'Your whole life, in one place — health, mind, life stages, people, memories and the everyday.',
+  tagline: 'Keep the people and moments of your life in one place — and everything around them.',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -125,7 +124,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'author',
-        content: 'Ahsan Mahmood',
+        content: 'The LifeWell team',
       },
     },
     {
@@ -154,7 +153,7 @@ const config: Config = {
             url: SITE_URL,
             name: 'LifeWell Documentation',
             description:
-              'Public documentation for LifeWell — one record for a whole life: health, mind, life stages, people, memories and the everyday week. Built by Ahsan Mahmood.',
+              'Public documentation for LifeWell, which keeps the people and moments of your life in one place: your family and friends, what you know about them, your memories and your plans, with wellbeing, mind and life stages around them. Written by the LifeWell team.',
             publisher: {'@id': `${SITE_URL}/#organization`},
             inLanguage: 'en',
           },
@@ -167,36 +166,7 @@ const config: Config = {
               '@type': 'ImageObject',
               url: `${SITE_URL}/img/logo.svg`,
             },
-            sameAs: [
-              GITHUB_REPO,
-              AUTHOR_URL,
-              PLAY_STORE_URL,
-              'https://linkedin.com/in/aoneahsan',
-            ],
-            founder: {
-              '@type': 'Person',
-              name: 'Ahsan Mahmood',
-              email: 'aoneahsan@gmail.com',
-              url: AUTHOR_URL,
-              sameAs: [
-                'https://github.com/aoneahsan',
-                'https://linkedin.com/in/aoneahsan',
-                'https://npmjs.com/~aoneahsan',
-              ],
-            },
-          },
-          {
-            '@type': 'Person',
-            '@id': `${SITE_URL}/#author`,
-            name: 'Ahsan Mahmood',
-            email: 'aoneahsan@gmail.com',
-            url: AUTHOR_URL,
-            jobTitle: 'Full-Stack Engineer',
-            sameAs: [
-              'https://github.com/aoneahsan',
-              'https://linkedin.com/in/aoneahsan',
-              'https://npmjs.com/~aoneahsan',
-            ],
+            sameAs: [GITHUB_REPO, PLAY_STORE_URL],
           },
         ],
       }),
@@ -228,7 +198,8 @@ const config: Config = {
           ],
           editUrl: `${GITHUB_REPO}/edit/main/`,
           showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          // Off: the git author is a person's name, and the site speaks as the LifeWell team.
+          showLastUpdateAuthor: false,
         },
         blog: {
           showReadingTime: true,
@@ -237,7 +208,7 @@ const config: Config = {
             xslt: true,
             title: 'LifeWell Documentation Blog',
             description: 'Updates, release notes, and deep-dives from the LifeWell project.',
-            copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. CC BY 4.0.`,
+            copyright: `Copyright © ${new Date().getFullYear()} the LifeWell team. CC BY 4.0.`,
           },
           editUrl: `${GITHUB_REPO}/edit/main/`,
           onInlineTags: 'warn',
@@ -260,9 +231,8 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.png',
     metadata: [
-      {name: 'keywords', content: 'lifewell, life companion, personal record, health tracking, medications, cycle tracking, family tree, memories, notes, android app, ahsan mahmood'},
+      {name: 'keywords', content: 'lifewell, life companion, family tree, people, memories, family and friends, notes, calendar, wellbeing, android app'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:creator', content: '@aoneahsan'},
       {name: 'og:type', content: 'website'},
       {name: 'og:site_name', content: 'LifeWell Documentation'},
     ],
@@ -321,6 +291,7 @@ const config: Config = {
           items: [
             {label: 'Get started', to: '/intro'},
             {label: 'The seven areas', to: '/domains/overview'},
+            {label: 'People', to: '/domains/people'},
             {label: 'Export your record', to: '/your-data/export'},
             {label: 'Privacy and security', to: '/concepts/privacy-and-security'},
           ],
@@ -336,16 +307,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Built by Ahsan Mahmood',
+          title: 'The LifeWell team',
           items: [
-            {label: 'Portfolio', href: AUTHOR_URL},
-            {label: 'GitHub @aoneahsan', href: 'https://github.com/aoneahsan'},
-            {label: 'LinkedIn', href: 'https://linkedin.com/in/aoneahsan'},
-            {label: 'NPM @aoneahsan', href: 'https://npmjs.com/~aoneahsan'},
+            {label: 'Who builds LifeWell', to: '/about/the-developer'},
+            {label: 'Contact the team', href: `${APP_URL}/contact`},
+            {label: 'Tours and the walkthrough', to: '/getting-started/tours-and-walkthrough'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. Documentation licensed CC BY 4.0. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} the LifeWell team. Documentation licensed CC BY 4.0. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

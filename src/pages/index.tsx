@@ -29,7 +29,7 @@ function HomepageHeader(): ReactNode {
         </div>
         <p className={styles.builtBy}>
           Built and maintained by{' '}
-          <Link to="/about/the-developer">Ahsan Mahmood</Link>. Documentation licensed CC BY 4.0.
+          <Link to="/about/the-developer">the LifeWell team</Link>. Documentation licensed CC BY 4.0.
         </p>
       </div>
     </header>
@@ -39,8 +39,8 @@ function HomepageHeader(): ReactNode {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="LifeWell Documentation — your whole life, in one place"
-      description="Public documentation for LifeWell 3.0.0 — one record for a whole life: health, mind, life stages, people, memories and the everyday week. Web and Android. Built by Ahsan Mahmood.">
+      title="LifeWell Documentation — the people and moments of your life"
+      description="Public documentation for LifeWell, which keeps the people and moments of your life in one place: family, friends, memories and plans, with wellbeing around them. Web and Android.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -3,7 +3,7 @@ title: Mind
 description: A journal, guided breathing and sleep sounds, mood, gratitude and desk wellness — kept where you can read them back, and never scored.
 keywords: [lifewell mind, mood journal, gratitude journal, breathing exercise, mental health tracking]
 tags: [domains, mind]
-sidebar_position: 3
+sidebar_position: 7
 ---
 
 # Mind

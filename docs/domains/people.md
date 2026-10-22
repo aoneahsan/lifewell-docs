@@ -1,14 +1,16 @@
 ---
 title: People
-description: Family and work trees, connections, places, messages, community, professionals and blood donation — the largest folder of screens in LifeWell.
+description: Where LifeWell starts — you, the people who matter, and what you know about them. Family and work trees, connections, places, messages, community, professionals and blood donation.
 keywords: [lifewell family tree, work tree, connections, contacts picker, identity card picture, community, chats, professionals directory, blood donors]
 tags: [domains, people]
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 # People
 
-The largest single folder of screens in the app, and the reason LifeWell is not a health tracker.
+Where LifeWell starts. You begin with yourself, add the people who matter — family on one side, work on the
+other — and keep what you know about them and the moments you share. It is also the largest single folder of
+screens in the app, and the reason LifeWell is not a health tracker.
 
 ## People
 

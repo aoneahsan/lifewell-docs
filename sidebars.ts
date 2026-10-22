@@ -3,7 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 /**
  * LifeWell documentation sidebar.
  *
- * Structure mirrors the product: seven areas around You, then the features
+ * Structure mirrors the product: seven areas around You, people first, then the features
  * that cut across them, then plans, data, concepts, platforms, admin and
  * reference. Every id below is a real file — `onBrokenLinks: 'throw'` and this
  * sidebar together make the build the link checker.
@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/install-android',
         'getting-started/first-run',
         'getting-started/tour',
+        'getting-started/tours-and-walkthrough',
       ],
     },
     {
@@ -32,13 +33,13 @@ const sidebars: SidebarsConfig = {
       label: 'The seven areas',
       link: {type: 'doc', id: 'domains/overview'},
       items: [
-        'domains/health',
-        'domains/mind',
-        'domains/stages',
         'domains/people',
         'domains/memories',
         'domains/everyday',
         'domains/sharing',
+        'domains/health',
+        'domains/mind',
+        'domains/stages',
       ],
     },
     {

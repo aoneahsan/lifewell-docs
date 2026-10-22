@@ -3,7 +3,7 @@ title: Memories
 description: Photos, albums, a scrapbook and the captions that make them readable — with the files themselves in your own Google Drive.
 keywords: [lifewell memories, photo album, scrapbook, google drive photos, memory keeping]
 tags: [domains, memories]
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 # Memories

@@ -1,21 +1,18 @@
 ---
 title: Who builds LifeWell
-description: LifeWell is built by Ahsan Mahmood, one person, and the product says so where it matters.
-keywords: [ahsan mahmood, aoneahsan, lifewell developer, indie developer]
+description: LifeWell is built and maintained by the LifeWell team, and the product is direct about what it cannot do.
+keywords: [lifewell team, who builds lifewell, contact lifewell, lifewell support]
 tags: [about]
 sidebar_position: 1
 ---
 
 # Who builds LifeWell
 
-**Ahsan Mahmood** — [aoneahsan.com](https://aoneahsan.com) ·
-[GitHub](https://github.com/aoneahsan) · [LinkedIn](https://linkedin.com/in/aoneahsan) ·
-[npm](https://npmjs.com/~aoneahsan)
+**The LifeWell team** builds and maintains LifeWell and this documentation.
 
-One person. That is not a marketing position, it is a fact with consequences, and the product is direct about
-what it cannot do because of it:
+The team is direct about what the product cannot do:
 
-- **There is no support team.** Questions go to one inbox and are answered by the person who wrote the code.
+- **Questions go to one inbox**, and the LifeWell team reads everything sent there.
 - **Not everything is built.** Several things in this documentation say plainly that they are not, and that is
   better than a page describing something that does not exist.
 - **There is no schedule.** Where something is planned, this documentation says planned rather than *soon*.

@@ -1,10 +1,8 @@
+# The key stays `ahsan` so the author page keeps its address (/blog/authors/ahsan).
+# The site speaks as the LifeWell team, never as a person.
 ahsan:
-  name: Ahsan Mahmood
-  title: Full-stack engineer — LifeWell creator and maintainer
-  url: https://aoneahsan.com
-  image_url: https://github.com/aoneahsan.png
+  name: The LifeWell team
+  title: The people who build and maintain LifeWell
+  url: https://lifewell.aoneahsan.com
+  image_url: /img/logo.svg
   page: true
-  socials:
-    github: aoneahsan
-    linkedin: aoneahsan
-    npm: https://www.npmjs.com/~aoneahsan

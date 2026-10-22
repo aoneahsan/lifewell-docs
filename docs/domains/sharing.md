@@ -1,16 +1,16 @@
 ---
 title: Sharing
-description: The seventh area, and the only one with no switch. What a link can carry, who it is for, what the other person sees, how to end it, and what never leaves your record.
+description: The only area with no switch. What a link can carry, who it is for, what the other person sees, how to end it, and what never leaves your record.
 keywords: [lifewell sharing, share a family tree, share medications, share a tracker, read only link, partner sharing, sharing controls]
 tags: [domains, sharing]
-sidebar_position: 8
+sidebar_position: 5
 ---
 
 # Sharing
 
 Nothing is shared by default.
 
-Sharing is the seventh area, and it holds no record of its own. What it holds is a set of decisions about the
+Sharing is the only area with no switch, and it holds no record of its own. What it holds is a set of decisions about the
 other six — who can read what, and until when — and each one can be stopped on its own.
 
 | Menu item | Address | What it is for |

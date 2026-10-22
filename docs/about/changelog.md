@@ -23,8 +23,8 @@ and a catastrophic bug look identical from the inside.
 
 What is new in it:
 
-- Rebuilt from the ground up: faster, lighter, and organised around your whole life — health, mind, life
-  stages, family, memories and the everyday.
+- Rebuilt from the ground up: faster, lighter, and organised around the people and moments of your life —
+  family, memories and the everyday, with health, mind and life stages around them.
 - Your photos and files go to your own Google Drive, never to our servers.
 - Sign in with Google on every device.
 

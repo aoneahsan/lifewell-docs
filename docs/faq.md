@@ -10,10 +10,11 @@ sidebar_position: 10
 
 ## Is it a health app?
 
-No. Health is its largest area and there are more screens under it than under anything else, but the largest
-single folder of screens is the one about people. LifeWell holds
-[seven areas](./domains/overview.md) — health, mind, life stages, people, memories, everyday and sharing —
-with **you** in the middle.
+No. LifeWell keeps the people and moments of your life in one place. You start with yourself, add the people
+who matter, keep what you know about them and the moments you share. Everything else LifeWell holds is there
+to help your life go well. It holds [seven areas](./domains/overview.md) — people, memories, everyday and
+sharing, then health, mind and life stages around them — with **you** in the middle. Health is one of them.
+It is not the point of the app.
 
 Introducing it as a health tracker gets the product wrong.
 
@@ -118,7 +119,8 @@ health column is in it.
 
 ## Who builds it?
 
-One person. It is direct about what it cannot do, which is most of this page.
+The LifeWell team. It is direct about what it cannot do, which is most of this page —
+see [Who builds LifeWell](./about/the-developer.md).
 
 ## Something is wrong
 
