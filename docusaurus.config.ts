@@ -1,12 +1,14 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import sitePages, {withLastmod} from './plugins/site-pages';
 
 const SITE_URL = 'https://lifewell-docs.aoneahsan.com';
 const APP_URL = 'https://lifewell.aoneahsan.com';
 const PLAY_STORE_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell';
 const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
+const BLOG_PATH = '/blog';
 
 const config: Config = {
   title: 'LifeWell Documentation',
@@ -31,6 +33,8 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    // The product writes en-GB (Story Bible §4): dates read "8 September 2026".
+    localeConfigs: {en: {htmlLang: 'en-GB'}},
   },
 
   markdown: {
@@ -42,6 +46,8 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   plugins: [
+    // `/sitemap` and `/feed` for people, and `/feed.xml` beside `/sitemap.xml` for machines.
+    sitePages({blogPath: BLOG_PATH}),
     [
       '@docusaurus/plugin-ideal-image',
       {
@@ -203,6 +209,9 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          // A post's last update comes from git: its sitemap lastmod. No name is shown.
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -219,10 +228,15 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          // Every URL carries a truthful lastmod and nothing else: search engines ignore changefreq and priority.
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
+          ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/authors/**', '/search'],
           filename: 'sitemap.xml',
+          // A page git cannot date (the blog list, a category index, /sitemap, /feed) takes the newest date it lists.
+          createSitemapItems: async ({defaultCreateSitemapItems, ...params}) =>
+            withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH),
         },
       } satisfies Preset.Options,
     ],
@@ -302,7 +316,7 @@ const config: Config = {
             {label: 'Open LifeWell', href: APP_URL},
             {label: 'Get it on Google Play', href: PLAY_STORE_URL},
             {label: 'About this site', to: '/about/the-developer'},
-            {label: 'What changed in 3.0.0', to: '/about/changelog'},
+            {label: 'Changelog', to: '/about/changelog'},
             {label: 'GitHub', href: GITHUB_REPO},
           ],
         },
@@ -312,6 +326,16 @@ const config: Config = {
             {label: 'Who builds LifeWell', to: '/about/the-developer'},
             {label: 'Contact the team', href: `${APP_URL}/contact`},
             {label: 'Tours and the walkthrough', to: '/getting-started/tours-and-walkthrough'},
+          ],
+        },
+        {
+          title: 'Find everything',
+          items: [
+            {label: 'Sitemap', to: '/sitemap'},
+            {label: 'Feed', to: '/feed'},
+            // Written after the build, so the link checker cannot see them: absolute addresses.
+            {label: 'sitemap.xml', href: `${SITE_URL}/sitemap.xml`},
+            {label: 'feed.xml', href: `${SITE_URL}/feed.xml`},
           ],
         },
       ],

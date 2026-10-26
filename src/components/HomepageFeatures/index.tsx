@@ -88,7 +88,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     to: '/about/changelog',
-    cta: 'What changed in 3.0.0',
+    cta: 'Read the changelog',
   },
 ];
 

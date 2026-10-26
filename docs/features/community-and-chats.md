@@ -24,6 +24,23 @@ posting in a group about sleep does not publish your sleep record.
 A [consultation with a professional](./professionals.md) is the same mechanism with a different kind on the
 conversation, so the thread behaves the way every other thread does.
 
+### Sharing an appointment in a chat
+
+Every thread has one control, **Share something from my record**. It opens a sheet of your upcoming appointments,
+each with **Share**:
+
+- **It sends a link, not a copy.** The other person sees the appointment's title and its time, and nothing else
+  from your record.
+- **Your message goes with it.** Whatever is in the message box is sent beside the link.
+- **Deleting the appointment stops the link.** The card then no longer shows it.
+
+The card reads *"A link to the appointment, not a copy of your record"* for you, and *"A link to their appointment,
+not a copy of their record"* for the person who receives it. With no upcoming appointment, the sheet says so and
+offers *Add one in your calendar*.
+
+A chat carries no files, so there is no paperclip. The head of a thread names the person and what each of you can
+see, and never guesses anyone's pronouns.
+
 ## Blocking
 
 You can block someone. A block is enforced on the server, not by a screen declining to render them.

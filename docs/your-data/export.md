@@ -57,6 +57,15 @@ first, or quarterly. You choose how many copies to keep: the last four, the last
 
 Earlier exports are listed on the page with their format, size and row count.
 
+## Jobs
+
+Every export also appears on `/jobs`, reached from the foot of the menu beside *Export everything*. A recording
+Speak is reading appears there too. Each row says **Working**, **Ready** or **Did not finish**, with one action:
+*Open* or *Try again*.
+
+When an export is ready, a notification arrives, and its **Open** goes straight to the file. A failed export sends
+no notification; Jobs shows it as *Did not finish*.
+
 ## Deleting instead
 
 Export and delete are on the same screen, in that order, deliberately. See

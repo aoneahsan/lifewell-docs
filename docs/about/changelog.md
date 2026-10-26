@@ -1,12 +1,12 @@
 ---
-title: What changed in 3.0.0
-description: LifeWell 3.0, the release that carries the version string 3.22.0, is a full rebuild on a new backend. What is new, what was removed, what was corrected, the reset that comes with it, and what changed on 25 September 2026.
+title: Changelog
+description: LifeWell 3.0 (version string 3.22.0) is a full rebuild on a new backend, and 3.23 to 3.25 followed in October 2026. What is new, what was removed, what was corrected, and the reset that comes with 3.0.
 keywords: [lifewell 3.0, lifewell 3.22.0, changelog, release notes, what is new]
 tags: [about, changelog]
 sidebar_position: 2
 ---
 
-# What changed in 3.0.0
+# Changelog
 
 A full rebuild of the 2.x app. Same product, rewritten, on a different backend.
 
@@ -29,6 +29,29 @@ What is new in it:
 - Sign in with Google on every device.
 
 The rest of this page is the long version of those points.
+
+## October 2026: 3.23 to 3.25
+
+Version 3.25.0 is on Google Play and on the web. The web app updates by itself; the Android app takes the same
+changes as an over-the-air update.
+
+- **People first.** The home page now reads *"The people and moments of your life, in one place."* The menus
+  now start with you, family and work, and memories; on a phone the bottom bar reads Today, People, Speak,
+  Memories and More. See [People](../domains/people.md).
+- **A tour on the pages that matter.** A tour button sits in the header, and each page shows a one-time hint.
+  You can skip a tour, close it or jump to any step, on a phone as well as a desktop.
+  [`/how-lifewell-works`](https://lifewell.aoneahsan.com/how-lifewell-works) walks through the whole app with real
+  screens. See [Tours and the walkthrough](../getting-started/tours-and-walkthrough.md).
+- **Jobs.** Exports and the recordings Speak is reading are listed on `/jobs`, with a notification when an export
+  is ready. See [Jobs](../your-data/export.md#jobs).
+- **Faster first paint.** Public pages now arrive already drawn, before any script runs.
+- **Share an appointment in a chat.** *Share something from my record* sends a link to an upcoming appointment,
+  never a copy of your record. See [Sharing an appointment in a chat](../features/community-and-chats.md#sharing-an-appointment-in-a-chat).
+- **The permissions page names the microphone.** On the web, the browser asks for the microphone only while you
+  record in Speak it. See [`/permissions`](https://lifewell.aoneahsan.com/permissions).
+- **AI keeps working when the free credit rests.** The free AI credit is spent in hourly allowances. When it is
+  unavailable, a low-cost paid model answers inside your plan's normal allowance, so nothing extra is granted or
+  charged. The [privacy policy](https://lifewell.aoneahsan.com/privacy) names every AI service involved.
 
 ## 25 September 2026
 
