@@ -208,6 +208,7 @@ const config: Config = {
           showLastUpdateAuthor: false,
         },
         blog: {
+          blogDescription: 'Updates and release notes from the LifeWell team: what changed in the app, and why.',
           showReadingTime: true,
           // A post's last update comes from git: its sitemap lastmod. No name is shown.
           showLastUpdateTime: true,
