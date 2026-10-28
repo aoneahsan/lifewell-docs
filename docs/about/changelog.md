@@ -30,6 +30,20 @@ What is new in it:
 
 The rest of this page is the long version of those points.
 
+## 27 and 28 October 2026
+
+- **Identity card pictures are kept, and removed.** Adding the front and back of a person's card now stores both
+  pictures, and removing the card deletes them. See [Identity card pictures](../domains/people.md#identity-card-pictures).
+- **A Family seat sends its notice.** Giving a seat to a family connection, or taking it back, now reaches their
+  inbox.
+- **A long name is told so.** A name holds up to 60 characters, and a longer one now says *"That is longer than 60
+  characters. A first name or Ammi is enough."*
+- **The permissions page names three more groups** that Android grants when the app is installed: a count on the
+  app icon, receiving notifications and Google Play purchases. See
+  [`/permissions`](https://lifewell.aoneahsan.com/permissions).
+- **A new app icon.** The icon, the browser tab and the Android launch screen now carry the mark from the app's
+  header. The Android app shows it from its next update on Google Play.
+
 ## October 2026: 3.23 to 3.25
 
 Version 3.25.0 is on Google Play and on the web. The web app updates by itself; the Android app takes the same
