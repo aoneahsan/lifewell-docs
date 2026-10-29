@@ -30,6 +30,19 @@ What is new in it:
 
 The rest of this page is the long version of those points.
 
+## 29 October 2026
+
+- **The home page paints sooner on a phone.** Its styles now travel inside the page, so the first screen no longer
+  waits for a separate file, and the longest pause while it starts is shorter.
+- **The profile link says whose it is.** Screen readers now hear *"Your profile"* with your initials, and every link
+  that opens a new tab says so.
+- **A browser security policy is enforced on every page.** It lists the services LifeWell is allowed to load scripts,
+  connections and frames from, and the browser refuses anything else.
+- **Private pages are never offered to search engines as the home page.** An address inside the app now tells search
+  engines not to list it.
+- **A step that does not exist is cleaned from the address.** Opening *How LifeWell works* at a step that is not one of
+  its six goes to the first step and removes the stray number.
+
 ## 27 and 28 October 2026
 
 - **Identity card pictures are kept, and removed.** Adding the front and back of a person's card now stores both

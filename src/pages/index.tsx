@@ -39,7 +39,7 @@ function HomepageHeader(): ReactNode {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="LifeWell Documentation — the people and moments of your life"
+      title="The people and moments of your life"
       description="Public documentation for LifeWell, which keeps the people and moments of your life in one place: family, friends, memories and plans, with wellbeing around them. Web and Android.">
       <HomepageHeader />
       <main>
