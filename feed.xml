@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/blog/rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://lifewell-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <title>LifeWell Documentation Blog</title>
+        <link>https://lifewell-docs.aoneahsan.com/blog</link>
+        <description>Updates, release notes, and deep-dives from the LifeWell project.</description>
+        <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Copyright © 2026 the LifeWell team. CC BY 4.0.</copyright>
+        <item>
+            <title><![CDATA[The documentation was wrong, so it was rewritten]]></title>
+            <link>https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0</link>
+            <guid>https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0</guid>
+            <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[LifeWell 3.0.0 is a rebuild on a new backend, and the old documentation described a product that no longer exists. Every page was deleted and rewritten against the code.]]></description>
+            <content:encoded><![CDATA[<p>The previous version of this site described an iOS app that had been removed, a browser extension that is not
+shipping, a database the application no longer uses, and an analytics stack that was close to the opposite of
+the real one.</p>
+<p>None of that was written dishonestly. It was written, and then the product moved, and nobody went back.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-wrong">What was wrong<a href="https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0#what-was-wrong" class="hash-link" aria-label="Direct link to What was wrong" title="Direct link to What was wrong" translate="no">​</a></h2>
+<p>Three claims are worth naming, because each one had been read by somebody and believed.</p>
+<p><strong><code>/feed</code> was described as a social feed.</strong> It is the public readable feed of recent blog content. There is no
+social feed in LifeWell and there never was.</p>
+<p><strong>Firebase Analytics was described as banned and replaced.</strong> Google Analytics 4 <em>is</em> the Firebase analytics
+property — one property, two ways of talking to it — and it runs alongside Amplitude, Clarity and Sentry
+rather than instead of them. A reader who wanted to know what the app reports had been told the opposite of
+the truth.</p>
+<p><strong>Over-the-air updates were described as "not yet integrated".</strong> That one was correct, and it is still
+correct. It now says what actually exists behind it: two environment variables and a feature flag, no package,
+no service, nothing fetched and nothing applied.</p>
+<p>Beyond those, sixty-five pages described a document data model that the rebuild replaced with Postgres,
+thirty-five mentioned an iOS platform that was removed on 2026-07-16, and a whole section explained how to
+install and use an extension that does not exist.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-done-about-it">What was done about it<a href="https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0#what-was-done-about-it" class="hash-link" aria-label="Direct link to What was done about it" title="Direct link to What was done about it" translate="no">​</a></h2>
+<p>Every page was deleted. The replacements were written against the source — the export format from the table
+registry the exporter itself reads, the plan limits from the plan registry, the Android minimum from the build
+file, the admin capabilities from the derived admin surface.</p>
+<p>Where something is half-built, the page says which half. There are seven of those, and they are listed in one
+place on <a class="" href="https://lifewell-docs.aoneahsan.com/about/changelog">What changed in 3.0.0</a>.</p>
+<p>Where a number could be checked, it was. The old documentation said the Android minimum was 7.0; the build
+says 28, which is Android 9.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-rule-this-site-now-runs-on">The rule this site now runs on<a href="https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0#the-rule-this-site-now-runs-on" class="hash-link" aria-label="Direct link to The rule this site now runs on" title="Direct link to The rule this site now runs on" translate="no">​</a></h2>
+<p><strong>A page may only describe what the product actually does.</strong></p>
+<p>Not what it is about to do, not what the roadmap says, and not what would read better. If something is not
+built, the page says not built rather than <em>coming soon</em>. If a control does less than it looks like it does,
+the page says so next to the control rather than three sections away.</p>
+<p>That is a harder standard to hold than it sounds, because the failure mode is not lying — it is writing
+something true and then not going back. So the pages that make a claim about behaviour now name where that
+behaviour lives, and the export format page is generated against the same registry the export reads, so it
+cannot describe a file the product does not produce.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-the-old-addresses-went">Where the old addresses went<a href="https://lifewell-docs.aoneahsan.com/blog/documentation-rewritten-for-3-0-0#where-the-old-addresses-went" class="hash-link" aria-label="Direct link to Where the old addresses went" title="Direct link to Where the old addresses went" translate="no">​</a></h2>
+<p>Everything under <code>/docs/**</code> now redirects. The documentation moved to the site root, which is what makes
+<code>/reference/export-format</code> — the address the application itself links to from its export screen — resolve.</p>
+<p>A page whose subject no longer exists redirects to the page that tells the truth about it. The extension
+how-tos land on <a class="" href="https://lifewell-docs.aoneahsan.com/platforms/browser-extension">Browser extension</a>, which says it is planned and not built.
+The iOS pages land on <a class="" href="https://lifewell-docs.aoneahsan.com/platforms/ios">iOS</a>, which gives the date it was removed and the condition for it
+coming back.</p>]]></content:encoded>
+            <category>Announcement</category>
+            <category>LifeWell</category>
+            <category>Docs</category>
+            <category>Release</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["4889"],{86288(e,l,s){s.d(l,{createInfoServices:()=>c.v});var c=s(19511);s(69302)}}]);

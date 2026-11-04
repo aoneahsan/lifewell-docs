@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["8416"],{56600(e){e.exports=JSON.parse('{"authors":[{"name":"The LifeWell team","title":"The people who build and maintain LifeWell","url":"https://lifewell.aoneahsan.com","page":{"permalink":"/blog/authors/ahsan"},"imageURL":"/img/logo.svg","key":"ahsan","count":1}]}')}}]);
