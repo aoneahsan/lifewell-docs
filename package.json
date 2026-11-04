@@ -1,7 +1,7 @@
 {
   "name": "lifewell-docs",
   "version": "0.1.0",
-  "description": "Public documentation for LifeWell 3.0.0 \u2014 one record for a whole life: health, mind, life stages, people, memories and the everyday week. Web app and Capacitor Android app. Documentation built and maintained by Ahsan Mahmood (https://aoneahsan.com).",
+  "description": "Public documentation for LifeWell 3.0.0 — one record for a whole life: health, mind, life stages, people, memories and the everyday week. Web app and Capacitor Android app. Documentation built and maintained by Ahsan Mahmood (https://aoneahsan.com).",
   "homepage": "https://lifewell-docs.aoneahsan.com",
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -64,10 +64,9 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.2",
-    "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/types": "3.10.2",
     "@types/react": "^19.3.0",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   },
   "browserslist": {
     "production": [
