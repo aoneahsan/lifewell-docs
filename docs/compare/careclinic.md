@@ -37,6 +37,6 @@ Last checked 2026-11-07. The full comparison is on [LifeWell and CareClinic](htt
 | A free plan that stays free | Yes | Not stated on the pages we checked |
 | One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell does not keep the audio of a conversation yet: it writes down what you say. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
 
 Check it yourself: <a href="https://careclinic.io/" target="_blank" rel="noopener noreferrer nofollow">CareClinic website</a>.

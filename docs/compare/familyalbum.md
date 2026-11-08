@@ -38,7 +38,7 @@ Last checked 2026-11-07. The full comparison is on [LifeWell and FamilyAlbum](ht
 | A free plan that stays free | Yes | Yes (<a href="https://family-album.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | One plan for a household | Yes | Yes (<a href="https://family-album.com/premium" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell does not keep the audio of a conversation yet: it writes down what you say. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
 
 ## What they charge
 
