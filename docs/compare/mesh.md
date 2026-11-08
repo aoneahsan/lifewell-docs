@@ -9,37 +9,32 @@ last_update:
 
 # Moving from Mesh to LifeWell
 
-**A personal CRM that imports your contacts, watches for life updates and reminds you to reconnect.** Choose Mesh if you keep a large professional network warm and want imports from email, LinkedIn and calendar, with desktop apps. Choose LifeWell if the people are family and friends, not a network, and you want their memories and health kept with them, on a free plan without a card.
+Mesh keeps a large professional network warm. It imports contacts from email, LinkedIn and calendar, watches for life updates and tells you when to reconnect, with apps for macOS, Windows and iOS.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Mesh](https://lifewell.aoneahsan.com/compare/mesh).
+LifeWell is for family and friends rather than a network. Memories and health sit with each person, and the free plan needs no card.
 
-## How to move across
+Last checked 2026-11-07. See the two side by side on [LifeWell and Mesh](https://lifewell.aoneahsan.com/compare/mesh).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Mesh ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Mesh until you know what you want to move. LifeWell has no import from it.
+## Picking family and friends out of Mesh
 
-## How they differ
+1. [Sign in](/getting-started/first-run).
+2. From the contacts Mesh holds, choose only the people who are family or close friends, and add them in [People](/domains/people).
+3. The dates that matter to them go on the [calendar](/features/calendar-and-appointments), each with a [reminder](/features/reminders).
+4. Leave the professional network in Mesh. LifeWell reads nothing from your email or LinkedIn, and it connects to no outside calendar.
+
+## Mesh beside LifeWell
 
 | Feature | LifeWell | Mesh |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://me.sh/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://me.sh/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://me.sh/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Mesh's pricing page did not state a family tree, memories, speaking an entry, share links, health records, notes, downloading your data, an Android app or a household plan.
 
-## What they charge
+Mesh has an iOS app. LifeWell does not; on an iPhone it runs in Safari.
+
+## What Mesh charges
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +43,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Team | $40 a month (per seat; shown with -18%) | <a href="https://me.sh/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Enterprise | Not stated (Quote only) | <a href="https://me.sh/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell asks for no card on Free. The paid plans: [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://me.sh/" target="_blank" rel="noopener noreferrer nofollow">Mesh website</a>.
+Mesh's pricing at the source: <a href="https://me.sh/" target="_blank" rel="noopener noreferrer nofollow">Mesh website</a>.

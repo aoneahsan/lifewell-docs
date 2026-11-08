@@ -9,44 +9,40 @@ last_update:
 
 # Moving from Storyworth to LifeWell
 
-**A year of weekly questions sent to a parent or grandparent, bound into a hardcover book.** Choose Storyworth if you want a parent prompted every week by email or phone and a printed hardcover at the end of the year. Choose LifeWell if you want to keep the stories as you hear them, in your own record, free, beside the person who told them.
+Storyworth sends a parent or grandparent one question a week, by email or phone, and binds the year's answers into a hardcover. It is a gift with an end date and a book at the end.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Storyworth](https://lifewell.aoneahsan.com/compare/storyworth).
+LifeWell keeps the stories as you hear them, free, filed under the person who told them, for as long as you keep the record.
 
-## How to move across
+Last checked 2026-11-07. The side-by-side is on [LifeWell and Storyworth](https://lifewell.aoneahsan.com/compare/storyworth).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Storyworth, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Storyworth for anything LifeWell does not do, such as historical records or DNA.
+## Keeping the stories after the book
 
-## How they differ
+1. Download the free e-book of the stories so far. That copy is yours whatever you do next.
+2. [Sign in to LifeWell](/getting-started/first-run) and add the storyteller in [People](/domains/people), with how they are related to you.
+3. Bring the stories that matter across as [memories](/domains/memories), each with its date, its place and the people in it.
+4. Next time one is told at the table, use Speak it. It writes down what was said, and nothing is saved until you confirm it.
+5. Leave the weekly questions and the printed book with Storyworth while the plan runs.
+
+## Storyworth and LifeWell
 
 | Feature | LifeWell | Storyworth |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
 | Memories with a photo, a date and a place | Yes | Partly (<a href="https://welcome.storyworth.com/faq" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Speak it, and it is written down | Yes | Yes (<a href="https://welcome.storyworth.com/faq" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Partly (<a href="https://welcome.storyworth.com/faq" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
 | One plan for a household | Yes | Partly (<a href="https://welcome.storyworth.com/faq" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+The Storyworth pages we read did not cover a record per person, a family tree, share links, appointments, health records, notes, an Android app or a free plan.
 
-## What they charge
+LifeWell keeps each Speak it recording privately until you delete it. It prints nothing — no book, and no tree.
+
+## What Storyworth costs
 
 | Plan | Price | Source |
 |---|---|---|
 | Memoir plans | $69 a year (starting price; the Basic, Color and Unlimited plan prices are not itemised on the pages we checked) | <a href="https://welcome.storyworth.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Extra colour book, up to 300 pages | $79 once | <a href="https://welcome.storyworth.com/faq" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's prices: the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://welcome.storyworth.com/" target="_blank" rel="noopener noreferrer nofollow">Storyworth website</a>.
+Storyworth's plans in their own words: <a href="https://welcome.storyworth.com/" target="_blank" rel="noopener noreferrer nofollow">Storyworth website</a>.

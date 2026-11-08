@@ -9,42 +9,38 @@ last_update:
 
 # Moving from MyTherapy to LifeWell
 
-**A free medication reminder and intake diary with a health report for your doctor.** Choose MyTherapy if you want reliable medication alarms, refill warnings and a printable plan for the doctor, all free. Choose LifeWell if the medication record should sit with the person's memories, the family tree and everything else you keep about your life.
+MyTherapy is free medication reminders and an intake diary, paid for through partners such as pharmaceutical companies, with a health report and medication plan for your doctor.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and MyTherapy](https://lifewell.aoneahsan.com/compare/mytherapy).
+LifeWell keeps the medication record with the person — their memories, the family tree, and everything else you keep about your life.
 
-## How to move across
+Last checked 2026-11-07. Both, with sources: [LifeWell and MyTherapy](https://lifewell.aoneahsan.com/compare/mytherapy).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the medicines, conditions and results you want to keep ([health](/domains/health)).
-3. Add appointments with a reminder ([calendar and appointments](/features/calendar-and-appointments)).
-4. Keep MyTherapy if your clinic or device depends on it. LifeWell keeps your own record; it is not medical advice and does not connect to your doctor's system.
+## From MyTherapy's plan to LifeWell
 
-## How they differ
+1. Make the health report and medication plan in MyTherapy. It is the list you will copy from.
+2. [Sign in](/getting-started/first-run), then add each medicine with its dose and schedule in [health](/domains/health). The doses you actually take are recorded there too.
+3. Doctor's appointments go on the [calendar](/features/calendar-and-appointments), each with a checklist of the questions you mean to ask.
+4. Measurements MyTherapy reminded you about — blood pressure, blood sugar, weight — each have their own tracker in [health](/domains/health).
+5. Keep MyTherapy's one-time code if your doctor reads your plan that way. LifeWell sends nothing to your doctor's system, and it is not medical advice.
+
+## MyTherapy and LifeWell
 
 | Feature | LifeWell | MyTherapy |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Appointments with a reminder | Yes | Yes (<a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Medications, conditions and results kept | Yes | Yes (<a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Partly (<a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+MyTherapy's home page did not mention a record per person, a family tree, memories, speaking an entry, notes, an Android app or a household plan.
 
-## What they charge
+## Price
 
 | Plan | Price | Source |
 |---|---|---|
 | MyTherapy | Free (always free; funded through partners such as pharmaceutical companies) | <a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell has a free plan as well; the rest are on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">MyTherapy website</a>.
+MyTherapy's own site: <a href="https://www.mytherapyapp.com/" target="_blank" rel="noopener noreferrer nofollow">MyTherapy website</a>.

@@ -9,34 +9,27 @@ last_update:
 
 # Moving from Medisafe to LifeWell
 
-**A medication management app; its website now speaks mainly to pharmaceutical companies.** Choose Medisafe if you want an app built around taking medication on time, with caregiver notifications. Choose LifeWell if medications are one page in a wider record that also holds the people, the memories and the appointments, with its prices stated plainly.
+Medisafe was built around taking medication on time, with notifications for a caregiver. Its website now speaks mainly to pharmaceutical companies, and no price was on the pages we could read.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Medisafe](https://lifewell.aoneahsan.com/compare/medisafe).
+LifeWell keeps medications as one page in a wider record of the people, memories and appointments of your life, and its prices are published.
 
-## How to move across
+Last checked 2026-11-07. Medisafe and LifeWell on one page: [LifeWell and Medisafe](https://lifewell.aoneahsan.com/compare/medisafe).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the medicines, conditions and results you want to keep ([health](/domains/health)).
-3. Add appointments with a reminder ([calendar and appointments](/features/calendar-and-appointments)).
-4. Keep Medisafe if your clinic or device depends on it. LifeWell keeps your own record; it is not medical advice and does not connect to your doctor's system.
+## Moving a medicine list
 
-## How they differ
+1. Write down what Medisafe holds for you: each medicine, its dose and when you take it.
+2. [Sign in to LifeWell](/getting-started/first-run) and enter each one on the medications page in [health](/domains/health), with the dose and the schedule.
+3. Medication [reminders](/features/reminders) are on by default. Turn one off only for a medicine you do not want a nudge for.
+4. Caring for a child? Their medicines go on the separate child medication list, so a child's dose never sits in an adult's list.
+5. Visits about a medicine go on the [calendar](/features/calendar-and-appointments), with the questions you mean to ask in the checklist.
+6. Keep Medisafe while your caregiver relies on its notifications. LifeWell is not medical advice and does not connect to your doctor's system.
+
+## What we could compare
 
 | Feature | LifeWell | Medisafe |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
 | Medications, conditions and results kept | Yes | Partly (<a href="https://www.medisafe.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Only medication management was stated on Medisafe's site. Its app and patient pages returned no readable content on 2026-11-07, so every other row is left out.
 
-Check it yourself: <a href="https://www.medisafe.com/" target="_blank" rel="noopener noreferrer nofollow">Medisafe website</a>.
+Medisafe's own site: <a href="https://www.medisafe.com/" target="_blank" rel="noopener noreferrer nofollow">Medisafe website</a>.

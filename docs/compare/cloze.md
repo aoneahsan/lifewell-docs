@@ -9,37 +9,31 @@ last_update:
 
 # Moving from Cloze to LifeWell
 
-**A relationship manager that reads your email and calendar and reminds you when to reach out.** Choose Cloze if you want your inbox and calendar to fill in the contact history for you, with reply reminders and mail merge. Choose LifeWell if you would rather write the record yourself, keep it free, and have family memories and health records on the same people.
+Cloze reads your email and calendar and fills in the contact history for you, with reply reminders and mail merge. For a busy inbox, that is the job.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Cloze](https://lifewell.aoneahsan.com/compare/cloze).
+LifeWell works the other way round. You write the record yourself, it is free, and family memories and health records sit on the same people.
 
-## How to move across
+Last checked 2026-11-07. Both products, with sources: [LifeWell and Cloze](https://lifewell.aoneahsan.com/compare/cloze).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Cloze ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Cloze until you know what you want to move. LifeWell has no import from it.
+## Writing it yourself, after Cloze
 
-## How they differ
+1. [Sign in](/getting-started/first-run).
+2. Add the people who are family and friends in [People](/domains/people). The work contacts can stay in Cloze.
+3. Notes Cloze matched to a contact go into that person's record or [notes](/domains/everyday), by hand.
+4. Personal meetings and follow-ups go on the [calendar](/features/calendar-and-appointments) with a [reminder](/features/reminders). LifeWell reads nothing from your inbox and connects to no outside calendar.
+5. Leave mail merge and the inbox history to Cloze.
+
+## Cloze beside LifeWell
 
 | Feature | LifeWell | Cloze |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://www.cloze.com/app/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://www.cloze.com/app/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Yes (<a href="https://www.cloze.com/app/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Cloze's pricing page did not mention a family tree, memories, speaking an entry, share links, health records, downloading your data, an Android app, a free plan or a household plan.
 
-## What they charge
+## What Cloze charges
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +42,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Business, growing business | $29 a month (per user, billed annually; or $34.99 month-to-month) | <a href="https://www.cloze.com/app/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Business Platinum | $42 a month (per user, billed annually; or $49.99 month-to-month) | <a href="https://www.cloze.com/app/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+What LifeWell costs is on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.cloze.com/" target="_blank" rel="noopener noreferrer nofollow">Cloze website</a>.
+Cloze's pricing at the source: <a href="https://www.cloze.com/" target="_blank" rel="noopener noreferrer nofollow">Cloze website</a>.

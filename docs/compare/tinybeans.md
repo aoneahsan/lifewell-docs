@@ -9,35 +9,28 @@ last_update:
 
 # Moving from Tinybeans to LifeWell
 
-**A private photo journal of a child's days, shared with chosen relatives.** Choose Tinybeans if you want a simple private feed of a child's photos that grandparents can follow by email. Choose LifeWell if you want the record to outgrow childhood: the same people, their tree, their memories and their health, with a free plan stated plainly.
+Tinybeans is a private photo journal of a child's days. Grandparents follow along by email, and that simple feed is the whole idea.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Tinybeans](https://lifewell.aoneahsan.com/compare/tinybeans).
+LifeWell is meant to outgrow childhood. The same people go on to carry their tree, their memories and their health, and the free plan is written down in full.
 
-## How to move across
+Last checked 2026-11-07. The comparison on the app: [LifeWell and Tinybeans](https://lifewell.aoneahsan.com/compare/tinybeans).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Tinybeans, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Tinybeans for anything LifeWell does not do, such as historical records or DNA.
+## When the baby photos become a family record
 
-## How they differ
+1. [Sign in](/getting-started/first-run) and add your child in [People](/domains/people), with the people who follow the journal.
+2. Add the photos you would not want to lose as [memories](/domains/memories), each with a date and a place.
+3. Link everyone to each other, and the [family tree](/domains/people) appears.
+4. Keep Tinybeans for the feed the grandparents read.
+
+## Tinybeans and LifeWell
 
 | Feature | LifeWell | Tinybeans |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
 | Memories with a photo, a date and a place | Yes | Yes (<a href="https://tinybeans.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://tinybeans.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Tinybeans had no readable price when we checked: its pricing, premium, plans and app pages all returned not found. Its home page did not mention a record per person, a family tree, speaking an entry, appointments, health records, notes, downloading your data, an Android app, a free plan or a household plan.
 
-Check it yourself: <a href="https://tinybeans.com/" target="_blank" rel="noopener noreferrer nofollow">Tinybeans website</a>.
+There is no LifeWell iPhone app. On an iPhone it runs in Safari ([iOS](/platforms/ios)).
+
+Tinybeans' own site: <a href="https://tinybeans.com/" target="_blank" rel="noopener noreferrer nofollow">Tinybeans website</a>.

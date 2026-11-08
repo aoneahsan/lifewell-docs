@@ -9,38 +9,33 @@ last_update:
 
 # Moving from Findmypast to LifeWell
 
-**A UK-centred genealogy subscription with census, parish and newspaper archives.** Choose Findmypast if your family history runs through Britain and Ireland and you want the censuses, parish registers and newspapers. Choose LifeWell if you are recording the family you have now, with a free plan and a tree that draws only what you enter.
+Findmypast is a genealogy subscription centred on Britain and Ireland: censuses, parish registers and newspapers. If your family history runs through those records, that is where to search them.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Findmypast](https://lifewell.aoneahsan.com/compare/findmypast).
+LifeWell searches no archive. It records the family you have now, on a free plan, and its tree shows only the people you put in.
 
-## How to move across
+Last checked 2026-11-07. Both products on one page: [LifeWell and Findmypast](https://lifewell.aoneahsan.com/compare/findmypast).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Findmypast, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Findmypast for anything LifeWell does not do, such as historical records or DNA.
+## Starting from a Findmypast tree
 
-## How they differ
+1. [Sign in](/getting-started/first-run). Yourself first.
+2. Take the most recent generations from your Findmypast tree and add them in [People](/domains/people), one at a time. LifeWell has no import.
+3. Join them up, and the [family tree](/domains/people) follows.
+4. What the archive cannot tell you — the wedding photograph, the house on the corner — goes into [Memories](/domains/memories) with a date and a place.
+5. The censuses, parish registers and newspapers stay a Findmypast subscription.
+
+## What each one offers
 
 | Feature | LifeWell | Findmypast |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
 | Draws your family tree | Yes | Yes (<a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
 | Android app | Yes | Partly (<a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Findmypast's subscribe page did not state a record per person, memories, speaking an entry, appointments, health records, notes, downloading your data, a free plan or a household plan.
 
-## What they charge
+LifeWell cannot print the tree it draws.
+
+## Findmypast's subscriptions
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +43,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Explore | £10.83 a month (from; monthly equivalent when billed half-yearly) | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Everything | £14.16 a month (from; monthly equivalent when billed annually; shown with a limited-time £9.91) | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+What LifeWell costs, free plan first, is on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.findmypast.co.uk/" target="_blank" rel="noopener noreferrer nofollow">Findmypast website</a>.
+Findmypast's own pages: <a href="https://www.findmypast.co.uk/" target="_blank" rel="noopener noreferrer nofollow">Findmypast website</a>.

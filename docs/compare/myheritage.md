@@ -9,38 +9,34 @@ last_update:
 
 # Moving from MyHeritage to LifeWell
 
-**A family tree and records service with photo tools and DNA testing, free up to 250 people.** Choose MyHeritage if you want a large ancestral tree with record matches, photo repair and colourising, and DNA matching. Choose LifeWell if the people in your tree are the ones you still talk to, and you want their memories, health and appointments in the same place, with no cap on people.
+MyHeritage builds a large ancestral tree — free up to 250 people — and sells record matches, photo repair and colourising, and DNA matching on yearly plans. It is made for going back generations.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and MyHeritage](https://lifewell.aoneahsan.com/compare/myheritage).
+LifeWell is made for the generations who are alive now. Their memories, health and appointments sit in the same record as the tree.
 
-## How to move across
+Last checked 2026-11-07. The same facts, laid out on the app: [LifeWell and MyHeritage](https://lifewell.aoneahsan.com/compare/myheritage).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in MyHeritage, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep MyHeritage for anything LifeWell does not do, such as historical records or DNA.
+## Moving the people you still talk to
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run).
+2. Go through your MyHeritage tree and mark who is living. Those are the people to add in [People](/domains/people). Nothing imports from MyHeritage, so a short list is the right start.
+3. Connect each one to the others, and the [tree](/domains/people) draws itself.
+4. Old family photographs go into [Memories](/domains/memories) with a date and a place. The file itself is kept in your own Google Drive, not on LifeWell's servers.
+5. Matches, record hints and DNA results stay with MyHeritage.
+
+## How the two line up
 
 | Feature | LifeWell | MyHeritage |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
 | Draws your family tree | Yes | Yes (<a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Memories with a photo, a date and a place | Yes | Partly (<a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
 | Android app | Yes | Partly (<a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Yes (<a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+MyHeritage's pricing page did not cover a record per person, speaking an entry, share links, appointments, health records, notes, downloading your data or a household plan.
 
-## What they charge
+LifeWell shows its tree on screen and cannot print it.
+
+## MyHeritage's yearly plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -51,6 +47,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Complete | $299 a year (1st year $199) | <a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Omni | $399 a year (1st year $239) | <a href="https://www.myheritage.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+For LifeWell, see the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.myheritage.com/" target="_blank" rel="noopener noreferrer nofollow">MyHeritage website</a>.
+The first-year prices are MyHeritage's own offer — check them here: <a href="https://www.myheritage.com/" target="_blank" rel="noopener noreferrer nofollow">MyHeritage website</a>.

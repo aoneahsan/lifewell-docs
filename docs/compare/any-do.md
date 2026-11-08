@@ -9,37 +9,30 @@ last_update:
 
 # Moving from Any.do to LifeWell
 
-**A tasks, calendar and reminders app with a shared family space.** Choose Any.do if a household wants one shared list of chores, groceries and reminders. LifeWell has no task list yet. Choose LifeWell if the family record should hold more than chores: the tree, the memories, the health notes and the appointments of each person.
+Any.do gives a household one shared space for chores, groceries and reminders, free, with a Family plan for four. LifeWell has no task list.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Any.do](https://lifewell.aoneahsan.com/compare/any-do).
+Where LifeWell differs is what a family record holds: the tree, the memories, the health notes and the appointments of each person.
 
-## How to move across
+Last checked 2026-11-07. The two on one page: [LifeWell and Any.do](https://lifewell.aoneahsan.com/compare/any-do).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Any.do ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Any.do until you know what you want to move. LifeWell has no import from it.
+## Splitting the family space
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run) and add the household in [People](/domains/people).
+2. Doctor, dentist and school-meeting reminders move to [appointments](/features/calendar-and-appointments), each with a [reminder](/features/reminders).
+3. The groceries can stay in Any.do, or move to LifeWell's [shopping list](/features/shopping-list). It fills from your meal planner and goes out as plain text, so whoever does the shop needs no account.
+4. Chores stay in Any.do.
+
+## Any.do and LifeWell
 
 | Feature | LifeWell | Any.do |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Yes (<a href="https://www.any.do/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.any.do/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | One plan for a household | Yes | Yes (<a href="https://www.any.do/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Any.do's pricing page did not state a record per person, a family tree, memories, speaking an entry, share links, health records, notes, downloading your data or an Android app.
 
-## What they charge
+## Any.do's plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +41,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Family | $8.33 a month (for 4 members, billed annually) | <a href="https://www.any.do/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Teams | $4.99 a month (per member, billed annually) | <a href="https://www.any.do/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's Family plan and the others are on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.any.do/" target="_blank" rel="noopener noreferrer nofollow">Any.do website</a>.
+Any.do's pricing page: <a href="https://www.any.do/" target="_blank" rel="noopener noreferrer nofollow">Any.do website</a>.

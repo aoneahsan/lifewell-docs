@@ -9,43 +9,42 @@ last_update:
 
 # Moving from Gramps Web to LifeWell
 
-**A free, open-source genealogy system you run on your own server, with charts, maps and full data export.** Choose Gramps Web if you want open source, your own server, GEDCOM in and out, and PDF reports of the tree. Choose LifeWell if you do not want to run a server, and you want the same people to carry memories, appointments and health records, with an Android app.
+Gramps Web is free, open-source genealogy that you run on your own server. It reads and writes GEDCOM, draws interactive charts, and makes PDF book reports of the tree.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Gramps Web](https://lifewell.aoneahsan.com/compare/gramps-web).
+LifeWell is for someone who would rather not look after a server. It is hosted, it has an Android app, and the same people carry memories, appointments and health records.
 
-## How to move across
+Last checked 2026-11-07. The comparison with sources is on [LifeWell and Gramps Web](https://lifewell.aoneahsan.com/compare/gramps-web).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Gramps Web, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Gramps Web for anything LifeWell does not do, such as historical records or DNA.
+## Leaving a server you look after
 
-## How they differ
+1. Keep a full download of your Gramps Web data. LifeWell does not read GEDCOM, so that file stays your complete research copy.
+2. [Sign in to LifeWell](/getting-started/first-run).
+3. If you have the names to hand, paste them into the import page in [People](/domains/people), one per line. It shows everyone it found before anything is saved. Only names come across — dates and relationships are yours to add.
+4. Link each person to the others. The [tree](/domains/people) is drawn from those links.
+5. Add the photographs you care about as [memories](/domains/memories) and mark who is in each one — the same job as tagging people in Gramps Web.
+6. Keep the Gramps server if you want its PDF book reports or the full research database.
+
+## Gramps Web beside LifeWell
 
 | Feature | LifeWell | Gramps Web |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://www.grampsweb.org/features/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Draws your family tree | Yes | Yes (<a href="https://www.grampsweb.org/features/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Memories with a photo, a date and a place | Yes | Partly (<a href="https://www.grampsweb.org/features/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.grampsweb.org/features/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Yes (<a href="https://www.grampsweb.org/features/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.grampsweb.org/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+The Gramps Web pages did not mention speaking an entry, appointments, health records, notes, an Android app or a household plan.
 
-## What they charge
+LifeWell cannot print its tree, and it makes no book report.
+
+## Price
 
 | Plan | Price | Source |
 |---|---|---|
 | Self-hosted | Free (Free and open source; you provide the server) | <a href="https://www.grampsweb.org/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell is hosted, with a free plan and paid plans on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.grampsweb.org/" target="_blank" rel="noopener noreferrer nofollow">Gramps Web website</a>.
+The Gramps Web project: <a href="https://www.grampsweb.org/" target="_blank" rel="noopener noreferrer nofollow">Gramps Web website</a>.

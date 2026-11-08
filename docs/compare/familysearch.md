@@ -9,43 +9,39 @@ last_update:
 
 # Moving from FamilySearch to LifeWell
 
-**A free, nonprofit family history site with a shared world tree and billions of historical records.** Choose FamilySearch if you want to research ancestors you never met, with free access to historical records and help at a local centre. Choose LifeWell if the tree you want is the living one, kept privately by you, with the memories, health records and appointments of those people beside it.
+FamilySearch is a free family history site, run as a nonprofit, with one shared tree of the world and billions of historical records. It is where you look for a great-grandmother in a parish register, and there is help in person at local centres.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and FamilySearch](https://lifewell.aoneahsan.com/compare/familysearch).
+LifeWell is for the family you can still phone. You keep the tree privately, and the same people carry their memories, their appointments and their health records.
 
-## How to move across
+Last checked 2026-11-07. The two side by side, with every source: [LifeWell and FamilySearch](https://lifewell.aoneahsan.com/compare/familysearch).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in FamilySearch, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep FamilySearch for anything LifeWell does not do, such as historical records or DNA.
+## Bringing your branch across
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run) and put yourself in first. Every relationship hangs off you.
+2. Open FamilySearch beside it and copy the living part of your branch: parents, grandparents, brothers and sisters, children. LifeWell does not read the FamilySearch tree, so each person is typed into [People](/domains/people).
+3. Say how each one is related to you. The [family tree](/domains/people) is drawn from those links, one generation to a band.
+4. Give the stories you already know a home in [Memories](/domains/memories) — a photo, the date, the place, who is in it.
+5. Leave the ancestors, the historical records and the shared world tree on FamilySearch. That research is still free there.
+
+## FamilySearch and LifeWell, row by row
 
 | Feature | LifeWell | FamilySearch |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
 | Draws your family tree | Yes | Yes (<a href="https://www.familysearch.org/en/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Memories with a photo, a date and a place | Yes | Yes (<a href="https://www.familysearch.org/en/home/about" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
 | Android app | Yes | Partly (<a href="https://www.familysearch.org/en/home/about" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Yes (<a href="https://www.familysearch.org/en/home/about" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+FamilySearch's pages, as we read them, said nothing about a record for each person, speaking an entry, share links, appointments, health records, notes, downloading your data or a household plan, so those rows are left out.
 
-## What they charge
+LifeWell draws its tree on screen only. It cannot print one for a wall.
+
+## Price
 
 | Plan | Price | Source |
 |---|---|---|
 | FamilySearch | Free (Free to everyone, funded by a church) | <a href="https://www.familysearch.org/en/home/about" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+FamilySearch costs nothing, and LifeWell has a free plan too. Pro and Family are listed on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.familysearch.org/" target="_blank" rel="noopener noreferrer nofollow">FamilySearch website</a>.
+FamilySearch's own pages: <a href="https://www.familysearch.org/" target="_blank" rel="noopener noreferrer nofollow">FamilySearch website</a>.

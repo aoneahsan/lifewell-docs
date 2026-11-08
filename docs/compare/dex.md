@@ -9,37 +9,36 @@ last_update:
 
 # Moving from Dex to LifeWell
 
-**A digital rolodex that syncs LinkedIn, email and calendar into one contacts list with reminders.** Choose Dex if you want your LinkedIn and inbox turned into a contacts database with briefings and keep-in-touch reminders. Choose LifeWell if you want a free record of the people who matter, with a family tree and their health and appointments beside their name.
+Dex is a digital rolodex. It syncs LinkedIn, email and calendar into one contacts list, writes briefings, and reminds you to keep in touch.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Dex](https://lifewell.aoneahsan.com/compare/dex).
+LifeWell is a free record of the people who matter, with a family tree and their health and appointments beside each name.
 
-## How to move across
+Last checked 2026-11-07. Dex and LifeWell on one page: [LifeWell and Dex](https://lifewell.aoneahsan.com/compare/dex).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Dex ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Dex until you know what you want to move. LifeWell has no import from it.
+## From a rolodex to a record
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run).
+2. If you have your contacts as a CSV or a .vcf file, the import page in [People](/domains/people) reads the names from it. Nothing else in the file comes across.
+3. Copy the notes you keep on each person into their record, or into [notes](/domains/everyday).
+4. Turn keep-in-touch dates into [calendar](/features/calendar-and-appointments) entries with a [reminder](/features/reminders).
+5. If you used Dex's voice mode, Speak it is how you add something by voice in LifeWell. You read it back and confirm.
+6. Keep Dex for the LinkedIn and inbox sync.
+
+## Dex and LifeWell
 
 | Feature | LifeWell | Dex |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
 | Speak it, and it is written down | Yes | Partly (<a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Yes (<a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Download your own data | Yes | Not stated on the pages we checked |
 | Android app | Yes | Partly (<a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Dex's pricing page did not mention a family tree, memories, share links, health records, downloading your data, a free plan or a household plan.
 
-## What they charge
+Each Speak it recording is yours alone, kept until you delete it. It has no iPhone app.
+
+## Dex's plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -47,6 +46,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Professional | $20 a month | <a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Team | $40 a month (per user, billed monthly) | <a href="https://getdex.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's prices are on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://getdex.com/" target="_blank" rel="noopener noreferrer nofollow">Dex website</a>.
+Dex's pricing page: <a href="https://getdex.com/" target="_blank" rel="noopener noreferrer nofollow">Dex website</a>.

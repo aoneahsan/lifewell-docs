@@ -9,38 +9,32 @@ last_update:
 
 # Moving from FamilyAlbum to LifeWell
 
-**A free photo and video album for a child, sorted by month and shared with relatives.** Choose FamilyAlbum if you want unlimited free photo storage for a child's album, monthly prints and photobooks. Choose LifeWell if the album should sit inside a record of the whole family, with the tree, the health notes and the appointments beside it.
+FamilyAlbum is a free, unlimited photo and video album for a child, sorted by month and shared with relatives, with prints and photobooks to buy.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and FamilyAlbum](https://lifewell.aoneahsan.com/compare/familyalbum).
+LifeWell puts the album inside a record of the whole family. The tree, the health notes and the appointments sit beside the photos.
 
-## How to move across
+Last checked 2026-11-07. The full comparison: [LifeWell and FamilyAlbum](https://lifewell.aoneahsan.com/compare/familyalbum).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in FamilyAlbum, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep FamilyAlbum for anything LifeWell does not do, such as historical records or DNA.
+## Bringing a child's album across
 
-## How they differ
+1. [Sign in](/getting-started/first-run) and add your child, yourself and the relatives who follow the album in [People](/domains/people).
+2. Choose the photos that tell the story — the first day, the first holiday — and add them as [memories](/domains/memories) with a date and a place. Each file goes to your own Google Drive.
+3. Mark who is in each photo, so the memory shows on that person's record.
+4. Add what an album never held: the child's vaccinations and medicines in [health](/domains/health), and their appointments on the [calendar](/features/calendar-and-appointments).
+5. Keep FamilyAlbum for sharing photos with relatives. A LifeWell link can carry a tree, a tracker or medications, not an album ([sharing](/domains/sharing)).
+
+## FamilyAlbum beside LifeWell
 
 | Feature | LifeWell | FamilyAlbum |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
 | Memories with a photo, a date and a place | Yes | Yes (<a href="https://family-album.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Partly (<a href="https://family-album.com/premium" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://family-album.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | One plan for a household | Yes | Yes (<a href="https://family-album.com/premium" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+FamilyAlbum's pages did not mention a record per person, a family tree, speaking an entry, share links, appointments, health records, downloading your data or an Android app.
 
-## What they charge
+## FamilyAlbum's plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -49,6 +43,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Premium Family | $5.99 a month (or $59/year) | <a href="https://family-album.com/premium" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Premium Family Pro | $10.99 a month (or $109/year) | <a href="https://family-album.com/premium" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+Free, Pro and Family, with what each one holds: the LifeWell [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://family-album.com/" target="_blank" rel="noopener noreferrer nofollow">FamilyAlbum website</a>.
+FamilyAlbum's site: <a href="https://family-album.com/" target="_blank" rel="noopener noreferrer nofollow">FamilyAlbum website</a>.

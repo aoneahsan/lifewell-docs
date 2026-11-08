@@ -9,38 +9,37 @@ last_update:
 
 # Moving from Ancestry to LifeWell
 
-**A subscription genealogy service with record archives, hints and DNA matching.** Choose Ancestry if you want record hints, DNA matches and archives from over 80 countries, and a subscription is fine. Choose LifeWell if you want a free record of the people you actually know, with memories and appointments attached, rather than a research subscription.
+Ancestry is a paid research service. Its strength is the archive — record hints, DNA matches, and records from over 80 countries — on a monthly subscription. If you are tracing who your family were, it is the tool for that.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Ancestry](https://lifewell.aoneahsan.com/compare/ancestry).
+LifeWell does no historical research at all. It keeps the people you actually know, free, with their memories and appointments attached.
 
-## How to move across
+Last checked 2026-11-07. Every row below links to the page it came from, and the full comparison is on [LifeWell and Ancestry](https://lifewell.aoneahsan.com/compare/ancestry).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Ancestry, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Ancestry for anything LifeWell does not do, such as historical records or DNA.
+## From an Ancestry tree to a LifeWell record
 
-## How they differ
+1. [Sign in](/getting-started/first-run) and start with yourself.
+2. Pick the living people out of your Ancestry tree first — the ones whose birthdays you remember. Add each of them in [People](/domains/people). There is no import from Ancestry.
+3. Link each person to the next. The [family tree](/domains/people) in LifeWell shows only the people you entered, so it stays the size of the family you know. Photos of them go into [Memories](/domains/memories), with a date and a place.
+4. If you used the voice memos in the Ancestry app, Speak it is how LifeWell takes a story by voice: you say it, it is written down, and you confirm it before anything is saved.
+5. Keep the subscription while the research is live. Hints, record collections and DNA matches stay in Ancestry, and LifeWell replaces none of them.
+
+## Side by side
 
 | Feature | LifeWell | Ancestry |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
 | Draws your family tree | Yes | Yes (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
 | Speak it, and it is written down | Yes | Partly (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Partly (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Download your own data | Yes | Not stated on the pages we checked |
 | Android app | Yes | Partly (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Partly (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | One plan for a household | Yes | Yes (<a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Ancestry's subscribe page did not mention a record for each person, memories with a date and a place, appointments, health records or downloading your data, so those rows are not shown.
 
-## What they charge
+A Speak it recording is kept privately for you, and it goes when you delete it. It has no way to print the tree, and no iPhone app.
+
+## What Ancestry charges
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +47,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | World Explorer | $39.99 a month (monthly; $32.99/mo paid upfront for 6 months, shown with an introductory $24.83/mo) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | All Access | $59.99 a month (monthly list price, shown with an introductory $54.99; $49.99/mo paid upfront for 6 months, introductory $39.83/mo) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's own prices, the free plan included, are on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.ancestry.com/" target="_blank" rel="noopener noreferrer nofollow">Ancestry website</a>.
+Ancestry changes its offers often. Read them at the source: <a href="https://www.ancestry.com/" target="_blank" rel="noopener noreferrer nofollow">Ancestry website</a>.

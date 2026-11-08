@@ -9,37 +9,29 @@ last_update:
 
 # Moving from Todoist to LifeWell
 
-**A to-do list with projects, reminders and a free plan.** Choose Todoist if what you need most is a to-do list for today, with reminders and projects. LifeWell has no task list yet. Choose LifeWell if the appointments belong to people and the people carry memories, a tree and health records.
+Todoist is a to-do list: today's tasks, projects and reminders, with a free plan. LifeWell has no task list, so if a list for today is what you need, stay with Todoist.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Todoist](https://lifewell.aoneahsan.com/compare/todoist).
+LifeWell is for appointments that belong to people, and people who carry memories, a tree and health records.
 
-## How to move across
+Last checked 2026-11-07. The comparison with sources: [LifeWell and Todoist](https://lifewell.aoneahsan.com/compare/todoist).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Todoist ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Todoist until you know what you want to move. LifeWell has no import from it.
+## Running both
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run).
+2. Look through Todoist for tasks with a person's name on them — your son's dentist, a visit to your father. Add those people in [People](/domains/people).
+3. Make those dated tasks [appointments](/features/calendar-and-appointments), with the questions to ask in the appointment's checklist and a [reminder](/features/reminders).
+4. Everything else stays in Todoist. There is no import, and LifeWell has nowhere to put a plain task.
+
+## Todoist and LifeWell
 
 | Feature | LifeWell | Todoist |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://www.todoist.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.todoist.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Todoist's pricing page said nothing about a record per person, a family tree, memories, speaking an entry, share links, health records, notes, downloading your data, an Android app or a household plan.
 
-## What they charge
+## Todoist's plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -47,6 +39,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Pro | $5 a month ($60 billed yearly) | <a href="https://www.todoist.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Business | $8 a month (per user, $96 billed yearly, plus local tax) | <a href="https://www.todoist.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+For LifeWell's own prices, open the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.todoist.com/" target="_blank" rel="noopener noreferrer nofollow">Todoist website</a>.
+Todoist's pricing page: <a href="https://www.todoist.com/" target="_blank" rel="noopener noreferrer nofollow">Todoist website</a>.

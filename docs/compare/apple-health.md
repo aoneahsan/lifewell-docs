@@ -9,34 +9,33 @@ last_update:
 
 # Moving from Apple Health to LifeWell
 
-**The Health app on iPhone and iPad that gathers medications, sleep, activity and device readings in one place.** Choose Apple Health if you live on iPhone and Apple Watch and want heart, sleep, cycle and hearing readings gathered by the device itself. Choose LifeWell if you are on Android or the web, and you want the health record kept with the people, memories and appointments of your life.
+Apple Health lives on iPhone and iPad. With an Apple Watch it gathers heart, sleep, cycle and hearing readings by itself.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Apple Health](https://lifewell.aoneahsan.com/compare/apple-health).
+LifeWell is for someone on Android or the web who wants the health record kept with the people, memories and appointments of their life.
 
-## How to move across
+Last checked 2026-11-07. The comparison with sources: [LifeWell and Apple Health](https://lifewell.aoneahsan.com/compare/apple-health).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the medicines, conditions and results you want to keep ([health](/domains/health)).
-3. Add appointments with a reminder ([calendar and appointments](/features/calendar-and-appointments)).
-4. Keep Apple Health if your clinic or device depends on it. LifeWell keeps your own record; it is not medical advice and does not connect to your doctor's system.
+## From an iPhone record to LifeWell
 
-## How they differ
+1. Install the [Android app](/getting-started/install-android), or on an iPhone open [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) in Safari. There is no iPhone app.
+2. [Sign in](/getting-started/first-run).
+3. Copy your medications from Apple Health into [health](/domains/health), with the dose and schedule.
+4. Readings you want to keep — weight, blood pressure, heart rate — are entered by hand on their trackers. LifeWell reads nothing from Apple Health or a watch.
+5. Appointments are typed into the LifeWell [calendar](/features/calendar-and-appointments). It connects to no outside calendar.
+6. Keep Apple Health for what the watch measures. LifeWell is not medical advice and does not connect to your doctor's system.
+
+## Apple Health beside LifeWell
 
 | Feature | LifeWell | Apple Health |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
 | Memories with a photo, a date and a place | Yes | Partly (<a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
 | Medications, conditions and results kept | Yes | Yes (<a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Partly (<a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
 | One plan for a household | Yes | Partly (<a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Apple's Health page showed no price, and did not mention a record per person, a family tree, speaking an entry, appointments, notes, an Android app or a free plan.
 
-Check it yourself: <a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">Apple Health website</a>.
+In Safari on an iPhone, LifeWell cannot schedule the reminders the Android app sets on the device ([iOS](/platforms/ios)).
+
+Apple's own page: <a href="https://www.apple.com/ios/health/" target="_blank" rel="noopener noreferrer nofollow">Apple Health website</a>.

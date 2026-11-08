@@ -9,37 +9,33 @@ last_update:
 
 # Moving from Evernote to LifeWell
 
-**A notes app with notebooks, reminders and apps on every platform.** Choose Evernote if notes are the whole job: clipping, scanning, searching documents, on every device you own. Choose LifeWell if notes are one part of a record about people, with their memories, health and appointments kept beside them.
+Evernote is for when notes are the whole job: notebooks, clipping, scanning and searching documents, on every device you own.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Evernote](https://lifewell.aoneahsan.com/compare/evernote).
+In LifeWell, notes are one part of a record about people. Memories, health and appointments are kept beside them.
 
-## How to move across
+Last checked 2026-11-07. Both side by side: [LifeWell and Evernote](https://lifewell.aoneahsan.com/compare/evernote).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Evernote ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Evernote until you know what you want to move. LifeWell has no import from it.
+## From notebooks to people
 
-## How they differ
+1. Export the notebooks you want to keep as PDF from Evernote, so you hold a copy.
+2. [Sign in](/getting-started/first-run) and add the people those notes are about in [People](/domains/people).
+3. Copy the notes across into [notes](/domains/everyday). Deleting a folder there never deletes the notes inside it.
+4. Notes that carried a date and a reminder in Evernote become [appointments](/features/calendar-and-appointments) with a [reminder](/features/reminders).
+5. Keep Evernote for clipping and scanning documents.
+
+## Evernote beside LifeWell
 
 | Feature | LifeWell | Evernote |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Yes (<a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Download your own data | Yes | Yes (<a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Android app | Yes | Yes (<a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Yes (<a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Evernote's plans page did not mention a record per person, a family tree, memories, speaking an entry, share links, health records or a household plan.
 
-## What they charge
+## What Evernote costs
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +44,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Advanced | $20.83 a month (pay $249.99/year) | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Teams | $10 a month (from, per seat) | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's prices: the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://evernote.com/" target="_blank" rel="noopener noreferrer nofollow">Evernote website</a>.
+Evernote's plans at the source: <a href="https://evernote.com/" target="_blank" rel="noopener noreferrer nofollow">Evernote website</a>.

@@ -9,34 +9,29 @@ last_update:
 
 # Moving from MyChart to LifeWell
 
-**The patient portal offered by hospitals and clinics that run Epic, for results, medications and appointments.** Choose MyChart if your clinic offers it: it holds the results and messages that come from the clinic itself. Choose LifeWell if you want a record you own across every clinic, with the people and memories of your life beside it.
+MyChart is the patient portal your hospital or clinic offers if it runs Epic. Results, medications, bills and messages from that clinic arrive there.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and MyChart](https://lifewell.aoneahsan.com/compare/mychart).
+LifeWell is a record you keep yourself, across every clinic, with the people and memories of your life beside it.
 
-## How to move across
+Last checked 2026-11-07. See both on [LifeWell and MyChart](https://lifewell.aoneahsan.com/compare/mychart).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the medicines, conditions and results you want to keep ([health](/domains/health)).
-3. Add appointments with a reminder ([calendar and appointments](/features/calendar-and-appointments)).
-4. Keep MyChart if your clinic or device depends on it. LifeWell keeps your own record; it is not medical advice and does not connect to your doctor's system.
+## Keeping your own copy beside MyChart
 
-## How they differ
+1. Keep MyChart. What your clinic sends comes from the clinic, and LifeWell does not connect to it.
+2. [Sign in to LifeWell](/getting-started/first-run).
+3. Copy the results you want to keep into lab results, and current medicines into medications, in [health](/domains/health).
+4. Each visit goes in as an [appointment](/features/calendar-and-appointments), with the questions you mean to ask in its checklist.
+5. If you manage a child's care, their medicines have a list of their own, apart from adult doses. LifeWell is not medical advice.
+
+## MyChart and LifeWell
 
 | Feature | LifeWell | MyChart |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Appointments with a reminder | Yes | Partly (<a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Medications, conditions and results kept | Yes | Yes (<a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Notes | Yes | Not stated on the pages we checked |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
 | One plan for a household | Yes | Partly (<a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+MyChart's page showed no price, and did not state a record per person, a family tree, memories, speaking an entry, notes, downloading your data, an Android app or a free plan.
 
-Check it yourself: <a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">MyChart website</a>.
+MyChart's own site: <a href="https://www.mychart.com/" target="_blank" rel="noopener noreferrer nofollow">MyChart website</a>.

@@ -9,37 +9,32 @@ last_update:
 
 # Moving from Covve to LifeWell
 
-**A business-card scanning contacts app for professionals, sold per seat per year.** Choose Covve if you come home from events with a stack of business cards and need them scanned, tagged and exported. Choose LifeWell if the people you want to remember are not leads, and you want their memories, tree and health in one free record.
+Covve is for people who come home from events with a stack of business cards. It scans them, tags them and exports them, sold per seat per year.
+
+LifeWell is for the people who are not leads. Family and friends, with their memories, tree and health in one free record.
 
 Last checked 2026-11-07. The full comparison is on [LifeWell and Covve](https://lifewell.aoneahsan.com/compare/covve).
 
-## How to move across
+## Taking the personal contacts out of Covve
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Covve ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Covve until you know what you want to move. LifeWell has no import from it.
+1. Export from Covve to your phone contacts or to Excel. Both are on its pricing page. Then [sign in to LifeWell](/getting-started/first-run).
+2. Save the spreadsheet as CSV and choose it on the import page in [People](/domains/people). It keeps names only, and shows the list before saving. Leave the leads out.
+3. On Android, the Contacts button beside a phone number field fills in the number from your phone. LifeWell reads only the contact you pick.
+4. Write your Covve notes into each person's record or [notes](/domains/everyday).
+5. Plans with friends go on the [calendar](/features/calendar-and-appointments), with a [reminder](/features/reminders) if you want one.
+6. Keep Covve for scanning cards.
 
-## How they differ
+## Covve and LifeWell
 
 | Feature | LifeWell | Covve |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Yes (<a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Download your own data | Yes | Yes (<a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
-| A free plan that stays free | Yes | Not stated on the pages we checked |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Covve's pricing page did not state a family tree, memories, speaking an entry, share links, appointments, health records, an Android app, a free plan or a household plan.
 
-## What they charge
+## Covve's prices
 
 | Plan | Price | Source |
 |---|---|---|
@@ -47,6 +42,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Pro | $199 a year (per seat) | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Enterprise | Not stated (Quote only) | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's, free plan included: the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.covve.com/" target="_blank" rel="noopener noreferrer nofollow">Covve website</a>.
+Covve's own pricing: <a href="https://www.covve.com/" target="_blank" rel="noopener noreferrer nofollow">Covve website</a>.

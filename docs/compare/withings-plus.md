@@ -9,43 +9,38 @@ last_update:
 
 # Moving from Withings+ to LifeWell
 
-**A subscription on top of Withings scales and watches that adds daily scores, a health assistant and a report for televisits.** Choose Withings+ if you own Withings devices and want their readings turned into daily scores and a PDF for your doctor. Choose LifeWell if you record by hand, do not own the hardware, and want health kept with the people and memories of your life.
+Withings+ sits on top of Withings scales and watches. It turns their readings into daily scores, adds a health assistant, and makes a PDF for a televisit.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Withings+](https://lifewell.aoneahsan.com/compare/withings-plus).
+LifeWell is for people who record by hand and own none of the hardware, with health kept alongside the people and memories of their life.
 
-## How to move across
+Last checked 2026-11-07. Compare them on [LifeWell and Withings+](https://lifewell.aoneahsan.com/compare/withings-plus).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the medicines, conditions and results you want to keep ([health](/domains/health)).
-3. Add appointments with a reminder ([calendar and appointments](/features/calendar-and-appointments)).
-4. Keep Withings+ if your clinic or device depends on it. LifeWell keeps your own record; it is not medical advice and does not connect to your doctor's system.
+## If you are moving off the devices
 
-## How they differ
+1. Download the health report PDF from Withings first, so your readings are kept.
+2. [Sign in](/getting-started/first-run).
+3. Enter the readings you care about by hand. Weight, blood pressure and heart rate each have a tracker in [health](/domains/health), and LifeWell reads nothing from a scale or a watch.
+4. A televisit goes on the [calendar](/features/calendar-and-appointments) like any other appointment.
+5. Still using the devices? Keep the free Withings app. LifeWell is not medical advice.
+
+## Withings+ beside LifeWell
 
 | Feature | LifeWell | Withings+ |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
 | Medications, conditions and results kept | Yes | Partly (<a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Partly (<a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | One plan for a household | Yes | Partly (<a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+The Withings+ page did not mention a record per person, a family tree, memories, speaking an entry, share links, appointments, notes or an Android app.
 
-## What they charge
+## What Withings charges
 
 | Plan | Price | Source |
 |---|---|---|
 | Withings app | Free (free tier shown in the comparison table) | <a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Withings+ | $9.95 a month (or $99.50/year; first month free for new subscribers) | <a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+No device to buy for LifeWell. Its plans: the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">Withings+ website</a>.
+The Withings+ page: <a href="https://www.withings.com/us/en/withings-plus" target="_blank" rel="noopener noreferrer nofollow">Withings+ website</a>.

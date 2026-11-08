@@ -9,43 +9,42 @@ last_update:
 
 # Moving from Monica to LifeWell
 
-**An open-source personal CRM for remembering the people in your life, free to self-host.** Choose Monica if you want open source and your own server, and a plain record of people, conversations and reminders. Choose LifeWell if you want the hosted app today, on Android, with memories, a family tree and health records on the same people.
+Monica is an open-source personal CRM, free to run on your own server, with a hosted version as well. It is a plain record of people, relationships, conversations and reminders like "call your mother".
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Monica](https://lifewell.aoneahsan.com/compare/monica).
+LifeWell is a hosted app you can use today, on Android or the web. It puts memories, a family tree and health records on those same people.
 
-## How to move across
+Last checked 2026-11-07. Both, with sources, on [LifeWell and Monica](https://lifewell.aoneahsan.com/compare/monica).
 
-1. [Open LifeWell and sign in](/getting-started/first-run).
-2. Add the people you track in Monica ([people](/domains/people)), starting with the ones you see most.
-3. Keep dates with them ([calendar and appointments](/features/calendar-and-appointments)) and set [reminders](/features/reminders).
-4. Leave the rest in Monica until you know what you want to move. LifeWell has no import from it.
+## Moving your people out of Monica
 
-## How they differ
+1. [Sign in to LifeWell](/getting-started/first-run).
+2. If you have the names as a list or a contacts file (.vcf), paste or choose it on the import page in [People](/domains/people). It reads names only, and shows everyone it found before saving.
+3. Fill in each person by hand: who they are to you, and the details you kept in Monica.
+4. Monica's reminders become [appointments](/features/calendar-and-appointments), each with a [reminder](/features/reminders) set.
+5. What you wrote about a person goes into [notes](/domains/everyday), in folders.
+6. Keep your Monica server running until everything you need is across.
+
+## Monica and LifeWell
 
 | Feature | LifeWell | Monica |
 |---|---|---|
 | A record for each person in your life | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Draws your family tree | Yes | Partly (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Memories with a photo, a date and a place | Yes | Not stated on the pages we checked |
-| Speak it, and it is written down | Yes | Not stated on the pages we checked |
-| Share a page with someone who has no account | Yes | Not stated on the pages we checked |
 | Appointments with a reminder | Yes | Partly (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
 | Notes | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Download your own data | Yes | Not stated on the pages we checked |
-| Android app | Yes | Not stated on the pages we checked |
 | A free plan that stays free | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Monica's home page did not mention memories, speaking an entry, share links, health records, downloading your data, an Android app or a household plan, and its hosted pricing page returned not found.
 
-## What they charge
+There is no LifeWell iPhone app.
+
+## Monica's price
 
 | Plan | Price | Source |
 |---|---|---|
 | Self-hosted | Free (Free to self-host) | <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Hosted | Not stated (Hosted version available; price not stated on the pages we checked) | <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's plans: the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">Monica website</a>.
+Monica's own site: <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">Monica website</a>.

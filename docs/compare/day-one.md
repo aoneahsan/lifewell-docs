@@ -9,38 +9,37 @@ last_update:
 
 # Moving from Day One to LifeWell
 
-**A private journal app for entries with photos, audio and location, with printed books.** Choose Day One if you journal daily and want end-to-end encryption, prompts, and a printed book of your entries. Choose LifeWell if the memories should hang off the people they belong to, and the free plan should not stop at one photo.
+Day One is a daily journal — encrypted end to end, with prompts, audio, location and printed books of your entries. If you write every day, it is built for you.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Day One](https://lifewell.aoneahsan.com/compare/day-one).
+LifeWell files a memory under the people it belongs to, and its free plan does not stop at one photo.
 
-## How to move across
+Last checked 2026-11-07. See both on one page: [LifeWell and Day One](https://lifewell.aoneahsan.com/compare/day-one).
 
-1. [Open LifeWell and sign in](/getting-started/first-run). Start with yourself.
-2. Add the people you already have in Day One, one record at a time ([people](/domains/people)). LifeWell does not import from other services, so start with those closest to you.
-3. Link them to each other, and the [family tree](/domains/people) draws itself.
-4. Add the memories that matter, with a photo, a date and a place ([memories](/domains/memories)).
-5. Keep Day One for anything LifeWell does not do, such as historical records or DNA.
+## Turning journal entries into memories
 
-## How they differ
+1. Export your journal from Day One first. Its CSV and JSON export keeps the full text safe while you move, and LifeWell does not import it.
+2. [Sign in to LifeWell](/getting-started/first-run).
+3. Add the people your entries keep coming back to in [People](/domains/people).
+4. Bring the entries worth keeping across one at a time as [memories](/domains/memories): the photo, the date, the place, and who was there.
+5. For the days you would rather say it than type it, Speak it writes down what you say and asks you to confirm.
+6. Keep Day One for the daily writing and the printed book.
+
+## Day One and LifeWell
 
 | Feature | LifeWell | Day One |
 |---|---|---|
-| A record for each person in your life | Yes | Not stated on the pages we checked |
-| Draws your family tree | Yes | Not stated on the pages we checked |
 | Memories with a photo, a date and a place | Yes | Yes (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Speak it, and it is written down | Yes | Yes (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Share a page with someone who has no account | Yes | Partly (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Appointments with a reminder | Yes | Not stated on the pages we checked |
-| Medications, conditions and results kept | Yes | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
 | Download your own data | Yes | Yes (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Android app | Yes | Yes (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Yes (<a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| One plan for a household | Yes | Not stated on the pages we checked |
 
-LifeWell keeps each Speak it recording privately for you, and you can delete it at any time. It cannot print your tree for a wall, it has no to-do list for today, and it has no iPhone app. It is not medical advice.
+Day One's pricing page said nothing about a record per person, a family tree, appointments, health records, notes or a household plan.
 
-## What they charge
+Audio you give Speak it stays private to you until you delete it. There is no iPhone app — on an iPhone, LifeWell runs in Safari ([iOS](/platforms/ios)).
+
+## Day One's plans
 
 | Plan | Price | Source |
 |---|---|---|
@@ -48,6 +47,6 @@ LifeWell keeps each Speak it recording privately for you, and you can delete it 
 | Silver | $49.99 a year | <a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Gold | $74.99 a year | <a href="https://dayoneapp.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-LifeWell's plans are on the [plans page](https://lifewell.aoneahsan.com/plans).
+LifeWell's plans are listed with their limits on the [plans page](https://lifewell.aoneahsan.com/plans).
 
-Check it yourself: <a href="https://dayoneapp.com/" target="_blank" rel="noopener noreferrer nofollow">Day One website</a>.
+Day One's own pricing: <a href="https://dayoneapp.com/" target="_blank" rel="noopener noreferrer nofollow">Day One website</a>.
