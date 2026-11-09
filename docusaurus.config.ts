@@ -126,6 +126,7 @@ const config: Config = {
   ],
 
   headTags: [
+    { tagName: 'meta', attributes: { name: 'yandex-verification', content: 'bfb02722189028cf' } },
     {
       tagName: 'meta',
       attributes: {
