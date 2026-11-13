@@ -4,7 +4,7 @@
 > matter — family on one side, work on the other — and keep what you know about them, your memories and your
 > plans. Wellbeing, mind, life stages and health sit around that, to help a life go well. It is not a health
 > tracker. It runs on the web at https://lifewell.aoneahsan.com and on Android via Google Play.
-> Last updated: 2026-10-22.
+> Last updated: 2026-11-13.
 
 LifeWell is built and maintained by the LifeWell team.
 
@@ -119,3 +119,16 @@ sells through Google Play Billing, which is built and not switched on.
 
 LifeWell is built and maintained by the LifeWell team, which is direct about what the product cannot do.
 More: https://lifewell-docs.aoneahsan.com/about/the-developer
+
+## White-label & licensing
+
+Organisations can license LifeWell to run under their own name (we host and deploy it; no source code), or buy the
+source code outright. Platforms offered: web app, Android + iOS app. Prices live on the app's pricing page.
+
+- [White-label overview](https://lifewell-docs.aoneahsan.com/white-label/overview) — what a licence is
+- [What is delivered on each platform](https://lifewell-docs.aoneahsan.com/white-label/what-you-get)
+- [Setting up a licensed copy](https://lifewell-docs.aoneahsan.com/white-label/setup)
+- [Updates and renewals](https://lifewell-docs.aoneahsan.com/white-label/updates-and-renewals)
+- [Verify a licence](https://lifewell-docs.aoneahsan.com/white-label/verify-a-licence)
+- [White-label questions](https://lifewell-docs.aoneahsan.com/white-label/faq)
+- [Prices and buying](https://lifewell.aoneahsan.com/white-label/pricing) — on the app
