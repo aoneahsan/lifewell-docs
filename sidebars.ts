@@ -72,6 +72,18 @@ const sidebars: SidebarsConfig = {
     'plans',
     {
       type: 'category',
+      label: 'White-label & licensing',
+      link: {type: 'doc', id: 'white-label/overview'},
+      items: [
+        'white-label/what-you-get',
+        'white-label/setup',
+        'white-label/updates-and-renewals',
+        'white-label/verify-a-licence',
+        'white-label/faq',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Your data',
       link: {
         type: 'generated-index',
