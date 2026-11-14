@@ -5,7 +5,7 @@ keywords: [lifewell white-label, white-label licence, lifewell licensing, lifewe
 tags: [white-label]
 sidebar_position: 1
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: The LifeWell team
 ---
 
@@ -31,7 +31,7 @@ family-history society, an employer or a union offering a staff benefit, a commu
 | Who runs it | We do | You do |
 | Exclusive | No — we may license it to others | Yes — we stop selling LifeWell to anyone else |
 | Updates | Six months, then renewals | Six months, then renewals |
-| Price | [Per platform](https://lifewell.aoneahsan.com/white-label/pricing) | [Once](https://lifewell.aoneahsan.com/white-label/buyout) |
+| Price | [Per platform](https://lifewell.aoneahsan.com/white-label/pricing) | [Once](https://lifewell.aoneahsan.com/white-label/buyout), plus a 7% royalty on gross revenue for as long as it earns |
 
 Changes made only for your copy are [custom work](https://lifewell.aoneahsan.com/white-label/custom-work), quoted separately.
 

@@ -123,7 +123,9 @@ More: https://lifewell-docs.aoneahsan.com/about/the-developer
 ## White-label & licensing
 
 Organisations can license LifeWell to run under their own name (we host and deploy it; no source code), or buy the
-source code outright. Platforms offered: web app, Android + iOS app. Prices live on the app's pricing page.
+source code outright, which carries a 7% royalty on gross revenue (excluding sales tax/VAT), paid quarterly with a
+revenue statement for as long as it earns, including after a resale. Licences are paid by Wise bank transfer.
+Platforms offered: web app, Android + iOS app. Prices live on the app's pricing page.
 
 - [White-label overview](https://lifewell-docs.aoneahsan.com/white-label/overview) — what a licence is
 - [What is delivered on each platform](https://lifewell-docs.aoneahsan.com/white-label/what-you-get)

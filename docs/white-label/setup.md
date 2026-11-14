@@ -5,14 +5,15 @@ keywords: [lifewell white-label setup, white-label deployment, custom domain]
 tags: [white-label]
 sidebar_position: 3
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: The LifeWell team
 ---
 
 # Setting up a licensed copy
 
-1. **You pay** on the [pricing page](https://lifewell.aoneahsan.com/white-label/pricing), or we send a quote when card payment is not open.
-   The payment page belongs to our payment provider; you return to a page that reads your order once.
+1. **You pay** on the [pricing page](https://lifewell.aoneahsan.com/white-label/pricing), or we send a quote when payment is not open.
+   You pay by bank transfer to our Wise account and send the transfer reference; the licence is issued once we
+   confirm it. You return to a page that reads your order once.
 2. **An email arrives** with your licence key and its certificate. Keep it: renewals ask for the key.
 3. **We ask for what carries your name** — the domain, your name as it should appear, a logo and your colours — and,
    for Android, access to your Google Play developer account.
