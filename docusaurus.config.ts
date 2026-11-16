@@ -202,6 +202,8 @@ const config: Config = {
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            // docs/PACKAGES.md is the fleet's fixed-path dependency record, never a published page.
+            'PACKAGES.md',
           ],
           editUrl: `${GITHUB_REPO}/edit/main/`,
           showLastUpdateTime: true,

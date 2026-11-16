@@ -1,5 +1,7 @@
 # LifeWell Docs — CLAUDE.md
 
+<!-- fleet:node-26-13-1 v1 --> Node 26.13.1 LTS (.nvmrc), packages latest — 2026-11-16
+
 **Mirror of `CLAUDE.md`** — byte-identical except this header.
 
 | Context Budget Last Verified | 2026-10-14; re-check due 2026-11-13. See the workspace context tracker. |
