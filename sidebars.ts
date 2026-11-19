@@ -139,6 +139,20 @@ const sidebars: SidebarsConfig = {
         'reference/integrations',
       ],
     },
+    {
+      type: 'category',
+      label: 'Developers',
+      link: {type: 'doc', id: 'developers/index'},
+      items: [
+        'developers/authentication',
+        'developers/api',
+        'developers/mcp',
+        'developers/webhooks',
+        'developers/calendar-feeds',
+        'developers/two-step-sign-in',
+        'developers/changelog',
+      ],
+    },
     'faq',
     {
       type: 'category',

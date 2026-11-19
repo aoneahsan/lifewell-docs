@@ -73,3 +73,4 @@ here because a deliberate reset and a catastrophic bug look identical from the i
   [the page tour and the walkthrough](./getting-started/tours-and-walkthrough.md)
 - If you are here about your data: [export](./your-data/export.md) ·
   [delete](./your-data/delete.md) · [the export file format](./reference/export-format.md)
+- To connect LifeWell to a calendar app, a script or an AI assistant: [Developers](./developers/index.md)

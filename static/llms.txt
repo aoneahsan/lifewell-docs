@@ -4,7 +4,7 @@
 > matter — family on one side, work on the other — and keep what you know about them, your memories and your
 > plans. Wellbeing, mind, life stages and health sit around that, to help a life go well. It is not a health
 > tracker. It runs on the web at https://lifewell.aoneahsan.com and on Android via Google Play.
-> Last updated: 2026-11-13.
+> Last updated: 2026-11-19.
 
 LifeWell is built and maintained by the LifeWell team.
 
@@ -40,7 +40,7 @@ page still opens if you go to it directly. Sharing has no switch: it is where yo
 - It does not run on iOS. iOS was removed on 2026-07-16 and will be re-added when an Apple Developer account
   exists.
 - It does not ship a browser extension. One is planned and not built.
-- It does not connect to Google Calendar or any external calendar.
+- It does not read from Google Calendar or any external calendar.
 - It does not require an account for the public tools, the baby-name browser or the blood donor directory.
 
 ## Not built yet, as of 2026-09-08
@@ -97,6 +97,21 @@ sells through Google Play Billing, which is built and not switched on.
 - The admin panel: https://lifewell-docs.aoneahsan.com/admin
 - Questions people ask: https://lifewell-docs.aoneahsan.com/faq
 - What changed in 3.0.0: https://lifewell-docs.aoneahsan.com/about/changelog
+
+## Developers
+
+Live since 2026-11-19.
+
+- Connect LifeWell to other apps: https://lifewell-docs.aoneahsan.com/developers
+- Access tokens and authentication: https://lifewell-docs.aoneahsan.com/developers/authentication
+- The API: https://lifewell-docs.aoneahsan.com/developers/api
+- OpenAPI file: https://mednqghfhaazsikbmtiz.supabase.co/functions/v1/api/v1/openapi.json
+- OpenAPI as Markdown: https://mednqghfhaazsikbmtiz.supabase.co/functions/v1/api/v1/openapi.md
+- AI assistants (MCP): https://lifewell-docs.aoneahsan.com/developers/mcp
+- Webhooks: https://lifewell-docs.aoneahsan.com/developers/webhooks
+- Calendar feeds: https://lifewell-docs.aoneahsan.com/developers/calendar-feeds
+- Two-step sign-in: https://lifewell-docs.aoneahsan.com/developers/two-step-sign-in
+- Developer changelog: https://lifewell-docs.aoneahsan.com/developers/changelog
 
 ## Canonical facts
 
