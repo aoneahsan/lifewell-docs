@@ -60,8 +60,10 @@ wellness app", OD-25). Built with **Docusaurus 3**. This repo is **documentation
 - SEO/AEO shipped: JSON-LD `@graph` (WebSite + Organization — no Person since 2026-10-22, team voice) in `docusaurus.config.ts` headTags,
   `static/robots.txt`, `static/llms.txt` (rewritten for v3), an IndexNow key file + `indexnow:ping` script,
   `sitemap.xml`, OG/Twitter meta.
-- **Deployment: GitHub Pages** via `.github/workflows/deploy-pages.yml` with the custom domain — **a push
-  to `main` IS the deploy.** 🔴 **No Firebase project, ever** — no `firebase.json`, no `.firebaserc`, no
+- **Deployment: GitHub Pages from the `gh-pages` branch** (legacy source, custom domain; GitHub Actions are off
+  fleet-wide, so a push to `main` deploys nothing). Publish by hand: `yarn build`, then a worktree of `o/gh-pages`
+  in the workspace `temp/`, replace its files with `build/` (keep `CNAME`, `.nojekyll`), commit, push
+  `HEAD:gh-pages`, remove the worktree (`docusaurus deploy` needs a remote named `origin`, which the fleet forbids). 🔴 **No Firebase project, ever** — no `firebase.json`, no `.firebaserc`, no
   deploy script. Read the push output; the repo's ruleset may print `Bypassed rule violations` for the
   owner's direct push — quote it, never call it a clean push.
 
