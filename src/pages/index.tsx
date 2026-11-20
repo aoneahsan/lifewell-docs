@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
+import {OTHER_PLATFORMS, PRIMARY_PLATFORM} from '@site/src/data/platforms';
 import styles from './index.module.css';
 
 function HomepageHeader(): ReactNode {
@@ -21,12 +22,17 @@ function HomepageHeader(): ReactNode {
           <Link className="button button--primary button--lg" to="/intro">
             Get started →
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            href="https://lifewell.aoneahsan.com">
+          <Link className="button button--secondary button--lg" href={PRIMARY_PLATFORM.href}>
             Open LifeWell
           </Link>
         </div>
+        <p className={styles.also}>
+          <span>Also on</span>
+          {OTHER_PLATFORMS.filter((platform) => !platform.primary).map((platform) => (
+            <Link key={platform.id} href={platform.href}>{platform.name}</Link>
+          ))}
+          <Link to="/apps">All apps →</Link>
+        </p>
         <p className={styles.builtBy}>
           Built and maintained by{' '}
           <Link to="/about/the-developer">the LifeWell team</Link>. Documentation licensed CC BY 4.0.

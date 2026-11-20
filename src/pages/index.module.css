@@ -80,3 +80,8 @@
 .builtBy a:hover {
   opacity: 0.9;
 }
+
+/* Hero "also on" row: every other released surface, small, above the fold (2026-11-20). */
+.also { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .4rem 1rem; margin: 1.25rem 0 0; }
+.also a { color: #ffffff; text-decoration: underline; min-height: 2.75rem; display: inline-flex; align-items: center; }
+.also span { opacity: .85; }

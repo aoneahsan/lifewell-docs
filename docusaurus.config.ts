@@ -2,11 +2,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import sitePages, {withLastmod} from './plugins/site-pages';
+import {OTHER_PLATFORMS} from './src/data/platforms';
 
 const SITE_URL = 'https://lifewell-docs.aoneahsan.com';
 const APP_URL = 'https://lifewell.aoneahsan.com';
-const PLAY_STORE_URL =
-  'https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell';
 const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
 const BLOG_PATH = '/blog';
 
@@ -173,7 +172,7 @@ const config: Config = {
               '@type': 'ImageObject',
               url: `${SITE_URL}/img/logo.svg`,
             },
-            sameAs: [GITHUB_REPO, PLAY_STORE_URL],
+            sameAs: [GITHUB_REPO, ...OTHER_PLATFORMS.filter((platform) => platform.id === 'android').map((platform) => platform.href)],
           },
         ],
       }),
@@ -279,14 +278,13 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/about/the-developer', label: 'About', position: 'left'},
         {
-          href: APP_URL,
-          label: 'Open LifeWell',
+          type: 'dropdown',
+          label: 'Get LifeWell',
           position: 'right',
-        },
-        {
-          href: PLAY_STORE_URL,
-          label: 'Get on Android',
-          position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})),
+            {label: 'All apps', to: '/apps'},
+          ],
         },
         {
           href: GITHUB_REPO,
@@ -305,6 +303,13 @@ const config: Config = {
       },
       links: [
         {
+          title: 'Get LifeWell',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({label: platform.name, href: platform.href})),
+            {label: 'All apps', to: '/apps'},
+          ],
+        },
+        {
           title: 'Documentation',
           items: [
             {label: 'Get started', to: '/intro'},
@@ -317,8 +322,6 @@ const config: Config = {
         {
           title: 'Project',
           items: [
-            {label: 'Open LifeWell', href: APP_URL},
-            {label: 'Get it on Google Play', href: PLAY_STORE_URL},
             {label: 'About this site', to: '/about/the-developer'},
             {label: 'Changelog', to: '/about/changelog'},
             {label: 'GitHub', href: GITHUB_REPO},
