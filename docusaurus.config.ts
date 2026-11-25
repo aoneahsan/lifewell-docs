@@ -112,7 +112,9 @@ const config: Config = {
     [
       // Local search. The site shipped with none at all, which for documentation
       // is a missing feature rather than a missing nicety.
-      require.resolve('@easyops-cn/docusaurus-search-local'),
+      // The package name, never require.resolve(): Docusaurus ships the site config to the browser, and a resolved
+      // path would publish this machine's folders in main.js (the site-pages gate fails the build if it does).
+      '@easyops-cn/docusaurus-search-local',
       {
         hashed: true,
         indexBlog: true,
