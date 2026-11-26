@@ -1,158 +1,43 @@
-# LifeWell
+# LifeWell documentation
 
-> LifeWell keeps the people and moments of your life in one place. You start with yourself, add the people who
-> matter — family on one side, work on the other — and keep what you know about them, your memories and your
-> plans. Wellbeing, mind, life stages and health sit around that, to help a life go well. It is not a health
-> tracker. It runs on the web at https://lifewell.aoneahsan.com and on Android via Google Play.
-> Last updated: 2026-11-19.
+> LifeWell keeps the people and moments of your life in one place. Start with yourself, add the people who matter, and keep their stories, your plans and the ordinary details around them. The public guide is at https://lifewell-docs.aoneahsan.com. Last updated: 2026-11-26.
 
-LifeWell is built and maintained by the LifeWell team.
+LifeWell is made by the LifeWell team at Zaions. Ahsan Mahmood (aoneahsan) began it after listening to his parents tell the stories of their lives. The app is not a medical device and does not diagnose, treat or interpret a condition.
 
-Tagline: Keep the people and moments of your life in one place — and everything around them.
+## Start here
 
+- [Documentation home](https://lifewell-docs.aoneahsan.com/): choose a part of your record.
+- [LifeWell web app](https://lifewell.aoneahsan.com/): the live product.
+- [Get LifeWell](https://lifewell-docs.aoneahsan.com/apps): released web and Android surfaces.
+- [Features](https://lifewell.aoneahsan.com/features): what each area does before you sign in.
+- [Plans](https://lifewell.aoneahsan.com/plans): current public plan information; the signed-in page shows available ways to pay.
+- [Privacy](https://lifewell.aoneahsan.com/privacy): where records go and who can see them.
+- [Permissions](https://lifewell.aoneahsan.com/permissions): each Android permission and its purpose.
 
-## Get LifeWell
+## Your record
 
-- [All apps](https://lifewell-docs.aoneahsan.com/apps): every released surface of LifeWell.
-- [LifeWell web app](https://lifewell.aoneahsan.com)
-- [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell)
+People and their connections sit beside memories, everyday plans, sharing, health, mind and life stages. You decide what to enter and what to share. The web app is available in English, Simplified Chinese, Hindi, Spanish, Arabic, French, Brazilian Portuguese, Russian, Japanese and Urdu.
 
-## Structure
+In Android 3.31.0 or later, you can opt in to approximate background location recording. Rounded points remain on the device for up to 90 days; account sync is a second choice. The 3.31.0 binary is prepared, and its Play publication remains with the owner. The web app has no background location recorder. A limited set of quick logs can wait locally when you choose offline logging, then sync when a connection returns.
 
-Seven areas, with You in the middle. You is the account, not an area, and cannot be switched off.
+## Guides and developer access
 
-- People — family tree, work tree, connections, family groups, journeys, saved places and maps, messages,
-  community groups, professionals directory, blood donor directory.
-- Memories — photos, albums, scrapbook, tags, captions.
-- Everyday — calendar and appointments, notes and folders, saved places, reminders, shopping list.
-- Sharing — links you make to show someone a tracker, your medications or a family tree, or to ask for
-  something back; each carries only what you choose and can be ended at any time.
-- Health — trackers (water, steps, weight, blood pressure, blood sugar, sleep and more), medications, food
-  and meals, exercise, conditions, lab results.
-- Mind — journal (mood, gratitude, dreams, free writing), guided breathing, meditation, sleep sounds, desk
-  wellness breaks.
-- Life stages — cycle, trying to conceive, ovulation, PCOS, menopause, breastfeeding, children (feeds, sleep,
-  nappies, growth, milestones).
+- [People](https://lifewell-docs.aoneahsan.com/domains/people): the people and connections in your record.
+- [Memories](https://lifewell-docs.aoneahsan.com/domains/memories): photos, notes and the moments around them.
+- [Calendar and reminders](https://lifewell-docs.aoneahsan.com/features/calendar-and-appointments): dates and what you asked to remember.
+- [Maps](https://lifewell-docs.aoneahsan.com/features/maps): the connections view and optional Android location history.
+- [Developer API](https://lifewell-docs.aoneahsan.com/developers/api): account-authorised access.
+- [MCP](https://lifewell-docs.aoneahsan.com/developers/mcp): connect an assistant to an account with permission.
+- [Webhooks](https://lifewell-docs.aoneahsan.com/developers/webhooks): signed delivery to your own endpoint.
 
-Every area except Sharing can be switched off. Off means the menu stops listing it; nothing is deleted, and any
-page still opens if you go to it directly. Sharing has no switch: it is where you end what you have shared.
+## Who builds this
 
-## What LifeWell does NOT do
+- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): Ahsan Mahmood, his vision and dated LifeWell milestones.
+- [Zaions products](https://lifewell-docs.aoneahsan.com/ecosystem): other work from the same maker, with a page for each product.
+- [Ahsan Mahmood](https://aoneahsan.com) · [Zaions](https://zaions.com).
+- [Full product index](https://lifewell-docs.aoneahsan.com/llms-full.txt): details and sources for the other products.
 
-- It does not give medical advice and it is not a medical device.
-- It does not keep a streak, a score, a rank, a level or a badge. There is no column for them.
-- It does not sell or share your record, and there is no advertising network in the product.
-- It is NOT end-to-end encrypted. The record is encrypted in transit and at rest and is readable by the
-  database. Claiming otherwise would be false.
-- It does not run on iOS. iOS was removed on 2026-07-16 and will be re-added when an Apple Developer account
-  exists.
-- It does not ship a browser extension. One is planned and not built.
-- It does not read from Google Calendar or any external calendar.
-- It does not require an account for the public tools, the baby-name browser or the blood donor directory.
+## Discovery files
 
-## Not built yet, as of 2026-09-08
-
-- Push notifications — subscription wired, sending service not written. No push arrives.
-- Global search — the server query exists; the page is a declared placeholder.
-- The referral member screen — the server half is live; there is no screen showing your code.
-- Deleting one area — the database transaction exists; there is no screen opening it.
-- Deleting your account in-app — the button is wired; the server function is not deployed. The working route
-  is https://lifewell.aoneahsan.com/delete-account
-- Google Play Billing — built and tested against recorded responses; not configured and switched off.
-- Over-the-air updates — planned. No package in the build.
-
-## Your data
-
-- Written on the device first, synced when there is a connection.
-- Photos and files live in the user's own Google Drive, under a scope reaching only files LifeWell created.
-  LifeWell holds a reference, not the file.
-- Export everything as JSON, CSV or PDF, built in the browser rather than on a server. JSON and CSV are
-  complete; the PDF deliberately omits the journal, notes, memories and messages.
-- Export is available on every plan, including Free.
-- Format documented field by field: https://lifewell-docs.aoneahsan.com/reference/export-format
-
-## Plans
-
-Free ($0), Pro ($9.99 a month or $99.90 a year) and Family ($8.99 per seat a month, from three seats, with no upper
-limit; a seat goes only to somebody connected as family and shares nothing). Split by what a use costs to run rather than
-by how much of the product you get: unlimited entries on every tier, 50 people on Free, AI estimates limited
-tightest and removed entirely by bringing your own key on any tier. Web payment is arranged manually; Android
-sells through Google Play Billing, which is built and not switched on.
-
-## Documentation index
-
-- Start here: https://lifewell-docs.aoneahsan.com/intro
-- The seven areas: https://lifewell-docs.aoneahsan.com/domains/overview
-- Sharing: https://lifewell-docs.aoneahsan.com/domains/sharing
-- Install on the web: https://lifewell-docs.aoneahsan.com/getting-started/install-web
-- Install on Android: https://lifewell-docs.aoneahsan.com/getting-started/install-android
-- The page tour and the walkthrough: https://lifewell-docs.aoneahsan.com/getting-started/tours-and-walkthrough
-- Privacy and security: https://lifewell-docs.aoneahsan.com/concepts/privacy-and-security
-- Architecture: https://lifewell-docs.aoneahsan.com/concepts/architecture
-- The data model: https://lifewell-docs.aoneahsan.com/concepts/data-model
-- Offline and sync: https://lifewell-docs.aoneahsan.com/concepts/offline-and-sync
-- Export everything: https://lifewell-docs.aoneahsan.com/your-data/export
-- The export file format: https://lifewell-docs.aoneahsan.com/reference/export-format
-- Delete your record: https://lifewell-docs.aoneahsan.com/your-data/delete
-- Where your record lives: https://lifewell-docs.aoneahsan.com/your-data/where-it-lives
-- Plans: https://lifewell-docs.aoneahsan.com/plans
-- Third-party services: https://lifewell-docs.aoneahsan.com/reference/integrations
-- Addresses that do not move: https://lifewell-docs.aoneahsan.com/reference/addresses
-- Android: https://lifewell-docs.aoneahsan.com/platforms/android
-- iOS (removed): https://lifewell-docs.aoneahsan.com/platforms/ios
-- Browser extension (planned): https://lifewell-docs.aoneahsan.com/platforms/browser-extension
-- The admin panel: https://lifewell-docs.aoneahsan.com/admin
-- Questions people ask: https://lifewell-docs.aoneahsan.com/faq
-- What changed in 3.0.0: https://lifewell-docs.aoneahsan.com/about/changelog
-
-## Developers
-
-Live since 2026-11-19.
-
-- Connect LifeWell to other apps: https://lifewell-docs.aoneahsan.com/developers
-- Access tokens and authentication: https://lifewell-docs.aoneahsan.com/developers/authentication
-- The API: https://lifewell-docs.aoneahsan.com/developers/api
-- OpenAPI file: https://mednqghfhaazsikbmtiz.supabase.co/functions/v1/api/v1/openapi.json
-- OpenAPI as Markdown: https://mednqghfhaazsikbmtiz.supabase.co/functions/v1/api/v1/openapi.md
-- AI assistants (MCP): https://lifewell-docs.aoneahsan.com/developers/mcp
-- Webhooks: https://lifewell-docs.aoneahsan.com/developers/webhooks
-- Calendar feeds: https://lifewell-docs.aoneahsan.com/developers/calendar-feeds
-- Two-step sign-in: https://lifewell-docs.aoneahsan.com/developers/two-step-sign-in
-- Developer changelog: https://lifewell-docs.aoneahsan.com/developers/changelog
-
-## Canonical facts
-
-- LifeWell version: 3.0.0 — a full rebuild of the 2.x app, on a new backend, with no migration of 2.x data.
-- Android application id: com.aoneahsan.lifewell · minimum Android 9 (API 28).
-- Stack: React 19, TypeScript, Vite 8, Capacitor 8 (Android only), Supabase (Postgres, row-level security,
-  Google-only auth), TanStack Router and Query, Tailwind v4, React Aria Components, Zustand, react-hook-form
-  with Zod, Tiptap, D3, Sentry, Google Analytics 4, Amplitude, Microsoft Clarity, OneSignal.
-- NOT used: Firebase as a backend, any third-party component library, Supabase Storage, production source
-  maps, plain textareas.
-- Interface language: British English only. Every string goes through the translation layer, so a second
-  language is one new file; none is planned.
-- Live app: https://lifewell.aoneahsan.com
-- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell
-- Documentation: https://lifewell-docs.aoneahsan.com
-- Documentation source: https://github.com/aoneahsan/lifewell-docs (CC BY 4.0). Application source is private.
-- Contact: aoneahsan@gmail.com
-
-## About the team
-
-LifeWell is built and maintained by the LifeWell team, which is direct about what the product cannot do.
-More: https://lifewell-docs.aoneahsan.com/about/the-developer
-
-## White-label & licensing
-
-Organisations can license LifeWell to run under their own name (we host and deploy it; no source code), or buy the
-source code outright, which carries a 7% royalty on gross revenue (excluding sales tax/VAT), paid quarterly with a
-revenue statement for as long as it earns, including after a resale. Licences are paid by Wise bank transfer.
-Platforms offered: web app, Android + iOS app. Prices live on the app's pricing page.
-
-- [White-label overview](https://lifewell-docs.aoneahsan.com/white-label/overview) — what a licence is
-- [What is delivered on each platform](https://lifewell-docs.aoneahsan.com/white-label/what-you-get)
-- [Setting up a licensed copy](https://lifewell-docs.aoneahsan.com/white-label/setup)
-- [Updates and renewals](https://lifewell-docs.aoneahsan.com/white-label/updates-and-renewals)
-- [Verify a licence](https://lifewell-docs.aoneahsan.com/white-label/verify-a-licence)
-- [White-label questions](https://lifewell-docs.aoneahsan.com/white-label/faq)
-- [Prices and buying](https://lifewell.aoneahsan.com/white-label/pricing) — on the app
+- [Sitemap](https://lifewell-docs.aoneahsan.com/sitemap.xml) · [RSS feed](https://lifewell-docs.aoneahsan.com/feed.xml) · [Robots policy](https://lifewell-docs.aoneahsan.com/robots.txt).
+- [App pricing record](https://lifewell.aoneahsan.com/pricing.md) and [app overview](https://lifewell.aoneahsan.com/llms.txt).

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["9171"],{32014(e,l,s){s.d(l,{createTreemapServices:()=>c.d});var c=s(51681);s(69302)}}]);

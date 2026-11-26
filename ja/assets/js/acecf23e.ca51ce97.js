@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/ja/blog","blogTitle":"\u30D6\u30ED\u30B0","authorsListPath":"/ja/blog/authors"}')}}]);

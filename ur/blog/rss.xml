@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LifeWell Documentation Blog</title>
+        <link>https://lifewell-docs.aoneahsan.com/ur/blog</link>
+        <description>Updates, release notes, and deep-dives from the LifeWell project.</description>
+        <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ur</language>
+        <copyright>Copyright © 2026 the LifeWell team. CC BY 4.0.</copyright>
+        <item>
+            <title><![CDATA[دستاویزات غلط تھیں، اس لیے دوبارہ لکھی گئیں]]></title>
+            <link>https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0</link>
+            <guid>https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0</guid>
+            <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[LifeWell 3.0.0 نئے بنیادی نظام پر دوبارہ بنایا گیا، جبکہ پرانی دستاویزات ایسی ایپ بیان کرتی تھیں جو اب موجود نہیں۔ تمام صفحات ہٹا کر کوڈ کے مطابق دوبارہ لکھے گئے۔]]></description>
+            <content:encoded><![CDATA[<p>اس سائٹ کا پچھلا ورژن ایسی iOS ایپ بیان کرتا تھا جو ہٹائی جا چکی تھی، ایسی براؤزر ایکسٹینشن جو اس وقت جاری نہیں ہوئی تھی، ایسا ڈیٹابیس جو ایپ اب استعمال نہیں کرتی، اور تجزیاتی خدمات کی ایسی ترتیب جو اصل ترتیب کے تقریباً الٹ تھی۔</p>
+<p>یہ باتیں بے ایمانی سے نہیں لکھی گئی تھیں۔ انہیں لکھنے کے بعد پروڈکٹ بدل گئی، اور کوئی واپس جا کر انہیں درست نہ کر سکا۔</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="کیا-غلط-تھا">کیا غلط تھا؟<a href="https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0#%DA%A9%DB%8C%D8%A7-%D8%BA%D9%84%D8%B7-%D8%AA%DA%BE%D8%A7" class="hash-link" aria-label="کیا غلط تھا؟ کا براہِ راست رابطہ" title="کیا غلط تھا؟ کا براہِ راست رابطہ" translate="no">​</a></h2>
+<p>تین دعوے خاص طور پر بتانے چاہییں، کیونکہ کسی نہ کسی نے ہر ایک کو پڑھ کر درست سمجھا تھا۔</p>
+<p><strong><code>/feed</code> کو سماجی فیڈ بتایا گیا تھا۔</strong> یہ بلاگ کی حالیہ تحریروں کی عوامی، قابلِ مطالعہ فیڈ ہے۔ LifeWell میں سماجی فیڈ نہیں ہے اور کبھی تھی بھی نہیں۔</p>
+<p><strong>کہا گیا تھا کہ Firebase Analytics ممنوع ہے اور اس کی جگہ دوسرا نظام آ گیا ہے۔</strong> Google Analytics 4 <em>ہی</em> Firebase کی تجزیاتی پراپرٹی ہے — ایک پراپرٹی، اس سے رابطے کے دو طریقے۔ یہ Amplitude، Clarity اور Sentry کے ساتھ چلتی ہے، ان کی جگہ نہیں۔ جو قاری جاننا چاہتا تھا کہ ایپ کیا رپورٹ کرتی ہے، اسے حقیقت کے برعکس بات بتائی گئی تھی۔</p>
+<p><strong>براہِ راست آلے پر پہنچنے والی اپ ڈیٹس کے بارے میں لکھا تھا کہ وہ ”ابھی شامل نہیں ہوئیں“۔</strong> 3.0.0 کی دوبارہ تعمیر کے وقت یہ درست تھا۔ اب LifeWell موزوں Android انسٹالیشنز پر دستخط شدہ Native Update بنڈل استعمال کرتا ہے۔ موجودہ <a class="" href="https://lifewell-docs.aoneahsan.com/ur/platforms/android#over-the-air-updates">Android صفحہ</a> بتاتا ہے کہ ایپ کس چیز کی تصدیق کرتی ہے اور کن تبدیلیوں کے لیے اب بھی مقامی بلڈ چاہیے۔</p>
+<p>اس کے علاوہ 65 صفحات ایسے دستاویزی ڈیٹا ماڈل کو بیان کرتے تھے جس کی جگہ نئے نظام میں Postgres آ گیا۔ 35 صفحات میں iOS کا ذکر تھا، حالانکہ اسے 2026-07-16 کو ہٹا دیا گیا تھا۔ ایک پورا حصہ ایسی ایکسٹینشن نصب کرنے اور استعمال کرنے کا طریقہ بتاتا تھا جو اس وقت موجود ہی نہیں تھی۔</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="اسے-کیسے-درست-کیا-گیا">اسے کیسے درست کیا گیا؟<a href="https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0#%D8%A7%D8%B3%DB%92-%DA%A9%DB%8C%D8%B3%DB%92-%D8%AF%D8%B1%D8%B3%D8%AA-%DA%A9%DB%8C%D8%A7-%DA%AF%DB%8C%D8%A7" class="hash-link" aria-label="اسے کیسے درست کیا گیا؟ کا براہِ راست رابطہ" title="اسے کیسے درست کیا گیا؟ کا براہِ راست رابطہ" translate="no">​</a></h2>
+<p>ہر صفحہ ہٹا دیا گیا۔ نئے صفحات ماخذی کوڈ کو دیکھ کر لکھے گئے: برآمد کا فارمیٹ اسی ٹیبل رجسٹری سے لیا گیا جسے برآمد کرنے والا نظام پڑھتا ہے، منصوبوں کی حدیں منصوبوں کی رجسٹری سے، Android کا کم از کم ورژن بلڈ فائل سے، اور انتظامی اختیارات انتظامی سطح کے اصل ریکارڈ سے۔</p>
+<p>جہاں کوئی چیز آدھی بنی ہے، صفحہ بتاتا ہے کہ کون سا حصہ تیار ہے۔ ایسی سات چیزیں ہیں؛ انہیں <a class="" href="https://lifewell-docs.aoneahsan.com/ur/about/changelog">3.0.0 میں کیا بدلا</a> میں ایک جگہ درج کیا گیا ہے۔</p>
+<p>جہاں کسی عدد کی تصدیق ہو سکتی تھی، وہاں کی گئی۔ پرانی دستاویزات Android کی کم از کم حد 7.0 بتاتی تھیں؛ بلڈ میں 28 درج ہے، یعنی Android 9۔</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="اب-اس-سائٹ-کا-اصول">اب اس سائٹ کا اصول<a href="https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0#%D8%A7%D8%A8-%D8%A7%D8%B3-%D8%B3%D8%A7%D8%A6%D9%B9-%DA%A9%D8%A7-%D8%A7%D8%B5%D9%88%D9%84" class="hash-link" aria-label="اب اس سائٹ کا اصول کا براہِ راست رابطہ" title="اب اس سائٹ کا اصول کا براہِ راست رابطہ" translate="no">​</a></h2>
+<p><strong>صفحہ صرف وہی بات بیان کرے جو پروڈکٹ حقیقت میں کرتی ہے۔</strong></p>
+<p>نہ وہ جو پروڈکٹ ابھی کرنے والی ہے، نہ وہ جو منصوبے میں لکھی ہے، اور نہ وہ جو پڑھنے میں بہتر لگے۔ اگر کچھ نہیں بنا تو صفحہ صاف کہتا ہے کہ نہیں بنا، <em>جلد آنے والا ہے</em> نہیں۔ اگر کوئی کنٹرول اپنی شکل سے کم کام کرتا ہے تو اسی کے پاس اس کی حد بتائی جاتی ہے، تین حصے بعد نہیں۔</p>
+<p>اس معیار پر قائم رہنا جتنا لگتا ہے اس سے مشکل ہے، کیونکہ خرابی عموماً جھوٹ نہیں ہوتی: بات لکھتے وقت درست ہوتی ہے اور بعد میں اسے دوبارہ نہیں دیکھا جاتا۔ اسی لیے رویے سے متعلق دعویٰ کرنے والے صفحات اب بتاتے ہیں کہ وہ رویہ کہاں موجود ہے۔ برآمد کے فارمیٹ کا صفحہ بھی اسی رجسٹری کے مطابق بنایا جاتا ہے جسے برآمد پڑھتی ہے، تاکہ وہ ایسی فائل بیان نہ کرے جو پروڈکٹ بناتی ہی نہیں۔</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="پرانے-پتے-کہاں-گئے">پرانے پتے کہاں گئے؟<a href="https://lifewell-docs.aoneahsan.com/ur/blog/documentation-rewritten-for-3-0-0#%D9%BE%D8%B1%D8%A7%D9%86%DB%92-%D9%BE%D8%AA%DB%92-%DA%A9%DB%81%D8%A7%DA%BA-%DA%AF%D8%A6%DB%92" class="hash-link" aria-label="پرانے پتے کہاں گئے؟ کا براہِ راست رابطہ" title="پرانے پتے کہاں گئے؟ کا براہِ راست رابطہ" translate="no">​</a></h2>
+<p><code>/docs/**</code> کے تحت تمام پرانے پتے اب نئے پتوں پر بھیجتے ہیں۔ دستاویزات سائٹ کی جڑ پر منتقل ہوئیں، اسی لیے <code>/reference/export-format</code> — وہ پتہ جو ایپ اپنی برآمد اسکرین سے کھولتی ہے — درست کام کرتا ہے۔</p>
+<p>جس صفحے کا موضوع اب موجود نہیں، وہ اس صفحے پر لے جاتا ہے جو موجودہ حقیقت بتاتا ہے۔ ایکسٹینشن کی پرانی ہدایات <a class="" href="https://lifewell-docs.aoneahsan.com/ur/platforms/browser-extension">براؤزر ایکسٹینشن</a> پر پہنچتی ہیں، جہاں تیار Chrome اور Firefox ساتھی ایپ اور اس کی اشاعت کی حالت بیان ہے۔ iOS کے پرانے صفحات <a class="" href="https://lifewell-docs.aoneahsan.com/ur/platforms/ios">iOS</a> پر پہنچتے ہیں، جہاں ہٹانے کی تاریخ اور واپسی کی شرط درج ہے۔</p>]]></content:encoded>
+            <category>اعلان</category>
+            <category>LifeWell</category>
+            <category>دستاویزات</category>
+            <category>ریلیز</category>
+        </item>
+    </channel>
+</rss>

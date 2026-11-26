@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/zh-Hans/blog","blogTitle":"\u535A\u5BA2","authorsListPath":"/zh-Hans/blog/authors"}')}}]);

@@ -1,7 +1,6 @@
 # LifeWell Documentation — robots.txt
-# Allow major search engines and AI crawlers to index and cite this site.
-# Block scraper bots that don't bring traffic.
-# Last reviewed: 2026-05-10
+# Allow search and AI crawlers to read the public documentation.
+# Last reviewed: 2026-11-26
 
 # --- Search engines -------------------------------------------------
 
@@ -35,6 +34,12 @@ User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: anthropic-ai

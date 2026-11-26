@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LifeWell Documentation Blog</title>
+        <link>https://lifewell-docs.aoneahsan.com/zh-Hans/blog</link>
+        <description>Updates, release notes, and deep-dives from the LifeWell project.</description>
+        <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <copyright>Copyright © 2026 the LifeWell team. CC BY 4.0.</copyright>
+        <item>
+            <title><![CDATA[文档写错了，所以我们重写了它]]></title>
+            <link>https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0</link>
+            <guid>https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0</guid>
+            <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[LifeWell 3.0.0 基于新的后端重建，旧文档描述的已不再是现有产品。我们删除了每个页面，并对照代码重新撰写。]]></description>
+            <content:encoded><![CDATA[<p>本站旧版文档描述了已移除的 iOS 应用、当时并未发布的浏览器扩展程序、应用已不再使用的数据库，以及与实际情况几乎相反的数据分析配置。</p>
+<p>这些内容并非有意误导。写下它们之后，产品继续变化，却没有人回来核对。</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="错在哪里">错在哪里<a href="https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0#%E9%94%99%E5%9C%A8%E5%93%AA%E9%87%8C" class="hash-link" aria-label="直接链接到“错在哪里”" title="直接链接到“错在哪里”" translate="no">​</a></h2>
+<p>有三处值得讲清楚。每一处都曾被人读到，并当作事实。</p>
+<p><strong><code>/feed</code> 被写成社交动态。</strong> 它其实是公开可读的近期博客文章订阅页。LifeWell 没有社交动态，以前也没有。</p>
+<p><strong>文档说 Firebase Analytics 已被禁用和替换。</strong> Google Analytics 4 <em>就是</em> Firebase 的分析属性——同一个属性的两种接入说法。它与 Amplitude、Clarity 和 Sentry 并行运行，并非被它们替代。想了解应用会报告什么的读者，得到的却是相反的信息。</p>
+<p><strong>文档说无线更新“尚未集成”。</strong> 在 3.0.0 重建时，这句话是对的。如今，兼容的 Android 安装版本已集成签名的 Native Update 更新包。<a class="" href="https://lifewell-docs.aoneahsan.com/zh-Hans/platforms/android#over-the-air-updates">Android 页面</a>说明应用会验证什么，以及哪些更新仍需要原生构建版本。</p>
+<p>此外，65 个页面描述了已被 Postgres 取代的文档数据模型；35 个页面提及在 2026 年 7 月 16 日已移除的 iOS 平台；还有一整节教人安装和使用当时尚不存在的扩展程序。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="我们做了什么">我们做了什么<a href="https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0#%E6%88%91%E4%BB%AC%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88" class="hash-link" aria-label="直接链接到“我们做了什么”" title="直接链接到“我们做了什么”" translate="no">​</a></h2>
+<p>所有页面都已删除。替换文档逐项对照产品源码撰写：导出格式来自导出器实际读取的表注册表，方案额度来自方案配置，Android 最低版本来自构建文件，管理功能来自管理界面的派生清单。</p>
+<p>尚未完成的功能，页面会说明完成到了哪一步。这样的功能有七项，集中列在<a class="" href="https://lifewell-docs.aoneahsan.com/zh-Hans/about/changelog">3.0.0 更新了什么</a>中。</p>
+<p>能核对的数字，我们都核对了。旧文档说 Android 最低支持 7.0；构建文件写的是 28，也就是 Android 9。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="本站遵循的规则">本站遵循的规则<a href="https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0#%E6%9C%AC%E7%AB%99%E9%81%B5%E5%BE%AA%E7%9A%84%E8%A7%84%E5%88%99" class="hash-link" aria-label="直接链接到“本站遵循的规则”" title="直接链接到“本站遵循的规则”" translate="no">​</a></h2>
+<p><strong>页面只能描述产品目前实际能做的事。</strong></p>
+<p>不写即将实现的功能，不把路线图当作现状，也不为了好看而改写事实。没有建成，就写“尚未建成”。控件的能力比外观暗示的少，就在控件旁说明，而不是藏在三节之后。</p>
+<p>维持这条规则比听起来更难。问题往往不是撒谎，而是写下当时正确的内容后，再也没有回来更新。因此，描述行为的页面现在会指出对应的实现位置；导出格式页面也与实际导出使用同一份注册表生成，不会再描述产品根本不会生成的文件。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="旧地址去了哪里">旧地址去了哪里<a href="https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0#%E6%97%A7%E5%9C%B0%E5%9D%80%E5%8E%BB%E4%BA%86%E5%93%AA%E9%87%8C" class="hash-link" aria-label="直接链接到“旧地址去了哪里”" title="直接链接到“旧地址去了哪里”" translate="no">​</a></h2>
+<p><code>/docs/**</code> 下的地址现在都会重定向。文档移到了网站根路径，因此应用导出页面使用的 <code>/reference/export-format</code> 地址可以正常打开。</p>
+<p>主题已不存在的页面，会重定向到如实说明现状的页面。扩展程序教程会前往<a class="" href="https://lifewell-docs.aoneahsan.com/zh-Hans/platforms/browser-extension">浏览器扩展程序</a>，那里介绍已建成的 Chrome 和 Firefox 配套扩展程序及其上架状态。iOS 页面会前往 <a class="" href="https://lifewell-docs.aoneahsan.com/zh-Hans/platforms/ios">iOS</a>，说明移除日期和恢复所需的条件。</p>]]></content:encoded>
+            <category>公告</category>
+            <category>LifeWell</category>
+            <category>文档</category>
+            <category>版本发布</category>
+        </item>
+    </channel>
+</rss>

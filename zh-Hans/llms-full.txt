@@ -1,0 +1,30 @@
+# LifeWell documentation — Zaions and the developer
+
+LifeWell keeps the people and moments of your life in one place. Ahsan Mahmood built it after listening to his parents tell the stories of their lives.
+
+- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): the vision and dated LifeWell milestones.
+- [Products from Zaions](https://lifewell-docs.aoneahsan.com/ecosystem): the other products from the same maker.
+
+## Other products
+- [AchatAI](https://lifewell-docs.aoneahsan.com/ecosystem/achat): Find someone without asking for their number. Official site: https://achat.aoneahsan.com
+- [CallVault](https://lifewell-docs.aoneahsan.com/ecosystem/callvault): A call you can find and listen to later. Official site: https://callvault.aoneahsan.com
+- [Capacitor Auth Manager](https://lifewell-docs.aoneahsan.com/ecosystem/capacitor-auth-manager): One Google sign-in call across web and native apps. Official site: https://www.npmjs.com/package/capacitor-auth-manager
+- [ClearHire](https://lifewell-docs.aoneahsan.com/ecosystem/clearhire): Put your work history into a structured resume. Official site: https://clearhire.aoneahsan.com
+- [Eat This](https://lifewell-docs.aoneahsan.com/ecosystem/eatthis): Look for food by nutrient, feeling or time of day. Official site: https://eatthis.aoneahsan.com/
+- [Empora](https://lifewell-docs.aoneahsan.com/ecosystem/empora): Choose the WooCommerce modules your store needs. Official site: https://empora.aoneahsan.com
+- [HabitForge](https://lifewell-docs.aoneahsan.com/ecosystem/habitforge): A check-in becomes a rope you can see. Official site: https://habitforge.aoneahsan.com
+- [LabFlow](https://lifewell-docs.aoneahsan.com/ecosystem/labflow): Keep a lab order with its sample and result. Official site: https://labflow.aoneahsan.com
+- [linux-cleanup](https://lifewell-docs.aoneahsan.com/ecosystem/linux-cleanup): See each path before Linux cleanup touches it. Official site: https://linux-cleanup.aoneahsan.com/
+- [macleanup](https://lifewell-docs.aoneahsan.com/ecosystem/macleanup): Preview macOS cleanup before choosing it. Official site: https://github.com/aoneahsan/macleanup
+- [Native Update](https://lifewell-docs.aoneahsan.com/ecosystem/native-update): Deliver a Capacitor bundle without waiting for a store release. Official site: https://nativeupdate.aoneahsan.com
+- [NetCage](https://lifewell-docs.aoneahsan.com/ecosystem/netcage): Choose which Android apps can use the network. Official site: https://netcage.aoneahsan.com
+- [PregnancyPal](https://lifewell-docs.aoneahsan.com/ecosystem/pregnancypal): Keep the changing weeks of pregnancy together. Official site: https://pregnancypal.aoneahsan.com
+- [RentParty](https://lifewell-docs.aoneahsan.com/ecosystem/rentparty): Pause a property game and keep the deeds in place. Official site: https://rentparty.aoneahsan.com
+- [SMS App](https://lifewell-docs.aoneahsan.com/ecosystem/smsapp): Send a batch of messages from your Android device. Official site: https://smsapp.aoneahsan.com
+- [Strata Storage](https://lifewell-docs.aoneahsan.com/ecosystem/strata-storage): One interface for several places an app keeps data. Official site: https://www.npmjs.com/package/strata-storage
+- [Tilawah](https://lifewell-docs.aoneahsan.com/ecosystem/tilawah): Return to a Tajweed or Tafseer lesson at your pace. Official site: https://tilawah.aoneahsan.com
+- [Trizlink](https://lifewell-docs.aoneahsan.com/ecosystem/trizlink): Keep short links and a bio page together. Official site: https://trizlink.com
+- [Video Controls Plus](https://lifewell-docs.aoneahsan.com/ecosystem/video-controls-plus): Change the pace of an HTML5 video. Official site: https://vcpeai.aoneahsan.com
+- [Waylock](https://lifewell-docs.aoneahsan.com/ecosystem/waylock): Keep chosen stops in place on a driver route. Official site: https://waylock.aoneahsan.com
+- [windowsweep](https://lifewell-docs.aoneahsan.com/ecosystem/windowsweep): Read the Windows cleanup list before removing anything. Official site: https://windowsweep.aoneahsan.com
+- [ZTools](https://lifewell-docs.aoneahsan.com/ecosystem/ztools): Find a utility and run it in your browser. Official site: https://ztools.zaions.com

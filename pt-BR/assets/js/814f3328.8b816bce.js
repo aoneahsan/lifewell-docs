@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["1833"],{55513(e){e.exports=JSON.parse('{"title":"Publica\xe7\xf5es recentes","items":[{"title":"A documenta\xe7\xe3o estava errada. Por isso, foi reescrita","permalink":"/pt-BR/blog/documentation-rewritten-for-3-0-0","unlisted":false,"date":"2026-09-08T00:00:00.000Z"}]}')}}]);

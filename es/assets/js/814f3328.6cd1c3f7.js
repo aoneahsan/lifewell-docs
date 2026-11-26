@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["1833"],{55513(e){e.exports=JSON.parse('{"title":"Publicaciones recientes","items":[{"title":"La documentaci\xf3n estaba equivocada, as\xed que la reescribimos","permalink":"/es/blog/documentation-rewritten-for-3-0-0","unlisted":false,"date":"2026-09-08T00:00:00.000Z"}]}')}}]);

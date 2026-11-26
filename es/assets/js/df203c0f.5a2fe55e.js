@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["4380"],{1590(e,l,n){n.r(l),n.d(l,{default:()=>o});var s=n(74848),t=n(83405),c=n(35046);function o(e){return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(t.A,{children:(0,s.jsx)("meta",{name:"robots",content:"noindex, follow"})}),(0,s.jsx)(c.A,{...e})]})}}}]);
