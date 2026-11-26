@@ -14,7 +14,7 @@ La même application que sur le Web, intégrée avec Capacitor. Le même compte,
 |---|---|
 | Identifiant de l’application | `com.aoneahsan.lifewell` — permanent |
 | Version minimale | **Android 9 (API 28)** |
-| Version actuelle du code source | **3.30.0** ; consultez Google Play pour celle proposée à votre appareil |
+| Version actuelle du code source | **3.31.0** ; consultez Google Play pour celle proposée à votre appareil |
 | Distribution | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[La version minimale est Android 9, pas Android 7]
@@ -23,11 +23,12 @@ Une ancienne version de cette documentation indiquait Android 7.0. C’était un
 
 ## Autorisations \{#permissions}
 
-Elles sont au nombre de dix et sont expliquées sous [`/permissions`](https://lifewell.aoneahsan.com/permissions). Les cinq premières sont demandées lorsque vous utilisez la fonction concernée et peuvent être refusées ; les deux lignes concernant les contacts donnent lieu à une seule demande. Android accorde les autres à l’installation.
+Les autorisations déclarées sont expliquées sous [`/permissions`](https://lifewell.aoneahsan.com/permissions).
 
 | Autorisation | Pourquoi |
 |---|---|
 | Appareil photo | Prendre une photo directement pour vos souvenirs ou votre dossier. Demandée au premier appui sur *Prendre une photo*. Si vous refusez, vous pouvez toujours choisir une image déjà présente |
+| Microphone | Enregistrer votre voix dans Speak it. Demandé quand vous lancez l’enregistrement ; si vous refusez, vous pouvez toujours écrire. LifeWell n’écoute pas en arrière-plan |
 | Position approximative | Trier les professionnels par distance lorsque leur page est ouverte. Demandée quand vous appuyez sur *Utiliser ma position*. Elle n’est jamais conservée |
 | Lecture des contacts | Lire le nom et les numéros du seul contact que vous choisissez avec **Contacts** près d’un champ de téléphone. Demandée lors de l’appui, jamais au démarrage |
 | Modification des contacts | Aucune modification. Android accorde lecture et modification dans une seule autorisation ; LifeWell se limite à la lecture et n’ajoute, ne modifie et ne supprime jamais de contact |
@@ -38,9 +39,11 @@ Elles sont au nombre de dix et sont expliquées sous [`/permissions`](https://li
 | Verrouillage de veille | Permettre la transmission d’un rappel programmé |
 | Identifiant publicitaire | Déclaré ; voir ci-dessous |
 
+`/people/location-tracking` et `/people/location-history` décrivent une fonction distincte, **désactivée par défaut**. L’enregistreur de position en arrière-plan est implémenté pour Android 3.31.0 et les versions suivantes. Il demande des autorisations de localisation distinctes à l’activation. L’historique existant reste consultable et supprimable. La version 3.31.0 doit encore être mise en ligne sur Google Play par le propriétaire et vérifiée sur un appareil réel ; ne comptez donc pas sur cet enregistreur dans la version actuellement proposée par le magasin.
+
 Si vous refusez les contacts, vous saisissez le numéro vous-même. Tous les champs de téléphone fonctionnent dans les deux cas. Votre carnet d’adresses n’est jamais téléversé, parcouru ni enregistré.
 
-Aucune autorisation n’est demandée pour les SMS, l’historique des appels, la position en arrière-plan, le microphone ou un accès général à vos photos et fichiers.
+Aucune autorisation n’est demandée pour les SMS, l’historique des appels ou un accès général à vos photos et fichiers.
 
 ### Deux autorisations retirées explicitement \{#two-that-are-actively-removed}
 

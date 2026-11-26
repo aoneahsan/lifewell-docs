@@ -14,7 +14,7 @@ The same application as the web build, wrapped by Capacitor. Same account, same 
 |---|---|
 | Application id | `com.aoneahsan.lifewell` — permanent |
 | Minimum version | **Android 9 (API 28)** |
-| Current source version | **3.30.0**; check Google Play for the version available to your device |
+| Current source version | **3.31.0**; check Google Play for the version available to your device |
 | Distribution | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[The minimum is Android 9, not Android 7]
@@ -25,10 +25,7 @@ explaining why.
 
 ## Permissions
 
-The app explains its declared permissions at
-[`/permissions`](https://lifewell.aoneahsan.com/permissions). The first five are asked for when you use
-the feature and can be refused — the two contacts rows arrive as one prompt; the rest are granted by Android
-at install.
+The app explains its declared permissions at [`/permissions`](https://lifewell.aoneahsan.com/permissions).
 
 | Permission | Why |
 |---|---|
@@ -44,11 +41,12 @@ at install.
 | Wake lock | So a scheduled reminder can be delivered |
 | Advertising id | Declared, and see below |
 
+`/people/location-tracking` and `/people/location-history` describe a separate, **off-by-default** opt-in feature. The Android background recorder is implemented for version 3.31.0 and later. It requests the separate location permissions when you enable recording; existing history can still be viewed and deleted. The 3.31.0 Play build still needs its owner upload and device verification, so the current Play release must not be treated as having this recorder yet.
+
 Say no to contacts and you type the number instead — every phone field works either way. Your address book
 is never uploaded, searched or stored.
 
-Nothing asks for SMS, call logs, background location or broad access to your photos and
-files.
+Nothing asks for SMS, call logs or broad access to your photos and files.
 
 ### Two that are actively removed
 

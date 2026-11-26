@@ -14,7 +14,7 @@ Es la misma aplicación que en la web, dentro de Capacitor. Utiliza la misma cue
 |---|---|
 | Identificador de aplicación | `com.aoneahsan.lifewell`, permanente |
 | Versión mínima | **Android 9 (API 28)** |
-| Versión actual del código fuente | **3.30.0**; consulta Google Play para saber cuál está disponible en tu dispositivo |
+| Versión actual del código fuente | **3.31.0**; consulta Google Play para saber cuál está disponible en tu dispositivo |
 | Distribución | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[La versión mínima es Android 9, no Android 7]
@@ -23,7 +23,7 @@ Una versión anterior de esta documentación indicaba Android 7.0. Era incorrect
 
 ## Permisos \{#permissions}
 
-La aplicación explica sus permisos declarados en [`/permissions`](https://lifewell.aoneahsan.com/permissions). Los primeros cinco se solicitan al usar la función y puedes denegarlos. Los dos de contactos aparecen en una sola solicitud. Android concede los demás al instalar.
+La aplicación explica sus permisos declarados en [`/permissions`](https://lifewell.aoneahsan.com/permissions).
 
 | Permiso | Motivo |
 |---|---|
@@ -39,9 +39,11 @@ La aplicación explica sus permisos declarados en [`/permissions`](https://lifew
 | Bloqueo de suspensión | Permitir la entrega de un recordatorio programado |
 | Identificador de publicidad | Declarado; consulta la explicación siguiente |
 
+`/people/location-tracking` y `/people/location-history` describen una función independiente, **desactivada inicialmente**. El grabador de ubicación en segundo plano está implementado para Android 3.31.0 y posteriores. Al activar la grabación, solicita permisos de ubicación por separado. El historial existente se puede consultar y borrar. El dueño todavía debe subir la versión 3.31.0 a Google Play y comprobarla en un dispositivo real; no cuentes con este grabador en la versión que ofrece actualmente la tienda.
+
 Si deniegas el acceso a contactos, puedes escribir el número. Todos los campos de teléfono funcionan de ambas formas. Tu agenda nunca se sube, busca ni guarda.
 
-No se solicitan SMS, historial de llamadas, ubicación en segundo plano ni acceso amplio a fotos o archivos.
+No se solicitan SMS, historial de llamadas ni acceso amplio a fotos o archivos.
 
 ### Dos permisos eliminados expresamente \{#two-that-are-actively-removed}
 

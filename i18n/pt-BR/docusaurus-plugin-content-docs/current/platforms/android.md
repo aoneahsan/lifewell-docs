@@ -14,7 +14,7 @@ sidebar_position: 2
 |---|---|
 | Identificador do aplicativo | `com.aoneahsan.lifewell` — permanente |
 | Versão mínima | **Android 9 (API 28)** |
-| Versão atual do código | **3.30.0**; consulte o Google Play para saber qual versão está disponível para seu dispositivo |
+| Versão atual do código | **3.31.0**; consulte o Google Play para saber qual versão está disponível para seu dispositivo |
 | Distribuição | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[A versão mínima é Android 9, não Android 7]
@@ -23,7 +23,7 @@ Uma versão anterior desta documentação dizia Android 7.0. Estava errado: a ve
 
 ## Permissões
 
-O aplicativo explica as permissões declaradas em [`/permissions`](https://lifewell.aoneahsan.com/permissions). As cinco primeiras são solicitadas quando você usa o recurso e podem ser recusadas — as duas de contatos aparecem numa única solicitação. As demais são concedidas pelo Android na instalação.
+O aplicativo explica as permissões declaradas em [`/permissions`](https://lifewell.aoneahsan.com/permissions).
 
 | Permissão | Por quê |
 |---|---|
@@ -39,9 +39,11 @@ O aplicativo explica as permissões declaradas em [`/permissions`](https://lifew
 | Manter o dispositivo ativo | Permitir a entrega de um lembrete agendado |
 | Identificador de publicidade | Declarado; veja abaixo |
 
+`/people/location-tracking` e `/people/location-history` descrevem uma função separada, **desligada por padrão**. O gravador de localização em segundo plano foi implementado para Android 3.31.0 e versões posteriores. Ao ativar a gravação, o aplicativo solicita permissões de localização específicas. O histórico existente ainda pode ser visto e excluído. A versão 3.31.0 ainda precisa ser enviada ao Google Play pelo responsável e verificada em um aparelho real; não conte com esse gravador na versão que a loja oferece atualmente.
+
 Se recusar acesso aos contatos, digite o número. Todos os campos de telefone funcionam das duas maneiras. Sua agenda nunca é enviada, pesquisada ou armazenada.
 
-O aplicativo não pede acesso a SMS, registros de chamadas, localização em segundo plano ou acesso amplo a fotos e arquivos.
+O aplicativo não pede acesso a SMS, registros de chamadas ou acesso amplo a fotos e arquivos.
 
 ### Duas permissões removidas ativamente
 

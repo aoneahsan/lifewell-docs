@@ -14,7 +14,7 @@ sidebar_position: 2
 |---|---|
 | 应用标识符 | `com.aoneahsan.lifewell`，永久不变 |
 | 最低版本 | **Android 9（API 28）** |
-| 当前源码版本 | **3.30.0**；您设备可用的版本以 Google Play 为准 |
+| 当前源码版本 | **3.31.0**；您设备可用的版本以 Google Play 为准 |
 | 发布渠道 | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[最低版本是 Android 9，不是 Android 7]
@@ -23,7 +23,7 @@ sidebar_position: 2
 
 ## 权限
 
-应用会在 [`/permissions`](https://lifewell.aoneahsan.com/permissions) 逐一说明声明的权限。前五项会在您使用相应功能时请求，可以拒绝；两项联系人权限会合并为一次提示。其余由 Android 在安装时授予。
+应用会在 [`/permissions`](https://lifewell.aoneahsan.com/permissions) 逐一说明声明的权限。
 
 | 权限 | 原因 |
 |---|---|
@@ -39,9 +39,11 @@ sidebar_position: 2
 | 唤醒锁定 | 让已安排的提醒能够送达 |
 | 广告标识符 | 已在清单中声明；说明见下文 |
 
+`/people/location-tracking` 和 `/people/location-history` 介绍一项**默认关闭**、需要您主动开启的独立功能。Android 3.31.0 及后续版本已实现后台位置记录器；开启记录时会请求单独的位置权限。已有历史仍可查看和删除。3.31.0 的 Google Play 版本尚待所有者上传并在真机上验证，因此目前商店提供的版本不能视为已具备此功能。
+
 拒绝联系人权限后，您可以手动输入号码；所有电话字段两种方式都可用。应用不会上传、搜索或保存您的通讯录。
 
-应用不会请求短信、通话记录、后台位置或对照片和文件的广泛访问权限。
+应用不会请求短信、通话记录或对照片和文件的广泛访问权限。
 
 ### 主动移除的两项权限
 

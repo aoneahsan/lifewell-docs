@@ -74,6 +74,19 @@ function assertSearchOutput(outDir: string): void {
   }
 }
 
+/** Remove Docusaurus' indexable metadata from the generated 404 for each locale. */
+async function writeNotFoundHead(outDir: string): Promise<void> {
+  const file = path.join(outDir, '404.html');
+  const $ = load(await readFile(file, 'utf8'));
+  $('link[rel="canonical"], link[hreflang], meta[property="og:url"], meta[name="robots"]').remove();
+  $('head').append('<meta name="robots" content="noindex, follow">');
+  if ($('meta[name="robots"][content="noindex, follow"]').length !== 1 ||
+      $('link[rel="canonical"], link[hreflang], meta[property="og:url"]').length !== 0) {
+    throw new Error('site-pages: the generated 404 still has indexable metadata');
+  }
+  await writeFile(file, $.html(), 'utf8');
+}
+
 /** One page as its `/sitemap` card shows it: its own title, description and tag labels. */
 export interface SitePage {
   readonly permalink: string;
@@ -456,6 +469,7 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
       async postBuild({ outDir, siteConfig }) {
         assertNoLocalPaths(outDir, context.siteDir);
         assertSearchOutput(outDir);
+        await writeNotFoundHead(outDir);
         assertLinkPolicy(outDir);
         await consolidateLocaleSitemaps({
           outDir,
