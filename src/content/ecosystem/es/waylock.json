@@ -1,0 +1,28 @@
+{
+  "card": "Mantén las paradas elegidas en su lugar durante una ruta.",
+  "title": "Waylock para las paradas que deben quedarse",
+  "intro": "Waylock te deja fijar algunas paradas de una ruta y reordenar las demás. Un giro equivocado no borra el recorrido que elegiste.",
+  "sections": [
+    {
+      "heading": "¿Para quién es Waylock?",
+      "body": "Quienes conducen o hacen entregas lo usan en Android junto a Google Maps."
+    },
+    {
+      "heading": "¿Cómo se ordenan las paradas?",
+      "body": "Fija las paradas que importan y acomoda las demás a su alrededor."
+    },
+    {
+      "heading": "¿Qué ocurre después de un giro equivocado?",
+      "body": "Si te desvías, la ruta elegida sigue en pantalla. Puedes volver a ella o aceptar otra."
+    },
+    {
+      "heading": "¿Cómo se relaciona Waylock con LifeWell?",
+      "body": "LifeWell guarda citas y lugares junto a las personas. Waylock trabaja durante el trayecto: mantiene las paradas elegidas mientras cambia la ruta."
+    }
+  ],
+  "facts": [
+    "waylock-1",
+    "waylock-2",
+    "waylock-3"
+  ]
+}

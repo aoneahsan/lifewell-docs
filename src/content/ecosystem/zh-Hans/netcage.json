@@ -1,0 +1,28 @@
+{
+  "card": "自行决定哪些 Android 应用能联网。",
+  "title": "NetCage：让指定应用保持离线",
+  "intro": "NetCage 可阻止选定的 Android 应用使用 Wi-Fi、移动数据或两者，同时让手机上的其他应用继续联网。",
+  "sections": [
+    {
+      "heading": "NetCage 可以阻止什么？",
+      "body": "它可以阻止选定的 Android 应用联网，其他应用仍可保持在线。"
+    },
+    {
+      "heading": "Wi-Fi 和移动数据能分别设置吗？",
+      "body": "可以为规则选择 Wi-Fi、移动数据或两者。"
+    },
+    {
+      "heading": "规则能按时间生效吗？",
+      "body": "配置组可汇集应用规则，并在指定日期和时间启用。"
+    },
+    {
+      "heading": "NetCage 与 LifeWell 有什么关系？",
+      "body": "LifeWell 的许多页面需要网络连接。NetCage 让 Android 用户另行决定哪些应用可以使用 Wi-Fi 或移动数据。"
+    }
+  ],
+  "facts": [
+    "netcage-1",
+    "netcage-2",
+    "netcage-3"
+  ]
+}

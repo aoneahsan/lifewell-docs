@@ -1,6 +1,6 @@
 ---
 title: Android
-description: LifeWell on Android — minimum Android 9, every permission the app declares and why each one is there, local reminders, and the two things that are built but not switched on.
+description: LifeWell on Android — minimum Android 9, permissions, local reminders, signed updates, and features awaiting a store release.
 keywords: [lifewell android, android permissions, contacts permission, minsdk 28, capacitor android, play store]
 tags: [platforms, android]
 sidebar_position: 2
@@ -14,7 +14,7 @@ The same application as the web build, wrapped by Capacitor. Same account, same 
 |---|---|
 | Application id | `com.aoneahsan.lifewell` — permanent |
 | Minimum version | **Android 9 (API 28)** |
-| This release | **3.0.0** |
+| Current source version | **3.30.0**; check Google Play for the version available to your device |
 | Distribution | [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell) |
 
 :::note[The minimum is Android 9, not Android 7]
@@ -25,7 +25,7 @@ explaining why.
 
 ## Permissions
 
-Ten, and the app explains each one at
+The app explains its declared permissions at
 [`/permissions`](https://lifewell.aoneahsan.com/permissions). The first five are asked for when you use
 the feature and can be refused — the two contacts rows arrive as one prompt; the rest are granted by Android
 at install.
@@ -33,6 +33,7 @@ at install.
 | Permission | Why |
 |---|---|
 | Camera | Taking a photo straight into your memories or your record. Asked the first time you tap *Take a photo*; refuse, and you can still pick from your device |
+| Microphone | Recording in Speak it. Asked when you press record; refuse, and you can still type. LifeWell does not listen in the background |
 | Location (approximate) | Your position, while the professionals page is open, to sort by distance. Asked when you tap *Use my position*, and never stored |
 | Contacts (reading) | The one contact you pick when you press **Contacts** beside a phone number — its name and numbers — so the number you choose goes into the field. Asked when you press Contacts, never at start |
 | Contacts (changing) | Nothing. Android grants reading and changing contacts as one permission; LifeWell only reads, and never adds, changes or removes a contact |
@@ -46,7 +47,7 @@ at install.
 Say no to contacts and you type the number instead — every phone field works either way. Your address book
 is never uploaded, searched or stored.
 
-Nothing asks for SMS, call logs, background location, the microphone or broad access to your photos and
+Nothing asks for SMS, call logs, background location or broad access to your photos and
 files.
 
 ### Two that are actively removed
@@ -71,13 +72,13 @@ not because anything is being served to you.
   [Reminders](../features/reminders.md).
 - **Native sign-in**, with the session in the platform keystore rather than in web storage.
 
-## Two things that are built and not switched on
+## Push and Play Billing
 
 ### Push notifications
 
-The subscription plumbing and the application identifier are in place. The service that uses them is not
-written, so **no push notification arrives yet, on any platform**. Reminders are unaffected — they are
-scheduled by your own device.
+If you turn on push and the device subscription becomes active, LifeWell can receive a broadcast from the
+team through OneSignal. The app does not automatically send push for account events. Push is separate from
+local reminders, which Android schedules on the device. See [Reminders](../features/reminders.md#push-notifications).
 
 ### Google Play Billing
 
@@ -89,11 +90,11 @@ of an internal test can prove it. See [Plans](../plans.md#on-android).
 
 ## Over-the-air updates
 
-**Planned, not integrated.** The intent is that a web-layer fix can reach devices without a store release.
-
-Today there is no update package in the build, no update service in the app, and no bundle is ever fetched or
-applied. Environment variables are reserved for it and a feature flag reads them, and that is the whole of
-what exists. Updates arrive through Google Play like any other app.
+LifeWell integrates signed Native Update bundles for compatible Android installs. The app verifies a bundle
+before applying it and can keep an applied update after a cold start. The public signing key is compiled into
+the native build, so an older install without that key cannot gain OTA capability later. Native code and
+permissions still arrive through Google Play. The release record in the app also tells you when a newer
+version requires an update.
 
 ## iOS
 

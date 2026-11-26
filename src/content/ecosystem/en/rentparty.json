@@ -1,0 +1,28 @@
+{
+  "card": "Pause a property game and keep the deeds in place.",
+  "title": "RentParty when the game has to pause",
+  "intro": "RentParty keeps a property game ready to resume. One phone, CPU players or an online room are different ways into the same board.",
+  "sections": [
+    {
+      "heading": "What kind of game is RentParty?",
+      "body": "It is a property-trading game that lets you stop and return."
+    },
+    {
+      "heading": "How can people play?",
+      "body": "Pass one phone around, play against CPU characters, or use an online room."
+    },
+    {
+      "heading": "What stays in place when play pauses?",
+      "body": "The game handles the bank and keeps deeds where they were when play resumes."
+    },
+    {
+      "heading": "Where does RentParty fit beside LifeWell?",
+      "body": "LifeWell keeps the moments you share with people. RentParty is a game to play together, then pause until everyone can return."
+    }
+  ],
+  "facts": [
+    "rentparty-1",
+    "rentparty-2",
+    "rentparty-3"
+  ]
+}

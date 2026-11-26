@@ -1,0 +1,28 @@
+{
+  "card": "按店铺需要启用 WooCommerce 模块。",
+  "title": "Empora：管理 WooCommerce 店铺",
+  "intro": "Empora 将店铺工具集中在一个 WordPress 插件中。商家按需启用模块，无须把所有功能都装进店铺。",
+  "sections": [
+    {
+      "heading": "Empora 整合了什么？",
+      "body": "店铺功能集中在一个适用于 WooCommerce 的 WordPress 插件中。"
+    },
+    {
+      "heading": "商家能自行选择模块吗？",
+      "body": "可以。只启用店铺需要的模块，其他模块保持关闭。"
+    },
+    {
+      "heading": "管理面板处理什么？",
+      "body": "网页管理面板用于管理许可证，以及与店铺的可选连接。"
+    },
+    {
+      "heading": "Empora 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存您生活中的人和时刻。Empora 服务于另一种日常：商家为 WooCommerce 店铺挑选工具。"
+    }
+  ],
+  "facts": [
+    "empora-1",
+    "empora-2",
+    "empora-3"
+  ]
+}

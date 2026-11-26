@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -68,12 +68,12 @@ function CopyFeedLink({ url, words }: { readonly url: string; readonly words: Wo
   };
 
   return (
-    <div className={styles.copy} role="group" aria-labelledby="feed-rss-link">
+    <section className={styles.copy} aria-labelledby="feed-rss-link">
       <span id="feed-rss-link" className={styles.copyLabel}>
         {words.rssLinkLabel}
       </span>
       <div className={styles.copyLine}>
-        <Link ref={linkRef} to={`pathname://${FEED_FILE}`} target="_self" className={styles.url}>
+        <Link ref={linkRef} to={`pathname://${new URL(url).pathname}`} target="_self" className={styles.url}>
           {url}
         </Link>
         <button type="button" className={styles.button} onClick={copy}>
@@ -88,7 +88,7 @@ function CopyFeedLink({ url, words }: { readonly url: string; readonly words: Wo
           {words.copyFailed}
         </p>
       )}
-    </div>
+    </section>
   );
 }
 

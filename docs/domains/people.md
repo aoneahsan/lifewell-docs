@@ -37,8 +37,8 @@ if a match is ever questioned.
   administrators' log. You can see that it is kept, its size and the date you added it, but not the picture
   itself.
 - **Who never sees it.** The person it belongs to, anybody you connect with, and any shared link.
-- **How it goes.** You remove it, you delete that person, or you delete your account — any of the three
-  deletes it for good.
+- **How it goes.** Removing the picture, deleting that person or deleting your account removes it from live
+  storage. An earlier copy remains in encrypted manual backups until those backups rotate.
 
 ### Email needed
 
@@ -84,8 +84,10 @@ Nothing is shared until you accept, and declining is always fine.
 
 ## Places
 
-`/maps` holds saved places, and the maps over your own record — memories, notes, people and events plotted
-where they happened. `/people/location-tracking` and `/people/location-history` are opt-in and off by default.
+`/maps` holds saved places and association views connecting memories, notes, people and events to the place
+names in your record. It does not infer geographic coordinates for those records. The
+`/people/location-tracking` and `/people/location-history` pages describe a separate opt-in feature, off by
+default. This build has no background recorder yet: changing its switch saves a setting, not location points.
 
 :::note[There is no location sharing between accounts]
 Saved places and location history are yours. A link can carry a tracker, your medications or a tree, and

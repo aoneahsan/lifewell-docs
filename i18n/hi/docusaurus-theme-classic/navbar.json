@@ -1,0 +1,12 @@
+{
+  "title": {"message": "LifeWell दस्तावेज़"},
+  "logo.alt": {"message": "LifeWell का लोगो"},
+  "item.label.Documentation": {"message": "दस्तावेज़"},
+  "item.label.Blog": {"message": "ब्लॉग"},
+  "item.label.About": {"message": "परिचय"},
+  "item.label.Get LifeWell": {"message": "LifeWell प्राप्त करें"},
+  "item.label.GitHub": {"message": "GitHub"},
+  "item.label.LifeWell web app": {"message": "LifeWell वेब ऐप"},
+  "item.label.Google Play": {"message": "Google Play"},
+  "item.label.All apps": {"message": "सभी ऐप"}
+}

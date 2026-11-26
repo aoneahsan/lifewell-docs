@@ -1,0 +1,28 @@
+{
+  "card": "把孕期每一周的变化记在一起。",
+  "title": "PregnancyPal：按周记录孕期",
+  "intro": "PregnancyPal 将孕期每周的信息和个人记录放在一起，让您保存想记住的细节。",
+  "sections": [
+    {
+      "heading": "PregnancyPal 有什么用？",
+      "body": "它陪您记录不断变化的孕期。"
+    },
+    {
+      "heading": "每周可以查看什么？",
+      "body": "按周提供的信息包括营养与运动。"
+    },
+    {
+      "heading": "可以记下什么？",
+      "body": "生命体征、症状、心情和预约都可以记在同一份记录里。"
+    },
+    {
+      "heading": "PregnancyPal 与 LifeWell 有什么关系？",
+      "body": "LifeWell 将人生阶段放在您身边的七个领域中。PregnancyPal 专注孕期的每一周，以及您选择保存的细节。"
+    }
+  ],
+  "facts": [
+    "pregnancypal-1",
+    "pregnancypal-2",
+    "pregnancypal-3"
+  ]
+}

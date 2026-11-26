@@ -1,0 +1,28 @@
+{
+  "card": "把通话留下，日后还能找到并回听。",
+  "title": "CallVault：留住值得回听的通话",
+  "intro": "CallVault 为 Android 通话录音建立手机资料库。您可以回听、添加备注，日后再找出来。",
+  "sections": [
+    {
+      "heading": "CallVault 能录下什么？",
+      "body": "在 Android 上，能否录下通话取决于手机提供的音频来源。"
+    },
+    {
+      "heading": "之后如何找到一通电话？",
+      "body": "您可以在手机资料库中播放、搜索、添加备注和导出录音。通话有了归处，细节也更容易找回。"
+    },
+    {
+      "heading": "录音保存在哪里？",
+      "body": "除非您选择私有云备份，否则录音留在您的手机上。"
+    },
+    {
+      "heading": "CallVault 与 LifeWell 有什么关系？",
+      "body": "LifeWell 记录通话相关的人和时刻。CallVault 将 Android 通话录音本身保存在可搜索的手机资料库中。"
+    }
+  ],
+  "facts": [
+    "callvault-1",
+    "callvault-2",
+    "callvault-3"
+  ]
+}

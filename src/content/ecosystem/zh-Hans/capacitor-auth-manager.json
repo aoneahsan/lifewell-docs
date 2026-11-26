@@ -1,0 +1,28 @@
+{
+  "card": "网页和原生应用共用一次 Google 登录调用。",
+  "title": "Capacitor Auth Manager：应用登录",
+  "intro": "Capacitor Auth Manager 为应用开发者提供统一的 Google 登录调用，适用于网页、Android 和 iOS。目前支持的服务商范围很明确。",
+  "sections": [
+    {
+      "heading": "这个软件包负责什么？",
+      "body": "它让网页、Android 和 iOS 应用共用一套 Google 登录调用。"
+    },
+    {
+      "heading": "必须使用 Firebase 吗？",
+      "body": "这项登录调用不强制依赖 Firebase。"
+    },
+    {
+      "heading": "3.x 版本支持哪些服务商？",
+      "body": "3.x 系列目前启用的是 Google 登录。"
+    },
+    {
+      "heading": "Capacitor Auth Manager 与 LifeWell 有什么关系？",
+      "body": "LifeWell 是供您登录使用的应用。这个软件包面向开发登录功能的人，目前支持 Google。"
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

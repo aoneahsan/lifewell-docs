@@ -1,6 +1,6 @@
 ---
 title: Web
-description: The web build is the reference build — everything LifeWell does, apart from the two things Android delivers through the operating system.
+description: Use LifeWell in a browser, with the web-specific reminder, sharing and offline behavior explained.
 keywords: [lifewell web app, browser support, progressive web app, pwa]
 tags: [platforms, web]
 sidebar_position: 1
@@ -8,8 +8,8 @@ sidebar_position: 1
 
 # Web
 
-[lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) is the reference build. Every feature exists here
-first, and the Android app is the same application in a native shell.
+[lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) opens LifeWell in a browser. The Android app shares
+the account and record, while device notification and sharing behavior depends on the platform.
 
 ## Browsers
 
@@ -18,14 +18,16 @@ screen rather than rendering something broken.
 
 ## What the web build does not have
 
-Two things, and both are the operating system's rather than the app's:
+Some actions depend on the browser and operating system:
 
-- **Local reminders that arrive with the app closed.** Those are scheduled by Android. On the web a reminder
-  is only visible while the app is open.
+- **Local reminders that arrive with the app closed.** Supported event and wellness alerts are scheduled by
+  Android when notifications are allowed. A closed browser tab cannot deliver those device alerts; medicine
+  due-dose prompts appear in the LifeWell inbox when you open the medication list.
 - **A platform share sheet.** Sharing a [shopping list](../features/shopping-list.md) on the web opens the
   in-app share view with an explicit copy-to-clipboard, rather than the system sheet.
 
-Everything else — every screen, every tracker, the export, the maps, the community — is the same.
+The same account and saved records are available on both platforms. Check each feature's guide for its
+delivery and permission details.
 
 ## Adding it to a home screen
 
@@ -34,9 +36,9 @@ extra is downloaded and nothing about the app changes; it is a browser feature.
 
 ## Offline
 
-The web build is local-first in the same way the Android build is: writes happen on the device and sync when
-there is a connection. What works and what does not is [Offline and
-sync](../concepts/offline-and-sync.md).
+The web app blocks the current page while the connection is down. With **Keep working offline** enabled,
+you can choose to queue supported quick logs on this device; the rest of the record still needs the server.
+The app does not cache pages for offline opening. See [Offline and sync](../concepts/offline-and-sync.md).
 
 ## The public pages
 

@@ -1,0 +1,28 @@
+{
+  "card": "Cambia el ritmo de un video HTML5.",
+  "title": "Video Controls Plus para videos en la web",
+  "intro": "Video Controls Plus añade controles de reproducción a los videos HTML5 en distintos sitios. La velocidad, los bucles y los pasos cuadro por cuadro te dejan mirar más de cerca.",
+  "sections": [
+    {
+      "heading": "¿Qué videos puede controlar?",
+      "body": "Funciona con videos HTML5 en la web."
+    },
+    {
+      "heading": "¿Con qué precisión puedes cambiar la reproducción?",
+      "body": "La velocidad va de 0.1× a 16×, con bucles A–B y avance de un cuadro a la vez."
+    },
+    {
+      "heading": "¿Qué puedes cambiar en la imagen y el sonido?",
+      "body": "También hay amplificación de audio, filtros y corrección de color."
+    },
+    {
+      "heading": "¿Cómo se relaciona Video Controls Plus con LifeWell?",
+      "body": "LifeWell guarda momentos y notas. Video Controls Plus cambia la forma en que miras un video HTML5 en otro sitio."
+    }
+  ],
+  "facts": [
+    "video-controls-plus-1",
+    "video-controls-plus-2",
+    "video-controls-plus-3"
+  ]
+}

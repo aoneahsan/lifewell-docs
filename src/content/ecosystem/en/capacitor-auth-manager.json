@@ -1,0 +1,28 @@
+{
+  "card": "One Google sign-in call across web and native apps.",
+  "title": "Capacitor Auth Manager for sign-in",
+  "intro": "Capacitor Auth Manager gives app makers one Google sign-in call across web, Android and iOS. The current provider scope is narrow and stated plainly.",
+  "sections": [
+    {
+      "heading": "What does the package handle?",
+      "body": "The package gives web, Android and iOS apps a shared Google sign-in call."
+    },
+    {
+      "heading": "Does it need Firebase?",
+      "body": "Firebase is not a required dependency for that call."
+    },
+    {
+      "heading": "Which providers work in version 3.x?",
+      "body": "Google is the enabled provider in the 3.x line. That is the scope today."
+    },
+    {
+      "heading": "Where does Capacitor Auth Manager fit beside LifeWell?",
+      "body": "LifeWell is an app you sign in to. This package is for the people building app sign-in, with Google as its current provider."
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

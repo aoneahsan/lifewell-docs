@@ -1,0 +1,28 @@
+{
+  "card": "お店に必要なWooCommerceの機能を選べます。",
+  "title": "WooCommerceストアのためのEmpora",
+  "intro": "Emporaは店舗向けのツールを1つのWordPressプラグインにまとめます。販売者は、すべてを有効にする代わりに必要な機能だけを選べます。",
+  "sections": [
+    {
+      "heading": "Emporaには何がまとまっていますか？",
+      "body": "WooCommerceストア向けの機能が、1つのWordPressプラグインに入っています。"
+    },
+    {
+      "heading": "機能を選んで有効にできますか？",
+      "body": "販売者は店舗に必要な機能だけを有効にできます。残りはオフのままでかまいません。"
+    },
+    {
+      "heading": "ダッシュボードでは何ができますか？",
+      "body": "ウェブのダッシュボードでライセンスと、店舗への任意の接続を管理できます。"
+    },
+    {
+      "heading": "EmporaとLifeWellはどう違いますか？",
+      "body": "LifeWellは人や出来事のための個人的な場所です。EmporaはWooCommerceストアに使うツールを選ぶ販売者向けです。"
+    }
+  ],
+  "facts": [
+    "empora-1",
+    "empora-2",
+    "empora-3"
+  ]
+}

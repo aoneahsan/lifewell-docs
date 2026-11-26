@@ -1,0 +1,758 @@
+{
+  "docs.feed.item.published": {
+    "message": "Опубликовано {published_date}"
+  },
+  "docs.feed.title": {
+    "message": "Лента"
+  },
+  "docs.feed.meta.description": {
+    "message": "Все записи блога документации LifeWell, начиная с новых. Ссылки RSS и Atom для вашей программы чтения лент."
+  },
+  "docs.feed.intro": {
+    "message": "Все записи блога документации LifeWell, начиная с новых."
+  },
+  "docs.feed.rss.heading": {
+    "message": "Подписаться по RSS"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSS — обычный список новых записей. Программа чтения лент проверяет его за вас. Скопируйте ссылку ниже в такую программу, и новые записи будут появляться там сами."
+  },
+  "docs.feed.rss.link_label": {
+    "message": "Ссылка RSS"
+  },
+  "docs.feed.copy": {
+    "message": "Скопировать ссылку"
+  },
+  "docs.feed.copied": {
+    "message": "Скопировано"
+  },
+  "docs.feed.copy_failed": {
+    "message": "Не удалось скопировать ссылку. Выделите и скопируйте её сами."
+  },
+  "docs.feed.atom.label": {
+    "message": "Лента Atom"
+  },
+  "docs.feed.atom.hint": {
+    "message": "Те же записи в формате Atom."
+  },
+  "docs.feed.item.read": {
+    "message": "Читать запись"
+  },
+  "docs.feed.empty.title": {
+    "message": "Записей пока нет"
+  },
+  "docs.feed.empty.body": {
+    "message": "Первая запись появится здесь и в вашей программе чтения лент после публикации."
+  },
+  "docs.sitemap.title": {
+    "message": "Карта сайта"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "Все страницы документации LifeWell в одном месте, сгруппированные и доступные для поиска: первые шаги, семь разделов, функции, ваши данные, планы и история изменений."
+  },
+  "docs.sitemap.intro": {
+    "message": "Все страницы документации LifeWell, сгруппированные и доступные для поиска."
+  },
+  "docs.sitemap.files.label": {
+    "message": "Файлы"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "Тот же список в формате для поисковых систем."
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "Новые записи блога для вашей программы чтения лент."
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "Лента RSS"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "Те же записи, что в feed.xml, по адресу блога."
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "Лента Atom"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "Те же записи в формате Atom."
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "Краткое описание документации обычным текстом со ссылкой на каждую страницу."
+  },
+  "docs.sitemap.search.label": {
+    "message": "Поиск по страницам"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "Например, «экспорт» или «люди»"
+  },
+  "docs.sitemap.search.count": {
+    "message": "{count} страница|{count} страницы|{count} страниц|{count} страницы"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "По запросу «{query}» найдена {count} страница|По запросу «{query}» найдено {count} страницы|По запросу «{query}» найдено {count} страниц|По запросу «{query}» найдено {count} страницы"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "Документация"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "Блог"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "По запросу «{query}» страниц не найдено"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "Попробуйте более короткое слово или очистите поиск, чтобы увидеть все страницы."
+  },
+  "docs.sitemap.empty.action": {
+    "message": "Очистить поиск"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "На этой странице произошла ошибка."
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Вернуться к началу страницы"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архив"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архив"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Навигация по страницам блога"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Новые записи"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Старые записи"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Навигация между записями блога"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Следующая запись"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Предыдущая запись"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Показать все темы"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "системная тема"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "светлая тема"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "тёмная тема"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Переключить светлую и тёмную тему (сейчас: {mode})"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационная цепочка"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Навигация по страницам документации"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Назад"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Далее"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} документ с темой|{count} документа с темой|{count} документов с темой|{count} документа с темой"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} «{tagName}»"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Версия: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Это неопубликованная документация для {siteTitle}, версия {versionLabel}."
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Это документация для {siteTitle}, версия {versionLabel}; она больше не поддерживается."
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Актуальную документацию см. в {latestVersionLink} ({versionLabel})."
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "последней версии"
+  },
+  "theme.common.editThisPage": {
+    "message": "Редактировать страницу"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Прямая ссылка на раздел «{heading}»"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " от {date}"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " автор: {user}"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Последнее обновление{atDate}{byUser}"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Версии"
+  },
+  "theme.NotFound.title": {
+    "message": "Страница не найдена"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Темы:"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть"
+  },
+  "theme.admonition.caution": {
+    "message": "внимание"
+  },
+  "theme.admonition.danger": {
+    "message": "опасность"
+  },
+  "theme.admonition.info": {
+    "message": "информация"
+  },
+  "theme.admonition.note": {
+    "message": "примечание"
+  },
+  "theme.admonition.tip": {
+    "message": "совет"
+  },
+  "theme.admonition.warning": {
+    "message": "предупреждение"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Навигация по недавним записям блога"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Развернуть раздел бокового меню «{label}»"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Свернуть раздел бокового меню «{label}»"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(откроется в новой вкладке)"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Главная навигация"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Языки"
+  },
+  "theme.NotFound.p1": {
+    "message": "Мы не нашли нужную вам страницу."
+  },
+  "theme.NotFound.p2": {
+    "message": "Сообщите владельцу сайта, с которого вы перешли, что его ссылка больше не работает."
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "На этой странице"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Читать дальше"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Читать дальше: {title}"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} минута чтения|{readingTime} минуты чтения|{readingTime} минут чтения|{readingTime} минуты чтения"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Скопировать"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Скопировано"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Скопировать код в буфер обмена"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Переключить перенос строк"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Главная страница"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Свернуть боковое меню"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Свернуть боковое меню"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Боковое меню документации"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Закрыть меню навигации"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Вернуться в главное меню"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Переключить меню навигации"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Развернуть список"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Свернуть список"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Развернуть боковое меню"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Развернуть боковое меню"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Загрузка…"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Нажмите, чтобы загрузить{sizeMessage}"
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Нет подключения к интернету. Изображение не загружено"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "Ошибка 404. Изображение не найдено"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Ошибка. Нажмите, чтобы загрузить снова"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Ничего не найдено"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Показать все результаты вне раздела «{context}»"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Показать все результаты в разделе «{context}»"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Показать все результаты"
+  },
+  "theme.SearchBar.label": {
+    "message": "Поиск"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Результаты поиска по запросу «{query}»"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Поиск по документации"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Везде"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Найден {count} документ|Найдено {count} документа|Найдено {count} документов|Найдено {count} документа"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Документы не найдены"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} запись|{count} записи|{count} записей|{count} записи"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} по теме «{tagName}»"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Авторы"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Показать всех авторов"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "У этого автора пока нет записей."
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Страница без ссылки в списках"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Эта страница не включена в списки. Поисковые системы её не индексируют; открыть её можно только по прямой ссылке."
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Черновик страницы"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Это черновик. Он виден только при разработке и не входит в опубликованную версию сайта."
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} материал|{count} материала|{count} материалов|{count} материала"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Повторить попытку"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Перейти к основному содержимому"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Темы"
+  },
+  "about.title": {
+    "message": "Создатель — Ahsan Mahmood"
+  },
+  "about.description": {
+    "message": "Почему Ahsan Mahmood создал LifeWell, какие события привели к этому проекту и где найти его работу с Zaions."
+  },
+  "about.kicker": {
+    "message": "О разработчике"
+  },
+  "about.lede": {
+    "message": "Ahsan создал LifeWell после разговоров с родителями об их жизни. Он хотел сохранить эти моменты там, куда семья сможет возвращаться."
+  },
+  "about.portfolio": {
+    "message": "Перейти к портфолио Ahsan"
+  },
+  "about.zaions": {
+    "message": "Перейти к Zaions"
+  },
+  "about.why.heading": {
+    "message": "Почему он создал LifeWell?"
+  },
+  "about.why.first": {
+    "message": "Отец рассказывал ему истории. Мать тоже. Ahsan хотел сохранить эти разговоры и людей, стоящих за ними. Из этого желания вырос LifeWell — одно место для отношений, воспоминаний и повседневных дел рядом с ними."
+  },
+  "about.why.second": {
+    "message": "Более широкая задумка — подарок, который можно передавать между поколениями. Часть этой задумки ещё разрабатывается. Сейчас приложение хранит записи, к которым можно вернуться, а обмен данными остаётся под вашим контролем."
+  },
+  "about.timeline.heading": {
+    "message": "Как проект пришёл к этому этапу?"
+  },
+  "about.timeline.2025.date": {
+    "message": "25 августа 2025 г."
+  },
+  "about.timeline.2025.event": {
+    "message": "самый ранний коммит в репозитории приложения LifeWell."
+  },
+  "about.timeline.2026_09.date": {
+    "message": "19 сентября 2026 г."
+  },
+  "about.timeline.2026_09.event": {
+    "message": "обновлённое веб-приложение проверено в опубликованной версии."
+  },
+  "about.timeline.2026_10.date": {
+    "message": "25 октября 2026 г."
+  },
+  "about.timeline.2026_10.event": {
+    "message": "владелец подтвердил, что версия 3.25.0 доступна в Google Play."
+  },
+  "about.timeline.2026_11.date": {
+    "message": "20 ноября 2026 г."
+  },
+  "about.timeline.2026_11.event": {
+    "message": "выпущенные версии для веба, Android и документация собраны на странице «Получить LifeWell»."
+  },
+  "about.build.heading": {
+    "message": "Как устроен LifeWell?"
+  },
+  "about.build.body": {
+    "message": "LifeWell — приложение на React и TypeScript для веба и Android. Если включить запись без подключения, некоторые быстрые записи могут дождаться восстановления связи на вашем устройстве. Вы сами выбираете, чем делиться, для каждого элемента отдельно, и можете экспортировать свои данные."
+  },
+  "about.other.heading": {
+    "message": "Где найти другие работы?"
+  },
+  "about.other.ecosystem": {
+    "message": "Другие продукты Zaions"
+  },
+  "about.other.projects": {
+    "message": "Проекты Ahsan"
+  },
+  "about.contact.heading": {
+    "message": "Как связаться с командой?"
+  },
+  "about.contact.prefix": {
+    "message": "Используйте"
+  },
+  "about.contact.link": {
+    "message": "страницу связи с LifeWell"
+  },
+  "about.contact.body": {
+    "message": "Сообщение должно попасть к команде того продукта, которого касается."
+  },
+  "about.aside.body": {
+    "message": "Люди и моменты вашей жизни — в одном месте."
+  },
+  "about.aside.link": {
+    "message": "О LifeWell"
+  },
+  "apps.web.title": {
+    "message": "В браузере"
+  },
+  "apps.web.text": {
+    "message": "Люди, воспоминания, заметки и календарь на любом компьютере. Войдите через Google и продолжайте с того места, где остановились на телефоне."
+  },
+  "apps.web.cta": {
+    "message": "Открыть LifeWell"
+  },
+  "apps.android.title": {
+    "message": "На телефоне Android"
+  },
+  "apps.android.text": {
+    "message": "Запишите момент или найдите сведения о близком человеке, где бы вы ни были. Та же учётная запись синхронизируется с веб-приложением."
+  },
+  "apps.android.cta": {
+    "message": "Скачать в Google Play"
+  },
+  "apps.docs.title": {
+    "message": "Эта документация"
+  },
+  "apps.docs.text": {
+    "message": "Как работают семь разделов, как экспортировать записи и что LifeWell хранит в тайне."
+  },
+  "apps.docs.cta": {
+    "message": "Читать документацию"
+  },
+  "apps.title": {
+    "message": "Получить LifeWell"
+  },
+  "apps.description": {
+    "message": "Все выпущенные версии LifeWell: веб-приложение, приложение Android в Google Play и эта документация."
+  },
+  "apps.intro": {
+    "message": "Одна учётная запись, где бы вы ни были. Начните в браузере, продолжайте на телефоне и держите эти руководства под рукой."
+  },
+  "apps.here": {
+    "message": "Вы читаете её сейчас"
+  },
+  "home.get_started": {
+    "message": "Начать →"
+  },
+  "home.open_lifewell": {
+    "message": "Открыть LifeWell"
+  },
+  "home.also_on": {
+    "message": "Также доступно"
+  },
+  "home.all_apps": {
+    "message": "Все версии →"
+  },
+  "home.built_by": {
+    "message": "Создаёт и поддерживает"
+  },
+  "home.team": {
+    "message": "команда LifeWell"
+  },
+  "home.licence": {
+    "message": "Документация распространяется по лицензии CC BY 4.0."
+  },
+  "home.title": {
+    "message": "Люди и моменты вашей жизни"
+  },
+  "home.description": {
+    "message": "Открытая документация LifeWell — места для людей и моментов вашей жизни: семьи, друзей, воспоминаний и планов, с заботой о самочувствии рядом. Веб и Android."
+  },
+  "home.feature.people.title": {
+    "message": "Сначала — люди в вашей жизни"
+  },
+  "home.feature.people.description": {
+    "message": "Начните с себя и добавьте тех, кто вам дорог. Воспоминания, повседневные дела и обмен данными связаны с ними; здоровье, настроение и этапы жизни расположены рядом. Шесть из семи разделов можно отключить: они исчезнут из меню, но данные не будут удалены."
+  },
+  "home.feature.people.cta": {
+    "message": "О семи разделах"
+  },
+  "home.feature.export.title": {
+    "message": "Ваши данные — и способ забрать их"
+  },
+  "home.feature.export.description": {
+    "message": "Выберите период и экспортируйте записи в JSON или CSV либо создайте краткий PDF. Каждая таблица ограничена 5 000 строками за одну выгрузку. Экспорт доступен во всех планах, включая Free."
+  },
+  "home.feature.export.cta": {
+    "message": "Формат экспорта"
+  },
+  "home.feature.offline.cta": {
+    "message": "Что работает без подключения"
+  },
+  "home.feature.photos.title": {
+    "message": "Фотографии остаются в вашем Drive"
+  },
+  "home.feature.photos.description": {
+    "message": "LifeWell запрашивает у Google доступ только к файлам, которые само приложение создало. Мы храним ссылку на файл, а не сам файл."
+  },
+  "home.feature.photos.cta": {
+    "message": "Где хранятся ваши данные"
+  },
+  "home.feature.no_score.title": {
+    "message": "Без серий, оценок и рейтингов"
+  },
+  "home.feature.no_score.description": {
+    "message": "Здесь не считают серии дней и не выставляют оценку по числу. Записи с пропусками остаются записями; тихое воскресенье — просто тихое воскресенье."
+  },
+  "home.feature.no_score.cta": {
+    "message": "Что такое LifeWell"
+  },
+  "home.feature.honest.title": {
+    "message": "Узнайте, что доступно"
+  },
+  "home.feature.honest.cta": {
+    "message": "История изменений"
+  },
+  "about.schema.name": {
+    "message": "О разработчике LifeWell"
+  },
+  "about.schema.job_title": {
+    "message": "Основатель и разработчик Zaions"
+  },
+  "about.schema.docs": {
+    "message": "Документация LifeWell"
+  },
+  "ecosystem.title": {
+    "message": "Продукты Zaions"
+  },
+  "ecosystem.meta": {
+    "message": "Другие продукты Ahsan Mahmood в Zaions и прямые ссылки на каждый из них."
+  },
+  "ecosystem.kicker": {
+    "message": "Другие проекты"
+  },
+  "ecosystem.showcase": {
+    "message": "Ещё от Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "Ahsan Mahmood создаёт не только LifeWell. У каждого из этих продуктов Zaions своя задача. Найдите нужный вам или посмотрите остальные."
+  },
+  "ecosystem.all": {
+    "message": "Все продукты Zaions"
+  },
+  "ecosystem.details": {
+    "message": "Подробнее"
+  },
+  "ecosystem.visit": {
+    "message": "Открыть {name}"
+  },
+  "ecosystem.read_docs": {
+    "message": "Читать документацию {name}"
+  },
+  "ecosystem.glance": {
+    "message": "Кратко"
+  },
+  "ecosystem.source_checked": {
+    "message": "Источник проверен {date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "Навигационная цепочка"
+  },
+  "ecosystem.docs_home": {
+    "message": "Документация LifeWell"
+  },
+  "ecosystem.choose_view": {
+    "message": "Выбрать вид"
+  },
+  "ecosystem.view.grid": {
+    "message": "Плитка"
+  },
+  "ecosystem.view.list": {
+    "message": "Список"
+  },
+  "ecosystem.view.table": {
+    "message": "Таблица"
+  },
+  "ecosystem.table.product": {
+    "message": "Продукт"
+  },
+  "ecosystem.table.purpose": {
+    "message": "Назначение"
+  },
+  "ecosystem.table.platforms": {
+    "message": "Платформы"
+  },
+  "ecosystem.table.links": {
+    "message": "Ссылки"
+  },
+  "ecosystem.who_built": {
+    "message": "Кто создал LifeWell"
+  },
+  "ecosystem.carousel": {
+    "message": "карусель"
+  },
+  "ecosystem.slide": {
+    "message": "слайд"
+  },
+  "ecosystem.previous": {
+    "message": "Предыдущий продукт"
+  },
+  "ecosystem.next": {
+    "message": "Следующий продукт"
+  },
+  "ecosystem.play": {
+    "message": "Запустить карусель"
+  },
+  "ecosystem.pause": {
+    "message": "Приостановить карусель"
+  },
+  "ecosystem.play_label": {
+    "message": "Воспроизвести"
+  },
+  "ecosystem.pause_label": {
+    "message": "Пауза"
+  },
+  "ecosystem.count": {
+    "message": "{index} из {total}"
+  },
+  "site.name": {
+    "message": "Документация LifeWell"
+  },
+  "home.tagline": {
+    "message": "Храните людей и моменты вашей жизни в одном месте — и всё, что с ними связано."
+  },
+  "site.description": {
+    "message": "Открытая документация LifeWell. Здесь хранятся люди и моменты вашей жизни: семья и друзья, то, что вы о них знаете, воспоминания и планы, а рядом — самочувствие, настроение и этапы жизни. Написано командой LifeWell."
+  },
+  "apps.web.name": {
+    "message": "Веб-приложение LifeWell"
+  },
+  "apps.docs.name": {
+    "message": "Документация"
+  },
+  "ecosystem.category.web_app": {
+    "message": "Веб-приложение"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "Мобильное приложение"
+  },
+  "ecosystem.category.package": {
+    "message": "Пакет"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "Плагин WordPress и веб-приложение"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "Приложение для компьютера и CLI"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "Веб-приложение и пакет"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "Расширение браузера"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "Магазин Chrome Web Store"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, семейное древо, люди, воспоминания, семья и друзья, заметки, календарь, самочувствие, приложение Android"
+  },
+  "home.feature.offline.title": {
+    "message": "Записывайте некоторые быстрые показатели без сети"
+  },
+  "home.feature.offline.description": {
+    "message": "Если запись без подключения включена, данные о воде, настроении и шагах могут ждать отправки на этом устройстве. Для других изменений нужна сеть. Прежде чем рассчитывать на эти записи в другом месте, проверьте, что они синхронизировались."
+  },
+  "home.feature.honest.description": {
+    "message": "Веб-приложение, Android-приложение и браузерное дополнение LifeWell имеют разные возможности. Для напоминаний на Android нужно разрешение устройства. Публикация расширения в магазинах ещё ожидается, а приложения iOS нет. В истории изменений отмечено, что уже выпущено."
+  }
+}

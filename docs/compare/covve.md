@@ -1,19 +1,19 @@
 ---
 sidebar_position: 16
 title: Moving from Covve to LifeWell
-description: "How to move from Covve to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Covve to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
 # Moving from Covve to LifeWell
 
-Covve is for people who come home from events with a stack of business cards. It scans them, tags them and exports them, sold per seat per year.
+Covve is for people who come home from events with a stack of business cards. It scans them, tags them and exports them, with monthly and annual per-seat prices.
 
 LifeWell is for the people who are not leads. Family and friends, with their memories, tree and health in one free record.
 
-Last checked 2026-11-07. The full comparison is on [LifeWell and Covve](https://lifewell.aoneahsan.com/compare/covve).
+Last checked 2026-11-26. The full comparison is on [LifeWell and Covve](https://lifewell.aoneahsan.com/compare/covve).
 
 ## Taking the personal contacts out of Covve
 
@@ -38,8 +38,8 @@ Covve's pricing page did not state a family tree, memories, speaking an entry, s
 
 | Plan | Price | Source |
 |---|---|---|
-| Essential | $119 a year (per seat) | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Pro | $199 a year (per seat) | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Essential | $9.92 per seat a month billed annually, or $12 per seat a month billed monthly | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Pro | $16.59 per seat a month billed annually, or $20 per seat a month billed monthly | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Enterprise | Not stated (Quote only) | <a href="https://www.covve.com/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 LifeWell's, free plan included: the [plans page](https://lifewell.aoneahsan.com/plans).

@@ -1,0 +1,28 @@
+{
+  "card": "Leia a lista de limpeza do Windows antes de remover arquivos.",
+  "title": "windowsweep antes de limpar o disco",
+  "intro": "O windowsweep informa os caminhos que pode limpar e começa por uma simulação. Arquivos pessoais exigem uma escolha deliberada.",
+  "sections": [
+    {
+      "heading": "Para que serve o windowsweep?",
+      "body": "É um comando de limpeza do Windows que você pode executar pelo npx sem instalar o pacote."
+    },
+    {
+      "heading": "O que acontece antes da exclusão?",
+      "body": "Uma simulação real mostra os caminhos propostos antes de excluir qualquer coisa."
+    },
+    {
+      "heading": "Como são tratadas as pastas pessoais?",
+      "body": "Arquivos pessoais são escolhidos uma linha por vez, em vez de serem removidos junto com o restante."
+    },
+    {
+      "heading": "Como o windowsweep se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda um registro pessoal. O windowsweep ajuda você a decidir quais caminhos do disco Windows podem ser removidos."
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

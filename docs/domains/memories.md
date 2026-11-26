@@ -47,5 +47,6 @@ rather than letting them vanish into an area you did not choose. See
 
 ## Maps over memories
 
-`/maps/memories` plots what you recorded where it happened. It reads the same rows; there is no second copy
-with coordinates on it.
+`/maps/memories` draws connections among a memory, its date, its place name and related records. A place
+here is the name you entered, not a coordinate LifeWell inferred from the photo. It reads the same rows;
+there is no second geographic copy.

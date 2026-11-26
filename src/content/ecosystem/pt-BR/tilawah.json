@@ -1,0 +1,28 @@
+{
+  "card": "Retome uma aula de Tajweed ou Tafseer no seu ritmo.",
+  "title": "Tilawah para aprender o Alcorão",
+  "intro": "O Tilawah reúne aulas gravadas de Tajweed e Tafseer em um curso no seu ritmo. Você pode retomar de onde parou.",
+  "sections": [
+    {
+      "heading": "O que você pode aprender no Tilawah?",
+      "body": "As aulas gravadas cobrem Tajweed e Tafseer."
+    },
+    {
+      "heading": "Como funciona o aprendizado no seu ritmo?",
+      "body": "Você acompanha as aulas no seu tempo e registra até onde chegou."
+    },
+    {
+      "heading": "É possível agendar uma recitação?",
+      "body": "Uma recitação individual ao vivo pode ser agendada no seu fuso horário."
+    },
+    {
+      "heading": "Como o Tilawah se relaciona com o LifeWell?",
+      "body": "O LifeWell pode guardar suas notas e compromissos. O Tilawah reúne aulas gravadas do Alcorão, seu progresso e recitações agendadas em um espaço de aprendizado."
+    }
+  ],
+  "facts": [
+    "tilawah-1",
+    "tilawah-2",
+    "tilawah-3"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "card": "Livrez une mise à jour Capacitor sans attendre une nouvelle version en boutique.",
+  "title": "Native Update, pour publier une application",
+  "intro": "Native Update aide une application Capacitor à livrer un ensemble de fichiers compatible aux personnes qui l’utilisent. Les mises à jour de la boutique suivent leur propre chemin à côté de ce processus.",
+  "sections": [
+    {
+      "heading": "Que publie Native Update ?",
+      "body": "Il gère les mises à jour d’une application Capacitor sans attendre une nouvelle version en boutique pour chaque ensemble de fichiers."
+    },
+    {
+      "heading": "Comment les fichiers arrivent-ils aux utilisateurs ?",
+      "body": "Un ensemble compatible peut être livré à distance."
+    },
+    {
+      "heading": "Et les mises à jour en boutique ?",
+      "body": "Le produit couvre aussi les invitations dans l’application à mettre à jour et à laisser un avis en boutique."
+    },
+    {
+      "heading": "Quelle place occupe Native Update à côté de LifeWell ?",
+      "body": "LifeWell est publié sur le Web et Android. Native Update s’adresse aux équipes qui livrent les fichiers d’une application Capacitor et ses invitations liées à la boutique."
+    }
+  ],
+  "facts": ["native-update-1", "native-update-2", "native-update-3"]
+}

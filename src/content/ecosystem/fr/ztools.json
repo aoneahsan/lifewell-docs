@@ -1,0 +1,28 @@
+{
+  "card": "Trouvez un outil et utilisez-le dans votre navigateur.",
+  "title": "ZTools pour la petite tâche du moment",
+  "intro": "ZTools réunit formateurs, convertisseurs, encodeurs et générateurs dans une boîte à outils accessible par navigateur. Choisissez votre tâche et ouvrez sa page.",
+  "sections": [
+    {
+      "heading": "Que trouve-t-on dans ZTools ?",
+      "body": "Des formateurs, convertisseurs, encodeurs et générateurs réunis au même endroit."
+    },
+    {
+      "heading": "Où s’exécute chaque outil ?",
+      "body": "Dans le navigateur, sur une page consacrée à la tâche voulue."
+    },
+    {
+      "heading": "Que deviennent les données saisies ?",
+      "body": "Le produit indique qu’elles restent dans le navigateur et ne sont pas téléversées."
+    },
+    {
+      "heading": "Quelle place occupe ZTools à côté de LifeWell ?",
+      "body": "LifeWell conserve ce qui compte pour vous. ZTools sert à une tâche ponctuelle de formatage, conversion, encodage ou génération dans le navigateur."
+    }
+  ],
+  "facts": [
+    "ztools-1",
+    "ztools-2",
+    "ztools-3"
+  ]
+}

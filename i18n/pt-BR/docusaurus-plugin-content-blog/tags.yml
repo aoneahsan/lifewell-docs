@@ -1,0 +1,24 @@
+announcement:
+  label: Anúncios
+  permalink: /announcement
+  description: Anúncios e lançamentos do projeto.
+
+lifewell:
+  label: LifeWell
+  permalink: /lifewell
+  description: Publicações sobre o LifeWell — recursos, versões e decisões de design.
+
+docs:
+  label: Documentação
+  permalink: /docs-tag
+  description: Publicações sobre a documentação — o que foi publicado e o que mudou.
+
+release:
+  label: Versões
+  permalink: /release
+  description: Novas versões do LifeWell para web, Android e extensão de navegador.
+
+privacy:
+  label: Privacidade
+  permalink: /privacy
+  description: Como o LifeWell trata seus dados e o que faz — ou deixa de fazer — com eles.

@@ -1,0 +1,28 @@
+{
+  "card": "Lee la lista de limpieza de Windows antes de borrar nada.",
+  "title": "windowsweep antes de limpiar el disco",
+  "intro": "windowsweep nombra las rutas que podría borrar y empieza con una simulación. Los archivos personales requieren una elección deliberada.",
+  "sections": [
+    {
+      "heading": "¿Para qué sirve windowsweep?",
+      "body": "Es un comando de limpieza de Windows que puedes ejecutar con npx sin instalarlo."
+    },
+    {
+      "heading": "¿Qué ocurre antes de borrar?",
+      "body": "Muestra las rutas propuestas en una simulación real antes de eliminarlas."
+    },
+    {
+      "heading": "¿Cómo trata las carpetas personales?",
+      "body": "Los archivos personales se eligen fila por fila; no se borran junto con el resto."
+    },
+    {
+      "heading": "¿Cómo se relaciona windowsweep con LifeWell?",
+      "body": "LifeWell guarda un registro personal. windowsweep te ayuda a decidir con cuidado qué rutas del disco de Windows quieres eliminar."
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

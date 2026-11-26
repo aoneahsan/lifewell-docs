@@ -1,0 +1,849 @@
+{
+  "docs.feed.item.published": {
+    "message": "Publicado el {published_date}"
+  },
+  "docs.feed.title": {
+    "message": "Novedades"
+  },
+  "docs.feed.meta.description": {
+    "message": "Todas las publicaciones del blog de documentación de LifeWell, de la más reciente a la más antigua, con enlaces RSS y Atom para tu lector."
+  },
+  "docs.feed.intro": {
+    "message": "Todas las publicaciones del blog de documentación de LifeWell, de la más reciente a la más antigua."
+  },
+  "docs.feed.rss.heading": {
+    "message": "Sigue las novedades por RSS"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSS es una lista sencilla de publicaciones nuevas que tu lector consulta por ti. Copia el enlace de abajo en tu lector y las nuevas publicaciones aparecerán allí."
+  },
+  "docs.feed.rss.link_label": {
+    "message": "Enlace RSS"
+  },
+  "docs.feed.copy": {
+    "message": "Copiar enlace"
+  },
+  "docs.feed.copied": {
+    "message": "Copiado"
+  },
+  "docs.feed.copy_failed": {
+    "message": "No se pudo copiar el enlace. Selecciónalo y cópialo manualmente."
+  },
+  "docs.feed.atom.label": {
+    "message": "Canal Atom"
+  },
+  "docs.feed.atom.hint": {
+    "message": "Las mismas publicaciones en formato Atom."
+  },
+  "docs.feed.item.read": {
+    "message": "Leer la publicación"
+  },
+  "docs.feed.empty.title": {
+    "message": "Todavía no hay publicaciones"
+  },
+  "docs.feed.empty.body": {
+    "message": "La primera aparecerá aquí y en tu lector cuando se publique."
+  },
+  "docs.sitemap.title": {
+    "message": "Mapa del sitio"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "Todas las páginas de la documentación de LifeWell en un solo lugar, agrupadas y con búsqueda: primeros pasos, las siete áreas, funciones, tu información, planes e historial de cambios."
+  },
+  "docs.sitemap.intro": {
+    "message": "Todas las páginas de la documentación de LifeWell, agrupadas y con búsqueda."
+  },
+  "docs.sitemap.files.label": {
+    "message": "Archivos"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "La misma lista en el formato que leen los buscadores."
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "Nuevas publicaciones del blog para tu lector de noticias."
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "Canal RSS"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "Las mismas publicaciones que en feed.xml, en la dirección del blog."
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "Canal Atom"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "Las mismas publicaciones en formato Atom."
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "Un resumen de la documentación en texto sencillo, con un enlace a cada página."
+  },
+  "docs.sitemap.search.label": {
+    "message": "Buscar páginas"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "Prueba con “exportar” o “personas”"
+  },
+  "docs.sitemap.search.count": {
+    "message": "1 página|{count} de páginas|{count} páginas"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "1 página coincide con “{query}”|{count} de páginas coinciden con “{query}”|{count} páginas coinciden con “{query}”"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "Documentación"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "Blog"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "Ninguna página coincide con “{query}”"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "Prueba una palabra más corta o borra la búsqueda para ver todas las páginas."
+  },
+  "docs.sitemap.empty.action": {
+    "message": "Borrar búsqueda"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "La página dejó de funcionar.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Volver al principio",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archivo",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archivo",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navegación por las páginas del blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Publicaciones más recientes",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Publicaciones anteriores",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navegación por las publicaciones del blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Publicación más reciente",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Publicación anterior",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Ver todas las etiquetas",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "modo del sistema",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "modo claro",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "modo oscuro",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Ruta de navegación",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Páginas de documentación",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Anterior",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Siguiente",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un documento etiquetado|{count} de documentos etiquetados|{count} documentos etiquetados",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} con “{tagName}”",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versión: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Esta documentación de {siteTitle}, versión {versionLabel}, todavía no se ha publicado.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Esta documentación de {siteTitle}, versión {versionLabel}, ya no recibe mantenimiento activo.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Para consultar la documentación actualizada, ve a la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "versión más reciente",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Editar esta página",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Enlace directo a {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " el {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " por {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Última actualización{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versiones",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Página no encontrada",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etiquetas:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Cerrar",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "precaución",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "peligro",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "información",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "nota",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "consejo",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "advertencia",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navegación por las publicaciones recientes del blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expandir la categoría “{label}” de la barra lateral",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Contraer la categoría “{label}” de la barra lateral",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(se abre en una pestaña nueva)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Principal",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Idiomas",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "No encontramos lo que buscabas.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Comunícate con la persona responsable del sitio que te envió a la dirección original y avísale que el enlace no funciona.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "En esta página",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Leer más",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Leer más sobre {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Un minuto de lectura|{readingTime} de minutos de lectura|{readingTime} minutos de lectura",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copiar",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copiado",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copiar código al portapapeles",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activar o desactivar el ajuste de línea",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Página de inicio",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Contraer la barra lateral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Contraer la barra lateral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Barra lateral de documentación",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Cerrar la barra de navegación",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Volver al menú principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Mostrar u ocultar la barra de navegación",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Abrir el menú desplegable",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Cerrar el menú desplegable",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expandir la barra lateral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expandir la barra lateral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Cargando…",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Selecciona para cargar{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Tu navegador está sin conexión. La imagen no se cargó.",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. No se encontró la imagen.",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Error. Selecciona para volver a cargar.",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Sin resultados"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Ver todos los resultados fuera de “{context}”"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Ver todos los resultados dentro de “{context}”"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Ver todos los resultados"
+  },
+  "theme.SearchBar.label": {
+    "message": "Buscar",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Resultados de búsqueda para “{query}”",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Buscar en la documentación",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "En todas partes"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 documento encontrado|{count} de documentos encontrados|{count} documentos encontrados",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No se encontró ningún documento",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Una publicación|{count} de publicaciones|{count} publicaciones",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} con la etiqueta “{tagName}”",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Autores",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Ver todos los autores",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Esta persona todavía no ha escrito publicaciones.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Página no incluida en los listados",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Esta página no aparece en los listados. Los buscadores no la indexarán y solo podrá abrirla quien tenga el enlace directo.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Página en borrador",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Esta página es un borrador. Solo aparecerá durante el desarrollo y quedará fuera de la versión publicada.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 elemento|{count} de elementos|{count} elementos",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Intentar de nuevo",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Saltar al contenido principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Etiquetas",
+    "description": "The title of the tag list page"
+  },
+  "about.title": {
+    "message": "Creado por Ahsan Mahmood"
+  },
+  "about.description": {
+    "message": "Por qué Ahsan Mahmood creó LifeWell, los hitos que lo trajeron hasta aquí y dónde encontrar su trabajo con Zaions."
+  },
+  "about.kicker": {
+    "message": "Acerca del desarrollador"
+  },
+  "about.lede": {
+    "message": "Ahsan creó LifeWell después de escuchar a sus padres contar las historias de sus vidas. Quería conservar esos momentos en un lugar al que la familia pudiera volver."
+  },
+  "about.portfolio": {
+    "message": "Visita el portafolio de Ahsan"
+  },
+  "about.zaions": {
+    "message": "Visita Zaions"
+  },
+  "about.why.heading": {
+    "message": "¿Por qué creó LifeWell?"
+  },
+  "about.why.first": {
+    "message": "Su padre le contaba historias. Su madre también. Ahsan quería conservar esas conversaciones y a las personas detrás de ellas. De ese deseo nació LifeWell: un lugar para las relaciones, los recuerdos y las cosas cotidianas que los acompañan."
+  },
+  "about.why.second": {
+    "message": "La visión más amplia es un regalo que pueda pasar de una generación a otra. Algunas partes de esa visión siguen en construcción. Hoy, la aplicación guarda un registro al que puedes volver y te deja decidir qué compartes."
+  },
+  "about.timeline.heading": {
+    "message": "¿Cómo llegó hasta aquí?"
+  },
+  "about.timeline.2025.date": {
+    "message": "25 de agosto de 2025"
+  },
+  "about.timeline.2025.event": {
+    "message": "el primer commit del repositorio de la aplicación LifeWell."
+  },
+  "about.timeline.2026_09.date": {
+    "message": "19 de septiembre de 2026"
+  },
+  "about.timeline.2026_09.event": {
+    "message": "se comprobó que la aplicación web reconstruida funcionaba en producción con su versión compilada."
+  },
+  "about.timeline.2026_10.date": {
+    "message": "25 de octubre de 2026"
+  },
+  "about.timeline.2026_10.event": {
+    "message": "el propietario confirmó que la versión 3.25.0 estaba publicada en Google Play."
+  },
+  "about.timeline.2026_11.date": {
+    "message": "20 de noviembre de 2026"
+  },
+  "about.timeline.2026_11.event": {
+    "message": "las versiones publicadas de la web, Android y la documentación se reunieron en Consigue LifeWell."
+  },
+  "about.build.heading": {
+    "message": "¿Cómo está hecha?"
+  },
+  "about.build.body": {
+    "message": "LifeWell es una aplicación de React y TypeScript para la web y Android. Si activas el registro sin conexión, unas pocas entradas rápidas pueden esperar en tu dispositivo hasta que vuelva la conexión. Tú decides qué compartir, elemento por elemento, y puedes exportar tu registro."
+  },
+  "about.other.heading": {
+    "message": "¿Dónde puedes encontrar los otros proyectos?"
+  },
+  "about.other.ecosystem": {
+    "message": "Conoce los otros productos de Zaions"
+  },
+  "about.other.projects": {
+    "message": "Los proyectos de Ahsan"
+  },
+  "about.contact.heading": {
+    "message": "¿Cómo puedes contactar al equipo?"
+  },
+  "about.contact.prefix": {
+    "message": "Usa"
+  },
+  "about.contact.link": {
+    "message": "la página de contacto de LifeWell"
+  },
+  "about.contact.body": {
+    "message": "Tu mensaje llegará al equipo del producto al que se refiere."
+  },
+  "about.aside.body": {
+    "message": "Las personas y los momentos de tu vida, guardados en un solo lugar."
+  },
+  "about.aside.link": {
+    "message": "Acerca de LifeWell"
+  },
+  "apps.web.title": {
+    "message": "En tu navegador"
+  },
+  "apps.web.text": {
+    "message": "Tus personas, recuerdos, notas y calendario en cualquier computadora. Inicia sesión con Google y continúa donde lo dejaste en el teléfono."
+  },
+  "apps.web.cta": {
+    "message": "Abrir LifeWell"
+  },
+  "apps.android.title": {
+    "message": "En tu teléfono Android"
+  },
+  "apps.android.text": {
+    "message": "Anota un momento o consulta el registro de alguien desde tu bolsillo. La misma cuenta, sincronizada con la aplicación web."
+  },
+  "apps.android.cta": {
+    "message": "Consíguelo en Google Play"
+  },
+  "apps.docs.title": {
+    "message": "Esta documentación"
+  },
+  "apps.docs.text": {
+    "message": "Cómo funciona cada una de las siete áreas, cómo exportar tu registro y qué mantiene privado LifeWell."
+  },
+  "apps.docs.cta": {
+    "message": "Leer la documentación"
+  },
+  "apps.title": {
+    "message": "Consigue LifeWell"
+  },
+  "apps.description": {
+    "message": "Todos los lugares donde LifeWell está publicado: la aplicación web, la aplicación Android en Google Play y esta documentación."
+  },
+  "apps.intro": {
+    "message": "Una cuenta, estés donde estés. Empieza en la web, llévala en el teléfono y ten estas guías a una pestaña de distancia."
+  },
+  "apps.here": {
+    "message": "Ya la estás leyendo"
+  },
+  "home.get_started": {
+    "message": "Empieza aquí →"
+  },
+  "home.open_lifewell": {
+    "message": "Abrir LifeWell"
+  },
+  "home.also_on": {
+    "message": "También en"
+  },
+  "home.all_apps": {
+    "message": "Todas las aplicaciones →"
+  },
+  "home.built_by": {
+    "message": "Creado y mantenido por"
+  },
+  "home.team": {
+    "message": "el equipo LifeWell"
+  },
+  "home.licence": {
+    "message": "Documentación bajo licencia CC BY 4.0."
+  },
+  "home.title": {
+    "message": "Las personas y los momentos de tu vida"
+  },
+  "home.description": {
+    "message": "Documentación pública de LifeWell, que reúne a las personas y los momentos de tu vida: familiares, amistades, recuerdos y planes, con el bienestar alrededor. Web y Android."
+  },
+  "home.feature.people.title": {
+    "message": "Primero, las personas de tu vida"
+  },
+  "home.feature.people.description": {
+    "message": "Empiezas por ti y añades a quienes te importan. Los recuerdos, lo cotidiano y lo que compartes quedan con esas personas; la salud, la mente y las etapas de la vida, a su alrededor. Puedes ocultar seis de las siete áreas: desaparecen del menú, pero no se borra nada."
+  },
+  "home.feature.people.cta": {
+    "message": "Conoce las siete áreas"
+  },
+  "home.feature.export.title": {
+    "message": "Tu registro y una forma de llevártelo"
+  },
+  "home.feature.export.description": {
+    "message": "Exporta todo como JSON, CSV o PDF. El archivo se genera en tu dispositivo, no en un servidor. El formato está documentado campo por campo y la exportación está incluida en todos los planes, también en Free."
+  },
+  "home.feature.export.cta": {
+    "message": "Consulta el formato de exportación"
+  },
+  "home.feature.offline.title": {
+    "message": "Guarda algunos registros rápidos sin conexión"
+  },
+  "home.feature.offline.description": {
+    "message": "Si activas el registro sin conexión, el agua, el estado de ánimo y los pasos pueden quedar en cola en este dispositivo. Los demás cambios necesitan conexión; comprueba que se hayan sincronizado antes de contar con ellos en otro dispositivo."
+  },
+  "home.feature.offline.cta": {
+    "message": "Qué funciona sin conexión"
+  },
+  "home.feature.photos.title": {
+    "message": "Tus fotos se quedan en tu propio Drive"
+  },
+  "home.feature.photos.description": {
+    "message": "LifeWell pide a Google un permiso que solo alcanza los archivos que creó. Guardamos una referencia al archivo, no el archivo mismo."
+  },
+  "home.feature.photos.cta": {
+    "message": "Dónde se guarda tu registro"
+  },
+  "home.feature.no_score.title": {
+    "message": "Sin rachas, puntuaciones ni clasificaciones"
+  },
+  "home.feature.no_score.description": {
+    "message": "Aquí no hay rachas ni calificaciones por un número. Un registro con espacios sigue siendo un registro, y un domingo tranquilo es solo un domingo tranquilo."
+  },
+  "home.feature.no_score.cta": {
+    "message": "Qué es LifeWell"
+  },
+  "home.feature.honest.title": {
+    "message": "Conoce lo que ofrece cada plataforma"
+  },
+  "home.feature.honest.description": {
+    "message": "La aplicación web, la de Android y el complemento de navegador de LifeWell tienen funciones distintas. Los recordatorios de Android necesitan permiso para mostrar notificaciones; la publicación del complemento en las tiendas está pendiente y no hay aplicación para iOS. El registro de cambios indica qué se ha publicado."
+  },
+  "home.feature.honest.cta": {
+    "message": "Leer el historial de cambios"
+  },
+  "about.schema.name": {
+    "message": "Acerca del desarrollador de LifeWell"
+  },
+  "about.schema.job_title": {
+    "message": "Fundador y desarrollador, Zaions"
+  },
+  "about.schema.docs": {
+    "message": "Documentación de LifeWell"
+  },
+  "ecosystem.title": {
+    "message": "Productos de Zaions"
+  },
+  "ecosystem.meta": {
+    "message": "Los otros productos que Ahsan Mahmood crea en Zaions, con una ruta clara para visitar cada uno."
+  },
+  "ecosystem.kicker": {
+    "message": "Otros lugares"
+  },
+  "ecosystem.showcase": {
+    "message": "Más de Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "Ahsan Mahmood crea otros productos además de LifeWell. Cada uno tiene su propio propósito. Encuentra el que buscabas o mira los demás."
+  },
+  "ecosystem.all": {
+    "message": "Ver todos los productos de Zaions"
+  },
+  "ecosystem.details": {
+    "message": "Detalles"
+  },
+  "ecosystem.visit": {
+    "message": "Visitar {name}"
+  },
+  "ecosystem.read_docs": {
+    "message": "Leer la documentación de {name}"
+  },
+  "ecosystem.glance": {
+    "message": "De un vistazo"
+  },
+  "ecosystem.source_checked": {
+    "message": "Fuente comprobada el {date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "Ruta de navegación"
+  },
+  "ecosystem.docs_home": {
+    "message": "Documentación de LifeWell"
+  },
+  "ecosystem.choose_view": {
+    "message": "Elige una vista"
+  },
+  "ecosystem.view.grid": {
+    "message": "Cuadrícula"
+  },
+  "ecosystem.view.list": {
+    "message": "Lista"
+  },
+  "ecosystem.view.table": {
+    "message": "Tabla"
+  },
+  "ecosystem.table.product": {
+    "message": "Producto"
+  },
+  "ecosystem.table.purpose": {
+    "message": "Qué hace"
+  },
+  "ecosystem.table.platforms": {
+    "message": "Plataformas"
+  },
+  "ecosystem.table.links": {
+    "message": "Enlaces"
+  },
+  "ecosystem.who_built": {
+    "message": "Quién creó LifeWell"
+  },
+  "ecosystem.carousel": {
+    "message": "carrusel"
+  },
+  "ecosystem.slide": {
+    "message": "diapositiva"
+  },
+  "ecosystem.previous": {
+    "message": "Producto anterior"
+  },
+  "ecosystem.next": {
+    "message": "Producto siguiente"
+  },
+  "ecosystem.play": {
+    "message": "Reproducir carrusel"
+  },
+  "ecosystem.pause": {
+    "message": "Pausar carrusel"
+  },
+  "ecosystem.play_label": {
+    "message": "Reproducir"
+  },
+  "ecosystem.pause_label": {
+    "message": "Pausar"
+  },
+  "ecosystem.count": {
+    "message": "{index} de {total}"
+  },
+  "site.name": {
+    "message": "Documentación de LifeWell"
+  },
+  "home.tagline": {
+    "message": "Guarda a las personas y los momentos de tu vida en un solo lugar, junto a todo lo que los rodea."
+  },
+  "site.description": {
+    "message": "Documentación pública de LifeWell, que guarda en un solo lugar a las personas y los momentos de tu vida: familiares y amistades, lo que sabes de ellos, tus recuerdos y planes, con el bienestar, la mente y las etapas de la vida alrededor. Escrita por el equipo LifeWell."
+  },
+  "apps.web.name": {
+    "message": "Aplicación web de LifeWell"
+  },
+  "apps.docs.name": {
+    "message": "Documentación"
+  },
+  "ecosystem.category.web_app": {
+    "message": "Aplicación web"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "Aplicación móvil"
+  },
+  "ecosystem.category.package": {
+    "message": "Paquete"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "Complemento de WordPress y aplicación web"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "Aplicación de escritorio y herramienta de línea de comandos"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "Aplicación web y paquete"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "Extensión para navegador"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "Chrome Web Store (extensiones)"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, árbol familiar, personas, recuerdos, familia y amistades, notas, calendario, bienestar, aplicación Android"
+  }
+}

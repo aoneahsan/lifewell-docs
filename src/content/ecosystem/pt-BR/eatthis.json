@@ -1,0 +1,28 @@
+{
+  "card": "Procure alimentos por nutriente, sensação ou horário do dia.",
+  "title": "Eat This para suas perguntas sobre comida",
+  "intro": "O Eat This começa pela sua pergunta sobre alimentação — um nutriente, uma sensação ou a hora do dia — e permite comparar uma porção.",
+  "sections": [
+    {
+      "heading": "Como procurar um alimento?",
+      "body": "Comece por um nutriente, uma sensação ou um horário. A busca segue a pergunta que você fez."
+    },
+    {
+      "heading": "O que aparece para uma porção?",
+      "body": "O resultado mostra o que uma porção fornece, para que o valor tenha contexto."
+    },
+    {
+      "heading": "Quando buscar outra orientação?",
+      "body": "O aplicativo aponta uma opção mais barata e indica quando uma dúvida deve ser levada ao médico."
+    },
+    {
+      "heading": "Como o Eat This se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda seus registros de alimentação ao lado do restante do seu histórico. O Eat This começa com uma pergunta sobre o que comer e o que uma porção oferece."
+    }
+  ],
+  "facts": [
+    "eatthis-1",
+    "eatthis-2",
+    "eatthis-3"
+  ]
+}

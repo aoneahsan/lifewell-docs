@@ -1,0 +1,28 @@
+{
+  "card": "Escolha os módulos de WooCommerce de que sua loja precisa.",
+  "title": "Empora para lojas WooCommerce",
+  "intro": "O Empora reúne ferramentas de loja em um plugin para WordPress. Quem vende escolhe quais módulos ativar, sem levar todas as opções para a loja.",
+  "sections": [
+    {
+      "heading": "O que o Empora reúne?",
+      "body": "Funções de loja ficam juntas em um plugin de WooCommerce para WordPress."
+    },
+    {
+      "heading": "É possível escolher os módulos?",
+      "body": "Quem administra a loja ativa os módulos necessários. Os demais podem ficar desligados."
+    },
+    {
+      "heading": "O que o painel controla?",
+      "body": "O painel web cuida das licenças e das conexões opcionais com as lojas."
+    },
+    {
+      "heading": "Como o Empora se relaciona com o LifeWell?",
+      "body": "O LifeWell é um lugar pessoal para pessoas e momentos. O Empora tem outra função: ajudar quem vende a escolher as ferramentas da própria loja WooCommerce."
+    }
+  ],
+  "facts": [
+    "empora-1",
+    "empora-2",
+    "empora-3"
+  ]
+}

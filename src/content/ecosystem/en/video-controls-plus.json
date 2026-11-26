@@ -1,0 +1,28 @@
+{
+  "card": "Change the pace of an HTML5 video.",
+  "title": "Video Controls Plus for a video on the web",
+  "intro": "Video Controls Plus puts playback controls beside HTML5 video across sites. Speed, looping and frame steps give you a closer look.",
+  "sections": [
+    {
+      "heading": "Which videos can it control?",
+      "body": "It works with HTML5 video on the web."
+    },
+    {
+      "heading": "How precisely can playback change?",
+      "body": "Speed runs from 0.1× to 16×, with A–B loops and steps one frame at a time."
+    },
+    {
+      "heading": "What can you change about the picture and sound?",
+      "body": "Audio boost, filters and colour correction are available too."
+    },
+    {
+      "heading": "Where does Video Controls Plus fit beside LifeWell?",
+      "body": "LifeWell is a place to keep moments and notes. Video Controls Plus changes how you watch HTML5 video on another site."
+    }
+  ],
+  "facts": [
+    "video-controls-plus-1",
+    "video-controls-plus-2",
+    "video-controls-plus-3"
+  ]
+}

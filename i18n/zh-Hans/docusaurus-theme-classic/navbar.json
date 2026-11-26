@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "LifeWell 文档",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "LifeWell 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "文档",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.About": {
+    "message": "关于",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Get LifeWell": {
+    "message": "获取 LifeWell",
+    "description": "Navbar item with label Get LifeWell"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.LifeWell web app": {
+    "message": "LifeWell 网页应用",
+    "description": "Navbar item with label LifeWell web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "全部应用",
+    "description": "Navbar item with label All apps"
+  }
+}

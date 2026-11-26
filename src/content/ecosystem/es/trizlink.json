@@ -1,0 +1,28 @@
+{
+  "card": "Reúne enlaces cortos y una página de perfil.",
+  "title": "Trizlink para los enlaces que compartes",
+  "intro": "Trizlink da a un enlace compartido una dirección más corta y un lugar donde ver sus clics. Una página de perfil puede reunir varios destinos.",
+  "sections": [
+    {
+      "heading": "¿Qué crea Trizlink?",
+      "body": "Crea enlaces cortos y páginas con varios enlaces de perfil, junto con estadísticas de clics."
+    },
+    {
+      "heading": "¿Puede un enlace llevar tu propia marca?",
+      "body": "Puedes crear un enlace de marca con una terminación personalizada."
+    },
+    {
+      "heading": "¿Cómo ves lo que se abrió?",
+      "body": "La información de clics acompaña a las páginas de perfil y a los dominios personalizados."
+    },
+    {
+      "heading": "¿Cómo se relaciona Trizlink con LifeWell?",
+      "body": "LifeWell guarda a las personas detrás de tus enlaces. Trizlink da a los enlaces direcciones cortas, páginas de perfil e información de clics."
+    }
+  ],
+  "facts": [
+    "trizlink-1",
+    "trizlink-2",
+    "trizlink-3"
+  ]
+}

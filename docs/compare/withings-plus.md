@@ -1,9 +1,9 @@
 ---
 sidebar_position: 30
 title: Moving from Withings+ to LifeWell
-description: "How to move from Withings+ to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Withings+ to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Withings+ sits on top of Withings scales and watches. It turns their readings in
 
 LifeWell is for people who record by hand and own none of the hardware, with health kept alongside the people and memories of their life.
 
-Last checked 2026-11-07. Compare them on [LifeWell and Withings+](https://lifewell.aoneahsan.com/compare/withings-plus).
+Last checked 2026-11-26. Compare them on [LifeWell and Withings+](https://lifewell.aoneahsan.com/compare/withings-plus).
 
 ## If you are moving off the devices
 

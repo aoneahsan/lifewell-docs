@@ -1,0 +1,28 @@
+{
+  "card": "Mettez une partie immobilière en pause sans perdre les titres de propriété.",
+  "title": "RentParty, pour reprendre la partie plus tard",
+  "intro": "RentParty garde une partie immobilière prête à reprendre. Un seul téléphone, des adversaires contrôlés par l’ordinateur ou un salon en ligne donnent accès au même plateau.",
+  "sections": [
+    {
+      "heading": "Quel type de jeu est RentParty ?",
+      "body": "C’est un jeu d’achat et de vente de propriétés que vous pouvez interrompre puis reprendre."
+    },
+    {
+      "heading": "Comment jouer à plusieurs ?",
+      "body": "Faites circuler un téléphone, jouez contre des personnages contrôlés par l’ordinateur ou rejoignez un salon en ligne."
+    },
+    {
+      "heading": "Que conserve le jeu pendant une pause ?",
+      "body": "Il gère la banque et retrouve les titres de propriété à leur place à la reprise."
+    },
+    {
+      "heading": "Quelle place occupe RentParty à côté de LifeWell ?",
+      "body": "LifeWell conserve les moments partagés avec vos proches. RentParty vous permet de jouer ensemble, puis de reprendre quand tout le monde est disponible."
+    }
+  ],
+  "facts": [
+    "rentparty-1",
+    "rentparty-2",
+    "rentparty-3"
+  ]
+}

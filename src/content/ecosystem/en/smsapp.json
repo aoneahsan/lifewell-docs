@@ -1,0 +1,28 @@
+{
+  "card": "Send a batch of messages from your Android device.",
+  "title": "SMS App from your own phone",
+  "intro": "SMS App sends single, batch and scheduled messages through a registered Android device. It keeps the sending device in the workflow.",
+  "sections": [
+    {
+      "heading": "What can SMS App send?",
+      "body": "Single messages, batches and scheduled sends are all supported."
+    },
+    {
+      "heading": "Where are messages sent from?",
+      "body": "The Android device you register sends the SMS messages."
+    },
+    {
+      "heading": "How are devices managed?",
+      "body": "Device registration and a volunteer pool are part of its management tools."
+    },
+    {
+      "heading": "Where does SMS App fit beside LifeWell?",
+      "body": "LifeWell keeps reminders and people in one record. SMS App handles sending single, batch or scheduled texts from an Android device."
+    }
+  ],
+  "facts": [
+    "smsapp-1",
+    "smsapp-2",
+    "smsapp-3"
+  ]
+}

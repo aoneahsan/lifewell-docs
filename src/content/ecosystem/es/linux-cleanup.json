@@ -1,0 +1,28 @@
+{
+  "card": "Revisa cada ruta antes de que linux-cleanup la modifique.",
+  "title": "linux-cleanup y las rutas identificadas",
+  "intro": "linux-cleanup empieza por nombrar las rutas que podría tocar. La simulación te da tiempo para leer la lista antes de hacer cambios.",
+  "sections": [
+    {
+      "heading": "¿Para qué sirve linux-cleanup?",
+      "body": "Libera espacio de disco y caché en Linux mediante un catálogo pensado para quienes desarrollan software."
+    },
+    {
+      "heading": "¿Qué muestra antes de hacer un cambio?",
+      "body": "Te indica qué rutas modificaría antes de modificar nada."
+    },
+    {
+      "heading": "¿Cómo controla la eliminación?",
+      "body": "Una simulación real y un único punto de eliminación concentran los borrados efectivos en un solo lugar."
+    },
+    {
+      "heading": "¿Cómo se relaciona linux-cleanup con LifeWell?",
+      "body": "LifeWell guarda registros personales para que puedas volver a leerlos. linux-cleanup trata otra clase de conservación: decidir qué rutas del disco pueden borrarse."
+    }
+  ],
+  "facts": [
+    "linux-cleanup-1",
+    "linux-cleanup-2",
+    "linux-cleanup-3"
+  ]
+}

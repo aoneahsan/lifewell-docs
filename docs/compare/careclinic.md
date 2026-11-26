@@ -1,9 +1,9 @@
 ---
 sidebar_position: 26
 title: Moving from CareClinic to LifeWell
-description: "How to move from CareClinic to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from CareClinic to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ CareClinic is for managing a chronic condition: symptoms, medications, labs, vac
 
 LifeWell keeps a plainer record of medications, results and appointments on a free plan, alongside the people in your life.
 
-Last checked 2026-11-07. The side-by-side is on [LifeWell and CareClinic](https://lifewell.aoneahsan.com/compare/careclinic).
+Last checked 2026-11-26. The side-by-side is on [LifeWell and CareClinic](https://lifewell.aoneahsan.com/compare/careclinic).
 
 ## Moving records out of CareClinic
 
@@ -33,7 +33,14 @@ Last checked 2026-11-07. The side-by-side is on [LifeWell and CareClinic](https:
 | Medications, conditions and results kept | Yes | Yes (<a href="https://careclinic.io/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Download your own data | Yes | Partly (<a href="https://careclinic.io/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Android app | Yes | Yes (<a href="https://careclinic.io/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
+| A free plan that stays free | Yes | Yes (<a href="https://careclinic.io/getting-started/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-CareClinic's pricing page showed no plan or price when we read it, and its pages did not mention a record per person, a family tree, memories, speaking an entry, notes, a free plan or a household plan.
+CareClinic's getting-started page says most features are free, but the checked pages do not state a premium price. They did not mention a record per person, a family tree, memories, speaking an entry, notes or a household plan.
+
+## What CareClinic costs
+
+| Plan | Price | Source |
+|---|---|---|
+| Free version | Free for most features; premium amounts not stated | <a href="https://careclinic.io/getting-started/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 CareClinic's own site: <a href="https://careclinic.io/" target="_blank" rel="noopener noreferrer nofollow">CareClinic website</a>.

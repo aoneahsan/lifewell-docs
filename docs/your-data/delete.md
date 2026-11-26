@@ -14,21 +14,13 @@ sidebar_position: 2
 
 The whole record and the account behind it.
 
-The flow is: **Your data** → **Export everything** → **Delete account** → type `DELETE` to confirm → signed
+The flow is: **Your data** → **Export a copy** → **Delete account** → type `DELETE` to confirm → signed
 out immediately, record gone.
 
-There is no soft archive that the developer can read afterwards.
-
-:::warning[The server half is not deployed yet]
-The button, the confirmation and the call behind it are built and correct. **The function that actually
-removes the account is not deployed**, so pressing it today reports that deletion is not available rather
-than reporting a success that did not happen — and it points you at
-[`/delete-account`](https://lifewell.aoneahsan.com/delete-account), which is the documented route that works
-now.
-
-That page is a frozen address referenced from the Play Store listing. It is the fallback precisely so there is
-never a moment when deletion is impossible.
-:::
+There is no soft archive in the live account. Encrypted manual backups may retain earlier data until rotation,
+as the privacy page explains. The app sends the request to the account-deletion service using your signed-in
+session; it does not ask you to enter an account ID. If you cannot sign in, the public
+[`/delete-account`](https://lifewell.aoneahsan.com/delete-account) page explains how to request help.
 
 ## Delete one area
 

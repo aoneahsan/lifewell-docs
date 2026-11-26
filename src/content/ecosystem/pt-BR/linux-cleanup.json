@@ -1,0 +1,28 @@
+{
+  "card": "Veja cada caminho antes de limpar arquivos no Linux.",
+  "title": "linux-cleanup e os caminhos identificados",
+  "intro": "O linux-cleanup começa mostrando os caminhos que pode alterar. A simulação permite ler a lista antes de executar qualquer remoção.",
+  "sections": [
+    {
+      "heading": "Para que serve o linux-cleanup?",
+      "body": "Ele libera espaço em disco e cache no Linux usando um catálogo atento a arquivos de desenvolvimento."
+    },
+    {
+      "heading": "O que aparece antes de uma mudança?",
+      "body": "Antes de alterar qualquer coisa, a ferramenta mostra quais caminhos seriam afetados."
+    },
+    {
+      "heading": "Como a exclusão é controlada?",
+      "body": "Uma simulação real e um único ponto de exclusão mantêm a remoção concentrada em um lugar."
+    },
+    {
+      "heading": "Como o linux-cleanup se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda registros pessoais para consulta. O linux-cleanup lida com outra escolha: quais caminhos do disco podem ser removidos."
+    }
+  ],
+  "facts": [
+    "linux-cleanup-1",
+    "linux-cleanup-2",
+    "linux-cleanup-3"
+  ]
+}

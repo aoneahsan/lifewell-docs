@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "LifeWell Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "LifeWell logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Get LifeWell": {
+    "message": "Get LifeWell",
+    "description": "Navbar item with label Get LifeWell"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.LifeWell web app": {
+    "message": "LifeWell web app",
+    "description": "Navbar item with label LifeWell web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "All apps",
+    "description": "Navbar item with label All apps"
+  }
+}

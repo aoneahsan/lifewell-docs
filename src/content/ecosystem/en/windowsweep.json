@@ -1,0 +1,28 @@
+{
+  "card": "Read the Windows cleanup list before removing anything.",
+  "title": "windowsweep before a disk cleanup",
+  "intro": "windowsweep names the paths it might clear and starts with a dry-run. Personal files need a deliberate choice.",
+  "sections": [
+    {
+      "heading": "What is windowsweep for?",
+      "body": "It is a Windows cleanup command you can run without an install through npx."
+    },
+    {
+      "heading": "What happens before deletion?",
+      "body": "It shows the proposed paths in a real dry-run before deletion."
+    },
+    {
+      "heading": "How are personal folders handled?",
+      "body": "Personal files are chosen one row at a time, rather than swept in with the rest."
+    },
+    {
+      "heading": "Where does windowsweep fit beside LifeWell?",
+      "body": "LifeWell keeps a personal record. windowsweep helps you make a deliberate choice about which Windows disk paths to remove."
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

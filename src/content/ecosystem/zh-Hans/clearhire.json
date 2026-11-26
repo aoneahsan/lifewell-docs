@@ -1,0 +1,28 @@
+{
+  "card": "把工作经历整理成结构清晰的简历。",
+  "title": "ClearHire：准备下一份简历",
+  "intro": "ClearHire 将您的工作经历整理成结构化资料和适合 ATS 读取的简历，也提供求职过程中反复修改时用得上的工具。",
+  "sections": [
+    {
+      "heading": "ClearHire 是做什么的？",
+      "body": "您可以在这里写出更清晰的简历，也让招聘方找到您。"
+    },
+    {
+      "heading": "简历如何生成？",
+      "body": "先整理结构化的个人资料，再用遵循 ATS 格式的简历制作工具编排。"
+    },
+    {
+      "heading": "还有哪些工具？",
+      "body": "职业工具涵盖经历要点写作和 ATS 检查等步骤；来源列出超过 50 项工具。"
+    },
+    {
+      "heading": "ClearHire 与 LifeWell 有什么关系？",
+      "body": "LifeWell 在您的个人记录中保存人与工作。ClearHire 则把工作经历整理成简历，供您求职使用。"
+    }
+  ],
+  "facts": [
+    "clearhire-1",
+    "clearhire-2",
+    "clearhire-3"
+  ]
+}

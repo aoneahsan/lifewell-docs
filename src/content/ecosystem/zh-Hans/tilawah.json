@@ -1,0 +1,28 @@
+{
+  "card": "按自己的节奏继续 Tajweed 或 Tafseer 课程。",
+  "title": "Tilawah：学习古兰经",
+  "intro": "Tilawah 将录制的 Tajweed 和 Tafseer 课程放进自主学习课程中。学员可以从上次停下的地方继续。",
+  "sections": [
+    {
+      "heading": "在 Tilawah 可以学什么？",
+      "body": "录制课程涵盖 Tajweed 和 Tafseer。"
+    },
+    {
+      "heading": "如何按自己的节奏学习？",
+      "body": "学员自行安排课程进度，也能查看已学到哪里。"
+    },
+    {
+      "heading": "可以预约诵读课吗？",
+      "body": "可以按学员所在时区预约一对一实时诵读课。"
+    },
+    {
+      "heading": "Tilawah 与 LifeWell 有什么关系？",
+      "body": "LifeWell 可以保存您的笔记和预约。Tilawah 在学习空间中保存古兰经录播课程、学习进度和预约的诵读课。"
+    }
+  ],
+  "facts": [
+    "tilawah-1",
+    "tilawah-2",
+    "tilawah-3"
+  ]
+}

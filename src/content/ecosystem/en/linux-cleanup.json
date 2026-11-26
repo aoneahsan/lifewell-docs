@@ -1,0 +1,28 @@
+{
+  "card": "See each path before Linux cleanup touches it.",
+  "title": "linux-cleanup and named paths",
+  "intro": "linux-cleanup begins by naming the paths it could touch. The dry-run gives you a chance to read the list first.",
+  "sections": [
+    {
+      "heading": "What is linux-cleanup for?",
+      "body": "It clears Linux disk and cache space with a developer-aware catalogue."
+    },
+    {
+      "heading": "What does it show before a change?",
+      "body": "Before anything changes, it tells you which paths it would touch."
+    },
+    {
+      "heading": "How is deletion controlled?",
+      "body": "A real dry-run and one deletion chokepoint keep the actual removal in a single place."
+    },
+    {
+      "heading": "Where does linux-cleanup fit beside LifeWell?",
+      "body": "LifeWell keeps personal entries that can be read back. linux-cleanup deals with a different kind of keeping — deciding which disk paths may go."
+    }
+  ],
+  "facts": [
+    "linux-cleanup-1",
+    "linux-cleanup-2",
+    "linux-cleanup-3"
+  ]
+}

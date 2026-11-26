@@ -1,0 +1,24 @@
+{
+  "card": "Vos pointages dessinent une corde que vous pouvez voir.",
+  "title": "HabitForge et sa corde visible",
+  "intro": "HabitForge donne à la régularité la forme d’une corde. Chaque pointage la change ; une interruption aussi.",
+  "sections": [
+    {
+      "heading": "À quoi sert la corde ?",
+      "body": "Elle rend visibles les pointages que vous répétez au fil du temps."
+    },
+    {
+      "heading": "Que change un pointage ?",
+      "body": "La corde s’épaissit à chaque pointage ; une interruption laisse une partie effilochée."
+    },
+    {
+      "heading": "D’autres personnes peuvent-elles participer ?",
+      "body": "Il y a des amis, des défis et un classement, ainsi qu’une façon de quitter ce dernier."
+    },
+    {
+      "heading": "Quelle place occupe HabitForge à côté de LifeWell ?",
+      "body": "LifeWell laisse des blancs dans votre dossier sans les transformer en jugement. HabitForge rend le rythme des pointages visible sous forme de corde."
+    }
+  ],
+  "facts": ["habitforge-1", "habitforge-2", "habitforge-3"]
+}

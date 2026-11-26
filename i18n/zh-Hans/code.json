@@ -1,0 +1,849 @@
+{
+  "docs.feed.item.published": {
+    "message": "发布于 {published_date}"
+  },
+  "docs.feed.title": {
+    "message": "动态"
+  },
+  "docs.feed.meta.description": {
+    "message": "LifeWell 文档博客的所有文章，按最新发布排序，并提供 RSS 和 Atom 链接供阅读器订阅。"
+  },
+  "docs.feed.intro": {
+    "message": "LifeWell 文档博客的所有文章，最新发布的排在前面。"
+  },
+  "docs.feed.rss.heading": {
+    "message": "通过 RSS 订阅"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSS 是一份新文章清单，阅读器会替您定期查看。将下面的链接复制到阅读器中，新文章就会自动出现。"
+  },
+  "docs.feed.rss.link_label": {
+    "message": "RSS 链接"
+  },
+  "docs.feed.copy": {
+    "message": "复制链接"
+  },
+  "docs.feed.copied": {
+    "message": "已复制"
+  },
+  "docs.feed.copy_failed": {
+    "message": "无法复制链接。请选中链接后手动复制。"
+  },
+  "docs.feed.atom.label": {
+    "message": "Atom 订阅源"
+  },
+  "docs.feed.atom.hint": {
+    "message": "同一批文章的 Atom 格式。"
+  },
+  "docs.feed.item.read": {
+    "message": "阅读文章"
+  },
+  "docs.feed.empty.title": {
+    "message": "暂无文章"
+  },
+  "docs.feed.empty.body": {
+    "message": "首篇文章发布后，会显示在这里，也会出现在您的阅读器中。"
+  },
+  "docs.sitemap.title": {
+    "message": "网站地图"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "在一个页面查找全部 LifeWell 文档，按入门指南、七个领域、功能、您的记录、方案和更新日志分组，支持搜索。"
+  },
+  "docs.sitemap.intro": {
+    "message": "全部 LifeWell 文档汇集于此，按主题分组并可搜索。"
+  },
+  "docs.sitemap.files.label": {
+    "message": "文件"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "同一份页面清单，采用搜索引擎读取的格式。"
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "供阅读器获取的新博客文章。"
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "RSS 订阅源"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "与 feed.xml 相同的文章，使用博客地址。"
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "Atom 订阅源"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "同一批文章的 Atom 格式。"
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "文档的纯文本概述，附有每个页面的链接。"
+  },
+  "docs.sitemap.search.label": {
+    "message": "搜索页面"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "试试搜索“导出”或“人物”"
+  },
+  "docs.sitemap.search.count": {
+    "message": "{count} 个页面"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "{count} 个页面符合“{query}”"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "文档"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "博客"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "没有与“{query}”匹配的页面"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "试试更短的词，或清除搜索以查看全部页面。"
+  },
+  "docs.sitemap.empty.action": {
+    "message": "清除搜索"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "此页面发生错误。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "返回顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "归档",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "文章归档",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博客列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的文章",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较早的文章",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博客文章分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新的文章",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较早的文章",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "跟随系统",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "深色模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换深浅模式（当前：{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "面包屑导航",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档页面导航",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有此标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "带有“{tagName}”标签的文档：{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel} 版本尚未发布的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel} 的文档，该版本已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新文档请参阅{latestVersionLink}（{versionLabel}）。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页面",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "直接链接到“{heading}”",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "，日期：{date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "，修改者：{user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后更新{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "页面不存在",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "博客近期文章导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类“{label}”",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "收起侧边栏分类“{label}”",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "（在新标签页中打开）",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "找不到您要查看的内容。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系向您提供原始链接的网站负责人，告知对方链接已失效。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页内容",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "继续阅读",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "继续阅读“{title}”",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读约需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "已复制",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "将代码复制到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "首页",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 返回主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "展开下拉菜单",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "收起下拉菜单",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "加载中……",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "点击加载{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "浏览器处于离线状态，图片尚未加载",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404：图片不存在",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "发生错误，点击重新加载",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "没有结果"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "查看“{context}”之外的全部结果"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "查看“{context}”内的全部结果"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部结果"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "“{query}”的搜索结果",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜索文档",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "所有位置"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "找到 {count} 篇文档",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "未找到文档",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇文章",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "带有“{tagName}”标签的{nPosts}",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName}－{nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "查看所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "该作者尚未发表文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出的页面",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此页面未列出。搜索引擎不会将其编入索引，只有获得直接链接的人才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿页面",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此页面仍是草稿，只会在开发环境中显示，不会进入正式版本。",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 项",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳转到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "about.title": {
+    "message": "由 Ahsan Mahmood 创建"
+  },
+  "about.description": {
+    "message": "了解 Ahsan Mahmood 为何创建 LifeWell、项目走到今天的重要节点，以及他在 Zaions 的其他作品。"
+  },
+  "about.kicker": {
+    "message": "关于开发者"
+  },
+  "about.lede": {
+    "message": "Ahsan 听父母讲述自己的生活故事后，开始制作 LifeWell。他希望把这些时刻留在一个家人能够回来查看的地方。"
+  },
+  "about.portfolio": {
+    "message": "访问 Ahsan 的作品集"
+  },
+  "about.zaions": {
+    "message": "访问 Zaions"
+  },
+  "about.why.heading": {
+    "message": "他为什么创建 LifeWell？"
+  },
+  "about.why.first": {
+    "message": "父亲给他讲故事，母亲也是。Ahsan 想留住那些谈话，以及谈话背后的人。LifeWell 从这个心愿出发，逐渐成为保存关系、回忆和日常琐事的地方。"
+  },
+  "about.why.second": {
+    "message": "更长远的设想，是留下一份能传给下一代的礼物。其中一些功能仍在建设。今天，您可以在应用中保存日后能找回的记录，并自行决定分享什么。"
+  },
+  "about.timeline.heading": {
+    "message": "LifeWell 如何走到今天？"
+  },
+  "about.timeline.2025.date": {
+    "message": "2025年8月25日"
+  },
+  "about.timeline.2025.event": {
+    "message": "LifeWell 应用代码库中最早的一次提交。"
+  },
+  "about.timeline.2026_09.date": {
+    "message": "2026年9月19日"
+  },
+  "about.timeline.2026_09.event": {
+    "message": "重建后的网页应用上线，且已核对线上版本与构建结果。"
+  },
+  "about.timeline.2026_10.date": {
+    "message": "2026年10月25日"
+  },
+  "about.timeline.2026_10.event": {
+    "message": "所有者确认 3.25.0 版本已在 Google Play 上线。"
+  },
+  "about.timeline.2026_11.date": {
+    "message": "2026年11月20日"
+  },
+  "about.timeline.2026_11.event": {
+    "message": "已发布的网页、Android 和文档入口汇集到“获取 LifeWell”页面。"
+  },
+  "about.build.heading": {
+    "message": "LifeWell 如何构建？"
+  },
+  "about.build.body": {
+    "message": "LifeWell 是适用于网页和 Android 的 React、TypeScript 应用。如果您启用离线记录，少量受支持的快捷记录可以暂存在设备上，待网络恢复后发送。是否分享由您逐项决定，记录也始终可以由您导出。"
+  },
+  "about.other.heading": {
+    "message": "在哪里查看其他作品？"
+  },
+  "about.other.ecosystem": {
+    "message": "查看 Zaions 的其他产品"
+  },
+  "about.other.projects": {
+    "message": "Ahsan 的项目"
+  },
+  "about.contact.heading": {
+    "message": "如何联系团队？"
+  },
+  "about.contact.prefix": {
+    "message": "请使用"
+  },
+  "about.contact.link": {
+    "message": "LifeWell 联系页面"
+  },
+  "about.contact.body": {
+    "message": "与产品有关的留言，留在对应的产品页面最合适。"
+  },
+  "about.aside.body": {
+    "message": "生活中的人和时刻，都留在同一个地方。"
+  },
+  "about.aside.link": {
+    "message": "了解 LifeWell"
+  },
+  "apps.web.title": {
+    "message": "在浏览器中"
+  },
+  "apps.web.text": {
+    "message": "在任何电脑上查看您的人际记录、回忆、笔记和日历。使用 Google 登录，接着处理手机上未完成的事。"
+  },
+  "apps.web.cta": {
+    "message": "打开 LifeWell"
+  },
+  "apps.android.title": {
+    "message": "在 Android 手机上"
+  },
+  "apps.android.text": {
+    "message": "随手记下一个时刻，或看看某个人的近况。与网页应用使用同一账号，记录保持同步。"
+  },
+  "apps.android.cta": {
+    "message": "前往 Google Play 获取"
+  },
+  "apps.docs.title": {
+    "message": "阅读文档"
+  },
+  "apps.docs.text": {
+    "message": "了解七个领域如何使用、怎样导出记录，以及 LifeWell 如何处理您的隐私。"
+  },
+  "apps.docs.cta": {
+    "message": "阅读文档"
+  },
+  "apps.title": {
+    "message": "获取 LifeWell"
+  },
+  "apps.description": {
+    "message": "LifeWell 已发布的所有入口：网页应用、Google Play 上的 Android 应用，以及这份文档。"
+  },
+  "apps.intro": {
+    "message": "一个账号，随处接续。在网页上开始，带到手机上；需要时，随时打开这些指南。"
+  },
+  "apps.here": {
+    "message": "您正在阅读"
+  },
+  "home.get_started": {
+    "message": "开始使用 →"
+  },
+  "home.open_lifewell": {
+    "message": "打开 LifeWell"
+  },
+  "home.also_on": {
+    "message": "还可在此使用"
+  },
+  "home.all_apps": {
+    "message": "全部应用 →"
+  },
+  "home.built_by": {
+    "message": "由以下团队开发和维护"
+  },
+  "home.team": {
+    "message": "LifeWell 团队"
+  },
+  "home.licence": {
+    "message": "文档采用 CC BY 4.0 许可。"
+  },
+  "home.title": {
+    "message": "您生活中的人和时刻"
+  },
+  "home.description": {
+    "message": "LifeWell 公共文档。它把家人、朋友、回忆和计划留在同一个地方，身心健康的内容围绕在旁。适用于网页和 Android。"
+  },
+  "home.feature.people.title": {
+    "message": "先从您生活中的人开始"
+  },
+  "home.feature.people.description": {
+    "message": "从您自己开始，加入重要的人。回忆、日常和分享与他们相连，健康、心灵和人生阶段围绕在旁。七个领域中有六个可以关闭；关闭后菜单不再显示，但记录不会删除。"
+  },
+  "home.feature.people.cta": {
+    "message": "了解七个领域"
+  },
+  "home.feature.export.title": {
+    "message": "您的记录，也能由您带走"
+  },
+  "home.feature.export.description": {
+    "message": "在设备上导出所有内容为 JSON、CSV 或 PDF，无需交给服务器生成。文件格式逐字段说明，所有方案（包括 Free）都可导出。"
+  },
+  "home.feature.export.cta": {
+    "message": "查看导出格式"
+  },
+  "home.feature.offline.title": {
+    "message": "仅支持部分离线快速记录"
+  },
+  "home.feature.offline.description": {
+    "message": "启用离线记录后，饮水、心情和步数可以在断网时暂存在此设备。其他更改需要网络连接；在其他设备上依赖这些记录前，请确认它们已同步。"
+  },
+  "home.feature.offline.cta": {
+    "message": "了解离线时能做什么"
+  },
+  "home.feature.photos.title": {
+    "message": "照片留在您自己的 Drive 中"
+  },
+  "home.feature.photos.description": {
+    "message": "LifeWell 向 Google 请求的权限，只能访问它自己创建的文件。我们保存文件的引用，而不是文件本身。"
+  },
+  "home.feature.photos.cta": {
+    "message": "记录保存在哪里"
+  },
+  "home.feature.no_score.title": {
+    "message": "没有连续打卡，没有评分，也没有排名"
+  },
+  "home.feature.no_score.description": {
+    "message": "这里不会要求您保持连续打卡，也不会用数字给您打分。记录留有空白，仍然是一份记录；安静的周日也只是一个周日。"
+  },
+  "home.feature.no_score.cta": {
+    "message": "了解 LifeWell 是什么"
+  },
+  "home.feature.honest.title": {
+    "message": "了解各平台能做什么"
+  },
+  "home.feature.honest.description": {
+    "message": "LifeWell 网页版、Android 应用和浏览器助手的功能各有不同。Android 提醒需要设备通知权限；浏览器助手仍待商店发布，且目前没有 iOS 应用。更新日志记录已发布的功能。"
+  },
+  "home.feature.honest.cta": {
+    "message": "阅读更新日志"
+  },
+  "about.schema.name": {
+    "message": "LifeWell 开发者简介"
+  },
+  "about.schema.job_title": {
+    "message": "Zaions 创始人及开发者"
+  },
+  "about.schema.docs": {
+    "message": "LifeWell 文档"
+  },
+  "ecosystem.title": {
+    "message": "Zaions 的产品"
+  },
+  "ecosystem.meta": {
+    "message": "Ahsan Mahmood 在 Zaions 开发的其他产品，并提供清晰的访问入口。"
+  },
+  "ecosystem.kicker": {
+    "message": "其他产品"
+  },
+  "ecosystem.showcase": {
+    "message": "Zaions 的更多产品"
+  },
+  "ecosystem.intro": {
+    "message": "Ahsan Mahmood 开发的不止 LifeWell。Zaions 的每款产品都有自己的用途。找到您需要的，也可以随意看看。"
+  },
+  "ecosystem.all": {
+    "message": "查看 Zaions 的全部产品"
+  },
+  "ecosystem.details": {
+    "message": "详情"
+  },
+  "ecosystem.visit": {
+    "message": "访问 {name}"
+  },
+  "ecosystem.read_docs": {
+    "message": "阅读 {name} 文档"
+  },
+  "ecosystem.glance": {
+    "message": "概览"
+  },
+  "ecosystem.source_checked": {
+    "message": "来源核查于 {date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "面包屑导航"
+  },
+  "ecosystem.docs_home": {
+    "message": "LifeWell 文档"
+  },
+  "ecosystem.choose_view": {
+    "message": "选择视图"
+  },
+  "ecosystem.view.grid": {
+    "message": "网格"
+  },
+  "ecosystem.view.list": {
+    "message": "列表"
+  },
+  "ecosystem.view.table": {
+    "message": "表格"
+  },
+  "ecosystem.table.product": {
+    "message": "产品"
+  },
+  "ecosystem.table.purpose": {
+    "message": "用途"
+  },
+  "ecosystem.table.platforms": {
+    "message": "平台"
+  },
+  "ecosystem.table.links": {
+    "message": "链接"
+  },
+  "ecosystem.who_built": {
+    "message": "谁创建了 LifeWell"
+  },
+  "ecosystem.carousel": {
+    "message": "轮播内容"
+  },
+  "ecosystem.slide": {
+    "message": "幻灯片"
+  },
+  "ecosystem.previous": {
+    "message": "上一个产品"
+  },
+  "ecosystem.next": {
+    "message": "下一个产品"
+  },
+  "ecosystem.play": {
+    "message": "播放轮播"
+  },
+  "ecosystem.pause": {
+    "message": "暂停轮播"
+  },
+  "ecosystem.play_label": {
+    "message": "播放"
+  },
+  "ecosystem.pause_label": {
+    "message": "暂停"
+  },
+  "ecosystem.count": {
+    "message": "第 {index} 个，共 {total} 个"
+  },
+  "site.name": {
+    "message": "LifeWell 文档"
+  },
+  "home.tagline": {
+    "message": "把您生活中的人和时刻留在同一个地方，连同围绕他们的一切。"
+  },
+  "site.description": {
+    "message": "LifeWell 公共文档。它把家人、朋友、您对他们的了解、回忆和计划留在同一个地方，身心健康与人生阶段的内容围绕在旁。由 LifeWell 团队撰写。"
+  },
+  "apps.web.name": {
+    "message": "LifeWell 网页应用"
+  },
+  "apps.docs.name": {
+    "message": "文档"
+  },
+  "ecosystem.category.web_app": {
+    "message": "网页应用"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "移动应用"
+  },
+  "ecosystem.category.package": {
+    "message": "软件包"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "WordPress 插件和网页应用"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "桌面应用和命令行工具"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "网页应用和软件包"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "浏览器扩展程序"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "Chrome 网上应用店"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, 家谱, 人物, 回忆, 家人和朋友, 笔记, 日历, 身心健康, Android 应用"
+  }
+}

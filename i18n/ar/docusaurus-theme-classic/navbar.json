@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "توثيق LifeWell",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "شعار LifeWell",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "التوثيق",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Blog": {
+    "message": "المدونة",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.About": {
+    "message": "حول",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Get LifeWell": {
+    "message": "احصل على LifeWell",
+    "description": "Navbar item with label Get LifeWell"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.LifeWell web app": {
+    "message": "تطبيق LifeWell على الويب",
+    "description": "Navbar item with label LifeWell web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "جميع التطبيقات",
+    "description": "Navbar item with label All apps"
+  }
+}

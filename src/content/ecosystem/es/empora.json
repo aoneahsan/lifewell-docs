@@ -1,0 +1,28 @@
+{
+  "card": "Elige los módulos que necesita tu tienda WooCommerce.",
+  "title": "Empora para una tienda WooCommerce",
+  "intro": "Empora reúne herramientas de tienda en un solo complemento de WordPress. Cada comerciante activa los módulos que necesita, sin cargar la tienda con todas las opciones.",
+  "sections": [
+    {
+      "heading": "¿Qué reúne Empora?",
+      "body": "Varias funciones de tienda conviven en un solo complemento de WordPress para WooCommerce."
+    },
+    {
+      "heading": "¿Puede cada comerciante elegir los módulos?",
+      "body": "Activa los módulos que necesita la tienda. Los demás pueden quedarse apagados."
+    },
+    {
+      "heading": "¿Para qué sirve su panel web?",
+      "body": "El panel web administra licencias y conexiones opcionales con las tiendas."
+    },
+    {
+      "heading": "¿Cómo se relaciona Empora con LifeWell?",
+      "body": "LifeWell es un espacio personal para tus personas y momentos. Empora ocupa otro lugar: una tienda WooCommerce cuyos módulos elige su comerciante."
+    }
+  ],
+  "facts": [
+    "empora-1",
+    "empora-2",
+    "empora-3"
+  ]
+}

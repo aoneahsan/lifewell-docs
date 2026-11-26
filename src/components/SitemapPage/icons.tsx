@@ -1,4 +1,4 @@
-import React, { type ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 /** Which picture sits beside a group's heading: the docs pages, the game's rules, or the posts. */
 export type GroupIconName = 'docs' | 'game' | 'posts';

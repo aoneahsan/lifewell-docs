@@ -1,0 +1,28 @@
+{
+  "card": "Entrega un paquete de Capacitor sin esperar a una publicación en la tienda.",
+  "title": "Native Update para publicar aplicaciones",
+  "intro": "Native Update permite distribuir actualizaciones compatibles de una aplicación Capacitor. Las actualizaciones de la tienda siguen su propio camino junto a ese flujo.",
+  "sections": [
+    {
+      "heading": "¿Qué publica Native Update?",
+      "body": "Gestiona actualizaciones de aplicaciones Capacitor sin esperar a una publicación en la tienda por cada paquete."
+    },
+    {
+      "heading": "¿Cómo llega un paquete a quienes usan la aplicación?",
+      "body": "Un paquete compatible puede entregarse de forma inalámbrica."
+    },
+    {
+      "heading": "¿Qué ocurre con las actualizaciones de la tienda?",
+      "body": "El producto también incluye avisos dentro de la aplicación para actualizarla desde la tienda y dejar una reseña."
+    },
+    {
+      "heading": "¿Cómo se relaciona Native Update con LifeWell?",
+      "body": "LifeWell tiene vías de publicación para la web y Android. Native Update sirve a quienes distribuyen paquetes de aplicaciones Capacitor y avisos de la tienda."
+    }
+  ],
+  "facts": [
+    "native-update-1",
+    "native-update-2",
+    "native-update-3"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "card": "Um registro diário vira uma corda que você pode ver.",
+  "title": "HabitForge e a corda visível",
+  "intro": "O HabitForge mostra a constância como uma corda. Cada registro a modifica; um intervalo também.",
+  "sections": [
+    {
+      "heading": "Para que serve a corda?",
+      "body": "Ela transforma registros repetidos em uma corda visível."
+    },
+    {
+      "heading": "O que muda com um registro?",
+      "body": "Um registro engrossa a corda; um intervalo deixa um fio solto que você pode ver."
+    },
+    {
+      "heading": "Outras pessoas podem participar?",
+      "body": "Há amigos, desafios e uma classificação — e uma forma de sair dela."
+    },
+    {
+      "heading": "Como o HabitForge se relaciona com o LifeWell?",
+      "body": "No LifeWell, um registro pode ter lacunas sem virar julgamento. O HabitForge representa visualmente o padrão de registros como uma corda."
+    }
+  ],
+  "facts": [
+    "habitforge-1",
+    "habitforge-2",
+    "habitforge-3"
+  ]
+}

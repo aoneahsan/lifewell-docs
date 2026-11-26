@@ -1,0 +1,28 @@
+{
+  "card": "Find a utility and run it in your browser.",
+  "title": "ZTools for the small tool you need now",
+  "intro": "ZTools keeps formatters, converters, encoders and generators in one browser toolbox. Pick the task and use its own page.",
+  "sections": [
+    {
+      "heading": "What is in ZTools?",
+      "body": "Formatters, converters, encoders and generators sit in one toolbox."
+    },
+    {
+      "heading": "Where does a tool run?",
+      "body": "A tool runs in the browser, one page for the task you came to do."
+    },
+    {
+      "heading": "What happens to your input?",
+      "body": "The product says input stays in the browser and is not uploaded."
+    },
+    {
+      "heading": "Where does ZTools fit beside LifeWell?",
+      "body": "LifeWell keeps the record that matters to you. ZTools is for a single formatting, converting, encoding or generating task in the browser."
+    }
+  ],
+  "facts": [
+    "ztools-1",
+    "ztools-2",
+    "ztools-3"
+  ]
+}

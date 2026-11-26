@@ -1,0 +1,28 @@
+{
+  "card": "Reúne las semanas cambiantes del embarazo.",
+  "title": "PregnancyPal, semana a semana",
+  "intro": "PregnancyPal reúne información de cada semana y tus propias anotaciones durante el embarazo. Hay un lugar para los detalles que quieras recordar.",
+  "sections": [
+    {
+      "heading": "¿Para qué sirve PregnancyPal?",
+      "body": "Acompaña las semanas cambiantes del embarazo."
+    },
+    {
+      "heading": "¿Qué puedes consultar cada semana?",
+      "body": "La información semanal incluye nutrición y ejercicio."
+    },
+    {
+      "heading": "¿Qué puedes anotar?",
+      "body": "Puedes guardar signos vitales, síntomas, estado de ánimo y citas en un mismo registro."
+    },
+    {
+      "heading": "¿Cómo se relaciona PregnancyPal con LifeWell?",
+      "body": "LifeWell guarda las etapas de la vida entre las siete áreas que te rodean. PregnancyPal se concentra en las semanas del embarazo y en los detalles que elijas anotar."
+    }
+  ],
+  "facts": [
+    "pregnancypal-1",
+    "pregnancypal-2",
+    "pregnancypal-3"
+  ]
+}

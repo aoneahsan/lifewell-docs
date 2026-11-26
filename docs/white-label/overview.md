@@ -37,8 +37,8 @@ Changes made only for your copy are [custom work](https://lifewell.aoneahsan.com
 
 ## What does not change
 
-The people who use your copy keep the rights anyone using LifeWell has: what they enter is theirs, they can export all
-of it, and they can delete their account themselves. It is still not a health tracker, a medical device or a clinical
+The people who use your copy keep the rights anyone using LifeWell has: what they enter is theirs, they can export a
+selected date range within the 5,000-row-per-table cap, and they can delete their live account themselves. It is still not a health tracker, a medical device or a clinical
 record, and a licensed copy cannot be offered as one.
 
 The licence in plain words: [licence terms](https://lifewell.aoneahsan.com/white-label/license-terms). The full agreement: the

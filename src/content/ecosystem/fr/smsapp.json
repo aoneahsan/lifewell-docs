@@ -1,0 +1,28 @@
+{
+  "card": "Envoyez des messages en série depuis votre appareil Android.",
+  "title": "SMS App, depuis votre propre téléphone",
+  "intro": "SMS App envoie des messages uniques, groupés ou programmés depuis un appareil Android enregistré. L’appareil qui expédie les SMS reste au cœur du fonctionnement.",
+  "sections": [
+    {
+      "heading": "Quels envois SMS App prend-elle en charge ?",
+      "body": "Vous pouvez envoyer un message seul, un lot de messages ou programmer un envoi."
+    },
+    {
+      "heading": "D’où partent les messages ?",
+      "body": "Les SMS partent de l’appareil Android que vous avez enregistré."
+    },
+    {
+      "heading": "Comment les appareils sont-ils gérés ?",
+      "body": "Les outils de gestion comprennent l’enregistrement des appareils et un groupe d’appareils volontaires."
+    },
+    {
+      "heading": "Quelle place occupe SMS App à côté de LifeWell ?",
+      "body": "LifeWell réunit vos rappels et vos proches dans un même dossier. SMS App sert à expédier des SMS uniques, groupés ou programmés depuis un appareil Android."
+    }
+  ],
+  "facts": [
+    "smsapp-1",
+    "smsapp-2",
+    "smsapp-3"
+  ]
+}

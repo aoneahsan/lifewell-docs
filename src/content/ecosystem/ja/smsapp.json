@@ -1,0 +1,28 @@
+{
+  "card": "登録したAndroid端末からメッセージをまとめて送れます。",
+  "title": "自分の端末から送るSMS App",
+  "intro": "SMS Appは登録したAndroid端末を使って、個別、一括、予約のメッセージを送ります。送信端末も作業の流れに含まれます。",
+  "sections": [
+    {
+      "heading": "SMS Appでは何を送れますか？",
+      "body": "個別メッセージ、一括送信、予約送信に対応しています。"
+    },
+    {
+      "heading": "メッセージはどこから送られますか？",
+      "body": "登録したAndroid端末がSMSを送信します。"
+    },
+    {
+      "heading": "端末はどう管理しますか？",
+      "body": "端末の登録と、協力端末のプールを管理する機能があります。"
+    },
+    {
+      "heading": "SMS AppとLifeWellはどう使い分けますか？",
+      "body": "LifeWellには人とリマインダーを同じ記録に残せます。SMS AppはAndroid端末からの個別、一括、予約のSMS送信を扱います。"
+    }
+  ],
+  "facts": [
+    "smsapp-1",
+    "smsapp-2",
+    "smsapp-3"
+  ]
+}

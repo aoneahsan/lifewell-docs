@@ -1,9 +1,9 @@
 ---
 sidebar_position: 31
 title: Moving from Evergreen Life to LifeWell
-description: "How to move from Evergreen Life to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Evergreen Life to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Evergreen Life is a free UK app for people registered with a GP in England. It p
 
 LifeWell suits someone outside England, or anyone who wants a record they write themselves for every person they care for, with memories and the tree beside it.
 
-Last checked 2026-11-07. Both, row by row: [LifeWell and Evergreen Life](https://lifewell.aoneahsan.com/compare/evergreen-life).
+Last checked 2026-11-26. Both, row by row: [LifeWell and Evergreen Life](https://lifewell.aoneahsan.com/compare/evergreen-life).
 
 ## Using it alongside your GP record
 

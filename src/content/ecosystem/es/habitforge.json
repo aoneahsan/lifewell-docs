@@ -1,0 +1,28 @@
+{
+  "card": "Cada registro va formando una cuerda que puedes ver.",
+  "title": "HabitForge y la cuerda visible",
+  "intro": "HabitForge representa la constancia como una cuerda. Cada registro la cambia; una pausa también deja su marca.",
+  "sections": [
+    {
+      "heading": "¿Para qué sirve la cuerda?",
+      "body": "Convierte los registros repetidos en una cuerda que puedes observar."
+    },
+    {
+      "heading": "¿Qué cambia cuando registras algo?",
+      "body": "Un registro engrosa la cuerda; una pausa deja una parte deshilachada."
+    },
+    {
+      "heading": "¿Pueden participar otras personas?",
+      "body": "Hay amistades, desafíos y una tabla de posiciones, además de una forma de salir de ella."
+    },
+    {
+      "heading": "¿Cómo se relaciona HabitForge con LifeWell?",
+      "body": "LifeWell admite vacíos en tu registro sin convertirlos en un juicio. HabitForge muestra el patrón de tus registros como una cuerda."
+    }
+  ],
+  "facts": [
+    "habitforge-1",
+    "habitforge-2",
+    "habitforge-3"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "card": "让检验申请、样本和结果保持关联。",
+  "title": "LabFlow：贯穿检验流程",
+  "intro": "LabFlow 跟随诊断检验工作，从患者和申请、样本到结果审核与发布。每次交接都有记录。",
+  "sections": [
+    {
+      "heading": "LabFlow 涵盖哪些工作？",
+      "body": "它覆盖诊断实验室从开始到结束的工作流程。"
+    },
+    {
+      "heading": "系统把哪些记录放在一起？",
+      "body": "患者、检验申请、样本和结果记录保存在同一系统中。"
+    },
+    {
+      "heading": "结果如何发布？",
+      "body": "结果先以草稿形式录入，经过审核后发布。"
+    },
+    {
+      "heading": "LabFlow 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存个人自己的健康记录。LabFlow 管理诊断实验室的检验申请、样本、审核和结果。"
+    }
+  ],
+  "facts": [
+    "labflow-1",
+    "labflow-2",
+    "labflow-3"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Moving to LifeWell": {
+    "message": "Moving to LifeWell",
+    "description": "The label for category 'Moving to LifeWell' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started": {
+    "message": "Get started",
+    "description": "The label for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.title": {
+    "message": "Get started with LifeWell",
+    "description": "The generated-index page title for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.description": {
+    "message": "Open it, sign in, and know what the first five screens are asking.",
+    "description": "The generated-index page description for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.The seven areas": {
+    "message": "The seven areas",
+    "description": "The label for category 'The seven areas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features": {
+    "message": "Features",
+    "description": "The label for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.title": {
+    "message": "Features",
+    "description": "The generated-index page title for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.description": {
+    "message": "The things that cut across more than one area.",
+    "description": "The generated-index page description for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "White-label & licensing",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data": {
+    "message": "Your data",
+    "description": "The label for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.title": {
+    "message": "Your data",
+    "description": "The generated-index page title for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.description": {
+    "message": "Getting it out, getting rid of it, and knowing where it is.",
+    "description": "The generated-index page description for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works": {
+    "message": "How it works",
+    "description": "The label for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.title": {
+    "message": "How it works",
+    "description": "The generated-index page title for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.description": {
+    "message": "Architecture, the data model, privacy, offline behaviour and appearance.",
+    "description": "The generated-index page description for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "Platforms",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.title": {
+    "message": "Platforms",
+    "description": "The generated-index page title for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.description": {
+    "message": "Web, Android, the built but unpublished browser extension, and the removed iOS app.",
+    "description": "The generated-index page description for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "Reference",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.description": {
+    "message": "The export file format, the frozen addresses, and every outside service.",
+    "description": "The generated-index page description for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "Developers",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.About": {
+    "message": "About",
+    "description": "The label for category 'About' in sidebar 'docsSidebar'"
+  }
+}

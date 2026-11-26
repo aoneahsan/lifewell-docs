@@ -1,0 +1,28 @@
+{
+  "card": "Transforme sua trajetória profissional em um currículo estruturado.",
+  "title": "ClearHire para o seu próximo currículo",
+  "intro": "O ClearHire reúne sua experiência profissional em um perfil estruturado e um currículo legível por sistemas de seleção. Também oferece ferramentas para as etapas da busca de emprego que pedem mais de uma versão do texto.",
+  "sections": [
+    {
+      "heading": "Para que serve o ClearHire?",
+      "body": "É um lugar para preparar um currículo mais claro e permitir que empresas encontrem seu perfil."
+    },
+    {
+      "heading": "Como o currículo é montado?",
+      "body": "Seu perfil é estruturado, e o criador de currículos segue um formato compatível com sistemas de seleção."
+    },
+    {
+      "heading": "O que mais está disponível?",
+      "body": "As ferramentas de carreira cobrem tarefas como escrever tópicos e conferir o currículo em sistemas de seleção; a fonte relaciona mais de 50 ferramentas."
+    },
+    {
+      "heading": "Como o ClearHire se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda pessoas e trabalho no seu registro pessoal. O ClearHire organiza sua experiência profissional para o currículo e a busca de emprego."
+    }
+  ],
+  "facts": [
+    "clearhire-1",
+    "clearhire-2",
+    "clearhire-3"
+  ]
+}

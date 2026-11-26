@@ -1,9 +1,9 @@
 ---
 sidebar_position: 20
 title: Moving from Todoist to LifeWell
-description: "How to move from Todoist to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Todoist to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Todoist is a to-do list: today's tasks, projects and reminders, with a free plan
 
 LifeWell is for appointments that belong to people, and people who carry memories, a tree and health records.
 
-Last checked 2026-11-07. The comparison with sources: [LifeWell and Todoist](https://lifewell.aoneahsan.com/compare/todoist).
+Last checked 2026-11-26. The comparison with sources: [LifeWell and Todoist](https://lifewell.aoneahsan.com/compare/todoist).
 
 ## Running both
 

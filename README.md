@@ -19,7 +19,7 @@ application source is a separate private repository.
 
 ## What is documented here
 
-45 pages, structured the way the product is — seven areas around **You**:
+The guides are structured the way the product is — seven areas around **You**:
 
 - **Get started** — install on the web or Android, the five-step first run, a short tour.
 - **The seven areas** — health, mind, life stages, people, memories, everyday and sharing. Six carry a switch
@@ -41,6 +41,15 @@ public-health sources (CDC, WHO, Mayo Clinic, ACOG, AAP, NHLBI) where it makes a
 
 **Where something is not built, the page says not built** — not *coming soon*. Seven such things are listed in
 one place on the changelog.
+
+## More from Zaions
+
+LifeWell keeps your people and moments together. The [other Zaions products](https://lifewell-docs.aoneahsan.com/ecosystem)
+each have their own job, from a call you want to find again to a route whose chosen stops need to stay put. The
+directory has grid, list and table views, with a page for each product. Read [why Ahsan Mahmood built
+LifeWell](https://lifewell-docs.aoneahsan.com/about-developer) and where the work has reached so far.
+
+LifeWell — developed with love by the [Zaions team](https://zaions.com).
 
 ## Built with
 

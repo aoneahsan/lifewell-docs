@@ -1,0 +1,28 @@
+{
+  "card": "Gardez les arrêts choisis à leur place sur votre trajet.",
+  "title": "Waylock pour les arrêts à conserver",
+  "intro": "Waylock permet à un conducteur de fixer certains arrêts et de réorganiser les autres. Un mauvais embranchement n’efface pas l’itinéraire prévu.",
+  "sections": [
+    {
+      "heading": "À qui s’adresse Waylock ?",
+      "body": "Aux conducteurs et aux coursiers qui utilisent Android avec Google Maps."
+    },
+    {
+      "heading": "Comment les arrêts sont-ils ordonnés ?",
+      "body": "Fixez les arrêts importants, puis disposez les autres autour."
+    },
+    {
+      "heading": "Que se passe-t-il après un mauvais embranchement ?",
+      "body": "Si vous vous écartez du trajet, l’itinéraire choisi reste visible ; vous pouvez le rejoindre ou en accepter un autre."
+    },
+    {
+      "heading": "Quelle place occupe Waylock à côté de LifeWell ?",
+      "body": "LifeWell conserve vos rendez-vous et vos lieux enregistrés auprès de vos proches. Waylock vous accompagne pendant le trajet, en gardant les arrêts choisis à leur place lorsque l’itinéraire change."
+    }
+  ],
+  "facts": [
+    "waylock-1",
+    "waylock-2",
+    "waylock-3"
+  ]
+}

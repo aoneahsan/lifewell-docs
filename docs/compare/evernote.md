@@ -1,9 +1,9 @@
 ---
 sidebar_position: 19
 title: Moving from Evernote to LifeWell
-description: "How to move from Evernote to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Evernote to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Evernote is for when notes are the whole job: notebooks, clipping, scanning and 
 
 In LifeWell, notes are one part of a record about people. Memories, health and appointments are kept beside them.
 
-Last checked 2026-11-07. Both side by side: [LifeWell and Evernote](https://lifewell.aoneahsan.com/compare/evernote).
+Last checked 2026-11-26. Both side by side: [LifeWell and Evernote](https://lifewell.aoneahsan.com/compare/evernote).
 
 ## From notebooks to people
 
@@ -39,10 +39,11 @@ Evernote's plans page did not mention a record per person, a family tree, memori
 
 | Plan | Price | Source |
 |---|---|---|
-| Free | Free | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Starter | $8.25 a month (pay $99.00/year; up to 1,000 notes, 3 devices) | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Advanced | $20.83 a month (pay $249.99/year) | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Teams | $10 a month (from, per seat) | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Free | Free, with 50 notes and one synced device | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Starter | $99 a year, or $14.99 a month; up to 1,000 notes and three devices | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Advanced | $249.99 a year, or $24.99 a month | <a href="https://evernote.com/compare-plans" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+
+The checked plan page does not state a Teams price, so this comparison does not assign one.
 
 LifeWell's prices: the [plans page](https://lifewell.aoneahsan.com/plans).
 

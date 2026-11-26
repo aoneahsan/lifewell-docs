@@ -1,9 +1,9 @@
 ---
 sidebar_position: 13
 title: Moving from Monica to LifeWell
-description: "How to move from Monica to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Monica to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Monica is an open-source personal CRM, free to run on your own server, with a ho
 
 LifeWell is a hosted app you can use today, on Android or the web. It puts memories, a family tree and health records on those same people.
 
-Last checked 2026-11-07. Both, with sources, on [LifeWell and Monica](https://lifewell.aoneahsan.com/compare/monica).
+Last checked 2026-11-26. Both, with sources, on [LifeWell and Monica](https://lifewell.aoneahsan.com/compare/monica).
 
 ## Moving your people out of Monica
 
@@ -32,9 +32,10 @@ Last checked 2026-11-07. Both, with sources, on [LifeWell and Monica](https://li
 | Draws your family tree | Yes | Partly (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Appointments with a reminder | Yes | Partly (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | Notes | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
+| Download your own data | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | A free plan that stays free | Yes | Yes (<a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-Monica's home page did not mention memories, speaking an entry, share links, health records, downloading your data, an Android app or a household plan, and its hosted pricing page returned not found.
+Monica's pages did not state memories, speaking an entry, share links, health records, an Android app or a household plan.
 
 There is no LifeWell iPhone app.
 
@@ -42,8 +43,9 @@ There is no LifeWell iPhone app.
 
 | Plan | Price | Source |
 |---|---|---|
-| Self-hosted | Free (Free to self-host) | <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Hosted | Not stated (Hosted version available; price not stated on the pages we checked) | <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Self-hosted | Free; you provide the server | <a href="https://www.monicahq.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Hosted | $9 a month or $90 a year, for unlimited contacts and reminders | <a href="https://www.monicahq.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Lifetime | $250 once for hosted access | <a href="https://www.monicahq.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 LifeWell's plans: the [plans page](https://lifewell.aoneahsan.com/plans).
 

@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Moving to LifeWell": {
+    "message": "الانتقال إلى LifeWell",
+    "description": "The label for category 'Moving to LifeWell' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started": {
+    "message": "ابدأ",
+    "description": "The label for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.title": {
+    "message": "ابدأ مع LifeWell",
+    "description": "The generated-index page title for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.description": {
+    "message": "افتح التطبيق وسجل الدخول واعرف ما الذي تطلبه منك الشاشات الخمس الأولى.",
+    "description": "The generated-index page description for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.The seven areas": {
+    "message": "المجالات السبعة",
+    "description": "The label for category 'The seven areas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features": {
+    "message": "الميزات",
+    "description": "The label for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.title": {
+    "message": "الميزات",
+    "description": "The generated-index page title for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.description": {
+    "message": "الأشياء التي تمتد عبر أكثر من مجال.",
+    "description": "The generated-index page description for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "الترخيص والعلامة البيضاء",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data": {
+    "message": "بياناتك",
+    "description": "The label for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.title": {
+    "message": "بياناتك",
+    "description": "The generated-index page title for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.description": {
+    "message": "كيف تُخرجها أو تحذفها أو تعرف أين تحفظ.",
+    "description": "The generated-index page description for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works": {
+    "message": "كيف يعمل",
+    "description": "The label for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.title": {
+    "message": "كيف يعمل",
+    "description": "The generated-index page title for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.description": {
+    "message": "البنية ونموذج البيانات والخصوصية والعمل دون اتصال والمظهر.",
+    "description": "The generated-index page description for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "المنصات",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.title": {
+    "message": "المنصات",
+    "description": "The generated-index page title for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.description": {
+    "message": "الويب وAndroid وإضافة المتصفح المبنية التي لم تُنشر بعد وتطبيق iOS الذي أُزيل.",
+    "description": "The generated-index page description for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "المرجع",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "المرجع",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.description": {
+    "message": "صيغة ملف التصدير والعناوين الثابتة وكل خدمة خارجية.",
+    "description": "The generated-index page description for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "للمطورين",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.About": {
+    "message": "حول",
+    "description": "The label for category 'About' in sidebar 'docsSidebar'"
+  }
+}

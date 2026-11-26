@@ -1,0 +1,28 @@
+{
+  "card": "Linuxの整理を始める前に、対象のパスを確認できます。",
+  "title": "対象を確認できるlinux-cleanup",
+  "intro": "linux-cleanupは、対象になり得るパスを先に示します。ドライランで一覧を読んでから作業を選べます。",
+  "sections": [
+    {
+      "heading": "linux-cleanupは何をするものですか？",
+      "body": "開発環境を考慮した一覧に沿って、Linuxのディスクとキャッシュの空き容量を増やします。"
+    },
+    {
+      "heading": "変更前に何を確認できますか？",
+      "body": "変更が始まる前に、対象となるパスが示されます。"
+    },
+    {
+      "heading": "削除はどう管理されますか？",
+      "body": "実際のドライランと単一の削除処理によって、削除を1か所で管理します。"
+    },
+    {
+      "heading": "linux-cleanupとLifeWellはどう違いますか？",
+      "body": "LifeWellはあとで読み返せる個人の記録を残します。linux-cleanupが扱うのは別の整理で、削除してよいディスク上のパスを選びます。"
+    }
+  ],
+  "facts": [
+    "linux-cleanup-1",
+    "linux-cleanup-2",
+    "linux-cleanup-3"
+  ]
+}

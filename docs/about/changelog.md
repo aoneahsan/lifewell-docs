@@ -85,8 +85,8 @@ changes as an over-the-air update.
 - **Prices are in US dollars.** Pro is $9.99 a month or $99.90 a year. Family is $8.99 per seat a month or
   $89.90 per seat a year, from three seats with no upper limit; you choose the number and hand seats out
   afterwards, only to somebody already connected to you as family. A seat shares nothing, either side can end
-  it, and if the plan ends every seat ends. On Android you buy through Google Play, and the app never links
-  elsewhere to pay. See [Plans](../plans.md#family-seats).
+  it, and if the plan ends every seat ends. The Android purchase path uses Google Play Billing, but it is
+  switched off pending device and store proof; the app does not link to another checkout. See [Plans](../plans.md#family-seats).
 - **Choose a number from your contacts.** A *Contacts* button beside every phone number field lets you pick
   one number. Android asks for reading and changing contacts as one permission; LifeWell reads only the
   contact you pick and never changes your address book. See
@@ -145,15 +145,15 @@ drifted. They are now three views over one store. A glass logged anywhere appear
   answer decides whether six life-stage screens are listed.
 - **[Export in three formats](../your-data/export.md)**, built on your device, plus scheduled exports on a paid
   plan.
-- **[One appearance panel](../concepts/appearance.md)** with nine settings, applied before the first paint.
+- **[One appearance panel](../concepts/appearance.md)** with eight settings, applied before the first paint.
 - **[An admin panel](../admin.md)** of ten screens over an audit log nobody can write to directly.
 - **[A referral programme](../features/referrals.md)** — the server half.
 
 ## Removed
 
 - **iOS.** Removed 2026-07-16, because there is no Apple Developer account. See [iOS](../platforms/ios.md).
-- **The browser extension.** Out of scope for this release, and not published. See
-  [Browser extension](../platforms/browser-extension.md).
+- **The browser extension from the 3.0.0 release.** It was outside that release. A separate Chrome and Firefox
+  companion has since been built, but neither store has published it. See [Browser extension](../platforms/browser-extension.md).
 - **Fabricated popularity figures on `/health-tools`.** The 2.x page showed search-volume numbers beside each
   tool that had no source and were used to order the list. They were invented, and they are gone.
 - **Calculators that duplicate ZTools.** Ten redirect out; four stayed because ZTools does not have them. See
@@ -161,14 +161,14 @@ drifted. They are now three views over one store. A glass logged anywhere appear
 
 ## Corrections to this documentation
 
-Three statements in the 2.x documentation were wrong about the product, and are corrected here rather than
+Statements in the 2.x documentation were wrong about the product, and are corrected here rather than
 quietly edited:
 
 | It said | The truth |
 |---|---|
-| `/feed` is a social feed | It is the **public readable blog feed**. There is no social feed in LifeWell. [Addresses](../reference/addresses.md) |
+| `/feed` is a social feed | It is the **public readable blog feed**. Community activity has its own area; `/feed` is for the blog. [Addresses](../reference/addresses.md) |
 | Firebase Analytics is banned and replaced by Sentry and Amplitude | Google Analytics 4 **is** the Firebase analytics property, and it runs alongside Amplitude, Clarity and Sentry. [Third-party services](../reference/integrations.md) |
-| Over-the-air updates are not yet integrated | Still true, and now stated with what actually exists: environment variables and a flag, no package, no service. [Android](../platforms/android.md#over-the-air-updates) |
+| Over-the-air updates were only planned | Signed Native Update bundles are integrated for compatible Android installs. [Android](../platforms/android.md#over-the-air-updates) |
 
 The rest of the 2.x documentation described the old document data model, an iPhone app, a browser extension
 and a component library the rebuild does not use. It was deleted rather than patched.
@@ -179,9 +179,7 @@ Stated here in one place so nothing on this site has to be read hopefully:
 
 | | |
 |---|---|
-| Push notifications | Subscription wired, sending service not written |
+| Push notifications | Receive-only subscription for team broadcasts; no automatic account-event push |
 | Global search | The query exists; the page is a declared placeholder |
 | Referral member screen | The server half is live; there is no screen showing your code |
-| Delete your account, in-app | The button is wired; the server function is not deployed. Use [`/delete-account`](https://lifewell.aoneahsan.com/delete-account) |
 | Google Play Billing | Built and tested against recorded responses; not configured and switched off |
-| Over-the-air updates | Planned |

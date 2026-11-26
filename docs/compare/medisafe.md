@@ -1,19 +1,19 @@
 ---
 sidebar_position: 24
 title: Moving from Medisafe to LifeWell
-description: "How to move from Medisafe to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Medisafe to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
 # Moving from Medisafe to LifeWell
 
-Medisafe was built around taking medication on time, with notifications for a caregiver. Its website now speaks mainly to pharmaceutical companies, and no price was on the pages we could read.
+Medisafe was built around taking medication on time, with notifications for a caregiver. Its app download page describes a free app; it does not state a paid consumer plan price.
 
 LifeWell keeps medications as one page in a wider record of the people, memories and appointments of your life, and its prices are published.
 
-Last checked 2026-11-07. Medisafe and LifeWell on one page: [LifeWell and Medisafe](https://lifewell.aoneahsan.com/compare/medisafe).
+Last checked 2026-11-26. Medisafe and LifeWell on one page: [LifeWell and Medisafe](https://lifewell.aoneahsan.com/compare/medisafe).
 
 ## Moving a medicine list
 
@@ -29,7 +29,15 @@ Last checked 2026-11-07. Medisafe and LifeWell on one page: [LifeWell and Medisa
 | Feature | LifeWell | Medisafe |
 |---|---|---|
 | Medications, conditions and results kept | Yes | Partly (<a href="https://www.medisafe.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
+| Android app | Yes | Yes (<a href="https://medisafe.com/download-the-app" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
+| A free plan that stays free | Yes | Yes (<a href="https://medisafe.com/download-the-app" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-Only medication management was stated on Medisafe's site. Its app and patient pages returned no readable content on 2026-11-07, so every other row is left out.
+The checked pages did not state a family tree, memories, share links or a household plan. The app download page calls the app free, but gives no paid consumer plan price.
+
+## What Medisafe costs
+
+| Plan | Price | Source |
+|---|---|---|
+| Medisafe app | Free; no paid consumer plan price stated | <a href="https://medisafe.com/download-the-app" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 Medisafe's own site: <a href="https://www.medisafe.com/" target="_blank" rel="noopener noreferrer nofollow">Medisafe website</a>.

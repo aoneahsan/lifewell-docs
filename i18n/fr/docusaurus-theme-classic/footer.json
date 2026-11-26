@@ -1,0 +1,102 @@
+{
+  "link.title.Get LifeWell": {
+    "message": "Obtenir LifeWell",
+    "description": "The title of the footer links column with title=Get LifeWell in the footer"
+  },
+  "link.title.Documentation": {
+    "message": "Guides",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Project": {
+    "message": "Projet",
+    "description": "The title of the footer links column with title=Project in the footer"
+  },
+  "link.title.The LifeWell team": {
+    "message": "L’équipe LifeWell",
+    "description": "The title of the footer links column with title=The LifeWell team in the footer"
+  },
+  "link.title.Find everything": {
+    "message": "Tout retrouver",
+    "description": "The title of the footer links column with title=Find everything in the footer"
+  },
+  "link.item.label.LifeWell web app": {
+    "message": "Application Web LifeWell",
+    "description": "The label of footer link with label=LifeWell web app linking to https://lifewell.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell"
+  },
+  "link.item.label.All apps": {
+    "message": "Tous les accès",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Get started": {
+    "message": "Commencer",
+    "description": "The label of footer link with label=Get started linking to /intro"
+  },
+  "link.item.label.The seven areas": {
+    "message": "Les sept espaces",
+    "description": "The label of footer link with label=The seven areas linking to /domains/overview"
+  },
+  "link.item.label.People": {
+    "message": "Les proches",
+    "description": "The label of footer link with label=People linking to /domains/people"
+  },
+  "link.item.label.Export your record": {
+    "message": "Exporter votre dossier",
+    "description": "The label of footer link with label=Export your record linking to /your-data/export"
+  },
+  "link.item.label.Privacy and security": {
+    "message": "Confidentialité et sécurité",
+    "description": "The label of footer link with label=Privacy and security linking to /concepts/privacy-and-security"
+  },
+  "link.item.label.About this site": {
+    "message": "À propos de ce site",
+    "description": "The label of footer link with label=About this site linking to /about/the-developer"
+  },
+  "link.item.label.Products from Zaions": {
+    "message": "Produits de Zaions",
+    "description": "The label of footer link with label=Products from Zaions linking to /ecosystem"
+  },
+  "link.item.label.About the developer": {
+    "message": "À propos du développeur",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.Changelog": {
+    "message": "Historique des versions",
+    "description": "The label of footer link with label=Changelog linking to /about/changelog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/aoneahsan/lifewell-docs"
+  },
+  "link.item.label.Who builds LifeWell": {
+    "message": "Qui crée LifeWell",
+    "description": "The label of footer link with label=Who builds LifeWell linking to /about/the-developer"
+  },
+  "link.item.label.Contact the team": {
+    "message": "Contacter l’équipe",
+    "description": "The label of footer link with label=Contact the team linking to https://lifewell.aoneahsan.com/contact"
+  },
+  "link.item.label.Tours and the walkthrough": {
+    "message": "Visites guidées et découverte",
+    "description": "The label of footer link with label=Tours and the walkthrough linking to /getting-started/tours-and-walkthrough"
+  },
+  "link.item.label.Sitemap": {
+    "message": "Plan du site",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.Feed": {
+    "message": "Flux",
+    "description": "The label of footer link with label=Feed linking to /feed"
+  },
+  "copyright": {
+    "message": "© 2026 LifeWell · LifeWell — développé avec amour par l’<a href=\"https://zaions.com\" target=\"_blank\" rel=\"noopener\">équipe Zaions</a>. Documentation sous licence CC BY 4.0.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Logo LifeWell",
+    "description": "The alt text of footer logo"
+  }
+}

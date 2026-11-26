@@ -72,8 +72,9 @@ is not a smaller export, it is a broken one.
 
 ## What is deliberately not modelled
 
-- **No scores, streaks, rankings or levels.** There is no column for them, which is a stronger statement than
-  a screen not showing them.
+- **No health scores, streaks, rankings or levels.** Everyday and health records are observations, not a
+  measure of your worth. The separate [referral programme](../features/referrals.md) can award points and
+  badges for confirmed invitations; those rewards do not score your health or daily activity.
 - **No email column.** The identity provider owns your email address; a second copy would have two writers
   and go stale on the first change.
 - **No location sharing scope.** The enum naming what a share may carry has three members — trackers,

@@ -1,0 +1,24 @@
+{
+  "card": "Un seul appel pour se connecter avec Google sur le Web et dans une application native.",
+  "title": "Capacitor Auth Manager, pour la connexion",
+  "intro": "Capacitor Auth Manager donne aux équipes qui créent des applications un même appel de connexion avec Google sur le Web, Android et iOS. Les fournisseurs pris en charge sont indiqués sans élargir la promesse.",
+  "sections": [
+    {
+      "heading": "Que prend en charge le package ?",
+      "body": "Il offre aux applications Web, Android et iOS un appel commun pour la connexion avec Google."
+    },
+    {
+      "heading": "Firebase est-il nécessaire ?",
+      "body": "Firebase n’est pas une dépendance obligatoire pour cet appel."
+    },
+    {
+      "heading": "Quels fournisseurs fonctionnent avec la version 3.x ?",
+      "body": "Google est le fournisseur activé dans la série 3.x. C’est le périmètre actuel."
+    },
+    {
+      "heading": "Quelle place occupe Capacitor Auth Manager à côté de LifeWell ?",
+      "body": "LifeWell est une application à laquelle vous vous connectez. Ce package s’adresse aux personnes qui construisent cette connexion dans leurs applications, avec Google comme fournisseur actuel."
+    }
+  ],
+  "facts": ["capacitor-auth-manager-1", "capacitor-auth-manager-2", "capacitor-auth-manager-3"]
+}

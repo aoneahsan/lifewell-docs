@@ -1,0 +1,28 @@
+{
+  "card": "ویب اور مقامی ایپس کے لیے Google لاگ اِن کی ایک مشترک درخواست۔",
+  "title": "لاگ اِن کے لیے Capacitor Auth Manager",
+  "intro": "Capacitor Auth Manager ایپ بنانے والوں کو ویب، Android اور iOS پر Google لاگ اِن کی ایک مشترک درخواست دیتا ہے۔ اس وقت معاونت صرف محدود فراہم کنندگان تک ہے، اور یہ بات واضح ہے۔",
+  "sections": [
+    {
+      "heading": "یہ پیکیج کیا سنبھالتا ہے؟",
+      "body": "یہ ویب، Android اور iOS ایپس کو Google لاگ اِن کی مشترک درخواست دیتا ہے۔"
+    },
+    {
+      "heading": "کیا Firebase ضروری ہے؟",
+      "body": "اس درخواست کے لیے Firebase لازمی انحصار نہیں ہے۔"
+    },
+    {
+      "heading": "ورژن 3.x میں کون سے فراہم کنندگان کام کرتے ہیں؟",
+      "body": "3.x میں Google فعال فراہم کنندہ ہے۔ فی الحال دائرہ یہی ہے۔"
+    },
+    {
+      "heading": "LifeWell کے ساتھ Capacitor Auth Manager کا کیا تعلق ہے؟",
+      "body": "LifeWell ایک ایسی ایپ ہے جس میں آپ لاگ اِن کرتے ہیں۔ یہ پیکیج لاگ اِن بنانے والوں کے لیے ہے، اور اس کا موجودہ فراہم کنندہ Google ہے۔"
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

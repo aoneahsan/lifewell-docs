@@ -1,0 +1,28 @@
+{
+  "card": "Keep short links and a bio page together.",
+  "title": "Trizlink for the links you share",
+  "intro": "Trizlink gives a shared link a shorter address and a place to see its clicks. A bio page can hold several destinations.",
+  "sections": [
+    {
+      "heading": "What does Trizlink make?",
+      "body": "It makes shorter links and link-in-bio pages, with click analytics alongside them."
+    },
+    {
+      "heading": "Can a link carry your own name?",
+      "body": "You can use a branded link with a custom slug."
+    },
+    {
+      "heading": "How can you see what was opened?",
+      "body": "Click information sits beside link-in-bio pages and custom domains."
+    },
+    {
+      "heading": "Where does Trizlink fit beside LifeWell?",
+      "body": "LifeWell keeps the people behind your links. Trizlink gives the links themselves short addresses, bio pages and click information."
+    }
+  ],
+  "facts": [
+    "trizlink-1",
+    "trizlink-2",
+    "trizlink-3"
+  ]
+}

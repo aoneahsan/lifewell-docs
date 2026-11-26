@@ -152,10 +152,6 @@
   text-decoration: none;
 }
 
-.card:hover .cardLink {
-  color: var(--ifm-color-primary);
-}
-
 .cardLink:focus-visible {
   outline: none;
 }
@@ -163,6 +159,10 @@
 .cardLink:focus-visible::after {
   outline: 3px solid var(--ifm-color-primary);
   outline-offset: 2px;
+}
+
+.card:hover .cardLink {
+  color: var(--ifm-color-primary);
 }
 
 .cardText {

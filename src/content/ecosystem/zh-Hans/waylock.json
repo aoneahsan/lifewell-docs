@@ -1,0 +1,28 @@
+{
+  "card": "把司机路线上的指定停靠点固定下来。",
+  "title": "Waylock：保留必须经过的停靠点",
+  "intro": "Waylock 让司机固定选定的停靠点，再调整其余站点。走错路，也不会抹去原定路线。",
+  "sections": [
+    {
+      "heading": "Waylock 适合谁？",
+      "body": "司机和快递员在 Android 上配合 Google Maps 使用。"
+    },
+    {
+      "heading": "停靠点如何排序？",
+      "body": "先固定重要的停靠点，再安排其余站点。"
+    },
+    {
+      "heading": "走错路之后会怎样？",
+      "body": "偏离路线时，您选定的路线仍显示在屏幕上；可以返回原路线，也可以接受新路线。"
+    },
+    {
+      "heading": "Waylock 与 LifeWell 有什么关系？",
+      "body": "LifeWell 将预约和收藏地点放在人际记录旁。Waylock 处理开车途中的路线，在变化中保留指定停靠点。"
+    }
+  ],
+  "facts": [
+    "waylock-1",
+    "waylock-2",
+    "waylock-3"
+  ]
+}

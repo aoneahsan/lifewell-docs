@@ -1,9 +1,9 @@
 ---
 sidebar_position: 17
 title: Moving from Cloze to LifeWell
-description: "How to move from Cloze to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Cloze to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Cloze reads your email and calendar and fills in the contact history for you, wi
 
 LifeWell works the other way round. You write the record yourself, it is free, and family memories and health records sit on the same people.
 
-Last checked 2026-11-07. Both products, with sources: [LifeWell and Cloze](https://lifewell.aoneahsan.com/compare/cloze).
+Last checked 2026-11-26. Both products, with sources: [LifeWell and Cloze](https://lifewell.aoneahsan.com/compare/cloze).
 
 ## Writing it yourself, after Cloze
 

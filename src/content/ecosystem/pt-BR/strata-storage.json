@@ -1,0 +1,28 @@
+{
+  "card": "Uma interface para os vários lugares onde um aplicativo guarda dados.",
+  "title": "Strata Storage por trás do aplicativo",
+  "intro": "O Strata Storage oferece a quem desenvolve aplicativos uma API para várias camadas de armazenamento, do navegador ao dispositivo nativo.",
+  "sections": [
+    {
+      "heading": "O que a API cobre?",
+      "body": "Uma interface reúne localStorage, IndexedDB, cookies e armazenamento nativo."
+    },
+    {
+      "heading": "Onde um aplicativo pode usá-la?",
+      "body": "Ela funciona na web, no iOS e no Android."
+    },
+    {
+      "heading": "Quantas dependências ela acrescenta?",
+      "body": "O pacote declara zero dependências."
+    },
+    {
+      "heading": "Como o Strata Storage se relaciona com o LifeWell?",
+      "body": "O LifeWell precisa decidir onde o registro pessoal fica e como é sincronizado. O Strata Storage trata do lado de quem desenvolve: uma interface para várias camadas de armazenamento."
+    }
+  ],
+  "facts": [
+    "strata-storage-1",
+    "strata-storage-2",
+    "strata-storage-3"
+  ]
+}

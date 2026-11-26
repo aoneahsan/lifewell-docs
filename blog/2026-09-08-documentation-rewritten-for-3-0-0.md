@@ -6,9 +6,9 @@ tags: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0 is a rebuild on a new backend, and the old documentation described a product that no longer exists. Every page was deleted and rewritten against the code.
 ---
 
-The previous version of this site described an iOS app that had been removed, a browser extension that is not
-shipping, a database the application no longer uses, and an analytics stack that was close to the opposite of
-the real one.
+The previous version of this site described an iOS app that had been removed, a browser extension that was
+not shipping at the time, a database the application no longer uses, and an analytics stack that was close to
+the opposite of the real one.
 
 None of that was written dishonestly. It was written, and then the product moved, and nobody went back.
 
@@ -26,13 +26,14 @@ property — one property, two ways of talking to it — and it runs alongside A
 rather than instead of them. A reader who wanted to know what the app reports had been told the opposite of
 the truth.
 
-**Over-the-air updates were described as "not yet integrated".** That one was correct, and it is still
-correct. It now says what actually exists behind it: two environment variables and a feature flag, no package,
-no service, nothing fetched and nothing applied.
+**Over-the-air updates were described as "not yet integrated".** That was accurate for the 3.0.0 rewrite.
+LifeWell now integrates signed Native Update bundles on compatible Android installs. The current
+[Android page](/platforms/android#over-the-air-updates) describes what the app verifies and what still needs
+a native build.
 
 Beyond those, sixty-five pages described a document data model that the rebuild replaced with Postgres,
 thirty-five mentioned an iOS platform that was removed on 2026-07-16, and a whole section explained how to
-install and use an extension that does not exist.
+install and use an extension that did not exist at the time.
 
 ## What was done about it
 
@@ -65,6 +66,7 @@ Everything under `/docs/**` now redirects. The documentation moved to the site r
 `/reference/export-format` — the address the application itself links to from its export screen — resolve.
 
 A page whose subject no longer exists redirects to the page that tells the truth about it. The extension
-how-tos land on [Browser extension](/platforms/browser-extension), which says it is planned and not built.
+how-tos land on [Browser extension](/platforms/browser-extension), which describes the built Chrome and
+Firefox companion and its publication status.
 The iOS pages land on [iOS](/platforms/ios), which gives the date it was removed and the condition for it
 coming back.

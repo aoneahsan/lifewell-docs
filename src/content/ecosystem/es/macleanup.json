@@ -1,0 +1,28 @@
+{
+  "card": "Previsualiza la limpieza de macOS antes de elegirla.",
+  "title": "macleanup antes de borrar",
+  "intro": "macleanup lleva la misma cautela a una Mac: revisa la limpieza propuesta antes de decidir qué eliminar.",
+  "sections": [
+    {
+      "heading": "¿Qué mantiene macleanup?",
+      "body": "Se encarga de la limpieza y el mantenimiento de macOS con un comportamiento prudente por defecto."
+    },
+    {
+      "heading": "¿Cómo puedes previsualizar la limpieza?",
+      "body": "El catálogo por secciones muestra primero el trabajo que se propone hacer."
+    },
+    {
+      "heading": "¿Qué carpetas quedan fuera de su alcance?",
+      "body": "Rechaza las carpetas personales sin importar qué limpieza elijas."
+    },
+    {
+      "heading": "¿Cómo se relaciona macleanup con LifeWell?",
+      "body": "LifeWell guarda un registro personal. macleanup examina los archivos que una Mac puede limpiar y se niega a incluir carpetas personales."
+    }
+  ],
+  "facts": [
+    "macleanup-1",
+    "macleanup-2",
+    "macleanup-3"
+  ]
+}

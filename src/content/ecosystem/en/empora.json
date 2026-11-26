@@ -1,0 +1,28 @@
+{
+  "card": "Choose the WooCommerce modules your store needs.",
+  "title": "Empora for a WooCommerce store",
+  "intro": "Empora puts store tools in one WordPress plugin. A merchant chooses the modules to turn on, instead of carrying every option into the shop.",
+  "sections": [
+    {
+      "heading": "What does Empora bring together?",
+      "body": "Store functions sit together in one WooCommerce WordPress plugin."
+    },
+    {
+      "heading": "Can a merchant choose modules?",
+      "body": "A merchant switches on the modules the shop needs. The rest can stay off."
+    },
+    {
+      "heading": "What does its dashboard handle?",
+      "body": "The web dashboard covers licences and optional connections to stores."
+    },
+    {
+      "heading": "Where does Empora fit beside LifeWell?",
+      "body": "LifeWell is a personal place for people and moments. Empora has a different desk: a merchant choosing tools for a WooCommerce store."
+    }
+  ],
+  "facts": [
+    "empora-1",
+    "empora-2",
+    "empora-3"
+  ]
+}

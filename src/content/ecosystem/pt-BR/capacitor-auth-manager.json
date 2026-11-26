@@ -1,0 +1,28 @@
+{
+  "card": "Uma chamada de login com Google para web e aplicativos nativos.",
+  "title": "Capacitor Auth Manager para entrar na conta",
+  "intro": "O Capacitor Auth Manager oferece a quem desenvolve aplicativos uma chamada de login com Google para web, Android e iOS. O conjunto de provedores disponíveis hoje é limitado e está descrito com clareza.",
+  "sections": [
+    {
+      "heading": "O que o pacote oferece?",
+      "body": "Uma chamada compartilhada de login com Google para aplicativos web, Android e iOS."
+    },
+    {
+      "heading": "Ele exige Firebase?",
+      "body": "O Firebase não é uma dependência obrigatória para essa chamada."
+    },
+    {
+      "heading": "Quais provedores funcionam na série 3.x?",
+      "body": "O Google é o provedor habilitado na série 3.x. Esse é o alcance atual."
+    },
+    {
+      "heading": "Como o Capacitor Auth Manager se relaciona com o LifeWell?",
+      "body": "Você entra em uma conta para usar o LifeWell. Este pacote serve a quem desenvolve esse tipo de login, com Google como provedor atual."
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

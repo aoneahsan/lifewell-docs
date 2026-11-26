@@ -1,9 +1,9 @@
 ---
 sidebar_position: 29
 title: Moving from MyChart to LifeWell
-description: "How to move from MyChart to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from MyChart to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ MyChart is the patient portal your hospital or clinic offers if it runs Epic. Re
 
 LifeWell is a record you keep yourself, across every clinic, with the people and memories of your life beside it.
 
-Last checked 2026-11-07. See both on [LifeWell and MyChart](https://lifewell.aoneahsan.com/compare/mychart).
+Last checked 2026-11-26. See both on [LifeWell and MyChart](https://lifewell.aoneahsan.com/compare/mychart).
 
 ## Keeping your own copy beside MyChart
 

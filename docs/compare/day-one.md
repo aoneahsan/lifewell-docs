@@ -1,9 +1,9 @@
 ---
 sidebar_position: 7
 title: Moving from Day One to LifeWell
-description: "How to move from Day One to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Day One to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Day One is a daily journal — encrypted end to end, with prompts, audio, locati
 
 LifeWell files a memory under the people it belongs to, and its free plan does not stop at one photo.
 
-Last checked 2026-11-07. See both on one page: [LifeWell and Day One](https://lifewell.aoneahsan.com/compare/day-one).
+Last checked 2026-11-26. See both on one page: [LifeWell and Day One](https://lifewell.aoneahsan.com/compare/day-one).
 
 ## Turning journal entries into memories
 

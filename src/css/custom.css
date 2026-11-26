@@ -9,6 +9,20 @@
  *   Danger    = Red 500       #EF4444
  */
 
+@font-face { font-family: 'LifeWell Noto Sans'; src: url('/fonts/noto-sans.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LifeWell Noto Sans SC'; src: url('/fonts/noto-sans-sc.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LifeWell Noto Sans JP'; src: url('/fonts/noto-sans-jp.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LifeWell Noto Sans Devanagari'; src: url('/fonts/noto-sans-devanagari.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LifeWell Noto Sans Arabic'; src: url('/fonts/noto-sans-arabic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LifeWell Noto Nastaliq Urdu'; src: url('/fonts/noto-nastaliq-urdu.ttf') format('truetype'); font-display: swap; }
+
+html[lang='zh-Hans'] { --ifm-font-family-base: 'LifeWell Noto Sans SC', sans-serif; }
+html[lang='hi'] { --ifm-font-family-base: 'LifeWell Noto Sans Devanagari', sans-serif; }
+html[lang='ar'] { --ifm-font-family-base: 'LifeWell Noto Sans Arabic', sans-serif; }
+html[lang='ur'] { --ifm-font-family-base: 'LifeWell Noto Nastaliq Urdu', serif; }
+html[lang='ja'] { --ifm-font-family-base: 'LifeWell Noto Sans JP', sans-serif; }
+html[lang='ru'] { --ifm-font-family-base: 'LifeWell Noto Sans', sans-serif; }
+
 :root {
   /* Primary — Emerald (LifeWell brand) */
   --ifm-color-primary: #10b981;
@@ -110,7 +124,7 @@
 
 /* Honest framing block — used on "what LifeWell does NOT do" callouts */
 .honest-framing {
-  border-left: 4px solid var(--lifewell-cyan);
+  border-inline-start: 4px solid var(--lifewell-cyan);
   background: var(--ifm-background-surface-color);
   padding: 1rem 1.25rem;
   border-radius: 0.4rem;
@@ -120,3 +134,74 @@
 [data-theme='dark'] .honest-framing {
   background: rgba(34, 211, 238, 0.05);
 }
+
+/* The other places — LifeWell's editorial rhythm on a contrasting band. */
+.ecosystem-showcase {
+  background: #103c35;
+  color: #eaf9f2;
+  padding-block: 4rem 3rem;
+}
+[data-theme='dark'] .ecosystem-showcase {
+  background: #eaf9f2;
+  color: #13352f;
+}
+.eco-showcase-heading, .eco-card__head, .eco-actions, .eco-carousel-controls,
+.eco-detail-head, .eco-breadcrumb, .eco-view-switch { display: flex; align-items: center; gap: 1rem; }
+.eco-showcase-heading { justify-content: space-between; flex-wrap: wrap; margin-block-end: 1.5rem; }
+.eco-showcase-heading h2 { color: inherit; margin: 0; }
+.eco-kicker { display: block; font-size: .76rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .72; }
+.eco-track { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 0 0 .75rem; margin: 0; list-style: none; }
+.eco-track::-webkit-scrollbar { display: none; }
+[dir='rtl'] .eco-track { direction: rtl; }
+[dir='rtl'] .eco-control[data-eco-arrow] { transform: scaleX(-1); }
+.eco-slide { flex: 0 0 min(88vw, 21rem); scroll-snap-align: start; min-width: 0; }
+.eco-carousel-controls { justify-content: center; margin-block-start: 1rem; }
+.eco-control, .eco-view-button { border: 1px solid currentColor; border-radius: .4rem; background: transparent; color: inherit; font: inherit; min-width: 44px; min-height: 44px; padding: .45rem .8rem; }
+.eco-control[data-hovered], .eco-view-button[data-hovered] { background: rgba(16, 185, 129, .18); }
+.eco-control[data-pressed], .eco-view-button[data-selected] { background: #10b981; border-color: #10b981; color: #08251d; }
+.eco-control[data-focus-visible], .eco-view-button[data-focus-visible] { outline: 3px solid #06b6d4; outline-offset: 3px; }
+.eco-card { border: 1px solid var(--ifm-color-emphasis-300); border-radius: .7rem; background: var(--ifm-background-surface-color); color: var(--ifm-font-color-base); padding: 1.4rem; display: flex; flex-direction: column; min-width: 0; }
+.ecosystem-showcase .eco-card { height: 100%; background: #f8fcfa; color: #16372f; border: 0; }
+.eco-card__head { align-items: flex-start; }
+.eco-card__head img, .eco-detail-head img, .eco-table img { object-fit: contain; flex-shrink: 0; }
+.eco-card h3 { margin: .15rem 0 0; font-size: 1.2rem; }
+.eco-card p { flex: 1; margin-block: 1.2rem; }
+.eco-actions { flex-wrap: wrap; gap: .65rem; }
+.eco-action { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .6rem 1rem; border-radius: .4rem; font-weight: 700; text-decoration: none; }
+.eco-action:focus-visible, .eco-card a:focus-visible { outline: 3px solid #06b6d4; outline-offset: 3px; }
+.eco-action--primary { color: #083129; background: #49d6a1; }
+.eco-action--primary:hover { color: #04261f; background: #7fe6bd; text-decoration: none; }
+.eco-action--quiet { color: inherit; border: 1px solid currentColor; }
+.eco-action--quiet:hover { color: inherit; text-decoration: none; background: rgba(16, 185, 129, .12); }
+.eco-page { padding-block: 4rem 5rem; }
+.eco-page h1 { max-width: 24ch; margin-block: .35rem 1rem; }
+.eco-lede { font-size: clamp(1.1rem, 2vw, 1.4rem); max-width: 60ch; line-height: 1.6; }
+.eco-view-switch { margin-block: 2.5rem 1.5rem; flex-wrap: wrap; }
+.eco-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 1rem; }
+.eco-list { display: grid; gap: .8rem; }
+.eco-list .eco-card { flex-direction: row; align-items: center; gap: 1rem; }
+.eco-list .eco-card__head { min-width: 17rem; }
+.eco-table-scroll { overflow-x: auto; }
+.eco-table { width: 100%; border-collapse: collapse; }
+.eco-table caption { text-align: start; font-weight: 700; padding-block-end: .5rem; }
+.eco-table th, .eco-table td { text-align: start; border-bottom: 1px solid var(--ifm-color-emphasis-300); padding: .9rem; vertical-align: middle; }
+.eco-table th[scope='row'] { white-space: nowrap; }
+.eco-table img { vertical-align: middle; margin-inline-end: .7rem; }
+.eco-next { margin-block-start: 2rem; }
+.eco-breadcrumb { margin-block-end: 2rem; flex-wrap: wrap; }
+.eco-detail-head { align-items: flex-start; gap: 1.4rem; margin-block: 1rem 3rem; }
+.eco-detail-head h1 { margin-block-start: 0; }
+.eco-detail-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(15rem, 1fr); gap: 3rem; align-items: start; }
+.eco-detail-section { margin-block-end: 2.4rem; }
+.eco-detail-section h2 { font-size: 1.45rem; }
+.eco-detail-section p { max-width: 68ch; }
+.eco-list .eco-card p { margin: 0; }
+.eco-factbox { border-inline-start: 3px solid #10b981; background: var(--ifm-background-surface-color); padding: 1.5rem; }
+.eco-factbox h2 { font-size: 1.15rem; }
+.eco-timeline { list-style: none; padding: 0; border-inline-start: 2px solid #10b981; }
+.eco-timeline li { padding: .2rem 0 1.2rem 1.2rem; }
+.eco-timeline time { font-weight: 700; }
+@media (min-width: 700px) { .eco-slide { flex-basis: calc((100% - 2rem) / 3); } }
+@media (max-width: 800px) { .eco-list .eco-card { flex-direction: column; align-items: stretch; } .eco-list .eco-card__head { min-width: 0; } .eco-detail-grid { grid-template-columns: 1fr; gap: 1rem; } }
+@media (max-width: 480px) { .eco-page { padding-block: 2.5rem 3rem; } .eco-detail-head { flex-direction: column; } .eco-actions .eco-action { width: 100%; } }
+@media (prefers-reduced-motion: reduce) { .eco-track { scroll-behavior: auto; } }

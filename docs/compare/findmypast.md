@@ -1,9 +1,9 @@
 ---
 sidebar_position: 5
 title: Moving from Findmypast to LifeWell
-description: "How to move from Findmypast to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Findmypast to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Findmypast is a genealogy subscription centred on Britain and Ireland: censuses,
 
 LifeWell searches no archive. It records the family you have now, on a free plan, and its tree shows only the people you put in.
 
-Last checked 2026-11-07. Both products on one page: [LifeWell and Findmypast](https://lifewell.aoneahsan.com/compare/findmypast).
+Last checked 2026-11-26. Both products on one page: [LifeWell and Findmypast](https://lifewell.aoneahsan.com/compare/findmypast).
 
 ## Starting from a Findmypast tree
 
@@ -41,7 +41,7 @@ LifeWell cannot print the tree it draws.
 |---|---|---|
 | Discover | £9.99 a month | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Explore | £10.83 a month (from; monthly equivalent when billed half-yearly) | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Everything | £14.16 a month (from; monthly equivalent when billed annually; shown with a limited-time £9.91) | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Everything | From £14.16 a month, the monthly equivalent when billed annually | <a href="https://www.findmypast.co.uk/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 What LifeWell costs, free plan first, is on the [plans page](https://lifewell.aoneahsan.com/plans).
 

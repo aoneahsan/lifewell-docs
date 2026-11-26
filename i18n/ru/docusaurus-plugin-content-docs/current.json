@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "Следующая версия",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Moving to LifeWell": {
+    "message": "Переход на LifeWell",
+    "description": "The label for category 'Moving to LifeWell' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started": {
+    "message": "Начало работы",
+    "description": "The label for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.title": {
+    "message": "Начало работы с LifeWell",
+    "description": "The generated-index page title for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.description": {
+    "message": "Откройте приложение, войдите и узнайте, что нужно на первых пяти экранах.",
+    "description": "The generated-index page description for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.The seven areas": {
+    "message": "Семь разделов",
+    "description": "The label for category 'The seven areas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features": {
+    "message": "Функции",
+    "description": "The label for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.title": {
+    "message": "Функции",
+    "description": "The generated-index page title for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.description": {
+    "message": "Возможности, которые связывают несколько разделов.",
+    "description": "The generated-index page description for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "Лицензирование и версия под вашей маркой",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data": {
+    "message": "Ваши данные",
+    "description": "The label for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.title": {
+    "message": "Ваши данные",
+    "description": "The generated-index page title for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.description": {
+    "message": "Как выгрузить или удалить данные и где они хранятся.",
+    "description": "The generated-index page description for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works": {
+    "message": "Как это работает",
+    "description": "The label for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.title": {
+    "message": "Как это работает",
+    "description": "The generated-index page title for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.description": {
+    "message": "Архитектура, модель данных, конфиденциальность, работа без сети и оформление.",
+    "description": "The generated-index page description for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "Платформы",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.title": {
+    "message": "Платформы",
+    "description": "The generated-index page title for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.description": {
+    "message": "Веб, Android, готовое, но ещё не опубликованное расширение браузера и удалённое приложение iOS.",
+    "description": "The generated-index page description for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "Справочник",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "Справочник",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.description": {
+    "message": "Формат экспортируемых файлов, прежние адреса и все внешние сервисы.",
+    "description": "The generated-index page description for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "Разработчикам",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.About": {
+    "message": "О проекте",
+    "description": "The label for category 'About' in sidebar 'docsSidebar'"
+  }
+}

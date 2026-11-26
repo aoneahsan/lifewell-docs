@@ -1,0 +1,28 @@
+{
+  "card": "Keep the changing weeks of pregnancy together.",
+  "title": "PregnancyPal week by week",
+  "intro": "PregnancyPal keeps week-by-week information and personal entries together during pregnancy. It gives a place for the details you want to remember.",
+  "sections": [
+    {
+      "heading": "What is PregnancyPal for?",
+      "body": "It is a companion for the changing weeks of pregnancy."
+    },
+    {
+      "heading": "What can you follow each week?",
+      "body": "Week-by-week information includes nutrition and exercise."
+    },
+    {
+      "heading": "What can you write down?",
+      "body": "You can keep vitals, symptoms, mood and appointments in the same record."
+    },
+    {
+      "heading": "Where does PregnancyPal fit beside LifeWell?",
+      "body": "LifeWell keeps life stages among the seven areas around you. PregnancyPal concentrates on the weeks of pregnancy and the details you choose to record there."
+    }
+  ],
+  "facts": [
+    "pregnancypal-1",
+    "pregnancypal-2",
+    "pregnancypal-3"
+  ]
+}

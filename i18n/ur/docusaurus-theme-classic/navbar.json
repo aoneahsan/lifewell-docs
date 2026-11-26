@@ -1,0 +1,12 @@
+{
+  "title": {"message": "LifeWell دستاویزات"},
+  "logo.alt": {"message": "LifeWell کا لوگو"},
+  "item.label.Documentation": {"message": "دستاویزات"},
+  "item.label.Blog": {"message": "بلاگ"},
+  "item.label.About": {"message": "تعارف"},
+  "item.label.Get LifeWell": {"message": "LifeWell حاصل کریں"},
+  "item.label.GitHub": {"message": "GitHub"},
+  "item.label.LifeWell web app": {"message": "LifeWell ویب ایپ"},
+  "item.label.Google Play": {"message": "Google Play"},
+  "item.label.All apps": {"message": "تمام ایپس"}
+}

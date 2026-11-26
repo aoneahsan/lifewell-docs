@@ -1,0 +1,28 @@
+{
+  "card": "Confira a limpeza do macOS antes de decidir.",
+  "title": "macleanup antes de excluir",
+  "intro": "O macleanup adota a mesma cautela no Mac: examine a limpeza proposta antes de escolher o que remover.",
+  "sections": [
+    {
+      "heading": "Do que o macleanup cuida?",
+      "body": "Ele faz limpeza e manutenção do macOS com uma configuração inicial cautelosa."
+    },
+    {
+      "heading": "Como visualizar a limpeza antes de executar?",
+      "body": "O catálogo por seção mostra primeiro o trabalho proposto."
+    },
+    {
+      "heading": "Quais pastas ficam protegidas?",
+      "body": "Pastas pessoais são recusadas por completo, independentemente da opção escolhida."
+    },
+    {
+      "heading": "Como o macleanup se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda um registro pessoal. O macleanup examina arquivos que o Mac pode limpar e impede que pastas pessoais sejam incluídas."
+    }
+  ],
+  "facts": [
+    "macleanup-1",
+    "macleanup-2",
+    "macleanup-3"
+  ]
+}

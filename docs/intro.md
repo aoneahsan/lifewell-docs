@@ -44,26 +44,28 @@ Sharing has no switch, because what you have let other people read has to stay v
 | Web | Any current browser, at [lifewell.aoneahsan.com](https://lifewell.aoneahsan.com) |
 | Android | A Capacitor build of the same app — see [Android](./platforms/android.md) |
 | iOS | [Removed on 2026-07-16](./platforms/ios.md). There is no Apple Developer account behind it |
-| Browser extension | [Planned](./platforms/browser-extension.md), not built |
+| Browser extension | [Built for Chrome and Firefox](./platforms/browser-extension.md), not yet in either store |
 
 ## What is true of your record
 
-- **It is written on your device first** and syncs when there is a connection. A tunnel is not a reason to
-  lose a day.
+- **A small set of quick entries can wait on your device.** If you enable offline logging, supported readings,
+  cycle-day changes and symptom episodes are sent after the connection returns. Other pages pause when offline.
 - **Photos and files go to your own Google Drive**, under a scope that only reaches the files LifeWell
   created. See [Where your record lives](./your-data/where-it-lives.md).
-- **You can take all of it out** — JSON, CSV or PDF, from inside the app. The file format is documented
+- **You can export a selected date range** — JSON or CSV record data, or a PDF summary, from inside the app.
+  Each table is capped at 5,000 rows per export. The format is documented
   [field by field](./reference/export-format.md).
-- **You can delete all of it, or one area of it**, and the app says which rows went.
+- **You can delete the live account, or one area of it**, and the app says which rows went. Encrypted manual
+  backups may retain an earlier copy until rotation, as the privacy page explains.
 
 ## Version
 
-This documentation describes **LifeWell 3.0.0**, a full rebuild of the shipped 2.x app on a new backend.
+This documentation covers the **LifeWell 3.x** app, rebuilt from the shipped 2.x version on a new backend.
 
-:::warning[3.0.0 resets your data]
-The backend was replaced with no migration path. When 3.0.0 reaches your device, the record held by 2.x is
-not carried across. This was a deliberate decision taken while the app had no real users, and it is stated
-here because a deliberate reset and a catastrophic bug look identical from the inside.
+:::warning[The 2.x to 3.0.0 upgrade reset records]
+The backend was replaced with no migration path. A direct upgrade from 2.x to 3.0.0 did not carry the older
+record across. This decision was taken while the app had no real users, and it remains documented here because
+a deliberate reset and a serious failure can look the same to someone opening the app.
 :::
 
 ## Where to go next

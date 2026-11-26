@@ -1,0 +1,24 @@
+announcement:
+  label: Объявление
+  permalink: /announcement
+  description: Новости проекта и запуски.
+
+lifewell:
+  label: LifeWell
+  permalink: /lifewell
+  description: Записи о приложении LifeWell — функциях, выпусках и решениях в дизайне.
+
+docs:
+  label: Документация
+  permalink: /docs-tag
+  description: "Записи о документации: что опубликовано и что планируется дальше."
+
+release:
+  label: Выпуск
+  permalink: /release
+  description: Новые версии LifeWell для веба, Android и расширения браузера.
+
+privacy:
+  label: Конфиденциальность
+  permalink: /privacy
+  description: Обработка данных, меры защиты и то, как LifeWell использует и не использует ваши сведения.

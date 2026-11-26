@@ -1,0 +1,28 @@
+{
+  "card": "Retoma una lección de Tajweed o Tafseer a tu ritmo.",
+  "title": "Tilawah para aprender el Corán",
+  "intro": "Tilawah reúne lecciones grabadas de Tajweed y Tafseer en un curso que avanzas a tu ritmo. Puedes volver al punto donde te quedaste.",
+  "sections": [
+    {
+      "heading": "¿Qué puedes aprender en Tilawah?",
+      "body": "Las lecciones grabadas abarcan Tajweed y Tafseer."
+    },
+    {
+      "heading": "¿Cómo funciona el aprendizaje a tu ritmo?",
+      "body": "Avanzas por las lecciones cuando quieras y puedes ver hasta dónde llegaste."
+    },
+    {
+      "heading": "¿Puedes reservar una recitación?",
+      "body": "Puedes reservar una recitación individual en vivo según tu zona horaria."
+    },
+    {
+      "heading": "¿Cómo se relaciona Tilawah con LifeWell?",
+      "body": "LifeWell puede guardar tus notas y citas. Tilawah reúne las lecciones grabadas del Corán, tu progreso y las recitaciones reservadas en un espacio de aprendizaje."
+    }
+  ],
+  "facts": [
+    "tilawah-1",
+    "tilawah-2",
+    "tilawah-3"
+  ]
+}

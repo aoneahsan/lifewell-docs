@@ -1,0 +1,28 @@
+{
+  "card": "Look for food by nutrient, feeling or time of day.",
+  "title": "Eat This when food is the question",
+  "intro": "Eat This starts with the question you have about food — a nutrient, a feeling or the time of day — then lets you compare one serving.",
+  "sections": [
+    {
+      "heading": "How can you look for food?",
+      "body": "Start with a nutrient, a feeling or a time of day. The food search follows that question."
+    },
+    {
+      "heading": "What does a serving show?",
+      "body": "The result shows what one serving contributes, so the amount has context."
+    },
+    {
+      "heading": "When should the question go elsewhere?",
+      "body": "It points out a cheaper pick and says when a question belongs with a doctor."
+    },
+    {
+      "heading": "Where does Eat This fit beside LifeWell?",
+      "body": "LifeWell keeps food entries beside the rest of your record. Eat This starts with a question about what to eat and what one serving gives."
+    }
+  ],
+  "facts": [
+    "eatthis-1",
+    "eatthis-2",
+    "eatthis-3"
+  ]
+}

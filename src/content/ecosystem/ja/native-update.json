@@ -1,0 +1,28 @@
+{
+  "card": "ストアの次回リリースを待たずに、Capacitorのバンドルを届けられます。",
+  "title": "アプリ更新のためのNative Update",
+  "intro": "Native Updateは、対応するCapacitorアプリのバンドル更新を利用者に届けます。ストア経由の更新には別の手順があります。",
+  "sections": [
+    {
+      "heading": "Native Updateは何を配信しますか？",
+      "body": "バンドルの更新ごとにストアのリリースを待たずに、Capacitorアプリを更新できます。"
+    },
+    {
+      "heading": "バンドルはどう届きますか？",
+      "body": "対応するバンドルを無線で配信できます。"
+    },
+    {
+      "heading": "ストア経由の更新はどうなりますか？",
+      "body": "アプリ内でストア更新やレビューを促す機能も扱います。"
+    },
+    {
+      "heading": "Native UpdateとLifeWellはどう関係しますか？",
+      "body": "LifeWellにはウェブとAndroidのリリース経路があります。Native Updateは、Capacitorアプリのバンドルやストア向けの案内を配信する人のためのツールです。"
+    }
+  ],
+  "facts": [
+    "native-update-1",
+    "native-update-2",
+    "native-update-3"
+  ]
+}

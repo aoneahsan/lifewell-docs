@@ -1,0 +1,849 @@
+{
+  "docs.feed.item.published": {
+    "message": "{published_date}に公開"
+  },
+  "docs.feed.title": {
+    "message": "フィード"
+  },
+  "docs.feed.meta.description": {
+    "message": "LifeWellドキュメントブログの全記事を新しい順に表示します。RSSとAtomのリンクからフィードリーダーにも登録できます。"
+  },
+  "docs.feed.intro": {
+    "message": "LifeWellドキュメントブログの全記事を新しい順に表示します。"
+  },
+  "docs.feed.rss.heading": {
+    "message": "RSSで購読"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSSは新しい記事をフィードリーダーが確認するための一覧です。下のリンクをリーダーに登録すると、新しい記事が自動で表示されます。"
+  },
+  "docs.feed.rss.link_label": {
+    "message": "RSSリンク"
+  },
+  "docs.feed.copy": {
+    "message": "リンクをコピー"
+  },
+  "docs.feed.copied": {
+    "message": "コピーしました"
+  },
+  "docs.feed.copy_failed": {
+    "message": "リンクをコピーできませんでした。リンクを選択してコピーしてください。"
+  },
+  "docs.feed.atom.label": {
+    "message": "Atomフィード"
+  },
+  "docs.feed.atom.hint": {
+    "message": "同じ記事をAtom形式で配信します。"
+  },
+  "docs.feed.item.read": {
+    "message": "記事を読む"
+  },
+  "docs.feed.empty.title": {
+    "message": "まだ記事はありません"
+  },
+  "docs.feed.empty.body": {
+    "message": "最初の記事が公開されると、ここにもフィードリーダーにも表示されます。"
+  },
+  "docs.sitemap.title": {
+    "message": "サイトマップ"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "LifeWellのドキュメントを1か所で見られます。はじめに、7つの領域、機能、記録、プラン、更新履歴ごとに探せます。"
+  },
+  "docs.sitemap.intro": {
+    "message": "LifeWellのドキュメント全ページを、分類して検索できる一覧です。"
+  },
+  "docs.sitemap.files.label": {
+    "message": "ファイル"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "検索エンジンが読む形式の、同じページ一覧です。"
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "フィードリーダー向けの新しいブログ記事です。"
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "RSSフィード"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "ブログのアドレスで配信する、feed.xmlと同じ記事です。"
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "Atomフィード"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "同じ記事をAtom形式で配信します。"
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "ドキュメントの要約と、各ページへのリンクを含むテキストです。"
+  },
+  "docs.sitemap.search.label": {
+    "message": "ページを検索"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "「エクスポート」や「人」で検索"
+  },
+  "docs.sitemap.search.count": {
+    "message": "{count}ページ"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "「{query}」に一致するページは{count}件です"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "ドキュメント"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "ブログ"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "「{query}」に一致するページはありません"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "短い語で検索するか、検索を消すとすべてのページが表示されます。"
+  },
+  "docs.sitemap.empty.action": {
+    "message": "検索をクリア"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "ページを表示できませんでした。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "ページの先頭に戻る",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "アーカイブ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "アーカイブ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ブログ記事一覧のページ移動",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "新しい記事",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "古い記事",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ブログ記事のページ移動",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "新しい記事",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "古い記事",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "すべてのタグを見る",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "システム設定",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ライトモードとダークモードを切り替えます（現在：{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "現在位置",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントページ",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "タグ付きドキュメント{count}件",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "「{tagName}」が付いた{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "バージョン：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "これは{siteTitle}のバージョン{versionLabel}向けの未公開ドキュメントです。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "これは{siteTitle}のバージョン{versionLabel}向けのドキュメントで、現在は積極的に保守されていません。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "新しい情報は{latestVersionLink}（{versionLabel}）をご覧ください。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新バージョン",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}への直接リンク",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が更新",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最終更新：{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "バージョン",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "タグ：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "閉じる",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "情報",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "メモ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近のブログ記事",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "サイドバーの「{label}」を展開",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "サイドバーの「{label}」を折りたたむ",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "（新しいタブで開きます）",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "メイン",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "言語",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "元のURLにリンクしたサイトの管理者に、リンクが切れていることをお知らせください。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの内容",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "続きを読む",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "「{title}」の続きを読む",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "約{readingTime}分で読めます",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "コードをクリップボードにコピー",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "行の折り返しを切り替え",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを折りたたむ",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを折りたたむ",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントのサイドバー",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ナビゲーションを閉じる",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← メインメニューに戻る",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "ナビゲーションを切り替える",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "メニューを展開",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "メニューを折りたたむ",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを展開",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを展開",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "読み込み中…",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "クリックして読み込む{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "ブラウザーがオフラインのため、画像を読み込めませんでした",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404。画像が見つかりません",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "エラーが発生しました。クリックして再読み込みしてください",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "結果はありません"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "「{context}」以外の結果をすべて見る"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "「{context}」内の結果をすべて見る"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "すべての結果を見る"
+  },
+  "theme.SearchBar.label": {
+    "message": "検索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "「{query}」の検索結果",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "ドキュメントを検索",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "すべて"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "見つかったドキュメントは{count}件です",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "ドキュメントが見つかりませんでした",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "記事{count}件",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "「{tagName}」の付いた{nPosts}",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "執筆者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "すべての執筆者を見る",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "この執筆者の記事はまだありません。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "一覧にないページ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "このページは一覧にありません。検索エンジンには登録されず、直接リンクを知っている人だけが開けます。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "下書きページ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "このページは下書きです。開発環境だけで表示され、公開版には含まれません。",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count}項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "もう一度試す",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "本文へ移動",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "タグ",
+    "description": "The title of the tag list page"
+  },
+  "about.title": {
+    "message": "Ahsan Mahmoodが開発"
+  },
+  "about.description": {
+    "message": "Ahsan MahmoodがLifeWellを作った理由、これまでの歩み、Zaionsでの仕事をご紹介します。"
+  },
+  "about.kicker": {
+    "message": "開発者について"
+  },
+  "about.lede": {
+    "message": "Ahsanは、両親が人生の話をするのを聞いてLifeWellを作りました。家族があとで戻れる場所に、その時間を残したいと考えたのです。"
+  },
+  "about.portfolio": {
+    "message": "Ahsanのポートフォリオを見る"
+  },
+  "about.zaions": {
+    "message": "Zaionsを見る"
+  },
+  "about.why.heading": {
+    "message": "なぜLifeWellを作ったのですか？"
+  },
+  "about.why.first": {
+    "message": "父親が話をしてくれました。母親も同じでした。Ahsanは、その会話と語ってくれた人たちを残す方法を探していました。その願いからLifeWellが生まれ、人とのつながり、思い出、日々のことを1か所に置けるようになりました。"
+  },
+  "about.why.second": {
+    "message": "目指しているのは、世代を越えて受け継げる贈り物です。その構想の一部はまだ開発中です。今のアプリには、あとで読み返せる記録を残せます。何を共有するかは自分で選べます。"
+  },
+  "about.timeline.heading": {
+    "message": "ここまでの歩みは？"
+  },
+  "about.timeline.2025.date": {
+    "message": "2025年8月25日"
+  },
+  "about.timeline.2025.event": {
+    "message": "LifeWellアプリのリポジトリに残る最初のコミット。"
+  },
+  "about.timeline.2026_09.date": {
+    "message": "2026年9月19日"
+  },
+  "about.timeline.2026_09.event": {
+    "message": "再構築したウェブアプリの公開版が、ビルドと一致することを確認。"
+  },
+  "about.timeline.2026_10.date": {
+    "message": "2026年10月25日"
+  },
+  "about.timeline.2026_10.event": {
+    "message": "バージョン3.25.0がGoogle Playで公開されたことを所有者が確認。"
+  },
+  "about.timeline.2026_11.date": {
+    "message": "2026年11月20日"
+  },
+  "about.timeline.2026_11.event": {
+    "message": "公開済みのウェブ、Android、ドキュメントへのリンクを「LifeWellを使う」にまとめました。"
+  },
+  "about.build.heading": {
+    "message": "どのように作られていますか？"
+  },
+  "about.build.body": {
+    "message": "LifeWellはウェブとAndroidで使えるReactとTypeScriptのアプリです。オフライン記録を有効にすると、一部の簡単な入力は通信が戻るまで端末内で待機できます。共有する項目は一つずつ選べます。記録はエクスポートして取り出せます。"
+  },
+  "about.other.heading": {
+    "message": "ほかの仕事はどこで見られますか？"
+  },
+  "about.other.ecosystem": {
+    "message": "Zaionsのほかの製品を見る"
+  },
+  "about.other.projects": {
+    "message": "Ahsanのプロジェクト"
+  },
+  "about.contact.heading": {
+    "message": "チームへの連絡方法は？"
+  },
+  "about.contact.prefix": {
+    "message": "連絡には"
+  },
+  "about.contact.link": {
+    "message": "LifeWellのお問い合わせページ"
+  },
+  "about.contact.body": {
+    "message": "製品についてのメッセージは、その製品の窓口に届きます。"
+  },
+  "about.aside.body": {
+    "message": "人生の大切な人と出来事を、1か所に。"
+  },
+  "about.aside.link": {
+    "message": "LifeWellについて"
+  },
+  "apps.web.title": {
+    "message": "ブラウザーで"
+  },
+  "apps.web.text": {
+    "message": "どのパソコンでも、人、思い出、メモ、カレンダーを開けます。Googleでログインすると、スマートフォンで見ていた続きから使えます。"
+  },
+  "apps.web.cta": {
+    "message": "LifeWellを開く"
+  },
+  "apps.android.title": {
+    "message": "Androidスマートフォンで"
+  },
+  "apps.android.text": {
+    "message": "外出先から出来事を記録したり、誰かの情報を確かめたりできます。ウェブアプリと同じアカウントで同期します。"
+  },
+  "apps.android.cta": {
+    "message": "Google Playで入手"
+  },
+  "apps.docs.title": {
+    "message": "このドキュメント"
+  },
+  "apps.docs.text": {
+    "message": "7つの領域の使い方、記録のエクスポート方法、LifeWellで非公開に保たれる情報を説明します。"
+  },
+  "apps.docs.cta": {
+    "message": "ドキュメントを読む"
+  },
+  "apps.title": {
+    "message": "LifeWellを使う"
+  },
+  "apps.description": {
+    "message": "LifeWellの公開先をまとめました。ウェブアプリ、Google PlayのAndroidアプリ、このドキュメントです。"
+  },
+  "apps.intro": {
+    "message": "どこでも同じアカウントを使えます。ウェブで始めてスマートフォンでも使い、必要なときにはこのガイドを開いてください。"
+  },
+  "apps.here": {
+    "message": "今読んでいるページです"
+  },
+  "home.get_started": {
+    "message": "はじめに →"
+  },
+  "home.open_lifewell": {
+    "message": "LifeWellを開く"
+  },
+  "home.also_on": {
+    "message": "こちらでも利用できます"
+  },
+  "home.all_apps": {
+    "message": "すべてのアプリ →"
+  },
+  "home.built_by": {
+    "message": "開発と保守"
+  },
+  "home.team": {
+    "message": "LifeWellチーム"
+  },
+  "home.licence": {
+    "message": "ドキュメントはCC BY 4.0で提供しています。"
+  },
+  "home.title": {
+    "message": "人生の大切な人と出来事"
+  },
+  "home.description": {
+    "message": "LifeWellの公開ドキュメントです。家族、友人、思い出、予定を1か所に残し、その周りに日々の健康も置けます。ウェブとAndroidに対応しています。"
+  },
+  "home.feature.people.title": {
+    "message": "まずは大切な人から"
+  },
+  "home.feature.people.description": {
+    "message": "自分のページを作り、大切な人を加えるところから始まります。思い出、日々のこと、共有がその人たちと結び付き、健康、心、人生の段階が周りに並びます。7つの領域のうち6つはオフにできます。オフにしてもメニューから消えるだけで、記録は削除されません。"
+  },
+  "home.feature.people.cta": {
+    "message": "7つの領域について読む"
+  },
+  "home.feature.export.title": {
+    "message": "自分の記録を、取り出せる形で"
+  },
+  "home.feature.export.description": {
+    "message": "期間を選んでJSONまたはCSVで記録をエクスポートしたり、PDFの概要を作ったりできます。各テーブルの上限は1回のエクスポートにつき5,000行です。無料プランを含むすべてのプランで使えます。"
+  },
+  "home.feature.export.cta": {
+    "message": "エクスポート形式を読む"
+  },
+  "home.feature.offline.title": {
+    "message": "対応する簡単な記録をオフラインで残す"
+  },
+  "home.feature.offline.description": {
+    "message": "オフライン記録を有効にすると、通信がない間も水分、気分、歩数の入力をこの端末で待機させられます。ほかの変更には通信が必要です。別の端末で頼る前に、待機中の入力が同期されたか確認してください。"
+  },
+  "home.feature.offline.cta": {
+    "message": "オフラインでできること"
+  },
+  "home.feature.photos.title": {
+    "message": "写真は自分のDriveに"
+  },
+  "home.feature.photos.description": {
+    "message": "LifeWellがGoogleに求める権限は、LifeWellが作成したファイルだけに及びます。私たちが保持するのはファイル自体ではなく、その参照情報です。"
+  },
+  "home.feature.photos.cta": {
+    "message": "記録の保存先を読む"
+  },
+  "home.feature.no_score.title": {
+    "message": "連続記録も点数も順位もありません"
+  },
+  "home.feature.no_score.description": {
+    "message": "LifeWellは連続記録を数えず、数字であなたを評価しません。間の空いた記録も記録です。何もしない日曜日は、ただ静かな日曜日です。"
+  },
+  "home.feature.no_score.cta": {
+    "message": "LifeWellとは"
+  },
+  "home.feature.honest.title": {
+    "message": "利用できる機能を確認"
+  },
+  "home.feature.honest.description": {
+    "message": "LifeWellのウェブアプリ、Androidアプリ、ブラウザー拡張機能にはそれぞれ異なる機能があります。Androidのリマインダーには端末の許可が必要です。拡張機能はストア公開待ちで、iOSアプリはありません。公開済みの内容は更新履歴で確認できます。"
+  },
+  "home.feature.honest.cta": {
+    "message": "更新履歴を読む"
+  },
+  "about.schema.name": {
+    "message": "LifeWellの開発者について"
+  },
+  "about.schema.job_title": {
+    "message": "Zaionsの創設者・開発者"
+  },
+  "about.schema.docs": {
+    "message": "LifeWellドキュメント"
+  },
+  "ecosystem.title": {
+    "message": "Zaionsの製品"
+  },
+  "ecosystem.meta": {
+    "message": "Ahsan MahmoodがZaionsで作るほかの製品と、その訪問先を紹介します。"
+  },
+  "ecosystem.kicker": {
+    "message": "ほかの場所"
+  },
+  "ecosystem.showcase": {
+    "message": "Zaionsのほかの製品"
+  },
+  "ecosystem.intro": {
+    "message": "Ahsan MahmoodはLifeWell以外も作っています。Zaionsの製品には、それぞれ違う役割があります。目的の製品を探すことも、一覧を見て回ることもできます。"
+  },
+  "ecosystem.all": {
+    "message": "Zaionsの全製品を見る"
+  },
+  "ecosystem.details": {
+    "message": "詳細"
+  },
+  "ecosystem.visit": {
+    "message": "{name}を見る"
+  },
+  "ecosystem.read_docs": {
+    "message": "{name}のドキュメントを読む"
+  },
+  "ecosystem.glance": {
+    "message": "概要"
+  },
+  "ecosystem.source_checked": {
+    "message": "出典確認日：{date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "現在位置"
+  },
+  "ecosystem.docs_home": {
+    "message": "LifeWellドキュメント"
+  },
+  "ecosystem.choose_view": {
+    "message": "表示方法を選ぶ"
+  },
+  "ecosystem.view.grid": {
+    "message": "グリッド"
+  },
+  "ecosystem.view.list": {
+    "message": "リスト"
+  },
+  "ecosystem.view.table": {
+    "message": "表"
+  },
+  "ecosystem.table.product": {
+    "message": "製品"
+  },
+  "ecosystem.table.purpose": {
+    "message": "できること"
+  },
+  "ecosystem.table.platforms": {
+    "message": "対応環境"
+  },
+  "ecosystem.table.links": {
+    "message": "リンク"
+  },
+  "ecosystem.who_built": {
+    "message": "LifeWellを作った人"
+  },
+  "ecosystem.carousel": {
+    "message": "カルーセル"
+  },
+  "ecosystem.slide": {
+    "message": "スライド"
+  },
+  "ecosystem.previous": {
+    "message": "前の製品"
+  },
+  "ecosystem.next": {
+    "message": "次の製品"
+  },
+  "ecosystem.play": {
+    "message": "カルーセルを再生"
+  },
+  "ecosystem.pause": {
+    "message": "カルーセルを一時停止"
+  },
+  "ecosystem.play_label": {
+    "message": "再生"
+  },
+  "ecosystem.pause_label": {
+    "message": "一時停止"
+  },
+  "ecosystem.count": {
+    "message": "{total}件中{index}件"
+  },
+  "site.name": {
+    "message": "LifeWellドキュメント"
+  },
+  "home.tagline": {
+    "message": "人生の大切な人と出来事を、その周りのことも含めて1か所に。"
+  },
+  "site.description": {
+    "message": "LifeWellの公開ドキュメントです。家族や友人、その人たちについて知っていること、思い出や予定を1か所に残し、その周りに健康、心、人生の段階を置けます。LifeWellチームが執筆しています。"
+  },
+  "apps.web.name": {
+    "message": "LifeWellウェブアプリ"
+  },
+  "apps.docs.name": {
+    "message": "ドキュメント"
+  },
+  "ecosystem.category.web_app": {
+    "message": "ウェブアプリ"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "モバイルアプリ"
+  },
+  "ecosystem.category.package": {
+    "message": "パッケージ"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "WordPressプラグインとウェブアプリ"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "デスクトップアプリとCLI"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "ウェブアプリとパッケージ"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "ブラウザー拡張機能"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "Chrome Web Storeで入手"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, family tree, people, memories, family and friends, notes, calendar, wellbeing, Android app, 家系図, 大切な人, 思い出, 予定, 健康, Androidアプリ"
+  }
+}

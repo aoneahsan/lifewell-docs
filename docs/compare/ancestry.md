@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
 title: Moving from Ancestry to LifeWell
-description: "How to move from Ancestry to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Ancestry to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Ancestry is a paid research service. Its strength is the archive — record hint
 
 LifeWell does no historical research at all. It keeps the people you actually know, free, with their memories and appointments attached.
 
-Last checked 2026-11-07. Every row below links to the page it came from, and the full comparison is on [LifeWell and Ancestry](https://lifewell.aoneahsan.com/compare/ancestry).
+Last checked 2026-11-26. Every row below links to the page it came from, and the full comparison is on [LifeWell and Ancestry](https://lifewell.aoneahsan.com/compare/ancestry).
 
 ## From an Ancestry tree to a LifeWell record
 
@@ -43,9 +43,9 @@ A Speak it recording is kept privately for you, and it goes when you delete it. 
 
 | Plan | Price | Source |
 |---|---|---|
-| U.S. Discovery | $24.99 a month (monthly; $21.99/mo paid upfront for 6 months) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| World Explorer | $39.99 a month (monthly; $32.99/mo paid upfront for 6 months, shown with an introductory $24.83/mo) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| All Access | $59.99 a month (monthly list price, shown with an introductory $54.99; $49.99/mo paid upfront for 6 months, introductory $39.83/mo) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| U.S. Discovery | $24.99 a month; six-month option $21.99 a month, billed monthly with a six-month commitment | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| World Explorer | $39.99 a month; six-month offer $24.83 a month, billed monthly with a six-month commitment (usual $32.99) | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| All Access | Current monthly offer $54.99 (usual $59.99); six-month offer $39.83 a month (usual $49.99), billed monthly with a six-month commitment | <a href="https://www.ancestry.com/offers/subscribe" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 LifeWell's own prices, the free plan included, are on the [plans page](https://lifewell.aoneahsan.com/plans).
 

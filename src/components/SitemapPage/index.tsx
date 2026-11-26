@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import { interpolate } from '@docusaurus/Interpolate';
 import { usePluralForm, useQueryString } from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
@@ -100,6 +101,7 @@ function SitemapCard({ card }: { readonly card: Card }): ReactNode {
  * shared. Docusaurus prerenders the page, so the whole list is in the HTML before any script runs.
  */
 export default function SitemapPage({ site }: SitemapPageProps): ReactNode {
+  const base = useBaseUrl('/');
   const words = sitemapWords();
   const feed = feedWords();
   const { selectMessage } = usePluralForm();
@@ -114,13 +116,13 @@ export default function SitemapPage({ site }: SitemapPageProps): ReactNode {
   }, [query]);
 
   const files: readonly MachineFile[] = [
-    { path: '/sitemap.xml', ...words.sitemapXml },
-    { path: '/feed.xml', ...words.feedXml },
+    { path: `${base}sitemap.xml`, ...words.sitemapXml },
+    { path: `${base}feed.xml`, ...words.feedXml },
     { path: `${site.blog.permalink}/rss.xml`, ...words.rss },
     { path: `${site.blog.permalink}/atom.xml`, ...words.atom },
     { path: '/llms.txt', ...words.llms },
   ];
-  const feedPage: SitePage = { permalink: '/feed', title: feed.title, description: feed.metaDescription, tags: [] };
+  const feedPage: SitePage = { permalink: `${base}feed`, title: feed.title, description: feed.metaDescription, tags: [] };
   const groups: readonly Group[] = [
     ...site.groups.map(
       (group): Group => ({
@@ -175,7 +177,7 @@ export default function SitemapPage({ site }: SitemapPageProps): ReactNode {
           </ul>
         </section>
 
-        <div className={styles.search} role="search">
+        <search className={styles.search}>
           <label htmlFor="sitemap-search" className={styles.searchLabel}>
             {words.searchLabel}
           </label>
@@ -194,7 +196,7 @@ export default function SitemapPage({ site }: SitemapPageProps): ReactNode {
           <p id="sitemap-count" className={styles.count} role="status">
             {countLine}
           </p>
-        </div>
+        </search>
 
         {shown.map((group) => (
           <section key={group.key} className={styles.group} aria-labelledby={groupId(group.key)}>

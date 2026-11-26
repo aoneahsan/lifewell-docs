@@ -30,7 +30,7 @@
  * `node_modules/@docusaurus/theme-classic/lib/theme/BlogListPage/index.js`
  * whenever Docusaurus is upgraded.
  */
-import React, {type ReactNode} from 'react';
+import type {ReactNode} from 'react';
 import clsx from 'clsx';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';

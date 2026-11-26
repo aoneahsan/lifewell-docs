@@ -36,7 +36,10 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
+    "build": "yarn i18n:check && NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
+    "build:en": "yarn i18n:check:en && NODE_OPTIONS=--no-experimental-webstorage docusaurus build --locale en",
+    "i18n:check": "node plugins/i18n-gate.ts",
+    "i18n:check:en": "node plugins/i18n-gate.ts --locale en",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -44,6 +47,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
+    "lint": "biome lint src plugins docusaurus.config.ts --max-diagnostics=none",
     "indexnow:ping": "curl -X POST 'https://api.indexnow.org/indexnow' -H 'Content-Type: application/json' -d '{\"host\":\"lifewell-docs.aoneahsan.com\",\"key\":\"j97agdpm9f3cz9yqkz8mzu9o929kqvm6\",\"keyLocation\":\"https://lifewell-docs.aoneahsan.com/j97agdpm9f3cz9yqkz8mzu9o929kqvm6.txt\",\"urlList\":[\"https://lifewell-docs.aoneahsan.com/\",\"https://lifewell-docs.aoneahsan.com/sitemap.xml\"]}'"
   },
   "dependencies": {
@@ -60,12 +64,15 @@
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.3.1",
+    "react-aria-components": "^1.22.1",
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.6.9",
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/types": "3.10.2",
     "@types/react": "^19.3.0",
+    "cheerio": "^1.2.0",
     "typescript": "~7.0.2"
   },
   "browserslist": {

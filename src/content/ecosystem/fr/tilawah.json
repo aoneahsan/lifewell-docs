@@ -1,0 +1,28 @@
+{
+  "card": "Reprenez un cours de tajwid ou de tafsir à votre rythme.",
+  "title": "Tilawah pour apprendre le Coran",
+  "intro": "Tilawah réunit des cours enregistrés de tajwid et de tafsir dans un parcours à suivre à votre rythme. Vous pouvez reprendre là où vous vous êtes arrêté.",
+  "sections": [
+    {
+      "heading": "Que peut-on apprendre avec Tilawah ?",
+      "body": "Les cours enregistrés portent sur le tajwid et le tafsir."
+    },
+    {
+      "heading": "Comment avance-t-on à son rythme ?",
+      "body": "Vous suivez les leçons à votre rythme et retrouvez l’endroit où vous vous étiez arrêté."
+    },
+    {
+      "heading": "Peut-on réserver une séance de récitation ?",
+      "body": "Vous pouvez réserver une séance individuelle de récitation en direct selon votre fuseau horaire."
+    },
+    {
+      "heading": "Quelle place occupe Tilawah à côté de LifeWell ?",
+      "body": "LifeWell peut conserver vos notes et rendez-vous. Tilawah réunit cours de Coran enregistrés, progression et séances de récitation réservées dans un espace d’apprentissage."
+    }
+  ],
+  "facts": [
+    "tilawah-1",
+    "tilawah-2",
+    "tilawah-3"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "下一版本",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Moving to LifeWell": {
+    "message": "迁移到 LifeWell",
+    "description": "The label for category 'Moving to LifeWell' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started": {
+    "message": "开始使用",
+    "description": "The label for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.title": {
+    "message": "开始使用 LifeWell",
+    "description": "The generated-index page title for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Get started.link.generated-index.description": {
+    "message": "打开应用、登录，并了解前五个页面会问您什么。",
+    "description": "The generated-index page description for category 'Get started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.The seven areas": {
+    "message": "七个领域",
+    "description": "The label for category 'The seven areas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features": {
+    "message": "功能",
+    "description": "The label for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.title": {
+    "message": "功能",
+    "description": "The generated-index page title for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Features.link.generated-index.description": {
+    "message": "跨越多个领域的功能。",
+    "description": "The generated-index page description for category 'Features' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "白标与授权",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data": {
+    "message": "您的记录",
+    "description": "The label for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.title": {
+    "message": "您的记录",
+    "description": "The generated-index page title for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Your data.link.generated-index.description": {
+    "message": "导出、删除，并了解记录保存在哪里。",
+    "description": "The generated-index page description for category 'Your data' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works": {
+    "message": "运作方式",
+    "description": "The label for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.title": {
+    "message": "运作方式",
+    "description": "The generated-index page title for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How it works.link.generated-index.description": {
+    "message": "架构、数据模型、隐私、离线行为和外观。",
+    "description": "The generated-index page description for category 'How it works' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "平台",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.title": {
+    "message": "平台",
+    "description": "The generated-index page title for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms.link.generated-index.description": {
+    "message": "网页版、Android 版、已建成但尚未上架的浏览器扩展程序，以及已移除的 iOS 版。",
+    "description": "The generated-index page description for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "参考资料",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.title": {
+    "message": "参考资料",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference.link.generated-index.description": {
+    "message": "导出文件格式、既有地址和所有外部服务。",
+    "description": "The generated-index page description for category 'Reference' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "开发者",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.About": {
+    "message": "关于",
+    "description": "The label for category 'About' in sidebar 'docsSidebar'"
+  }
+}

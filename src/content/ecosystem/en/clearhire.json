@@ -1,0 +1,28 @@
+{
+  "card": "Put your work history into a structured resume.",
+  "title": "ClearHire for your next resume",
+  "intro": "ClearHire brings your work history into a structured profile and an ATS-friendly resume. It also offers tools for the parts of a job search that take more than one draft.",
+  "sections": [
+    {
+      "heading": "What is ClearHire for?",
+      "body": "It is a place to build a sharper resume and be discovered."
+    },
+    {
+      "heading": "How is a resume put together?",
+      "body": "Your profile is structured, and the resume builder follows an ATS-friendly format."
+    },
+    {
+      "heading": "What else is available?",
+      "body": "Its career tools cover steps such as bullet writing and ATS checks; the source lists more than 50."
+    },
+    {
+      "heading": "Where does ClearHire fit beside LifeWell?",
+      "body": "LifeWell keeps people and work in your personal record. ClearHire turns work history toward a structured resume and job search."
+    }
+  ],
+  "facts": [
+    "clearhire-1",
+    "clearhire-2",
+    "clearhire-3"
+  ]
+}

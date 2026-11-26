@@ -1,0 +1,28 @@
+{
+  "card": "Keep chosen stops in place on a driver route.",
+  "title": "Waylock for the stops that must stay",
+  "intro": "Waylock lets a driver hold chosen stops in place and reorder the rest. A wrong turn does not erase the intended route.",
+  "sections": [
+    {
+      "heading": "Who is Waylock for?",
+      "body": "Drivers and couriers use it on Android alongside Google Maps."
+    },
+    {
+      "heading": "How are stops ordered?",
+      "body": "Hold the stops that matter in place, then arrange the others around them."
+    },
+    {
+      "heading": "What happens after a wrong turn?",
+      "body": "If you stray, the route you chose remains on screen; you can return to it or accept another."
+    },
+    {
+      "heading": "Where does Waylock fit beside LifeWell?",
+      "body": "LifeWell keeps appointments and saved places beside people. Waylock works on the drive itself, holding chosen stops in place as the route changes."
+    }
+  ],
+  "facts": [
+    "waylock-1",
+    "waylock-2",
+    "waylock-3"
+  ]
+}

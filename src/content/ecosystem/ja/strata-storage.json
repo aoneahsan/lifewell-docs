@@ -1,0 +1,28 @@
+{
+  "card": "アプリの複数の保存先を、1つの方法で扱えます。",
+  "title": "アプリを支えるStrata Storage",
+  "intro": "Strata Storageは、ブラウザーからネイティブ環境まで、複数の保存層を1つのAPIで扱えるようにします。",
+  "sections": [
+    {
+      "heading": "APIは何を扱いますか？",
+      "body": "localStorage、IndexedDB、Cookie、ネイティブストレージを1つのインターフェースで扱います。"
+    },
+    {
+      "heading": "どこで使えますか？",
+      "body": "ウェブ、iOS、Androidに対応しています。"
+    },
+    {
+      "heading": "依存パッケージはいくつ増えますか？",
+      "body": "このパッケージの依存パッケージ数は0です。"
+    },
+    {
+      "heading": "Strata StorageとLifeWellはどう関係しますか？",
+      "body": "LifeWellでは個人の記録をどこに保存し、どう同期するかが大切です。Strata Storageはアプリを作る側に、複数の保存層を扱う1つの方法を提供します。"
+    }
+  ],
+  "facts": [
+    "strata-storage-1",
+    "strata-storage-2",
+    "strata-storage-3"
+  ]
+}

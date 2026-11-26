@@ -1,0 +1,28 @@
+{
+  "card": "妊娠中の変化する週を、一緒に記録できます。",
+  "title": "週ごとに使うPregnancyPal",
+  "intro": "PregnancyPalは、妊娠中の週ごとの情報と自分の記録を1か所にまとめます。覚えておきたいことを残せる場所です。",
+  "sections": [
+    {
+      "heading": "PregnancyPalは何のためにありますか？",
+      "body": "妊娠中に変化していく週に寄り添うアプリです。"
+    },
+    {
+      "heading": "週ごとに何を確認できますか？",
+      "body": "週ごとの情報には栄養と運動が含まれます。"
+    },
+    {
+      "heading": "何を記録できますか？",
+      "body": "バイタル、症状、気分、予約を同じ記録に残せます。"
+    },
+    {
+      "heading": "PregnancyPalとLifeWellはどう使い分けますか？",
+      "body": "LifeWellでは人生の段階を、あなたを囲む7つの領域の1つとして扱います。PregnancyPalは妊娠中の週と、そこで残したい詳細に焦点を当てています。"
+    }
+  ],
+  "facts": [
+    "pregnancypal-1",
+    "pregnancypal-2",
+    "pregnancypal-3"
+  ]
+}

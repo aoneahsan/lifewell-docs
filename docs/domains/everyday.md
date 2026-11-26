@@ -35,8 +35,9 @@ the export.
 
 ## Reminders
 
-`/profile/reminders` is where you say what LifeWell may send you and when. Medication and appointment
-reminders are on; the nudge for a day you have not written anything in is off until you ask for it. See
+`/profile/reminders` is where you choose which reminder categories can interrupt this device. Medication
+inbox prompts and appointment reminders start on; eye-break, movement and posture reminders start off until
+you choose their schedules. No automatic day-logging nudge is created. See
 [Reminders](../features/reminders.md).
 
 ## The shopping list
@@ -44,8 +45,8 @@ reminders are on; the nudge for a day you have not written anything in is off un
 Built from meals and recipes, or written by hand, and shareable as plain text so the person doing the shop
 does not need an account. See [The shopping list](../features/shopping-list.md).
 
-## Why "everyday" and not "memories"
+## Where notes fit
 
-Notes are filed here rather than under Memories, and the distinction is the one the product uses everywhere:
-**Memories** is captions, dates, albums and the link to each file. **Everyday** is calendar, notes and saved
-places. A note about a hospital appointment is not a memory, however much it is a record.
+The app's menu puts **Notes** under **Memories**. This guide also covers them here because notes can hold the
+ordinary details around an appointment or a place. They remain written notes in either context; opening
+them from the menu does not turn them into photos or scrapbook items.

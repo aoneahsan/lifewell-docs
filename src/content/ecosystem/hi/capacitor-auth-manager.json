@@ -1,0 +1,28 @@
+{
+  "card": "वेब और नेटिव ऐप में Google से साइन इन करने के लिए एक कॉल।",
+  "title": "साइन इन के लिए Capacitor Auth Manager",
+  "intro": "Capacitor Auth Manager ऐप बनाने वालों को वेब, Android और iOS में Google साइन इन के लिए एक ही कॉल देता है। अभी समर्थित प्रदाता सीमित हैं, और यह बात साफ़ बताई जाती है।",
+  "sections": [
+    {
+      "heading": "पैकेज क्या सँभालता है?",
+      "body": "यह वेब, Android और iOS ऐप को Google साइन इन के लिए साझा कॉल देता है।"
+    },
+    {
+      "heading": "क्या Firebase चाहिए?",
+      "body": "उस कॉल के लिए Firebase अनिवार्य निर्भरता नहीं है।"
+    },
+    {
+      "heading": "संस्करण 3.x में कौन से प्रदाता काम करते हैं?",
+      "body": "3.x श्रृंखला में Google ही चालू प्रदाता है। अभी यही दायरा है।"
+    },
+    {
+      "heading": "LifeWell के साथ Capacitor Auth Manager की जगह कहाँ है?",
+      "body": "LifeWell वह ऐप है जिसमें आप साइन इन करते हैं। यह पैकेज Google साइन इन बनाने वाले डेवलपर के लिए है।"
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

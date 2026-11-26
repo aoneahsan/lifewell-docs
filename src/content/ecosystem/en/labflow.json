@@ -1,0 +1,28 @@
+{
+  "card": "Keep a lab order with its sample and result.",
+  "title": "LabFlow for the path through a lab",
+  "intro": "LabFlow follows diagnostic lab work from a patient and order through sample, result and release. Each hand-off has a place.",
+  "sections": [
+    {
+      "heading": "What work does LabFlow cover?",
+      "body": "Diagnostic lab work runs through it from start to finish."
+    },
+    {
+      "heading": "What stays together in the system?",
+      "body": "Patient, order, sample and result records sit in the same system."
+    },
+    {
+      "heading": "How does a result reach release?",
+      "body": "A result moves through validation from draft to release."
+    },
+    {
+      "heading": "Where does LabFlow fit beside LifeWell?",
+      "body": "LifeWell keeps a person’s own health record. LabFlow follows the diagnostic lab’s order, sample, validation and result."
+    }
+  ],
+  "facts": [
+    "labflow-1",
+    "labflow-2",
+    "labflow-3"
+  ]
+}

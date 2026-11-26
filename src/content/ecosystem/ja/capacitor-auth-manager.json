@@ -1,0 +1,28 @@
+{
+  "card": "ウェブとネイティブアプリで共通のGoogleログイン。",
+  "title": "ログインを実装するCapacitor Auth Manager",
+  "intro": "Capacitor Auth Managerは、ウェブ、Android、iOSのアプリ開発者に共通のGoogleログイン呼び出しを提供します。現在対応するプロバイダーの範囲は限定されています。",
+  "sections": [
+    {
+      "heading": "このパッケージは何を扱いますか？",
+      "body": "ウェブ、Android、iOSのアプリで共通して使えるGoogleログインの呼び出しを提供します。"
+    },
+    {
+      "heading": "Firebaseは必要ですか？",
+      "body": "この呼び出しにFirebaseは必須ではありません。"
+    },
+    {
+      "heading": "バージョン3.xで使えるプロバイダーは？",
+      "body": "3.x系列で有効なプロバイダーはGoogleです。現在の対応範囲はここまでです。"
+    },
+    {
+      "heading": "Capacitor Auth ManagerとLifeWellはどう関係しますか？",
+      "body": "LifeWellはログインして使うアプリです。このパッケージはアプリのログイン機能を作る人向けで、現在はGoogleに対応しています。"
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

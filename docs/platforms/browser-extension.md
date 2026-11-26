@@ -1,6 +1,6 @@
 ---
 title: Browser extension
-description: A LifeWell browser extension is planned and not built. Nothing is published, and there is nothing to install today.
+description: The LifeWell Chrome and Firefox companion is built, but it is not yet published in either store. Read what it keeps in your browser and how account connection works.
 keywords: [lifewell extension, browser extension, chrome extension, quick tracking]
 tags: [platforms, extension]
 sidebar_position: 4
@@ -8,31 +8,31 @@ sidebar_position: 4
 
 # Browser extension
 
-**Planned. Not built, not published, nothing to install.**
+**Built for Chrome and Firefox. Not yet published in either store.**
 
 ## Where this stands
 
-The 2.x codebase carried an extension folder, and earlier versions of this documentation described installing
-it, using it for quick tracking, and receiving reminders through it. That documentation described something
-that is not shipping.
+An older extension folder was left behind during the 3.0.0 rebuild. The current companion is a separate WXT
+extension with Chrome and Firefox builds. It has not been submitted to either store, so there is no store
+listing to install from today.
 
-For the 3.0.0 rebuild the extension is explicitly **out of scope**. The folder in the repository still holds
-2.x code, untouched, and none of it is part of any build. There is no listing on the Chrome Web Store or any
-other store.
+## What the extension keeps close
 
-## What it is meant to be, when it happens
+The popup offers water and break reminders, sourced general food preparation facts and appointments while you browse. Local wellness
+entries and appointment details stay in browser storage. Connecting your LifeWell account does not upload
+them into your LifeWell record.
 
-A small surface for the thing the main app is already built around: recording something in seconds, from
-wherever you already are, without opening a tab.
+## Connecting your account
 
-That is the intent rather than a specification. Nothing about the scope, the stores it would target, or the
-timing has been decided.
+The extension starts the connection and opens the LifeWell website. Compare the short code in both places
+before you approve this browser. The extension then receives its own account session and reads your profile
+language. You can disconnect it from the extension.
+
+The popup can show other Zaions products. Those first-party promotions count as ads in the store listing.
 
 ## The address
 
-This page keeps its address so that any existing link to the extension documentation lands on an honest
-answer rather than a 404. When there is an extension, this is where it will be described.
+This page keeps its address so older links to extension instructions land on the current facts. It will link
+to the store listings after publication.
 
-## In the meantime
-
-The [web app](./web.md) runs in the same browser and does everything the extension would, one tab away.
+The [web app](./web.md) is available in the meantime.

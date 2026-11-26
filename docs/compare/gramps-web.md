@@ -1,9 +1,9 @@
 ---
 sidebar_position: 6
 title: Moving from Gramps Web to LifeWell
-description: "How to move from Gramps Web to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Gramps Web to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Gramps Web is free, open-source genealogy that you run on your own server. It re
 
 LifeWell is for someone who would rather not look after a server. It is hosted, it has an Android app, and the same people carry memories, appointments and health records.
 
-Last checked 2026-11-07. The comparison with sources is on [LifeWell and Gramps Web](https://lifewell.aoneahsan.com/compare/gramps-web).
+Last checked 2026-11-26. The comparison with sources is on [LifeWell and Gramps Web](https://lifewell.aoneahsan.com/compare/gramps-web).
 
 ## Leaving a server you look after
 

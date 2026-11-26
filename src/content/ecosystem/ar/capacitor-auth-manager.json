@@ -1,0 +1,28 @@
+{
+  "card": "استدعاء واحد لتسجيل الدخول عبر Google على الويب والتطبيقات الأصلية.",
+  "title": "Capacitor Auth Manager لتسجيل الدخول",
+  "intro": "يمنح Capacitor Auth Manager مطوري التطبيقات استدعاءً واحداً لتسجيل الدخول عبر Google على الويب وAndroid وiOS. نطاق موفري الهوية الحالي محدد بوضوح.",
+  "sections": [
+    {
+      "heading": "ما الذي تتولاه الحزمة؟",
+      "body": "توفر استدعاءً مشتركاً لتسجيل الدخول عبر Google لتطبيقات الويب وAndroid وiOS."
+    },
+    {
+      "heading": "هل تحتاج إلى Firebase؟",
+      "body": "لا يُشترط Firebase لهذا الاستدعاء."
+    },
+    {
+      "heading": "ما موفرو الهوية المتاحون في الإصدار 3.x؟",
+      "body": "Google هو موفر الهوية المفعّل في سلسلة 3.x. هذا هو النطاق الحالي."
+    },
+    {
+      "heading": "ما موقع Capacitor Auth Manager إلى جانب LifeWell؟",
+      "body": "LifeWell تطبيق تسجل الدخول إليه. هذه الحزمة مخصصة لمن يبنون تسجيل الدخول إلى التطبيقات، وGoogle موفر الهوية الحالي فيها."
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

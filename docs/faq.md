@@ -21,8 +21,9 @@ Introducing it as a health tracker gets the product wrong.
 ## What does it cost?
 
 There is a Free tier and two paid ones, priced in US dollars — Pro at $9.99 a month or $99.90 a year, and
-Family at $8.99 per seat a month or $89.90 per seat a year, from three seats. On Android you buy through
-Google Play, and the app never links you elsewhere to pay. The full comparison is [Plans](./plans.md).
+Family at $8.99 per seat a month or $89.90 per seat a year, from three seats. The Android purchase path uses
+Google Play Billing, but it is not switched on yet; the app does not link to another checkout. The full
+comparison and current payment status are on [Plans](./plans.md).
 
 **Export is on every tier, including Free.** A product that holds your life and charges you to get a copy of
 it is a product with a hostage.
@@ -36,24 +37,26 @@ anything above Free's limits then becomes read-only. See [Family seats](./plans.
 
 ## Can I get my record out?
 
-Yes, from inside the app, as JSON, CSV or PDF. The JSON and CSV are complete; the PDF is deliberately not, and
-[the format page](./reference/export-format.md) says exactly what each one contains, field by field.
+Yes. Choose a date range and download record data as JSON or CSV, or a PDF summary. Each table is capped at
+5,000 rows per export. [The format page](./reference/export-format.md) says what each file contains.
 
-The file is built on your device. Your record never touches our servers on its way to you.
+The browser builds the file from an authenticated read of your account. The export job does not leave an
+additional stored file on the server.
 
 ## Can I delete everything?
 
-Deleting your whole account is offered in the app. **The server half is not deployed yet**, so today the
-working route is the request form at
-[`/delete-account`](https://lifewell.aoneahsan.com/delete-account) — see
+You can delete the live account from **Settings → Your data** after confirming the action. Encrypted manual
+backups may retain earlier data until rotation. If you cannot sign in, the public
+[`/delete-account`](https://lifewell.aoneahsan.com/delete-account) page explains the help route. See
 [Delete your record](./your-data/delete.md).
 
-Deleting one area and keeping the rest exists in the database and does not yet have a screen.
+You can also delete one area and keep the rest from **Settings → Your data → Delete a single domain**. The app shows what was removed, table by table. See [Delete one area](./your-data/delete.md#delete-one-area).
 
 ## Does it work offline?
 
-Writing does. Entries are written locally first and sync when there is a connection — a tunnel is not a reason
-to lose a day. What works and what does not is [Offline and sync](./concepts/offline-and-sync.md).
+LifeWell pauses the app when the connection drops. If **Keep working offline** is on, you can choose to keep
+logging supported readings, cycle changes and symptom episodes on this device until the connection returns.
+Pages are not cached for offline use. See [Offline and sync](./concepts/offline-and-sync.md).
 
 ## Where are my photos?
 
@@ -67,8 +70,7 @@ provider, and it is readable by that database. Nothing else about it is sold, mi
 
 ## Will it nag me?
 
-Medication and appointment reminders are on because that is why you entered them. The nudge for a day you have
-not written anything in is **off** until you ask for it. Everything is on one panel.
+Medicine due-dose reminders appear in the LifeWell inbox; they do not send a phone notification or email. Device notifications for supported event reminders need your permission. The app water tracker does not set drink reminders. Check the channel shown for each reminder before relying on it.
 
 There is no streak, no score, no rank, no badge for starting and no weekly report telling you how you did. A
 record with gaps in it is still a record.
@@ -80,8 +82,8 @@ exists. The web app runs in Safari and is the same application.
 
 ## Is there a browser extension?
 
-No. It is [planned and not built](./platforms/browser-extension.md). Older documentation described one; that
-documentation was describing something that is not shipping.
+It has been built for Chrome and Firefox, but it is [not yet available in either store](./platforms/browser-extension.md).
+The extension keeps its wellness entries in the browser; connecting your account does not upload them.
 
 ## Why does Android ask about my contacts?
 

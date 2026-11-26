@@ -1,0 +1,28 @@
+{
+  "card": "Envía un lote de mensajes desde tu dispositivo Android.",
+  "title": "SMS App desde tu propio teléfono",
+  "intro": "SMS App envía mensajes individuales, por lotes y programados a través de un dispositivo Android registrado. El dispositivo que envía sigue siendo parte del proceso.",
+  "sections": [
+    {
+      "heading": "¿Qué puede enviar SMS App?",
+      "body": "Admite mensajes individuales, lotes y envíos programados."
+    },
+    {
+      "heading": "¿Desde dónde salen los mensajes?",
+      "body": "Los SMS salen del dispositivo Android que registras."
+    },
+    {
+      "heading": "¿Cómo se administran los dispositivos?",
+      "body": "Las herramientas de administración incluyen el registro de dispositivos y un grupo de dispositivos voluntarios."
+    },
+    {
+      "heading": "¿Cómo se relaciona SMS App con LifeWell?",
+      "body": "LifeWell guarda recordatorios y personas en un mismo registro. SMS App envía mensajes de texto individuales, por lotes o programados desde un dispositivo Android."
+    }
+  ],
+  "facts": [
+    "smsapp-1",
+    "smsapp-2",
+    "smsapp-3"
+  ]
+}

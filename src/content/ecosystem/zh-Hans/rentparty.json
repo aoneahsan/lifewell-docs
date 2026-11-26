@@ -1,0 +1,28 @@
+{
+  "card": "暂停地产游戏，地契仍留在原位。",
+  "title": "RentParty：随时暂停，再接着玩",
+  "intro": "RentParty 让地产游戏随时可以继续。轮流使用一部手机、与电脑角色对战或进入线上房间，都能玩同一张棋盘。",
+  "sections": [
+    {
+      "heading": "RentParty 是什么游戏？",
+      "body": "这是一款地产交易游戏，您可以中途停下，之后再继续。"
+    },
+    {
+      "heading": "大家可以怎么玩？",
+      "body": "轮流使用一部手机、和电脑角色对战，或进入线上房间。"
+    },
+    {
+      "heading": "暂停时哪些东西会保留？",
+      "body": "游戏管理银行；重新开始时，地契仍在原位。"
+    },
+    {
+      "heading": "RentParty 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存您与他人共度的时刻。RentParty 是大家一起玩的游戏，也能暂停，等人齐了再继续。"
+    }
+  ],
+  "facts": [
+    "rentparty-1",
+    "rentparty-2",
+    "rentparty-3"
+  ]
+}

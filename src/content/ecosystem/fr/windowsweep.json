@@ -1,0 +1,28 @@
+{
+  "card": "Lisez la liste de nettoyage Windows avant toute suppression.",
+  "title": "windowsweep avant de nettoyer un disque",
+  "intro": "windowsweep nomme les chemins qu’il pourrait vider et commence par une simulation. La suppression de fichiers personnels demande un choix délibéré.",
+  "sections": [
+    {
+      "heading": "À quoi sert windowsweep ?",
+      "body": "C’est une commande de nettoyage Windows utilisable sans installation avec npx."
+    },
+    {
+      "heading": "Que se passe-t-il avant la suppression ?",
+      "body": "Une véritable simulation affiche les chemins proposés avant toute suppression."
+    },
+    {
+      "heading": "Comment les dossiers personnels sont-ils traités ?",
+      "body": "Vous choisissez les fichiers personnels ligne par ligne, sans les inclure dans un nettoyage général."
+    },
+    {
+      "heading": "Quelle place occupe windowsweep à côté de LifeWell ?",
+      "body": "LifeWell garde votre dossier personnel. windowsweep vous aide à choisir précisément quels chemins du disque Windows supprimer."
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

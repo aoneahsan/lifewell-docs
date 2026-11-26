@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Moving to LifeWell from another app
 description: Step-by-step guides for moving to LifeWell from 32 family tree, organiser and health record products, each with the date it was checked.
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 

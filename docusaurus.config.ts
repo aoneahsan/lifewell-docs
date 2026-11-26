@@ -1,7 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import sitePages, {withLastmod} from './plugins/site-pages';
+import sitePages, {withLastmod, withoutLocale} from './plugins/site-pages';
 import {OTHER_PLATFORMS} from './src/data/platforms';
 
 const SITE_URL = 'https://lifewell-docs.aoneahsan.com';
@@ -10,7 +10,7 @@ const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
 const BLOG_PATH = '/blog';
 
 const config: Config = {
-  title: 'LifeWell Documentation',
+  title: 'LifeWell',
   tagline: 'Keep the people and moments of your life in one place — and everything around them.',
   favicon: 'img/favicon.ico',
 
@@ -31,9 +31,20 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'],
     // The product writes en-GB (Story Bible §4): dates read "8 September 2026".
-    localeConfigs: {en: {htmlLang: 'en-GB'}},
+    localeConfigs: {
+      en: {htmlLang: 'en-GB', label: 'English'},
+      'zh-Hans': {htmlLang: 'zh-Hans', label: '简体中文'},
+      hi: {htmlLang: 'hi', label: 'हिन्दी'},
+      es: {htmlLang: 'es', label: 'Español'},
+      ar: {htmlLang: 'ar', label: 'العربية', direction: 'rtl'},
+      fr: {htmlLang: 'fr', label: 'Français'},
+      'pt-BR': {htmlLang: 'pt-BR', label: 'Português (Brasil)'},
+      ru: {htmlLang: 'ru', label: 'Русский'},
+      ja: {htmlLang: 'ja', label: '日本語'},
+      ur: {htmlLang: 'ur', label: 'اردو', direction: 'rtl'},
+    },
   },
 
   markdown: {
@@ -132,14 +143,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'author',
-        content: 'The LifeWell team',
-      },
-    },
-    {
-      tagName: 'meta',
-      attributes: {
-        name: 'robots',
-        content: 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1',
+        content: 'Ahsan Mahmood (aoneahsan)',
       },
     },
     // 🔴 NO SITE-WIDE `rel=canonical` HERE. It used to point every page at
@@ -147,38 +151,7 @@ const config: Config = {
     // so all 44 pages shipped two canonicals, the second declaring them
     // duplicates of the homepage. Measured in build/ on 2026-09-08. The
     // per-page tag is the right one; adding a static one can only conflict.
-    {
-      tagName: 'script',
-      attributes: {
-        type: 'application/ld+json',
-      },
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@graph': [
-          {
-            '@type': 'WebSite',
-            '@id': `${SITE_URL}/#website`,
-            url: SITE_URL,
-            name: 'LifeWell Documentation',
-            description:
-              'Public documentation for LifeWell, which keeps the people and moments of your life in one place: your family and friends, what you know about them, your memories and your plans, with wellbeing, mind and life stages around them. Written by the LifeWell team.',
-            publisher: {'@id': `${SITE_URL}/#organization`},
-            inLanguage: 'en',
-          },
-          {
-            '@type': 'Organization',
-            '@id': `${SITE_URL}/#organization`,
-            name: 'LifeWell',
-            url: APP_URL,
-            logo: {
-              '@type': 'ImageObject',
-              url: `${SITE_URL}/img/logo.svg`,
-            },
-            sameAs: [GITHUB_REPO, ...OTHER_PLATFORMS.filter((platform) => platform.id === 'android').map((platform) => platform.href)],
-          },
-        ],
-      }),
-    },
+    {tagName: 'link', attributes: {rel: 'alternate', type: 'application/rss+xml', title: 'LifeWell documentation feed', href: '/feed.xml'}},
   ],
 
   presets: [
@@ -205,6 +178,7 @@ const config: Config = {
             'MANUAL-TASKS.md',
             // docs/PACKAGES.md is the fleet's fixed-path dependency record, never a published page.
             'PACKAGES.md',
+            'i18n/**',
           ],
           editUrl: `${GITHUB_REPO}/edit/main/`,
           showLastUpdateTime: true,
@@ -237,11 +211,17 @@ const config: Config = {
           lastmod: 'date',
           changefreq: null,
           priority: null,
-          ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/authors/**', '/search'],
+          ignorePatterns: ['**/tags/**', '**/blog/tags/**', '**/blog/archive/**', '**/blog/authors/**', '**/search/**'],
           filename: 'sitemap.xml',
           // A page git cannot date (the blog list, a category index, /sitemap, /feed) takes the newest date it lists.
           createSitemapItems: async ({defaultCreateSitemapItems, ...params}) =>
-            withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH),
+            withLastmod((await defaultCreateSitemapItems(params)).map((item) => {
+              const path = withoutLocale(new URL(item.url).pathname);
+              // New source pages do not have a git date until the first commit.
+              return path === '/about-developer' || path === '/ecosystem' || path.startsWith('/ecosystem/')
+                ? {...item, lastmod: item.lastmod ?? '2026-11-25'}
+                : item;
+            }), BLOG_PATH),
         },
       } satisfies Preset.Options,
     ],
@@ -250,10 +230,8 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.png',
     metadata: [
-      {name: 'keywords', content: 'lifewell, life companion, family tree, people, memories, family and friends, notes, calendar, wellbeing, android app'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'og:type', content: 'website'},
-      {name: 'og:site_name', content: 'LifeWell Documentation'},
     ],
     colorMode: {
       respectPrefersColorScheme: true,
@@ -279,6 +257,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/about/the-developer', label: 'About', position: 'left'},
+        {type: 'localeDropdown', position: 'right'},
         {
           type: 'dropdown',
           label: 'Get LifeWell',
@@ -325,6 +304,8 @@ const config: Config = {
           title: 'Project',
           items: [
             {label: 'About this site', to: '/about/the-developer'},
+            {label: 'Products from Zaions', to: '/ecosystem'},
+            {label: 'About the developer', to: '/about-developer'},
             {label: 'Changelog', to: '/about/changelog'},
             {label: 'GitHub', href: GITHUB_REPO},
           ],
@@ -342,13 +323,10 @@ const config: Config = {
           items: [
             {label: 'Sitemap', to: '/sitemap'},
             {label: 'Feed', to: '/feed'},
-            // Written after the build, so the link checker cannot see them: absolute addresses.
-            {label: 'sitemap.xml', href: `${SITE_URL}/sitemap.xml`},
-            {label: 'feed.xml', href: `${SITE_URL}/feed.xml`},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} the LifeWell team. Documentation licensed CC BY 4.0. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} LifeWell · LifeWell — developed with love by the <a href="https://zaions.com" target="_blank" rel="noopener">Zaions team</a>. Documentation licensed CC BY 4.0.`,
     },
     prism: {
       theme: prismThemes.github,

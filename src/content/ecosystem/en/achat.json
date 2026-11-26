@@ -1,0 +1,28 @@
+{
+  "card": "Find someone without asking for their number.",
+  "title": "AchatAI for chosen people",
+  "intro": "AChat keeps a conversation close to the people you choose. A username, invite link or QR code can be enough to find them.",
+  "sections": [
+    {
+      "heading": "Who is AChat for?",
+      "body": "It is a messaging app for the web and Android, centred on people you have chosen."
+    },
+    {
+      "heading": "How can someone find you?",
+      "body": "A username works. So does an invite link or a QR code — no phone number is needed."
+    },
+    {
+      "heading": "What if you want a room without an account?",
+      "body": "An anonymous room can be opened before anyone makes an account."
+    },
+    {
+      "heading": "Where does AchatAI fit beside LifeWell?",
+      "body": "LifeWell keeps your own notes about people and moments. AChat is for talking with chosen people, including a room opened without an account."
+    }
+  ],
+  "facts": [
+    "achat-1",
+    "achat-2",
+    "achat-3"
+  ]
+}

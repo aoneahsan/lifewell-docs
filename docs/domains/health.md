@@ -71,5 +71,6 @@ A gap in the record is a gap in the record — *a record with gaps in it is stil
 
 ## Taking it out
 
-Everything here is in [the export](../your-data/export.md), and the health tables are the ones the PDF
-format was built around: a document you can print and hand to a clinician.
+You can include health records from a selected date range in [an export](../your-data/export.md). JSON and
+CSV include the supported table fields, with a 5,000-row cap per table. The PDF is a shorter summary for an
+appointment; it leaves out some private fields and high-volume rows.

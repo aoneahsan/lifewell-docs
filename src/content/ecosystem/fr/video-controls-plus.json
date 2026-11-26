@@ -1,0 +1,28 @@
+{
+  "card": "Réglez la lecture d’une vidéo HTML5.",
+  "title": "Video Controls Plus pour les vidéos sur le Web",
+  "intro": "Video Controls Plus ajoute des commandes de lecture aux vidéos HTML5 sur les sites Web. Vitesse, répétition et avance image par image vous permettent d’observer de plus près.",
+  "sections": [
+    {
+      "heading": "Quelles vidéos peut-il commander ?",
+      "body": "Il fonctionne avec les vidéos HTML5 sur le Web."
+    },
+    {
+      "heading": "Avec quelle précision peut-on régler la lecture ?",
+      "body": "La vitesse va de 0,1× à 16×, avec une boucle A–B et une avance image par image."
+    },
+    {
+      "heading": "Que peut-on modifier dans l’image et le son ?",
+      "body": "L’amplification audio, les filtres et la correction des couleurs sont également disponibles."
+    },
+    {
+      "heading": "Quelle place occupe Video Controls Plus à côté de LifeWell ?",
+      "body": "LifeWell conserve vos moments et vos notes. Video Controls Plus change votre façon de regarder une vidéo HTML5 sur un autre site."
+    }
+  ],
+  "facts": [
+    "video-controls-plus-1",
+    "video-controls-plus-2",
+    "video-controls-plus-3"
+  ]
+}

@@ -19,15 +19,16 @@ signs in against the same account, so what you write on the phone is on the lapt
 |---|---|
 | Application id | `com.aoneahsan.lifewell` |
 | Minimum Android version | **Android 9 (API 28)** |
-| Version this documentation describes | **3.0.0** |
+| Version series this documentation covers | **3.x** |
 
 A device below Android 9 cannot install it. That floor is a build setting rather than a policy, and it is
 stated here because Play will simply hide the listing rather than explaining why.
 
 ## What the Android build adds
 
-- **Local reminders.** A reminder you set is delivered by Android itself, so it arrives whether or not the
-  app is open. See [Reminders](../features/reminders.md).
+- **Supported device reminders.** Event and wellness reminders can arrive through Android when device
+  notifications are allowed, including while the app is closed. Medicine due-dose prompts stay in the LifeWell
+  inbox. See [Reminders](../features/reminders.md).
 - **Native sign-in and session storage.** The session lives in the platform keystore rather than in browser
   storage.
 
@@ -43,5 +44,6 @@ The full picture, including what changed from 2.x, is on [Android](../platforms/
 
 ## Updating
 
-Updates arrive through Google Play like any other app. There is no in-app update channel today — over-the-air
-delivery is [planned and not wired](../platforms/android.md#over-the-air-updates).
+Google Play supplies native app updates. Compatible installs can also receive signed Native Update bundles
+for web assets. The in-app release notice tells you when a newer version requires an update. See
+[Over-the-air updates](../platforms/android.md#over-the-air-updates).

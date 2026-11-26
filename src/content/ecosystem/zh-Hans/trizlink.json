@@ -1,0 +1,28 @@
+{
+  "card": "把短链接和个人简介页放在一起。",
+  "title": "Trizlink：整理您分享的链接",
+  "intro": "Trizlink 给分享的链接一个更短的地址，并记录点击情况。个人简介页可以汇集多个目标地址。",
+  "sections": [
+    {
+      "heading": "Trizlink 能创建什么？",
+      "body": "它可以创建短链接和个人简介链接页，并提供点击分析。"
+    },
+    {
+      "heading": "链接可以带上自己的名称吗？",
+      "body": "可以为品牌链接设置自定义短路径。"
+    },
+    {
+      "heading": "如何知道哪些链接被打开？",
+      "body": "点击信息与个人简介页、自定义域名一起管理。"
+    },
+    {
+      "heading": "Trizlink 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存链接背后的人。Trizlink 给链接本身提供短地址、个人简介页和点击信息。"
+    }
+  ],
+  "facts": [
+    "trizlink-1",
+    "trizlink-2",
+    "trizlink-3"
+  ]
+}

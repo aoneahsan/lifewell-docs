@@ -1,0 +1,24 @@
+{
+  "card": "Choisissez les modules dont votre boutique WooCommerce a besoin.",
+  "title": "Empora, pour une boutique WooCommerce",
+  "intro": "Empora rassemble des outils de boutique dans une extension WordPress. Vous activez les modules utiles à votre commerce, sans charger la boutique de toutes les options.",
+  "sections": [
+    {
+      "heading": "Que réunit Empora ?",
+      "body": "Des fonctions de boutique sont regroupées dans une seule extension WordPress pour WooCommerce."
+    },
+    {
+      "heading": "Peut-on choisir les modules ?",
+      "body": "Vous activez ceux dont votre boutique a besoin. Les autres peuvent rester désactivés."
+    },
+    {
+      "heading": "À quoi sert son tableau de bord ?",
+      "body": "Le tableau de bord Web gère les licences et les connexions facultatives aux boutiques."
+    },
+    {
+      "heading": "Quelle place occupe Empora à côté de LifeWell ?",
+      "body": "LifeWell garde les personnes et les moments dans un espace personnel. Empora répond à un autre besoin : choisir les outils d’une boutique WooCommerce."
+    }
+  ],
+  "facts": ["empora-1", "empora-2", "empora-3"]
+}

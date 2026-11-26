@@ -1,0 +1,28 @@
+{
+  "card": "每次打卡，都能看见绳索的变化。",
+  "title": "HabitForge：看得见的绳索",
+  "intro": "HabitForge 用一根绳索呈现坚持的过程。每次打卡会改变它，间隔一段时间没有打卡也会留下痕迹。",
+  "sections": [
+    {
+      "heading": "绳索有什么用？",
+      "body": "它把重复打卡的过程变成一根可以直观看到的绳索。"
+    },
+    {
+      "heading": "打卡后会怎样？",
+      "body": "打卡让绳索变粗；中断则留下可见的磨损。"
+    },
+    {
+      "heading": "其他人可以参与吗？",
+      "body": "您可以和朋友参与挑战、查看排行榜，也可以退出。"
+    },
+    {
+      "heading": "HabitForge 与 LifeWell 有什么关系？",
+      "body": "LifeWell 容许记录留有空白，不把间隔当作评判。HabitForge 则用绳索显示打卡的规律。"
+    }
+  ],
+  "facts": [
+    "habitforge-1",
+    "habitforge-2",
+    "habitforge-3"
+  ]
+}

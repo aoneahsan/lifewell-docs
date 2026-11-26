@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
 title: Moving from FamilySearch to LifeWell
-description: "How to move from FamilySearch to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from FamilySearch to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ FamilySearch is a free family history site, run as a nonprofit, with one shared 
 
 LifeWell is for the family you can still phone. You keep the tree privately, and the same people carry their memories, their appointments and their health records.
 
-Last checked 2026-11-07. The two side by side, with every source: [LifeWell and FamilySearch](https://lifewell.aoneahsan.com/compare/familysearch).
+Last checked 2026-11-26. The two side by side, with every source: [LifeWell and FamilySearch](https://lifewell.aoneahsan.com/compare/familysearch).
 
 ## Bringing your branch across
 

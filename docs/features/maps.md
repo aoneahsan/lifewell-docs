@@ -1,6 +1,6 @@
 ---
 title: Maps and places
-description: Your own record plotted where it happened — memories, notes, people and events — plus saved places and an opt-in location history.
+description: Follow the connections among memories, notes, people, events and the place names you saved. Location history is a separate opt-in control.
 keywords: [lifewell maps, memory map, saved places, location history, place tracking]
 tags: [features, people, memories]
 sidebar_position: 10
@@ -8,30 +8,34 @@ sidebar_position: 10
 
 # Maps and places
 
-`/maps` plots things you already recorded. It is a view, not a second store — a memory on the map is the same
-row as the memory in the library.
+`/maps` is called **Connections** in the app. It shows how things you already recorded relate, with a Places
+layer for names you attached to memories or events. It reads the original records rather than making a
+second copy or inferring geographic coordinates.
 
-## The four maps
+## The connection views
 
-| Map | What it plots |
+| Address | What it opens |
 |---|---|
-| `/maps/memories` | Memories that carry a place |
-| `/maps/notes` | Notes that carry a place |
-| `/maps/people` | People, where you placed them |
-| `/maps` | Everything at once, and saved places |
+| `/maps` | The Connections view with layers for everything, people, places and location history |
+| `/maps/memories` | A bounded connection walk starting from a memory |
+| `/maps/notes` | A bounded connection walk starting from a note |
+| `/maps/people` | A graph of people and their relationships |
 
-`/maps/full` is the same thing without the surrounding page, for when the map is the only thing you want.
+`/maps/full` gives the people graph more room by removing the surrounding page. Calendar and chat entries
+also have connection walks; their dates and place names stay attached to the underlying records.
 
 ## Saved places
 
-A place worth remembering, with whatever you wanted to remember about it. Saved places appear on the map and
-in [the export](../reference/export-format.md).
+A place here is the name you entered, not a position LifeWell collected. The Places layer lists memories
+and calendar entries with place names. Saved place data appears in [the export](../reference/export-format.md).
 
 ## Location history
 
-`/people/location-tracking` and `/people/location-history` are **off by default and opt-in**. Nothing is
-recorded until you switch them on, and switching them off stops the recording without deleting what is
-already there.
+`/people/location-tracking` and `/people/location-history` describe a separate, **off-by-default** opt-in
+feature. The Android background recorder is implemented for version 3.31.0 and later. It requests the
+separate location permissions when you enable recording; existing history can still be viewed and deleted.
+The 3.31.0 Play build still needs its owner upload and device verification, so the current Play release must
+not be treated as having this recorder yet.
 
 :::note[Location is never shared with another account]
 A link can carry a tracker, your medications or a tree, and nothing else. There is no location scope, and
@@ -41,5 +45,5 @@ that is a fact about the database rather than a screen that chooses not to offer
 
 ## What the export carries
 
-Saved places and location settings. They are in the JSON and CSV formats, and the PDF carries a summary — a
-count and a span — rather than a list of coordinates.
+Saved place rows and location settings are in JSON and CSV. The PDF counts saved place rows instead of
+printing a list of coordinates.

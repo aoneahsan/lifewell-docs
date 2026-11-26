@@ -1,0 +1,28 @@
+{
+  "card": "Convierte tu historial laboral en un currículum estructurado.",
+  "title": "ClearHire para tu próximo currículum",
+  "intro": "ClearHire reúne tu historial laboral en un perfil estructurado y un currículum legible para sistemas de seguimiento de candidatos. También ofrece herramientas para las partes de la búsqueda de empleo que requieren más de un borrador.",
+  "sections": [
+    {
+      "heading": "¿Para qué sirve ClearHire?",
+      "body": "Es un lugar donde puedes preparar un currículum más preciso y dejar que te encuentren."
+    },
+    {
+      "heading": "¿Cómo se prepara el currículum?",
+      "body": "Tu perfil tiene una estructura definida, y el generador de currículums sigue un formato compatible con sistemas de seguimiento de candidatos."
+    },
+    {
+      "heading": "¿Qué más hay disponible?",
+      "body": "Sus herramientas profesionales cubren tareas como redactar puntos del currículum y comprobar la compatibilidad con esos sistemas; el código fuente enumera más de 50."
+    },
+    {
+      "heading": "¿Cómo se relaciona ClearHire con LifeWell?",
+      "body": "LifeWell guarda a las personas y el trabajo dentro de tu registro personal. ClearHire transforma el historial laboral en un currículum estructurado para buscar empleo."
+    }
+  ],
+  "facts": [
+    "clearhire-1",
+    "clearhire-2",
+    "clearhire-3"
+  ]
+}

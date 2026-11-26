@@ -1,0 +1,28 @@
+{
+  "card": "Envie várias mensagens pelo seu dispositivo Android.",
+  "title": "SMS App no seu próprio celular",
+  "intro": "O SMS App envia mensagens individuais, em lote e agendadas por um dispositivo Android cadastrado. O aparelho que envia continua fazendo parte do processo.",
+  "sections": [
+    {
+      "heading": "Que mensagens o SMS App envia?",
+      "body": "Mensagens individuais, lotes e envios agendados são suportados."
+    },
+    {
+      "heading": "De onde as mensagens saem?",
+      "body": "O dispositivo Android cadastrado envia as mensagens SMS."
+    },
+    {
+      "heading": "Como os dispositivos são administrados?",
+      "body": "O cadastro de dispositivos e um grupo de voluntários fazem parte das ferramentas de administração."
+    },
+    {
+      "heading": "Como o SMS App se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda lembretes e pessoas no mesmo registro. O SMS App envia mensagens individuais, em lote ou agendadas a partir de um dispositivo Android."
+    }
+  ],
+  "facts": [
+    "smsapp-1",
+    "smsapp-2",
+    "smsapp-3"
+  ]
+}

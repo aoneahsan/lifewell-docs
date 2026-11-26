@@ -1,0 +1,758 @@
+{
+  "docs.feed.item.published": {
+    "message": "شائع ہوا: {published_date}"
+  },
+  "docs.feed.title": {
+    "message": "فیڈ"
+  },
+  "docs.feed.meta.description": {
+    "message": "LifeWell دستاویزات کے بلاگ کی تمام تحریریں، نئی سے پرانی ترتیب میں، آپ کے فیڈ ریڈر کے لیے RSS اور Atom روابط کے ساتھ۔"
+  },
+  "docs.feed.intro": {
+    "message": "LifeWell دستاویزات کے بلاگ کی تمام تحریریں، نئی سے پرانی ترتیب میں۔"
+  },
+  "docs.feed.rss.heading": {
+    "message": "RSS کے ذریعے پڑھیں"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSS نئی تحریروں کی ایک سادہ فہرست ہے جسے آپ کا فیڈ ریڈر آپ کے لیے دیکھتا رہتا ہے۔ نیچے دیا گیا رابطہ اپنے ریڈر میں ڈالیں؛ نئی تحریریں وہاں خود دکھائی دیں گی۔"
+  },
+  "docs.feed.rss.link_label": {
+    "message": "RSS رابطہ"
+  },
+  "docs.feed.copy": {
+    "message": "رابطہ کاپی کریں"
+  },
+  "docs.feed.copied": {
+    "message": "کاپی ہو گیا"
+  },
+  "docs.feed.copy_failed": {
+    "message": "رابطہ کاپی نہیں ہو سکا۔ اسے منتخب کر کے خود کاپی کریں۔"
+  },
+  "docs.feed.atom.label": {
+    "message": "Atom فیڈ"
+  },
+  "docs.feed.atom.hint": {
+    "message": "وہی تحریریں Atom فارمیٹ میں۔"
+  },
+  "docs.feed.item.read": {
+    "message": "تحریر پڑھیں"
+  },
+  "docs.feed.empty.title": {
+    "message": "ابھی کوئی تحریر نہیں"
+  },
+  "docs.feed.empty.body": {
+    "message": "پہلی تحریر شائع ہونے پر یہاں اور آپ کے فیڈ ریڈر میں نظر آئے گی۔"
+  },
+  "docs.sitemap.title": {
+    "message": "سائٹ کا نقشہ"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "LifeWell کی تمام دستاویزات ایک جگہ، موضوع کے حساب سے مرتب اور تلاش کے قابل: آغاز، سات شعبے، خصوصیات، آپ کا ڈیٹا، منصوبے اور تبدیلیوں کی فہرست۔"
+  },
+  "docs.sitemap.intro": {
+    "message": "LifeWell کی تمام دستاویزات، موضوع کے حساب سے مرتب اور تلاش کے قابل۔"
+  },
+  "docs.sitemap.files.label": {
+    "message": "فائلیں"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "وہی فہرست اس فارمیٹ میں جسے سرچ انجن پڑھتے ہیں۔"
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "آپ کے فیڈ ریڈر کے لیے بلاگ کی نئی تحریریں۔"
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "RSS فیڈ"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "وہی تحریریں جو feed.xml میں ہیں، بلاگ کے پتے پر۔"
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "Atom فیڈ"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "وہی تحریریں Atom فارمیٹ میں۔"
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "دستاویزات کا سادہ متنی خلاصہ، ہر صفحے کے رابطے کے ساتھ۔"
+  },
+  "docs.sitemap.search.label": {
+    "message": "صفحات میں تلاش کریں"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "مثلاً ”برآمد“ یا ”لوگ“ لکھیں"
+  },
+  "docs.sitemap.search.count": {
+    "message": "1 صفحہ|{count} صفحات"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "”{query}“ سے 1 صفحہ ملا|”{query}“ سے {count} صفحات ملے"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "دستاویزات"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "بلاگ"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "”{query}“ سے کوئی صفحہ نہیں ملا"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "کوئی مختصر لفظ آزمائیں، یا تمام صفحات دیکھنے کے لیے تلاش صاف کریں۔"
+  },
+  "docs.sitemap.empty.action": {
+    "message": "تلاش صاف کریں"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "یہ صفحہ کھل نہیں سکا۔"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "صفحے کے اوپر جائیں"
+  },
+  "theme.blog.archive.title": {
+    "message": "پرانی تحریریں"
+  },
+  "theme.blog.archive.description": {
+    "message": "پرانی تحریریں"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "بلاگ کی فہرست کے صفحات میں جائیں"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "نئی تحریریں"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "پرانی تحریریں"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "بلاگ کی تحریروں میں جائیں"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "اگلی نئی تحریر"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "اگلی پرانی تحریر"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "تمام ٹیگز دیکھیں"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "سسٹم کی ترتیب"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "روشن رنگ"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "گہرے رنگ"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "رنگوں کی ترتیب بدلیں؛ ابھی {mode} منتخب ہے"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "صفحے کا راستہ"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "دستاویزات کے صفحات"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "پچھلا"
+  },
+  "theme.docs.paginator.next": {
+    "message": "اگلا"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "ایک دستاویز پر ٹیگ|{count} دستاویزات پر ٹیگ"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}: ”{tagName}“"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "ورژن: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "یہ {siteTitle} کے ورژن {versionLabel} کی غیر شائع شدہ دستاویزات ہیں۔"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "یہ {siteTitle} کے ورژن {versionLabel} کی دستاویزات ہیں؛ اس ورژن کی دیکھ بھال اب جاری نہیں۔"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "تازہ دستاویزات کے لیے {latestVersionLink} ({versionLabel}) دیکھیں۔"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "تازہ ترین ورژن"
+  },
+  "theme.common.editThisPage": {
+    "message": "اس صفحے میں ترمیم کریں"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} کا براہِ راست رابطہ"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} کو"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} نے"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخری بار اپ ڈیٹ{atDate}{byUser}"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "ورژن"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحہ نہیں ملا"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "ٹیگز:"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بند کریں"
+  },
+  "theme.admonition.caution": {
+    "message": "احتیاط"
+  },
+  "theme.admonition.danger": {
+    "message": "خطرہ"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات"
+  },
+  "theme.admonition.note": {
+    "message": "نوٹ"
+  },
+  "theme.admonition.tip": {
+    "message": "مشورہ"
+  },
+  "theme.admonition.warning": {
+    "message": "انتباہ"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "بلاگ کی حالیہ تحریروں کی فہرست"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "سائیڈ بار کا شعبہ ”{label}“ کھولیں"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "سائیڈ بار کا شعبہ ”{label}“ سمیٹیں"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(نئے ٹیب میں کھلتا ہے)"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "مرکزی نیویگیشن"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زبانیں"
+  },
+  "theme.NotFound.p1": {
+    "message": "آپ کا مطلوبہ صفحہ نہیں مل سکا۔"
+  },
+  "theme.NotFound.p2": {
+    "message": "جس سائٹ کے رابطے سے آپ یہاں آئے، اس کے مالک کو بتائیں کہ وہ رابطہ کام نہیں کر رہا۔"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "اس صفحے پر"
+  },
+  "theme.blog.post.readMore": {
+    "message": "مزید پڑھیں"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} کے بارے میں مزید پڑھیں"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "ایک منٹ میں پڑھیں|{readingTime} منٹ میں پڑھیں"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کاپی کریں"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کاپی ہو گیا"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کوڈ کلپ بورڈ پر کاپی کریں"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "لمبی سطروں کو لپیٹیں یا کھولیں"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "مرکزی صفحہ"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "سائیڈ بار سمیٹیں"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "سائیڈ بار سمیٹیں"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "دستاویزات کی سائیڈ بار"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار بند کریں"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← مرکزی مینو پر واپس"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار کھولیں یا بند کریں"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "ڈراپ ڈاؤن کھولیں"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "ڈراپ ڈاؤن بند کریں"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "سائیڈ بار کھولیں"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "سائیڈ بار کھولیں"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "تصویر لوڈ ہو رہی ہے…"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "تصویر لوڈ کرنے کے لیے دبائیں{sizeMessage}"
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "آپ کا براؤزر آف لائن ہے۔ تصویر لوڈ نہیں ہوئی۔"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404۔ تصویر نہیں ملی۔"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "خرابی ہوئی۔ دوبارہ لوڈ کرنے کے لیے دبائیں۔"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "کوئی نتیجہ نہیں"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "”{context}“ سے باہر تمام نتائج دیکھیں"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "”{context}“ میں تمام نتائج دیکھیں"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "تمام نتائج دیکھیں"
+  },
+  "theme.SearchBar.label": {
+    "message": "تلاش کریں"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "”{query}“ کے نتائج"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "دستاویزات میں تلاش کریں"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "ہر جگہ"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 دستاویز ملی|{count} دستاویزات ملیں"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "کوئی دستاویز نہیں ملی"
+  },
+  "theme.blog.post.plurals": {
+    "message": "ایک تحریر|{count} تحریریں"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} پر ”{tagName}“ کا ٹیگ"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "مصنفین"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "تمام مصنفین دیکھیں"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "اس مصنف کی ابھی کوئی تحریر نہیں۔"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "فہرست میں شامل نہ کیا گیا صفحہ"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "یہ صفحہ فہرست میں شامل نہیں۔ سرچ انجن اسے درج نہیں کریں گے؛ صرف براہِ راست رابطہ رکھنے والے اسے کھول سکتے ہیں۔"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "مسودہ صفحہ"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "یہ صفحہ مسودہ ہے۔ صرف ترقیاتی ماحول میں نظر آئے گا اور شائع شدہ سائٹ میں شامل نہیں ہو گا۔"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 آئٹم|{count} آئٹمز"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دوبارہ کوشش کریں"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "مرکزی مواد پر جائیں"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "ٹیگز"
+  },
+  "about.title": {
+    "message": "Ahsan Mahmood کی تخلیق"
+  },
+  "about.description": {
+    "message": "Ahsan Mahmood نے LifeWell کیوں بنایا، یہ یہاں تک کیسے پہنچا، اور Zaions کے ساتھ ان کا کام کہاں دیکھا جا سکتا ہے۔"
+  },
+  "about.kicker": {
+    "message": "ڈویلپر کے بارے میں"
+  },
+  "about.lede": {
+    "message": "Ahsan نے اپنے والدین سے ان کی زندگی کی کہانیاں سن کر LifeWell بنایا۔ وہ ان لمحوں کو ایسی جگہ محفوظ رکھنا چاہتے تھے جہاں خاندان دوبارہ لوٹ سکے۔"
+  },
+  "about.portfolio": {
+    "message": "Ahsan کا پورٹ فولیو دیکھیں"
+  },
+  "about.zaions": {
+    "message": "Zaions دیکھیں"
+  },
+  "about.why.heading": {
+    "message": "انہوں نے LifeWell کیوں بنایا؟"
+  },
+  "about.why.first": {
+    "message": "ان کے والد نے انہیں کہانیاں سنائیں۔ والدہ نے بھی۔ Ahsan ان باتوں اور ان کے پیچھے موجود لوگوں کو محفوظ رکھنے کا طریقہ چاہتے تھے۔ اسی خواہش سے LifeWell بڑھ کر رشتوں، یادوں اور ان کے ساتھ جڑی روزمرہ باتوں کی ایک جگہ بنا۔"
+  },
+  "about.why.second": {
+    "message": "بڑا تصور ایک ایسا تحفہ ہے جو نسلوں تک پہنچ سکے۔ اس کے کچھ حصے ابھی زیرِ تعمیر ہیں۔ آج ایپ آپ کا ایسا ریکارڈ رکھتی ہے جسے آپ دوبارہ دیکھ سکیں، اور اشتراک کا اختیار آپ کے پاس رہتا ہے۔"
+  },
+  "about.timeline.heading": {
+    "message": "یہ یہاں تک کیسے پہنچا؟"
+  },
+  "about.timeline.2025.date": {
+    "message": "25 اگست 2025"
+  },
+  "about.timeline.2025.event": {
+    "message": "LifeWell ایپ کے ذخیرے میں سب سے پرانا کوڈ اندراج۔"
+  },
+  "about.timeline.2026_09.date": {
+    "message": "19 ستمبر 2026"
+  },
+  "about.timeline.2026_09.event": {
+    "message": "دوبارہ بنائی گئی ویب ایپ کے براہِ راست ورژن کی اس کے بلڈ سے تصدیق ہوئی۔"
+  },
+  "about.timeline.2026_10.date": {
+    "message": "25 اکتوبر 2026"
+  },
+  "about.timeline.2026_10.event": {
+    "message": "مالک نے تصدیق کی کہ ورژن 3.25.0 Google Play پر دستیاب ہے۔"
+  },
+  "about.timeline.2026_11.date": {
+    "message": "20 نومبر 2026"
+  },
+  "about.timeline.2026_11.event": {
+    "message": "ویب، Android اور دستاویزات کے جاری شدہ راستے ”LifeWell حاصل کریں“ میں یکجا کیے گئے۔"
+  },
+  "about.build.heading": {
+    "message": "یہ کیسے بنایا گیا ہے؟"
+  },
+  "about.build.body": {
+    "message": "LifeWell ویب اور Android پر React اور TypeScript کی ایپ ہے۔ اگر آپ آف لائن اندراجات فعال کریں تو چند فوری اندراجات آپ کے آلے پر رابطہ بحال ہونے تک انتظار کر سکتے ہیں۔ ہر آئٹم کا اشتراک آپ خود طے کرتے ہیں، اور اپنے ریکارڈ کی نقل برآمد کرنے کا اختیار بھی آپ کے پاس ہے۔"
+  },
+  "about.other.heading": {
+    "message": "دوسرا کام کہاں ملے گا؟"
+  },
+  "about.other.ecosystem": {
+    "message": "Zaions کی دوسری مصنوعات دیکھیں"
+  },
+  "about.other.projects": {
+    "message": "Ahsan کے پروجیکٹس"
+  },
+  "about.contact.heading": {
+    "message": "ٹیم سے رابطہ کیسے کریں؟"
+  },
+  "about.contact.prefix": {
+    "message": "استعمال کریں"
+  },
+  "about.contact.link": {
+    "message": "LifeWell کا رابطہ صفحہ"
+  },
+  "about.contact.body": {
+    "message": "آپ کا پیغام اسی پروڈکٹ کے ساتھ ہونا چاہیے جس کے بارے میں وہ ہے۔"
+  },
+  "about.aside.body": {
+    "message": "آپ کی زندگی کے لوگ اور لمحات، ایک جگہ محفوظ۔"
+  },
+  "about.aside.link": {
+    "message": "LifeWell کے بارے میں"
+  },
+  "apps.web.title": {
+    "message": "آپ کے براؤزر میں"
+  },
+  "apps.web.text": {
+    "message": "کسی بھی کمپیوٹر پر اپنے لوگ، یادیں، نوٹس اور کیلنڈر دیکھیں۔ Google سے لاگ اِن کریں اور فون پر چھوڑی ہوئی جگہ سے آگے بڑھیں۔"
+  },
+  "apps.web.cta": {
+    "message": "LifeWell کھولیں"
+  },
+  "apps.android.title": {
+    "message": "آپ کے Android فون پر"
+  },
+  "apps.android.text": {
+    "message": "چلتے پھرتے کوئی لمحہ درج کریں یا کسی کا حال دیکھیں۔ وہی اکاؤنٹ، ویب ایپ کے ساتھ ہم آہنگ۔"
+  },
+  "apps.android.cta": {
+    "message": "Google Play سے حاصل کریں"
+  },
+  "apps.docs.title": {
+    "message": "یہ دستاویزات"
+  },
+  "apps.docs.text": {
+    "message": "ساتوں شعبے کیسے کام کرتے ہیں، اپنا ریکارڈ کیسے برآمد کریں، اور LifeWell کیا نجی رکھتا ہے۔"
+  },
+  "apps.docs.cta": {
+    "message": "دستاویزات پڑھیں"
+  },
+  "apps.title": {
+    "message": "LifeWell حاصل کریں"
+  },
+  "apps.description": {
+    "message": "LifeWell جہاں جہاں جاری ہو چکا ہے: ویب ایپ، Google Play پر Android ایپ، اور یہ دستاویزات۔"
+  },
+  "apps.intro": {
+    "message": "ایک ہی اکاؤنٹ، آپ جہاں بھی ہوں۔ ویب پر شروع کریں، فون پر ساتھ رکھیں، اور یہ رہنما صفحات پاس ہی رکھیں۔"
+  },
+  "apps.here": {
+    "message": "آپ یہی پڑھ رہے ہیں"
+  },
+  "home.get_started": {
+    "message": "شروع کریں ←"
+  },
+  "home.open_lifewell": {
+    "message": "LifeWell کھولیں"
+  },
+  "home.also_on": {
+    "message": "یہاں بھی دستیاب"
+  },
+  "home.all_apps": {
+    "message": "تمام ایپس ←"
+  },
+  "home.built_by": {
+    "message": "بنایا اور برقرار رکھا"
+  },
+  "home.team": {
+    "message": "LifeWell کی ٹیم نے"
+  },
+  "home.licence": {
+    "message": "دستاویزات کا لائسنس CC BY 4.0 ہے۔"
+  },
+  "home.title": {
+    "message": "آپ کی زندگی کے لوگ اور لمحات"
+  },
+  "home.description": {
+    "message": "LifeWell کی عوامی دستاویزات۔ یہ خاندان، دوست، یادیں اور منصوبے ایک جگہ رکھتا ہے، اور ان کے گرد فلاح و بہبود کے اندراجات بھی۔ ویب اور Android پر دستیاب۔"
+  },
+  "home.feature.people.title": {
+    "message": "آپ کی زندگی کے لوگ پہلے"
+  },
+  "home.feature.people.description": {
+    "message": "آپ خود سے شروع کرتے ہیں اور اپنے اہم لوگوں کو شامل کرتے ہیں۔ یادیں، روزمرہ زندگی اور اشتراک ان کے ساتھ ہیں؛ صحت، ذہن اور زندگی کے مراحل ان کے گرد ہیں۔ سات میں سے چھ شعبے بند کیے جا سکتے ہیں۔ بند کرنے سے صرف مینو میں ان کا نام چھپتا ہے، کوئی چیز حذف نہیں ہوتی۔"
+  },
+  "home.feature.people.cta": {
+    "message": "سات شعبوں کے بارے میں پڑھیں"
+  },
+  "home.feature.export.title": {
+    "message": "آپ کا ریکارڈ، اسے اپنے ساتھ لے جانے کا راستہ"
+  },
+  "home.feature.export.description": {
+    "message": "تاریخوں کی حد چنیں اور ریکارڈ کا ڈیٹا JSON یا CSV میں برآمد کریں، یا PDF خلاصہ بنائیں۔ ہر برآمد میں ایک ٹیبل کی حد 5,000 قطاریں ہے۔ مفت منصوبے سمیت ہر منصوبے میں برآمد دستیاب ہے۔"
+  },
+  "home.feature.export.cta": {
+    "message": "برآمد کا فارمیٹ پڑھیں"
+  },
+  "home.feature.offline.title": {
+    "message": "کچھ فوری اندراجات آف لائن رکھیں"
+  },
+  "home.feature.offline.description": {
+    "message": "آف لائن اندراج فعال ہو تو پانی، مزاج اور قدموں کے اندراج اس ڈیوائس پر قطار میں رہ سکتے ہیں۔ دیگر تبدیلیوں کے لیے رابطہ چاہیے؛ دوسری ڈیوائس پر ان اندراجات پر بھروسا کرنے سے پہلے تصدیق کریں کہ ہم آہنگی مکمل ہو گئی ہے۔"
+  },
+  "home.feature.offline.cta": {
+    "message": "آف لائن کیا کام کرتا ہے"
+  },
+  "home.feature.photos.title": {
+    "message": "تصاویر آپ کی اپنی Drive میں رہتی ہیں"
+  },
+  "home.feature.photos.description": {
+    "message": "LifeWell Google سے صرف اپنی بنائی ہوئی فائلوں تک رسائی مانگتا ہے۔ ہمارے پاس فائل کے بجائے اس کا حوالہ ہوتا ہے۔"
+  },
+  "home.feature.photos.cta": {
+    "message": "آپ کا ریکارڈ کہاں رہتا ہے"
+  },
+  "home.feature.no_score.title": {
+    "message": "نہ مسلسل دنوں کی گنتی، نہ اسکور، نہ درجہ"
+  },
+  "home.feature.no_score.description": {
+    "message": "یہاں نہ مسلسل اندراجات کی گنتی ہے، نہ کسی عدد پر آپ کی جانچ۔ خلا والا ریکارڈ بھی ریکارڈ ہے، اور خاموش اتوار محض ایک خاموش اتوار ہے۔"
+  },
+  "home.feature.no_score.cta": {
+    "message": "LifeWell کیا ہے"
+  },
+  "home.feature.honest.title": {
+    "message": "ہر پلیٹ فارم پر دستیاب سہولتیں جانیں"
+  },
+  "home.feature.honest.description": {
+    "message": "LifeWell کی ویب ایپ، Android ایپ اور براؤزر ساتھی کی سہولتیں مختلف ہیں۔ Android یاددہانیوں کے لیے ڈیوائس کی اطلاع کی اجازت درکار ہے؛ ایکسٹینشن کی اسٹور پر اشاعت ابھی باقی ہے اور iOS ایپ موجود نہیں۔ تبدیلیوں کے ریکارڈ میں جاری شدہ سہولتیں درج ہیں۔"
+  },
+  "home.feature.honest.cta": {
+    "message": "تبدیلیوں کی فہرست پڑھیں"
+  },
+  "about.schema.name": {
+    "message": "LifeWell کے ڈویلپر کا تعارف"
+  },
+  "about.schema.job_title": {
+    "message": "Zaions کے بانی اور ڈویلپر"
+  },
+  "about.schema.docs": {
+    "message": "LifeWell کی دستاویزات"
+  },
+  "ecosystem.title": {
+    "message": "Zaions کی مصنوعات"
+  },
+  "ecosystem.meta": {
+    "message": "Ahsan Mahmood کی Zaions میں بنائی ہوئی دوسری مصنوعات اور ہر ایک تک پہنچنے کا واضح راستہ۔"
+  },
+  "ecosystem.kicker": {
+    "message": "دوسری جگہیں"
+  },
+  "ecosystem.showcase": {
+    "message": "Zaions کی مزید مصنوعات"
+  },
+  "ecosystem.intro": {
+    "message": "Ahsan Mahmood نے LifeWell کے علاوہ بھی مصنوعات بنائی ہیں۔ Zaions کی ہر پروڈکٹ کا اپنا کام ہے۔ جو آپ ڈھونڈ رہے ہیں اسے کھولیں، یا باقی بھی دیکھیں۔"
+  },
+  "ecosystem.all": {
+    "message": "Zaions کی تمام مصنوعات دیکھیں"
+  },
+  "ecosystem.details": {
+    "message": "تفصیلات"
+  },
+  "ecosystem.visit": {
+    "message": "{name} دیکھیں"
+  },
+  "ecosystem.read_docs": {
+    "message": "{name} کی دستاویزات پڑھیں"
+  },
+  "ecosystem.glance": {
+    "message": "ایک نظر میں"
+  },
+  "ecosystem.source_checked": {
+    "message": "ماخذ کی جانچ: {date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "صفحے کا راستہ"
+  },
+  "ecosystem.docs_home": {
+    "message": "LifeWell دستاویزات"
+  },
+  "ecosystem.choose_view": {
+    "message": "دیکھنے کا انداز چنیں"
+  },
+  "ecosystem.view.grid": {
+    "message": "گرڈ"
+  },
+  "ecosystem.view.list": {
+    "message": "فہرست"
+  },
+  "ecosystem.view.table": {
+    "message": "ٹیبل"
+  },
+  "ecosystem.table.product": {
+    "message": "پروڈکٹ"
+  },
+  "ecosystem.table.purpose": {
+    "message": "یہ کیا کرتی ہے"
+  },
+  "ecosystem.table.platforms": {
+    "message": "پلیٹ فارم"
+  },
+  "ecosystem.table.links": {
+    "message": "روابط"
+  },
+  "ecosystem.who_built": {
+    "message": "LifeWell کس نے بنایا"
+  },
+  "ecosystem.carousel": {
+    "message": "گھومتی فہرست"
+  },
+  "ecosystem.slide": {
+    "message": "سلائیڈ"
+  },
+  "ecosystem.previous": {
+    "message": "پچھلی پروڈکٹ"
+  },
+  "ecosystem.next": {
+    "message": "اگلی پروڈکٹ"
+  },
+  "ecosystem.play": {
+    "message": "گھومتی فہرست چلائیں"
+  },
+  "ecosystem.pause": {
+    "message": "گھومتی فہرست روکیں"
+  },
+  "ecosystem.play_label": {
+    "message": "چلائیں"
+  },
+  "ecosystem.pause_label": {
+    "message": "روکیں"
+  },
+  "ecosystem.count": {
+    "message": "{total} میں سے {index}"
+  },
+  "site.name": {
+    "message": "LifeWell دستاویزات"
+  },
+  "home.tagline": {
+    "message": "اپنی زندگی کے لوگوں اور لمحوں کو ایک جگہ رکھیں، اور ان کے ساتھ جڑی باقی باتیں بھی۔"
+  },
+  "site.description": {
+    "message": "LifeWell کی عوامی دستاویزات۔ یہ آپ کے خاندان اور دوستوں، ان کے بارے میں آپ کی معلومات، یادوں اور منصوبوں کو ایک جگہ رکھتا ہے؛ فلاح و بہبود، ذہن اور زندگی کے مراحل ان کے گرد رہتے ہیں۔ LifeWell کی ٹیم کی تحریر۔"
+  },
+  "apps.web.name": {
+    "message": "LifeWell ویب ایپ"
+  },
+  "apps.docs.name": {
+    "message": "دستاویزات"
+  },
+  "ecosystem.category.web_app": {
+    "message": "ویب ایپ"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "موبائل ایپ"
+  },
+  "ecosystem.category.package": {
+    "message": "پیکیج"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "WordPress پلگ اِن اور ویب ایپ"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "ڈیسک ٹاپ ایپ اور کمانڈ لائن"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "ویب ایپ اور پیکیج"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "براؤزر ایکسٹینشن"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "Chrome کا ویب اسٹور"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, خاندانی شجرہ، لوگ، یادیں، خاندان اور دوست، نوٹس، کیلنڈر، فلاح و بہبود، Android ایپ"
+  }
+}

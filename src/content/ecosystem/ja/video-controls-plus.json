@@ -1,0 +1,28 @@
+{
+  "card": "HTML5動画の再生ペースを変えられます。",
+  "title": "ウェブ動画のためのVideo Controls Plus",
+  "intro": "Video Controls Plusは、さまざまなサイトのHTML5動画に再生操作を加えます。速度、繰り返し、コマ送りで細部を確認できます。",
+  "sections": [
+    {
+      "heading": "どの動画を操作できますか？",
+      "body": "ウェブ上のHTML5動画で使えます。"
+    },
+    {
+      "heading": "再生はどこまで細かく変えられますか？",
+      "body": "速度は0.1倍から16倍まで設定でき、A–B間の繰り返しと1コマずつの再生もできます。"
+    },
+    {
+      "heading": "映像や音声も調整できますか？",
+      "body": "音声の増幅、フィルター、色補正も利用できます。"
+    },
+    {
+      "heading": "Video Controls PlusとLifeWellはどう違いますか？",
+      "body": "LifeWellは出来事やメモを残す場所です。Video Controls Plusは、別のサイトのHTML5動画を見る方法を変えます。"
+    }
+  ],
+  "facts": [
+    "video-controls-plus-1",
+    "video-controls-plus-2",
+    "video-controls-plus-3"
+  ]
+}

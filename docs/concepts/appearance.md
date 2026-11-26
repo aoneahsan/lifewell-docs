@@ -1,6 +1,6 @@
 ---
 title: Appearance
-description: One icon, one panel, nine settings — theme, colour, corner radius, density, text size, typeface, surface style, motion and pointer. Applied before the first paint.
+description: One icon and one panel for theme, colour, corner radius, density, text size, typeface, surface style and motion. Applied before the first paint.
 keywords: [lifewell theme, dark mode, appearance settings, accessibility text size, reduced motion]
 tags: [concepts, appearance]
 sidebar_position: 5
@@ -10,7 +10,7 @@ sidebar_position: 5
 
 One icon in the top bar. One panel. Every appearance setting in it, on every screen, signed in or not.
 
-## The nine settings
+## The eight settings
 
 | Setting | What it changes |
 |---|---|
@@ -22,7 +22,6 @@ One icon in the top bar. One panel. Every appearance setting in it, on every scr
 | Typeface | The font the app is set in |
 | Surface style | How panels sit against the page |
 | Motion | Full, or reduced |
-| Pointer | The cursor treatment, where a device has a pointer at all |
 
 ## Applied before the first paint
 
@@ -43,11 +42,9 @@ reduced motion could not choose full motion in the app. Resolving it once means 
 
 ## Where it is kept
 
-**On the device**, not on your account. It survives a reload and a restart, and it is per device by design —
-the same person may want a dark, dense interface on a laptop and a large, roomy one on a phone.
-
-That does mean a new device starts from the defaults rather than inheriting what you chose elsewhere. There is
-no account-level sync of appearance today.
+Your choices are kept on this device. When **Carry my appearance across devices** is on in the same panel,
+they are also saved to your account and can follow you to another signed-in device. Turn it off if you want a
+different appearance on your laptop and phone; that device keeps its own choice.
 
 ## Contrast and targets
 

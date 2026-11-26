@@ -115,7 +115,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Platforms',
-        description: 'Web, Android, and the two that do not exist.',
+        description: 'Web, Android, the built but unpublished browser extension, and the removed iOS app.',
       },
       items: [
         'platforms/web',

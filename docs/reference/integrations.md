@@ -26,11 +26,13 @@ Sign-in is Google only, so **we never see or store a password**.
 
 | Service | What it is for | State |
 |---|---|---|
-| **OneSignal** | Push notifications | Subscription is wired; the service that sends is not written. **No push arrives yet** |
+| **OneSignal** | Optional push notifications | If you turn on push in Settings and the subscription becomes active, this service receives a device subscription. The LifeWell team may send a broadcast; the app does not automatically send account-event push messages. |
 | **Google Play Billing** | Subscriptions on Android | Built, tested against recorded responses, and **not switched on**. See [Plans](../plans.md#on-android) |
 
-Push is **receive-only** by design: the app subscribes a device and routes a tap. Reminders are a different
-thing entirely — they are scheduled by your own device and work offline.
+Push is **receive-only** by design: the app subscribes a device and routes a tap. Permission alone does not
+establish an active subscription. Supported Android event and wellness reminders use the device's notification
+schedule; medicine prompts appear in the LifeWell inbox when you open the medication list. Do not rely on an
+inbox prompt while offline.
 
 ## How we know the product works
 
@@ -71,8 +73,9 @@ deliver the message and nothing else.
 
 ## Over-the-air updates
 
-**Planned, not integrated.** No update package is in the build and nothing is fetched or applied. See
-[Android](../platforms/android.md#over-the-air-updates).
+The Android app integrates signed Native Update bundles. A compatible installed build checks and applies
+them, while Google Play delivers native releases. The signing key is compiled into the native build; an
+install without it cannot receive these bundles. See [Android](../platforms/android.md#over-the-air-updates).
 
 ## What is deliberately absent
 

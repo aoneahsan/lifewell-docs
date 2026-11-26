@@ -18,7 +18,7 @@ permanent — every one has a home in settings afterwards.
 | Welcome | Nothing. It says what the app is for | — |
 | About you | A display name, a preferred name, and who you are | Yes, all three |
 | What matters | Which of the six areas with a switch you want | Yes — leaving it blank keeps all six |
-| Reminders | Whether you want a daily nudge, and when | Yes |
+| Reminders | Which reminder categories you want to allow later; no daily reminder is created | Yes |
 | Done | Nothing. It hands you the dashboard | — |
 
 ## The one answer that changes what you see

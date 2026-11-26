@@ -1,0 +1,24 @@
+announcement:
+  label: 公告
+  permalink: /announcement
+  description: 项目公告与上线消息。
+
+lifewell:
+  label: LifeWell
+  permalink: /lifewell
+  description: 关于 LifeWell 应用的文章——功能、版本和设计记录。
+
+docs:
+  label: 文档
+  permalink: /docs-tag
+  description: 关于文档本身的文章——已发布的内容与后续变化。
+
+release:
+  label: 版本发布
+  permalink: /release
+  description: LifeWell 网页、Android 和浏览器扩展程序的新版本。
+
+privacy:
+  label: 隐私
+  permalink: /privacy
+  description: LifeWell 如何处理您的记录与隐私，以及它不会做什么。

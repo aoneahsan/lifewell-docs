@@ -1,0 +1,28 @@
+{
+  "card": "先预览 macOS 清理内容，再决定是否执行。",
+  "title": "macleanup：删除之前先查看",
+  "intro": "macleanup 清理 Mac 时同样谨慎：先检查拟清理的内容，再选择要移除的项目。",
+  "sections": [
+    {
+      "heading": "macleanup 维护什么？",
+      "body": "它以谨慎的默认设置处理 macOS 清理和维护。"
+    },
+    {
+      "heading": "如何预览清理内容？",
+      "body": "按分类查看拟执行的清理工作。"
+    },
+    {
+      "heading": "哪些文件夹不会被碰？",
+      "body": "无论选择什么清理项目，个人文件夹都不会被处理。"
+    },
+    {
+      "heading": "macleanup 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存个人记录。macleanup 查看 Mac 上可清理的文件，同时避开个人文件夹。"
+    }
+  ],
+  "facts": [
+    "macleanup-1",
+    "macleanup-2",
+    "macleanup-3"
+  ]
+}

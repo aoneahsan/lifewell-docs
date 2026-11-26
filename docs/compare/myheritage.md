@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
 title: Moving from MyHeritage to LifeWell
-description: "How to move from MyHeritage to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from MyHeritage to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ MyHeritage builds a large ancestral tree — free up to 250 people — and sells
 
 LifeWell is made for the generations who are alive now. Their memories, health and appointments sit in the same record as the tree.
 
-Last checked 2026-11-07. The same facts, laid out on the app: [LifeWell and MyHeritage](https://lifewell.aoneahsan.com/compare/myheritage).
+Last checked 2026-11-26. The same facts, laid out on the app: [LifeWell and MyHeritage](https://lifewell.aoneahsan.com/compare/myheritage).
 
 ## Moving the people you still talk to
 

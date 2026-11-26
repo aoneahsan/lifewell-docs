@@ -1,0 +1,28 @@
+{
+  "card": "Mantenha as paradas escolhidas no trajeto.",
+  "title": "Waylock para as paradas que precisam ficar",
+  "intro": "O Waylock permite fixar algumas paradas e reorganizar as demais no trajeto de quem dirige. Uma curva errada não apaga a rota planejada.",
+  "sections": [
+    {
+      "heading": "Para quem é o Waylock?",
+      "body": "Motoristas e entregadores usam o aplicativo no Android junto do Google Maps."
+    },
+    {
+      "heading": "Como as paradas são ordenadas?",
+      "body": "Fixe as paradas importantes e organize as outras ao redor delas."
+    },
+    {
+      "heading": "O que acontece depois de uma curva errada?",
+      "body": "Se você sair do trajeto, a rota escolhida continua na tela; pode voltar a ela ou aceitar outra."
+    },
+    {
+      "heading": "Como o Waylock se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda compromissos e lugares ao lado das pessoas. O Waylock cuida do trajeto em si, mantendo as paradas escolhidas mesmo quando a rota muda."
+    }
+  ],
+  "facts": [
+    "waylock-1",
+    "waylock-2",
+    "waylock-3"
+  ]
+}

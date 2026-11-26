@@ -1,9 +1,9 @@
 ---
 sidebar_position: 32
 title: Moving from Elfie to LifeWell
-description: "How to move from Elfie to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Elfie to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -11,9 +11,9 @@ last_update:
 
 Elfie is a free app for vitals and medication that pays coins for each healthy action. If rewards keep you taking readings, that is a fair reason to use it.
 
-LifeWell has no points, no coins and no streaks. It is a quiet record of health, kept with the people, memories and appointments of your life.
+LifeWell does not award coins or streaks for health actions. It keeps a quiet health record with the people, memories and appointments of your life. Its optional referral points are separate from health tracking.
 
-Last checked 2026-11-07. The app's own comparison: [LifeWell and Elfie](https://lifewell.aoneahsan.com/compare/elfie).
+Last checked 2026-11-26. The app's own comparison: [LifeWell and Elfie](https://lifewell.aoneahsan.com/compare/elfie).
 
 ## Moving your readings
 

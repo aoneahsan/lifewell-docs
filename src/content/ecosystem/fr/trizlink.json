@@ -1,0 +1,28 @@
+{
+  "card": "Réunissez vos liens courts et une page de présentation.",
+  "title": "Trizlink pour les liens que vous partagez",
+  "intro": "Trizlink donne une adresse courte à un lien partagé et vous permet de voir ses clics. Une page de présentation peut réunir plusieurs destinations.",
+  "sections": [
+    {
+      "heading": "Que crée Trizlink ?",
+      "body": "Des liens courts et des pages regroupant vos liens, accompagnés de statistiques sur les clics."
+    },
+    {
+      "heading": "Un lien peut-il porter votre nom ?",
+      "body": "Vous pouvez créer un lien à votre marque avec un identifiant personnalisé."
+    },
+    {
+      "heading": "Comment savoir ce qui a été ouvert ?",
+      "body": "Les données sur les clics accompagnent les pages de liens et les domaines personnalisés."
+    },
+    {
+      "heading": "Quelle place occupe Trizlink à côté de LifeWell ?",
+      "body": "LifeWell garde une trace des personnes derrière vos liens. Trizlink donne aux liens eux-mêmes des adresses courtes, des pages de présentation et des données sur leurs clics."
+    }
+  ],
+  "facts": [
+    "trizlink-1",
+    "trizlink-2",
+    "trizlink-3"
+  ]
+}

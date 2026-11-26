@@ -1,6 +1,6 @@
 ---
 title: Language and units
-description: English is the only language today, and the app is built so a second one is a single new file. Units are a preference, not a consequence of your language.
+description: LifeWell offers ten languages across its app, docs and browser extension. Your unit choice stays separate from your language.
 keywords: [lifewell language, translation, i18n, metric imperial units, en-GB]
 tags: [concepts, i18n, accessibility]
 sidebar_position: 6
@@ -8,17 +8,17 @@ sidebar_position: 6
 
 # Language and units
 
-## One language, built for more
+## Choose a language
 
-**English is the only language LifeWell ships in.** British English, throughout.
+LifeWell offers English, Simplified Chinese, Hindi, Spanish, Arabic, French, Brazilian Portuguese, Russian,
+Japanese and Urdu. Choose a language from the header. Arabic and Urdu also change the page direction so the
+layout reads naturally from right to left.
 
-Every user-visible string in the app already goes through the translation layer, which is the part that
-cannot be retrofitted: adding it later would mean touching every component. So adding a second language is a
-single new file of translations rather than a project.
+Your choice follows your LifeWell account when you sign in on another device or connect the browser extension.
+It does not change the units you chose for your readings. The docs and public pages have their own language
+addresses so you can link someone straight to the version they read.
 
-That is stated as a shape rather than a promise. There is no second language planned, and no timetable.
-
-Two details, if you ever read the strings:
+Two details, if you ever read the translation files:
 
 - **Keys describe meaning, not the English text.** Rewording a sentence does not break anything.
 - **Nothing is assembled from translated fragments.** One key is one whole sentence with values interpolated
@@ -38,8 +38,9 @@ Underneath, **the record stores one canonical unit and converts when it is read*
 
 ## Dates, numbers and the first day of the week
 
-Formatted with the platform's own internationalisation, against a British English convention — so a date reads
-*8 September 2026* rather than *September 8, 2026*.
+Dates and numbers follow the language you selected, using the device's internationalisation support. A date
+may therefore read *8 September 2026* in English and take a different order in another language. The first
+day of the week is a separate device setting; changing language does not silently move it.
 
 The day an entry belongs to comes from **your device**, not from a server. See [The data
 model](./data-model.md#the-date-comes-from-your-device).

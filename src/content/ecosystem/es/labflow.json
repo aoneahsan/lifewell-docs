@@ -1,0 +1,28 @@
+{
+  "card": "Mantén cada orden de laboratorio junto a su muestra y resultado.",
+  "title": "LabFlow y el recorrido por el laboratorio",
+  "intro": "LabFlow sigue el trabajo de un laboratorio de diagnóstico desde el paciente y la orden hasta la muestra, el resultado y su publicación. Cada entrega tiene su lugar.",
+  "sections": [
+    {
+      "heading": "¿Qué trabajo cubre LabFlow?",
+      "body": "Acompaña el trabajo de diagnóstico del laboratorio de principio a fin."
+    },
+    {
+      "heading": "¿Qué permanece unido en el sistema?",
+      "body": "Los registros del paciente, la orden, la muestra y el resultado están en el mismo sistema."
+    },
+    {
+      "heading": "¿Cómo llega un resultado a publicarse?",
+      "body": "El resultado pasa de borrador a publicación mediante una validación."
+    },
+    {
+      "heading": "¿Cómo se relaciona LabFlow con LifeWell?",
+      "body": "LifeWell guarda el registro de salud de una persona. LabFlow sigue la orden, la muestra, la validación y el resultado de un laboratorio de diagnóstico."
+    }
+  ],
+  "facts": [
+    "labflow-1",
+    "labflow-2",
+    "labflow-3"
+  ]
+}

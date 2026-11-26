@@ -1,0 +1,28 @@
+{
+  "card": "清理 Linux 前，先看清会触及哪些路径。",
+  "title": "linux-cleanup：先列出路径",
+  "intro": "linux-cleanup 先列出可能处理的路径。试运行会给您时间先查看清单。",
+  "sections": [
+    {
+      "heading": "linux-cleanup 用来做什么？",
+      "body": "它按面向开发者的清理目录，释放 Linux 磁盘和缓存空间。"
+    },
+    {
+      "heading": "更改之前会显示什么？",
+      "body": "执行更改前，它会列出可能触及的路径。"
+    },
+    {
+      "heading": "如何控制删除？",
+      "body": "真实的试运行和统一的删除入口，让实际移除操作集中在一处。"
+    },
+    {
+      "heading": "linux-cleanup 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存可供您日后查看的个人记录。linux-cleanup 处理的是另一种取舍：决定哪些磁盘路径可以清除。"
+    }
+  ],
+  "facts": [
+    "linux-cleanup-1",
+    "linux-cleanup-2",
+    "linux-cleanup-3"
+  ]
+}

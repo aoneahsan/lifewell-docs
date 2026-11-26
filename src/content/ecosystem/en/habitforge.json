@@ -1,0 +1,28 @@
+{
+  "card": "A check-in becomes a rope you can see.",
+  "title": "HabitForge and the visible rope",
+  "intro": "HabitForge makes consistency visible as a rope. Each check-in changes it; a gap changes it too.",
+  "sections": [
+    {
+      "heading": "What is the rope for?",
+      "body": "It turns repeated check-ins into a rope you can look at."
+    },
+    {
+      "heading": "What changes with a check-in?",
+      "body": "A check-in thickens the rope; a gap leaves a visible fray."
+    },
+    {
+      "heading": "Can other people take part?",
+      "body": "There are friends, challenges and a leaderboard — and a way to leave it."
+    },
+    {
+      "heading": "Where does HabitForge fit beside LifeWell?",
+      "body": "LifeWell lets a record have gaps without turning them into a verdict. HabitForge makes the pattern of check-ins visible as a rope."
+    }
+  ],
+  "facts": [
+    "habitforge-1",
+    "habitforge-2",
+    "habitforge-3"
+  ]
+}

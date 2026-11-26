@@ -1,0 +1,24 @@
+{
+  "card": "Un appel que vous pourrez retrouver et réécouter.",
+  "title": "CallVault, pour les appels à retrouver",
+  "intro": "CallVault donne une place aux appels Android dans la bibliothèque de votre téléphone. Vous pouvez les réécouter, ajouter une note et les retrouver plus tard.",
+  "sections": [
+    {
+      "heading": "Que peut enregistrer CallVault ?",
+      "body": "Sur Android, l’enregistrement dépend de la source audio mise à disposition par votre téléphone."
+    },
+    {
+      "heading": "Comment retrouver un appel plus tard ?",
+      "body": "Dans la bibliothèque du téléphone, vous pouvez l’écouter, le rechercher, y ajouter des notes et l’exporter. Un détail est plus facile à retrouver quand il a sa place."
+    },
+    {
+      "heading": "Où les enregistrements sont-ils conservés ?",
+      "body": "Ils restent sur votre téléphone, sauf si vous choisissez une sauvegarde privée dans le cloud."
+    },
+    {
+      "heading": "Quelle place occupe CallVault à côté de LifeWell ?",
+      "body": "LifeWell garde les personnes et les moments liés à un appel. CallVault garde l’enregistrement Android lui-même dans une bibliothèque consultable sur votre téléphone."
+    }
+  ],
+  "facts": ["callvault-1", "callvault-2", "callvault-3"]
+}

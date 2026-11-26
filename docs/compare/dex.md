@@ -1,9 +1,9 @@
 ---
 sidebar_position: 15
 title: Moving from Dex to LifeWell
-description: "How to move from Dex to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Dex to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Dex is a digital rolodex. It syncs LinkedIn, email and calendar into one contact
 
 LifeWell is a free record of the people who matter, with a family tree and their health and appointments beside each name.
 
-Last checked 2026-11-07. Dex and LifeWell on one page: [LifeWell and Dex](https://lifewell.aoneahsan.com/compare/dex).
+Last checked 2026-11-26. Dex and LifeWell on one page: [LifeWell and Dex](https://lifewell.aoneahsan.com/compare/dex).
 
 ## From a rolodex to a record
 

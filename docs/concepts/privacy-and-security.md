@@ -84,8 +84,9 @@ A front and back picture you add to a person in your own record is kept with Lif
 your Google Drive — the one picture in LifeWell that works that way, because an administrator has to be able
 to open it for a check. Only LifeWell administrators can open it, and every opening is logged. You see that it
 is kept, its size and its date, but not the picture; the person it belongs to, your connections and every
-shared link never see it. It is removed for good when you remove it, delete that person or delete your
-account. Details: [People](../domains/people.md#identity-card-pictures).
+shared link never see it. Removing it, deleting that person or deleting your account removes it from live
+storage; encrypted manual backups retain their earlier copy until rotation. Details:
+[People](../domains/people.md#identity-card-pictures) and [Deletion](../your-data/delete.md).
 
 ## Family seats share nothing
 
@@ -104,7 +105,7 @@ date you took it. See [Family seats](../plans.md#family-seats).
 
 ## Getting it out, or getting rid of it
 
-[Export everything](../your-data/export.md) · [Delete your record](../your-data/delete.md) ·
+[Export a copy](../your-data/export.md) · [Delete your record](../your-data/delete.md) ·
 [Where your record lives](../your-data/where-it-lives.md).
 
 The legal pages are [`/privacy`](https://lifewell.aoneahsan.com/privacy) and

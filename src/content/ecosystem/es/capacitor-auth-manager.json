@@ -1,0 +1,28 @@
+{
+  "card": "Una sola llamada para iniciar sesión con Google en la web y en aplicaciones nativas.",
+  "title": "Capacitor Auth Manager para iniciar sesión",
+  "intro": "Capacitor Auth Manager ofrece a quienes desarrollan aplicaciones una sola llamada para iniciar sesión con Google en la web, Android y iOS. Su alcance actual se limita a ese proveedor.",
+  "sections": [
+    {
+      "heading": "¿Qué resuelve este paquete?",
+      "body": "Ofrece una llamada compartida para iniciar sesión con Google en aplicaciones web, Android y iOS."
+    },
+    {
+      "heading": "¿Necesita Firebase?",
+      "body": "Firebase no es una dependencia obligatoria para esa llamada."
+    },
+    {
+      "heading": "¿Qué proveedores funcionan en la versión 3.x?",
+      "body": "Google es el proveedor habilitado en la serie 3.x. Ese es su alcance actual."
+    },
+    {
+      "heading": "¿Cómo se relaciona Capacitor Auth Manager con LifeWell?",
+      "body": "LifeWell es una aplicación en la que inicias sesión. Este paquete sirve a quienes implementan el inicio de sesión en sus aplicaciones y, por ahora, admite Google."
+    }
+  ],
+  "facts": [
+    "capacitor-auth-manager-1",
+    "capacitor-auth-manager-2",
+    "capacitor-auth-manager-3"
+  ]
+}

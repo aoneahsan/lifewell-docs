@@ -1,0 +1,24 @@
+{
+  "card": "Gardez une demande d’analyse avec son échantillon et son résultat.",
+  "title": "LabFlow, du prélèvement au résultat",
+  "intro": "LabFlow suit le travail d’un laboratoire de diagnostic, du patient et de la demande jusqu’à l’échantillon, au résultat et à sa diffusion. Chaque transmission a sa place.",
+  "sections": [
+    {
+      "heading": "Quel travail couvre LabFlow ?",
+      "body": "Il suit le travail du laboratoire de diagnostic du début à la fin."
+    },
+    {
+      "heading": "Qu’est-ce qui reste réuni dans le système ?",
+      "body": "Les dossiers du patient, de la demande, de l’échantillon et du résultat se trouvent dans le même système."
+    },
+    {
+      "heading": "Comment un résultat est-il diffusé ?",
+      "body": "Il passe par une validation, du brouillon jusqu’à sa diffusion."
+    },
+    {
+      "heading": "Quelle place occupe LabFlow à côté de LifeWell ?",
+      "body": "LifeWell garde le dossier de santé personnel d’une personne. LabFlow suit la demande d’analyse du laboratoire, l’échantillon, la validation et le résultat."
+    }
+  ],
+  "facts": ["labflow-1", "labflow-2", "labflow-3"]
+}

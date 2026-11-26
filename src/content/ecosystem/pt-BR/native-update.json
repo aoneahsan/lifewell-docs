@@ -1,0 +1,28 @@
+{
+  "card": "Envie uma atualização do pacote Capacitor sem esperar uma nova versão na loja.",
+  "title": "Native Update para versões de aplicativos",
+  "intro": "O Native Update ajuda um aplicativo Capacitor a entregar uma atualização de pacote compatível a quem o usa. As atualizações da loja seguem outro caminho, ao lado desse processo.",
+  "sections": [
+    {
+      "heading": "O que o Native Update distribui?",
+      "body": "Ele atualiza pacotes de aplicativos Capacitor sem exigir uma nova publicação na loja para cada pacote."
+    },
+    {
+      "heading": "Como o pacote chega às pessoas?",
+      "body": "Um pacote compatível pode ser entregue remotamente."
+    },
+    {
+      "heading": "O que acontece com as atualizações da loja?",
+      "body": "O produto também oferece avisos dentro do aplicativo para atualização e avaliação na loja."
+    },
+    {
+      "heading": "Como o Native Update se relaciona com o LifeWell?",
+      "body": "O LifeWell tem caminhos de publicação para web e Android. O Native Update serve a quem distribui pacotes Capacitor e avisos da loja."
+    }
+  ],
+  "facts": [
+    "native-update-1",
+    "native-update-2",
+    "native-update-3"
+  ]
+}

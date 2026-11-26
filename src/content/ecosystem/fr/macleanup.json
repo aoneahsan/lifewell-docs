@@ -1,0 +1,24 @@
+{
+  "card": "Examinez le nettoyage de macOS avant de le choisir.",
+  "title": "macleanup, avant la suppression",
+  "intro": "macleanup aborde le nettoyage d’un Mac avec prudence : vous examinez ce qui est proposé avant de choisir quoi supprimer.",
+  "sections": [
+    {
+      "heading": "Que prend en charge macleanup ?",
+      "body": "Il s’occupe du nettoyage et de l’entretien de macOS avec des choix prudents par défaut."
+    },
+    {
+      "heading": "Comment voir le nettoyage à l’avance ?",
+      "body": "Son catalogue par section montre les opérations proposées avant qu’elles aient lieu."
+    },
+    {
+      "heading": "Quels dossiers restent hors de portée ?",
+      "body": "Les dossiers personnels sont toujours refusés, quel que soit le nettoyage choisi."
+    },
+    {
+      "heading": "Quelle place occupe macleanup à côté de LifeWell ?",
+      "body": "LifeWell garde un dossier personnel. macleanup examine les fichiers qu’un Mac peut nettoyer et refuse d’emporter les dossiers personnels avec eux."
+    }
+  ],
+  "facts": ["macleanup-1", "macleanup-2", "macleanup-3"]
+}

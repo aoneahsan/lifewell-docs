@@ -1,0 +1,28 @@
+{
+  "card": "Busca alimentos por nutriente, por cómo te sientes o por momento del día.",
+  "title": "Eat This cuando la pregunta es qué comer",
+  "intro": "Eat This parte de tu pregunta sobre la comida —un nutriente, cómo te sientes o el momento del día— y te deja comparar lo que aporta una porción.",
+  "sections": [
+    {
+      "heading": "¿Cómo puedes buscar alimentos?",
+      "body": "Empieza por un nutriente, por cómo te sientes o por un momento del día. La búsqueda sigue esa pregunta."
+    },
+    {
+      "heading": "¿Qué muestra una porción?",
+      "body": "El resultado muestra lo que aporta una porción, para que la cantidad tenga contexto."
+    },
+    {
+      "heading": "¿Cuándo conviene llevar la pregunta a otra persona?",
+      "body": "Señala una opción más económica y cuándo la pregunta corresponde a un médico."
+    },
+    {
+      "heading": "¿Cómo se relaciona Eat This con LifeWell?",
+      "body": "LifeWell guarda lo que comes junto al resto de tu registro. Eat This empieza por una pregunta sobre qué comer y lo que aporta una porción."
+    }
+  ],
+  "facts": [
+    "eatthis-1",
+    "eatthis-2",
+    "eatthis-3"
+  ]
+}

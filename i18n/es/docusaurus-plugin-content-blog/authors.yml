@@ -1,0 +1,8 @@
+# Se conserva la clave `ahsan` para mantener la dirección de la página de autor (/blog/authors/ahsan).
+# El sitio habla en nombre del equipo LifeWell, nunca de una sola persona.
+ahsan:
+  name: El equipo LifeWell
+  title: Las personas que crean y mantienen LifeWell
+  url: https://lifewell.aoneahsan.com
+  image_url: /img/logo.svg
+  page: true

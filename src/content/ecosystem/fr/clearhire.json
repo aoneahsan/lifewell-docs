@@ -1,0 +1,24 @@
+{
+  "card": "Transformez votre parcours professionnel en CV structuré.",
+  "title": "ClearHire, pour votre prochain CV",
+  "intro": "ClearHire réunit votre parcours professionnel dans un profil structuré et un CV adapté aux systèmes de suivi des candidatures. Ses outils accompagnent aussi les étapes d’une recherche d’emploi qui demandent plusieurs brouillons.",
+  "sections": [
+    {
+      "heading": "À quoi sert ClearHire ?",
+      "body": "C’est un espace pour préparer un CV plus précis et être découvert par les recruteurs."
+    },
+    {
+      "heading": "Comment le CV est-il construit ?",
+      "body": "Votre profil est structuré, et l’éditeur de CV suit un format adapté aux systèmes de suivi des candidatures."
+    },
+    {
+      "heading": "Quels autres outils sont disponibles ?",
+      "body": "Les outils de carrière couvrent notamment la rédaction des points de votre CV et la vérification de sa compatibilité avec ces systèmes ; la source en recense plus de 50."
+    },
+    {
+      "heading": "Quelle place occupe ClearHire à côté de LifeWell ?",
+      "body": "LifeWell conserve les personnes et le travail dans votre dossier personnel. ClearHire tourne votre parcours professionnel vers un CV structuré et votre recherche d’emploi."
+    }
+  ],
+  "facts": ["clearhire-1", "clearhire-2", "clearhire-3"]
+}

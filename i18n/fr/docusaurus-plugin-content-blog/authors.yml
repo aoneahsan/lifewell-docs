@@ -1,0 +1,7 @@
+# La clé conserve l’adresse de la page de l’auteur (/blog/authors/ahsan).
+ahsan:
+  name: L’équipe LifeWell
+  title: Les personnes qui créent et entretiennent LifeWell
+  url: https://lifewell.aoneahsan.com
+  image_url: /img/logo.svg
+  page: true

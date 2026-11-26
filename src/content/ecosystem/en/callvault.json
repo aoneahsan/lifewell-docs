@@ -1,0 +1,28 @@
+{
+  "card": "A call you can find and listen to later.",
+  "title": "CallVault for the calls worth finding",
+  "intro": "CallVault gives an Android call a place in your phone library, where you can play it back, add a note and find it again.",
+  "sections": [
+    {
+      "heading": "What does CallVault record?",
+      "body": "On Android, the recording depends on the audio source your phone makes available."
+    },
+    {
+      "heading": "How do you find a call later?",
+      "body": "The phone library lets you play, search, add notes and export. A detail is easier to return to when it has a place."
+    },
+    {
+      "heading": "Where are recordings kept?",
+      "body": "They remain on your phone unless you choose private cloud backup."
+    },
+    {
+      "heading": "Where does CallVault fit beside LifeWell?",
+      "body": "LifeWell keeps the people and moments around a call. CallVault keeps the Android recording itself in a phone library you can search."
+    }
+  ],
+  "facts": [
+    "callvault-1",
+    "callvault-2",
+    "callvault-3"
+  ]
+}

@@ -8,14 +8,18 @@
  * - `postBuild` copies the blog's RSS feed to `/feed.xml` with its own self link, so the two never disagree.
  * - `withLastmod` gives every sitemap URL a date; the sitemap plugin's `createSitemapItems` calls it.
  */
-import { readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { access, copyFile, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { setTimeout as delay } from 'node:timers/promises';
+import { load } from 'cheerio';
 import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { LoadedContent as DocsContent } from '@docusaurus/plugin-content-docs';
 import type { AllContent, LoadContext, Plugin, PluginModule } from '@docusaurus/types';
 import { APPS_LASTMOD } from '../src/data/platforms';
+import roster from '../src/data/ecosystem.json';
+import {isOwnedDestination} from '../src/data/linkPolicy';
+import {consolidateLocaleSitemaps} from './locale-sitemap';
 
 /**
  * Docusaurus writes every route module's path into the client bundle, so the absolute path createData returns
@@ -33,6 +37,40 @@ function assertNoLocalPaths(outDir: string, siteDir: string): void {
     const text = readFileSync(path.join(jsDir, file), 'utf8');
     const found = forms.find((form) => text.includes(form));
     if (found) throw new Error(`${file} carries the local path ${found}: pass createData paths to addRoute through generatedModule()`);
+  }
+}
+
+/** Audit rendered anchors, excluding strings inside scripts such as Docusaurus' base URL warning. */
+function assertLinkPolicy(outDir: string): void {
+  const visit = (directory: string): void => {
+    for (const entry of readdirSync(directory, {withFileTypes: true})) {
+      const file = path.join(directory, entry.name);
+      if (entry.isDirectory()) { visit(file); continue; }
+      if (!entry.name.endsWith('.html')) continue;
+      const $ = load(readFileSync(file, 'utf8'));
+      $('a[href]').each((_index, element) => {
+        const href = $(element).attr('href');
+        if (!href || !/^https?:\/\//i.test(href)) return;
+        const rel = new Set(($(element).attr('rel') ?? '').toLowerCase().split(/\s+/));
+        const owned = isOwnedDestination(href);
+        if (owned && (rel.has('nofollow') || rel.has('ugc') || rel.has('sponsored'))) {
+          throw new Error(`site-pages: owned link marked nofollow in ${path.relative(outDir, file)}: ${href}`);
+        }
+        if (!owned && !rel.has('nofollow')) {
+          throw new Error(`site-pages: third-party link lacks nofollow in ${path.relative(outDir, file)}: ${href}`);
+        }
+      });
+    }
+  };
+  visit(outDir);
+}
+
+/** The generated search page must carry a single crawler directive. */
+function assertSearchOutput(outDir: string): void {
+  const $ = load(readFileSync(path.join(outDir, 'search.html'), 'utf8'));
+  const robots = $('meta[name="robots"]');
+  if (robots.length !== 1 || !robots.attr('content')?.includes('noindex')) {
+    throw new Error('site-pages: /search must have exactly one name=robots noindex directive');
   }
 }
 
@@ -84,12 +122,19 @@ type SidebarCategory = Extract<SidebarItem, { type: 'category' }>;
 const DOCS_PLUGIN = 'docusaurus-plugin-content-docs';
 const BLOG_PLUGIN = 'docusaurus-plugin-content-blog';
 const ATOM_NAMESPACE = 'http://www.w3.org/2005/Atom';
+const LOCALE_PREFIX = /^\/(?:zh-Hans|hi|es|ar|fr|pt-BR|ru|ja|ur)(?=\/|$)/;
+
+/** Docusaurus adds a locale prefix to every non-English URL. */
+export function withoutLocale(pathname: string): string {
+  return pathname.replace(LOCALE_PREFIX, '') || '/';
+}
 
 /**
  * Each category index's pathname → the pathnames of the pages it lists, read from the sidebar while the content loads.
  * `withLastmod` dates a category index by them: a generated index's slug need not match its pages' folder.
  */
 const listedByCategory = new Map<string, string[]>();
+const sourceDates = new Map<string, string>();
 
 /** How long `postBuild` waits for the blog plugin's RSS file, and how often it looks. */
 const RSS_WAIT_MS = 30_000;
@@ -196,13 +241,22 @@ function docsGroups(version: DocsVersion): SiteGroup[] {
  * @returns the groups, the blog's list page and the posts, newest first
  * @throws when the docs or blog plugin is off: both pages list their pages
  */
-function collect(allContent: AllContent, blogPermalink: string): SitePagesData {
-  const docs = allContent[DOCS_PLUGIN]?.['default'] as DocsContent | undefined;
-  const blog = allContent[BLOG_PLUGIN]?.['default'] as BlogContent | undefined;
+function collect(allContent: AllContent, blogPermalink: string, siteDir: string, locale: string, base: string): SitePagesData {
+  listedByCategory.clear();
+  sourceDates.clear();
+  const docs = allContent[DOCS_PLUGIN]?.default as DocsContent | undefined;
+  const blog = allContent[BLOG_PLUGIN]?.default as BlogContent | undefined;
   if (docs === undefined || blog === undefined) {
     throw new Error('site-pages: /sitemap and /feed list the docs and the blog, so both plugins (id "default") must be on.');
   }
   const version = docs.loadedVersions.find((loaded) => loaded.isLast) ?? docs.loadedVersions[0];
+  const rememberSourceDate = (permalink: string, source: string): void => {
+    if (!source.startsWith('@site/')) return;
+    const modified = statSync(path.join(siteDir, source.slice('@site/'.length))).mtime;
+    sourceDates.set(permalink, modified.toISOString().slice(0, 10));
+  };
+  for (const doc of version?.docs ?? []) rememberSourceDate(doc.permalink, doc.source);
+  for (const post of blog.blogPosts) rememberSourceDate(post.metadata.permalink, post.metadata.source);
   const posts = blog.blogPosts
     .filter((post) => !post.metadata.unlisted)
     .map(({ metadata }) => ({
@@ -213,8 +267,22 @@ function collect(allContent: AllContent, blogPermalink: string): SitePagesData {
       date: metadata.date.toISOString().slice(0, 10),
     }))
     .sort((a, b) => b.date.localeCompare(a.date));
+  const messages = JSON.parse(readFileSync(path.join(siteDir, 'i18n', locale, 'code.json'), 'utf8')) as Record<string, {message: string}>;
+  const word = (id: string): string => {
+    const message = messages[id]?.message;
+    if (!message) throw new Error(`site-pages: missing ${locale} message ${id}`);
+    return message;
+  };
+  const ecosystemPages: SitePage[] = [
+    {permalink: `${base}/ecosystem`, title: word('ecosystem.title'), description: word('ecosystem.meta'), tags: ['Zaions']},
+    {permalink: `${base}/about-developer`, title: word('about.title'), description: word('about.description'), tags: ['LifeWell']},
+    ...roster.products.filter((product) => product.showcase && product.id !== 'lifewell').map((product) => {
+      const copy = JSON.parse(readFileSync(path.join(siteDir, 'src', 'content', 'ecosystem', locale, `${product.id}.json`), 'utf8')) as {title: string; card: string};
+      return {permalink: `${base}/ecosystem/${product.id}`, title: copy.title, description: copy.card, tags: [product.name]};
+    }),
+  ];
   return {
-    groups: version === undefined ? [] : docsGroups(version),
+    groups: [...(version === undefined ? [] : docsGroups(version)), {kind: 'category', key: `${base}/ecosystem`, label: word('ecosystem.showcase'), pages: ecosystemPages}],
     blog: { permalink: blogPermalink, title: blog.blogTitle, description: blog.blogDescription, tags: [] },
     posts,
   };
@@ -319,24 +387,29 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
   items: readonly Item[],
   blogPath: string
 ): Item[] {
-  const dated = items.flatMap((item) =>
-    item.lastmod ? [{ path: new URL(item.url).pathname, lastmod: item.lastmod }] : []
-  );
+  const dated = items.flatMap((item) => {
+    const pathname = new URL(item.url).pathname;
+    const lastmod = item.lastmod ?? sourceDates.get(pathname);
+    return lastmod ? [{path: pathname, lastmod}] : [];
+  });
   const newest = (inside: (pathname: string) => boolean): string | undefined =>
     dated
       .filter((entry) => inside(entry.path))
       .reduce<string | undefined>((max, entry) => (max === undefined || entry.lastmod > max ? entry.lastmod : max), undefined);
-  const isPost = (pathname: string): boolean => pathname.startsWith(`${blogPath}/`);
+  const isPost = (pathname: string): boolean => withoutLocale(pathname).startsWith(`${blogPath}/`);
 
   return items.map((item) => {
     if (item.lastmod) return item;
     const pathname = new URL(item.url).pathname;
+    const sourceDate = sourceDates.get(pathname);
+    if (sourceDate) return {...item, lastmod: sourceDate};
+    const route = withoutLocale(pathname);
     let lastmod: string | undefined;
     // The home page (LifeWell keeps `src/pages/index.tsx`) points at the whole site, as `/sitemap` does.
-    if (pathname === '/sitemap' || pathname === '/') lastmod = newest(() => true);
+    if (route === '/sitemap' || route === '/') lastmod = newest(() => true);
     // `/apps` lists the released surfaces; it changes when their proof date does.
-    else if (pathname === '/apps') lastmod = APPS_LASTMOD;
-    else if (pathname === '/feed' || pathname === blogPath || isPost(pathname)) lastmod = newest(isPost);
+    else if (route === '/apps') lastmod = APPS_LASTMOD;
+    else if (route === '/feed' || route === blogPath || isPost(pathname)) lastmod = newest(isPost);
     else {
       // A category index lists the pages the sidebar put under it; any other page, the pages under its path.
       const listed = listedByCategory.get(pathname);
@@ -363,7 +436,7 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
       name: 'site-pages',
 
       async allContentLoaded({ allContent, actions }) {
-        const data = collect(allContent, `${base}${blogPath}`);
+        const data = collect(allContent, `${base}${blogPath}`, context.siteDir, context.i18n.currentLocale, base);
         hasPosts = data.posts.length > 0;
         const site = generatedModule(context.generatedFilesDir, await actions.createData('site-pages.json', JSON.stringify(data)));
         actions.addRoute({
@@ -382,6 +455,14 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
 
       async postBuild({ outDir, siteConfig }) {
         assertNoLocalPaths(outDir, context.siteDir);
+        assertSearchOutput(outDir);
+        assertLinkPolicy(outDir);
+        await consolidateLocaleSitemaps({
+          outDir,
+          currentLocale: context.i18n.currentLocale,
+          defaultLocale: context.i18n.defaultLocale,
+          locales: siteConfig.i18n.locales,
+        });
         // With no post the blog writes no feed, so there is nothing to copy.
         if (!hasPosts) return;
         const rss = await readWrittenRss(path.join(outDir, blogPath, 'rss.xml'));

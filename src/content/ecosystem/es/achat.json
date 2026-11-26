@@ -1,0 +1,28 @@
+{
+  "card": "Encuentra a alguien sin pedirle su número.",
+  "title": "AchatAI para las personas que eliges",
+  "intro": "AChat mantiene las conversaciones cerca de las personas con quienes quieres hablar. Basta un nombre de usuario, un enlace de invitación o un código QR para encontrarlas.",
+  "sections": [
+    {
+      "heading": "¿Para quién es AChat?",
+      "body": "Es una aplicación de mensajería para la web y Android, centrada en las personas que tú eliges."
+    },
+    {
+      "heading": "¿Cómo puede encontrarte alguien?",
+      "body": "Puede usar tu nombre de usuario, un enlace de invitación o un código QR. No necesita tu número de teléfono."
+    },
+    {
+      "heading": "¿Y si quieres una sala sin crear una cuenta?",
+      "body": "Puedes abrir una sala anónima antes de que nadie cree una cuenta."
+    },
+    {
+      "heading": "¿Cómo se relaciona AchatAI con LifeWell?",
+      "body": "LifeWell guarda tus notas sobre las personas y los momentos. AChat sirve para conversar con las personas que eliges, incluso en una sala abierta sin cuenta."
+    }
+  ],
+  "facts": [
+    "achat-1",
+    "achat-2",
+    "achat-3"
+  ]
+}

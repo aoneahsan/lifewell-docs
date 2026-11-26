@@ -1,9 +1,9 @@
 ---
 sidebar_position: 9
 title: Moving from Remento to LifeWell
-description: "How to move from Remento to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Remento to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Remento is about a parent's voice. It sends spoken prompts with no app and no lo
 
 LifeWell is not a book project. It is one free place for the people, their memories, the tree and the appointments.
 
-Last checked 2026-11-07. Every fact here is also on [LifeWell and Remento](https://lifewell.aoneahsan.com/compare/remento).
+Last checked 2026-11-26. Every fact here is also on [LifeWell and Remento](https://lifewell.aoneahsan.com/compare/remento).
 
 ## After the chapters are written
 

@@ -1,0 +1,102 @@
+{
+  "link.title.Get LifeWell": {
+    "message": "LifeWellを使う",
+    "description": "The title of the footer links column with title=Get LifeWell in the footer"
+  },
+  "link.title.Documentation": {
+    "message": "ドキュメント",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Project": {
+    "message": "プロジェクト",
+    "description": "The title of the footer links column with title=Project in the footer"
+  },
+  "link.title.The LifeWell team": {
+    "message": "LifeWellチーム",
+    "description": "The title of the footer links column with title=The LifeWell team in the footer"
+  },
+  "link.title.Find everything": {
+    "message": "すべてを見る",
+    "description": "The title of the footer links column with title=Find everything in the footer"
+  },
+  "link.item.label.LifeWell web app": {
+    "message": "LifeWellウェブアプリ",
+    "description": "The label of footer link with label=LifeWell web app linking to https://lifewell.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.lifewell"
+  },
+  "link.item.label.All apps": {
+    "message": "すべてのアプリ",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Get started": {
+    "message": "はじめに",
+    "description": "The label of footer link with label=Get started linking to /intro"
+  },
+  "link.item.label.The seven areas": {
+    "message": "7つの領域",
+    "description": "The label of footer link with label=The seven areas linking to /domains/overview"
+  },
+  "link.item.label.People": {
+    "message": "人",
+    "description": "The label of footer link with label=People linking to /domains/people"
+  },
+  "link.item.label.Export your record": {
+    "message": "記録をエクスポート",
+    "description": "The label of footer link with label=Export your record linking to /your-data/export"
+  },
+  "link.item.label.Privacy and security": {
+    "message": "プライバシーとセキュリティ",
+    "description": "The label of footer link with label=Privacy and security linking to /concepts/privacy-and-security"
+  },
+  "link.item.label.About this site": {
+    "message": "このサイトについて",
+    "description": "The label of footer link with label=About this site linking to /about/the-developer"
+  },
+  "link.item.label.Products from Zaions": {
+    "message": "Zaionsの製品",
+    "description": "The label of footer link with label=Products from Zaions linking to /ecosystem"
+  },
+  "link.item.label.About the developer": {
+    "message": "開発者について",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.Changelog": {
+    "message": "更新履歴",
+    "description": "The label of footer link with label=Changelog linking to /about/changelog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/aoneahsan/lifewell-docs"
+  },
+  "link.item.label.Who builds LifeWell": {
+    "message": "LifeWellを作っている人",
+    "description": "The label of footer link with label=Who builds LifeWell linking to /about/the-developer"
+  },
+  "link.item.label.Contact the team": {
+    "message": "チームに連絡",
+    "description": "The label of footer link with label=Contact the team linking to https://lifewell.aoneahsan.com/contact"
+  },
+  "link.item.label.Tours and the walkthrough": {
+    "message": "ツアーと操作ガイド",
+    "description": "The label of footer link with label=Tours and the walkthrough linking to /getting-started/tours-and-walkthrough"
+  },
+  "link.item.label.Sitemap": {
+    "message": "サイトマップ",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.Feed": {
+    "message": "フィード",
+    "description": "The label of footer link with label=Feed linking to /feed"
+  },
+  "copyright": {
+    "message": "© 2026 LifeWell · LifeWell — <a href=\"https://zaions.com\" target=\"_blank\" rel=\"noopener\">Zaionsチーム</a>が心を込めて開発。ドキュメントはCC BY 4.0で提供しています。",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "LifeWellのロゴ",
+    "description": "The alt text of footer logo"
+  }
+}

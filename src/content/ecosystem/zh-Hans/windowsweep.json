@@ -1,0 +1,28 @@
+{
+  "card": "删除前先看清 Windows 清理清单。",
+  "title": "windowsweep：清理磁盘前先预览",
+  "intro": "windowsweep 列出可能清理的路径，并先执行试运行。处理个人文件需要您明确选择。",
+  "sections": [
+    {
+      "heading": "windowsweep 用来做什么？",
+      "body": "这是一个 Windows 清理命令，无需安装即可通过 npx 运行。"
+    },
+    {
+      "heading": "删除前会发生什么？",
+      "body": "它会先真实地试运行，显示拟删除的路径。"
+    },
+    {
+      "heading": "如何处理个人文件夹？",
+      "body": "个人文件需要逐项选择，不会与其他内容一起被扫走。"
+    },
+    {
+      "heading": "windowsweep 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存个人记录。windowsweep 帮您审慎选择要从 Windows 磁盘上移除的路径。"
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

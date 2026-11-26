@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Articles",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Nouvelles et notes de version de l’équipe LifeWell : ce qui a changé dans l’application et pourquoi.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Articles récents",
+    "description": "The label for the left sidebar"
+  }
+}

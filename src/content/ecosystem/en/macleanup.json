@@ -1,0 +1,28 @@
+{
+  "card": "Preview macOS cleanup before choosing it.",
+  "title": "macleanup before deletion",
+  "intro": "macleanup takes the same cautious approach to a Mac: inspect the proposed cleanup before choosing anything to remove.",
+  "sections": [
+    {
+      "heading": "What does macleanup maintain?",
+      "body": "It handles macOS cleanup and maintenance with a cautious default."
+    },
+    {
+      "heading": "How is cleanup previewed?",
+      "body": "The section catalogue lets you see the proposed work first."
+    },
+    {
+      "heading": "Which folders stay out of reach?",
+      "body": "Personal folders are refused outright, regardless of the cleanup choice."
+    },
+    {
+      "heading": "Where does macleanup fit beside LifeWell?",
+      "body": "LifeWell keeps a personal record. macleanup looks at files a Mac can clear and refuses to take personal folders with them."
+    }
+  ],
+  "facts": [
+    "macleanup-1",
+    "macleanup-2",
+    "macleanup-3"
+  ]
+}

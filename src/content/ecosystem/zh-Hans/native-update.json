@@ -1,0 +1,28 @@
+{
+  "card": "不必每次等应用商店发布，也能交付 Capacitor 应用资源包。",
+  "title": "Native Update：交付应用更新",
+  "intro": "Native Update 帮助 Capacitor 应用向用户交付受支持的资源包更新。应用商店更新则通过另一条流程处理。",
+  "sections": [
+    {
+      "heading": "Native Update 交付什么？",
+      "body": "它处理 Capacitor 应用资源包的更新，不必每次都等待应用商店发布。"
+    },
+    {
+      "heading": "资源包如何到达用户设备？",
+      "body": "受支持的资源包可以通过无线更新交付。"
+    },
+    {
+      "heading": "应用商店更新怎么办？",
+      "body": "它也支持在应用内提示用户更新应用商店版本并评价应用。"
+    },
+    {
+      "heading": "Native Update 与 LifeWell 有什么关系？",
+      "body": "LifeWell 有网页和 Android 发布流程。Native Update 供交付 Capacitor 应用资源包及应用商店提示的开发者使用。"
+    }
+  ],
+  "facts": [
+    "native-update-1",
+    "native-update-2",
+    "native-update-3"
+  ]
+}

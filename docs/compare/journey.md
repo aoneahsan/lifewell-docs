@@ -1,9 +1,9 @@
 ---
 sidebar_position: 11
 title: Moving from Journey to LifeWell
-description: "How to move from Journey to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from Journey to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ Journey is a diary: a free version you can use indefinitely, and a membership th
 
 LifeWell is about people as much as days. A memory is filed under the people in it, next to the family tree and their health and appointments.
 
-Last checked 2026-11-07. Compare the two on the app: [LifeWell and Journey](https://lifewell.aoneahsan.com/compare/journey).
+Last checked 2026-11-26. Compare the two on the app: [LifeWell and Journey](https://lifewell.aoneahsan.com/compare/journey).
 
 ## From diary entries to people
 

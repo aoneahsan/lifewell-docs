@@ -1,0 +1,28 @@
+{
+  "card": "Choose which Android apps can use the network.",
+  "title": "NetCage for an app that should stay offline",
+  "intro": "NetCage lets you refuse a selected Android app access to Wi-Fi, mobile data or both while the rest of the phone stays online.",
+  "sections": [
+    {
+      "heading": "What can NetCage refuse?",
+      "body": "It can block connections for a selected Android app while other apps stay online."
+    },
+    {
+      "heading": "Can Wi-Fi and mobile data differ?",
+      "body": "Choose Wi-Fi, mobile data or both for a rule."
+    },
+    {
+      "heading": "Can rules follow a schedule?",
+      "body": "Profiles group app rules and can apply them on selected days and times."
+    },
+    {
+      "heading": "Where does NetCage fit beside LifeWell?",
+      "body": "LifeWell needs a connection for many of its screens. NetCage gives Android users a separate choice about which app may use Wi-Fi or mobile data."
+    }
+  ],
+  "facts": [
+    "netcage-1",
+    "netcage-2",
+    "netcage-3"
+  ]
+}

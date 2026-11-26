@@ -1,0 +1,28 @@
+{
+  "card": "Una llamada que puedes encontrar y escuchar después.",
+  "title": "CallVault para las llamadas que quieres conservar",
+  "intro": "CallVault guarda las llamadas de Android en una biblioteca del teléfono. Allí puedes escucharlas, añadir una nota y encontrarlas más adelante.",
+  "sections": [
+    {
+      "heading": "¿Qué graba CallVault?",
+      "body": "En Android, la grabación depende de la fuente de audio que ofrezca tu teléfono."
+    },
+    {
+      "heading": "¿Cómo encuentras una llamada después?",
+      "body": "La biblioteca del teléfono te deja escuchar, buscar, añadir notas y exportar. Una llamada con su propio lugar es más fácil de recuperar."
+    },
+    {
+      "heading": "¿Dónde se guardan las grabaciones?",
+      "body": "Permanecen en tu teléfono, a menos que elijas una copia de seguridad privada en la nube."
+    },
+    {
+      "heading": "¿Cómo se relaciona CallVault con LifeWell?",
+      "body": "LifeWell guarda las personas y los momentos alrededor de una llamada. CallVault guarda la grabación de Android en una biblioteca del teléfono que puedes buscar."
+    }
+  ],
+  "facts": [
+    "callvault-1",
+    "callvault-2",
+    "callvault-3"
+  ]
+}

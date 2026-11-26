@@ -1,0 +1,28 @@
+{
+  "card": "何かを削除する前に、Windowsの整理対象を確認できます。",
+  "title": "ディスク整理の前に使うwindowsweep",
+  "intro": "windowsweepは削除対象になり得るパスを示し、最初はドライランを実行します。個人用ファイルは自分で明確に選ぶ必要があります。",
+  "sections": [
+    {
+      "heading": "windowsweepは何のためにありますか？",
+      "body": "npxを使い、インストールせずに実行できるWindowsの整理コマンドです。"
+    },
+    {
+      "heading": "削除前には何が起こりますか？",
+      "body": "実際のドライランで、削除前に対象のパスを表示します。"
+    },
+    {
+      "heading": "個人用フォルダーはどう扱われますか？",
+      "body": "個人用ファイルはほかの対象とまとめて削除されず、1行ずつ選びます。"
+    },
+    {
+      "heading": "windowsweepとLifeWellはどう違いますか？",
+      "body": "LifeWellは個人の記録を残します。windowsweepは、どのWindowsのディスク上のパスを削除するか、明確に選ぶためのツールです。"
+    }
+  ],
+  "facts": [
+    "windowsweep-1",
+    "windowsweep-2",
+    "windowsweep-3"
+  ]
+}

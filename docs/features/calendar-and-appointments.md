@@ -1,6 +1,6 @@
 ---
 title: Calendar and appointments
-description: One calendar for the ordinary week and the medical one, with a checklist on each appointment for the questions you meant to ask.
+description: Keep dated events and appointments together, with a checklist for questions and notes that belong to each appointment.
 keywords: [lifewell calendar, appointment tracker, appointment checklist, health appointments]
 tags: [features, everyday]
 sidebar_position: 1
@@ -29,13 +29,15 @@ and the consulting room. It stays with the appointment afterwards, so the answer
 
 ## Reminders
 
-An appointment can raise a reminder. Appointment reminders are on by default and delivered by your device —
-see [Reminders](./reminders.md).
+The form offers a reminder one hour before a timed appointment. On Android, a device alert can arrive when
+notifications are available and allowed. On the web, the appointment is saved but the browser cannot alert
+you after the tab is closed. See [Reminders](./reminders.md).
 
 ## What is in the export
 
-Calendar events export as **Calendar**, and their checklists as **Appointment notes**. Both are in every
-format, and the events are the dated kind — narrowing the date range on an export narrows them. See
+Calendar events export as **Calendar**, and their checklists as **Appointment notes**. Both appear in JSON
+and CSV exports; appointment notes are not in the PDF summary. Events are dated, so narrowing the date
+range on an export narrows them. See
 [the export format](../reference/export-format.md).
 
 ## What this is not

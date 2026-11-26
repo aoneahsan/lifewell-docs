@@ -1,0 +1,28 @@
+{
+  "card": "Mantenha um pedido de exame junto da amostra e do resultado.",
+  "title": "LabFlow para o percurso de um exame",
+  "intro": "O LabFlow acompanha o trabalho de um laboratório de diagnóstico: paciente, pedido, amostra, resultado e liberação. Cada passagem tem seu lugar.",
+  "sections": [
+    {
+      "heading": "Que trabalho o LabFlow cobre?",
+      "body": "O trabalho de diagnóstico laboratorial passa pelo sistema do início ao fim."
+    },
+    {
+      "heading": "O que permanece reunido no sistema?",
+      "body": "Os registros de paciente, pedido, amostra e resultado ficam no mesmo sistema."
+    },
+    {
+      "heading": "Como um resultado é liberado?",
+      "body": "O resultado passa pela validação, do rascunho até a liberação."
+    },
+    {
+      "heading": "Como o LabFlow se relaciona com o LifeWell?",
+      "body": "O LifeWell guarda o registro pessoal de saúde de alguém. O LabFlow acompanha o pedido, a amostra, a validação e o resultado no laboratório de diagnóstico."
+    }
+  ],
+  "facts": [
+    "labflow-1",
+    "labflow-2",
+    "labflow-3"
+  ]
+}

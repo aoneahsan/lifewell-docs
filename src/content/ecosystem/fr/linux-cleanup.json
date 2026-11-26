@@ -1,0 +1,24 @@
+{
+  "card": "Voyez chaque chemin avant que linux-cleanup y touche.",
+  "title": "linux-cleanup et les chemins qu’il nomme",
+  "intro": "linux-cleanup commence par nommer les chemins qu’il pourrait modifier. La simulation vous laisse lire la liste avant toute suppression.",
+  "sections": [
+    {
+      "heading": "À quoi sert linux-cleanup ?",
+      "body": "Il libère de l’espace disque et de cache sous Linux grâce à un catalogue qui tient compte des outils de développement."
+    },
+    {
+      "heading": "Que montre-t-il avant une modification ?",
+      "body": "Avant de changer quoi que ce soit, il indique les chemins qu’il toucherait."
+    },
+    {
+      "heading": "Comment la suppression est-elle contrôlée ?",
+      "body": "Une véritable simulation et un point de passage unique pour la suppression gardent le retrait effectif au même endroit."
+    },
+    {
+      "heading": "Quelle place occupe linux-cleanup à côté de LifeWell ?",
+      "body": "LifeWell garde des notes personnelles que vous pouvez relire. linux-cleanup répond à une autre question de conservation : quels chemins du disque peuvent être supprimés."
+    }
+  ],
+  "facts": ["linux-cleanup-1", "linux-cleanup-2", "linux-cleanup-3"]
+}

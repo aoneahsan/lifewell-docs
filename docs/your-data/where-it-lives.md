@@ -1,6 +1,6 @@
 ---
 title: Where your record lives
-description: Written on your device first, synced to a Postgres database with per-row rules, with photos in your own Google Drive. What that means when you go offline, disconnect, or leave.
+description: Your record lives in a Postgres database, photos in your Google Drive, and limited queued quick logs on your device when offline logging is enabled.
 keywords: [lifewell offline, google drive storage, where is my data stored, sync, postgres]
 tags: [your-data, privacy, concepts]
 sidebar_position: 3
@@ -16,17 +16,18 @@ Three places, and they hold different things on purpose.
 | Photos and files | **Your own Google Drive** | You, through Google |
 | Preferences, session, drafts | Your device | You, on that device |
 
-## Written on your device first
+## When the connection drops
 
-Entries are written locally first and sync when there is a connection. A tunnel is not a reason to lose a
-day.
+LifeWell normally writes your record to its database. When the connection drops, the app blocks the current
+page until a real request succeeds. If **Keep working offline** is on in device settings, you may choose to
+keep logging supported readings, cycle-day changes and symptom episodes. Those changes are held on this
+device and replayed after reconnecting.
 
 What that means in practice:
 
-- You can record something with no signal, and it goes up when there is one.
-- Reads you have already made are cached, so a page you visited opens again offline.
-- A page you have never opened, offline, has nothing to show you — the app says so rather than showing an
-  empty state that looks like an empty record.
+- A queued quick log is not visible on another device until the server accepts it.
+- Other record changes and server reads need a connection.
+- The service worker does not cache pages, so a closed tab cannot reopen LifeWell offline.
 
 ## Photos are in your Drive, not ours
 

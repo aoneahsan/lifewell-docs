@@ -1,0 +1,24 @@
+{
+  "card": "Cherchez un aliment par nutriment, ressenti ou moment de la journée.",
+  "title": "Eat This, quand la question porte sur les aliments",
+  "intro": "Eat This part de votre question sur les aliments — un nutriment, un ressenti ou un moment de la journée — puis vous aide à comparer une portion.",
+  "sections": [
+    {
+      "heading": "Comment chercher un aliment ?",
+      "body": "Commencez par un nutriment, un ressenti ou un moment de la journée. La recherche suit votre question."
+    },
+    {
+      "heading": "Que montre une portion ?",
+      "body": "Le résultat indique ce qu’apporte une portion, pour que la quantité ait un sens."
+    },
+    {
+      "heading": "Quand faut-il poser la question ailleurs ?",
+      "body": "L’application signale une option moins chère et indique quand il vaut mieux en parler à un médecin."
+    },
+    {
+      "heading": "Quelle place occupe Eat This à côté de LifeWell ?",
+      "body": "LifeWell garde vos notes alimentaires avec le reste de votre dossier. Eat This part de votre question sur ce que vous pourriez manger et sur l’apport d’une portion."
+    }
+  ],
+  "facts": ["eatthis-1", "eatthis-2", "eatthis-3"]
+}

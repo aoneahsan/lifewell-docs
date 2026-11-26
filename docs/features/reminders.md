@@ -14,26 +14,30 @@ sidebar_position: 2
 
 | Switch | Default | What it covers |
 |---|---|---|
-| Medication reminders | **On** | Every medicine you asked to be reminded about |
-| Appointment reminders | **On** | Calendar events with a reminder set |
-| Nudge me if I have not logged by 9pm | **Off** | The day-with-nothing-in-it prompt |
+| Medication reminders | **On** | Inbox prompts for due, unmarked doses when you open your medication list on this device |
+| Appointment reminders | **On** | Timed calendar events with a reminder set; Android can alert one hour before when notifications are allowed |
+| Wellness reminders | **Off** | Eye-break, movement and posture schedules you choose on their pages |
 
-The asymmetry is the product. Being reminded to take a tablet is why you entered it in the first place;
-being nudged for not writing something down is the app asking for attention it was not offered, so it is
-opted into rather than out of.
+The first two categories start on because they follow a medicine or event you chose to record. Wellness
+breaks are optional interruptions and start off. Turning a category on does not create an event or a
+daily reminder.
 
-These are master switches. A single medicine can still have its own reminder turned off, and turning the
-master off silences every medicine at once.
+These are master switches. A single medicine can still have its own reminder turned off. The medication
+switch controls whether this device asks LifeWell to create due-dose inbox prompts when you open the
+medication list; it does not remove prompts already in the inbox.
 
 ## Quiet hours
 
 Quiet hours are kept **on the device**, not on your account, and the panel says so where you can read it.
-That is the right home rather than merely the convenient one: the same person may want medication reminders
-on the handset in their pocket and not on the tablet in the kitchen.
+That is the right home rather than merely the convenient one: the same person may want device notifications
+on the handset in their pocket and not on the tablet in the kitchen. Medicine due-dose prompts are in the
+LifeWell inbox, not this device channel.
 
 ## On Android
 
-Reminders are delivered by Android itself, so one arrives whether or not LifeWell is open.
+Supported event and wellness reminders can be delivered by Android itself when you allow device notifications,
+including while LifeWell is closed. Medicine due-dose prompts appear in the LifeWell inbox when a dose is due
+and unmarked; they do not send a phone notification or email. The water tracker does not schedule drink reminders.
 
 :::note[LifeWell never asks for the exact-alarm permission]
 Android reserves exact alarms for alarm clocks and calendars. The notification plugin declares that
@@ -46,20 +50,19 @@ does not grant to an app of this kind, which would have failed review rather tha
 
 Push is a separate thing from a reminder, and it is worth keeping the two apart:
 
-- **A reminder** is scheduled by your own device from something you entered. It works offline.
-- **A push notification** comes from us — an announcement, or something that happened on your account.
+- **A device reminder** is scheduled from a supported event or wellness prompt. It can arrive while the app is closed.
+- **A push notification** is a broadcast the LifeWell team sends through OneSignal. LifeWell does not
+  automatically send account-event push messages.
 
 Push is **receive-only**: LifeWell subscribes your device and routes the tap. It is switched on per device,
 never automatically, and web push works only on the deployed site.
 
-:::warning[Push is not built yet]
-The subscription plumbing and the app identifier are in place; the service that uses them is not written.
-Reminders work today. Push notifications do not arrive yet, on any platform.
-:::
+Permission alone does not mean the device is subscribed. The settings panel shows the subscription state;
+on the web, subscription works only at the deployed LifeWell address. The team controls when a broadcast is
+sent, so enabling push does not promise that a message will arrive on a schedule.
 
 ## What a reminder shows
 
-A medication reminder is titled with the medicine and its strength; an appointment reminder is titled with
-the event. That is what makes it useful and it is also what makes it readable on a lock screen by anybody
-standing nearby. If that matters to you, your phone's own notification settings can hide the content of a
-notification until it is unlocked — that control belongs to Android rather than to LifeWell.
+The medicine due-dose prompt stays in the LifeWell inbox. A supported event reminder on Android can show its
+title on the lock screen, where somebody nearby may read it. Your phone's notification settings can hide
+content until it is unlocked; that control belongs to Android rather than to LifeWell.

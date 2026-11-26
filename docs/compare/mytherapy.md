@@ -1,9 +1,9 @@
 ---
 sidebar_position: 25
 title: Moving from MyTherapy to LifeWell
-description: "How to move from MyTherapy to LifeWell, how they differ and what each costs. Checked 2026-11-07."
+description: "How to move from MyTherapy to LifeWell, how they differ and what each costs. Checked 2026-11-26."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-26
   author: The LifeWell team
 ---
 
@@ -13,7 +13,7 @@ MyTherapy is free medication reminders and an intake diary, paid for through par
 
 LifeWell keeps the medication record with the person — their memories, the family tree, and everything else you keep about your life.
 
-Last checked 2026-11-07. Both, with sources: [LifeWell and MyTherapy](https://lifewell.aoneahsan.com/compare/mytherapy).
+Last checked 2026-11-26. Both, with sources: [LifeWell and MyTherapy](https://lifewell.aoneahsan.com/compare/mytherapy).
 
 ## From MyTherapy's plan to LifeWell
 

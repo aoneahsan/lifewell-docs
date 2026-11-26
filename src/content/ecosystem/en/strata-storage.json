@@ -1,0 +1,28 @@
+{
+  "card": "One interface for several places an app keeps data.",
+  "title": "Strata Storage beneath the app",
+  "intro": "Strata Storage gives app makers one API over several storage layers, from browser storage to native storage.",
+  "sections": [
+    {
+      "heading": "What does its API cover?",
+      "body": "One interface sits over localStorage, IndexedDB, cookies and native storage."
+    },
+    {
+      "heading": "Where can an app use it?",
+      "body": "It covers the web as well as iOS and Android."
+    },
+    {
+      "heading": "How many dependencies does it add?",
+      "body": "The package lists zero dependencies."
+    },
+    {
+      "heading": "Where does Strata Storage fit beside LifeWell?",
+      "body": "LifeWell asks where a personal record should live and sync. Strata Storage addresses the app maker’s side: one interface over several storage layers."
+    }
+  ],
+  "facts": [
+    "strata-storage-1",
+    "strata-storage-2",
+    "strata-storage-3"
+  ]
+}

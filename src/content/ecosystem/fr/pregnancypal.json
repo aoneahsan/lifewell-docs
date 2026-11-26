@@ -1,0 +1,28 @@
+{
+  "card": "Garder ensemble les semaines d’une grossesse qui évolue.",
+  "title": "PregnancyPal, semaine après semaine",
+  "intro": "PregnancyPal réunit des informations semaine par semaine et vos propres notes pendant la grossesse. Vous y gardez les détails dont vous souhaitez vous souvenir.",
+  "sections": [
+    {
+      "heading": "À quoi sert PregnancyPal ?",
+      "body": "Il accompagne les semaines d’une grossesse qui évolue."
+    },
+    {
+      "heading": "Que pouvez-vous suivre chaque semaine ?",
+      "body": "Les informations hebdomadaires portent notamment sur l’alimentation et l’exercice."
+    },
+    {
+      "heading": "Que pouvez-vous noter ?",
+      "body": "Vous pouvez réunir vos constantes, symptômes, humeur et rendez-vous dans un même dossier."
+    },
+    {
+      "heading": "Quelle place occupe PregnancyPal à côté de LifeWell ?",
+      "body": "LifeWell compte les étapes de la vie parmi les sept espaces qui vous entourent. PregnancyPal se concentre sur les semaines de grossesse et sur les détails que vous choisissez d’y noter."
+    }
+  ],
+  "facts": [
+    "pregnancypal-1",
+    "pregnancypal-2",
+    "pregnancypal-3"
+  ]
+}

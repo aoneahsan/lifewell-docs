@@ -1,0 +1,24 @@
+announcement:
+  label: إعلان
+  permalink: /announcement
+  description: إعلانات المشروع وإطلاقاته.
+
+lifewell:
+  label: LifeWell
+  permalink: /lifewell
+  description: مقالات عن تطبيق LifeWell وميزاته وإصداراته وقرارات تصميمه.
+
+docs:
+  label: التوثيق
+  permalink: /docs-tag
+  description: مقالات عن التوثيق نفسه وما نُشر فيه وما يليه.
+
+release:
+  label: إصدار
+  permalink: /release
+  description: إصدارات LifeWell الجديدة على الويب وAndroid وإضافة المتصفح.
+
+privacy:
+  label: الخصوصية
+  permalink: /privacy
+  description: الخصوصية والتعامل مع البيانات وما يفعله LifeWell ببياناتك وما لا يفعله.

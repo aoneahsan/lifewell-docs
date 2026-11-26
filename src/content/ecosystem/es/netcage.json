@@ -1,0 +1,28 @@
+{
+  "card": "Elige qué aplicaciones Android pueden usar la red.",
+  "title": "NetCage para una aplicación que debe permanecer sin conexión",
+  "intro": "NetCage te deja bloquear el acceso de una aplicación Android elegida a Wi-Fi, datos móviles o ambos, mientras el resto del teléfono sigue conectado.",
+  "sections": [
+    {
+      "heading": "¿Qué puede bloquear NetCage?",
+      "body": "Puede bloquear la conexión de una aplicación Android elegida sin desconectar las demás."
+    },
+    {
+      "heading": "¿Se pueden tratar distinto Wi-Fi y los datos móviles?",
+      "body": "Elige Wi-Fi, datos móviles o ambos para cada regla."
+    },
+    {
+      "heading": "¿Pueden las reglas seguir un horario?",
+      "body": "Los perfiles agrupan reglas por aplicación y pueden aplicarlas en los días y horarios que elijas."
+    },
+    {
+      "heading": "¿Cómo se relaciona NetCage con LifeWell?",
+      "body": "Muchas pantallas de LifeWell necesitan conexión. NetCage ofrece a quienes usan Android una decisión aparte sobre qué aplicaciones pueden usar Wi-Fi o datos móviles."
+    }
+  ],
+  "facts": [
+    "netcage-1",
+    "netcage-2",
+    "netcage-3"
+  ]
+}

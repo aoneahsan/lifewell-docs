@@ -1,0 +1,24 @@
+announcement:
+  label: お知らせ
+  permalink: /announcement
+  description: プロジェクトからのお知らせと公開情報。
+
+lifewell:
+  label: LifeWellの記事
+  permalink: /lifewell
+  description: LifeWellの機能、リリース、設計についての記事。
+
+docs:
+  label: ドキュメント
+  permalink: /docs-tag
+  description: ドキュメント自体で公開した内容と、今後の変更についての記事。
+
+release:
+  label: リリース
+  permalink: /release
+  description: ウェブ、Android、ブラウザー拡張機能におけるLifeWellの新しいバージョン。
+
+privacy:
+  label: プライバシー
+  permalink: /privacy
+  description: プライバシー、記録の扱い、LifeWellがあなたの情報をどう扱うかについての記事。

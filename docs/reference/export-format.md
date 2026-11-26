@@ -8,18 +8,18 @@ sidebar_position: 1
 
 # The export file format
 
-This describes the file [Export everything](../your-data/export.md) produces, so another application can read
+This describes the file [Export a copy](../your-data/export.md) produces, so another application can read
 it without guessing.
 
 It is not a LifeWell format. JSON is JSON, and the archive is an ordinary zip of ordinary CSV files.
 
 ## The three files
 
-| Format | File name | Media type | Complete |
+| Format | File name | Media type | Scope |
 |---|---|---|---|
-| JSON | `lifewell-export-<YYYY-MM-DD>.json` | `application/json` | **Yes** |
-| CSV | `lifewell-export-<YYYY-MM-DD>.zip` | `application/zip` | **Yes** |
-| PDF | `lifewell-export-<YYYY-MM-DD>.pdf` | `application/pdf` | **No** — see below |
+| JSON | `lifewell-export-<YYYY-MM-DD>.json` | `application/json` | Selected range; 5,000 rows per table |
+| CSV | `lifewell-export-<YYYY-MM-DD>.zip` | `application/zip` | Selected range; 5,000 rows per table |
+| PDF | `lifewell-export-<YYYY-MM-DD>.pdf` | `application/pdf` | Summary — see below |
 
 The date is your own local day, not a server day. The name stays ASCII and the same shape in every language,
 because it is something you will search a downloads folder for.
@@ -194,7 +194,9 @@ Sixty-five tables, grouped by the area they belong to.
 
 ## What each format leaves out
 
-**JSON and CSV are complete.** Every one of the sixty-five tables above is in both.
+**JSON and CSV include the supported tables for the selected range.** Dated rows outside that range are
+omitted, and any table over 5,000 rows is capped and named in the header. The formats are for reading or
+moving included data; LifeWell does not currently offer an account restore from these files.
 
 **The PDF is not, and that is the point of it.** A PDF is a document people print, hand to a receptionist and
 leave on a desk. So it carries what a clinician actually reads and nothing else:
@@ -216,7 +218,7 @@ files you open yourself.
 
 ## What no format ever contains
 
-Seven things are absent from **every** export, including the complete ones.
+Seven things are absent from **every** export. The selected date range and table cap can exclude more rows.
 
 | Absent | Why |
 |---|---|

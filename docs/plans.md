@@ -21,10 +21,10 @@ Prices are in US dollars.
 | People you can record | 50 | Unlimited | Unlimited |
 | Entries | Unlimited | Unlimited | Unlimited |
 | Storage | 5 GB | 50 GB | 200 GB |
-| Export everything | Yes | Yes | Yes |
+| Export a selected date range, up to 5,000 rows per table | Yes | Yes | Yes |
 | Read-only share links | Yes | Yes | Yes |
 | Scheduled exports | — | Yes | Yes |
-| Consultations | — | Yes | Yes |
+| Active consultations | Up to 10 | Unlimited | Unlimited |
 | AI estimates a month | 50 | 1,000 | 1,500 |
 
 Family starts at three seats — $26.97 a month for three. You choose the number when you buy, and hand the

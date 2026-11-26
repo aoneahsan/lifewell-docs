@@ -1,0 +1,28 @@
+{
+  "card": "用一个接口管理应用的多种存储位置。",
+  "title": "Strata Storage：应用的存储接口",
+  "intro": "Strata Storage 为应用开发者提供统一 API，连接从浏览器到原生设备的多种存储层。",
+  "sections": [
+    {
+      "heading": "它的 API 涵盖什么？",
+      "body": "同一个接口覆盖 localStorage、IndexedDB、Cookie 和原生存储。"
+    },
+    {
+      "heading": "哪些应用可以使用？",
+      "body": "网页、iOS 和 Android 应用都可以使用。"
+    },
+    {
+      "heading": "它会增加多少依赖？",
+      "body": "这个软件包列出的依赖数量为零。"
+    },
+    {
+      "heading": "Strata Storage 与 LifeWell 有什么关系？",
+      "body": "LifeWell 需要决定个人记录在哪里保存和同步。Strata Storage 从开发者角度处理另一件事：用一个接口管理多种存储层。"
+    }
+  ],
+  "facts": [
+    "strata-storage-1",
+    "strata-storage-2",
+    "strata-storage-3"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "card": "Pausa una partida de propiedades y conserva los títulos en su lugar.",
+  "title": "RentParty cuando hay que pausar la partida",
+  "intro": "RentParty conserva una partida de propiedades lista para retomarse. Un teléfono compartido, jugadores controlados por la computadora o una sala en línea son distintas maneras de entrar al mismo tablero.",
+  "sections": [
+    {
+      "heading": "¿Qué clase de juego es RentParty?",
+      "body": "Es un juego de compraventa de propiedades que puedes dejar y retomar."
+    },
+    {
+      "heading": "¿Cómo pueden jugar varias personas?",
+      "body": "Pueden pasarse un teléfono, jugar contra personajes controlados por la computadora o entrar en una sala en línea."
+    },
+    {
+      "heading": "¿Qué se conserva al pausar la partida?",
+      "body": "El juego administra el banco y mantiene los títulos donde estaban cuando retomas la partida."
+    },
+    {
+      "heading": "¿Cómo se relaciona RentParty con LifeWell?",
+      "body": "LifeWell guarda los momentos que compartes con otras personas. RentParty es un juego para compartir, pausar y retomar cuando todos puedan volver."
+    }
+  ],
+  "facts": [
+    "rentparty-1",
+    "rentparty-2",
+    "rentparty-3"
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "docs.feed.item.published": {
+    "message": "نُشر في {published_date}"
+  },
+  "docs.feed.title": {
+    "message": "الموجز"
+  },
+  "docs.feed.meta.description": {
+    "message": "مقالات مدونة توثيق LifeWell، الأحدث أولاً، مع روابط RSS وAtom لقارئ الموجز لديك."
+  },
+  "docs.feed.intro": {
+    "message": "مقالات مدونة توثيق LifeWell، الأحدث أولاً."
+  },
+  "docs.feed.rss.heading": {
+    "message": "تابع عبر RSS"
+  },
+  "docs.feed.rss.body": {
+    "message": "RSS قائمة بسيطة بالمقالات الجديدة يتحقق منها قارئ الموجز نيابة عنك. انسخ الرابط أدناه إلى قارئك، وستظهر المقالات الجديدة فيه تلقائياً."
+  },
+  "docs.feed.rss.link_label": {
+    "message": "رابط RSS"
+  },
+  "docs.feed.copy": {
+    "message": "نسخ الرابط"
+  },
+  "docs.feed.copied": {
+    "message": "نُسخ"
+  },
+  "docs.feed.copy_failed": {
+    "message": "تعذر نسخ الرابط. حدده وانسخه بنفسك."
+  },
+  "docs.feed.atom.label": {
+    "message": "موجز Atom"
+  },
+  "docs.feed.atom.hint": {
+    "message": "المقالات نفسها بصيغة Atom."
+  },
+  "docs.feed.item.read": {
+    "message": "اقرأ المقال"
+  },
+  "docs.feed.empty.title": {
+    "message": "لا توجد مقالات بعد"
+  },
+  "docs.feed.empty.body": {
+    "message": "ستظهر أول مقالة هنا وفي قارئ الموجز لديك عند نشرها."
+  },
+  "docs.sitemap.title": {
+    "message": "خريطة الموقع"
+  },
+  "docs.sitemap.meta.description": {
+    "message": "جميع صفحات توثيق LifeWell في مكان واحد، منظمة وقابلة للبحث: البدء والمجالات السبعة والميزات وبياناتك والخطط وسجل التغييرات."
+  },
+  "docs.sitemap.intro": {
+    "message": "جميع صفحات توثيق LifeWell، منظمة وقابلة للبحث."
+  },
+  "docs.sitemap.files.label": {
+    "message": "الملفات"
+  },
+  "docs.sitemap.file.sitemap_xml.label": {
+    "message": "sitemap.xml"
+  },
+  "docs.sitemap.file.sitemap_xml.hint": {
+    "message": "القائمة نفسها بالتنسيق الذي تقرؤه محركات البحث."
+  },
+  "docs.sitemap.file.feed_xml.label": {
+    "message": "feed.xml"
+  },
+  "docs.sitemap.file.feed_xml.hint": {
+    "message": "مقالات المدونة الجديدة لتطبيق قارئ الموجز لديك."
+  },
+  "docs.sitemap.file.rss.label": {
+    "message": "موجز RSS"
+  },
+  "docs.sitemap.file.rss.hint": {
+    "message": "المقالات نفسها الموجودة في feed.xml، عند عنوان المدونة."
+  },
+  "docs.sitemap.file.atom.label": {
+    "message": "موجز Atom"
+  },
+  "docs.sitemap.file.atom.hint": {
+    "message": "المقالات نفسها بصيغة Atom."
+  },
+  "docs.sitemap.file.llms.label": {
+    "message": "llms.txt"
+  },
+  "docs.sitemap.file.llms.hint": {
+    "message": "ملخص نصي للتوثيق، مع رابط لكل صفحة."
+  },
+  "docs.sitemap.search.label": {
+    "message": "ابحث في الصفحات"
+  },
+  "docs.sitemap.search.placeholder": {
+    "message": "جرّب «التصدير» أو «الأشخاص»"
+  },
+  "docs.sitemap.search.count": {
+    "message": "لا صفحات|صفحة واحدة|صفحتان|{count} صفحات|{count} صفحة|{count} صفحة"
+  },
+  "docs.sitemap.search.count_query": {
+    "message": "لا صفحات تطابق «{query}»|صفحة واحدة تطابق «{query}»|صفحتان تطابقان «{query}»|{count} صفحات تطابق «{query}»|{count} صفحة تطابق «{query}»|{count} صفحة تطابق «{query}»"
+  },
+  "docs.sitemap.group.docs": {
+    "message": "التوثيق"
+  },
+  "docs.sitemap.group.posts": {
+    "message": "المدونة"
+  },
+  "docs.sitemap.empty.title": {
+    "message": "لا توجد صفحات تطابق «{query}»"
+  },
+  "docs.sitemap.empty.body": {
+    "message": "جرّب كلمة أقصر، أو امسح البحث لرؤية جميع الصفحات."
+  },
+  "docs.sitemap.empty.action": {
+    "message": "مسح البحث"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "تعذر عرض هذه الصفحة.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "العودة إلى أعلى الصفحة",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "الأرشيف",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "الأرشيف",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "التنقل بين صفحات المدونة",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "مقالات أحدث",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "مقالات أقدم",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "التنقل بين مقالات المدونة",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "مقال أحدث",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "مقال أقدم",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "عرض جميع الوسوم",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "وضع النظام",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "الوضع الفاتح",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "الوضع الداكن",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "التبديل بين الوضعين الفاتح والداكن (الحالي: {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "مسار التصفح",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "صفحات التوثيق",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "السابق",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "التالي",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "لا مستندات موسومة|مستند واحد موسوم|مستندان موسومان|{count} مستندات موسومة|{count} مستنداً موسوماً|{count} مستند موسوم",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} بالوسم «{tagName}»",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "الإصدار: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "هذا توثيق لم يُنشر بعد للإصدار {versionLabel} من {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "هذا توثيق للإصدار {versionLabel} من {siteTitle}، ولم يعد يُصان بصورة نشطة.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "للتوثيق المحدث، راجع {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "أحدث إصدار",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "تعديل هذه الصفحة",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "رابط مباشر إلى {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " في {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " بواسطة {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخر تحديث{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "الإصدارات",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "الوسوم:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "إغلاق",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "تنبيه",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطر",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومة",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "ملاحظة",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "نصيحة",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "تحذير",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "التنقل بين أحدث مقالات المدونة",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "توسيع قسم الشريط الجانبي «{label}»",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "طي قسم الشريط الجانبي «{label}»",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(يُفتح في تبويب جديد)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "الرئيسية",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "اللغات",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نجد ما تبحث عنه.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "يرجى التواصل مع مالك الموقع الذي أحالك إلى العنوان الأصلي وإبلاغه بأن الرابط لا يعمل.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "في هذه الصفحة",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "اقرأ المزيد",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "اقرأ المزيد عن {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "أقل من دقيقة للقراءة|دقيقة واحدة للقراءة|دقيقتان للقراءة|{readingTime} دقائق للقراءة|{readingTime} دقيقة للقراءة|{readingTime} دقيقة للقراءة",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "نسخ",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "نُسخ",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "نسخ الشيفرة إلى الحافظة",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "تبديل التفاف الكلمات",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "الصفحة الرئيسية",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "شريط التوثيق الجانبي",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "إغلاق شريط التنقل",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← العودة إلى القائمة الرئيسية",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "تبديل شريط التنقل",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "توسيع القائمة المنسدلة",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "طي القائمة المنسدلة",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "جارٍ التحميل...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "انقر للتحميل{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "المتصفح غير متصل. لم تُحمّل الصورة",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. لم تُعثر على الصورة",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "حدث خطأ. انقر لإعادة التحميل",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "لا توجد نتائج"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "عرض جميع النتائج خارج «{context}»"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "عرض جميع النتائج ضمن «{context}»"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "عرض جميع النتائج"
+  },
+  "theme.SearchBar.label": {
+    "message": "بحث",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "نتائج البحث عن «{query}»",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "ابحث في التوثيق",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "في كل مكان"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "لم يُعثر على مستندات|عُثر على مستند واحد|عُثر على مستندين|عُثر على {count} مستندات|عُثر على {count} مستنداً|عُثر على {count} مستند",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "لم يُعثر على مستندات",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "لا مقالات|مقال واحد|مقالان|{count} مقالات|{count} مقالاً|{count} مقال",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} بالوسم «{tagName}»",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} — {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "الكتّاب",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "عرض جميع الكتّاب",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "لم يكتب هذا المؤلف أي مقال بعد.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "صفحة غير مدرجة",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "هذه الصفحة غير مدرجة. لن تفهرسها محركات البحث، ولا يصل إليها إلا من يملك رابطها المباشر.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "صفحة مسودة",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "هذه الصفحة مسودة. تظهر في بيئة التطوير فقط وتُستبعد من نسخة الإنتاج.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "لا عناصر|عنصر واحد|عنصران|{count} عناصر|{count} عنصراً|{count} عنصر",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "إعادة المحاولة",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "تجاوز إلى المحتوى الرئيسي",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "الوسوم",
+    "description": "The title of the tag list page"
+  },
+  "about.title": {
+    "message": "بناه Ahsan Mahmood"
+  },
+  "about.description": {
+    "message": "لماذا أنشأ Ahsan Mahmood تطبيق LifeWell، وما المحطات التي أوصلته إلى هنا، وأين تجد عمله مع Zaions."
+  },
+  "about.kicker": {
+    "message": "عن المطور"
+  },
+  "about.lede": {
+    "message": "بنى Ahsan تطبيق LifeWell بعدما استمع إلى والديه وهما يرويان قصص حياتهما. أراد أن تبقى تلك اللحظات في مكان تستطيع الأسرة العودة إليه."
+  },
+  "about.portfolio": {
+    "message": "زيارة معرض أعمال Ahsan"
+  },
+  "about.zaions": {
+    "message": "زيارة Zaions"
+  },
+  "about.why.heading": {
+    "message": "لماذا أنشأ LifeWell؟"
+  },
+  "about.why.first": {
+    "message": "روى له والده قصصاً، وكذلك والدته. أراد Ahsan وسيلة للاحتفاظ بتلك الأحاديث وبالأشخاص الذين يقفون وراءها. من تلك الرغبة نشأ LifeWell ليجمع العلاقات والذكريات والأشياء اليومية المحيطة بها."
+  },
+  "about.why.second": {
+    "message": "الرؤية الأوسع هدية يمكن أن تنتقل بين الأجيال. لا تزال بعض أجزائها قيد البناء. اليوم يحفظ التطبيق سجلاً تستطيع العودة إليه، مع مشاركة تتحكم فيها بنفسك."
+  },
+  "about.timeline.heading": {
+    "message": "كيف وصل إلى هذه المرحلة؟"
+  },
+  "about.timeline.2025.date": {
+    "message": "25 أغسطس 2025"
+  },
+  "about.timeline.2025.event": {
+    "message": "أول تعديل مسجل في مستودع تطبيق LifeWell."
+  },
+  "about.timeline.2026_09.date": {
+    "message": "19 سبتمبر 2026"
+  },
+  "about.timeline.2026_09.event": {
+    "message": "التحقق من نسخة الويب المعاد بناؤها على الموقع الحي ومطابقتها لنسخة البناء."
+  },
+  "about.timeline.2026_10.date": {
+    "message": "25 أكتوبر 2026"
+  },
+  "about.timeline.2026_10.event": {
+    "message": "تأكيد المالك ظهور الإصدار 3.25.0 على Google Play."
+  },
+  "about.timeline.2026_11.date": {
+    "message": "20 نوفمبر 2026"
+  },
+  "about.timeline.2026_11.event": {
+    "message": "جمع مسارات الويب وAndroid والتوثيق المنشورة تحت صفحة «احصل على LifeWell»."
+  },
+  "about.build.heading": {
+    "message": "كيف بُني؟"
+  },
+  "about.build.body": {
+    "message": "LifeWell تطبيق مبني بـReact وTypeScript للويب وAndroid. إذا فعّلت التسجيل دون اتصال، يمكن لعدد محدود من الإدخالات السريعة الانتظار على جهازك حتى تعود الشبكة. أنت تختار مشاركة كل عنصر على حدة، ويظل السجل قابلاً للتصدير."
+  },
+  "about.other.heading": {
+    "message": "أين تجد الأعمال الأخرى؟"
+  },
+  "about.other.ecosystem": {
+    "message": "شاهد منتجات Zaions الأخرى"
+  },
+  "about.other.projects": {
+    "message": "مشاريع Ahsan"
+  },
+  "about.contact.heading": {
+    "message": "كيف تتواصل مع الفريق؟"
+  },
+  "about.contact.prefix": {
+    "message": "استخدم"
+  },
+  "about.contact.link": {
+    "message": "صفحة التواصل الخاصة بـLifeWell"
+  },
+  "about.contact.body": {
+    "message": "ينبغي أن تصل رسالتك إلى الفريق المعني بالمنتج الذي تتحدث عنه."
+  },
+  "about.aside.body": {
+    "message": "الأشخاص واللحظات في حياتك، في مكان واحد."
+  },
+  "about.aside.link": {
+    "message": "عن LifeWell"
+  },
+  "apps.web.title": {
+    "message": "في متصفحك"
+  },
+  "apps.web.text": {
+    "message": "الأشخاص والذكريات والملاحظات والتقويم على أي حاسوب. سجّل الدخول باستخدام Google وتابع من حيث توقفت على الهاتف."
+  },
+  "apps.web.cta": {
+    "message": "افتح LifeWell"
+  },
+  "apps.android.title": {
+    "message": "على هاتف Android"
+  },
+  "apps.android.text": {
+    "message": "دوّن لحظة أو اطمئن على شخص من هاتفك. الحساب نفسه، متزامن مع تطبيق الويب."
+  },
+  "apps.android.cta": {
+    "message": "احصل عليه من Google Play"
+  },
+  "apps.docs.title": {
+    "message": "هذا التوثيق"
+  },
+  "apps.docs.text": {
+    "message": "كيف تعمل المجالات السبعة، وكيف تصدّر سجلك، وما الذي يبقيه LifeWell خاصاً."
+  },
+  "apps.docs.cta": {
+    "message": "اقرأ التوثيق"
+  },
+  "apps.title": {
+    "message": "احصل على LifeWell"
+  },
+  "apps.description": {
+    "message": "كل موضع نُشر فيه LifeWell: تطبيق الويب، وتطبيق Android على Google Play، وهذا التوثيق."
+  },
+  "apps.intro": {
+    "message": "حساب واحد أينما كنت. ابدأ على الويب، واصطحبه على هاتفك، واحتفظ بهذه الإرشادات في تبويب قريب."
+  },
+  "apps.here": {
+    "message": "أنت تقرؤه الآن"
+  },
+  "home.get_started": {
+    "message": "ابدأ ←"
+  },
+  "home.open_lifewell": {
+    "message": "افتح LifeWell"
+  },
+  "home.also_on": {
+    "message": "متاح أيضاً على"
+  },
+  "home.all_apps": {
+    "message": "جميع التطبيقات ←"
+  },
+  "home.built_by": {
+    "message": "بناه ويصونه"
+  },
+  "home.team": {
+    "message": "فريق LifeWell"
+  },
+  "home.licence": {
+    "message": "التوثيق مرخص بموجب CC BY 4.0."
+  },
+  "home.title": {
+    "message": "الأشخاص واللحظات في حياتك"
+  },
+  "home.description": {
+    "message": "التوثيق العام لـLifeWell، الذي يجمع الأشخاص واللحظات في حياتك: العائلة والأصدقاء والذكريات والخطط، مع جوانب العافية المحيطة بها. للويب وAndroid."
+  },
+  "home.feature.people.title": {
+    "message": "الأشخاص في حياتك أولاً"
+  },
+  "home.feature.people.description": {
+    "message": "تبدأ بنفسك ثم تضيف من يهمونك. تحيط بهم الذكريات والأيام العادية والمشاركة، ثم الصحة والذهن ومراحل الحياة. يمكن إيقاف ستة من المجالات السبعة؛ الإيقاف يخفي المجال من القائمة ولا يحذف بياناته."
+  },
+  "home.feature.people.cta": {
+    "message": "اقرأ عن المجالات السبعة"
+  },
+  "home.feature.export.title": {
+    "message": "سجلك وطريقة لإخراجه"
+  },
+  "home.feature.export.description": {
+    "message": "صدّر كل شيء بصيغة JSON أو CSV أو PDF، مع إنشاء الملف على جهازك بدلاً من الخادم. صيغة الملف موثقة حقلاً حقلاً، والتصدير متاح في كل الخطط بما فيها المجانية."
+  },
+  "home.feature.export.cta": {
+    "message": "اقرأ عن صيغة التصدير"
+  },
+  "home.feature.offline.title": {
+    "message": "احتفظ ببعض التسجيلات السريعة دون اتصال"
+  },
+  "home.feature.offline.description": {
+    "message": "عند تفعيل التسجيل دون اتصال، يمكن إبقاء إدخالات الماء والمزاج والخطوات في قائمة انتظار على هذا الجهاز. تحتاج التغييرات الأخرى إلى اتصال؛ تأكد من اكتمال المزامنة قبل الاعتماد على هذه الإدخالات في جهاز آخر."
+  },
+  "home.feature.offline.cta": {
+    "message": "ما الذي يعمل دون اتصال"
+  },
+  "home.feature.photos.title": {
+    "message": "تبقى الصور في Drive الخاص بك"
+  },
+  "home.feature.photos.description": {
+    "message": "يطلب LifeWell من Google إذناً يقتصر على الملفات التي أنشأها. نحتفظ بمرجع إلى الملف، لا بالملف نفسه."
+  },
+  "home.feature.photos.cta": {
+    "message": "أين يعيش سجلك"
+  },
+  "home.feature.no_score.title": {
+    "message": "لا سلسلة متواصلة، ولا درجة، ولا ترتيب"
+  },
+  "home.feature.no_score.description": {
+    "message": "لا يحسب التطبيق سلسلة متواصلة ولا يقيّمك برقم. يبقى السجل سجلاً ولو كانت فيه فجوات، ويوم الأحد الهادئ مجرد يوم أحد هادئ."
+  },
+  "home.feature.no_score.cta": {
+    "message": "ما هو LifeWell"
+  },
+  "home.feature.honest.title": {
+    "message": "اعرف ما يتوفر على كل منصة"
+  },
+  "home.feature.honest.description": {
+    "message": "تختلف إمكانات تطبيق LifeWell على الويب وAndroid وإضافة المتصفح. تحتاج تذكيرات Android إلى إذن إشعارات الجهاز؛ ولم تُنشر الإضافة في المتجر بعد، ولا يوجد تطبيق iOS. يسجل سجل التغييرات ما نُشر بالفعل."
+  },
+  "home.feature.honest.cta": {
+    "message": "اقرأ سجل التغييرات"
+  },
+  "about.schema.name": {
+    "message": "عن مطور LifeWell"
+  },
+  "about.schema.job_title": {
+    "message": "المؤسس والمطور، Zaions"
+  },
+  "about.schema.docs": {
+    "message": "توثيق LifeWell"
+  },
+  "ecosystem.title": {
+    "message": "منتجات Zaions"
+  },
+  "ecosystem.meta": {
+    "message": "المنتجات الأخرى التي يبنيها Ahsan Mahmood في Zaions، مع طريق واضح لزيارة كل منها."
+  },
+  "ecosystem.kicker": {
+    "message": "أماكن أخرى"
+  },
+  "ecosystem.showcase": {
+    "message": "المزيد من Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "يبني Ahsan Mahmood منتجات أخرى إلى جانب LifeWell. لكل منتج من Zaions عمله الخاص. اعثر على ما جئت من أجله، أو تصفح البقية."
+  },
+  "ecosystem.all": {
+    "message": "شاهد جميع منتجات Zaions"
+  },
+  "ecosystem.details": {
+    "message": "التفاصيل"
+  },
+  "ecosystem.visit": {
+    "message": "زيارة {name}"
+  },
+  "ecosystem.read_docs": {
+    "message": "اقرأ توثيق {name}"
+  },
+  "ecosystem.glance": {
+    "message": "لمحة سريعة"
+  },
+  "ecosystem.source_checked": {
+    "message": "فُحص المصدر في {date}"
+  },
+  "ecosystem.breadcrumb": {
+    "message": "مسار التصفح"
+  },
+  "ecosystem.docs_home": {
+    "message": "توثيق LifeWell"
+  },
+  "ecosystem.choose_view": {
+    "message": "اختر طريقة العرض"
+  },
+  "ecosystem.view.grid": {
+    "message": "شبكة"
+  },
+  "ecosystem.view.list": {
+    "message": "قائمة"
+  },
+  "ecosystem.view.table": {
+    "message": "جدول"
+  },
+  "ecosystem.table.product": {
+    "message": "المنتج"
+  },
+  "ecosystem.table.purpose": {
+    "message": "ما يفعله"
+  },
+  "ecosystem.table.platforms": {
+    "message": "المنصات"
+  },
+  "ecosystem.table.links": {
+    "message": "الروابط"
+  },
+  "ecosystem.who_built": {
+    "message": "من بنى LifeWell"
+  },
+  "ecosystem.carousel": {
+    "message": "معرض متحرك"
+  },
+  "ecosystem.slide": {
+    "message": "شريحة"
+  },
+  "ecosystem.previous": {
+    "message": "المنتج السابق"
+  },
+  "ecosystem.next": {
+    "message": "المنتج التالي"
+  },
+  "ecosystem.play": {
+    "message": "تشغيل المعرض"
+  },
+  "ecosystem.pause": {
+    "message": "إيقاف المعرض مؤقتاً"
+  },
+  "ecosystem.play_label": {
+    "message": "تشغيل"
+  },
+  "ecosystem.pause_label": {
+    "message": "إيقاف مؤقت"
+  },
+  "ecosystem.count": {
+    "message": "{index} من {total}"
+  },
+  "site.name": {
+    "message": "توثيق LifeWell"
+  },
+  "home.tagline": {
+    "message": "احتفظ بالأشخاص واللحظات في حياتك في مكان واحد، وبكل ما يحيط بهم."
+  },
+  "site.description": {
+    "message": "التوثيق العام لـLifeWell، الذي يجمع الأشخاص واللحظات في حياتك في مكان واحد: عائلتك وأصدقاءك وما تعرفه عنهم وذكرياتك وخططك، مع العافية والذهن ومراحل الحياة حولهم. كتبه فريق LifeWell."
+  },
+  "apps.web.name": {
+    "message": "تطبيق LifeWell على الويب"
+  },
+  "apps.docs.name": {
+    "message": "التوثيق"
+  },
+  "ecosystem.category.web_app": {
+    "message": "تطبيق ويب"
+  },
+  "ecosystem.category.mobile_app": {
+    "message": "تطبيق جوال"
+  },
+  "ecosystem.category.package": {
+    "message": "حزمة برمجية"
+  },
+  "ecosystem.category.wordpress_plugin_saas": {
+    "message": "إضافة WordPress وتطبيق ويب"
+  },
+  "ecosystem.category.desktop_app_cli": {
+    "message": "تطبيق سطح مكتب وأداة سطر أوامر"
+  },
+  "ecosystem.category.saas_package": {
+    "message": "تطبيق ويب وحزمة برمجية"
+  },
+  "ecosystem.category.browser_extension": {
+    "message": "إضافة متصفح"
+  },
+  "ecosystem.platform.chrome_web_store": {
+    "message": "متجر Chrome Web Store"
+  },
+  "site.keywords": {
+    "message": "LifeWell, Ahsan Mahmood, aoneahsan, Zaions, شجرة العائلة, الأشخاص, الذكريات, العائلة والأصدقاء, الملاحظات, التقويم, العافية, تطبيق Android"
+  }
+}

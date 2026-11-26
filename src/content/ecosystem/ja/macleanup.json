@@ -1,0 +1,28 @@
+{
+  "card": "削除を選ぶ前に、macOSの整理内容を確認できます。",
+  "title": "削除前に確認できるmacleanup",
+  "intro": "macleanupはMacの整理にも慎重な手順を取ります。何を削除するか決める前に、提案された内容を確認できます。",
+  "sections": [
+    {
+      "heading": "macleanupは何を管理しますか？",
+      "body": "macOSの整理とメンテナンスを、慎重な初期設定で行います。"
+    },
+    {
+      "heading": "整理内容はどう確認しますか？",
+      "body": "項目別の一覧で、実行前に提案された作業を確認できます。"
+    },
+    {
+      "heading": "どのフォルダーは対象外ですか？",
+      "body": "どの整理方法を選んでも、個人用フォルダーは対象になりません。"
+    },
+    {
+      "heading": "macleanupとLifeWellはどう違いますか？",
+      "body": "LifeWellは個人の記録を残します。macleanupはMacで削除できるファイルを調べ、個人用フォルダーには手を付けません。"
+    }
+  ],
+  "facts": [
+    "macleanup-1",
+    "macleanup-2",
+    "macleanup-3"
+  ]
+}

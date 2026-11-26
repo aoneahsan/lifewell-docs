@@ -1,0 +1,28 @@
+{
+  "card": "Deliver a Capacitor bundle without waiting for a store release.",
+  "title": "Native Update for app releases",
+  "intro": "Native Update helps a Capacitor app carry a supported bundle update to the people using it. Store updates have their own path beside that flow.",
+  "sections": [
+    {
+      "heading": "What does Native Update ship?",
+      "body": "It handles Capacitor app updates without waiting for a store release for every bundle."
+    },
+    {
+      "heading": "How can a bundle reach users?",
+      "body": "A supported bundle can be delivered over the air."
+    },
+    {
+      "heading": "What happens with store updates?",
+      "body": "The product also covers in-app prompts for a store update and review."
+    },
+    {
+      "heading": "Where does Native Update fit beside LifeWell?",
+      "body": "LifeWell has a web and Android release path. Native Update is a tool for people shipping Capacitor app bundles and store prompts."
+    }
+  ],
+  "facts": [
+    "native-update-1",
+    "native-update-2",
+    "native-update-3"
+  ]
+}

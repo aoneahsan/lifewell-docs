@@ -1,0 +1,24 @@
+announcement:
+  label: اعلان
+  permalink: /announcement
+  description: "پروجیکٹ کے اعلانات اور اجرا۔"
+
+lifewell:
+  label: LifeWell
+  permalink: /lifewell
+  description: "LifeWell ایپ کی خصوصیات، ریلیز اور ڈیزائن سے متعلق تحریریں۔"
+
+docs:
+  label: دستاویزات
+  permalink: /docs-tag
+  description: "خود دستاویزات کے بارے میں تحریریں: کیا شائع ہوا اور آگے کیا ہے۔"
+
+release:
+  label: ریلیز
+  permalink: /release
+  description: "LifeWell کے ویب، Android اور براؤزر ایکسٹینشن کے نئے ورژن۔"
+
+privacy:
+  label: رازداری
+  permalink: /privacy
+  description: "رازداری، معلومات کے استعمال، اور LifeWell آپ کے ڈیٹا کے ساتھ کیا کرتا ہے یا نہیں کرتا۔"

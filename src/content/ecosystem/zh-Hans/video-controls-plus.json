@@ -1,0 +1,28 @@
+{
+  "card": "调整 HTML5 视频的播放节奏。",
+  "title": "Video Controls Plus：掌控网页视频",
+  "intro": "Video Controls Plus 为各网站上的 HTML5 视频提供播放控制。速度、循环片段和逐帧操作，让您看得更细。",
+  "sections": [
+    {
+      "heading": "它能控制哪些视频？",
+      "body": "它适用于网页上的 HTML5 视频。"
+    },
+    {
+      "heading": "播放能调整得多精细？",
+      "body": "速度范围为 0.1× 至 16×，还支持 A–B 循环和逐帧播放。"
+    },
+    {
+      "heading": "画面和声音能怎么调？",
+      "body": "还可以增强音量、使用滤镜和调整色彩。"
+    },
+    {
+      "heading": "Video Controls Plus 与 LifeWell 有什么关系？",
+      "body": "LifeWell 保存时刻与笔记。Video Controls Plus 则改变您在其他网站观看 HTML5 视频的方式。"
+    }
+  ],
+  "facts": [
+    "video-controls-plus-1",
+    "video-controls-plus-2",
+    "video-controls-plus-3"
+  ]
+}

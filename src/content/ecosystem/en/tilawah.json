@@ -1,0 +1,28 @@
+{
+  "card": "Return to a Tajweed or Tafseer lesson at your pace.",
+  "title": "Tilawah for Quran learning",
+  "intro": "Tilawah brings recorded Tajweed and Tafseer lessons into a self-paced course. A learner can return to where they left off.",
+  "sections": [
+    {
+      "heading": "What can you learn in Tilawah?",
+      "body": "Recorded lessons cover Tajweed and Tafseer."
+    },
+    {
+      "heading": "How does self-paced learning work?",
+      "body": "A learner follows lessons at their own pace and can track where they reached."
+    },
+    {
+      "heading": "Can a learner book recitation?",
+      "body": "Live one-to-one recitation can be booked in the learner's own timezone."
+    },
+    {
+      "heading": "Where does Tilawah fit beside LifeWell?",
+      "body": "LifeWell can hold your own notes and appointments. Tilawah keeps recorded Quran lessons, progress and booked recitation in a learning space."
+    }
+  ],
+  "facts": [
+    "tilawah-1",
+    "tilawah-2",
+    "tilawah-3"
+  ]
+}

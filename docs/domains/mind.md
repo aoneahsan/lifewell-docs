@@ -34,8 +34,9 @@ job quietly.
 
 ## Desk wellness
 
-`/wellness` holds the short interruptions for a working day — an eye break, a movement break, a posture
-prompt, a glass of water, a medication nudge. Each can be turned on independently and each is off by default.
+`/wellness` holds three short interruptions for a working day: an eye break, a movement break and a posture
+prompt. Each has its own schedule and starts off. Water entries belong to the tracker; due-dose medication
+prompts appear in the LifeWell inbox when you open your medication list.
 
 A hundred breaks across fourteen days is not a streak. There is nothing to break, and a quiet Sunday is just
 a quiet Sunday.
