@@ -2,7 +2,7 @@
 title: Calendar feeds
 description: Subscribe to your LifeWell calendar from Google Calendar, Apple Calendar or Outlook with a read-only feed address, and revoke it whenever you like.
 keywords: [lifewell calendar feed, subscribe to lifewell calendar, ics feed, google calendar subscription]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

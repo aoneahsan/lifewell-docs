@@ -2,7 +2,7 @@
 sidebar_position: 23
 title: Passer d’Obsidian à LifeWell
 description: "Comment passer d’Obsidian à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

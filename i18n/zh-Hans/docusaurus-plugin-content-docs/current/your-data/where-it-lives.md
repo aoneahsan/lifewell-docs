@@ -2,7 +2,7 @@
 title: 您的记录保存在哪里
 description: 记录保存在 Postgres 数据库，照片保存在您自己的 Google Drive；开启离线记录时，少量快捷记录会暂存在设备上。
 keywords: [lifewell 离线, google drive 存储, 我的记录保存在哪里, 同步, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

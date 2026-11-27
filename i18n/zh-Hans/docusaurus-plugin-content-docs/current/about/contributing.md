@@ -2,7 +2,7 @@
 title: 参与文档维护
 description: 了解如何修正页面、哪些内容适合写在这里，以及唯一的核心规则：文档只能描述产品目前实际能做的事。
 keywords: [贡献 lifewell 文档, 编辑文档, 文档代码库]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

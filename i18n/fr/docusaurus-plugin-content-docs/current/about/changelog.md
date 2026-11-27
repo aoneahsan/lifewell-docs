@@ -2,7 +2,7 @@
 title: Journal des versions
 description: '« LifeWell 3.0 (version 3.22.0) a été entièrement reconstruit sur un nouveau système de données. Les versions 3.23 à 3.25 ont suivi en octobre 2026 : nouveautés, retraits, corrections et remise à zéro liée à la 3.0. »'
 keywords: [lifewell 3.0, lifewell 3.22.0, journal des versions, notes de version, nouveautés]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

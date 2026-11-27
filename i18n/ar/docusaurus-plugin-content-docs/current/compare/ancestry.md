@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: "الانتقال من Ancestry إلى LifeWell"
 description: "كيف تنقل ما يخص عائلتك من Ancestry إلى LifeWell، وأوجه الاختلاف والتكلفة. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

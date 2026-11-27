@@ -2,7 +2,7 @@
 title: Souvenirs
 description: Photos, albums, carnet de souvenirs et légendes qui leur donnent du sens — avec les fichiers dans votre propre Google Drive.
 keywords: [souvenirs LifeWell, album photo, carnet de souvenirs, photos Google Drive]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: "أين يعيش سجلك؟"
 description: "يعيش سجلك في قاعدة Postgres، والصور في Google Drive الخاص بك، وعدد محدود من الإدخالات السريعة المنتظرة على جهازك إذا فعّلت التسجيل دون اتصال."
 keywords: [lifewell دون اتصال, تخزين google drive, أين تحفظ بياناتي, المزامنة, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

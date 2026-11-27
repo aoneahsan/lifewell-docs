@@ -2,7 +2,7 @@
 title: "التذكيرات"
 description: "ما الذي قد يرسله إليك LifeWell ومتى وعلى أي جهاز: ثلاثة مفاتيح رئيسية وساعات هدوء، ولماذا لا يطلب التطبيق إذن التنبيه الدقيق من Android."
 keywords: [تذكيرات lifewell, تذكير الأدوية, تذكير المواعيد, ساعات الهدوء, إشعارات android]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

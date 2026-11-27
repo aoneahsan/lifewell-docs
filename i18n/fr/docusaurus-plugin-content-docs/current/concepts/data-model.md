@@ -2,7 +2,7 @@
 title: Le modèle de données
 description: 'Comment LifeWell conserve une vie : une table par idée, un espace commun derrière chaque suivi et trois décisions qui influencent tout le reste.'
 keywords: [modèle de données LifeWell, schéma Postgres, mesures, données de suivi, conception de base de données]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

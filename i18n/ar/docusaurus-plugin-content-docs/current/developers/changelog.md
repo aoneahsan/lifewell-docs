@@ -2,7 +2,7 @@
 title: "سجل تغييرات المطورين"
 description: "جميع التغييرات على واجهة LifeWell البرمجية وخادم MCP وخطافات الويب وموجزات التقويم، الأحدث أولاً."
 keywords: [سجل تغييرات واجهة lifewell, تغييرات الواجهة البرمجية, إصدارات api]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

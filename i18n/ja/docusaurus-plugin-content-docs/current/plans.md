@@ -2,7 +2,7 @@
 title: プラン
 description: 無料、Pro、Familyの内容、Familyの席の仕組み、無料プランの範囲、支払い方法を説明します。料金は米ドルで月払いと年払いがあります。
 keywords: [lifewell plans, lifewell pricing, free plan, pro plan, family plan, family seats, google play billing, 料金プラン]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

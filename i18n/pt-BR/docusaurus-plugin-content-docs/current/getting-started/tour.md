@@ -2,7 +2,7 @@
 title: Um passeio rápido
 description: Onde ficam o painel, o menu, a barra superior e o controle que muda a aparência do LifeWell.
 keywords: [passeio LifeWell, painel LifeWell, navegação LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

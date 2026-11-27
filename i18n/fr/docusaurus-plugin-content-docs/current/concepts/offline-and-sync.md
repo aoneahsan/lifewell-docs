@@ -2,7 +2,7 @@
 title: Hors ligne et synchronisation
 description: LifeWell met l’application en pause quand la connexion est perdue, avec la possibilité facultative de conserver certaines notes rapides sur cet appareil jusqu’à son retour.
 keywords: [LifeWell hors ligne, synchronisation, absence de connexion, saisie hors ligne]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

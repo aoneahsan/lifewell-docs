@@ -2,7 +2,7 @@
 title: 初回の利用
 description: LifeWellに初めてログインしたときの5つの手順を説明します。ほとんどは飛ばせます。それぞれの答えが何を変えるかも分かります。
 keywords: [lifewell onboarding, first time setup, lifewell setup, 初期設定]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

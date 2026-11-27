@@ -2,7 +2,7 @@
 title: 日常
 description: 日历、预约、笔记、收藏地点、提醒和购物清单——把生活中其他事情连在一起的普通一周。
 keywords: [lifewell 日历, 预约, 笔记应用, 提醒, 购物清单]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

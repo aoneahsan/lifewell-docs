@@ -2,7 +2,7 @@
 title: 検索
 description: 自分の記録全体を1か所から検索します。サーバー側は完成していますが、画面は未完成で、その状態をアプリ内にも示しています。
 keywords: [lifewell search, search your record, 記録の検索]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

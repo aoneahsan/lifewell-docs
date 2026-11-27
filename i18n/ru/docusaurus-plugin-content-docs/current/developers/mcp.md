@@ -2,7 +2,7 @@
 title: Подключение ИИ-помощника (MCP)
 description: "Подключите Claude, ChatGPT, Claude Code или Cursor к своему журналу через сервер MCP LifeWell: разрешения, подтверждение удаления и отключение."
 keywords: [сервер MCP LifeWell, подключить Claude к LifeWell, подключение ChatGPT, MCP Claude Code, MCP Cursor]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

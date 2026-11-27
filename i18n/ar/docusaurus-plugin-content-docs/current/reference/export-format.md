@@ -2,7 +2,7 @@
 title: "صيغة ملف التصدير"
 description: "ما يوجد في تصدير LifeWell، حقلاً حقلاً وجدولاً جدولاً: ترويسة JSON وأرشيف CSV وما يتركه PDF وما لا يظهر في أي صيغة."
 keywords: [صيغة تصدير lifewell, مخطط json, تصدير csv, استيراد بيانات lifewell, نقل البيانات]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

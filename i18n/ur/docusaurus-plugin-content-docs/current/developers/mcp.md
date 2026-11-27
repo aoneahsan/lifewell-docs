@@ -2,7 +2,7 @@
 title: AI معاون جوڑیں (MCP)
 description: LifeWell MCP سرور سے Claude، ChatGPT، Claude Code یا Cursor کو اپنے ریکارڈ سے جوڑیں؛ اجازت کا صفحہ کیا پوچھتا ہے، حذف کی تصدیق کیسے ہوتی ہے اور رابطہ کیسے ختم کریں۔
 keywords: [lifewell mcp server, connect claude to lifewell, chatgpt connector, claude code mcp, cursor mcp]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

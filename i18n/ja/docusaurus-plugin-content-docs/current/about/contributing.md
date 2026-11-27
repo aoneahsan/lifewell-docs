@@ -2,7 +2,7 @@
 title: このドキュメントへの協力
 description: ページの訂正方法、ここに書くべき内容、そして製品が実際にできることだけを説明するという基準を紹介します。
 keywords: [contribute lifewell docs, edit documentation, docs repository, ドキュメントの訂正]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

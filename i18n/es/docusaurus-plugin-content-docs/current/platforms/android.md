@@ -2,7 +2,7 @@
 title: Android
 description: "LifeWell en Android: versión mínima 9, permisos, recordatorios locales, actualizaciones firmadas y funciones que esperan su publicación en la tienda."
 keywords: [lifewell android, permisos de android, permiso de contactos, minsdk 28, capacitor android, play store]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

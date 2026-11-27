@@ -3,7 +3,7 @@ id: intro
 title: "LifeWell"
 description: "يجمع LifeWell الأشخاص واللحظات في حياتك في مكان واحد: عائلتك وأصدقاءك وما تعرفه عنهم وذكرياتك وخططك، مع جوانب العافية حولهم. للويب وAndroid، وسجلك تحت سيطرتك."
 keywords: [lifewell, رفيق الحياة, شجرة العائلة, الأشخاص, الذكريات, العائلة والأصدقاء, تطبيق android]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

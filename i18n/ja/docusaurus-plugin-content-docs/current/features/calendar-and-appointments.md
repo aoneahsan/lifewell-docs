@@ -2,7 +2,7 @@
 title: カレンダーと予定
 description: 日付のある出来事と予定を一緒に置き、予定ごとに質問やメモの確認リストを残せます。
 keywords: [lifewell calendar, appointment tracker, appointment checklist, health appointments, 予定]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

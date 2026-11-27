@@ -2,7 +2,7 @@
 title: 七个领域
 description: LifeWell 以您为中心，分为七个领域：人物优先，接着是回忆、日常和分享，健康、心灵与人生阶段围绕在旁。六个领域可以关闭而不删除内容；分享不能关闭。
 keywords: [lifewell 领域, 生活领域, 关闭领域, lifewell 导航, lifewell 分享]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

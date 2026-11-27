@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: "الانتقال من Storyworth إلى LifeWell"
 description: "حفظ قصص Storyworth في LifeWell، والفروق والتكلفة. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

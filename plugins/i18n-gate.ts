@@ -123,7 +123,7 @@ function proseLines(markdown: string): Set<string> {
 }
 function compareContent(sourceDir: string, targetDir: string, locale: string, exclude: Set<string> = new Set()): void {
   if (!existsSync(file(targetDir))) { issues.push(`missing directory ${targetDir}`); return; }
-  const sourceFiles = filesIn(sourceDir, (name) => MARKDOWN.test(name)).filter((name) => !exclude.has(name) && !name.startsWith('i18n/'));
+  const sourceFiles = filesIn(sourceDir, (name) => MARKDOWN.test(name)).filter((name) => !exclude.has(name) && !name.startsWith('i18n/') && !name.startsWith('search-consoles/'));
   const targetFiles = filesIn(targetDir, (name) => MARKDOWN.test(name));
   for (const name of sourceFiles) {
     const relative = `${targetDir}/${name}`;
@@ -151,25 +151,24 @@ function compareContent(sourceDir: string, targetDir: string, locale: string, ex
 }
 function compareBlogTaxonomy(locale: string): void {
   const targetDir = `i18n/${locale}/docusaurus-plugin-content-blog`;
-  const source = read('blog/tags.yml');
-  const target = read(`${targetDir}/tags.yml`);
+  const source = read('blog/topics.yml');
+  const target = read(`${targetDir}/topics.yml`);
   const values = (input: string) => [...input.matchAll(/^\s*(label|description):\s*(.+)$/gm)].map((match) => `${match[1]}:${match[2]}`);
   const english = values(source);
   const translated = values(target);
-  if (english.length !== translated.length) issues.push(`${targetDir}/tags.yml: label or description count mismatch`);
+  if (english.length !== translated.length) issues.push(`${targetDir}/topics.yml: label or description count mismatch`);
   english.forEach((value, index) => {
     const translatedValue = translated[index];
     if (!translatedValue) return;
     const [field, ...words] = value.split(':');
     const [targetField, ...targetWords] = translatedValue.split(':');
-    if (field !== targetField) issues.push(`${targetDir}/tags.yml:${index}: field mismatch`);
-    compareText(words.join(':'), targetWords.join(':'), `${targetDir}/tags.yml:${index}`, locale);
+    if (field !== targetField) issues.push(`${targetDir}/topics.yml:${index}: field mismatch`);
+    compareText(words.join(':'), targetWords.join(':'), `${targetDir}/topics.yml:${index}`, locale);
   });
-  if (!existsSync(file(`${targetDir}/authors.yml`))) issues.push(`missing file ${targetDir}/authors.yml`);
 }
 function compareDocsTaxonomy(locale: string): void {
-  const source = read('docs/tags.yml');
-  const targetPath = `i18n/${locale}/docusaurus-plugin-content-docs/current/tags.yml`;
+  const source = read('docs/topics.yml');
+  const targetPath = `i18n/${locale}/docusaurus-plugin-content-docs/current/topics.yml`;
   const target = read(targetPath);
   const parse = (value: string): Map<string, {label: string; permalink: string}> => new Map(
     [...value.matchAll(/^([a-z][a-z0-9-]*):\n {2}label: (.+)\n {2}permalink: (.+)$/gm)].map((match) => {
@@ -181,7 +180,7 @@ function compareDocsTaxonomy(locale: string): void {
   );
   const english = parse(source);
   const translated = parse(target);
-  if (english.size === 0) issues.push('docs/tags.yml: no tags found');
+  if (english.size === 0) issues.push('docs/topics.yml: no topics found');
   for (const [key, entry] of english) {
     const localized = translated.get(key);
     if (!localized) { issues.push(`${targetPath}: missing ${key}`); continue; }
@@ -200,14 +199,14 @@ function checkEnglishSource(): void {
       if (!(match[1] in code)) issues.push(`i18n/en/code.json: missing source key ${match[1]} from src/${name}`);
     }
   }
-  const taxonomy = read('docs/tags.yml');
+  const taxonomy = read('docs/topics.yml');
   const tagKeys = new Set([...taxonomy.matchAll(/^([a-z][a-z0-9-]*):$/gm)].map((match) => match[1]));
-  for (const name of filesIn('docs', (fileName) => MARKDOWN.test(fileName)).filter((entry) => !entry.startsWith('i18n/') && !['MANUAL-TASKS.md', 'PACKAGES.md'].includes(entry))) {
+  for (const name of filesIn('docs', (fileName) => MARKDOWN.test(fileName)).filter((entry) => !entry.startsWith('i18n/') && !entry.startsWith('search-consoles/') && !['MANUAL-TASKS.md', 'PACKAGES.md'].includes(entry))) {
     const source = read(`docs/${name}`);
     const frontMatter = source.startsWith('---') ? source.split('---', 3)[1] : '';
-    const tags = frontMatter.match(/^tags:\s*\[([^\]]+)\]/m)?.[1].split(',').map((tag) => tag.trim());
-    if (!tags?.length) { issues.push(`docs/${name}: missing tags`); continue; }
-    for (const tag of tags) if (!tagKeys.has(tag)) issues.push(`docs/${name}: undefined tag ${tag}`);
+    const tags = frontMatter.match(/^topics:\s*\[([^\]]+)\]/m)?.[1].split(',').map((tag) => tag.trim());
+    if (!tags?.length) { issues.push(`docs/${name}: missing topics`); continue; }
+    for (const tag of tags) if (!tagKeys.has(tag)) issues.push(`docs/${name}: undefined topic ${tag}`);
   }
 }
 

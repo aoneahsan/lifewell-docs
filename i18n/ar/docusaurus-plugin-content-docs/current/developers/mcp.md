@@ -2,7 +2,7 @@
 title: "ربط مساعد ذكاء اصطناعي عبر MCP"
 description: "صِل Claude أوChatGPT أوClaude Code أوCursor بسجل LifeWell عبر خادم MCP: ما تطلبه صفحة الموافقة وكيف تؤكد الحذف وكيف تفصل الاتصال."
 keywords: [خادم mcp لـlifewell, ربط claude بـlifewell, موصل chatgpt, claude code mcp, cursor mcp]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

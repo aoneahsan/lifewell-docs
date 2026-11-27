@@ -2,7 +2,7 @@
 title: Сторонние сервисы
 description: "Все внешние сервисы LifeWell: для чего они нужны, что получают и что происходит, если ключ сервиса не задан."
 keywords: [интеграции LifeWell, сторонние сервисы, Google Drive, Sentry, Amplitude, Clarity, OneSignal, Turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

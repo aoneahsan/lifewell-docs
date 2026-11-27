@@ -1,7 +1,0 @@
-# A chave `ahsan` preserva o endereço da página do autor (/blog/authors/ahsan).
-ahsan:
-  name: Equipe LifeWell
-  title: As pessoas que desenvolvem e mantêm o LifeWell
-  url: https://lifewell.aoneahsan.com
-  image_url: /img/logo.svg
-  page: true

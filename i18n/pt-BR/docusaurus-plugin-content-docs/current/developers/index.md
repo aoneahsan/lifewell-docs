@@ -2,7 +2,7 @@
 title: Conecte o LifeWell a outros aplicativos
 description: Quatro caminhos para acessar seus dados fora do LifeWell — calendário, API com token, assistente de IA por MCP e webhooks.
 keywords: [conectar LifeWell a outros aplicativos, API LifeWell, MCP LifeWell, webhooks LifeWell, calendário LifeWell]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

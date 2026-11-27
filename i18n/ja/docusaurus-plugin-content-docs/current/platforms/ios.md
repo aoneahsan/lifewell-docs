@@ -2,7 +2,7 @@
 title: iOS
 description: iOS版LifeWellは2026年7月16日に削除されました。Apple Developerアカウントが用意された場合に再び加えられます。
 keywords: [lifewell ios, iphone app, ipad, apple, ios support, iPhone]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

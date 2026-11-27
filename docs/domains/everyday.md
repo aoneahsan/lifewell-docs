@@ -2,7 +2,7 @@
 title: Everyday
 description: Calendar, appointments, notes, saved places, reminders and the shopping list — the ordinary week that holds the rest together.
 keywords: [lifewell calendar, appointments, notes app, reminders, shopping list]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

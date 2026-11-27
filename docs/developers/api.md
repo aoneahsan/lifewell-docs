@@ -2,7 +2,7 @@
 title: The LifeWell API
 description: The LifeWell REST API — its base address, cursor pagination at 20 rows a page by default and 50 at most, and the OpenAPI file that describes every route and field.
 keywords: [lifewell api, lifewell rest api, openapi, api pagination, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

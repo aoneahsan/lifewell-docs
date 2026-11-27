@@ -2,7 +2,7 @@
 title: کیلنڈر اور ملاقاتیں
 description: روزمرہ اور طبی دونوں کاموں کے لیے ایک کیلنڈر؛ ہر ملاقات کے ساتھ ان سوالوں کی فہرست جو آپ پوچھنا چاہتے تھے۔
 keywords: [lifewell calendar, appointment tracker, appointment checklist, health appointments]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

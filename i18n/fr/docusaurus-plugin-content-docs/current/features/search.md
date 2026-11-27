@@ -2,7 +2,7 @@
 title: Recherche
 description: Une seule recherche dans tout votre dossier. La partie serveur existe, mais la page n’est pas terminée ; l’application le dit au lieu d’afficher une liste vide.
 keywords: [recherche LifeWell, rechercher dans son dossier]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

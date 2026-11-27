@@ -2,7 +2,7 @@
 title: El modelo de datos
 description: "Cómo guarda LifeWell una vida: una tabla por concepto, un almacén común para todos los seguimientos y tres decisiones que organizan lo demás."
 keywords: [modelo de datos de lifewell, esquema postgres, mediciones, datos de seguimiento, diseño de base de datos]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

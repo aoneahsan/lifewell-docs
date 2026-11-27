@@ -2,7 +2,7 @@
 title: Веб-версия
 description: "Использование LifeWell в браузере: особенности напоминаний, общего доступа и работы без связи."
 keywords: [веб-приложение LifeWell, поддержка браузеров, прогрессивное веб-приложение, PWA]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

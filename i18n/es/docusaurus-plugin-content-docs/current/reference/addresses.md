@@ -2,7 +2,7 @@
 title: Direcciones que se conservan
 description: Noventa y nueve direcciones públicas de LifeWell y quince redirecciones permanentes. Reconstruir el producto cambia el código, no sus direcciones.
 keywords: [direcciones de lifewell, enlaces permanentes, redirecciones, mapa del sitio, urls conservadas]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

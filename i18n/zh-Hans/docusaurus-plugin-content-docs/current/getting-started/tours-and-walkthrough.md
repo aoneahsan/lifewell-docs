@@ -2,7 +2,7 @@
 title: 页面导览与操作演示
 description: 两种认识 LifeWell 的方式：顶部路标按钮提供简短页面导览；“LifeWell 如何使用”用六张真实页面截图介绍整个应用。还可查看长任务清单。
 keywords: [lifewell 导览, lifewell 操作演示, lifewell 如何使用, lifewell 首次使用, lifewell 任务, 页面导览]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

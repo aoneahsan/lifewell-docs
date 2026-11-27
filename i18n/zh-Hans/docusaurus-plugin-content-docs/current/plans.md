@@ -2,7 +2,7 @@
 title: 方案
 description: Free、Pro 和 Family 各包含什么，Family 席位如何运作、免费方案的界限，以及两种付款方式。价格以美元按月或按年列出。
 keywords: [lifewell 方案, lifewell 价格, 免费方案, pro 方案, family 方案, family 席位, google play 计费]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

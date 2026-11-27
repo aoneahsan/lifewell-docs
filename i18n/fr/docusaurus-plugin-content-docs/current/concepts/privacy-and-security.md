@@ -2,7 +2,7 @@
 title: Confidentialité et sécurité
 description: 'Ce qui quitte votre appareil et ce qui y reste : connexion sans mot de passe, règles par ligne, mesures filtrées, contacts, photos de pièces d’identité et promesses que LifeWell ne fait pas.'
 keywords: [confidentialité LifeWell, confidentialité des données de santé, sécurité par ligne, filtrage des mesures, autorisation contacts, places Family]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

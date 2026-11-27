@@ -2,7 +2,7 @@
 title: "الويب"
 description: "نسخة الويب هي النسخة المرجعية؛ تقدم كل ما يفعله LifeWell باستثناء أمرين ينفذهما نظام Android."
 keywords: [تطبيق lifewell على الويب, المتصفحات المدعومة, تطبيق ويب تقدمي, pwa]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: A documentação estava errada. Por isso, foi reescrita
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "Equipe LifeWell"
+    title: "As pessoas que desenvolvem e mantêm o LifeWell"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: O LifeWell 3.0.0 foi reconstruído sobre uma nova estrutura de dados, enquanto a documentação antiga descrevia um produto que já não existia. Todas as páginas foram reescritas com base no código.
 ---
 

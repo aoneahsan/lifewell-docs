@@ -2,7 +2,7 @@
 title: Календарь и встречи
 description: Храните события и встречи с датами вместе, а рядом с каждой встречей — список вопросов и заметки.
 keywords: [календарь LifeWell, список встреч, вопросы для врача, приёмы у врача]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

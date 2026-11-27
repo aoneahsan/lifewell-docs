@@ -2,7 +2,7 @@
 sidebar_position: 14
 title: Переход с Mesh на LifeWell
 description: "Как перейти с Mesh на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

@@ -2,7 +2,7 @@
 title: Tokens de acesso e autenticação
 description: Como um programa ou aplicativo comprova o acesso aos seus dados LifeWell — tokens com permissões de leitura, escrita e exclusão, regra de dez minutos, OAuth, limites e erros.
 keywords: [token de acesso LifeWell, autenticação api LifeWell, oauth LifeWell, escopos api, limites de uso]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

@@ -2,7 +2,7 @@
 sidebar_position: 18
 title: Переход с Notion на LifeWell
 description: "Как перейти с Notion на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

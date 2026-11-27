@@ -2,7 +2,7 @@
 title: API LifeWell
 description: "REST API LifeWell: базовый адрес, страницы по 20 строк по умолчанию и не более 50, а также файл OpenAPI с описанием маршрутов и полей."
 keywords: [API LifeWell, REST API LifeWell, OpenAPI, постраничная загрузка API, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

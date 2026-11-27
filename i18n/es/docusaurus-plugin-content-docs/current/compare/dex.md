@@ -2,7 +2,7 @@
 sidebar_position: 15
 title: Pasar de Dex a LifeWell
 description: "Cómo pasar de Dex a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo de LifeWell

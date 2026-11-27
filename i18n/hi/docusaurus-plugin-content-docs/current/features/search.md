@@ -2,7 +2,7 @@
 title: खोज
 description: आपके पूरे रिकॉर्ड में एक खोज। सर्वर वाला हिस्सा बना है; पेज अभी पूरा नहीं हुआ है और ऐप खाली नतीजे दिखाने के बजाय यह साफ़ बताता है।
 keywords: [lifewell खोज, अपना रिकॉर्ड खोजें]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

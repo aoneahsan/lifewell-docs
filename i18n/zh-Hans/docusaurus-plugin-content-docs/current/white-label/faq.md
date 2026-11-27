@@ -2,7 +2,7 @@
 title: 白标常见问题
 description: 机构在购买 LifeWell 授权前常问的问题：源码、独家性、iOS、更新，以及开始所需的资料。
 keywords: [lifewell 白标常见问题, 白标许可证问题]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

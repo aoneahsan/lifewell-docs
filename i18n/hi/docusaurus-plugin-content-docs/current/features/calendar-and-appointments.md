@@ -2,7 +2,7 @@
 title: कैलेंडर और अपॉइंटमेंट
 description: रोज़मर्रा और इलाज वाले हफ़्ते के लिए एक कैलेंडर; हर अपॉइंटमेंट में वे सवाल लिखने की सूची जो आप पूछना चाहते थे।
 keywords: [lifewell कैलेंडर, अपॉइंटमेंट रिकॉर्ड, अपॉइंटमेंट सवाल]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

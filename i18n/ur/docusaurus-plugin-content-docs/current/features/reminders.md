@@ -2,7 +2,7 @@
 title: یاد دہانیاں
 description: LifeWell آپ کو کیا، کب اور کس آلے پر بھیج سکتا ہے؛ تین مرکزی سوئچ، خاموش اوقات، اور Android سے عین وقت کے الارم کی اجازت نہ مانگنے کی وجہ۔
 keywords: [lifewell reminders, medication reminder, appointment reminder, quiet hours, android notifications]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

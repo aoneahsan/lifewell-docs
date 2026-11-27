@@ -2,7 +2,7 @@
 title: "إعداد نسخة مرخصة"
 description: "خطوات الانتقال من الدفع إلى نسخة LifeWell عاملة باسمك: رسالة الترخيص، ونطاقك وعلامتك، والنشر."
 keywords: [إعداد ترخيص lifewell, نشر نسخة بعلامة خاصة, نطاق مخصص]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

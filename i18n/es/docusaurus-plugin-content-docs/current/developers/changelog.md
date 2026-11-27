@@ -2,7 +2,7 @@
 title: Cambios para desarrolladores
 description: Todos los cambios en la API, el servidor MCP, los webhooks y los calendarios de LifeWell, empezando por los más recientes.
 keywords: [cambios en la API de lifewell, versiones de la API, historial de la API]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

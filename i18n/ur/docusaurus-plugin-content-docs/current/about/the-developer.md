@@ -2,7 +2,7 @@
 title: LifeWell کون بناتا ہے
 description: LifeWell کی ٹیم ایپ بناتی اور برقرار رکھتی ہے، اور پروڈکٹ اپنی حدود صاف بیان کرتی ہے۔
 keywords: [lifewell team, who builds lifewell, contact lifewell, lifewell support]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

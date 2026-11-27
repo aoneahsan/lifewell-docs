@@ -2,7 +2,7 @@
 title: 共有
 description: 切り替えのない唯一の領域です。リンクに含められる内容、相手の画面、終了方法、記録から決して出ないものを説明します。
 keywords: [lifewell sharing, share a family tree, share medications, share a tracker, read only link, partner sharing, sharing controls, 共有]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

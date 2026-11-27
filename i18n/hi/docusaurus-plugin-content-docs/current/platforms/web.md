@@ -2,7 +2,7 @@
 title: वेब
 description: वेब बिल्ड मुख्य संस्करण है—Android जो दो काम ऑपरेटिंग सिस्टम से कराता है, उनके अलावा LifeWell का हर काम यहाँ है।
 keywords: [lifewell वेब ऐप, ब्राउज़र सहायता, प्रोग्रेसिव वेब ऐप, pwa]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: 言語と単位
 description: LifeWellのアプリ、ドキュメント、ブラウザー拡張機能は10言語に対応します。測定単位の選択は言語とは別です。
 keywords: [lifewell language, translation, i18n, metric imperial units, en-GB, 言語と単位]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

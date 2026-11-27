@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Passer à LifeWell depuis une autre application
 description: Guides étape par étape pour passer à LifeWell depuis 32 produits de généalogie, d’organisation et de suivi de santé, avec la date de vérification de chacun.
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

@@ -2,7 +2,7 @@
 title: La liste de courses
 description: Une liste issue de vos repas et recettes ou écrite à la main, partageable en texte brut sans imposer de compte à la personne qui fait les courses.
 keywords: [liste de courses LifeWell, liste du planificateur de repas, partager une liste de courses]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

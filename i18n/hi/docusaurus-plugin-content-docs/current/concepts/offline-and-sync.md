@@ -2,7 +2,7 @@
 title: ऑफ़लाइन और सिंक
 description: कनेक्शन टूटने पर LifeWell ऐप रोक देता है; चाहें तो कुछ छोटी प्रविष्टियाँ लौटने तक इस डिवाइस पर रख सकते हैं।
 keywords: [lifewell ऑफ़लाइन, सिंक, कनेक्शन नहीं, ऑफ़लाइन काम]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

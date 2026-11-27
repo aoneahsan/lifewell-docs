@@ -2,7 +2,7 @@
 title: Architecture
 description: A static single-page app over Postgres, with edge functions only where the browser must not hold something. What runs where, and why there is no server of our own.
 keywords: [lifewell architecture, supabase, react, vite, capacitor, edge functions, spa]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

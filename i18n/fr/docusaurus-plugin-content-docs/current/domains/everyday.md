@@ -2,7 +2,7 @@
 title: Quotidien
 description: Calendrier, rendez-vous, notes, lieux enregistrés, rappels et liste de courses — la semaine ordinaire qui relie le reste.
 keywords: [calendrier LifeWell, rendez-vous, application de notes, rappels, liste de courses]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

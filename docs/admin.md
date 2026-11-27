@@ -2,7 +2,7 @@
 title: The admin panel
 description: Ten screens, three roles, an audit log nobody can write to directly, and the controls that let plan limits and the referral programme change without a release.
 keywords: [lifewell admin, admin panel, platform administration, audit log, moderation, user management]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

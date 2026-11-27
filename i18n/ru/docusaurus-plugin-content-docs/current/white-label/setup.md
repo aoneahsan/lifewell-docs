@@ -2,7 +2,7 @@
 title: Настройка копии по лицензии
 description: Путь от оплаты до работающей копии LifeWell под вашей маркой — письмо с лицензией, домен, оформление и размещение.
 keywords: [настройка white-label LifeWell, размещение копии, собственный домен]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

@@ -2,7 +2,7 @@
 title: 提醒
 description: LifeWell 会在何时、向哪台设备发送什么提醒：三个总开关、免打扰时段，以及应用为什么不向 Android 请求精确闹钟权限。
 keywords: [lifewell 提醒, 用药提醒, 预约提醒, 免打扰时段, android 通知]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: ब्राउज़र एक्सटेंशन
 description: Chrome और Firefox के लिए LifeWell का साथी एक्सटेंशन बन चुका है, लेकिन अभी किसी स्टोर में प्रकाशित नहीं हुआ। जानें कि यह ब्राउज़र में क्या रखता है और खाता कैसे जोड़ता है।
 keywords: [lifewell एक्सटेंशन, ब्राउज़र एक्सटेंशन, chrome एक्सटेंशन]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

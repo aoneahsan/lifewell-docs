@@ -2,7 +2,7 @@
 title: Quem desenvolve o LifeWell
 description: A equipe LifeWell desenvolve e mantém o aplicativo e explica com clareza o que ele ainda não faz.
 keywords: [equipe lifewell, quem desenvolve o lifewell, contato lifewell, suporte lifewell]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

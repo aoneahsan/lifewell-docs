@@ -2,7 +2,7 @@
 title: "البحث"
 description: "بحث واحد في سجلك كله. بُني جزء الخادم، لكن الصفحة لم تكتمل بعد، ويقول التطبيق ذلك بدلاً من عرض نتائج فارغة."
 keywords: [بحث lifewell, البحث في سجلك]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

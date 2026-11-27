@@ -2,7 +2,7 @@
 title: Contributing to these docs
 description: How to correct a page, what belongs here, and the one rule that matters — this documentation may only describe what the product actually does.
 keywords: [contribute lifewell docs, edit documentation, docs repository]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

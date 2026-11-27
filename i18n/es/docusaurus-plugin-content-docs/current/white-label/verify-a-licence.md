@@ -2,7 +2,7 @@
 title: Comprobar una licencia
 description: Cómo comprobar si una copia de LifeWell tiene licencia por su clave o por su sitio web, y qué significa cada respuesta.
 keywords: [comprobar licencia lifewell, verificar marca blanca, archivo de licencia]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

@@ -2,7 +2,7 @@
 title: साधन और कैलकुलेटर
 description: कौन से कैलकुलेटर LifeWell में हैं, कौन से ZTools पर हैं और साधनों की सूची ज़्यादातर लिंक क्यों देती है।
 keywords: [lifewell साधन, स्वास्थ्य कैलकुलेटर, bmi कैलकुलेटर, इंटरवल टाइमर]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

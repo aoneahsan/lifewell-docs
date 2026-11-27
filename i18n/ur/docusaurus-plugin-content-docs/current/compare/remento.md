@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: Remento سے LifeWell پر آنا
 description: "Remento سے LifeWell پر یادیں کیسے لائیں، دونوں میں کیا فرق ہے اور قیمت کیا ہے۔ 2026-11-26 کو جانچا گیا۔"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell ٹیم

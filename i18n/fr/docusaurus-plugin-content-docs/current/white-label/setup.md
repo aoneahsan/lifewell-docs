@@ -2,7 +2,7 @@
 title: Installer une copie sous licence
 description: "Du paiement à la mise en ligne d’une copie LifeWell à votre nom : e-mail de licence, domaine, identité visuelle et déploiement."
 keywords: [installation LifeWell marque blanche, déploiement marque blanche, domaine personnalisé]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

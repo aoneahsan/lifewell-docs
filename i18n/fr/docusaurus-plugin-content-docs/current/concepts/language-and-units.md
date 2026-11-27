@@ -2,7 +2,7 @@
 title: Langues et unités
 description: LifeWell propose dix langues dans l’application, la documentation et l’extension de navigateur. Le choix des unités reste indépendant de la langue.
 keywords: [langues LifeWell, traduction, i18n, unités métriques impériales, français]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

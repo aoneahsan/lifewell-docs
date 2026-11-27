@@ -2,7 +2,7 @@
 title: The data model
 description: How LifeWell stores a life — one table per idea, one store behind every tracker, and the three decisions that shape everything above them.
 keywords: [lifewell data model, postgres schema, metric entries, tracker data, database design]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

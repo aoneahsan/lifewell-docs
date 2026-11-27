@@ -2,7 +2,7 @@
 title: "الذكريات"
 description: "صور وألبومات وسجل قصاصات وتعليقات تجعل الصور قابلة للفهم لاحقاً؛ الملفات نفسها في Google Drive الخاص بك."
 keywords: [ذكريات lifewell, ألبوم صور, سجل قصاصات, صور google drive, حفظ الذكريات]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: Planos
 description: Gratuito, Pro e Família — o que incluem, como funcionam as vagas, a divisão entre planos e as formas de pagamento. Preços mensais ou anuais em dólares americanos.
 keywords: [planos LifeWell, preços LifeWell, plano gratuito, plano Pro, plano Família, vagas da família, Google Play Billing]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

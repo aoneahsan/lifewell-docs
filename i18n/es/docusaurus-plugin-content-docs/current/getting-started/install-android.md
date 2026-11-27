@@ -2,7 +2,7 @@
 title: Instalar en Android
 description: LifeWell para Android es una versión Capacitor de la misma aplicación. Descárgala en Google Play, inicia sesión con Google y consulta el mismo registro que en la web.
 keywords: [lifewell android, google play, aplicación capacitor, instalar lifewell android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

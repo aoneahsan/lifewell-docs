@@ -2,7 +2,7 @@
 title: iOS
 description: iOS a été retiré de LifeWell le 16 juillet 2026. Il ne sera rétabli que si un compte Apple Developer est créé.
 keywords: [LifeWell iOS, application iPhone, iPad, Apple, compatibilité iOS]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

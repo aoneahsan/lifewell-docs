@@ -2,7 +2,7 @@
 title: La visite de page et le parcours de découverte
 description: "Deux façons de découvrir LifeWell : une courte visite depuis la barre supérieure et un parcours en six écrans avec de vraies captures. La liste des tâches longues est également expliquée."
 keywords: [visite LifeWell, parcours LifeWell, fonctionnement LifeWell, démarrage LifeWell, tâches LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

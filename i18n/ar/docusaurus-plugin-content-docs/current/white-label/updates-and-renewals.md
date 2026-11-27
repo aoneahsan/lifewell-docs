@@ -2,7 +2,7 @@
 title: "التحديثات والتجديد"
 description: "الأشهر الستة من التحديثات التي تصاحب كل ترخيص وشراء كامل لـLifeWell، وما يعد تحديثاً، وكيف تجدد بمفتاح الترخيص."
 keywords: [تجديد ترخيص lifewell, تحديثات العلامة الخاصة, تجديد مفتاح الترخيص]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

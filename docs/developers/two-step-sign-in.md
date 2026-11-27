@@ -2,7 +2,7 @@
 title: Two-step sign-in
 description: Turn on two-step sign-in for your LifeWell account with an authenticator app, keep your recovery codes, and choose whether a browser is remembered for 7 days.
 keywords: [lifewell two-step sign-in, two-factor authentication, authenticator app, recovery codes]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

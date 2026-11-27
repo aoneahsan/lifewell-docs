@@ -2,7 +2,7 @@
 title: "المجتمع والمحادثات"
 description: "مجموعات فيها منشورات وردود، ورسائل بين الحسابات المتصلة، وحظر وإشراف لا يكشف لصاحب المنشور من أبلغ عنه."
 keywords: [مجتمع lifewell, منتدى صحي, محادثة جماعية, مراسلة, حظر, إشراف]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

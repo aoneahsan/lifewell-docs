@@ -3,11 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import sitePages, {withLastmod, withoutLocale} from './plugins/site-pages';
 import {OTHER_PLATFORMS} from './src/data/platforms';
+import {seoRedirects} from './plugins/seo-redirects';
 
 const SITE_URL = 'https://lifewell-docs.aoneahsan.com';
 const APP_URL = 'https://lifewell.aoneahsan.com';
 const GITHUB_REPO = 'https://github.com/aoneahsan/lifewell-docs';
 const BLOG_PATH = '/blog';
+// Addresses search engines still request (lifewell-docs#1): the 2.x pages and the retired topic pages.
+// `yarn build` then checks every one of them in the output (plugins/seo-contract.ts).
+const SEO_REDIRECTS = seoRedirects(__dirname);
 
 const config: Config = {
   title: 'LifeWell',
@@ -27,7 +31,9 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
-  trailingSlash: false,
+  // Every page is `<route>/index.html`: GitHub Pages then 301s `/x` to `/x/`. With `false` it served `x.html`
+  // and 404ed every slashed link to it (SA-P26).
+  trailingSlash: true,
 
   i18n: {
     defaultLocale: 'en',
@@ -117,6 +123,7 @@ const config: Config = {
           {to: '/about/the-developer', from: ['/docs/about/about-the-developer', '/about']},
           {to: '/about/changelog', from: ['/docs/about/changelog']},
           {to: '/about/contributing', from: ['/docs/about/contributing']},
+          ...SEO_REDIRECTS,
         ],
       },
     ],
@@ -178,6 +185,8 @@ const config: Config = {
             'MANUAL-TASKS.md',
             // docs/PACKAGES.md is the fleet's fixed-path dependency record, never a published page.
             'PACKAGES.md',
+            // docs/search-consoles/ is the fleet's fixed-path record of search-console work (fix-log.md), never a page.
+            'search-consoles/**',
             'i18n/**',
           ],
           editUrl: `${GITHUB_REPO}/edit/main/`,
@@ -200,7 +209,8 @@ const config: Config = {
           },
           editUrl: `${GITHUB_REPO}/edit/main/`,
           onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
+          // One author, the team, written inline in each post: no authors.yml, so no author pages (SA-P32).
+          onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {

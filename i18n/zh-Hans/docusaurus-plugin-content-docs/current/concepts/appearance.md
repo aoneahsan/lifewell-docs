@@ -2,7 +2,7 @@
 title: 外观
 description: 一个图标、一处面板，集中设置主题、颜色、圆角、密度、文字大小、字体、表面样式和动态效果；首屏显示前便会应用。
 keywords: [lifewell 主题, 深色模式, 外观设置, 无障碍文字大小, 减少动态效果]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

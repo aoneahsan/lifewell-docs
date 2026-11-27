@@ -2,7 +2,7 @@
 title: Marque blanche et licences
 description: Ce qu’est une licence LifeWell en marque blanche, à qui elle s’adresse, ce que nous exploitons pour vous et ce qui la distingue du rachat du code source.
 keywords: [LifeWell marque blanche, licence marque blanche, licences LifeWell, rachat LifeWell]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

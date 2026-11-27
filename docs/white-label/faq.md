@@ -2,7 +2,7 @@
 title: White-label questions
 description: Answers to what organisations ask before licensing LifeWell — source code, exclusivity, iOS, updates and what we need to start.
 keywords: [lifewell white-label faq, white-label licence questions]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

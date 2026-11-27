@@ -2,7 +2,7 @@
 title: Preparar una copia con licencia
 description: "Los pasos desde el pago hasta una copia de LifeWell publicada bajo tu nombre: correo de licencia, dominio, identidad visual y publicación."
 keywords: [configurar marca blanca lifewell, publicar marca blanca, dominio propio]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

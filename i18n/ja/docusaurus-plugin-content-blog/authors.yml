@@ -1,8 +1,0 @@
-# キーはahsanのままにして、著者ページのアドレス（/blog/authors/ahsan）を保ちます。
-# サイトでは一個人ではなくLifeWellチームとして語ります。
-ahsan:
-  name: LifeWellチーム
-  title: LifeWellを開発・保守するチーム
-  url: https://lifewell.aoneahsan.com
-  image_url: /img/logo.svg
-  page: true

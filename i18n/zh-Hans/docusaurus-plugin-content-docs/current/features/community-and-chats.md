@@ -2,7 +2,7 @@
 title: 社区与聊天
 description: 包含发帖和回复的小组、已建立联系的账号间的一对一消息、屏蔽功能，以及不会向作者透露举报人身份的审核流程。
 keywords: [lifewell 社区, 健康论坛, 群聊, 消息, 屏蔽, 内容审核]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

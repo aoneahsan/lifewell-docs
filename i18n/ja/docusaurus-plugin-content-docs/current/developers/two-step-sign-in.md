@@ -2,7 +2,7 @@
 title: 二段階認証
 description: 認証アプリでLifeWellの二段階認証を有効にし、復旧コードを保管し、ブラウザーを7日間記憶するか選びます。
 keywords: [LifeWell二段階認証, 二要素認証, 認証アプリ, 復旧コード]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

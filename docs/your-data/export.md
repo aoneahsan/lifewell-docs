@@ -2,7 +2,7 @@
 title: Export a copy
 description: Export a selected date range as JSON or CSV, or make a PDF summary. Each table is capped at 5,000 rows per export.
 keywords: [lifewell export, export health data, download my data, json csv pdf export]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

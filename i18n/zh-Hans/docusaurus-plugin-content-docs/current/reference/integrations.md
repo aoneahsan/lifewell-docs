@@ -2,7 +2,7 @@
 title: 第三方服务
 description: LifeWell 使用的每项外部服务、用途、接收的数据，以及未配置密钥时的行为。
 keywords: [lifewell 第三方服务, google drive, sentry, amplitude, clarity, onesignal, turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

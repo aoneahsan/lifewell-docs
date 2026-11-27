@@ -2,7 +2,7 @@
 title: Idioma e unidades
 description: O LifeWell oferece dez idiomas no aplicativo, na documentação e na extensão. A unidade de medida é uma escolha separada do idioma.
 keywords: [idioma LifeWell, tradução, i18n, unidades métricas e imperiais, en-GB]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

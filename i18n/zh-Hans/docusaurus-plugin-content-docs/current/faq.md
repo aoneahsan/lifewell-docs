@@ -2,7 +2,7 @@
 title: 常见问题
 description: 在把生活记录交给一款应用前，人们关心的费用、隐私、导出、离线使用，以及 LifeWell 不会做的事。
 keywords: [lifewell 常见问题, lifewell 免费吗, lifewell 隐私, 导出数据, 删除账号, 家庭席位, 通讯录权限, 收藏]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

@@ -2,7 +2,7 @@
 title: Android
 description: Android版LifeWellの最低要件Android 9、権限、端末内リマインダー、署名付き更新、公開待ちの機能を説明します。
 keywords: [lifewell android, android permissions, contacts permission, minsdk 28, capacitor android, play store, Android]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

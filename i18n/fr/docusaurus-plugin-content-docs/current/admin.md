@@ -2,7 +2,7 @@
 title: Le panneau d’administration
 description: Dix écrans, trois rôles, un journal d’audit auquel personne ne peut écrire directement, et des réglages qui changent les limites des offres et le parrainage sans nouvelle version.
 keywords: [administration LifeWell, panneau d’administration, journal d’audit, modération, gestion des comptes]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

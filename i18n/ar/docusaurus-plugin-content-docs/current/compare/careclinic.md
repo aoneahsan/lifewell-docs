@@ -2,7 +2,7 @@
 sidebar_position: 26
 title: "الانتقال من CareClinic إلى LifeWell"
 description: "كيف تنتقل من CareClinic إلى LifeWell، وأين يختلفان، وما تكلفة كل منهما. تم التحقق في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

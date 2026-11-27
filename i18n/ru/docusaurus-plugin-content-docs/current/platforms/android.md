@@ -2,7 +2,7 @@
 title: Android
 description: "LifeWell на Android: минимум Android 9, разрешения, локальные напоминания, подписанные обновления и функции, ожидающие выпуска в магазине."
 keywords: [LifeWell Android, разрешения Android, доступ к контактам, minSdk 28, Capacitor Android, Google Play]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

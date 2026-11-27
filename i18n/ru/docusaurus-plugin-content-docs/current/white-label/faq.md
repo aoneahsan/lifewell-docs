@@ -2,7 +2,7 @@
 title: Вопросы о лицензии white-label
 description: "Ответы для организаций перед покупкой LifeWell: исходный код, эксклюзивность, iOS, обновления и материалы для начала работы."
 keywords: [вопросы о white-label LifeWell, лицензия LifeWell]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

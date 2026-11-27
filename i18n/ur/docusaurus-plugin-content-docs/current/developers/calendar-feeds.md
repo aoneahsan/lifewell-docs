@@ -2,7 +2,7 @@
 title: کیلنڈر فیڈز
 description: صرف پڑھنے والی فیڈ کے پتے سے اپنا LifeWell کیلنڈر Google Calendar، Apple Calendar یا Outlook میں دکھائیں، اور جب چاہیں رسائی ختم کریں۔
 keywords: [lifewell calendar feed, subscribe to lifewell calendar, ics feed, google calendar subscription]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

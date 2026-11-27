@@ -2,7 +2,7 @@
 title: Appearance
 description: One icon and one panel for theme, colour, corner radius, density, text size, typeface, surface style and motion. Applied before the first paint.
 keywords: [lifewell theme, dark mode, appearance settings, accessibility text size, reduced motion]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

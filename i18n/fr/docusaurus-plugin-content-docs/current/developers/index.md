@@ -2,7 +2,7 @@
 title: Relier LifeWell à d’autres applications
 description: 'Quatre chemins vers votre dossier depuis l’extérieur : calendrier par flux, script par jeton, assistant IA par MCP et autre application par webhook.'
 keywords: [connecter LifeWell, API LifeWell, MCP LifeWell, webhooks LifeWell, flux de calendrier]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

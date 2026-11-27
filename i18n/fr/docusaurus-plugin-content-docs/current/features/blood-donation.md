@@ -2,7 +2,7 @@
 title: Don de sang
 description: Un annuaire public de donneurs, des demandes ciblées et une communication des coordonnées à une seule personne, une seule fois, que le donneur peut retirer.
 keywords: [annuaire de donneurs de sang, don de sang, demande de sang, donneurs LifeWell]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

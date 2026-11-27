@@ -2,7 +2,7 @@
 title: Installer LifeWell sur Android
 description: LifeWell sur Android reprend la même application que sur le Web. Installez-la depuis Google Play et connectez-vous avec Google pour retrouver le même dossier.
 keywords: [LifeWell Android, Google Play, application Capacitor, installer LifeWell sur Android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

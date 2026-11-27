@@ -2,7 +2,7 @@
 title: 外部サービス
 description: LifeWellが利用する外部サービス、それぞれの用途、受け取る情報、キーがない場合の動作。
 keywords: [LifeWell外部サービス, サードパーティーサービス, Google Drive, Sentry, Amplitude, Clarity, OneSignal, Turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

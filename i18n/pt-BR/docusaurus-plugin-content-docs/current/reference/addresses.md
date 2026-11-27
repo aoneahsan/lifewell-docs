@@ -2,7 +2,7 @@
 title: Endereços permanentes
 description: Noventa e nove endereços públicos e quinze redirecionamentos do LifeWell são permanentes. A reconstrução muda o código, não os endereços.
 keywords: [urls LifeWell, links permanentes, redirecionamentos, mapa do site, endereços fixos]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

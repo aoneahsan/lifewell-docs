@@ -2,7 +2,7 @@
 title: 思い出
 description: 写真、アルバム、スクラップブック、あとで読み返せる説明文を残します。ファイル自体は自分のGoogle Driveに保存されます。
 keywords: [lifewell memories, photo album, scrapbook, google drive photos, memory keeping, 思い出]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

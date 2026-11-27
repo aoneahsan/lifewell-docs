@@ -2,7 +2,7 @@
 title: Histórico de versões
 description: O LifeWell 3.0 (versão 3.22.0) foi reconstruído sobre um novo serviço de dados, seguido pelas versões 3.23 a 3.25 em outubro de 2026. Veja o que mudou, saiu, foi corrigido e o que foi zerado na 3.0.
 keywords: [lifewell 3.0, lifewell 3.22.0, histórico de versões, notas de atualização, novidades]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

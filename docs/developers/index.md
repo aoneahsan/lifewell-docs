@@ -2,7 +2,7 @@
 title: Connect LifeWell to other apps
 description: The four ways something outside LifeWell can reach your record — a calendar app through a feed, a script through an access token, an AI assistant through MCP, and another app through webhooks.
 keywords: [connect lifewell to other apps, lifewell api, lifewell mcp, lifewell webhooks, lifewell calendar feed]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

@@ -2,7 +2,7 @@
 title: Santé
 description: Mesures, médicaments, alimentation, activité et affections — un espace autour de vos proches, disponible si vous le souhaitez, sans être le centre de LifeWell.
 keywords: [santé LifeWell, suivi de santé, suivi des médicaments, suivi des symptômes, constantes]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

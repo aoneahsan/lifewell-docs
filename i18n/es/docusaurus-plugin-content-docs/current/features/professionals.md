@@ -2,7 +2,7 @@
 title: Profesionales
 description: Un directorio de profesionales que crearon su propia ficha. LifeWell no comprueba sus credenciales; muestra su número de registro y un enlace para que puedas consultarlo.
 keywords: [profesionales de lifewell, directorio profesional, registro profesional, consulta]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

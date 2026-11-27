@@ -2,7 +2,7 @@
 title: 工具与计算器
 description: 了解哪些计算器留在 LifeWell，哪些位于 ZTools，以及为什么工具目录主要提供链接而非重复实现。
 keywords: [lifewell 工具, 健康计算器, bmi 计算器, 间歇计时器, 儿童生长]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

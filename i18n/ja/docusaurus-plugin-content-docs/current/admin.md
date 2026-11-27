@@ -2,7 +2,7 @@
 title: 管理画面
 description: 10画面、3つの役割、誰も直接書き込めない監査記録、リリースなしで変更できるプラン上限と紹介制度を説明します。
 keywords: [lifewell admin, admin panel, platform administration, audit log, moderation, user management, 管理画面]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

@@ -2,7 +2,7 @@
 title: Communauté et conversations
 description: Groupes avec publications et réponses, messages entre comptes connectés, blocage et modération sans révéler à l’auteur l’identité de la personne qui l’a signalé.
 keywords: [communauté LifeWell, groupe de santé, discussion, messagerie, blocage, modération]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

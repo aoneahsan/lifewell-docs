@@ -2,7 +2,7 @@
 title: Экспорт копии
 description: Экспортируйте выбранный период в JSON или CSV либо создайте краткий PDF. За один раз выгружается не больше 5 000 строк из каждой таблицы.
 keywords: [экспорт LifeWell, экспорт данных о здоровье, скачать свои данные, экспорт JSON CSV PDF]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: صفحے کی رہنمائی اور عملی تعارف
 description: "LifeWell سیکھنے کے دو طریقے: اوپر والی بار کے نشان سے مختصر صفحہ رہنمائی، اور حقیقی تصویروں والی چھ اسکرینیں۔ لمبے کاموں کے لیے Jobs کی فہرست بھی۔"
 keywords: [lifewell tour, lifewell walkthrough, how lifewell works, lifewell onboarding, lifewell jobs, page tour]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

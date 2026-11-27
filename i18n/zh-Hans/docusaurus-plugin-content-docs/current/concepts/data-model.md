@@ -2,7 +2,7 @@
 title: 数据模型
 description: LifeWell 如何保存生活记录：每个概念一张表、所有记录工具共用一份存储，以及影响整个系统的三项决定。
 keywords: [lifewell 数据模型, postgres 结构, 测量记录, 追踪数据, 数据库设计]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

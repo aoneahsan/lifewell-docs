@@ -2,7 +2,7 @@
 title: "خدمات الأطراف الأخرى"
 description: "كل خدمة خارجية يتصل بها LifeWell، والغرض منها وما تستقبله وما يحدث إذا غاب مفتاحها."
 keywords: [تكاملات lifewell, خدمات خارجية, google drive, sentry, amplitude, clarity, onesignal, turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

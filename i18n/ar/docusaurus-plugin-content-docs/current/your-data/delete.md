@@ -2,7 +2,7 @@
 title: "حذف سجلك"
 description: "احذف حسابك كله أو مجالاً واحداً من السبعة واحتفظ بالبقية. ما الذي يزيله كل إجراء وما الذي يبقيه عمداً ووضعه اليوم."
 keywords: [حذف حساب lifewell, حذف بياناتي, حذف الحساب, خصوصية البيانات]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

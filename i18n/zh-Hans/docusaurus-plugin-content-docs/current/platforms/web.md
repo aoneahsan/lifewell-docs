@@ -2,7 +2,7 @@
 title: 网页版
 description: 网页版是 LifeWell 的参考版本。除了由 Android 操作系统提供的两项能力，LifeWell 的功能都可在这里使用。
 keywords: [lifewell 网页应用, 浏览器支持, 渐进式网页应用, pwa]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

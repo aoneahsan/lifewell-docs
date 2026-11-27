@@ -2,7 +2,7 @@
 title: よくある質問
 description: 人生の記録をアプリに預ける前に知りたい、料金、プライバシー、持ち出し、オフラインでの利用、LifeWellがしないことについて答えます。
 keywords: [lifewell faq, is lifewell free, lifewell privacy questions, export data, delete account, family seats, contacts permission, favourites, よくある質問]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

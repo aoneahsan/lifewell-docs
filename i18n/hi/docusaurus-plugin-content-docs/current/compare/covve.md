@@ -2,7 +2,7 @@
 sidebar_position: 16
 title: Covve से LifeWell पर आना
 description: "Covve से LifeWell पर कैसे आएँ, दोनों में क्या अंतर है और उनकी कीमत क्या है। जाँच की तारीख: 2026-11-26।"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell टीम

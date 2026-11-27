@@ -2,7 +2,7 @@
 title: Вебхуки
 description: "Вебхуки LifeWell сообщают вашему серверу об изменениях журнала: подпись Standard Webhooks, повторы чуть дольше суток и примеры проверки для Node, Python и PHP."
 keywords: [вебхуки LifeWell, Standard Webhooks, проверка подписи вебхука, повторная отправка вебхука]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

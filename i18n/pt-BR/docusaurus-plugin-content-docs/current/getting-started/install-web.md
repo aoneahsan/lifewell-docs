@@ -2,7 +2,7 @@
 title: Usar o LifeWell na web
 description: Abra o LifeWell em um navegador atual, entre com o Google e comece a registrar. Sem download, formulário de cadastro ou configuração inicial obrigatória.
 keywords: [lifewell na web, entrar com google, instalar lifewell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

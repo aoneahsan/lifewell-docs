@@ -2,7 +2,7 @@
 sidebar_position: 17
 title: "الانتقال من Cloze إلى LifeWell"
 description: "نقل معلومات الأشخاص من Cloze إلى LifeWell، والفروق والأسعار. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

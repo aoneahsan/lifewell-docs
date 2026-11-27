@@ -2,7 +2,7 @@
 title: 紹介プログラム
 description: 招待した人の登録が確認されるとポイントとバッジが付き、条件を満たすと有料プランが1か月延長されます。数値はすべて管理画面の設定です。
 keywords: [lifewell referral, invite a friend, referral rewards, free month, 紹介プログラム]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

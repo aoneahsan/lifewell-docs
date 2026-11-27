@@ -2,7 +2,7 @@
 title: 献血
 description: 公开的献血者名录、发送给匹配献血者的请求，以及只能向一人披露一次并可撤回的联系方式。
 keywords: [献血者名录, 献血, 求血请求, lifewell 献血者]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

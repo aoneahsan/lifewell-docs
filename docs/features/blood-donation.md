@@ -2,7 +2,7 @@
 title: Blood donation
 description: A public directory of donors, requests that reach them, and a contact release that is given once to one person and can be withdrawn.
 keywords: [blood donor directory, blood donation, blood request, lifewell blood donors]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

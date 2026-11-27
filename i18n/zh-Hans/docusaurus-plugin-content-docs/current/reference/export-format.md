@@ -2,7 +2,7 @@
 title: 导出文件格式
 description: 逐字段、逐表说明 LifeWell 导出文件：JSON 文件头、CSV 压缩包、PDF 省略的内容，以及任何格式都不会包含的内容。
 keywords: [lifewell 导出格式, json 导出结构, csv 导出, 导入 lifewell 记录, 数据可携带性]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

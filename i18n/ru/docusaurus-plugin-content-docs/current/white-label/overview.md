@@ -2,7 +2,7 @@
 title: Версия под вашей маркой и лицензирование
 description: Что представляет собой лицензия LifeWell white-label, кому она подходит, что мы обеспечиваем и чем она отличается от покупки исходного кода.
 keywords: [white-label LifeWell, лицензия LifeWell, покупка исходного кода]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

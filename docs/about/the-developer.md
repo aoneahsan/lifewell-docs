@@ -2,7 +2,7 @@
 title: Who builds LifeWell
 description: LifeWell is built and maintained by the LifeWell team, and the product is direct about what it cannot do.
 keywords: [lifewell team, who builds lifewell, contact lifewell, lifewell support]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: The page tour and the walkthrough
 description: Two ways to learn LifeWell — a short page tour from the signpost button in the top bar, and How LifeWell works, six screens with real screenshots. Plus the Jobs list for long tasks.
 keywords: [lifewell tour, lifewell walkthrough, how lifewell works, lifewell onboarding, lifewell jobs, page tour]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

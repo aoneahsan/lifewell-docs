@@ -2,7 +2,7 @@
 title: El programa de invitaciones
 description: Invita a alguien. Cuando confirma su registro, obtienes puntos, una insignia y, al alcanzar el umbral, un mes de un plan de pago. Cada cifra se configura desde la administración.
 keywords: [invitaciones de lifewell, invitar a un amigo, recompensas por invitación, mes gratis]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

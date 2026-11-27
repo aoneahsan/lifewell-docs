@@ -2,7 +2,7 @@
 title: Arquitectura
 description: Una aplicación estática de página única sobre Postgres, con funciones perimetrales solo cuando el navegador no debe guardar algo. Qué se ejecuta dónde y por qué no hay servidor propio.
 keywords: [arquitectura de lifewell, supabase, react, vite, capacitor, funciones perimetrales, spa]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

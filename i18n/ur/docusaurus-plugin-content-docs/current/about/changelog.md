@@ -2,7 +2,7 @@
 title: تبدیلیوں کا ریکارڈ
 description: LifeWell 3.0، جس کا ورژن نمبر 3.22.0 ہے، نئے پس منظر والے نظام پر مکمل نئی تعمیر ہے۔ اکتوبر 2026 میں 3.23 سے 3.25 تک کی تبدیلیاں بھی آئیں۔ نئی، ہٹائی اور درست کی گئی چیزیں، اور 3.0 کے ساتھ ریکارڈ کا دوبارہ آغاز۔
 keywords: [lifewell 3.0, lifewell 3.22.0, changelog, release notes, what is new]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

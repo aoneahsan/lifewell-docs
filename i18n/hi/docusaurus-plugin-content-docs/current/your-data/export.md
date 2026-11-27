@@ -2,7 +2,7 @@
 title: पूरा रिकॉर्ड एक्सपोर्ट करें
 description: LifeWell से अपना पूरा रिकॉर्ड JSON, CSV या PDF में लें। फ़ाइल आपके डिवाइस पर बनती है और उसका फ़ॉर्मैट हर फ़ील्ड के साथ दर्ज है।
 keywords: [lifewell एक्सपोर्ट, स्वास्थ्य डेटा डाउनलोड, json csv pdf एक्सपोर्ट]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

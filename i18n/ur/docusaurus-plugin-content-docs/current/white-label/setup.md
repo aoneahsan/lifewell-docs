@@ -2,7 +2,7 @@
 title: لائسنس یافتہ کاپی قائم کرنا
 description: "ادائیگی سے لے کر آپ کے نام پر LifeWell کی کاپی چلنے تک کے مراحل: لائسنس کی ای میل، آپ کا ڈومین اور شناخت، اور اشاعت۔"
 keywords: [lifewell white-label setup, white-label deployment, custom domain]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

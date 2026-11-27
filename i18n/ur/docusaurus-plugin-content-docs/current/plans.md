@@ -2,7 +2,7 @@
 title: منصوبے
 description: مفت، Pro اور Family منصوبے، ہر ایک میں کیا شامل ہے، Family کی نشستیں کیسے کام کرتی ہیں، مفت حدیں کیسے طے ہوئیں، اور ادائیگی کے دو طریقے۔ قیمتیں امریکی ڈالر میں، ماہانہ یا سالانہ۔
 keywords: [lifewell plans, lifewell pricing, free plan, pro plan, family plan, family seats, google play billing]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

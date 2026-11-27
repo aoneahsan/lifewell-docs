@@ -2,7 +2,7 @@
 title: ウェブでLifeWellを使う
 description: 現在のブラウザーでLifeWellを開き、Googleでログインして記録を始めます。ダウンロードやアカウント登録フォームは必要ありません。
 keywords: [lifewell web app, sign in with google, install lifewell, ウェブアプリ]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

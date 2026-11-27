@@ -2,7 +2,7 @@
 title: Adresses qui ne changent pas
 description: Quatre-vingt-dix-neuf adresses publiques LifeWell et quinze redirections restent fixes. Une reconstruction change le code, pas les adresses.
 keywords: [adresses LifeWell, liens permanents, redirections, plan du site, URL fixes]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

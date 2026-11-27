@@ -2,7 +2,7 @@
 title: Profissionais
 description: Um diretório de profissionais que se cadastraram. O LifeWell não verifica as qualificações de ninguém; mostra o número de registro e um link para você conferir na entidade responsável.
 keywords: [profissionais LifeWell, diretório de profissionais, registro profissional, consulta]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

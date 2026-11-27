@@ -2,7 +2,7 @@
 title: Mente
 description: Diario, respiración guiada, sonidos para dormir, estado de ánimo, gratitud y pausas durante el trabajo, sin convertir nada en una puntuación.
 keywords: [mente lifewell, diario de estado de ánimo, diario de gratitud, ejercicios de respiración]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

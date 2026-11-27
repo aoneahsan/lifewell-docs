@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: ドキュメントの誤りを直すため、書き直しました
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "LifeWellチーム"
+    title: "LifeWellを開発・保守するチーム"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0は新しいバックエンドで再構築され、以前のドキュメントには現在の製品と異なる説明が残っていました。全ページを削除し、コードを確認して書き直しました。
 ---
 

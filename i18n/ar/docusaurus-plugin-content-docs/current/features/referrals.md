@@ -2,7 +2,7 @@
 title: "برنامج الإحالات"
 description: "ادعُ شخصاً؛ التسجيل المؤكد يمنح نقاطاً وشارة، وبعد حد معين شهراً من خطة مدفوعة. كل رقم إعداد يديره المشرف."
 keywords: [إحالات lifewell, دعوة صديق, مكافآت الإحالة, شهر مجاني]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

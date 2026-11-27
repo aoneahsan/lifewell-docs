@@ -2,7 +2,7 @@
 title: Les sept espaces
 description: 'LifeWell place sept espaces autour de Vous : les proches d’abord, puis les souvenirs, le quotidien et le partage, avec la santé, l’esprit et les étapes de la vie autour. Six se désactivent sans supprimer leur contenu ; pas le Partage.'
 keywords: [espaces LifeWell, domaines de vie, désactiver un espace, navigation LifeWell, partage LifeWell]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: Privacidad y seguridad
 description: "Qué sale de tu dispositivo y qué no: acceso sin contraseña, reglas de base de datos por fila, análisis sin datos personales, permiso de contactos, imágenes de identificaciones y límites de lo que LifeWell afirma."
 keywords: [privacidad de lifewell, privacidad de datos de salud, seguridad por filas, protección de datos de análisis, seguridad de datos, permiso de contactos, plazas familiares]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

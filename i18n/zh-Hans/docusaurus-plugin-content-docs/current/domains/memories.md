@@ -2,7 +2,7 @@
 title: 回忆
 description: 照片、相册、剪贴簿，以及让回忆以后仍能读懂的说明——文件本身留在您自己的 Google Drive 中。
 keywords: [lifewell 回忆, 相册, 剪贴簿, google drive 照片, 保存回忆]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

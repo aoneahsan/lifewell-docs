@@ -2,7 +2,7 @@
 title: دو مرحلہ لاگ اِن
 description: تصدیقی ایپ سے LifeWell اکاؤنٹ کا دو مرحلہ لاگ اِن فعال کریں، بحالی کے کوڈ محفوظ رکھیں، اور چنیں کہ براؤزر 7 دن یاد رکھا جائے یا نہیں۔
 keywords: [lifewell two-step sign-in, two-factor authentication, authenticator app, recovery codes]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

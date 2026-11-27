@@ -2,7 +2,7 @@
 sidebar_position: 10
 title: Moving from FamilyAlbum to LifeWell
 description: "How to move from FamilyAlbum to LifeWell, how they differ and what each costs. Checked 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

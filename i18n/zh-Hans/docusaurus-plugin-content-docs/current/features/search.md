@@ -2,7 +2,7 @@
 title: 搜索
 description: 在一处搜索您的全部记录。服务端部分已经建成，页面尚未完成；应用会如实说明，而不是显示空白结果。
 keywords: [lifewell 搜索, 搜索个人记录]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

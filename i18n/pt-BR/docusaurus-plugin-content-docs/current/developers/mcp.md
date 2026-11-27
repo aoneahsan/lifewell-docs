@@ -2,7 +2,7 @@
 title: Conectar um assistente de IA (MCP)
 description: Conecte Claude, ChatGPT, Claude Code ou Cursor aos seus registros pelo servidor MCP do LifeWell. Entenda o consentimento, a confirmação de exclusões e como desconectar.
 keywords: [servidor mcp LifeWell, conectar Claude ao LifeWell, conector ChatGPT, mcp Claude Code, mcp Cursor]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

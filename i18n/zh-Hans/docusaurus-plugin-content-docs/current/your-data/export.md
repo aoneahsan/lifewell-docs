@@ -2,7 +2,7 @@
 title: 导出副本
 description: 将所选日期范围导出为 JSON 或 CSV，或生成 PDF 摘要。每次导出每张表最多包含 5,000 行。
 keywords: [lifewell 导出, 导出健康记录, 下载我的记录, json csv pdf 导出]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

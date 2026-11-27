@@ -2,7 +2,7 @@
 title: Privacidade e segurança
 description: O que sai do seu dispositivo e o que permanece — acesso sem senha, regras do banco por linha, dados de análise filtrados, permissão de contatos, fotos de documentos e limites das promessas do LifeWell.
 keywords: [privacidade LifeWell, privacidade de dados de saúde, segurança em nível de linha, dados de análise, segurança, contatos, plano Família]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

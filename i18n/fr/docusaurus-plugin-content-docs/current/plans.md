@@ -2,7 +2,7 @@
 title: Offres
 description: 'Free, Pro et Family : contenu de chaque offre, places Family, logique de l’offre gratuite et deux modes de paiement. Prix en dollars américains, par mois ou par an.'
 keywords: [offres LifeWell, prix LifeWell, offre gratuite, offre Pro, offre Family, places Family, Google Play Billing]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

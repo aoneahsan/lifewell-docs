@@ -2,7 +2,7 @@
 title: زبان اور پیمائش کی اکائیاں
 description: LifeWell ایپ، دستاویزات اور براؤزر ایکسٹینشن میں دس زبانیں دیتا ہے۔ پیمائش کی اکائی زبان سے الگ آپ کا انتخاب ہے۔
 keywords: [LifeWell زبان, ترجمہ, میٹرک اکائیاں, امپیریل اکائیاں]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

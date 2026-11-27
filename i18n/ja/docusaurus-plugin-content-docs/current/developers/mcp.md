@@ -2,7 +2,7 @@
 title: AIアシスタントを接続する（MCP）
 description: LifeWell MCPサーバーを通じてClaude、ChatGPT、Claude Code、Cursorを記録に接続する方法。同意画面、削除の確認、接続解除も説明します。
 keywords: [LifeWell MCPサーバー, ClaudeをLifeWellに接続, ChatGPTコネクター, Claude Code MCP, Cursor MCP]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

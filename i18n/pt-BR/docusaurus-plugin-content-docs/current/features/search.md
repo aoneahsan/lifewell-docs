@@ -2,7 +2,7 @@
 title: Pesquisa
 description: Uma pesquisa para todo o seu registro. A consulta no servidor está pronta, mas a página ainda não; o aplicativo informa isso em vez de mostrar uma lista vazia.
 keywords: [pesquisa lifewell, pesquisar registros]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

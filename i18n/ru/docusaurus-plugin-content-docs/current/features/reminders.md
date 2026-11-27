@@ -2,7 +2,7 @@
 title: Напоминания
 description: "Какие напоминания LifeWell может показывать, когда и на каком устройстве: три главных переключателя, тихие часы и причина отсутствия разрешения Android на точные сигналы."
 keywords: [напоминания LifeWell, напоминание о лекарстве, напоминание о встрече, тихие часы, уведомления Android]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

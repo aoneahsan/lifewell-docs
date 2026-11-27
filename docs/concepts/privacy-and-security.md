@@ -2,7 +2,7 @@
 title: Privacy and security
 description: What leaves your device and what does not — sign-in without a password, per-row database rules, scrubbed analytics, the contacts permission, identity card pictures, and the claims LifeWell deliberately does not make.
 keywords: [lifewell privacy, health data privacy, row level security, analytics scrubbing, data security, contacts permission, family seats]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

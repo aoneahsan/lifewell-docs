@@ -2,7 +2,7 @@
 title: تلاش
 description: اپنے پورے ریکارڈ میں ایک جگہ سے تلاش۔ سرور کا حصہ تیار ہے مگر صفحہ ابھی مکمل نہیں؛ ایپ خالی نتائج دکھانے کے بجائے یہ بات صاف بتاتی ہے۔
 keywords: [lifewell search, search your record]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: 不会改变的地址
 description: LifeWell 已固定的 99 个公开地址和 15 条重定向。重建会更换代码，不会更换地址。
 keywords: [lifewell 网址, 永久链接, 重定向, 站点地图, 固定网址]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

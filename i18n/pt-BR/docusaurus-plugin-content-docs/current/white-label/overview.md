@@ -2,7 +2,7 @@
 title: Marca própria e licenciamento
 description: O que é uma licença de marca própria do LifeWell, para quem ela serve, o que operamos por você e como difere da compra integral do código-fonte.
 keywords: [marca própria lifewell, licença marca própria, licenciamento lifewell, compra do lifewell]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

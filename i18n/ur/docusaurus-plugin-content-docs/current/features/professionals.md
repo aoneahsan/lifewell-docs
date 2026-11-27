@@ -2,7 +2,7 @@
 title: پیشہ ور افراد
 description: خود کو درج کرنے والے پیشہ وروں کی فہرست۔ LifeWell کسی کی اہلیت نہیں جانچتا؛ رجسٹریشن نمبر اور سرکاری فہرست کا رابطہ دیتا ہے تاکہ آپ خود جانچ سکیں۔
 keywords: [lifewell professionals, practitioner directory, professional register, consultation]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

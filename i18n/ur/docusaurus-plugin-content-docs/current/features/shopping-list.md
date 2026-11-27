@@ -2,7 +2,7 @@
 title: خریداری کی فہرست
 description: کھانوں اور ترکیبوں سے بنی یا ہاتھ سے لکھی فہرست، جسے سادہ متن کی صورت میں بانٹا جا سکتا ہے تاکہ خریداری کرنے والے کو اکاؤنٹ نہ چاہیے۔
 keywords: [lifewell shopping list, meal planner shopping list, share shopping list]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

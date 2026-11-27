@@ -2,7 +2,7 @@
 title: Esprit
 description: Journal, séances guidées de respiration, sons pour dormir, humeur, gratitude et pauses au bureau — à retrouver sans être évalués.
 keywords: [LifeWell esprit, journal d’humeur, journal de gratitude, exercice de respiration, suivi de santé mentale]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

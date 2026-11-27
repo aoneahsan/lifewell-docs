@@ -2,7 +2,7 @@
 sidebar_position: 25
 title: Migrar do MyTherapy para o LifeWell
 description: "Como migrar do MyTherapy para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

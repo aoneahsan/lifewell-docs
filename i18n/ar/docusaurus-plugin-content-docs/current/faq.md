@@ -2,7 +2,7 @@
 title: "أسئلة يطرحها الناس"
 description: "إجابات عن التكلفة والخصوصية واستخراج السجل والعمل دون اتصال، وحدود ما يفعله LifeWell."
 keywords: [أسئلة LifeWell, هل LifeWell مجاني, خصوصية LifeWell, تصدير البيانات, حذف الحساب, مقاعد Family, إذن جهات الاتصال]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

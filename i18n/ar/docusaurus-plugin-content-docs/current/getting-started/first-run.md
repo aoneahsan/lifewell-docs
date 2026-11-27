@@ -2,7 +2,7 @@
 title: "أول استخدام"
 description: "ما الذي يطلبه LifeWell عند تسجيل الدخول أول مرة: خمس خطوات قصيرة، يمكنك تخطي معظمها، وما الذي يغيره كل جواب."
 keywords: [بدء استخدام lifewell, إعداد أول مرة, إعداد lifewell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

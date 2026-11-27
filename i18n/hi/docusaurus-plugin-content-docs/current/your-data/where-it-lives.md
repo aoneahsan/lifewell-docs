@@ -2,7 +2,7 @@
 title: आपका रिकॉर्ड कहाँ रहता है
 description: रिकॉर्ड Postgres डेटाबेस में, फ़ोटो आपके Google Drive में और ऑफ़लाइन प्रविष्टियाँ चालू हों तो कुछ छोटी प्रविष्टियाँ आपके डिवाइस पर कतार में रहती हैं।
 keywords: [lifewell ऑफ़लाइन, google drive स्टोरेज, डेटा कहाँ रहता है]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: "المختصون"
 description: "دليل للممارسين الذين أضافوا أنفسهم. لا يتحقق LifeWell من مؤهلاتهم؛ يعرض رقم التسجيل ورابط السجل لتتحقق بنفسك."
 keywords: [مختصو lifewell, دليل الممارسين, سجل المهنيين, استشارة]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

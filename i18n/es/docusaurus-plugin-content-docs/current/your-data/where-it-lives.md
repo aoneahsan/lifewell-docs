@@ -2,7 +2,7 @@
 title: Dónde viven tus datos
 description: Tus registros se guardan en una base de datos Postgres, tus fotos en tu Google Drive y, si activas el registro sin conexión, algunas entradas rápidas pendientes en tu dispositivo.
 keywords: [lifewell sin conexión, almacenamiento en google drive, dónde se guardan mis datos, sincronización, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

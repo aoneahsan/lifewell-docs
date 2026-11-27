@@ -2,7 +2,7 @@
 title: Ferramentas e calculadoras
 description: Quais calculadoras ficam no LifeWell, quais estão no ZTools e por que o diretório de ferramentas reúne principalmente links, sem repetir as implementações.
 keywords: [ferramentas lifewell, calculadoras de saúde, calculadora imc, temporizador, crescimento infantil]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

@@ -2,7 +2,7 @@
 title: दो चरणों वाला साइन इन
 description: प्रमाणक ऐप से LifeWell खाते में दो चरणों वाला साइन इन चालू करें, रिकवरी कोड रखें और चाहें तो ब्राउज़र को 7 दिन के लिए याद रखें।
 keywords: [lifewell दो चरणों वाला साइन इन, दो कारक पहचान, रिकवरी कोड]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

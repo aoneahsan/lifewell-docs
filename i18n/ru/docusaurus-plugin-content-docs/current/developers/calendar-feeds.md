@@ -2,7 +2,7 @@
 title: Календарные подписки
 description: Добавьте календарь LifeWell в Google Calendar, Apple Calendar или Outlook через адрес подписки только для чтения и отзовите доступ в любой момент.
 keywords: [календарная подписка LifeWell, подписаться на календарь LifeWell, подписка ICS, подписка Google Calendar]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

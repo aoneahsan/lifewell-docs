@@ -2,7 +2,7 @@
 title: प्लान
 description: Free, Pro और Family में क्या मिलता है, Family सीट कैसे काम करती है, मुफ़्त प्लान की सीमा और भुगतान के दो रास्ते। अमेरिकी डॉलर में मासिक या सालाना कीमतें।
 keywords: [lifewell प्लान, lifewell कीमतें, मुफ़्त प्लान, pro प्लान, family सीट]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

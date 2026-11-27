@@ -2,7 +2,7 @@
 title: अपना रिकॉर्ड मिटाएँ
 description: पूरा खाता मिटाएँ या सात क्षेत्रों में से एक हटाकर बाकी रखें। हर विकल्प क्या हटाता है, क्या रहने देता है और आज उसकी क्या स्थिति है।
 keywords: [lifewell खाता मिटाएँ, अपना डेटा मिटाएँ, खाता हटाना]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

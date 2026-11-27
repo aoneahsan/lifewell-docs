@@ -2,7 +2,7 @@
 title: Maps and places
 description: Follow the connections among memories, notes, people, events and the place names you saved. Location history is a separate opt-in control.
 keywords: [lifewell maps, memory map, saved places, location history, place tracking]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

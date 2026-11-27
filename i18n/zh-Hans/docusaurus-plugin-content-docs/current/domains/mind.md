@@ -2,7 +2,7 @@
 title: 心灵
 description: 日记、呼吸引导、助眠声音、心情、感恩记录和工作间歇提醒——可供日后回看，但不会被评分。
 keywords: [lifewell 心灵, 心情日记, 感恩日记, 呼吸练习, 心理健康记录]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

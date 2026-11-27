@@ -2,7 +2,7 @@
 title: Mapas e lugares
 description: Acompanhe as relações entre memórias, notas, pessoas, eventos e nomes de lugares salvos. O histórico de localização é uma opção separada.
 keywords: [mapas lifewell, mapa de lembranças, lugares salvos, histórico de localização]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

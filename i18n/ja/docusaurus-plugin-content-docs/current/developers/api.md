@@ -2,7 +2,7 @@
 title: LifeWell API
 description: LifeWell REST APIのベースURL、既定20件・最大50件のカーソル式ページ分割、全ルートとフィールドを記述するOpenAPIファイル。
 keywords: [LifeWell API, LifeWell REST API, OpenAPI, APIページ分割, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

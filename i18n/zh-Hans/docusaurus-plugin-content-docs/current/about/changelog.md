@@ -2,7 +2,7 @@
 title: 更新日志
 description: LifeWell 3.0（版本号 3.22.0）基于新后端全面重建，随后在 2026 年 10 月发布了 3.23 至 3.25。了解新增、移除、修正的内容，以及 3.0 带来的记录重置。
 keywords: [lifewell 3.0, lifewell 3.22.0, 更新日志, 发布说明, 新功能]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

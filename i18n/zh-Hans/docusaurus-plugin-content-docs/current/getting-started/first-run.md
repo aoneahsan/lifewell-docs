@@ -2,7 +2,7 @@
 title: 首次使用
 description: 第一次登录 LifeWell 时，您会经过五个简短步骤。大多数可以跳过，每个回答之后还能修改。
 keywords: [lifewell 新手设置, 首次使用, lifewell 设置]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

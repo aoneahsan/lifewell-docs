@@ -2,7 +2,7 @@
 title: Sin conexión y sincronización
 description: LifeWell pausa la aplicación cuando se pierde la conexión y ofrece una opción para guardar algunas entradas rápidas en este dispositivo hasta que vuelva.
 keywords: [lifewell sin conexión, sincronización, sin internet, uso sin conexión]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

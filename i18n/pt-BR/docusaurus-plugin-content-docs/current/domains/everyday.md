@@ -2,7 +2,7 @@
 title: Dia a dia
 description: Calendário, compromissos, notas, lugares salvos, lembretes e lista de compras — a semana comum que dá espaço para todo o resto.
 keywords: [calendário LifeWell, compromissos, aplicativo de notas, lembretes, lista de compras]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

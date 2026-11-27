@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: FindmypastからLifeWellへ移る
 description: "FindmypastからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

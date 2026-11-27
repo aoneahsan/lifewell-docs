@@ -2,7 +2,7 @@
 title: Pessoas
 description: O ponto de partida do LifeWell — você, quem importa e o que sabe sobre essas pessoas. Árvores de família e trabalho, conexões, lugares, mensagens, comunidade, profissionais e doação de sangue.
 keywords: [árvore genealógica LifeWell, árvore de trabalho, conexões, contatos, foto de identidade, comunidade, conversas, profissionais, doadores de sangue]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

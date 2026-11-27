@@ -2,7 +2,7 @@
 title: ツールと計算機
 description: LifeWell内にある計算機、ZToolsにある計算機、ツール一覧が主にリンクで構成される理由を説明します。
 keywords: [lifewell tools, health calculators, bmi calculator, interval timer, child growth, 計算ツール]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

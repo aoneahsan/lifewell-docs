@@ -2,7 +2,7 @@
 title: دعوتی پروگرام
 description: کسی کو دعوت دیں؛ تصدیق شدہ رجسٹریشن پر پوائنٹس اور بیج ملتے ہیں، اور مقررہ حد کے بعد ادا شدہ منصوبے کا ایک ماہ۔ ہر عدد کوڈ کے بجائے منتظم کی ترتیب ہے۔
 keywords: [lifewell referral, invite a friend, referral rewards, free month]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

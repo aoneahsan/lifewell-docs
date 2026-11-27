@@ -2,7 +2,7 @@
 title: Webhook
 description: LifeWellの記録変更を自分のサーバーへ知らせるWebhook。Standard Webhooksの署名、1日強にわたる再試行、Node・Python・PHPでの検証方法。
 keywords: [LifeWell Webhook, Standard Webhooks, Webhook署名検証, Webhook再試行]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

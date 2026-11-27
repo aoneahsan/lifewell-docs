@@ -2,7 +2,7 @@
 title: अपडेट और नवीनीकरण
 description: हर LifeWell लाइसेंस और बायआउट के साथ मिलने वाले छह महीने के अपडेट, अपडेट का अर्थ और लाइसेंस कुंजी से नवीनीकरण का तरीका।
 keywords: [lifewell लाइसेंस नवीनीकरण, व्हाइट लेबल अपडेट, लाइसेंस कुंजी]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

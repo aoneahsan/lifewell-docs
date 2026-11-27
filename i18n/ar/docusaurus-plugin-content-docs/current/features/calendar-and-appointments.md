@@ -2,7 +2,7 @@
 title: "التقويم والمواعيد"
 description: "تقويم واحد لأيامك العادية ومواعيدك الطبية، مع قائمة تحقق لكل موعد تحفظ الأسئلة التي أردت طرحها."
 keywords: [تقويم lifewell, تتبع المواعيد, قائمة تحقق الموعد, مواعيد الصحة]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

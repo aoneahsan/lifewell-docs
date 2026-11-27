@@ -2,7 +2,7 @@
 title: "من يبني LifeWell"
 description: "يبني فريق LifeWell التطبيق وهذا التوثيق ويصونهما، ويتحدث بصراحة عما لا يستطيع المنتج فعله."
 keywords: [فريق lifewell, من يبني lifewell, التواصل مع lifewell, دعم lifewell]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

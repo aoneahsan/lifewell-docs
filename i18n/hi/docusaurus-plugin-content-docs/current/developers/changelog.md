@@ -2,7 +2,7 @@
 title: डेवलपर बदलावों का रिकॉर्ड
 description: LifeWell API, MCP सर्वर, वेबहुक और कैलेंडर फ़ीड में हर बदलाव, सबसे नया पहले।
 keywords: [lifewell api बदलाव, lifewell api संस्करण]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

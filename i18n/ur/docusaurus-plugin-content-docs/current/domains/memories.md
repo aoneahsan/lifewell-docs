@@ -2,7 +2,7 @@
 title: یادیں
 description: تصاویر، البم، اسکریپ بُک اور وہ تفصیل جو بعد میں یاد پڑھنے کے قابل بنائے؛ اصل فائلیں آپ کی اپنی Google Drive میں۔
 keywords: [lifewell memories, photo album, scrapbook, google drive photos, memory keeping]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

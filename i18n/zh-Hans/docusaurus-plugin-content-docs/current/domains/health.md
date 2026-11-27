@@ -2,7 +2,7 @@
 title: 健康
 description: 各类记录工具、用药、饮食、运动和健康状况——围绕您生活中的人，需要时可以使用，但并非 LifeWell 的中心。
 keywords: [lifewell 健康, 健康记录, 用药记录, 症状记录, 生命体征]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

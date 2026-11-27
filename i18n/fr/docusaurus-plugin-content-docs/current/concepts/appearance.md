@@ -2,7 +2,7 @@
 title: Apparence
 description: Une icône et un panneau pour le thème, les couleurs, les angles, la densité, la taille du texte, la police, les surfaces et les animations. Réglages appliqués avant l’affichage.
 keywords: [thème LifeWell, mode sombre, réglages d’apparence, taille du texte accessible, réduction des animations]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

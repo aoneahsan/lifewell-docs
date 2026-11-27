@@ -2,7 +2,7 @@
 title: O que é entregue em cada plataforma
 description: O que a licença de marca própria do LifeWell entrega na web, no Android e no iOS, e o que precisamos de você em cada caso.
 keywords: [lifewell marca própria web, lifewell marca própria android, marca própria ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

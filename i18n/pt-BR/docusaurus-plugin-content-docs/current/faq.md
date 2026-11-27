@@ -2,7 +2,7 @@
 title: Perguntas frequentes
 description: Respostas a perguntas antes de confiar sua vida a um aplicativo — preço, privacidade, exportação, uso offline e o que o LifeWell não faz.
 keywords: [perguntas LifeWell, LifeWell é gratuito, privacidade LifeWell, exportar dados, excluir conta, plano Família, contatos, favoritos]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

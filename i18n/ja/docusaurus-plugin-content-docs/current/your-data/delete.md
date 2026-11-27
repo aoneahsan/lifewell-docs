@@ -2,7 +2,7 @@
 title: 記録を削除する
 description: アカウント全体、または7つの領域の1つだけを削除できます。何が消え、何が残り、現時点でどこまで削除できるかを説明します。
 keywords: [delete lifewell account, delete my data, gdpr deletion, account deletion, アカウント削除]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

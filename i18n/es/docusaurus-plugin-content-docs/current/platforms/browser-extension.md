@@ -2,7 +2,7 @@
 title: Extensión para navegador
 description: La extensión de LifeWell para Chrome y Firefox está construida, pero todavía no se ha publicado en ninguna de las dos tiendas. Lee qué conserva en el navegador y cómo se conecta a tu cuenta.
 keywords: [extensión lifewell, extensión para navegador, extensión chrome, registro rápido]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

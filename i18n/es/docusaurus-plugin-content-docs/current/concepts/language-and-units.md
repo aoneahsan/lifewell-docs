@@ -2,7 +2,7 @@
 title: Idioma y unidades
 description: LifeWell ofrece diez idiomas en la aplicación, la documentación y la extensión para navegador. Tus unidades se eligen por separado.
 keywords: [idioma lifewell, traducción, i18n, unidades métricas imperiales, es-419]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

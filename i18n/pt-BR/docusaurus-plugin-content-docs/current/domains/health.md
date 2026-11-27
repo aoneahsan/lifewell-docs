@@ -2,7 +2,7 @@
 title: Saúde
 description: Acompanhamentos, medicamentos, alimentação, exercícios e condições — uma área ao redor das pessoas da sua vida, disponível se você quiser, sem ser o centro do LifeWell.
 keywords: [saúde LifeWell, acompanhar saúde, medicamentos, sintomas, sinais vitais]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

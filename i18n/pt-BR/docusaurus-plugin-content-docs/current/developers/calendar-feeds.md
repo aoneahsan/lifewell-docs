@@ -2,7 +2,7 @@
 title: Feeds de calendário
 description: Acompanhe seu calendário LifeWell no Google Calendar, Apple Calendar ou Outlook por um endereço somente de leitura, que você pode revogar quando quiser.
 keywords: [feed de calendário LifeWell, acompanhar calendário LifeWell, feed ics, assinatura Google Calendar]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

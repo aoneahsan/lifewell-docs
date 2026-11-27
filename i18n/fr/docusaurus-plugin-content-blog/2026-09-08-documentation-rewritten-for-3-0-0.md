@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: La documentation était inexacte. Nous l’avons réécrite.
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "L’équipe LifeWell"
+    title: "Les personnes qui créent et entretiennent LifeWell"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: La version 3.0.0 de LifeWell est une reconstruction sur une nouvelle infrastructure. L’ancienne documentation décrivait une application qui n’existe plus. Chaque page a été réécrite à partir du code.
 ---
 

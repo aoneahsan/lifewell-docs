@@ -2,7 +2,7 @@
 title: LifeWell в браузере
 description: Откройте LifeWell в современном браузере, войдите через Google и начните вести записи. Без загрузки и отдельной формы регистрации.
 keywords: [веб-приложение LifeWell, вход через Google, установить LifeWell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

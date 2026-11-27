@@ -2,7 +2,7 @@
 title: O passeio pela página e o guia
 description: Duas maneiras de conhecer o LifeWell — um passeio curto pela página atual e o guia Como o LifeWell funciona, com seis telas reais. Inclui a lista de tarefas longas.
 keywords: [passeio LifeWell, guia LifeWell, como o LifeWell funciona, primeiro acesso LifeWell, tarefas LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

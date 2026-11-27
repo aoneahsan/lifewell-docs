@@ -2,7 +2,7 @@
 title: The export file format
 description: What is in a LifeWell export, field by field and table by table — the JSON header, the CSV archive, what the PDF leaves out, and what no format ever contains.
 keywords: [lifewell export format, json export schema, csv export, import lifewell data, data portability]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

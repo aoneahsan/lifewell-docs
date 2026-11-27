@@ -2,7 +2,7 @@
 title: Utiliser LifeWell sur le Web
 description: Ouvrez LifeWell dans un navigateur récent, connectez-vous avec Google et commencez à noter ce qui compte. Aucun téléchargement ni formulaire de création de compte.
 keywords: [application Web LifeWell, connexion Google, installer LifeWell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

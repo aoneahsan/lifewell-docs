@@ -2,7 +2,7 @@
 title: Questions people ask
 description: Answers to what people ask before trusting an app with a life — cost, privacy, getting your record out, offline use, and what LifeWell refuses to do.
 keywords: [lifewell faq, is lifewell free, lifewell privacy questions, export data, delete account, family seats, contacts permission, favourites]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

@@ -2,7 +2,7 @@
 title: यादें
 description: फ़ोटो, एल्बम, स्क्रैपबुक और वे विवरण जिनसे उन्हें बाद में समझा जा सके—फ़ाइलें आपके अपने Google Drive में रहती हैं।
 keywords: [lifewell यादें, फ़ोटो एल्बम, स्क्रैपबुक, google drive फ़ोटो]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

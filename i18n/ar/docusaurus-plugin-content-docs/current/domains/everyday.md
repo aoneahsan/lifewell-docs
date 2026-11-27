@@ -2,7 +2,7 @@
 title: "اليوميات"
 description: "التقويم والمواعيد والملاحظات والأماكن المحفوظة والتذكيرات وقائمة التسوق — الأسبوع العادي الذي يجمع بقية حياتك."
 keywords: [تقويم lifewell, المواعيد, تطبيق ملاحظات, التذكيرات, قائمة التسوق]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

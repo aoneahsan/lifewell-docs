@@ -2,7 +2,7 @@
 title: Les personnes
 description: « LifeWell commence par vous, les personnes qui comptent et ce que vous savez d’elles. Arbres familiaux et professionnels, relations, lieux, messages, communauté, professionnels et don de sang. »
 keywords: [arbre familial LifeWell, organigramme professionnel, relations, contacts, pièce d’identité, communauté, discussions, annuaire de professionnels, donneurs de sang]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

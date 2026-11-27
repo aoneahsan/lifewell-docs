@@ -2,7 +2,7 @@
 title: 変更履歴
 description: LifeWell 3.0（バージョン表記3.22.0）は新しいバックエンドへの全面的な再構築です。2026年10月には3.23から3.25が続きました。追加・削除・訂正したものと、3.0での記録のリセットを説明します。
 keywords: [LifeWell 3.0, LifeWell 3.22.0, 変更履歴, リリースノート, 新機能]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: "الخطط"
 description: "ما تتضمنه الخطط المجانية وPro وFamily، وكيف تعمل مقاعد Family، وطريقتا الدفع. الأسعار بالدولار الأمريكي شهرياً أو سنوياً."
 keywords: [خطط LifeWell, أسعار LifeWell, خطة مجانية, خطة Pro, خطة Family, مقاعد العائلة, فواتير Google Play]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

@@ -2,7 +2,7 @@
 title: Web
 description: Use LifeWell in a browser, with the web-specific reminder, sharing and offline behavior explained.
 keywords: [lifewell web app, browser support, progressive web app, pwa]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

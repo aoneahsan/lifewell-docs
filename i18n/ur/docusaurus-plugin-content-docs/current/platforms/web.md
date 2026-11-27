@@ -2,7 +2,7 @@
 title: ویب
 description: ویب ورژن اصل حوالہ ہے۔ LifeWell کی تمام سہولتیں یہاں ہیں، سوائے ان دو کے جو Android کا آپریٹنگ سسٹم فراہم کرتا ہے۔
 keywords: [lifewell web app, browser support, progressive web app, pwa]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

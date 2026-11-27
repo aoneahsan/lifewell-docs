@@ -2,7 +2,7 @@
 title: 人生の段階
 description: 月経周期、妊娠を考えること、排卵、PCOS、更年期、妊娠、子どもの幼い時期を扱います。6つの画面はプロフィールの答えで表示が変わります。
 keywords: [lifewell cycle tracking, period tracker, fertility, menopause, baby tracker, growth chart, 人生の段階]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

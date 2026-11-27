@@ -2,7 +2,7 @@
 title: ڈیٹا ماڈل
 description: LifeWell ایک زندگی کا ریکارڈ کیسے رکھتا ہے؛ ہر خیال کی اپنی جدول، تمام ٹریکروں کے پیچھے ایک ذخیرہ، اور اہم فیصلے۔
 keywords: [LifeWell ڈیٹا ماڈل, Postgres, پیمائشی اندراجات, ٹریکر, ڈیٹابیس]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

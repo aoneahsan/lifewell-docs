@@ -2,7 +2,7 @@
 title: "المجالات السبعة"
 description: "ينتظم LifeWell في سبعة مجالات حولك: الأشخاص أولاً، ثم الذكريات واليوميات والمشاركة، وتحيط بها الصحة والذهن ومراحل الحياة. يمكن إيقاف ستة مجالات دون حذف شيء؛ المشاركة لا تُوقف."
 keywords: [مجالات lifewell, جوانب الحياة, إيقاف مجال, التنقل في lifewell, المشاركة]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: 在 Android 上安装
 description: Android 版 LifeWell 是同一应用的 Capacitor 构建版本。从 Google Play 获取，使用 Google 登录，就能访问与网页版相同的记录。
 keywords: [lifewell android, google play, capacitor 应用, 安装 lifewell android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: 连接 AI 助手（MCP）
 description: 通过 LifeWell MCP 服务器，让 Claude、ChatGPT、Claude Code 或 Cursor 访问您的记录。了解授权页面会问什么、如何确认删除，以及怎样断开连接。
 keywords: [lifewell mcp 服务器, 连接 claude 与 lifewell, chatgpt 连接器, claude code mcp, cursor mcp]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

@@ -2,7 +2,7 @@
 title: बदलावों का रिकॉर्ड
 description: LifeWell 3.0 (संस्करण नाम 3.22.0) नए बैकएंड पर पूरा नया ऐप था; अक्टूबर 2026 में 3.23 से 3.25 आए। क्या जोड़ा, हटाया, सुधारा और 3.0 में क्या रीसेट हुआ।
 keywords: [lifewell 3.0, lifewell 3.22.0, बदलाव, रिलीज़ नोट्स]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

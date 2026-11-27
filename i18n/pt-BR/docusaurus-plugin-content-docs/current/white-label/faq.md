@@ -2,7 +2,7 @@
 title: Perguntas sobre marca própria
 description: Respostas para organizações que consideram licenciar o LifeWell — código-fonte, exclusividade, iOS, atualizações e o que precisamos para começar.
 keywords: [perguntas marca própria lifewell, dúvidas sobre licença lifewell]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

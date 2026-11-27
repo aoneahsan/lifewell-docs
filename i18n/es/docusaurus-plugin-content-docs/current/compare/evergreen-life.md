@@ -2,7 +2,7 @@
 sidebar_position: 31
 title: Pasar de Evergreen Life a LifeWell
 description: "Cómo pasar de Evergreen Life a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo de LifeWell

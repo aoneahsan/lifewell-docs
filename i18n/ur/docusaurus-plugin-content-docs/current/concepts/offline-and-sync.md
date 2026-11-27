@@ -2,7 +2,7 @@
 title: آف لائن استعمال اور ہم آہنگی
 description: رابطہ ٹوٹنے پر LifeWell ایپ روکتا ہے۔ اختیاری ترتیب سے چند معاون فوری اندراجات رابطہ لوٹنے تک اسی ڈیوائس پر رکھے جا سکتے ہیں۔
 keywords: [LifeWell آف لائن, ہم آہنگی, رابطہ نہیں, آف لائن اندراج]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

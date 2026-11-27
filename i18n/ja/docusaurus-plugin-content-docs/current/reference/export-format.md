@@ -2,7 +2,7 @@
 title: エクスポートファイルの形式
 description: LifeWellのエクスポートに含まれる内容をフィールドとテーブルごとに説明します。JSONのヘッダー、CSVのアーカイブ、PDFで省かれる情報、どの形式にも含まれない情報。
 keywords: [LifeWellエクスポート形式, JSONエクスポートスキーマ, CSVエクスポート, LifeWellデータ取り込み, データポータビリティ]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

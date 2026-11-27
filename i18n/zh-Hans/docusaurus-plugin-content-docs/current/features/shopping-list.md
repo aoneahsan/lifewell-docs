@@ -2,7 +2,7 @@
 title: 购物清单
 description: 根据餐食和食谱生成清单，也可以手动填写；以纯文本分享，购物的人无需账号。
 keywords: [lifewell 购物清单, 餐食计划购物清单, 分享购物清单]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

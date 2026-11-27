@@ -2,7 +2,7 @@
 title: La lista de compras
 description: Una lista hecha a partir de tus comidas y recetas, o escrita a mano, que puedes compartir como texto sencillo sin que la persona que compra necesite una cuenta.
 keywords: [lista de compras lifewell, lista del plan de comidas, compartir lista de compras]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

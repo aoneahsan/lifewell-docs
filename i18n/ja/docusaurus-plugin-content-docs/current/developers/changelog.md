@@ -2,7 +2,7 @@
 title: 開発者向け変更履歴
 description: LifeWell API、MCPサーバー、Webhook、カレンダーフィードの変更を新しい順に記録します。
 keywords: [LifeWell API変更履歴, LifeWell APIの変更, APIバージョン]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

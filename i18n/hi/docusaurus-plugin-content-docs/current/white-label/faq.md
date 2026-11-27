@@ -2,7 +2,7 @@
 title: व्हाइट लेबल के सवाल
 description: LifeWell का लाइसेंस लेने से पहले संस्थाओं के सवालों के जवाब—स्रोत कोड, विशिष्ट अधिकार, iOS, अपडेट और शुरुआत के लिए ज़रूरी जानकारी।
 keywords: [lifewell व्हाइट लेबल सवाल, लाइसेंस सवाल]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

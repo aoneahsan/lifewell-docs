@@ -2,7 +2,7 @@
 title: Use LifeWell on the web
 description: Open LifeWell in any current browser, sign in with Google, and start recording. No download, no account form, nothing to configure.
 keywords: [lifewell web app, sign in with google, install lifewell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

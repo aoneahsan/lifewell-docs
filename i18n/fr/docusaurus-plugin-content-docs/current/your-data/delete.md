@@ -2,7 +2,7 @@
 title: Supprimer votre dossier
 description: Supprimez tout votre compte ou un seul des sept espaces en conservant le reste. Découvrez exactement ce qui disparaît, ce qui reste et l’état actuel de chaque fonction.
 keywords: [supprimer compte LifeWell, supprimer mes données, suppression RGPD, suppression du compte]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

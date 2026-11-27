@@ -2,7 +2,7 @@
 title: 架构
 description: 基于 Postgres 的静态单页应用，只在浏览器不能持有某些内容时使用边缘函数。了解各部分运行位置，以及为什么没有自建服务器。
 keywords: [lifewell 架构, supabase, react, vite, capacitor, 边缘函数, spa]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

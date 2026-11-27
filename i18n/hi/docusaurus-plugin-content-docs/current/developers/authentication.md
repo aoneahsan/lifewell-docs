@@ -2,7 +2,7 @@
 title: एक्सेस टोकन और पहचान की पुष्टि
 description: स्क्रिप्ट या ऐप LifeWell रिकॉर्ड पढ़ने की अनुमति कैसे साबित करता है—पढ़ने, लिखने और मिटाने के दायरे, टोकन फिर दिखाने का 10 मिनट नियम, OAuth, अनुरोध सीमाएँ और त्रुटियाँ।
 keywords: [lifewell एक्सेस टोकन, lifewell api पहचान, oauth, api अनुमतियाँ]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

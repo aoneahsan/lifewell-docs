@@ -2,7 +2,7 @@
 title: Access tokens and authentication
 description: How a script or an app proves it may read your LifeWell record — access tokens with read, write and delete scopes, the 10-minute rule for showing one again, OAuth for apps, rate limits and errors.
 keywords: [lifewell access token, lifewell api authentication, lifewell oauth, api scopes, rate limits]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

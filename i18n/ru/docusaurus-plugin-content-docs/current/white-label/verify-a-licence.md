@@ -2,7 +2,7 @@
 title: Проверка лицензии
 description: Как проверить лицензию копии LifeWell по ключу или сайту и что означают ответы.
 keywords: [проверить лицензию LifeWell, проверить white-label, файл лицензии]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

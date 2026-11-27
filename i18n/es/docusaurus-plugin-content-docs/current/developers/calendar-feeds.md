@@ -2,7 +2,7 @@
 title: Feeds de calendario
 description: Suscríbete a tu calendario LifeWell desde Google Calendar, Apple Calendar u Outlook con una dirección de solo lectura, y anúlala cuando quieras.
 keywords: [feed calendario lifewell, suscribirse al calendario, feed ics, suscripción google calendar]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

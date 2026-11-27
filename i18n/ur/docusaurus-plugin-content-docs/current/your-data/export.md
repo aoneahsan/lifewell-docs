@@ -2,7 +2,7 @@
 title: اپنی نقل برآمد کریں
 description: منتخب تاریخوں کا ریکارڈ JSON یا CSV میں برآمد کریں، یا PDF خلاصہ بنائیں۔ ہر برآمد میں ایک جدول سے زیادہ سے زیادہ 5,000 قطاریں آتی ہیں۔
 keywords: [lifewell export, export health data, download my data, json csv pdf export]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: L’API LifeWell
 description: Adresse de base de l’API REST LifeWell, pagination par curseur de 20 lignes par défaut et 50 au maximum, et fichier OpenAPI décrivant chaque route et champ.
 keywords: [API LifeWell, API REST LifeWell, OpenAPI, pagination API, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

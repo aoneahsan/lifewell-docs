@@ -2,7 +2,7 @@
 title: 核验许可证
 description: 使用许可证密钥或网站地址核查 LifeWell 授权版本，并了解每种核验结果的含义。
 keywords: [核验 lifewell 许可证, 检查白标许可证, 许可证文件]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

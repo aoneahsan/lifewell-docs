@@ -2,7 +2,7 @@
 title: カレンダーフィード
 description: 読み取り専用のフィードURLを使い、Google Calendar、Apple Calendar、OutlookでLifeWellのカレンダーを購読し、いつでも取り消せます。
 keywords: [LifeWellカレンダーフィード, LifeWellカレンダーを購読, icsフィード, Google Calendar購読]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

@@ -2,7 +2,7 @@
 title: ویب پر LifeWell استعمال کریں
 description: کسی بھی موجودہ براؤزر میں LifeWell کھولیں، Google سے لاگ اِن کریں اور اندراج شروع کریں۔ ڈاؤن لوڈ، اکاؤنٹ فارم یا اضافی ترتیب درکار نہیں۔
 keywords: [lifewell web app, sign in with google, install lifewell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

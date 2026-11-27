@@ -2,7 +2,7 @@
 title: "واجهة LifeWell البرمجية"
 description: "واجهة REST لـLifeWell: عنوانها الأساسي، وتقسيم القوائم بمؤشر عند 20 صفاً افتراضياً و50 على الأكثر، وملف OpenAPI الذي يصف كل مسار وحقل."
 keywords: [واجهة lifewell البرمجية, rest api, openapi, تقسيم صفحات api, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

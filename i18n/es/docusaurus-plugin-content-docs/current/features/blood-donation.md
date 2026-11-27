@@ -2,7 +2,7 @@
 title: Donación de sangre
 description: Un directorio público de donantes, solicitudes que les llegan y una entrega de contacto concedida una sola vez a una persona y que puede retirarse.
 keywords: [directorio de donantes de sangre, donación de sangre, solicitud de sangre, lifewell donantes]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

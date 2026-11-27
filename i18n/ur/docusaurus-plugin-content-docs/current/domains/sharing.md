@@ -2,7 +2,7 @@
 title: اشتراک
 description: واحد حصہ جسے بند نہیں کیا جا سکتا۔ لنک میں کیا ہو سکتا ہے، اسے کون دیکھ سکتا ہے، دوسرے شخص کو کیا نظر آتا ہے، اشتراک کیسے ختم ہوتا ہے اور آپ کے ریکارڈ سے کیا باہر نہیں جاتا۔
 keywords: [lifewell sharing, share a family tree, share medications, share a tracker, read only link, partner sharing, sharing controls]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

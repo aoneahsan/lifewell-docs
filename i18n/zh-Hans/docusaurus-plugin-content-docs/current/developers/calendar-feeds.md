@@ -2,7 +2,7 @@
 title: 日历订阅源
 description: 使用只读订阅地址，在 Google Calendar、Apple Calendar 或 Outlook 中查看 LifeWell 日历，并可随时撤销。
 keywords: [lifewell 日历订阅源, 订阅 lifewell 日历, ics 订阅源, google calendar 订阅]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

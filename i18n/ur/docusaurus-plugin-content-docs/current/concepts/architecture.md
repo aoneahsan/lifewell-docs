@@ -2,7 +2,7 @@
 title: ساخت
 description: Postgres کے اوپر ایک جامد ایپ؛ Edge Functions صرف وہاں جہاں براؤزر میں راز یا خاص اختیار نہیں رکھا جا سکتا۔
 keywords: [LifeWell ساخت, Supabase, React, Vite, Capacitor, Edge Functions]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

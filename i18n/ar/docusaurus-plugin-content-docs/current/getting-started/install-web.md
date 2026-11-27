@@ -2,7 +2,7 @@
 title: "استخدام LifeWell على الويب"
 description: "افتح LifeWell في متصفح حديث، وسجل الدخول باستخدام Google، وابدأ التدوين. لا تنزيل ولا نموذج لإنشاء حساب ولا إعداد مسبق."
 keywords: [تطبيق lifewell على الويب, تسجيل الدخول باستخدام google, تثبيت lifewell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

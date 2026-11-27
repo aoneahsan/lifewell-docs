@@ -2,7 +2,7 @@
 title: Web
 description: La version Web fait référence pour LifeWell. Android reprend la même application et ajoute deux fonctions assurées par son système d’exploitation.
 keywords: [application Web LifeWell, navigateurs compatibles, application Web progressive, PWA]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

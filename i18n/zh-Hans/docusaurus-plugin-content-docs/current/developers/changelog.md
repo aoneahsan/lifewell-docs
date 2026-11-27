@@ -2,7 +2,7 @@
 title: 开发者更新日志
 description: LifeWell API、MCP 服务器、Webhook 和日历订阅源的所有变更，最新的排在前面。
 keywords: [lifewell api 更新日志, lifewell api 变更, api 版本]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

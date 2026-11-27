@@ -2,7 +2,7 @@
 title: LifeWell کو دوسری ایپس سے جوڑیں
 description: "LifeWell سے باہر کی چیز آپ کے ریکارڈ تک چار طریقوں سے پہنچ سکتی ہے: کیلنڈر ایپ فیڈ سے، اسکرپٹ رسائی ٹوکن سے، AI معاون MCP سے، اور دوسری ایپ ویب ہکس سے۔"
 keywords: [connect lifewell to other apps, lifewell api, lifewell mcp, lifewell webhooks, lifewell calendar feed]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

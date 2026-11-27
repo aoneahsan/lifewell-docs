@@ -2,7 +2,7 @@
 title: リマインダー
 description: LifeWellから何が、いつ、どの端末に届くか。3つの主な切り替え、通知しない時間、Androidで正確なアラーム権限を求めない理由を説明します。
 keywords: [lifewell reminders, medication reminder, appointment reminder, quiet hours, android notifications, リマインダー]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

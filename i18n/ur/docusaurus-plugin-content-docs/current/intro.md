@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWell آپ کی زندگی کے لوگ اور لمحات ایک جگہ رکھتا ہے — خاندان اور دوست، ان کے بارے میں آپ کی معلومات، یادیں اور منصوبے؛ فلاح و بہبود ان کے گرد۔ ویب اور Android پر، آپ کے اختیار میں۔
 keywords: [lifewell, life companion, family tree, people, memories, family and friends, android app]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

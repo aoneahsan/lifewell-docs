@@ -2,7 +2,7 @@
 sidebar_position: 24
 title: Pasar de Medisafe a LifeWell
 description: "Cómo pasar de Medisafe a LifeWell, en qué se diferencian y cuánto cuesta cada uno. Revisado el 26 de noviembre de 2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo LifeWell

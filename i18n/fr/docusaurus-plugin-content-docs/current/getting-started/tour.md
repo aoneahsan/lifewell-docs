@@ -2,7 +2,7 @@
 title: Une courte visite
 description: Repérez le tableau de bord, le menu, la barre supérieure et la commande qui modifie l’apparence de LifeWell.
 keywords: [visite LifeWell, tableau de bord LifeWell, navigation LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

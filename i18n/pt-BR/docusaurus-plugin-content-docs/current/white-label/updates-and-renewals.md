@@ -2,7 +2,7 @@
 title: Atualizações e renovações
 description: Os seis meses de atualizações incluídos em cada licença ou compra do código do LifeWell, o que conta como atualização e como renovar com a chave da licença.
 keywords: [renovação licença lifewell, atualizações marca própria, renovar chave de licença]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

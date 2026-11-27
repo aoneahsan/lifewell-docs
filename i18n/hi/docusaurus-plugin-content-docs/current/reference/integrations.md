@@ -2,7 +2,7 @@
 title: बाहरी सेवाएँ
 description: LifeWell जिन बाहरी सेवाओं से बात करता है, उनका काम, उन्हें मिलने वाली जानकारी और कुंजी न होने पर क्या होता है।
 keywords: [lifewell बाहरी सेवाएँ, google drive, sentry, amplitude, clarity, onesignal]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: مختصر تعارف
 description: ڈیش بورڈ، مینو، اوپر والی بار اور LifeWell کی شکل بدلنے والا ایک کنٹرول — تلاش شروع کرنے سے پہلے جانیں کہ چیزیں کہاں ہیں۔
 keywords: [lifewell tour, lifewell dashboard, lifewell navigation]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

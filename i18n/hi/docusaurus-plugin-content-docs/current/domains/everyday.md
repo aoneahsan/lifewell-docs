@@ -2,7 +2,7 @@
 title: रोज़मर्रा
 description: कैलेंडर, अपॉइंटमेंट, नोट्स, सहेजी जगहें, रिमाइंडर और ख़रीदारी सूची—वह सामान्य हफ़्ता जो बाकी सबको साथ रखता है।
 keywords: [lifewell कैलेंडर, अपॉइंटमेंट, नोट्स, रिमाइंडर, ख़रीदारी सूची]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

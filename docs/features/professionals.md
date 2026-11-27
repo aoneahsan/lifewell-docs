@@ -2,7 +2,7 @@
 title: Professionals
 description: A directory of practitioners who listed themselves. LifeWell does not check anyone's qualifications — it prints the registration number and links to the register so you can check it yourself.
 keywords: [lifewell professionals, practitioner directory, professional register, consultation]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

@@ -2,7 +2,7 @@
 title: Что входит в поставку для каждой платформы
 description: Что даёт лицензия LifeWell для веба, Android и iOS и какие материалы нам нужны для каждой платформы.
 keywords: [white-label LifeWell для веба, white-label LifeWell для Android, iOS]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

@@ -2,7 +2,7 @@
 title: रिमाइंडर
 description: LifeWell आपको क्या, कब और किस डिवाइस पर याद दिला सकता है—तीन मुख्य स्विच, शांत समय और Android पर सटीक अलार्म की अनुमति न माँगने का कारण।
 keywords: [lifewell रिमाइंडर, दवा रिमाइंडर, अपॉइंटमेंट रिमाइंडर, शांत समय]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

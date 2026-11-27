@@ -2,7 +2,7 @@
 title: Install on Android
 description: LifeWell on Android is a Capacitor build of the same app. Get it from Google Play, sign in with Google, and the record is the same one the web build reads.
 keywords: [lifewell android, google play, capacitor app, install lifewell android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

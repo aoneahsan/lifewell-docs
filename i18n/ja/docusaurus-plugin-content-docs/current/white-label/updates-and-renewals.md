@@ -2,7 +2,7 @@
 title: 更新と期間延長
 description: LifeWellのライセンスと買い取りに含まれる6か月の更新、更新に含まれる作業、キーを使った期間延長を説明します。
 keywords: [lifewell licence renewal, white-label updates, renew licence key, ライセンス更新]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

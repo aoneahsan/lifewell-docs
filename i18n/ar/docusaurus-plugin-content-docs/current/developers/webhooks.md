@@ -2,7 +2,7 @@
 title: "خطافات الويب"
 description: "تخبر خطافات ويب LifeWell خادمك فور تغير شيء في سجلك؛ تُوقع وفق Standard Webhooks، وتُعاد محاولتها لأكثر من يوم، مع أمثلة تحقق لـNode وPython وPHP."
 keywords: [خطافات ويب lifewell, standard webhooks, التحقق من توقيع خطاف الويب, إعادة محاولة الإرسال]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

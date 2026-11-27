@@ -2,7 +2,7 @@
 title: 日历与预约
 description: 日常和就诊安排放在同一份日历中。每次预约都附有清单，记下您原本想问的问题。
 keywords: [lifewell 日历, 预约记录, 预约清单, 就医预约]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

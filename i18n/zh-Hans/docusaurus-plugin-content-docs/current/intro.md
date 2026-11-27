@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWell 把您生活中的人和时刻留在同一个地方——家人、朋友、您对他们的了解、回忆和计划，身心健康的内容围绕在旁。适用于网页和 Android，由您保管。
 keywords: [lifewell, 生活记录, 家谱, 人物, 回忆, 家人和朋友, android 应用]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

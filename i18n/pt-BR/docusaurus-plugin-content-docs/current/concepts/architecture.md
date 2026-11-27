@@ -2,7 +2,7 @@
 title: Arquitetura
 description: Uma aplicação estática de página única sobre Postgres, com funções de borda apenas onde o navegador não pode guardar um segredo ou privilégio.
 keywords: [arquitetura LifeWell, supabase, react, vite, capacitor, funções de borda, spa]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

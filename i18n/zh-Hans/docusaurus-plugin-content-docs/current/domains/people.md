@@ -2,7 +2,7 @@
 title: 人物
 description: LifeWell 从您和重要的人开始，保存您对他们的了解。包括家人与工作关系树、联系人、地点、消息、社区、专业人员和献血者。
 keywords: [lifewell 家谱, 工作关系树, 联系人, 通讯录选择, 身份卡照片, 社区, 聊天, 专业人员名录, 献血者]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

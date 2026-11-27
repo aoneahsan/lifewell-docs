@@ -2,7 +2,7 @@
 title: Планы
 description: "Free, Pro и Family: возможности планов, семейные места, границы бесплатного плана и способы оплаты. Цены в долларах США за месяц или год."
 keywords: [планы LifeWell, цены LifeWell, бесплатный план, план Pro, план Family, семейные места, Google Play Billing]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

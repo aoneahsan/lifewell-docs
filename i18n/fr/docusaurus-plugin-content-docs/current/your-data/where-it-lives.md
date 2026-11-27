@@ -2,7 +2,7 @@
 title: Où se trouve votre dossier
 description: Votre dossier est conservé dans une base Postgres, vos photos dans votre Google Drive et quelques notes rapides en attente sur l’appareil si la saisie hors ligne est activée.
 keywords: [LifeWell hors ligne, stockage Google Drive, où se trouvent mes données, synchronisation, Postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

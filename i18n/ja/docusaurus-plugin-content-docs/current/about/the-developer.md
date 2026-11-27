@@ -2,7 +2,7 @@
 title: LifeWellを作っている人
 description: LifeWellチームがアプリとドキュメントを開発・保守し、できないことも率直に伝えています。
 keywords: [lifewell team, who builds lifewell, contact lifewell, lifewell support, 開発チーム]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

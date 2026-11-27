@@ -2,7 +2,7 @@
 title: AI सहायक जोड़ें (MCP)
 description: LifeWell MCP सर्वर से Claude, ChatGPT, Claude Code या Cursor को रिकॉर्ड से जोड़ें—अनुमति पेज, मिटाने की पुष्टि और कनेक्शन हटाने का तरीका।
 keywords: [lifewell mcp सर्वर, claude से lifewell जोड़ें, chatgpt कनेक्टर]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

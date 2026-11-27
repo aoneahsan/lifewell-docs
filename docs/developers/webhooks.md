@@ -2,7 +2,7 @@
 title: Webhooks
 description: LifeWell webhooks tell your own server the moment something in your record changes — signed with Standard Webhooks, retried for just over a day, with verification code for Node, Python and PHP.
 keywords: [lifewell webhooks, standard webhooks, webhook signature verification, webhook retries]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

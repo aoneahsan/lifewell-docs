@@ -2,7 +2,7 @@
 title: 白标与授权
 description: 了解 LifeWell 白标许可证是什么、适合哪些机构、我们为您运行哪些部分，以及它与一次性买断源码的区别。
 keywords: [lifewell 白标, 白标许可证, lifewell 授权, lifewell 买断]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

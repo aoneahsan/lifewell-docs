@@ -2,7 +2,7 @@
 title: Search
 description: One search across your whole record. The server half is built; the page is not finished yet, and the app says so rather than showing an empty result list.
 keywords: [lifewell search, search your record]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: Delete your record
 description: Delete your whole account, or one of the seven areas and keep the rest. What each one removes, what it deliberately keeps, and where each stands today.
 keywords: [delete lifewell account, delete my data, gdpr deletion, account deletion]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

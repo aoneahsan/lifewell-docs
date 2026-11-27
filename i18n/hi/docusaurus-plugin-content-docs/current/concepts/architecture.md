@@ -2,7 +2,7 @@
 title: बनावट
 description: Postgres पर चलने वाला स्थिर एक पेज ऐप, और Edge Function केवल वहाँ जहाँ ब्राउज़र को कोई चीज़ नहीं रखनी चाहिए। कौन सा काम कहाँ चलता है और हमारा अलग सर्वर क्यों नहीं है।
 keywords: [lifewell बनावट, supabase, react, vite, capacitor, edge function]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

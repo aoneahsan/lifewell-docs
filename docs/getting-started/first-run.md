@@ -2,7 +2,7 @@
 title: The first run
 description: What LifeWell asks the first time you sign in — five short steps, most of them skippable, and what each answer changes.
 keywords: [lifewell onboarding, first time setup, lifewell setup]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

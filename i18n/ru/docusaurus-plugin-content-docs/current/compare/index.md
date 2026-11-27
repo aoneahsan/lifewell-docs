@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Переход на LifeWell из другого приложения
 description: Пошаговые руководства по переходу на LifeWell из 32 сервисов для семейного дерева, повседневных дел и записей о здоровье. У каждого указана дата проверки.
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

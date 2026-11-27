@@ -2,7 +2,7 @@
 title: アクセストークンと認証
 description: スクリプトやアプリがLifeWellの記録へアクセスする方法。読み取り・書き込み・削除の権限、再表示の10分間規則、OAuth、利用制限、エラーを説明します。
 keywords: [LifeWellアクセストークン, LifeWell API認証, LifeWell OAuth, API権限範囲, 利用制限]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

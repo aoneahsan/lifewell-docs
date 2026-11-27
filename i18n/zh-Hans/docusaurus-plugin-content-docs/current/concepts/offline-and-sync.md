@@ -2,7 +2,7 @@
 title: 离线与同步
 description: 连接中断时，LifeWell 会暂停应用；您也可以选择先把受支持的快速记录留在这台设备上，等网络恢复再送出。
 keywords: [lifewell 离线, 离线记录, 同步, 无网络连接, 离线可用]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

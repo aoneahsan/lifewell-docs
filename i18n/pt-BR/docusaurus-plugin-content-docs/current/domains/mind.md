@@ -2,7 +2,7 @@
 title: Mente
 description: Diário, respiração guiada, sons para dormir, humor, gratidão e pausas no trabalho. Seus registros ficam acessíveis a você e não recebem uma pontuação.
 keywords: [mente LifeWell, diário de humor, diário de gratidão, exercício de respiração, registro de saúde mental]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

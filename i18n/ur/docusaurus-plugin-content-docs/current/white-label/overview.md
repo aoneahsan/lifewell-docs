@@ -2,7 +2,7 @@
 title: وائٹ لیبل اور لائسنس
 description: LifeWell کا وائٹ لیبل لائسنس کیا ہے، کس کے لیے ہے، ہم آپ کے لیے کیا چلاتے ہیں، اور ماخذی کوڈ مکمل خریدنے سے کیسے مختلف ہے۔
 keywords: [lifewell white-label, white-label licence, lifewell licensing, lifewell buyout]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

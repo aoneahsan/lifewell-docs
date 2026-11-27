@@ -2,7 +2,7 @@
 title: पेज टूर और ऐप की मार्गदर्शिका
 description: LifeWell सीखने के दो तरीके—ऊपरी पट्टी के संकेत बटन से छोटा पेज टूर और असली तस्वीरों वाली छह स्क्रीन की मार्गदर्शिका। लंबे कामों के लिए कार्य सूची भी है।
 keywords: [lifewell टूर, lifewell मार्गदर्शिका, lifewell कैसे काम करता है]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

@@ -2,7 +2,7 @@
 title: "عناوين لا تتغير"
 description: "تسعة وتسعون عنواناً عاماً لـLifeWell وخمسة عشر تحويلاً ثابتاً. تغير إعادة البناء الشيفرة، لا العناوين."
 keywords: [عناوين lifewell, روابط دائمة, تحويلات, خريطة الموقع, عناوين ثابتة]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

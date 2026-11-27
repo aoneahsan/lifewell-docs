@@ -2,7 +2,7 @@
 sidebar_position: 19
 title: "الانتقال من Evernote إلى LifeWell"
 description: "نقل ملاحظاتك من Evernote إلى LifeWell، والفروق والأسعار. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

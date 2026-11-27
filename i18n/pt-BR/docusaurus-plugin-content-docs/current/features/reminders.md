@@ -2,7 +2,7 @@
 title: Lembretes
 description: O que o LifeWell pode lembrar, quando e em qual dispositivo — três controles gerais, horário de silêncio e o motivo de não pedir ao Android a permissão de alarme exato.
 keywords: [lembretes lifewell, lembrete de medicamento, lembrete de compromisso, horário de silêncio, notificações android]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

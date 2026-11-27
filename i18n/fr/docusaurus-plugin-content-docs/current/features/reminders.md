@@ -2,7 +2,7 @@
 title: Rappels
 description: "Ce que LifeWell peut vous rappeler, quand et sur quel appareil : trois interrupteurs généraux, des heures calmes et aucune autorisation d’alarme exacte sur Android."
 keywords: [rappels LifeWell, rappel de médicament, rappel de rendez-vous, heures calmes, notifications Android]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

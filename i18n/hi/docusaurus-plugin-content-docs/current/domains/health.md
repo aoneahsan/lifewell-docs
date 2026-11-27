@@ -2,7 +2,7 @@
 title: स्वास्थ्य
 description: ट्रैकर, दवाएँ, भोजन, व्यायाम और स्वास्थ्य स्थितियाँ—आपके जीवन के लोगों के आसपास का एक क्षेत्र, जब आप चाहें; LifeWell का मुख्य उद्देश्य नहीं।
 keywords: [lifewell स्वास्थ्य, दवा ट्रैकर, लक्षण ट्रैकर, शारीरिक माप]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

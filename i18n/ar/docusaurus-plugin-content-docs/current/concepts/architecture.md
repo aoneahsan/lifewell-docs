@@ -2,7 +2,7 @@
 title: "البنية التقنية"
 description: "تطبيق صفحة واحدة ثابت فوق Postgres، مع دوال طرفية حين لا يجوز للمتصفح حمل شيء. أين يعمل كل جزء ولماذا لا نشغّل خادماً خاصاً بنا."
 keywords: [بنية lifewell, supabase, react, vite, capacitor, الدوال الطرفية, تطبيق صفحة واحدة]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

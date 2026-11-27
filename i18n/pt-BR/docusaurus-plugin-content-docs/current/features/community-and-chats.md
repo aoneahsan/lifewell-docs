@@ -2,7 +2,7 @@
 title: Comunidade e conversas
 description: Grupos com publicações e respostas, mensagens entre contas conectadas, bloqueio e um caminho de moderação que nunca revela ao autor quem o denunciou.
 keywords: [comunidade LifeWell, fórum de saúde, conversa em grupo, mensagens, bloqueio, moderação]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

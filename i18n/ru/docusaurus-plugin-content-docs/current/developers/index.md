@@ -2,7 +2,7 @@
 title: Подключение LifeWell к другим приложениям
 description: Четыре способа получить доступ к вашему журналу извне LifeWell — календарная подписка, токен доступа для своего кода, MCP для ИИ-помощника и вебхуки для другого приложения.
 keywords: [подключить LifeWell к другим приложениям, API LifeWell, MCP LifeWell, вебхуки LifeWell, календарная подписка]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

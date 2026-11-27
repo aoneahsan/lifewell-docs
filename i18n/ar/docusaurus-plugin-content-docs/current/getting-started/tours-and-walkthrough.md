@@ -2,7 +2,7 @@
 title: "جولة الصفحة والشرح العملي"
 description: "طريقتان للتعرف إلى LifeWell: جولة قصيرة من زر الإشارة في الشريط العلوي، وشرح «كيف يعمل LifeWell» في ست شاشات بصور حقيقية. وهناك قائمة المهام الطويلة."
 keywords: [جولة lifewell, شرح lifewell, كيف يعمل lifewell, تهيئة lifewell, مهام lifewell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

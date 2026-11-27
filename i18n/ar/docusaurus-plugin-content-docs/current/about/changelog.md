@@ -2,7 +2,7 @@
 title: "سجل التغييرات"
 description: "LifeWell 3.0، الذي يحمل رقم الإصدار 3.22.0، إعادة بناء كاملة بخلفية جديدة؛ تلتها الإصدارات 3.23 إلى 3.25 في أكتوبر 2026. ما أضيف وأزيل وصُحح، وما يعنيه البدء من جديد."
 keywords: [LifeWell 3.0, LifeWell 3.22.0, سجل التغييرات, ملاحظات الإصدار]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

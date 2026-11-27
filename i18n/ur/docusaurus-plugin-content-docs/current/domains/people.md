@@ -2,7 +2,7 @@
 title: لوگ
 description: LifeWell کی ابتدا آپ سے اور آپ کے اہم لوگوں سے ہوتی ہے۔ خاندان اور کام کے شجرے، رابطے، جگہیں، پیغامات، کمیونٹی، ماہرین اور خون کے عطیات۔
 keywords: [lifewell family tree, work tree, connections, contacts picker, identity card picture, community, chats, professionals directory, blood donors]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

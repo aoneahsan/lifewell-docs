@@ -2,7 +2,7 @@
 title: 将 LifeWell 连接到其他应用
 description: 外部服务访问您记录的四种方式：日历订阅源、使用访问令牌的脚本、通过 MCP 连接的 AI 助手，以及使用 Webhook 的其他应用。
 keywords: [连接 lifewell 到其他应用, lifewell api, lifewell mcp, lifewell webhooks, lifewell 日历订阅源]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

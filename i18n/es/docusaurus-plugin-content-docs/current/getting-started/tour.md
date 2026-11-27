@@ -2,7 +2,7 @@
 title: Un recorrido breve
 description: "El panel, el menú, la barra superior y el control que cambia el aspecto de LifeWell: dónde está cada cosa antes de buscarla."
 keywords: [recorrido por lifewell, panel de lifewell, navegación de lifewell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

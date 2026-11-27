@@ -2,7 +2,7 @@
 title: Le programme de parrainage
 description: Invitez quelqu’un. Une inscription confirmée donne des points, un badge et, au-delà d’un seuil, un mois d’offre payante. Tous les chiffres sont réglables par l’administration.
 keywords: [parrainage LifeWell, inviter un proche, récompenses de parrainage, mois offert]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

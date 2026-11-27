@@ -2,7 +2,7 @@
 title: Services externes
 description: Chaque service extérieur utilisé par LifeWell, son rôle, les informations qu’il reçoit et ce qui se passe si sa clé manque.
 keywords: [intégrations LifeWell, services tiers, Google Drive, Sentry, Amplitude, Clarity, OneSignal, Turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: ウェブ
 description: ブラウザーでLifeWellを使う方法と、ウェブ版におけるリマインダー、共有、オフライン時の動作を説明します。
 keywords: [lifewell web app, browser support, progressive web app, pwa, ウェブ]
-tags: [platforms, web]
+topics: [platforms, web]
 sidebar_position: 1
 ---
 

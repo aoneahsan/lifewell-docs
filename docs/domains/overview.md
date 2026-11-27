@@ -2,7 +2,7 @@
 title: The seven areas
 description: LifeWell is organised into seven areas around You — people first, then memories, everyday and sharing, with health, mind and life stages around them. Six can be switched off without deleting anything; Sharing cannot.
 keywords: [lifewell domains, life areas, switch off a domain, lifewell navigation, lifewell sharing]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

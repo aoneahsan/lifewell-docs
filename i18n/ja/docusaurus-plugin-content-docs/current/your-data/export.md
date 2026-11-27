@@ -2,7 +2,7 @@
 title: コピーをエクスポートする
 description: 選んだ期間の記録をJSONまたはCSVでエクスポートするか、PDFの概要を作れます。各テーブルの上限は1回につき5,000行です。
 keywords: [lifewell export, export health data, download my data, json csv pdf export, 記録のエクスポート]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: Lo cotidiano
 description: "Calendario, citas, notas, lugares guardados, recordatorios y lista de compras: la semana corriente que mantiene unido lo demás."
 keywords: [calendario lifewell, citas, notas, recordatorios, lista de compras]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

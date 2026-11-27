@@ -2,7 +2,7 @@
 title: Changelog
 description: LifeWell 3.0 (version string 3.22.0) is a full rebuild on a new backend, and 3.23 to 3.25 followed in October 2026. What is new, what was removed, what was corrected, and the reset that comes with 3.0.
 keywords: [lifewell 3.0, lifewell 3.22.0, changelog, release notes, what is new]
-tags: [about, changelog]
+topics: [about, changelog]
 sidebar_position: 2
 ---
 

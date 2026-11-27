@@ -2,7 +2,7 @@
 title: Короткий обзор
 description: Главная страница, меню, верхняя панель и настройка внешнего вида LifeWell — где искать нужное перед началом работы.
 keywords: [обзор LifeWell, главная страница LifeWell, меню LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

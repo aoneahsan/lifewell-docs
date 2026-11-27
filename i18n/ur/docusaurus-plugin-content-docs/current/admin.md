@@ -2,7 +2,7 @@
 title: انتظامی پینل
 description: دس اسکرینیں، تین کردار، ایسا جانچ ریکارڈ جس میں کوئی براہِ راست نہیں لکھ سکتا، اور منصوبوں اور دعوتی پروگرام کی حدیں نئی ریلیز کے بغیر بدلنے کے اختیارات۔
 keywords: [lifewell admin, admin panel, platform administration, audit log, moderation, user management]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

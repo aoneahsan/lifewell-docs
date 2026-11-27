@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: 从 Remento 转到 LifeWell
 description: "了解如何从 Remento 转到 LifeWell、两者的区别和费用。核查日期：2026-11-26。"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell 团队

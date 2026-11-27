@@ -2,7 +2,7 @@
 title: 设置授权版本
 description: 从付款到以您的名称上线 LifeWell 版本：许可证邮件、域名、品牌设置与部署步骤。
 keywords: [lifewell 白标设置, 白标部署, 自定义域名]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

@@ -19,6 +19,7 @@ import { APPS_LASTMOD } from '../src/data/platforms';
 import roster from '../src/data/ecosystem.json';
 import {isOwnedDestination} from '../src/data/linkPolicy';
 import {consolidateLocaleSitemaps} from './locale-sitemap';
+import {loadTopicLabels, topicsOf} from './topics';
 import {escapeXmlAttribute, localizeFeedMetadata, writeLocalizedMachinePages} from './localized-machine-pages';
 
 /**
@@ -67,7 +68,7 @@ function assertLinkPolicy(outDir: string): void {
 
 /** The generated search page must carry a single crawler directive. */
 function assertSearchOutput(outDir: string): void {
-  const $ = load(readFileSync(path.join(outDir, 'search.html'), 'utf8'));
+  const $ = load(readFileSync(path.join(outDir, 'search', 'index.html'), 'utf8'));
   const robots = $('meta[name="robots"]');
   if (robots.length !== 1 || !robots.attr('content')?.includes('noindex')) {
     throw new Error('site-pages: /search must have exactly one name=robots noindex directive');
@@ -139,7 +140,18 @@ const LOCALE_PREFIX = /^\/(?:zh-Hans|hi|es|ar|fr|pt-BR|ru|ja|ur)(?=\/|$)/;
 
 /** Docusaurus adds a locale prefix to every non-English URL. */
 export function withoutLocale(pathname: string): string {
-  return pathname.replace(LOCALE_PREFIX, '') || '/';
+  return routeKey(pathname).replace(LOCALE_PREFIX, '') || '/';
+}
+
+/**
+ * A pathname without its trailing slash (`/` stays `/`): permalinks end in `/` under `trailingSlash: true`, and
+ * every date lookup below compares routes in this one form.
+ *
+ * @param pathname - a pathname or permalink
+ * @returns the same route, slashless
+ */
+export function routeKey(pathname: string): string {
+  return pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname;
 }
 
 /**
@@ -160,7 +172,7 @@ function docPage(doc: DocMetadata): SitePage {
     permalink: doc.permalink,
     title: doc.title,
     description: doc.description,
-    tags: doc.tags.map((tag) => tag.label),
+    tags: topicsOf(doc.frontMatter, 'docs'),
   };
 }
 
@@ -216,8 +228,8 @@ function docsGroups(version: DocsVersion): SiteGroup[] {
     }
     if (link?.type === 'generated-index') {
       listedByCategory.set(
-        link.permalink,
-        into.slice(start + 1).map((page) => page.permalink)
+        routeKey(link.permalink),
+        into.slice(start + 1).map((page) => routeKey(page.permalink))
       );
     }
   };
@@ -253,6 +265,7 @@ function docsGroups(version: DocsVersion): SiteGroup[] {
 function collect(allContent: AllContent, blogPermalink: string, siteDir: string, locale: string, base: string): SitePagesData {
   listedByCategory.clear();
   sourceDates.clear();
+  loadTopicLabels(siteDir, locale);
   const docs = allContent[DOCS_PLUGIN]?.default as DocsContent | undefined;
   const blog = allContent[BLOG_PLUGIN]?.default as BlogContent | undefined;
   if (docs === undefined || blog === undefined) {
@@ -262,7 +275,7 @@ function collect(allContent: AllContent, blogPermalink: string, siteDir: string,
   const rememberSourceDate = (permalink: string, source: string): void => {
     if (!source.startsWith('@site/')) return;
     const modified = statSync(path.join(siteDir, source.slice('@site/'.length))).mtime;
-    sourceDates.set(permalink, modified.toISOString().slice(0, 10));
+    sourceDates.set(routeKey(permalink), modified.toISOString().slice(0, 10));
   };
   for (const doc of version?.docs ?? []) rememberSourceDate(doc.permalink, doc.source);
   for (const post of blog.blogPosts) rememberSourceDate(post.metadata.permalink, post.metadata.source);
@@ -272,7 +285,7 @@ function collect(allContent: AllContent, blogPermalink: string, siteDir: string,
       permalink: metadata.permalink,
       title: metadata.title,
       description: metadata.description,
-      tags: metadata.tags.map((tag) => tag.label),
+      tags: topicsOf(metadata.frontMatter, 'blog'),
       date: metadata.date.toISOString().slice(0, 10),
     }))
     .sort((a, b) => b.date.localeCompare(a.date));
@@ -351,7 +364,7 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
   blogPath: string
 ): Item[] {
   const dated = items.flatMap((item) => {
-    const pathname = new URL(item.url).pathname;
+    const pathname = routeKey(new URL(item.url).pathname);
     const lastmod = item.lastmod ?? sourceDates.get(pathname);
     return lastmod ? [{path: pathname, lastmod}] : [];
   });
@@ -363,7 +376,7 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
 
   return items.map((item) => {
     if (item.lastmod) return item;
-    const pathname = new URL(item.url).pathname;
+    const pathname = routeKey(new URL(item.url).pathname);
     const sourceDate = sourceDates.get(pathname);
     if (sourceDate) return {...item, lastmod: sourceDate};
     const route = withoutLocale(pathname);

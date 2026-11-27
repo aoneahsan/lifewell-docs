@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWell guarda a las personas y los momentos de tu vida en un solo lugar — familiares, amistades, lo que sabes de ellos, recuerdos y planes, con el bienestar alrededor. Web y Android, bajo tu control.
 keywords: [lifewell, aplicación para la vida, árbol familiar, personas, recuerdos, familia y amistades, aplicación android]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

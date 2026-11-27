@@ -2,7 +2,7 @@
 title: एक्सपोर्ट फ़ाइल का फ़ॉर्मैट
 description: LifeWell एक्सपोर्ट में हर फ़ील्ड और तालिका में क्या है—JSON का शुरुआती भाग, CSV संग्रह, PDF से क्या छूटता है और किसी फ़ॉर्मैट में क्या नहीं आता।
 keywords: [lifewell एक्सपोर्ट फ़ॉर्मैट, json संरचना, csv एक्सपोर्ट, डेटा बाहर लेना]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

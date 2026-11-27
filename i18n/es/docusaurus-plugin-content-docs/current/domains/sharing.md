@@ -2,7 +2,7 @@
 title: Compartir
 description: La única área sin interruptor. Qué puede mostrar un enlace, quién puede abrirlo, qué ve esa persona, cómo cerrarlo y qué datos nunca salen de tu registro.
 keywords: [compartir en lifewell, compartir árbol familiar, compartir medicamentos, compartir seguimiento, enlace de solo lectura, compartir con contactos, controles de acceso]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

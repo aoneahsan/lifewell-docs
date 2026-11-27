@@ -2,7 +2,7 @@
 title: Professionnels
 description: Un annuaire de professionnels inscrits eux-mêmes. LifeWell ne vérifie pas leurs qualifications ; il affiche leur numéro d’inscription et un lien vers le registre pour que vous puissiez le consulter.
 keywords: [professionnels LifeWell, annuaire de praticiens, registre professionnel, consultation]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

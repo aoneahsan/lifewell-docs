@@ -1,8 +1,0 @@
-# The key stays `ahsan` so the author page keeps its address (/blog/authors/ahsan).
-# The site speaks as the LifeWell team, never as a person.
-ahsan:
-  name: The LifeWell team
-  title: The people who build and maintain LifeWell
-  url: https://lifewell.aoneahsan.com
-  image_url: /img/logo.svg
-  page: true

@@ -2,7 +2,7 @@
 title: El panel de administración
 description: Diez pantallas, tres roles, un registro de auditoría que nadie puede editar directamente y controles para cambiar planes e invitaciones sin publicar una versión.
 keywords: [administración de lifewell, panel de administración, administración de la plataforma, registro de auditoría, moderación, gestión de usuarios]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

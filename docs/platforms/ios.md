@@ -2,7 +2,7 @@
 title: iOS
 description: iOS was removed from LifeWell on 2026-07-16. It will be re-added when an Apple Developer account exists, and not before.
 keywords: [lifewell ios, iphone app, ipad, apple, ios support]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

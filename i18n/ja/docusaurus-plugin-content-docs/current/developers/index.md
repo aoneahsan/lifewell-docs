@@ -2,7 +2,7 @@
 title: LifeWellをほかのアプリにつなぐ
 description: カレンダーフィード、アクセストークン、MCP、Webhookを使って、LifeWellの記録をほかのアプリから利用する4つの方法。
 keywords: [LifeWellをほかのアプリにつなぐ, LifeWell API, LifeWell MCP, LifeWell Webhook, LifeWellカレンダーフィード]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

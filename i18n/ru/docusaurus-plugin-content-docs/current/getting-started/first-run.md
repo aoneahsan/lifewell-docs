@@ -2,7 +2,7 @@
 title: Первый запуск
 description: "Что LifeWell спрашивает при первом входе: пять коротких шагов, большинство из которых можно пропустить, и как ответы влияют на приложение."
 keywords: [первый запуск LifeWell, настройка после входа, первоначальная настройка LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

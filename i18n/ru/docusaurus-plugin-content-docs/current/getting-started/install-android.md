@@ -2,7 +2,7 @@
 title: Установка на Android
 description: LifeWell для Android — нативная оболочка Capacitor вокруг того же приложения. Установите его из Google Play, войдите через Google и работайте с теми же записями, что в вебе.
 keywords: [LifeWell для Android, Google Play, приложение Capacitor, установить LifeWell]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: Questions fréquentes
 description: 'Réponses aux questions posées avant de confier une partie de sa vie à une application : prix, confidentialité, exportation, usage hors ligne et limites de LifeWell.'
 keywords: [questions LifeWell, LifeWell gratuit, confidentialité LifeWell, exporter mes données, supprimer un compte, places Family, contacts]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

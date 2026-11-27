@@ -2,7 +2,7 @@
 title: Connect an AI assistant (MCP)
 description: Connect Claude, ChatGPT, Claude Code or Cursor to your LifeWell record through the LifeWell MCP server — what the consent page asks, how deletes are confirmed, and how to disconnect.
 keywords: [lifewell mcp server, connect claude to lifewell, chatgpt connector, claude code mcp, cursor mcp]
-tags: [developers, mcp, ai]
+topics: [developers, mcp, ai]
 sidebar_position: 4
 last_update:
   date: 2026-11-19

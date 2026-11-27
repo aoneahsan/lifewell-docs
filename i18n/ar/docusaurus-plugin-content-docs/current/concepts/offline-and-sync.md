@@ -2,7 +2,7 @@
 title: "العمل دون اتصال والمزامنة"
 description: "يوقف LifeWell الصفحة عند فقدان الاتصال، مع خيار للاحتفاظ بإدخالات سريعة مدعومة على الجهاز حتى تعود الشبكة."
 keywords: [lifewell دون اتصال, المزامنة, لا توجد شبكة, التسجيل دون اتصال]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

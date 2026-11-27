@@ -2,7 +2,7 @@
 title: Language and units
 description: LifeWell offers ten languages across its app, docs and browser extension. Your unit choice stays separate from your language.
 keywords: [lifewell language, translation, i18n, metric imperial units, en-GB]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

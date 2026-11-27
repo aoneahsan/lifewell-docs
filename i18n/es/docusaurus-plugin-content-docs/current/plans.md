@@ -2,7 +2,7 @@
 title: Planes
 description: "Free, Pro y Family: qué incluye cada plan, cómo funcionan las plazas Family, los límites gratuitos y las dos formas de pago. Precios mensuales y anuales en dólares estadounidenses."
 keywords: [planes de lifewell, precios de lifewell, plan gratis, plan pro, plan familiar, plazas familiares, pagos de google play]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

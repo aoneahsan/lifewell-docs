@@ -2,7 +2,7 @@
 title: 管理面板
 description: 十个页面、三种角色、无人能直接写入的审计日志，以及无需发布新版本即可调整方案限制和推荐计划的管理功能。
 keywords: [lifewell 管理员, 管理面板, 平台管理, 审计日志, 内容审核, 用户管理]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

@@ -2,7 +2,7 @@
 title: Le partage
 description: '« Le seul domaine sans interrupteur : ce qu’un lien peut contenir, qui peut l’ouvrir, ce que cette personne voit, comment y mettre fin et ce qui reste dans votre dossier. »'
 keywords: [partage LifeWell, partager un arbre familial, partager des médicaments, partager un suivi, lien en lecture seule, partage avec les proches, paramètres de partage]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

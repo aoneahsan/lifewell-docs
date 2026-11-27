@@ -2,7 +2,7 @@
 title: ہر پلیٹ فارم پر کیا ملتا ہے
 description: LifeWell وائٹ لیبل لائسنس ویب، Android اور iOS کے لیے کیا فراہم کرتا ہے، اور ہر پلیٹ فارم کے لیے آپ سے کیا درکار ہے۔
 keywords: [lifewell white-label web app, lifewell white-label android, white-label ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

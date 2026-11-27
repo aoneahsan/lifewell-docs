@@ -2,7 +2,7 @@
 title: ان دستاویزات میں حصہ ڈالیں
 description: "صفحہ کیسے درست کریں، یہاں کیا ہونا چاہیے، اور ایک بنیادی اصول: دستاویزات صرف وہی بیان کریں جو پروڈکٹ حقیقت میں کرتی ہے۔"
 keywords: [contribute lifewell docs, edit documentation, docs repository]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

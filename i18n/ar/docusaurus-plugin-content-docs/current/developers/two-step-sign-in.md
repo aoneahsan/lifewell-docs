@@ -2,7 +2,7 @@
 title: "تسجيل الدخول بخطوتين"
 description: "فعّل خطوة ثانية لحساب LifeWell بتطبيق مصادقة، واحتفظ برموز الاسترداد، واختر إن كنت تريد تذكر المتصفح 7 أيام."
 keywords: [تسجيل الدخول بخطوتين lifewell, مصادقة ثنائية, تطبيق مصادقة, رموز استرداد]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

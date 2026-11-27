@@ -2,7 +2,7 @@
 title: नक्शे और जगहें
 description: यादों, नोट्स, लोगों और कार्यक्रमों के बीच तथा सहेजे गए स्थानों के नामों से उनके संबंध देखें; स्थान इतिहास एक अलग वैकल्पिक सुविधा है।
 keywords: [lifewell नक्शे, यादों का नक्शा, सहेजी जगहें, स्थान इतिहास]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

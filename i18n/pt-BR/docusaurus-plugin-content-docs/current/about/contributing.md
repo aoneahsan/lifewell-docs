@@ -2,7 +2,7 @@
 title: Contribua com a documentação
 description: Como corrigir uma página, o que pertence a esta documentação e a regra principal — ela só pode descrever o que o produto realmente faz.
 keywords: [contribuir com a documentação LifeWell, editar documentação, repositório de documentação]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: White-label and licensing
 description: What a LifeWell white-label licence is, who it suits, what we run for you, and how it differs from buying the source code outright.
 keywords: [lifewell white-label, white-label licence, lifewell licensing, lifewell buyout]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

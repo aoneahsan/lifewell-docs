@@ -2,7 +2,7 @@
 title: iOS
 description: LifeWell 已于 2026年7月16日移除 iOS 平台。只有在具备 Apple Developer 账号后，才会重新加入。
 keywords: [lifewell ios, iphone 应用, ipad, apple, ios 支持]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

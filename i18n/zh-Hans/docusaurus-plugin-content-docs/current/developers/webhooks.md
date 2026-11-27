@@ -2,7 +2,7 @@
 title: Webhook
 description: LifeWell Webhook 会在您的记录发生变化时通知您自己的服务器。请求遵循 Standard Webhooks 签名规则，失败后会在略多于一天内重试，并提供 Node、Python 和 PHP 验签示例。
 keywords: [lifewell webhooks, standard webhooks, webhook 签名验证, webhook 重试]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

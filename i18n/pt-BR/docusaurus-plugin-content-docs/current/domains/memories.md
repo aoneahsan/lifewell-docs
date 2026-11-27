@@ -2,7 +2,7 @@
 title: Memórias
 description: Fotos, álbuns, um livro de recortes e as legendas que dão contexto às lembranças — com os arquivos no seu próprio Google Drive.
 keywords: [memórias LifeWell, álbum de fotos, livro de recortes, fotos Google Drive, guardar lembranças]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

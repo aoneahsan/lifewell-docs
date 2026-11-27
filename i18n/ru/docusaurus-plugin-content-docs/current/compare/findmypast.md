@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: Переход с Findmypast на LifeWell
 description: "Как перейти с Findmypast на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

@@ -2,7 +2,7 @@
 title: 各平台会交付什么
 description: LifeWell 白标许可证在网页、Android 和 iOS 上分别交付什么，以及每个平台需要您提供哪些资料。
 keywords: [lifewell 白标网页应用, lifewell 白标 android, 白标 ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

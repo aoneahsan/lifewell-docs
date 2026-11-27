@@ -2,7 +2,7 @@
 title: Community and chats
 description: Groups with posts and replies, one-to-one messages between connected accounts, blocking, and a moderation route that never tells an author who reported them.
 keywords: [lifewell community, health forum, group chat, messaging, blocking, moderation]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

@@ -2,7 +2,7 @@
 title: "الصحة"
 description: "متتبعات وأدوية وطعام ووجبات وتمارين وحالات صحية؛ مجال واحد حول الأشخاص في حياتك، متاح حين تريده وليس محور LifeWell."
 keywords: [الصحة في lifewell, تتبع الصحة, سجل الأدوية, تتبع الأعراض, القياسات الحيوية]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

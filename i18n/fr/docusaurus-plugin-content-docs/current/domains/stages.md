@@ -2,7 +2,7 @@
 title: Étapes de la vie
 description: Cycle, conception, ovulation, SOPK, ménopause, grossesse et premières années d’un enfant — six écrans dont la présence dépend d’une réponse dans votre profil.
 keywords: [suivi du cycle LifeWell, suivi des règles, fertilité, ménopause, suivi du bébé, courbe de croissance]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

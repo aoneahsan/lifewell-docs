@@ -2,7 +2,7 @@
 title: 隐私与安全
 description: 哪些内容会离开设备，哪些不会——免密码登录、逐行数据库权限、经过清理的分析数据、联系人权限、身份卡照片，以及 LifeWell 有意不作出的承诺。
 keywords: [lifewell 隐私, 健康资料隐私, 行级安全, 分析数据清理, 数据安全, 联系人权限, family 席位]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

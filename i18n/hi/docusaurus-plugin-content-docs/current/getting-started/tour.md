@@ -2,7 +2,7 @@
 title: छोटा परिचय
 description: डैशबोर्ड, मेन्यू, ऊपरी पट्टी और LifeWell का रूप बदलने वाला एक नियंत्रण—खोजने से पहले जानें कि क्या कहाँ है।
 keywords: [lifewell परिचय, lifewell डैशबोर्ड, lifewell नेविगेशन]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

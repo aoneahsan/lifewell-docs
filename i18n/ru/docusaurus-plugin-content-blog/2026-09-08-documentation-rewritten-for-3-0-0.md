@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: Документация описывала прежний продукт. Мы переписали её
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "Команда LifeWell"
+    title: "Люди, которые создают и поддерживают LifeWell"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0 был пересоздан на новой серверной платформе. Прежняя документация описывала уже не существующую версию продукта, поэтому все страницы были переписаны по исходному коду.
 ---
 

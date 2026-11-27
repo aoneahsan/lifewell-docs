@@ -2,7 +2,7 @@
 title: آپ کا ریکارڈ کہاں رہتا ہے؟
 description: آپ کا ریکارڈ Postgres ڈیٹابیس میں، تصاویر آپ کی اپنی Google Drive میں، اور آف لائن اندراجات فعال ہوں تو چند فوری اندراجات عارضی طور پر آلے پر رہتے ہیں۔
 keywords: [lifewell offline, google drive storage, where is my data stored, sync, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

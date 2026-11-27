@@ -2,7 +2,7 @@
 title: Votre première ouverture
 description: Les cinq étapes proposées par LifeWell lors de votre première connexion, les réponses facultatives et ce que chacune change.
 keywords: [première connexion LifeWell, configuration initiale, démarrage LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

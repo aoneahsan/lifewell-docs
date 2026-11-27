@@ -2,7 +2,7 @@
 title: "جولة قصيرة"
 description: "لوحة التحكم والقائمة والشريط العلوي وعنصر التحكم في مظهر LifeWell — أين تجد الأشياء قبل البحث عنها."
 keywords: [جولة lifewell, لوحة تحكم lifewell, التنقل في lifewell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

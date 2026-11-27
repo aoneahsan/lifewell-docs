@@ -2,7 +2,7 @@
 title: رسائی ٹوکن اور توثیق
 description: "اسکرپٹ یا ایپ کیسے ثابت کرتی ہے کہ اسے آپ کا LifeWell ریکارڈ پڑھنے کی اجازت ہے: پڑھنے، لکھنے اور حذف کرنے کی الگ اجازتیں، ٹوکن دوبارہ دکھانے کا 10 منٹ کا اصول، ایپس کے لیے OAuth، درخواستوں کی حدیں اور خرابیاں۔"
 keywords: [lifewell access token, lifewell api authentication, lifewell oauth, api scopes, rate limits]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

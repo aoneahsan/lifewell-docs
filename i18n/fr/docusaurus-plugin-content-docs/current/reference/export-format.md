@@ -2,7 +2,7 @@
 title: Le format des fichiers d’export
 description: '« Le contenu d’un export LifeWell, champ par champ et table par table : en-tête JSON, archive CSV, éléments exclus du PDF et données absentes de tous les formats. »'
 keywords: [format export LifeWell, schéma JSON export, export CSV, importer données LifeWell, portabilité des données]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

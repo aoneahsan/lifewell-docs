@@ -2,7 +2,7 @@
 title: Architecture
 description: Une application monopage statique reliée à Postgres, avec des fonctions Edge lorsque le navigateur ne doit pas détenir un secret. Répartition des rôles et absence de serveur propre.
 keywords: [architecture LifeWell, Supabase, React, Vite, Capacitor, fonctions Edge, application monopage]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

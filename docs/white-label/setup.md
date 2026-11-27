@@ -2,7 +2,7 @@
 title: Setting up a licensed copy
 description: The steps from payment to a live LifeWell copy under your name — the licence email, your domain and branding, and the deployment.
 keywords: [lifewell white-label setup, white-label deployment, custom domain]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

@@ -2,7 +2,7 @@
 title: アーキテクチャ
 description: Postgresを使う静的なシングルページアプリです。ブラウザーが保持してはいけないものだけをEdge Functionで扱う仕組みと、独自サーバーがない理由を説明します。
 keywords: [lifewell architecture, supabase, react, vite, capacitor, edge functions, spa, 構成]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

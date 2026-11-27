@@ -2,7 +2,7 @@
 title: डेटा मॉडल
 description: LifeWell जीवन का रिकॉर्ड कैसे रखता है—हर विचार की अपनी तालिका, हर ट्रैकर के पीछे एक ही जगह और तीन बुनियादी फ़ैसले।
 keywords: [lifewell डेटा मॉडल, postgres संरचना, ट्रैकर डेटा]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

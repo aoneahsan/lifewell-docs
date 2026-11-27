@@ -2,7 +2,7 @@
 title: 人
 description: LifeWellの出発点。あなた、大切な人、その人について知っていることを残します。家族と仕事の関係図、つながり、場所、会話、コミュニティ、専門職、献血者があります。
 keywords: [lifewell family tree, work tree, connections, contacts picker, identity card picture, community, chats, professionals directory, blood donors, 大切な人]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: हर प्लैटफ़ॉर्म पर आपको क्या मिलता है
 description: वेब, Android और iOS के लिए LifeWell व्हाइट लेबल लाइसेंस में क्या मिलता है और हर प्लैटफ़ॉर्म के लिए हमें आपसे क्या चाहिए।
 keywords: [lifewell व्हाइट लेबल वेब ऐप, lifewell व्हाइट लेबल android, व्हाइट लेबल ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

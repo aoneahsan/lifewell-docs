@@ -2,7 +2,7 @@
 title: Compartilhamento
 description: A única área sem controle para desativar. Veja o que um link pode mostrar, quem pode usá-lo, como encerrá-lo e o que nunca sai dos seus dados.
 keywords: [compartilhamento LifeWell, compartilhar árvore genealógica, compartilhar medicamentos, compartilhar acompanhamento, link somente de leitura, controle de compartilhamento]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

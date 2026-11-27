@@ -2,7 +2,7 @@
 title: Developer changelog
 description: Every change to the LifeWell API, MCP server, webhooks and calendar feeds, newest first.
 keywords: [lifewell api changelog, lifewell api changes, api versions]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

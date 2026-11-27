@@ -2,7 +2,7 @@
 title: वेब पर LifeWell इस्तेमाल करें
 description: मौजूदा ब्राउज़र में LifeWell खोलें, Google से साइन इन करें और रिकॉर्ड रखना शुरू करें। डाउनलोड, खाता फ़ॉर्म या सेटिंग की ज़रूरत नहीं।
 keywords: [lifewell वेब ऐप, google से साइन इन, lifewell इंस्टॉल]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

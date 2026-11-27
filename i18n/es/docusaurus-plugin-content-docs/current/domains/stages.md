@@ -2,7 +2,7 @@
 title: Etapas de la vida
 description: "Ciclo, búsqueda de embarazo, ovulación, SOP, menopausia, embarazo y primeros años de una criatura: seis pantallas que dependen de una respuesta de tu perfil."
 keywords: [ciclo lifewell, registro menstrual, fertilidad, menopausia, registro del bebé]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

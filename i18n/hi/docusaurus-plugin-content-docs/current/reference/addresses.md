@@ -2,7 +2,7 @@
 title: जो पते नहीं बदलते
 description: LifeWell के निन्यानवे सार्वजनिक पते और पंद्रह स्थायी रीडायरेक्ट। दोबारा बनाया ऐप कोड बदलता है, पते नहीं।
 keywords: [lifewell पते, स्थायी लिंक, रीडायरेक्ट, साइटमैप]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

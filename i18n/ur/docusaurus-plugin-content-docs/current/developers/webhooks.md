@@ -2,7 +2,7 @@
 title: ویب ہکس
 description: LifeWell ویب ہکس آپ کے ریکارڈ میں تبدیلی ہوتے ہی آپ کے سرور کو بتاتے ہیں؛ Standard Webhooks دستخط، ایک دن سے ذرا زیادہ کوششیں، اور Node، Python اور PHP میں تصدیق کی مثالیں۔
 keywords: [lifewell webhooks, standard webhooks, webhook signature verification, webhook retries]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

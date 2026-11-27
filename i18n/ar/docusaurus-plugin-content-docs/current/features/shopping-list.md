@@ -2,7 +2,7 @@
 title: "قائمة التسوق"
 description: "قائمة تُنشأ من وجباتك ووصفاتك أو تكتبها بنفسك، وتُشارك نصاً عادياً حتى لا يحتاج من يتسوق إلى حساب."
 keywords: [قائمة تسوق lifewell, قائمة تسوق خطة الوجبات, مشاركة قائمة التسوق]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

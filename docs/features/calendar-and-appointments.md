@@ -2,7 +2,7 @@
 title: Calendar and appointments
 description: Keep dated events and appointments together, with a checklist for questions and notes that belong to each appointment.
 keywords: [lifewell calendar, appointment tracker, appointment checklist, health appointments]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

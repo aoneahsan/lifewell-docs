@@ -2,7 +2,7 @@
 title: Inicio de sesión en dos pasos
 description: Protege tu cuenta de LifeWell con una aplicación de autenticación, guarda tus códigos de recuperación y decide si recordar un navegador durante 7 días.
 keywords: [inicio de sesión en dos pasos de lifewell, autenticación de dos factores, aplicación de autenticación, códigos de recuperación]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

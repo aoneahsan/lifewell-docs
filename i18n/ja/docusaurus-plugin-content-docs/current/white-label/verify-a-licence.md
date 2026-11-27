@@ -2,7 +2,7 @@
 title: ライセンスを確認する
 description: ライセンスキーまたはウェブサイトからLifeWellのコピーが認可されているか調べ、各結果が何を意味するか説明します。
 keywords: [verify lifewell licence, check white-label licence, licence file, ライセンス確認]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

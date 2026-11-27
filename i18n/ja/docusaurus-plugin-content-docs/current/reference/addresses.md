@@ -2,7 +2,7 @@
 title: 変わらないURL
 description: 固定されたLifeWellの公開URL99件とリダイレクト15件。再構築で変わるのはコードであり、URLではありません。
 keywords: [LifeWell URL, 永続リンク, リダイレクト, サイトマップ, 固定URL]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

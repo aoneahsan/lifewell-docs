@@ -2,7 +2,7 @@
 title: O primeiro acesso
 description: O que o LifeWell pergunta no primeiro acesso, em cinco etapas curtas, quase todas opcionais, e o que cada resposta muda.
 keywords: [primeiro acesso LifeWell, configuração inicial, configurar LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

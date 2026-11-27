@@ -2,7 +2,7 @@
 title: LifeWell को दूसरे ऐप से जोड़ें
 description: LifeWell के रिकॉर्ड तक बाहर से पहुँचने के चार रास्ते—कैलेंडर फ़ीड, एक्सेस टोकन वाला कोड, AI सहायक के लिए MCP और दूसरे ऐप के लिए वेबहुक।
 keywords: [lifewell दूसरे ऐप से जोड़ें, lifewell api, lifewell mcp, वेबहुक]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

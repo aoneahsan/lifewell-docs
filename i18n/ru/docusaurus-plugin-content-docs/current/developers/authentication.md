@@ -2,7 +2,7 @@
 title: Токены доступа и авторизация
 description: "Как скрипт или приложение подтверждает право читать ваш журнал LifeWell: токены с правами чтения, записи и удаления, десятиминутное правило повторного показа, OAuth, пределы запросов и ошибки."
 keywords: [токен доступа LifeWell, авторизация API LifeWell, OAuth LifeWell, области доступа API, пределы запросов]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

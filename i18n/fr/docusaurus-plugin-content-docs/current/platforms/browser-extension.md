@@ -2,7 +2,7 @@
 title: Extension de navigateur
 description: Le compagnon LifeWell pour Chrome et Firefox est construit, mais pas encore publié dans leurs boutiques. Découvrez ce qu’il conserve dans le navigateur et comment connecter votre compte.
 keywords: [extension LifeWell, extension de navigateur, extension Chrome, suivi rapide]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

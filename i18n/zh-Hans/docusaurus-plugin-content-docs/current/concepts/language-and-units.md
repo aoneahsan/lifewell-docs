@@ -2,7 +2,7 @@
 title: 语言与单位
 description: LifeWell 的应用、文档和浏览器扩展程序提供十种语言。您选择的计量单位独立于语言设置。
 keywords: [lifewell 语言, 翻译, i18n, 公制英制单位, en-GB]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

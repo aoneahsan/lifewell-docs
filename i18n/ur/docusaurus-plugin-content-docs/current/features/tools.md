@@ -2,7 +2,7 @@
 title: ٹولز اور کیلکولیٹر
 description: LifeWell میں کون سے کیلکولیٹر ہیں، کون سے ZTools پر ہیں، اور ٹولز کی فہرست میں زیادہ تر نئے ٹولز کے بجائے روابط کیوں ہیں۔
 keywords: [lifewell tools, health calculators, bmi calculator, interval timer, child growth]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

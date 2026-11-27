@@ -2,7 +2,7 @@
 title: व्हाइट लेबल और लाइसेंस
 description: LifeWell व्हाइट लेबल लाइसेंस क्या है, किसके लिए है, हम आपके लिए क्या चलाते हैं और वह स्रोत कोड पूरा ख़रीदने से कैसे अलग है।
 keywords: [lifewell व्हाइट लेबल, व्हाइट लेबल लाइसेंस, lifewell लाइसेंस]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

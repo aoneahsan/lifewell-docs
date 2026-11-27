@@ -2,7 +2,7 @@
 title: Comunidad y chats
 description: Grupos con publicaciones y respuestas, mensajes entre cuentas conectadas, bloqueo y una vía de moderación que nunca revela al autor quién lo denunció.
 keywords: [comunidad de lifewell, foro de salud, chat de grupo, mensajes, bloqueo, moderación]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

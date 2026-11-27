@@ -2,7 +2,7 @@
 title: オフラインと同期
 description: 通信が失われるとLifeWellは操作を一時停止します。任意の設定で、対応する簡単な記録だけを通信が戻るまで端末内に置けます。
 keywords: [lifewell offline, offline first, sync, no connection, works offline, オフライン]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

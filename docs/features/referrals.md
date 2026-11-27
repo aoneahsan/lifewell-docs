@@ -2,7 +2,7 @@
 title: The referral programme
 description: Invite someone, and a confirmed sign-up earns points, a badge and — past a threshold — a month of a paid plan. Every number is an admin setting rather than a constant.
 keywords: [lifewell referral, invite a friend, referral rewards, free month]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

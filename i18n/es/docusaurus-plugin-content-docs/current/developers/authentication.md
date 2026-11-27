@@ -2,7 +2,7 @@
 title: Tokens de acceso y autenticación
 description: "Cómo demuestra un programa o aplicación que puede leer tus datos de LifeWell: permisos de lectura, escritura y eliminación, plazo de 10 minutos para volver a mostrar un token, OAuth, límites y errores."
 keywords: [token de acceso de lifewell, autenticación api de lifewell, oauth de lifewell, permisos api, límites de solicitudes]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

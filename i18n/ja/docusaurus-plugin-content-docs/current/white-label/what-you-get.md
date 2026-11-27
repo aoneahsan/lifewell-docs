@@ -2,7 +2,7 @@
 title: プラットフォームごとの提供内容
 description: LifeWellのホワイトラベルライセンスでウェブ、Android、iOSに何が提供され、それぞれに何を用意していただくかを説明します。
 keywords: [lifewell white-label web app, lifewell white-label android, white-label ios, プラットフォーム]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

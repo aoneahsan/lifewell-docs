@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: "الانتقال إلى LifeWell من تطبيق آخر"
 description: "إرشادات خطوة بخطوة للانتقال إلى LifeWell من 32 منتجاً لشجرة العائلة وتنظيم الحياة والسجل الصحي، مع تاريخ التحقق من كل منها."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-07
   author: فريق LifeWell

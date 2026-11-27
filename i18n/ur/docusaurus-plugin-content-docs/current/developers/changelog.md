@@ -2,7 +2,7 @@
 title: ڈویلپرز کے لیے تبدیلیوں کی فہرست
 description: LifeWell API، MCP سرور، ویب ہکس اور کیلنڈر فیڈز میں ہر تبدیلی، نئی سے پرانی ترتیب میں۔
 keywords: [lifewell api changelog, lifewell api changes, api versions]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

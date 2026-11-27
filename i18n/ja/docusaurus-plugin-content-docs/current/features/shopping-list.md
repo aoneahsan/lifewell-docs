@@ -2,7 +2,7 @@
 title: 買い物リスト
 description: 食事やレシピから作るか手で書き、買い物をする人にアカウント不要のテキストとして共有できるリストです。
 keywords: [lifewell shopping list, meal planner shopping list, share shopping list, 買い物リスト]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

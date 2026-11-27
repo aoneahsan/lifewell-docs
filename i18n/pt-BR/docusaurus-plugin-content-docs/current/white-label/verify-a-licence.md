@@ -2,7 +2,7 @@
 title: Verificar uma licença
 description: Como conferir se uma versão do LifeWell está licenciada pela chave ou pelo site e o que significa cada resposta.
 keywords: [verificar licença lifewell, conferir licença marca própria, arquivo de licença]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

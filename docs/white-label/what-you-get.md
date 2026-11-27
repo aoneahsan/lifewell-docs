@@ -2,7 +2,7 @@
 title: What is delivered on each platform
 description: What a LifeWell white-label licence delivers on the web and on Android and iOS, and what we need from you for each.
 keywords: [lifewell white-label web app, lifewell white-label android, white-label ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

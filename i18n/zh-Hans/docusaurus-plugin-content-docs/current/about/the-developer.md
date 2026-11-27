@@ -2,7 +2,7 @@
 title: 谁创建了 LifeWell
 description: LifeWell 由 LifeWell 团队开发和维护；产品会坦白说明自己目前做不到什么。
 keywords: [lifewell 团队, lifewell 开发者, 联系 lifewell, lifewell 支持]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

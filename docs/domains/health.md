@@ -2,7 +2,7 @@
 title: Health
 description: Trackers, medications, food and meals, exercise and conditions — one area around the people in your life, there if you want it, and not the point of LifeWell.
 keywords: [lifewell health, health tracking, medication tracker, symptom tracker, vitals]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

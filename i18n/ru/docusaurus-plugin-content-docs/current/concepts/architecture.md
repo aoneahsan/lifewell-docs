@@ -2,7 +2,7 @@
 title: Архитектура
 description: Статическое одностраничное приложение над Postgres и периферийные функции только там, где браузеру нельзя доверять секрет. Что и где работает без собственного сервера.
 keywords: [архитектура LifeWell, Supabase, React, Vite, Capacitor, периферийные функции, SPA]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 1
 ---
 

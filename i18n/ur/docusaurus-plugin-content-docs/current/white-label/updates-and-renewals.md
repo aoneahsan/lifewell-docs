@@ -2,7 +2,7 @@
 title: اپ ڈیٹس اور تجدید
 description: ہر LifeWell لائسنس اور خرید کے ساتھ ملنے والی چھ ماہ کی اپ ڈیٹس، اپ ڈیٹ کی حدود، اور لائسنس کلید سے تجدید کا طریقہ۔
 keywords: [lifewell licence renewal, white-label updates, renew licence key]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

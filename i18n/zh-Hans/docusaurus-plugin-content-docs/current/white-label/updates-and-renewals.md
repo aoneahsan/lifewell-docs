@@ -2,7 +2,7 @@
 title: 更新与续期
 description: 每份 LifeWell 授权和源码买断都包含六个月更新。了解哪些内容算更新，以及如何使用许可证密钥续期。
 keywords: [lifewell 许可证续期, 白标更新, 许可证密钥续期]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

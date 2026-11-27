@@ -2,7 +2,7 @@
 sidebar_position: 16
 title: Covve سے LifeWell کی طرف
 description: "Covve سے LifeWell پر آنے کا طریقہ، فرق اور قیمتیں۔ 2026-11-26 کو جانچ کی گئی۔"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell کی ٹیم

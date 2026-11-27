@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: 从其他应用转到 LifeWell
 description: 从 32 款家族树、日程管理和健康记录产品转到 LifeWell 的逐步指南，每篇都标明核查日期。
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell 团队

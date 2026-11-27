@@ -2,7 +2,7 @@
 title: Воспоминания
 description: Фотографии, альбомы, памятные страницы и подписи, которые помогают их понять, — сами файлы остаются в вашем Google Drive.
 keywords: [воспоминания LifeWell, фотоальбом, альбом воспоминаний, фотографии Google Drive, хранение воспоминаний]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

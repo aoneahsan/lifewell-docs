@@ -2,7 +2,7 @@
 title: Preguntas frecuentes
 description: Respuestas sobre costo, privacidad, exportación, uso sin conexión y los límites de LifeWell antes de confiarle los datos de tu vida.
 keywords: [preguntas frecuentes de lifewell, lifewell gratis, privacidad de lifewell, exportar datos, eliminar cuenta, plazas familiares, permiso de contactos, favoritos]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

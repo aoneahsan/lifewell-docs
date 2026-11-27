@@ -2,7 +2,7 @@
 title: Excluir seus dados
 description: Exclua a conta inteira ou uma das sete áreas e mantenha o restante. Entenda o que cada opção remove e o que permanece.
 keywords: [excluir conta LifeWell, excluir meus dados, exclusão lgpd, excluir conta]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

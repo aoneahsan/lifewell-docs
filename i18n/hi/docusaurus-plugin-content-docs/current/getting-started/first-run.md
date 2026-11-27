@@ -2,7 +2,7 @@
 title: पहली शुरुआत
 description: पहली बार साइन इन करने पर LifeWell क्या पूछता है—पाँच छोटे चरण, जिनमें से ज़्यादातर छोड़ सकते हैं, और हर जवाब का असर।
 keywords: [lifewell पहली शुरुआत, पहली बार सेटअप]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

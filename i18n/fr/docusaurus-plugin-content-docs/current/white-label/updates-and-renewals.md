@@ -2,7 +2,7 @@
 title: Mises à jour et renouvellements
 description: Les six mois de mises à jour inclus avec chaque licence ou rachat LifeWell, ce qui compte comme mise à jour et la procédure de renouvellement avec la clé de licence.
 keywords: [renouvellement licence LifeWell, mises à jour marque blanche, renouveler une clé]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

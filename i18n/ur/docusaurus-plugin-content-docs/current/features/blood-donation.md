@@ -2,7 +2,7 @@
 title: خون کا عطیہ
 description: عطیہ دہندگان کی عوامی فہرست، ان تک پہنچنے والی درخواستیں، اور رابطے کی معلومات جو ایک بار صرف ایک شخص کو دی جا سکتی ہیں اور واپس بھی لی جا سکتی ہیں۔
 keywords: [blood donor directory, blood donation, blood request, lifewell blood donors]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

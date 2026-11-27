@@ -2,7 +2,7 @@
 title: Jetons d’accès et authentification
 description: 'Comment un script ou une application prouve son droit de lire votre dossier LifeWell : jetons avec portées, règle des dix minutes, OAuth, limites de débit et erreurs.'
 keywords: [jeton d’accès LifeWell, authentification API LifeWell, OAuth LifeWell, portées API, limites de débit]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

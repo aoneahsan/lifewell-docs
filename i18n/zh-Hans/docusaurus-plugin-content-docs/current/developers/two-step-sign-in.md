@@ -2,7 +2,7 @@
 title: 两步登录
 description: 使用身份验证器应用为 LifeWell 账号开启两步登录，保管恢复代码，并决定是否记住浏览器七天。
 keywords: [lifewell 两步登录, 双重身份验证, 身份验证器应用, 恢复代码]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

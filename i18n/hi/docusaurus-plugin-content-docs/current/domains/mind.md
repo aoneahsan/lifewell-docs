@@ -2,7 +2,7 @@
 title: मन
 description: डायरी, मार्गदर्शित साँस और नींद की आवाज़ें, मन की स्थिति, आभार और काम के बीच विराम—जिन्हें फिर पढ़ सकते हैं, पर अंक नहीं दिए जाते।
 keywords: [lifewell मन, मन की स्थिति डायरी, आभार, साँस का अभ्यास]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

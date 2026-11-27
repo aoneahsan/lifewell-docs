@@ -2,7 +2,7 @@
 title: लोग
 description: LifeWell की शुरुआत—आप, आपके लिए ज़रूरी लोग और उनके बारे में आपकी जानकारी। परिवार और काम के वृक्ष, संपर्क, जगहें, संदेश, समुदाय, पेशेवर और रक्तदान।
 keywords: [lifewell परिवार वृक्ष, काम का वृक्ष, संपर्क, पहचान पत्र, समुदाय, रक्तदाता]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

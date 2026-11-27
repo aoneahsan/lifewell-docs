@@ -2,7 +2,7 @@
 title: Android
 description: Android पर LifeWell—न्यूनतम Android 9, अनुमतियाँ, स्थानीय रिमाइंडर, हस्ताक्षरित अपडेट और स्टोर रिलीज़ की प्रतीक्षा करती सुविधाएँ।
 keywords: [lifewell android, android अनुमतियाँ, संपर्क अनुमति, capacitor android]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

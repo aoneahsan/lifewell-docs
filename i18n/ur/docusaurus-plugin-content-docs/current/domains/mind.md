@@ -2,7 +2,7 @@
 title: ذہن
 description: ڈائری، سانس کی رہنمائی، نیند کی آوازیں، کیفیت، شکر گزاری اور کام کے دوران وقفے — سب دوبارہ پڑھنے کے لیے، کسی اسکور کے بغیر۔
 keywords: [lifewell mind, mood journal, gratitude journal, breathing exercise, mental health tracking]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

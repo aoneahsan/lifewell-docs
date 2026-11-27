@@ -2,7 +2,7 @@
 title: Recordatorios
 description: Qué puede enviarte LifeWell, cuándo y en qué dispositivo. Tres controles generales, horas de silencio y por qué la aplicación no solicita alarmas exactas en Android.
 keywords: [recordatorios de lifewell, recordatorio de medicación, recordatorio de citas, horas de silencio, notificaciones de android]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

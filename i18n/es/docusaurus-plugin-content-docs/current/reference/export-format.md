@@ -2,7 +2,7 @@
 title: Formato de los archivos de exportación
 description: "Contenido de una exportación de LifeWell, campo por campo y tabla por tabla: encabezado JSON, archivo CSV, exclusiones del PDF y datos ausentes de todos los formatos."
 keywords: [formato de exportación de lifewell, esquema json exportado, exportación csv, importar datos de lifewell, portabilidad de datos]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

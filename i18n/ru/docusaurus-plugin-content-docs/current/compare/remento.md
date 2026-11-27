@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: Переход с Remento на LifeWell
 description: "Как перейти с Remento на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

@@ -2,7 +2,7 @@
 title: Third-party services
 description: Every outside service LifeWell talks to, what it is for, what it receives, and what happens when its key is absent.
 keywords: [lifewell integrations, third party services, google drive, sentry, amplitude, clarity, onesignal, turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

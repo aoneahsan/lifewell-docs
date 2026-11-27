@@ -2,7 +2,7 @@
 title: "المظهر"
 description: "أيقونة واحدة ولوحة واحدة للسمة والألوان واستدارة الزوايا والكثافة وحجم النص والخط ونمط الأسطح والحركة. تُطبق قبل أول رسم للشاشة."
 keywords: [سمة lifewell, الوضع الداكن, إعدادات المظهر, حجم النص وإمكانية الوصول, تقليل الحركة]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

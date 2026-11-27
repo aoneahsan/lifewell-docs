@@ -2,7 +2,7 @@
 title: "Android"
 description: "LifeWell على Android: أدنى إصدار Android 9، والأذونات والتذكيرات المحلية والتحديثات الموقعة والميزات التي تنتظر إصدار المتجر."
 keywords: [lifewell android, أذونات android, إذن جهات الاتصال, minsdk 28, capacitor android, play store]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

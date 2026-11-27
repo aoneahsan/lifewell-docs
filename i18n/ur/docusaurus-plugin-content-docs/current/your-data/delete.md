@@ -2,7 +2,7 @@
 title: اپنا ریکارڈ حذف کریں
 description: پورا اکاؤنٹ حذف کریں یا سات میں سے ایک شعبہ ہٹا کر باقی محفوظ رکھیں۔ ہر اختیار کیا ہٹاتا اور کیا برقرار رکھتا ہے، اور آج اس کی حالت کیا ہے۔
 keywords: [delete lifewell account, delete my data, gdpr deletion, account deletion]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

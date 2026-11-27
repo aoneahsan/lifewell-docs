@@ -2,7 +2,7 @@
 title: Salud
 description: Seguimientos, medicamentos, alimentos, ejercicio y condiciones. Una de las áreas alrededor de las personas de tu vida, disponible si la quieres usar, sin ser el centro de LifeWell.
 keywords: [salud en lifewell, seguimiento de salud, registro de medicamentos, registro de síntomas, signos vitales]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

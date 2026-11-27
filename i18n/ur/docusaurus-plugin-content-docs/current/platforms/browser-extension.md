@@ -2,7 +2,7 @@
 title: براؤزر ایکسٹینشن
 description: LifeWell کی Chrome اور Firefox ساتھی ایکسٹینشن بن چکی ہے مگر ابھی کسی اسٹور میں شائع نہیں ہوئی۔ جانیں کہ یہ براؤزر میں کیا رکھتی ہے اور اکاؤنٹ کیسے جوڑتی ہے۔
 keywords: [lifewell extension, browser extension, chrome extension, quick tracking]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

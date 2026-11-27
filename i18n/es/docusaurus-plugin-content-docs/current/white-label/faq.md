@@ -2,7 +2,7 @@
 title: Preguntas sobre la marca blanca
 description: Respuestas a lo que preguntan las organizaciones antes de obtener una licencia de LifeWell — código fuente, exclusividad, iOS, actualizaciones y lo que necesitamos para empezar.
 keywords: [preguntas marca blanca lifewell, licencia marca blanca]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

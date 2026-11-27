@@ -2,7 +2,7 @@
 title: Uso offline e sincronização
 description: O LifeWell pausa o aplicativo sem conexão, mas pode guardar alguns registros rápidos no dispositivo, se você ativar essa opção.
 keywords: [LifeWell offline, sincronização, sem internet, funciona offline]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

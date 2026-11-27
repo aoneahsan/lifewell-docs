@@ -2,7 +2,7 @@
 title: "رموز الوصول والمصادقة"
 description: "كيف يثبت برنامج أو تطبيق حقه في قراءة سجل LifeWell: رموز بصلاحيات القراءة والكتابة والحذف، وقاعدة كشف الرمز خلال 10 دقائق، وOAuth والحدود والأخطاء."
 keywords: [رمز وصول lifewell, مصادقة واجهة lifewell, oauth, صلاحيات api, حدود الطلبات]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

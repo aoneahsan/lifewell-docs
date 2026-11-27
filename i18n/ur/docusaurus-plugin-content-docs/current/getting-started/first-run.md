@@ -2,7 +2,7 @@
 title: پہلا استعمال
 description: "پہلی بار لاگ اِن پر LifeWell کیا پوچھتا ہے: پانچ مختصر مراحل، جن میں سے زیادہ تر چھوڑے جا سکتے ہیں، اور ہر جواب کیا بدلتا ہے۔"
 keywords: [lifewell onboarding, first time setup, lifewell setup]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

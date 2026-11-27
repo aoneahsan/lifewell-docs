@@ -2,7 +2,7 @@
 title: صحت
 description: اندراجات، ادویات، خوراک اور کھانے، ورزش اور حالتیں — آپ کی زندگی کے لوگوں کے گرد ایک شعبہ، اگر آپ چاہیں؛ LifeWell کا مرکزی مقصد نہیں۔
 keywords: [lifewell health, health tracking, medication tracker, symptom tracker, vitals]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

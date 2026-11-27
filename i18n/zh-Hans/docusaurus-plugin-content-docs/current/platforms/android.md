@@ -2,7 +2,7 @@
 title: Android
 description: Android 版 LifeWell 的最低系统版本、权限、本地提醒、签名更新，以及等待商店发布的功能。
 keywords: [lifewell android, android 权限, 通讯录权限, minsdk 28, capacitor android, play store]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

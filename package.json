@@ -36,8 +36,9 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "yarn i18n:check && NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
-    "build:en": "yarn i18n:check:en && NODE_OPTIONS=--no-experimental-webstorage docusaurus build --locale en",
+    "build": "yarn i18n:check && NODE_OPTIONS=--no-experimental-webstorage docusaurus build && yarn seo:contract",
+    "build:en": "yarn i18n:check:en && NODE_OPTIONS=--no-experimental-webstorage docusaurus build --locale en && yarn seo:contract",
+    "seo:contract": "node plugins/seo-contract.ts",
     "i18n:check": "node plugins/i18n-gate.ts",
     "i18n:check:en": "node plugins/i18n-gate.ts --locale en",
     "swizzle": "docusaurus swizzle",

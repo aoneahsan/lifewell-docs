@@ -2,7 +2,7 @@
 title: زندگی کے مراحل
 description: ماہواری، حمل کی کوشش، بیضہ ریزی، PCOS، سن یاس، حمل اور بچے کے ابتدائی سال؛ چھ اسکرینیں جن کی فہرست آپ کی پروفائل کا ایک جواب طے کرتا ہے۔
 keywords: [lifewell cycle tracking, period tracker, fertility, menopause, baby tracker, growth chart]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

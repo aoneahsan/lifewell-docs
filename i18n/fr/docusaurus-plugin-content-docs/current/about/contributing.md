@@ -2,7 +2,7 @@
 title: Contribuer à cette documentation
 description: "Comment corriger une page, ce qui a sa place ici et la règle essentielle : cette documentation ne décrit que ce que le produit fait réellement."
 keywords: [contribuer à la documentation LifeWell, modifier une page, dépôt de documentation]
-tags: [about]
+topics: [about]
 sidebar_position: 3
 ---
 

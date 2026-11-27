@@ -2,7 +2,7 @@
 title: Outils et calculateurs
 description: Les calculateurs présents dans LifeWell, ceux hébergés sur ZTools et la raison pour laquelle le répertoire des outils contient surtout des liens.
 keywords: [outils LifeWell, calculateurs de santé, IMC, minuteur d’intervalles, croissance infantile]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

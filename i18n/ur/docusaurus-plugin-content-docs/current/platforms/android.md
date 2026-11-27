@@ -2,7 +2,7 @@
 title: اینڈرائیڈ
 description: اینڈرائیڈ پر LifeWell — کم از کم اینڈرائیڈ 9، اجازتیں، مقامی یاد دہانیاں، دستخط شدہ اپ ڈیٹس اور وہ خصوصیات جو اسٹور ریلیز کی منتظر ہیں۔
 keywords: [lifewell android, android permissions, contacts permission, minsdk 28, capacitor android, play store]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

@@ -2,7 +2,7 @@
 title: "ربط LifeWell بالتطبيقات الأخرى"
 description: "أربع طرق لوصول خدمة خارجية إلى سجلك: تطبيق تقويم عبر موجز، وبرنامج عبر رمز وصول، ومساعد ذكاء اصطناعي عبر MCP، وتطبيق آخر عبر خطافات الويب."
 keywords: [ربط lifewell بالتطبيقات, واجهة lifewell البرمجية, lifewell mcp, خطافات ويب lifewell, موجز تقويم lifewell]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

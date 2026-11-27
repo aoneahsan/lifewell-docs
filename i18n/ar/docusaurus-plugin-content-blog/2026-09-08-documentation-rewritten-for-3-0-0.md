@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: "كان التوثيق خاطئاً، فأعدنا كتابته"
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "فريق LifeWell"
+    title: "الأشخاص الذين يبنون LifeWell ويصونونه"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: "أُعيد بناء LifeWell 3.0.0 على خادم جديد، وكان التوثيق القديم يصف منتجاً لم يعد موجوداً. حُذفت الصفحات وأُعيدت كتابتها بالرجوع إلى الشيفرة."
 ---
 

@@ -2,7 +2,7 @@
 title: Расширение браузера
 description: Дополнение LifeWell для Chrome и Firefox готово, но ещё не опубликовано в магазинах. Узнайте, что оно хранит в браузере и как подключается учётная запись.
 keywords: [расширение LifeWell, расширение браузера, Chrome, быстрые записи]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

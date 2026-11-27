@@ -2,7 +2,7 @@
 title: Marca blanca y licencias
 description: Qué es una licencia de marca blanca de LifeWell, a quién le sirve, qué operamos para ti y en qué se diferencia de comprar el código fuente.
 keywords: [marca blanca lifewell, licencia marca blanca, licencias lifewell, compra del código]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

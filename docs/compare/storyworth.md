@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: Moving from Storyworth to LifeWell
 description: "How to move from Storyworth to LifeWell, how they differ and what each costs. Checked 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

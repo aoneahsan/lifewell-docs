@@ -2,7 +2,7 @@
 sidebar_position: 21
 title: "الانتقال من TickTick إلى LifeWell"
 description: "استخدام TickTick بجانب LifeWell، والفروق والأسعار. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

@@ -2,7 +2,7 @@
 title: Serviços de terceiros
 description: Todos os serviços externos com que o LifeWell se comunica, sua finalidade, os dados recebidos e o que acontece quando uma chave não está configurada.
 keywords: [integrações LifeWell, serviços de terceiros, Google Drive, Sentry, Amplitude, Clarity, OneSignal, Turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

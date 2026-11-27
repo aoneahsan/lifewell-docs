@@ -2,7 +2,7 @@
 title: "iOS"
 description: "أُزيل iOS من LifeWell في 2026-07-16. لن يُعاد إلا إذا توفر حساب Apple Developer."
 keywords: [lifewell ios, تطبيق iphone, ipad, apple, دعم ios]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

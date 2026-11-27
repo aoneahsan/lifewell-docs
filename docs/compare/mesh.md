@@ -2,7 +2,7 @@
 sidebar_position: 14
 title: Moving from Mesh to LifeWell
 description: "How to move from Mesh to LifeWell, how they differ and what each costs. Checked 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

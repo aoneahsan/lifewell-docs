@@ -2,7 +2,7 @@
 title: Búsqueda
 description: Una búsqueda para todo tu registro. La parte del servidor está construida; la página todavía no está terminada y la aplicación lo dice en vez de mostrar una lista vacía.
 keywords: [búsqueda en lifewell, buscar en tu registro]
-tags: [features]
+topics: [features]
 sidebar_position: 3
 ---
 

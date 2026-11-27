@@ -2,7 +2,7 @@
 title: भाषा और माप की इकाइयाँ
 description: LifeWell ऐप, दस्तावेज़ों और ब्राउज़र एक्सटेंशन में दस भाषाएँ देता है। माप की आपकी पसंद भाषा से अलग रहती है।
 keywords: [lifewell भाषा, अनुवाद, मीट्रिक और इम्पीरियल इकाइयाँ]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

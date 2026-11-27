@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWellは、家族や友人、その人たちについて知っていること、思い出や予定を1か所に残します。その周りに健康に関することも置ける、ウェブとAndroidのアプリです。
 keywords: [lifewell, life companion, family tree, people, memories, family and friends, android app, 家系図, 大切な人, 思い出]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

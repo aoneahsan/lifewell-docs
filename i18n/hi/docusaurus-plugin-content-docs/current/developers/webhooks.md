@@ -2,7 +2,7 @@
 title: वेबहुक
 description: आपके रिकॉर्ड में बदलाव होते ही LifeWell आपके सर्वर को Standard Webhooks हस्ताक्षर वाला संदेश भेजता है; एक दिन से अधिक दोबारा कोशिश और Node, Python, PHP में जाँच के उदाहरण।
 keywords: [lifewell वेबहुक, standard webhooks, हस्ताक्षर जाँच]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

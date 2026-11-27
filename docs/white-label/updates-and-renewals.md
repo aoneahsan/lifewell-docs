@@ -2,7 +2,7 @@
 title: Updates and renewals
 description: The six months of updates that come with every LifeWell licence and buyout, what counts as an update, and how to renew by licence key.
 keywords: [lifewell licence renewal, white-label updates, renew licence key]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

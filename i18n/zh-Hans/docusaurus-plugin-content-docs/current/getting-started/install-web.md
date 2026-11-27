@@ -2,7 +2,7 @@
 title: 在网页上使用 LifeWell
 description: 用当前版本的浏览器打开 LifeWell，使用 Google 登录，即可开始记录。无需下载、填写注册表或配置。
 keywords: [lifewell 网页应用, 使用 google 登录, 安装 lifewell]
-tags: [getting-started, web]
+topics: [getting-started, web]
 sidebar_position: 1
 ---
 

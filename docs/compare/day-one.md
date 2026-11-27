@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: Moving from Day One to LifeWell
 description: "How to move from Day One to LifeWell, how they differ and what each costs. Checked 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

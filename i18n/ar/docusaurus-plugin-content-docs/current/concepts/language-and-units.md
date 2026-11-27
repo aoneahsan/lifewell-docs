@@ -2,7 +2,7 @@
 title: "اللغة والوحدات"
 description: "يقدم LifeWell عشر لغات في التطبيق والتوثيق وإضافة المتصفح. ويظل اختيار وحدات القياس مستقلاً عن اللغة."
 keywords: [لغة lifewell, الترجمة, i18n, الوحدات المترية والإمبراطورية, en-GB]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

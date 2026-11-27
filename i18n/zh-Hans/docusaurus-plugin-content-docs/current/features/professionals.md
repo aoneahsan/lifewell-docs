@@ -2,7 +2,7 @@
 title: 专业人员
 description: 由从业者自行登记的名录。LifeWell 不核验任何人的资质；页面会完整显示注册编号并链接到登记机构，供您自行核对。
 keywords: [lifewell 专业人员, 从业者名录, 专业资格登记, 咨询]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

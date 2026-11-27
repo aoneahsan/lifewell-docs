@@ -2,7 +2,7 @@
 title: ホワイトラベルとライセンス
 description: LifeWellのホワイトラベルライセンス、対象となる組織、運用内容、ソースコードの買い取りとの違いを説明します。
 keywords: [lifewell white-label, white-label licence, lifewell licensing, lifewell buyout, ホワイトラベル]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

@@ -2,7 +2,7 @@
 title: O formato do arquivo exportado
 description: O que entra na exportação LifeWell, campo por campo e tabela por tabela — cabeçalho JSON, arquivo CSV, omissões do PDF e dados que nunca aparecem.
 keywords: [formato de exportação LifeWell, esquema json, exportação csv, importar dados LifeWell, portabilidade de dados]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

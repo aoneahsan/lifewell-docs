@@ -2,7 +2,7 @@
 title: 访问令牌与身份验证
 description: 脚本或应用如何证明自己可以访问您的 LifeWell 记录：带读取、写入和删除权限的访问令牌、再次显示令牌的十分钟规则、OAuth、速率限制与错误。
 keywords: [lifewell 访问令牌, lifewell api 身份验证, lifewell oauth, api 权限范围, 速率限制]
-tags: [developers, api, security]
+topics: [developers, api, security]
 sidebar_position: 2
 last_update:
   date: 2026-11-19

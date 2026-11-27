@@ -2,7 +2,7 @@
 title: Onde seus dados ficam
 description: Seus registros ficam num banco Postgres, suas fotos no seu Google Drive e, se você ativar os registros offline, algumas anotações rápidas aguardam no dispositivo.
 keywords: [LifeWell offline, armazenamento Google Drive, onde meus dados ficam, sincronização, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

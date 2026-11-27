@@ -2,7 +2,7 @@
 title: نقشے اور جگہیں
 description: یادوں، نوٹس، افراد اور واقعات کا محفوظ جگہوں کے ناموں سے تعلق دیکھیں۔ مقام کی تاریخ ایک الگ اختیاری سہولت ہے۔
 keywords: [lifewell maps, memory map, saved places, location history, place tracking]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

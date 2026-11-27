@@ -2,7 +2,7 @@
 title: Cartes et lieux
 description: Suivez les liens entre souvenirs, notes, proches, événements et noms de lieux enregistrés. L’historique de position est une option distincte.
 keywords: [cartes LifeWell, carte de souvenirs, lieux enregistrés, historique de position]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

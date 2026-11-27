@@ -2,7 +2,7 @@
 title: Обновления и продление
 description: Шесть месяцев обновлений, входящие в каждую лицензию и покупку LifeWell, виды обновлений и продление по ключу лицензии.
 keywords: [продление лицензии LifeWell, обновления white-label, продлить ключ лицензии]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

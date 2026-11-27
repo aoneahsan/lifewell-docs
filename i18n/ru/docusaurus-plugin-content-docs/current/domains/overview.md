@@ -2,7 +2,7 @@
 title: Семь разделов
 description: "LifeWell объединяет семь разделов вокруг «Вас»: люди, воспоминания, повседневные дела, общий доступ, здоровье, самочувствие и этапы жизни. Шесть можно скрыть без удаления записей."
 keywords: [разделы LifeWell, области жизни, скрыть раздел, меню LifeWell, общий доступ LifeWell]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

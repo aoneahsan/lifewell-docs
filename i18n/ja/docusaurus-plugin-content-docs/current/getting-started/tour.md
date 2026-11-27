@@ -2,7 +2,7 @@
 title: 短いツアー
 description: LifeWellのダッシュボード、メニュー、上部バー、表示を変える設定を紹介します。探し始める前に、どこに何があるか分かります。
 keywords: [lifewell tour, lifewell dashboard, lifewell navigation, 操作ガイド]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

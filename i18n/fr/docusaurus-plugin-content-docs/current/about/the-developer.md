@@ -2,7 +2,7 @@
 title: Qui crée LifeWell
 description: L’équipe LifeWell crée et entretient l’application, et dit clairement ce qu’elle ne peut pas faire.
 keywords: [équipe LifeWell, créateurs de LifeWell, contacter LifeWell, assistance LifeWell]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

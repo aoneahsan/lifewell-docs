@@ -2,7 +2,7 @@
 title: LifeWell API
 description: LifeWell REST API का मुख्य पता, सामान्यतः 20 और अधिकतम 50 पंक्तियों के पेज, और हर रास्ते व फ़ील्ड को बताने वाली OpenAPI फ़ाइल।
 keywords: [lifewell api, lifewell rest api, openapi, api पेज]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

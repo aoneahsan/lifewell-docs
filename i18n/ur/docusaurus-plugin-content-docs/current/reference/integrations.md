@@ -2,7 +2,7 @@
 title: بیرونی خدمات
 description: LifeWell کن بیرونی خدمات سے رابطہ کرتا ہے، ہر خدمت کس کام کی ہے، اسے کیا معلومات ملتی ہیں، اور کلید نہ ہونے پر کیا ہوتا ہے۔
 keywords: [lifewell integrations, third party services, google drive, sentry, amplitude, clarity, onesignal, turnstile]
-tags: [reference, privacy]
+topics: [reference, privacy]
 sidebar_position: 3
 ---
 

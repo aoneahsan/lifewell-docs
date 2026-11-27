@@ -2,7 +2,7 @@
 title: Historique des changements pour les développeurs
 description: Les modifications de l’API LifeWell, du serveur MCP, des webhooks et des flux de calendrier, de la plus récente à la plus ancienne.
 keywords: [historique API LifeWell, changements API LifeWell, versions API]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

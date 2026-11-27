@@ -2,7 +2,7 @@
 title: Addresses that do not move
 description: Ninety-nine public LifeWell addresses and fifteen redirects that are frozen. A rebuild changes code, not addresses.
 keywords: [lifewell urls, permanent links, redirects, sitemap, frozen urls]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

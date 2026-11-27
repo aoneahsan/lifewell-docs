@@ -2,7 +2,7 @@
 title: 心
 description: 日記、呼吸や睡眠のガイド、気分、感謝、仕事中の休憩を残します。あとで読み返せますが、採点はされません。
 keywords: [lifewell mind, mood journal, gratitude journal, breathing exercise, mental health tracking, 心の記録]
-tags: [domains, mind]
+topics: [domains, mind]
 sidebar_position: 7
 ---
 

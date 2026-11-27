@@ -2,7 +2,7 @@
 title: पेशेवरों की सूची
 description: खुद को सूची में जोड़ने वाले पेशेवरों की सूची। LifeWell किसी की योग्यता नहीं जाँचता; पंजीकरण संख्या और रजिस्टर का लिंक देता है ताकि आप खुद जाँच सकें।
 keywords: [lifewell पेशेवर, पेशेवर सूची, पंजीकरण रजिस्टर, परामर्श]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

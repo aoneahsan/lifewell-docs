@@ -2,7 +2,7 @@
 title: Agenda e compromissos
 description: Uma agenda para a semana comum e a semana de consultas, com uma lista em cada compromisso para as perguntas que você queria fazer.
 keywords: [agenda lifewell, registro de compromissos, lista para consulta, consultas de saúde]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

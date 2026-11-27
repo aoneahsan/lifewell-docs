@@ -2,7 +2,7 @@
 title: Reminders
 description: What LifeWell may send you, when, and on which device — three master switches, quiet hours, and why the app never asks Android for an exact alarm.
 keywords: [lifewell reminders, medication reminder, appointment reminder, quiet hours, android notifications]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 2
 ---
 

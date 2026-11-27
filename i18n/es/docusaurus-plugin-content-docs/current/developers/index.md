@@ -2,7 +2,7 @@
 title: Conectar LifeWell con otras aplicaciones
 description: "Cuatro formas en que algo externo puede acceder a tu registro: un calendario mediante un feed, un programa con un token, un asistente de IA por MCP y otra aplicación mediante webhooks."
 keywords: [conectar lifewell, api lifewell, mcp lifewell, webhooks, calendario lifewell]
-tags: [developers, api]
+topics: [developers, api]
 sidebar_position: 1
 last_update:
   date: 2026-11-19

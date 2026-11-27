@@ -2,7 +2,7 @@
 title: Androidにインストール
 description: Android版LifeWellは同じアプリのCapacitorビルドです。Google Playから入手し、Googleでログインすると、ウェブ版と同じ記録を開けます。
 keywords: [lifewell android, google play, capacitor app, install lifewell android, Android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

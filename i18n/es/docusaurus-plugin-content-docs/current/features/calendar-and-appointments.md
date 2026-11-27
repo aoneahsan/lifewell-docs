@@ -2,7 +2,7 @@
 title: Calendario y citas
 description: Un calendario para la semana cotidiana y la médica, con una lista en cada cita para no olvidar las preguntas que querías hacer.
 keywords: [calendario lifewell, registro de citas, lista de preguntas, citas médicas]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: Изменения для разработчиков
 description: Все изменения API LifeWell, сервера MCP, вебхуков и календарных лент, начиная с новых.
 keywords: [изменения API LifeWell, версии API, обновления для разработчиков]
-tags: [developers, changelog]
+topics: [developers, changelog]
 sidebar_position: 8
 last_update:
   date: 2026-11-19

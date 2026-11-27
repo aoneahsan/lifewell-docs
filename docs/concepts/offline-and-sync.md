@@ -2,7 +2,7 @@
 title: Offline and sync
 description: LifeWell pauses the app when the connection is lost, with an optional way to keep supported quick logs on this device until it returns.
 keywords: [lifewell offline, offline first, sync, no connection, works offline]
-tags: [concepts, offline]
+topics: [concepts, offline]
 sidebar_position: 4
 ---
 

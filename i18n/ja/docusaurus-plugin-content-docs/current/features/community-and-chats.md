@@ -2,7 +2,7 @@
 title: コミュニティとチャット
 description: 投稿と返信があるグループ、つながりのあるアカウント間のメッセージ、ブロック、通報者を投稿者に知らせない管理経路を説明します。
 keywords: [lifewell community, health forum, group chat, messaging, blocking, moderation, チャット]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

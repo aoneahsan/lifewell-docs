@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: Migrar do Storyworth para o LifeWell
 description: "Como migrar do Storyworth para o LifeWell, as diferenças entre eles e quanto custam. Verificado em 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

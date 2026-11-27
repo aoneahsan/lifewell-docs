@@ -2,7 +2,7 @@
 title: 7つの領域
 description: LifeWellではあなたを中心に7つの領域があります。まず人、次に思い出、日々のこと、共有があり、健康、心、人生の段階が周りを支えます。共有以外の6つは記録を消さずにオフにできます。
 keywords: [lifewell domains, life areas, switch off a domain, lifewell navigation, lifewell sharing, 7つの領域]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

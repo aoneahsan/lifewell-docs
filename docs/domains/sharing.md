@@ -2,7 +2,7 @@
 title: Sharing
 description: The only area with no switch. What a link can carry, who it is for, what the other person sees, how to end it, and what never leaves your record.
 keywords: [lifewell sharing, share a family tree, share medications, share a tracker, read only link, partner sharing, sharing controls]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

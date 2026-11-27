@@ -2,7 +2,7 @@
 title: Where your record lives
 description: Your record lives in a Postgres database, photos in your Google Drive, and limited queued quick logs on your device when offline logging is enabled.
 keywords: [lifewell offline, google drive storage, where is my data stored, sync, postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

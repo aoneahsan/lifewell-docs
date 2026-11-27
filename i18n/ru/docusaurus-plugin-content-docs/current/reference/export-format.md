@@ -2,7 +2,7 @@
 title: Формат экспортируемого файла
 description: "Содержимое экспорта LifeWell по полям и таблицам: заголовок JSON, архив CSV, исключения из PDF и данные, которые не входят ни в один формат."
 keywords: [формат экспорта LifeWell, схема экспорта JSON, экспорт CSV, перенос данных LifeWell, переносимость данных]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

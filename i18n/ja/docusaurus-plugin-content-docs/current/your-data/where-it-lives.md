@@ -2,7 +2,7 @@
 title: 記録の保存先
 description: 記録はPostgres、写真は自分のGoogle Driveに保存されます。オフライン記録を有効にすると、一部の簡単な入力が端末内で待機します。
 keywords: [lifewell offline, google drive storage, where is my data stored, sync, postgres, 記録の保存先]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: "الانتقال من Findmypast إلى LifeWell"
 description: "نقل العائلة التي تعرفها من Findmypast إلى LifeWell، والفروق والاشتراكات. روجعت في 2026-11-26."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

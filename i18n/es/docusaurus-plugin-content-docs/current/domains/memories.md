@@ -2,7 +2,7 @@
 title: Recuerdos
 description: Fotos, álbumes, un cuaderno de recuerdos y las descripciones que les dan sentido, con los archivos guardados en tu propio Google Drive.
 keywords: [recuerdos lifewell, álbum de fotos, cuaderno de recuerdos, fotos google drive]
-tags: [domains, memories]
+topics: [domains, memories]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: iOS
 description: iOS کو 2026-07-16 کو LifeWell سے ہٹا دیا گیا تھا۔ Apple Developer اکاؤنٹ دستیاب ہونے سے پہلے یہ واپس نہیں آئے گا۔
 keywords: [lifewell ios, iphone app, ipad, apple, ios support]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

@@ -2,7 +2,7 @@
 title: ख़रीदारी की सूची
 description: भोजन और रेसिपी से बनी या खुद लिखी सूची, जिसे साधारण पाठ में बाँट सकते हैं ताकि सामान लेने वाले को खाते की ज़रूरत न पड़े।
 keywords: [lifewell ख़रीदारी सूची, भोजन योजना सूची, सूची साझा करें]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

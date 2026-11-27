@@ -2,7 +2,7 @@
 title: 表示設定
 description: 1つのアイコンとパネルから、テーマ、色、角の丸み、密度、文字サイズ、書体、パネルの見た目、動きを変更できます。描画前に適用されます。
 keywords: [lifewell theme, dark mode, appearance settings, accessibility text size, reduced motion, 表示設定]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

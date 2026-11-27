@@ -2,7 +2,7 @@
 title: 推荐计划
 description: 邀请他人注册；注册获得确认后，您会获得积分、徽章，并在达到门槛后获得一个月付费方案。所有数值都由管理员设置，而非写死在代码中。
 keywords: [lifewell 推荐, 邀请朋友, 推荐奖励, 免费一个月]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

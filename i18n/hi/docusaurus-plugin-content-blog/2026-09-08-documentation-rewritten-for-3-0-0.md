@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: दस्तावेज़ ग़लत थे, इसलिए उन्हें फिर लिखा गया
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "LifeWell टीम"
+    title: "LifeWell बनाने और सँभालने वाले लोग"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0 नए बैकएंड पर दोबारा बना है। पुराने दस्तावेज़ ऐसे उत्पाद का वर्णन करते थे जो अब मौजूद नहीं है। हर पेज हटाकर कोड के आधार पर फिर लिखा गया।
 ---
 

@@ -2,7 +2,7 @@
 title: وہ پتے جو نہیں بدلتے
 description: LifeWell کے 99 عوامی پتے اور 15 مستقل ری ڈائریکٹس۔ نئی تعمیر کوڈ بدلتی ہے، پتے نہیں۔
 keywords: [lifewell urls, permanent links, redirects, sitemap, frozen urls]
-tags: [reference, seo]
+topics: [reference, seo]
 sidebar_position: 2
 ---
 

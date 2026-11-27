@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWell помогает хранить в одном месте людей и моменты вашей жизни — семью, друзей, воспоминания и планы, а рядом с ними сведения о самочувствии. Веб и Android, записи под вашим контролем.
 keywords: [LifeWell, спутник жизни, семейное дерево, люди, воспоминания, семья и друзья, приложение Android]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

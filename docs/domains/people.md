@@ -2,7 +2,7 @@
 title: People
 description: Where LifeWell starts — you, the people who matter, and what you know about them. Family and work trees, connections, places, messages, community, professionals and blood donation.
 keywords: [lifewell family tree, work tree, connections, contacts picker, identity card picture, community, chats, professionals directory, blood donors]
-tags: [domains, people]
+topics: [domains, people]
 sidebar_position: 2
 ---
 

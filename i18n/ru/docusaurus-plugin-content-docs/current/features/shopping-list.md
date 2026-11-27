@@ -2,7 +2,7 @@
 title: Список покупок
 description: Составьте список по блюдам и рецептам или вручную. Отправьте его обычным текстом, чтобы человеку в магазине не нужна была учётная запись.
 keywords: [список покупок LifeWell, список из меню, поделиться списком покупок]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

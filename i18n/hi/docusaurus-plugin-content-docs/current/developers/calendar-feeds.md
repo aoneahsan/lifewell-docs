@@ -2,7 +2,7 @@
 title: कैलेंडर फ़ीड
 description: केवल पढ़े जा सकने वाले फ़ीड पते से Google Calendar, Apple Calendar या Outlook में LifeWell कैलेंडर जोड़ें और चाहें तो कभी भी पहुँच बंद करें।
 keywords: [lifewell कैलेंडर फ़ीड, कैलेंडर सदस्यता, ics फ़ीड]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

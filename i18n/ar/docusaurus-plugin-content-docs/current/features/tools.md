@@ -2,7 +2,7 @@
 title: "الأدوات والحاسبات"
 description: "أي الحاسبات تعمل داخل LifeWell وأيها على ZTools، ولماذا يغلب على دليل الأدوات أن يكون مجموعة روابط."
 keywords: [أدوات lifewell, حاسبات صحية, حاسبة مؤشر كتلة الجسم, مؤقت الفترات, نمو الطفل]
-tags: [features, tools]
+topics: [features, tools]
 sidebar_position: 11
 ---
 

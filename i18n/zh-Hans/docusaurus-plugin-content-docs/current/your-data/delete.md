@@ -2,7 +2,7 @@
 title: 删除您的记录
 description: 删除整个账号，或只删除七个领域之一并保留其他内容。了解各项操作会移除什么、特意保留什么，以及目前的实现状态。
 keywords: [删除 lifewell 账号, 删除我的记录, gdpr 删除, 删除账号]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

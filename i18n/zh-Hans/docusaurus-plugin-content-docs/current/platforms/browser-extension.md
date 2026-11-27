@@ -2,7 +2,7 @@
 title: 浏览器扩展程序
 description: LifeWell 的 Chrome 和 Firefox 扩展程序已建成，但尚未在商店发布。了解哪些内容留在浏览器中，以及如何连接账号。
 keywords: [lifewell 扩展程序, 浏览器扩展程序, chrome 扩展程序, 快速记录]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

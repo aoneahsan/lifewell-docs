@@ -2,7 +2,7 @@
 title: लाइसेंस वाली प्रति तैयार करना
 description: भुगतान से अपने नाम पर लाइव LifeWell प्रति तक के चरण—लाइसेंस ईमेल, डोमेन, पहचान और प्रकाशन।
 keywords: [lifewell व्हाइट लेबल सेटअप, व्हाइट लेबल प्रकाशन, निजी डोमेन]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

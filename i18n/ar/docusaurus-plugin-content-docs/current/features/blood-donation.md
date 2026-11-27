@@ -2,7 +2,7 @@
 title: "التبرع بالدم"
 description: "دليل عام للمتبرعين وطلبات تصل إلى المطابقين، وإفصاح عن بيانات الاتصال لشخص واحد مرة واحدة ويمكن سحبه."
 keywords: [دليل المتبرعين بالدم, التبرع بالدم, طلب دم, متبرعو lifewell]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

@@ -2,7 +2,7 @@
 title: iOS
 description: Поддержка iOS удалена из LifeWell 16 июля 2026 г. Она вернётся только после появления аккаунта Apple Developer.
 keywords: [LifeWell iOS, приложение для iPhone, iPad, Apple, поддержка iOS]
-tags: [platforms, ios]
+topics: [platforms, ios]
 sidebar_position: 3
 ---
 

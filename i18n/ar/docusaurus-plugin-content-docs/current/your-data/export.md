@@ -2,7 +2,7 @@
 title: "تصدير كل شيء"
 description: "أخرج سجلك كله من LifeWell بصيغة JSON أو CSV أو PDF. يُنشأ الملف على جهازك، وصيغته موثقة حقلاً حقلاً."
 keywords: [تصدير lifewell, تصدير بيانات الصحة, تنزيل بياناتي, تصدير json csv pdf]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

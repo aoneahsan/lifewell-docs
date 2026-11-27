@@ -2,7 +2,7 @@
 sidebar_position: 12
 title: Passer de Tinybeans à LifeWell
 description: "Comment passer de Tinybeans à LifeWell, ce qui les distingue et ce qu'ils coûtent. Vérifié le 26 novembre 2026."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

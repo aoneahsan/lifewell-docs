@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: LifeWell आपकी ज़िंदगी के लोगों और पलों—परिवार, दोस्त, उनके बारे में आपकी जानकारी, यादें और योजनाएँ—को सेहत व भलाई के साथ एक जगह रखता है। वेब और Android पर, आपके नियंत्रण में।
 keywords: [lifewell, जीवन साथी, परिवार वृक्ष, लोग, यादें, परिवार और दोस्त, android ऐप]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

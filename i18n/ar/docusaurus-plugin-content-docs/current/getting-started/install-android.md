@@ -2,7 +2,7 @@
 title: "تثبيت التطبيق على Android"
 description: "LifeWell على Android نسخة Capacitor من التطبيق نفسه. احصل عليه من Google Play وسجل الدخول باستخدام Google لترى السجل نفسه الذي تقرؤه نسخة الويب."
 keywords: [lifewell android, google play, تطبيق capacitor, تثبيت lifewell android]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

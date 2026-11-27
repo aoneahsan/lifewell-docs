@@ -2,7 +2,7 @@
 title: Кто создаёт LifeWell
 description: LifeWell создаёт и поддерживает команда LifeWell. Она прямо говорит о том, чего продукт пока не умеет.
 keywords: [команда LifeWell, кто создаёт LifeWell, связь с LifeWell, помощь LifeWell]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

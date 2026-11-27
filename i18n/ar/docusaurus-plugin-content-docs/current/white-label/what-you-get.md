@@ -2,7 +2,7 @@
 title: "ما يُسلّم لكل منصة"
 description: "ما الذي يقدمه ترخيص LifeWell بعلامتك على الويب وAndroid وiOS، وما نحتاجه منك لكل منها."
 keywords: [تطبيق ويب lifewell بعلامة خاصة, lifewell android بعلامة خاصة, ios بعلامة خاصة]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

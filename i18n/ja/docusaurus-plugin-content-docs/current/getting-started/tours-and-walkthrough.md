@@ -2,7 +2,7 @@
 title: ページツアーと操作ガイド
 description: LifeWellを知る2つの方法。上部バーから開く短いページツアーと、実際の画面で全体を見せる6画面の操作ガイドです。時間のかかる処理の一覧も説明します。
 keywords: [lifewell tour, lifewell walkthrough, how lifewell works, lifewell onboarding, lifewell jobs, page tour, ページツアー]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

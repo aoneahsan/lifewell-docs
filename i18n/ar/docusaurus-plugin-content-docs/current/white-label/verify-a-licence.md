@@ -2,7 +2,7 @@
 title: "التحقق من ترخيص"
 description: "كيف تتحقق من ترخيص نسخة LifeWell بمفتاحها أو موقعها، وماذا تعني كل إجابة."
 keywords: [التحقق من ترخيص lifewell, فحص ترخيص علامة خاصة, ملف الترخيص]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

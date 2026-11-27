@@ -2,7 +2,7 @@
 title: LifeWell API
 description: LifeWell REST API 的基础地址、默认每页 20 条且最多 50 条的游标分页，以及描述所有路由和字段的 OpenAPI 文件。
 keywords: [lifewell api, lifewell rest api, openapi, api 分页, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

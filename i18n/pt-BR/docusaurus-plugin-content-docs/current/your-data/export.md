@@ -2,7 +2,7 @@
 title: Exportar uma cópia
 description: Exporte um intervalo de datas escolhido em JSON ou CSV, ou crie um resumo em PDF. Cada tabela tem limite de 5.000 linhas por exportação.
 keywords: [exportar LifeWell, exportar dados de saúde, baixar meus dados, exportação json csv pdf]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

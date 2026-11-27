@@ -2,7 +2,7 @@
 title: ظاہری انداز
 description: تھیم، رنگ، گولائی، گنجائش، متن کا سائز، فونٹ، سطح اور حرکت کے لیے ایک ہی پینل۔ پہلی جھلک سے پہلے لاگو ہوتا ہے۔
 keywords: [LifeWell ظاہری انداز, ڈارک موڈ, متن کا سائز, کم حرکت]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

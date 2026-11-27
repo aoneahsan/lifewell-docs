@@ -2,7 +2,7 @@
 title: سات شعبے
 description: LifeWell میں آپ کے گرد سات شعبے ہیں؛ پہلے لوگ، پھر یادیں، روزمرہ زندگی اور اشتراک، اور ان کے گرد صحت، ذہن اور زندگی کے مراحل۔ چھ کو کچھ حذف کیے بغیر بند کیا جا سکتا ہے؛ اشتراک کو نہیں۔
 keywords: [lifewell domains, life areas, switch off a domain, lifewell navigation, lifewell sharing]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

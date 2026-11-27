@@ -2,7 +2,7 @@
 title: Vérifier une licence
 description: Vérifiez qu’une copie LifeWell possède une licence avec sa clé ou son site Web, et comprenez chaque réponse.
 keywords: [vérifier licence LifeWell, vérifier licence marque blanche, fichier de licence]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

@@ -2,7 +2,7 @@
 title: Las siete áreas
 description: "LifeWell organiza siete áreas alrededor de ti: primero personas, después recuerdos, vida diaria y compartir; a su alrededor, salud, mente y etapas de la vida. Puedes ocultar seis sin borrar datos. Compartir permanece visible."
 keywords: [áreas de lifewell, áreas de la vida, desactivar un área, navegación de lifewell, compartir en lifewell]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

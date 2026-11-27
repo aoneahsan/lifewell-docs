@@ -2,7 +2,7 @@
 title: "الترخيص بعلامتك الخاصة"
 description: "ما هو ترخيص LifeWell بعلامتك، ولمن يناسب، وما الذي نشغله لك، وكيف يختلف عن شراء الشيفرة المصدرية بالكامل."
 keywords: [lifewell بعلامة خاصة, ترخيص علامة خاصة, ترخيص lifewell, شراء lifewell]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 1
 last_update:
   date: 2026-11-14

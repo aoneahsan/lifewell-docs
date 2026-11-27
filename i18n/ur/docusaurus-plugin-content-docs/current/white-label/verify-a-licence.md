@@ -2,7 +2,7 @@
 title: لائسنس کی تصدیق
 description: لائسنس کلید یا ویب سائٹ سے یہ کیسے جانچیں کہ LifeWell کی کاپی لائسنس یافتہ ہے، اور ہر جواب کا کیا مطلب ہے۔
 keywords: [verify lifewell licence, check white-label licence, licence file]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

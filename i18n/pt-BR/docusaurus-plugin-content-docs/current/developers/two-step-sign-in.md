@@ -2,7 +2,7 @@
 title: Autenticação em duas etapas
 description: Ative a autenticação em duas etapas com um aplicativo autenticador, guarde os códigos de recuperação e escolha se o navegador será lembrado por sete dias.
 keywords: [autenticação em duas etapas LifeWell, autenticação de dois fatores, aplicativo autenticador, códigos de recuperação]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

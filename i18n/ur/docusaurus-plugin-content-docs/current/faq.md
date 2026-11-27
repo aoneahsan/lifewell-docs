@@ -2,7 +2,7 @@
 title: عام سوالات
 description: "زندگی کا ریکارڈ ایپ میں رکھنے سے پہلے پوچھے جانے والے سوالات کے جواب: قیمت، رازداری، نقل نکالنا، آف لائن استعمال، اور LifeWell کیا نہیں کرتا۔"
 keywords: [lifewell faq, is lifewell free, lifewell privacy questions, export data, delete account, family seats, contacts permission, favourites]
-tags: [faq]
+topics: [faq]
 sidebar_position: 10
 ---
 

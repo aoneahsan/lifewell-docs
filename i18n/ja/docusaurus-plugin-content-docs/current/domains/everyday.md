@@ -2,7 +2,7 @@
 title: 日々のこと
 description: カレンダー、予定、メモ、保存した場所、リマインダー、買い物リスト。ほかの出来事を支える普段の1週間です。
 keywords: [lifewell calendar, appointments, notes app, reminders, shopping list, 日々の記録]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

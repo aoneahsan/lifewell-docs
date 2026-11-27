@@ -2,7 +2,7 @@
 sidebar_position: 28
 title: Apple Health سے LifeWell کی طرف
 description: "Apple Health سے LifeWell پر آنے کا طریقہ، دونوں میں فرق اور قیمتیں۔ 2026-11-26 کو جانچ کی گئی۔"
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell کی ٹیم

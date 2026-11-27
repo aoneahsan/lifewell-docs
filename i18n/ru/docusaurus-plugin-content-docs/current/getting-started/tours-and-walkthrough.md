@@ -2,7 +2,7 @@
 title: Экскурсия по странице и знакомство с приложением
 description: Два способа узнать LifeWell — короткая экскурсия по текущей странице и шесть экранов со снимками приложения. Длительные задачи видны в списке заданий.
 keywords: [экскурсия LifeWell, знакомство с LifeWell, как работает LifeWell, первые шаги, задания LifeWell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

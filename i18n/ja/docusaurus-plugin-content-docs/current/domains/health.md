@@ -2,7 +2,7 @@
 title: 健康
 description: 測定、薬、食事、運動、症状は、大切な人の周りにある1つの領域です。必要なら使えますが、LifeWellの中心ではありません。
 keywords: [lifewell health, health tracking, medication tracker, symptom tracker, vitals, 健康の記録]
-tags: [domains, health]
+topics: [domains, health]
 sidebar_position: 6
 ---
 

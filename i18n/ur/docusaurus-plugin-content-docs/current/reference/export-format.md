@@ -2,7 +2,7 @@
 title: برآمد شدہ فائل کی ساخت
 description: "LifeWell کی برآمد شدہ فائل میں کیا ہوتا ہے: JSON کا ابتدائی حصہ، CSV آرکائیو، PDF میں چھوڑی گئی معلومات اور وہ چیزیں جو کسی شکل میں شامل نہیں ہوتیں۔"
 keywords: [lifewell export format, json export schema, csv export, import lifewell data, data portability]
-tags: [reference, export, your-data]
+topics: [reference, export, your-data]
 sidebar_position: 1
 ---
 

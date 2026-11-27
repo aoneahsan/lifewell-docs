@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: دستاویزات غلط تھیں، اس لیے دوبارہ لکھی گئیں
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "LifeWell کی ٹیم"
+    title: "LifeWell بنانے اور برقرار رکھنے والے لوگ"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0 نئے بنیادی نظام پر دوبارہ بنایا گیا، جبکہ پرانی دستاویزات ایسی ایپ بیان کرتی تھیں جو اب موجود نہیں۔ تمام صفحات ہٹا کر کوڈ کے مطابق دوبارہ لکھے گئے۔
 ---
 

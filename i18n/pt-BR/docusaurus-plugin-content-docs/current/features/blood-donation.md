@@ -2,7 +2,7 @@
 title: Doação de sangue
 description: Um diretório público de doadores, pedidos dirigidos a pessoas compatíveis e um contato revelado uma vez a uma pessoa, que pode ser retirado.
 keywords: [diretório de doadores de sangue, doação de sangue, pedido de sangue, doadores lifewell]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

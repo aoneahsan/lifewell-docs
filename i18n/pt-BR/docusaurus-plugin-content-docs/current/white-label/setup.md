@@ -2,7 +2,7 @@
 title: Preparar uma versão licenciada
 description: As etapas do pagamento até uma versão ativa do LifeWell sob seu nome — e-mail da licença, domínio, identidade visual e publicação.
 keywords: [configurar marca própria lifewell, publicar versão licenciada, domínio personalizado]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

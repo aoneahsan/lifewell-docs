@@ -2,7 +2,7 @@
 title: Connexion en deux étapes
 description: Activez un code d’application d’authentification pour LifeWell, conservez vos codes de secours et choisissez si un navigateur peut être reconnu pendant sept jours.
 keywords: [LifeWell connexion en deux étapes, authentification à deux facteurs, application d’authentification, codes de secours]
-tags: [developers, security]
+topics: [developers, security]
 sidebar_position: 7
 last_update:
   date: 2026-11-19

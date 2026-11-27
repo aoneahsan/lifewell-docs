@@ -2,7 +2,7 @@
 title: Verify a licence
 description: How to check that a copy of LifeWell is licensed, by its licence key or by its website, and what each answer means.
 keywords: [verify lifewell licence, check white-label licence, licence file]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

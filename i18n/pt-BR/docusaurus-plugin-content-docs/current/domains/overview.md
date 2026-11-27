@@ -2,7 +2,7 @@
 title: As sete áreas
 description: O LifeWell organiza sua vida em sete áreas ao redor de Você. Seis podem ser desativadas sem excluir dados; Compartilhamento precisa continuar visível.
 keywords: [áreas LifeWell, áreas da vida, desativar uma área, navegação LifeWell, compartilhamento LifeWell]
-tags: [concepts, domains]
+topics: [concepts, domains]
 sidebar_position: 1
 ---
 

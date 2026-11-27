@@ -1,8 +1,12 @@
 ---
 slug: documentation-rewritten-for-3-0-0
 title: 文档写错了，所以我们重写了它
-authors: [ahsan]
-tags: [announcement, lifewell, docs, release]
+authors:
+  - name: "LifeWell 团队"
+    title: "开发和维护 LifeWell 的团队"
+    url: https://lifewell.aoneahsan.com
+    image_url: /img/logo.svg
+topics: [announcement, lifewell, docs, release]
 description: LifeWell 3.0.0 基于新的后端重建，旧文档描述的已不再是现有产品。我们删除了每个页面，并对照代码重新撰写。
 ---
 

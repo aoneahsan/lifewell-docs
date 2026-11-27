@@ -2,7 +2,7 @@
 title: रूप-रंग
 description: थीम, रंग, कोने, घनत्व, अक्षरों का आकार, फ़ॉन्ट, पैनल की शैली और गति के लिए एक आइकन और एक पैनल; पेज दिखने से पहले लागू होते हैं।
 keywords: [lifewell थीम, डार्क मोड, रूप-रंग सेटिंग, अक्षर आकार]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

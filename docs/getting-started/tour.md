@@ -2,7 +2,7 @@
 title: A short tour
 description: The dashboard, the menu, the top bar and the one control that changes how LifeWell looks — where things are before you go looking for them.
 keywords: [lifewell tour, lifewell dashboard, lifewell navigation]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

@@ -2,7 +2,7 @@
 title: روزمرہ زندگی
 description: کیلنڈر، ملاقاتیں، نوٹس، محفوظ جگہیں، یاد دہانیاں اور خریداری کی فہرست — عام ہفتہ جو باقی زندگی کو ساتھ رکھتا ہے۔
 keywords: [lifewell calendar, appointments, notes app, reminders, shopping list]
-tags: [domains, everyday]
+topics: [domains, everyday]
 sidebar_position: 4
 ---
 

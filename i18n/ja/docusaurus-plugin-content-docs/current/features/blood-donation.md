@@ -2,7 +2,7 @@
 title: 献血
 description: 公開された献血者一覧、相手に届く依頼、1人に1度だけ渡せて取り消せる連絡先の開示を説明します。
 keywords: [blood donor directory, blood donation, blood request, lifewell blood donors, 献血]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

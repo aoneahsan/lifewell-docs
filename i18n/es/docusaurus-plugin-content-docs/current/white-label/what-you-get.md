@@ -2,7 +2,7 @@
 title: Qué se entrega en cada plataforma
 description: Qué incluye una licencia de marca blanca de LifeWell para la web, Android e iOS, y qué necesitamos de ti para cada plataforma.
 keywords: [lifewell marca blanca web, lifewell marca blanca android, marca blanca ios]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

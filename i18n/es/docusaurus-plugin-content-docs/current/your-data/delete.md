@@ -2,7 +2,7 @@
 title: Eliminar tus datos
 description: Elimina toda tu cuenta o una de las siete áreas y conserva las demás. Qué elimina cada opción, qué conserva deliberadamente y cuál funciona hoy.
 keywords: [eliminar cuenta de lifewell, eliminar mis datos, eliminación según rgpd, eliminar cuenta]
-tags: [your-data, privacy]
+topics: [your-data, privacy]
 sidebar_position: 2
 ---
 

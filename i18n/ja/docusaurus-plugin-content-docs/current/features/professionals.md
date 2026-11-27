@@ -2,7 +2,7 @@
 title: 専門職の一覧
 description: 自分で掲載した専門職の一覧です。LifeWellは資格を確認していません。登録番号と登録簿へのリンクから自分で調べられます。
 keywords: [lifewell professionals, practitioner directory, professional register, consultation, 専門職]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 5
 ---
 

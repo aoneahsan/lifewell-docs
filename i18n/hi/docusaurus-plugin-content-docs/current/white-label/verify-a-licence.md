@@ -2,7 +2,7 @@
 title: लाइसेंस जाँचें
 description: LifeWell की किसी प्रति का लाइसेंस उसकी कुंजी या वेबसाइट से कैसे जाँचें और हर नतीजे का क्या अर्थ है।
 keywords: [lifewell लाइसेंस जाँच, व्हाइट लेबल लाइसेंस, लाइसेंस फ़ाइल]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

@@ -2,7 +2,7 @@
 title: Где хранятся ваши записи
 description: Записи хранятся в базе Postgres, фотографии — в вашем Google Drive, а отдельные быстрые записи при разрешённой работе без связи временно остаются на устройстве.
 keywords: [LifeWell без связи, хранение Google Drive, где хранятся данные, синхронизация, Postgres]
-tags: [your-data, privacy, concepts]
+topics: [your-data, privacy, concepts]
 sidebar_position: 3
 ---
 

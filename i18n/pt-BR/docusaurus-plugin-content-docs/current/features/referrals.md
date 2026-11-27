@@ -2,7 +2,7 @@
 title: Programa de indicações
 description: "Convide alguém: um cadastro confirmado rende pontos, um distintivo e, após um limite, um mês de plano pago. Cada número é uma configuração administrativa."
 keywords: [indicação lifewell, convidar amigo, recompensa por indicação, mês de plano]
-tags: [features, plans]
+topics: [features, plans]
 sidebar_position: 8
 ---
 

@@ -2,7 +2,7 @@
 title: Painel administrativo
 description: Dez telas, três funções, um histórico de auditoria que ninguém altera diretamente e controles para mudar limites de planos e indicações sem lançar uma nova versão.
 keywords: [administração LifeWell, painel administrativo, administração da plataforma, auditoria, moderação, contas]
-tags: [admin]
+topics: [admin]
 sidebar_position: 9
 ---
 

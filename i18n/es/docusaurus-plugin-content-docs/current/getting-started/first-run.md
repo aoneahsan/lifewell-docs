@@ -2,7 +2,7 @@
 title: El primer uso
 description: "Lo que LifeWell pregunta la primera vez que inicias sesión: cinco pasos breves, casi todos opcionales, y lo que cambia cada respuesta."
 keywords: [primeros pasos lifewell, configuración inicial, primera vez lifewell]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 3
 ---
 

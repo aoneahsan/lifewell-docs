@@ -2,7 +2,7 @@
 title: Модель данных
 description: "Как LifeWell хранит записи о жизни: одна таблица для каждой идеи, одно хранилище для всех показателей и три решения, которые определяют работу остальных разделов."
 keywords: [модель данных LifeWell, схема Postgres, записи показателей, данные отслеживания, устройство базы данных]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

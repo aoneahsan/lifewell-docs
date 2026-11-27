@@ -2,7 +2,7 @@
 title: プライバシーとセキュリティ
 description: 端末から出る情報と出ない情報を説明します。パスワード不要のログイン、行単位の規則、分析情報の除去、連絡先権限、身分証の写真、LifeWellがしない主張を含みます。
 keywords: [lifewell privacy, health data privacy, row level security, analytics scrubbing, data security, contacts permission, family seats, プライバシー]
-tags: [concepts, privacy]
+topics: [concepts, privacy]
 sidebar_position: 3
 ---
 

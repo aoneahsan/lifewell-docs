@@ -2,7 +2,7 @@
 title: "نموذج البيانات"
 description: "كيف يحفظ LifeWell تفاصيل الحياة: جدول لكل فكرة، ومخزن واحد وراء كل متتبع، وثلاثة قرارات تشكل ما فوقها."
 keywords: [نموذج بيانات lifewell, مخطط postgres, إدخالات القياس, بيانات المتتبعات, تصميم قاعدة البيانات]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

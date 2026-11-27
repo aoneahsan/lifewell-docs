@@ -2,7 +2,7 @@
 title: Android पर इंस्टॉल करें
 description: Android पर LifeWell उसी ऐप का Capacitor बिल्ड है। Google Play से पाएँ, Google से साइन इन करें और वेब वाला ही रिकॉर्ड पढ़ें।
 keywords: [lifewell android, google play, capacitor ऐप, android पर इंस्टॉल]
-tags: [getting-started, android]
+topics: [getting-started, android]
 sidebar_position: 2
 ---
 

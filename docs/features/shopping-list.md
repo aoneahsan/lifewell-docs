@@ -2,7 +2,7 @@
 title: The shopping list
 description: A list built from your meals and recipes or written by hand, and shared as plain text so the person doing the shop needs no account.
 keywords: [lifewell shopping list, meal planner shopping list, share shopping list]
-tags: [features, everyday, health]
+topics: [features, everyday, health]
 sidebar_position: 9
 ---
 

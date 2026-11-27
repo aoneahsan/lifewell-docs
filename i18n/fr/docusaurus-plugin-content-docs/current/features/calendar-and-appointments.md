@@ -2,7 +2,7 @@
 title: Calendrier et rendez-vous
 description: Un calendrier pour la semaine ordinaire comme pour la semaine médicale, avec une liste de questions sur chaque rendez-vous.
 keywords: [calendrier LifeWell, suivi des rendez-vous, questions pour un rendez-vous médical]
-tags: [features, everyday]
+topics: [features, everyday]
 sidebar_position: 1
 ---
 

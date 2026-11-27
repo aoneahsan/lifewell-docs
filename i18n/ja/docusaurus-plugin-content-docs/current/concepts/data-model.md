@@ -2,7 +2,7 @@
 title: データモデル
 description: LifeWellは考え方ごとに1つのテーブルを使い、すべての記録画面を同じ保存先に結び付けます。その土台となる3つの判断を説明します。
 keywords: [lifewell data model, postgres schema, metric entries, tracker data, database design, データモデル]
-tags: [concepts, architecture]
+topics: [concepts, architecture]
 sidebar_position: 2
 ---
 

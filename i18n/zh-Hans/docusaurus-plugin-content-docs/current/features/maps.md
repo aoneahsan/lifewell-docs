@@ -2,7 +2,7 @@
 title: 地图与地点
 description: 查看回忆、笔记、人物、事件与您保存的地点名称之间的联系；位置历史是一项单独的自选功能。
 keywords: [lifewell 地图, 回忆地图, 收藏地点, 位置历史, 地点记录]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

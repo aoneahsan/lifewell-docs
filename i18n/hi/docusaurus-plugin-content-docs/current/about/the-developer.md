@@ -2,7 +2,7 @@
 title: LifeWell कौन बनाता है
 description: LifeWell टीम ऐप बनाती और सँभालती है और साफ़ बताती है कि उत्पाद क्या नहीं कर सकता।
 keywords: [lifewell टीम, lifewell संपर्क, lifewell सहायता]
-tags: [about]
+topics: [about]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: Webhooks
 description: Les webhooks LifeWell avertissent votre serveur dès qu’un élément du dossier change. Ils sont signés selon Standard Webhooks et réessayés pendant un peu plus d’un jour, avec des exemples pour Node, Python et PHP.
 keywords: [webhooks LifeWell, Standard Webhooks, vérification de signature, nouvelles tentatives]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

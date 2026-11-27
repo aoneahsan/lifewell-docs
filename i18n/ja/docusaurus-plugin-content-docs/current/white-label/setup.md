@@ -2,7 +2,7 @@
 title: ライセンス版を設定する
 description: 支払いから組織名での公開まで。ライセンスメール、ドメイン、ブランド表示、公開の順序を説明します。
 keywords: [lifewell white-label setup, white-label deployment, custom domain, ライセンス版の設定]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-14

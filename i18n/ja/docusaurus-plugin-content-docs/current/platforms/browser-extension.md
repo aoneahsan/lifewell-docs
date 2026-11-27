@@ -2,7 +2,7 @@
 title: ブラウザー拡張機能
 description: LifeWellのChromeとFirefox向け補助機能は完成していますが、どちらのストアでも未公開です。ブラウザー内に残る情報とアカウント接続方法を説明します。
 keywords: [lifewell extension, browser extension, chrome extension, quick tracking, ブラウザー拡張機能]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

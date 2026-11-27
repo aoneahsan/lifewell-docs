@@ -2,7 +2,7 @@
 title: Questions sur la marque blanche
 description: Réponses sur le code source, l’exclusivité, iOS, les mises à jour et les éléments nécessaires avant de prendre une licence LifeWell.
 keywords: [questions LifeWell marque blanche, licence marque blanche]
-tags: [white-label, faq]
+topics: [white-label, faq]
 sidebar_position: 6
 last_update:
   date: 2026-11-14

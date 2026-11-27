@@ -2,7 +2,7 @@
 title: کمیونٹی اور گفتگو
 description: تحریروں اور جوابوں والے گروپ، جڑے ہوئے اکاؤنٹس کے درمیان پیغامات، بلاک کرنے کا اختیار، اور شکایت کا ایسا راستہ جو لکھنے والے کو شکایت کنندہ کا نام نہیں بتاتا۔
 keywords: [lifewell community, health forum, group chat, messaging, blocking, moderation]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 4
 ---
 

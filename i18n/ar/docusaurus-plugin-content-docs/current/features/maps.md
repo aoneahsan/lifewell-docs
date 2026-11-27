@@ -2,7 +2,7 @@
 title: "الخرائط والأماكن"
 description: تتبّع الروابط بين الذكريات والملاحظات والأشخاص والأحداث وأسماء الأماكن التي حفظتها. سجل المواقع خيار منفصل.
 keywords: [خرائط lifewell, خريطة الذكريات, الأماكن المحفوظة, سجل المواقع]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

@@ -2,7 +2,7 @@
 title: つながりと場所
 description: 思い出、メモ、人、予定、保存した場所のつながりをたどれます。位置履歴は別に同意を選ぶ機能です。
 keywords: [lifewell maps, memory map, saved places, location history, place tracking, 場所]
-tags: [features, people, memories]
+topics: [features, people, memories]
 sidebar_position: 10
 ---
 

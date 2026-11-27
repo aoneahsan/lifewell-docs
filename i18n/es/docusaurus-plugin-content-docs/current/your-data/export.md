@@ -2,7 +2,7 @@
 title: Exportar todos tus datos
 description: Obtén una copia completa de tus datos de LifeWell en JSON, CSV o PDF. El archivo se crea en tu dispositivo y los formatos están documentados campo por campo.
 keywords: [exportar datos de lifewell, exportar datos de salud, descargar mis datos, exportación json csv pdf]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

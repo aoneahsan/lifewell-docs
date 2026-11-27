@@ -2,7 +2,7 @@
 title: LifeWell API
 description: LifeWell REST API کا بنیادی پتہ، فہرستوں میں بنیادی طور پر 20 اور زیادہ سے زیادہ 50 قطاریں، اور ہر راستہ اور خانہ بیان کرنے والی OpenAPI فائل۔
 keywords: [lifewell api, lifewell rest api, openapi, api pagination, next_cursor]
-tags: [developers, api, reference]
+topics: [developers, api, reference]
 sidebar_position: 3
 last_update:
   date: 2026-11-19

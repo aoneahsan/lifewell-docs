@@ -2,7 +2,7 @@
 title: 分享
 description: 唯一没有关闭开关的领域。了解链接能包含什么、给谁看、对方会看到什么、如何结束分享，以及哪些内容绝不会离开您的记录。
 keywords: [lifewell 分享, 分享家谱, 分享用药信息, 分享记录图表, 只读链接, 伴侣分享, 分享控制]
-tags: [domains, sharing]
+topics: [domains, sharing]
 sidebar_position: 5
 ---
 

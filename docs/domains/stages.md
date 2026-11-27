@@ -2,7 +2,7 @@
 title: Life stages
 description: Cycle, trying to conceive, ovulation, PCOS, menopause, pregnancy and a child's early years — the six screens one profile answer decides you see.
 keywords: [lifewell cycle tracking, period tracker, fertility, menopause, baby tracker, growth chart]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

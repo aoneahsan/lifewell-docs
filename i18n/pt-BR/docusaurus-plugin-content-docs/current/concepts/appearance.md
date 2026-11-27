@@ -2,7 +2,7 @@
 title: Aparência
 description: Um ícone e um painel para tema, cores, cantos, densidade, tamanho do texto, fonte, superfícies e movimento. As escolhas são aplicadas antes de a página aparecer.
 keywords: [tema LifeWell, modo escuro, opções de aparência, tamanho do texto, movimento reduzido]
-tags: [concepts, appearance]
+topics: [concepts, appearance]
 sidebar_position: 5
 ---
 

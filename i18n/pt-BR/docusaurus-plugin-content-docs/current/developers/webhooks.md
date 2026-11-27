@@ -2,7 +2,7 @@
 title: Webhooks
 description: Webhooks do LifeWell avisam seu servidor quando seus registros mudam. São assinados conforme Standard Webhooks, repetidos por pouco mais de um dia e incluem exemplos para Node, Python e PHP.
 keywords: [webhooks LifeWell, standard webhooks, verificar assinatura webhook, novas tentativas webhook]
-tags: [developers, webhooks]
+topics: [developers, webhooks]
 sidebar_position: 5
 last_update:
   date: 2026-11-19

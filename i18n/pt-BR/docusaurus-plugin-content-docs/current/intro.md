@@ -3,7 +3,7 @@ id: intro
 title: LifeWell
 description: O LifeWell reúne as pessoas e os momentos da sua vida — família, amigos, o que você sabe sobre eles, suas memórias e seus planos, com o bem-estar ao redor. Na web e no Android, sob seu controle.
 keywords: [lifewell, aplicativo para a vida, árvore genealógica, pessoas, memórias, família e amigos, aplicativo android]
-tags: [overview, getting-started]
+topics: [overview, getting-started]
 slug: /intro
 sidebar_position: 1
 ---

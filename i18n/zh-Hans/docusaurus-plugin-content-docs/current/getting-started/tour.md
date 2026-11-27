@@ -2,7 +2,7 @@
 title: 简短导览
 description: 先认识首页、菜单、顶部栏，以及改变 LifeWell 外观的设置入口，等需要时就知道从哪里找起。
 keywords: [lifewell 导览, lifewell 首页, lifewell 导航]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 4
 ---
 

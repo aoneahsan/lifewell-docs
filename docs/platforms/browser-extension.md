@@ -2,7 +2,7 @@
 title: Browser extension
 description: The LifeWell Chrome and Firefox companion is built, but it is not yet published in either store. Read what it keeps in your browser and how account connection works.
 keywords: [lifewell extension, browser extension, chrome extension, quick tracking]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

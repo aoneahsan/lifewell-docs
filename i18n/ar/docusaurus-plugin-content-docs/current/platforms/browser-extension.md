@@ -2,7 +2,7 @@
 title: "إضافة المتصفح"
 description: "بُني رفيق LifeWell لمتصفحي Chrome وFirefox، لكنه لم يُنشر في أي من المتجرين بعد. تعرف إلى ما يحفظه في المتصفح وكيف تربط الحساب."
 keywords: [إضافة lifewell, إضافة المتصفح, إضافة chrome, تتبع سريع]
-tags: [platforms, extension]
+topics: [platforms, extension]
 sidebar_position: 4
 ---
 

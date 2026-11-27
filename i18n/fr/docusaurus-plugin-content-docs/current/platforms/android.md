@@ -2,7 +2,7 @@
 title: Android
 description: "LifeWell sur Android : Android 9 au minimum, autorisations, rappels locaux, mises à jour signées et fonctions en attente d’une publication sur Google Play."
 keywords: [LifeWell Android, autorisations Android, accès aux contacts, minSdk 28, Capacitor Android, Google Play]
-tags: [platforms, android]
+topics: [platforms, android]
 sidebar_position: 2
 ---
 

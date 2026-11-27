@@ -2,7 +2,7 @@
 title: El recorrido por la página y la guía de la aplicación
 description: Dos maneras de conocer LifeWell — un recorrido breve desde el botón de señal en la barra superior y Cómo funciona LifeWell, seis pantallas con capturas reales. Además, la lista de Trabajos para tareas largas.
 keywords: [recorrido lifewell, guía lifewell, cómo funciona lifewell, primeros pasos, trabajos]
-tags: [getting-started]
+topics: [getting-started]
 sidebar_position: 5
 ---
 

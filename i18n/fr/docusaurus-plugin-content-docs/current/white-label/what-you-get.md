@@ -2,7 +2,7 @@
 title: Ce qui est livré sur chaque plateforme
 description: Ce qu’une licence LifeWell en marque blanche fournit sur le Web, Android et iOS, et ce dont nous avons besoin pour chaque plateforme.
 keywords: [LifeWell Web marque blanche, LifeWell Android marque blanche, iOS marque blanche]
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

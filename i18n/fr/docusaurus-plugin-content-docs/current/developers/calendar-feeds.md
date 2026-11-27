@@ -2,7 +2,7 @@
 title: Flux de calendrier
 description: Abonnez Google Calendar, Apple Calendar ou Outlook à votre calendrier LifeWell avec une adresse en lecture seule, révocable à tout moment.
 keywords: [flux calendrier LifeWell, abonnement calendrier LifeWell, flux ics, abonnement Google Calendar]
-tags: [developers, calendar]
+topics: [developers, calendar]
 sidebar_position: 6
 last_update:
   date: 2026-11-19

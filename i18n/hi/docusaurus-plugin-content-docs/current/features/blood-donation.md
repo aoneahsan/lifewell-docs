@@ -2,7 +2,7 @@
 title: रक्तदान
 description: दाताओं की सार्वजनिक सूची, उन तक पहुँचने वाले अनुरोध और एक व्यक्ति को एक बार दी जाने वाली संपर्क जानकारी जिसे वापस लिया जा सकता है।
 keywords: [रक्तदाता सूची, रक्तदान, रक्त अनुरोध, lifewell रक्तदाता]
-tags: [features, people]
+topics: [features, people]
 sidebar_position: 6
 ---
 

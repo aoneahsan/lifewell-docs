@@ -2,7 +2,7 @@
 title: Язык и единицы измерения
 description: LifeWell доступен на десяти языках в приложении, документации и расширении браузера. Единицы измерения выбираются отдельно от языка.
 keywords: [язык LifeWell, перевод, i18n, метрические и имперские единицы, en-GB]
-tags: [concepts, i18n, accessibility]
+topics: [concepts, i18n, accessibility]
 sidebar_position: 6
 ---
 

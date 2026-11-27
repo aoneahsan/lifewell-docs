@@ -2,7 +2,7 @@
 title: Exporter une copie
 description: Exportez une période choisie en JSON ou en CSV, ou créez un résumé PDF. Chaque table est limitée à 5 000 lignes par export.
 keywords: [export LifeWell, exporter mes informations, télécharger mes données, export JSON CSV PDF]
-tags: [your-data, export]
+topics: [your-data, export]
 sidebar_position: 1
 ---
 

@@ -2,7 +2,7 @@
 title: Plans
 description: Free, Pro and Family — what each one includes, how Family seats work, how the free tier is drawn, and the two ways to pay. Prices in US dollars, monthly or yearly.
 keywords: [lifewell plans, lifewell pricing, free plan, pro plan, family plan, family seats, google play billing]
-tags: [plans, account]
+topics: [plans, account]
 sidebar_position: 8
 ---
 

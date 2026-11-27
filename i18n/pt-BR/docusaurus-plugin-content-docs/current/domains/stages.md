@@ -2,7 +2,7 @@
 title: Fases da vida
 description: Ciclo, tentativa de engravidar, ovulação, SOP, menopausa, gravidez e os primeiros anos de uma criança — seis telas cuja presença no menu depende de uma resposta do perfil.
 keywords: [acompanhar ciclo LifeWell, menstruação, fertilidade, menopausa, acompanhamento de bebê, gráfico de crescimento]
-tags: [domains, stages]
+topics: [domains, stages]
 sidebar_position: 8
 ---
 

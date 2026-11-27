@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Переход с FamilySearch на LifeWell
 description: "Как перейти с FamilySearch на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г."
-tags: [comparison]
+topics: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell
