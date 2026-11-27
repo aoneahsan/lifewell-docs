@@ -34,9 +34,11 @@ const isRedirectPage = (html: string): boolean => /http-equiv=["']?refresh/i.tes
  *
  * @param html - the page's HTML
  * @param file - its path relative to the locale's output folder
+ * @param siteUrl - the site origin; a canonical on another origin (a page sharing a sister site's words) keeps
+ *   that site's URL form, so only same-origin canonicals must be slashed
  * @returns the problems found, empty when the page passes
  */
-export function pageProblems(html: string, file: string): string[] {
+export function pageProblems(html: string, file: string, siteUrl: string): string[] {
   if (PAGE_EXCEPTIONS.has(file) || isRedirectPage(html)) return [];
   const problems: string[] = [];
   const titles = count(html, /<title[\s>]/g);
@@ -46,7 +48,7 @@ export function pageProblems(html: string, file: string): string[] {
   if (descriptions !== 1) problems.push(`${descriptions} meta descriptions`);
   if (canonicals.length !== 1) problems.push(`${canonicals.length} canonicals`);
   const href = /href=["']?([^"'\s>]+)/.exec(canonicals[0]?.[0] ?? '')?.[1] ?? '';
-  if (canonicals.length === 1 && !href.endsWith('/')) problems.push(`canonical ${href} is not in the slashed form`);
+  if (canonicals.length === 1 && href.startsWith(siteUrl) && !href.endsWith('/')) problems.push(`canonical ${href} is not in the slashed form`);
   if (/<meta[^>]+name=["']?robots["']?[^>]+noindex/i.test(html)) problems.push('noindex on a public page');
   for (const [, json] of html.matchAll(/<script[^>]+application\/ld\+json[^>]*>([\s\S]*?)<\/script>/g)) {
     try {
@@ -90,7 +92,7 @@ export function checkLocale({outDir, prefix, siteUrl, redirects, skip}: {
     if (!relative.endsWith('index.html') && !PAGE_EXCEPTIONS.has(relative)) {
       problems.push(`${relative}: a page outside <route>/index.html is a 404 for its slashed address`);
     }
-    problems.push(...pageProblems(readFileSync(path.join(outDir, file), 'utf8'), relative));
+    problems.push(...pageProblems(readFileSync(path.join(outDir, file), 'utf8'), relative, siteUrl));
   }
   const sitemap = path.join(outDir, 'sitemap.xml');
   if (existsSync(sitemap)) {
@@ -119,7 +121,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const problems: string[] = [];
   if (!/^\s*trailingSlash: true,/m.test(config)) problems.push('trailingSlash must be true: GitHub Pages 404s the slashed form otherwise');
   const buildDir = path.join(siteDir, 'build');
-  const locales = readdirSync(path.join(siteDir, 'i18n')).filter((locale) => locale !== 'en');
+  const i18nDir = path.join(siteDir, 'i18n');
+  const locales = existsSync(i18nDir) ? readdirSync(i18nDir).filter((locale) => locale !== 'en') : [];
   const builtLocales = locales.filter((locale) => existsSync(path.join(buildDir, locale, 'index.html')));
   const redirects = seoRedirects(siteDir);
   const skip = new Set(locales);
