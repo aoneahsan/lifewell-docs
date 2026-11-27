@@ -4,9 +4,15 @@ Fixed path in every repo (`aoneahsan-cccs-search-issue-remediation`). Newest fir
 `docusaurus.config.ts` and skipped by `plugins/i18n-gate.ts`. The audit session retests with the commands under
 **Retest**.
 
-## aoneahsan/lifewell-docs#1 — indexing + AEO fix list · 2026-11-27 · commit `<pending>`
+## aoneahsan/lifewell-docs#1 — indexing + AEO fix list · 2026-11-27 · commit `307cab5` (gh-pages `7e10eafb`)
 
-Status: built and contract-checked locally; deploy and live proof pending in this entry until the commit lands.
+Status: live-verified, google-pending. Built in all 10 locales with zero warnings; `yarn seo:contract` passes in all
+10 and failed on planted defects (a second description, a noindex, a deleted redirect page). Rendered at 1440 and 390,
+`/sitemap` topic chips present in en and fr. Published to `gh-pages` 2026-11-27; IndexNow 200.
+
+Live proof, 2026-11-27: every old URL in the table → 301 to its slashed form, whose page carries
+`http-equiv="refresh" content="0; url=<new home>/"` (for example `/docs/tools/interval-timer/` → `/features/tools/`);
+`/compare` → 301 `/compare/` → 200; `sitemap.xml` has 0 unslashed page URLs.
 
 | Box | SA | What was wrong (evidence) | Root fix (file) | Contract | Live proof |
 |---|---|---|---|---|---|
