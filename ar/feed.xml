@@ -3,7 +3,7 @@
     <channel>
         <atom:link href="https://lifewell-docs.aoneahsan.com/ar/feed.xml" rel="self" type="application/rss+xml"/>
         <title>LifeWell · المدونة</title>
-        <link>https://lifewell-docs.aoneahsan.com/ar/blog</link>
+        <link>https://lifewell-docs.aoneahsan.com/ar/blog/</link>
         <description>تحديثات وملاحظات إصدار من فريق LifeWell: ما تغير في التطبيق، ولماذا.</description>
         <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -12,34 +12,30 @@
         <copyright>© 2026 LifeWell · LifeWell — طوّره بمحبة فريق Zaions. التوثيق مرخص بموجب CC BY 4.0.</copyright>
         <item>
             <title><![CDATA[كان التوثيق خاطئاً، فأعدنا كتابته]]></title>
-            <link>https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0</link>
-            <guid>https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0</guid>
+            <link>https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/</link>
+            <guid>https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/</guid>
             <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[أُعيد بناء LifeWell 3.0.0 على خادم جديد، وكان التوثيق القديم يصف منتجاً لم يعد موجوداً. حُذفت الصفحات وأُعيدت كتابتها بالرجوع إلى الشيفرة.]]></description>
             <content:encoded><![CDATA[<p>كان الإصدار السابق من هذا الموقع يصف تطبيق iOS أُزيل، وإضافة متصفح لم تكن منشورة حينئذ، وقاعدة بيانات لم يعد التطبيق يستخدمها، ونظام تحليلات يكاد يكون عكس النظام الفعلي.</p>
 <p>لم تُكتب تلك المعلومات بقصد التضليل. كُتبت، ثم تطور المنتج، ولم يعد أحد لمراجعتها.</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-wrong">ما الذي كان خاطئاً؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0#what-was-wrong" class="hash-link" aria-label="رابط مباشر إلى ما الذي كان خاطئاً؟" title="رابط مباشر إلى ما الذي كان خاطئاً؟" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-wrong">ما الذي كان خاطئاً؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/#what-was-wrong" class="hash-link" aria-label="رابط مباشر إلى ما الذي كان خاطئاً؟" title="رابط مباشر إلى ما الذي كان خاطئاً؟" translate="no">​</a></h2>
 <p>يجدر ذكر ثلاثة ادعاءات، لأن أشخاصاً قرؤوها وصدقوها.</p>
 <p><strong>وُصف <code>/feed</code> بأنه موجز اجتماعي.</strong> هو موجز عام قابل للقراءة لأحدث مقالات المدونة. لا يوجد موجز اجتماعي في LifeWell، ولم يوجد من قبل.</p>
 <p><strong>وُصفت Firebase Analytics بأنها ممنوعة ومستبدلة.</strong> خاصية Google Analytics 4 <em>هي نفسها</em> خاصية تحليلات Firebase؛ اسمان لطريقتين في التعامل مع خاصية واحدة. وتعمل إلى جانب Amplitude وClarity وSentry، لا بدلاً منها. كان القارئ الذي يريد معرفة ما يرسله التطبيق يتلقى عكس الحقيقة.</p>
-<p><strong>وُصفت التحديثات عبر الاتصال بأنها «لم تُدمج بعد».</strong> كان ذلك صحيحاً عند إعادة كتابة 3.0.0. يدمج LifeWell الآن حزم Native Update الموقعة على أجهزة Android المتوافقة. وتشرح <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/android#over-the-air-updates">صفحة Android</a> الحالية ما يتحقق منه التطبيق وما لا يزال يحتاج إلى بناء أصلي.</p>
+<p><strong>وُصفت التحديثات عبر الاتصال بأنها «لم تُدمج بعد».</strong> كان ذلك صحيحاً عند إعادة كتابة 3.0.0. يدمج LifeWell الآن حزم Native Update الموقعة على أجهزة Android المتوافقة. وتشرح <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/android/#over-the-air-updates">صفحة Android</a> الحالية ما يتحقق منه التطبيق وما لا يزال يحتاج إلى بناء أصلي.</p>
 <p>وفوق ذلك، وصفت خمس وستون صفحة نموذج بيانات مستندياً استبدلته إعادة البناء بـPostgres، وذكرت خمس وثلاثون صفحة منصة iOS التي أُزيلت في 2026-07-16، وشرح قسم كامل تثبيت إضافة لم تكن موجودة حينذاك واستخدامها.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-done-about-it">ماذا فعلنا حيال ذلك؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0#what-was-done-about-it" class="hash-link" aria-label="رابط مباشر إلى ماذا فعلنا حيال ذلك؟" title="رابط مباشر إلى ماذا فعلنا حيال ذلك؟" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-was-done-about-it">ماذا فعلنا حيال ذلك؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/#what-was-done-about-it" class="hash-link" aria-label="رابط مباشر إلى ماذا فعلنا حيال ذلك؟" title="رابط مباشر إلى ماذا فعلنا حيال ذلك؟" translate="no">​</a></h2>
 <p>حُذفت كل الصفحات. وكُتبت البدائل بالرجوع إلى المصدر: صيغة التصدير من سجل الجداول الذي يقرؤه المصدّر نفسه، وحدود الخطط من سجل الخطط، والحد الأدنى لإصدار Android من ملف البناء، وقدرات الإدارة من واجهة الإدارة المشتقة.</p>
-<p>إذا كان شيء مبنياً جزئياً، تذكر الصفحة الجزء المبني. هناك سبعة أمثلة مدرجة في موضع واحد في <a class="" href="https://lifewell-docs.aoneahsan.com/ar/about/changelog">ما تغير في 3.0.0</a>.</p>
+<p>إذا كان شيء مبنياً جزئياً، تذكر الصفحة الجزء المبني. هناك سبعة أمثلة مدرجة في موضع واحد في <a class="" href="https://lifewell-docs.aoneahsan.com/ar/about/changelog/">ما تغير في 3.0.0</a>.</p>
 <p>وتحققنا من كل رقم أمكن التحقق منه. قال التوثيق القديم إن الحد الأدنى لـAndroid هو 7.0، بينما يحدده البناء عند API 28، أي Android 9.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-rule-this-site-now-runs-on">القاعدة التي يتبعها هذا الموقع الآن<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0#the-rule-this-site-now-runs-on" class="hash-link" aria-label="رابط مباشر إلى القاعدة التي يتبعها هذا الموقع الآن" title="رابط مباشر إلى القاعدة التي يتبعها هذا الموقع الآن" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-rule-this-site-now-runs-on">القاعدة التي يتبعها هذا الموقع الآن<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/#the-rule-this-site-now-runs-on" class="hash-link" aria-label="رابط مباشر إلى القاعدة التي يتبعها هذا الموقع الآن" title="رابط مباشر إلى القاعدة التي يتبعها هذا الموقع الآن" translate="no">​</a></h2>
 <p><strong>لا تصف الصفحة إلا ما يفعله المنتج فعلاً.</strong></p>
 <p>لا ما يوشك أن يفعله، ولا ما تقوله خارطة الطريق، ولا ما يبدو أجمل في الكتابة. إذا لم تُبن ميزة، تقول الصفحة إنها لم تُبن. وإذا كان عنصر تحكم يفعل أقل مما يوحي به شكله، نشرح ذلك بجانبه لا بعد ثلاثة أقسام.</p>
 <p>الحفاظ على هذا المعيار أصعب مما يبدو. المشكلة ليست الكذب، بل كتابة شيء صحيح ثم عدم الرجوع إليه حين يتغير المنتج. لذلك تسمي الصفحات التي تصف سلوكاً موضع ذلك السلوك، وتُراجع صفحة صيغة التصدير مقابل السجل نفسه الذي يستخدمه المصدّر، فلا تصف ملفاً لا ينتجه التطبيق.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-the-old-addresses-went">أين ذهبت العناوين القديمة؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0#where-the-old-addresses-went" class="hash-link" aria-label="رابط مباشر إلى أين ذهبت العناوين القديمة؟" title="رابط مباشر إلى أين ذهبت العناوين القديمة؟" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-the-old-addresses-went">أين ذهبت العناوين القديمة؟<a href="https://lifewell-docs.aoneahsan.com/ar/blog/documentation-rewritten-for-3-0-0/#where-the-old-addresses-went" class="hash-link" aria-label="رابط مباشر إلى أين ذهبت العناوين القديمة؟" title="رابط مباشر إلى أين ذهبت العناوين القديمة؟" translate="no">​</a></h2>
 <p>تُعاد الآن توجيه كل العناوين تحت <code>/docs/**</code>. انتقل التوثيق إلى جذر الموقع، وبذلك يعمل <code>/reference/export-format</code>، وهو العنوان الذي يفتحه التطبيق من شاشة التصدير.</p>
-<p>تُوجه الصفحات التي لم يعد موضوعها موجوداً إلى صفحة تشرح وضعه الحالي. وتصل إرشادات الإضافة القديمة إلى <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/browser-extension">إضافة المتصفح</a>، التي تصف رفيق Chrome وFirefox المبني وحالة نشره. وتصل صفحات iOS إلى <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/ios">iOS</a>، حيث تجد تاريخ إزالته وشرط عودته.</p>]]></content:encoded>
-            <category>إعلان</category>
-            <category>LifeWell</category>
-            <category>التوثيق</category>
-            <category>إصدار</category>
+<p>تُوجه الصفحات التي لم يعد موضوعها موجوداً إلى صفحة تشرح وضعه الحالي. وتصل إرشادات الإضافة القديمة إلى <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/browser-extension/">إضافة المتصفح</a>، التي تصف رفيق Chrome وFirefox المبني وحالة نشره. وتصل صفحات iOS إلى <a class="" href="https://lifewell-docs.aoneahsan.com/ar/platforms/ios/">iOS</a>، حيث تجد تاريخ إزالته وشرط عودته.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

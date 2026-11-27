@@ -11,7 +11,7 @@
 
 ## LifeWell पर आना
 
-- [दूसरे ऐप से LifeWell पर आएँ](https://lifewell-docs.aoneahsan.com/hi/compare/): परिवार वृक्ष, आयोजक और स्वास्थ्य रिकॉर्ड के 32 उत्पादों से LifeWell पर आने की चरणबद्ध मार्गदर्शिकाएँ, जाँच की तारीख़ सहित।
+- [दूसरे ऐप से LifeWell पर आएँ](https://lifewell-docs.aoneahsan.com/hi/compare): परिवार वृक्ष, आयोजक और स्वास्थ्य रिकॉर्ड के 32 उत्पादों से LifeWell पर आने की चरणबद्ध मार्गदर्शिकाएँ, जाँच की तारीख़ सहित।
 - [FamilySearch से LifeWell पर आना](https://lifewell-docs.aoneahsan.com/hi/compare/familysearch): FamilySearch से LifeWell पर कैसे आएँ, दोनों में क्या अंतर है और उनकी कीमत क्या है। जाँच की तारीख: 2026-11-26।
 - [Ancestry से LifeWell पर आना](https://lifewell-docs.aoneahsan.com/hi/compare/ancestry): Ancestry से LifeWell पर कैसे आएँ, दोनों में क्या अंतर है और उनकी कीमत क्या है। जाँच की तारीख: 2026-11-26।
 - [MyHeritage से LifeWell पर आना](https://lifewell-docs.aoneahsan.com/hi/compare/myheritage): MyHeritage से LifeWell पर कैसे आएँ, दोनों में क्या अंतर है और उनकी कीमत क्या है। जाँच की तारीख: 2026-11-26।
@@ -122,7 +122,7 @@
 
 ## डेवलपर
 
-- [LifeWell को दूसरे ऐप से जोड़ें](https://lifewell-docs.aoneahsan.com/hi/developers/): LifeWell के रिकॉर्ड तक बाहर से पहुँचने के चार रास्ते—कैलेंडर फ़ीड, एक्सेस टोकन वाला कोड, AI सहायक के लिए MCP और दूसरे ऐप के लिए वेबहुक।
+- [LifeWell को दूसरे ऐप से जोड़ें](https://lifewell-docs.aoneahsan.com/hi/developers): LifeWell के रिकॉर्ड तक बाहर से पहुँचने के चार रास्ते—कैलेंडर फ़ीड, एक्सेस टोकन वाला कोड, AI सहायक के लिए MCP और दूसरे ऐप के लिए वेबहुक।
 - [एक्सेस टोकन और पहचान की पुष्टि](https://lifewell-docs.aoneahsan.com/hi/developers/authentication): स्क्रिप्ट या ऐप LifeWell रिकॉर्ड पढ़ने की अनुमति कैसे साबित करता है—पढ़ने, लिखने और मिटाने के दायरे, टोकन फिर दिखाने का 10 मिनट नियम, OAuth, अनुरोध सीमाएँ और त्रुटियाँ।
 - [LifeWell API](https://lifewell-docs.aoneahsan.com/hi/developers/api): LifeWell REST API का मुख्य पता, सामान्यतः 20 और अधिकतम 50 पंक्तियों के पेज, और हर रास्ते व फ़ील्ड को बताने वाली OpenAPI फ़ाइल।
 - [AI सहायक जोड़ें (MCP)](https://lifewell-docs.aoneahsan.com/hi/developers/mcp): LifeWell MCP सर्वर से Claude, ChatGPT, Claude Code या Cursor को रिकॉर्ड से जोड़ें—अनुमति पेज, मिटाने की पुष्टि और कनेक्शन हटाने का तरीका।

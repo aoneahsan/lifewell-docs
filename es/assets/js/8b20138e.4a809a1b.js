@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklifewell_docs=self.webpackChunklifewell_docs||[]).push([["743"],{85140(e){e.exports=JSON.parse('{"metadata":{"permalink":"/es/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Novedades y notas de publicaci\xf3n del equipo LifeWell: qu\xe9 cambi\xf3 en la aplicaci\xf3n y por qu\xe9.","blogTitle":"Blog"}}')}}]);

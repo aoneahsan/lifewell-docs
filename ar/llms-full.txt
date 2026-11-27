@@ -11,7 +11,7 @@
 
 ## الانتقال إلى LifeWell
 
-- [الانتقال إلى LifeWell من تطبيق آخر](https://lifewell-docs.aoneahsan.com/ar/compare/): إرشادات خطوة بخطوة للانتقال إلى LifeWell من 32 منتجاً لشجرة العائلة وتنظيم الحياة والسجل الصحي، مع تاريخ التحقق من كل منها.
+- [الانتقال إلى LifeWell من تطبيق آخر](https://lifewell-docs.aoneahsan.com/ar/compare): إرشادات خطوة بخطوة للانتقال إلى LifeWell من 32 منتجاً لشجرة العائلة وتنظيم الحياة والسجل الصحي، مع تاريخ التحقق من كل منها.
 - [الانتقال من FamilySearch إلى LifeWell](https://lifewell-docs.aoneahsan.com/ar/compare/familysearch): تدوين عائلتك القريبة من FamilySearch في LifeWell، والفروق والتكلفة. روجعت في 2026-11-26.
 - [الانتقال من Ancestry إلى LifeWell](https://lifewell-docs.aoneahsan.com/ar/compare/ancestry): كيف تنقل ما يخص عائلتك من Ancestry إلى LifeWell، وأوجه الاختلاف والتكلفة. روجعت في 2026-11-26.
 - [الانتقال من MyHeritage إلى LifeWell](https://lifewell-docs.aoneahsan.com/ar/compare/myheritage): نقل الأشخاص المقربين من MyHeritage إلى LifeWell، والفروق والخطط السنوية. روجعت في 2026-11-26.
@@ -122,7 +122,7 @@
 
 ## للمطورين
 
-- [ربط LifeWell بالتطبيقات الأخرى](https://lifewell-docs.aoneahsan.com/ar/developers/): أربع طرق لوصول خدمة خارجية إلى سجلك: تطبيق تقويم عبر موجز، وبرنامج عبر رمز وصول، ومساعد ذكاء اصطناعي عبر MCP، وتطبيق آخر عبر خطافات الويب.
+- [ربط LifeWell بالتطبيقات الأخرى](https://lifewell-docs.aoneahsan.com/ar/developers): أربع طرق لوصول خدمة خارجية إلى سجلك: تطبيق تقويم عبر موجز، وبرنامج عبر رمز وصول، ومساعد ذكاء اصطناعي عبر MCP، وتطبيق آخر عبر خطافات الويب.
 - [رموز الوصول والمصادقة](https://lifewell-docs.aoneahsan.com/ar/developers/authentication): كيف يثبت برنامج أو تطبيق حقه في قراءة سجل LifeWell: رموز بصلاحيات القراءة والكتابة والحذف، وقاعدة كشف الرمز خلال 10 دقائق، وOAuth والحدود والأخطاء.
 - [واجهة LifeWell البرمجية](https://lifewell-docs.aoneahsan.com/ar/developers/api): واجهة REST لـLifeWell: عنوانها الأساسي، وتقسيم القوائم بمؤشر عند 20 صفاً افتراضياً و50 على الأكثر، وملف OpenAPI الذي يصف كل مسار وحقل.
 - [ربط مساعد ذكاء اصطناعي عبر MCP](https://lifewell-docs.aoneahsan.com/ar/developers/mcp): صِل Claude أوChatGPT أوClaude Code أوCursor بسجل LifeWell عبر خادم MCP: ما تطلبه صفحة الموافقة وكيف تؤكد الحذف وكيف تفصل الاتصال.

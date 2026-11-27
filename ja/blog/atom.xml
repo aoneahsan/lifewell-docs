@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lifewell-docs.aoneahsan.com/ja/blog</id>
+    <id>https://lifewell-docs.aoneahsan.com/ja/blog/</id>
     <title>LifeWell · ブログ</title>
     <updated>2026-09-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/ja/blog"/>
+    <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/ja/blog/"/>
     <subtitle>LifeWellチームからのお知らせとリリースノート。アプリで変わったことと、その理由をお伝えします。</subtitle>
     <icon>https://lifewell-docs.aoneahsan.com/ja/img/favicon.ico</icon>
     <rights>© 2026 LifeWell · LifeWell — Zaionsチームが心を込めて開発。ドキュメントはCC BY 4.0で提供しています。</rights>
     <entry>
         <title type="html"><![CDATA[ドキュメントの誤りを直すため、書き直しました]]></title>
-        <id>https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0</id>
-        <link href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0"/>
+        <id>https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/</id>
+        <link href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/"/>
         <updated>2026-09-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[LifeWell 3.0.0は新しいバックエンドで再構築され、以前のドキュメントには現在の製品と異なる説明が残っていました。全ページを削除し、コードを確認して書き直しました。]]></summary>
         <content type="html"><![CDATA[<p>以前のサイトには、すでに提供を終了したiOSアプリ、当時は公開されていなかったブラウザー拡張機能、アプリが使わなくなったデータベース、実態とはほぼ逆の分析ツール構成が書かれていました。</p>
 <p>意図して誤った内容を書いたわけではありません。書いたあとに製品が変わり、説明を見直さないままだったのです。</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="何が違っていたのか">何が違っていたのか<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0#%E4%BD%95%E3%81%8C%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%8B" class="hash-link" aria-label="何が違っていたのかへの直接リンク" title="何が違っていたのかへの直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="何が違っていたのか">何が違っていたのか<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/#%E4%BD%95%E3%81%8C%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%8B" class="hash-link" aria-label="何が違っていたのかへの直接リンク" title="何が違っていたのかへの直接リンク" translate="no">​</a></h2>
 <p>読んだ人が信じたはずの説明を、3つ挙げます。</p>
 <p><strong><code>/feed</code>を交流用のフィードとして説明していました。</strong> 実際には、最近のブログ記事を読める公開フィードです。LifeWellに交流用のフィードはなく、これまでにもありませんでした。</p>
 <p><strong>Firebase Analyticsを禁止して別のものに置き換えたと説明していました。</strong> Google Analytics 4は<em>Firebaseの分析プロパティそのもの</em>です。同じプロパティへの2つの接続方法があり、Amplitude、Clarity、Sentryと併用しています。アプリが何を報告するか知りたい人に、事実と逆の説明をしていました。</p>
-<p><strong>無線での更新を「まだ統合されていない」と説明していました。</strong> 3.0.0向けに書き直した時点では正しい説明でした。現在のLifeWellは、対応するAndroid環境で署名済みのNative Updateバンドルを利用します。現行の<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/android#over-the-air-updates">Androidページ</a>には、アプリが何を検証し、何にネイティブビルドが必要かを書いています。</p>
+<p><strong>無線での更新を「まだ統合されていない」と説明していました。</strong> 3.0.0向けに書き直した時点では正しい説明でした。現在のLifeWellは、対応するAndroid環境で署名済みのNative Updateバンドルを利用します。現行の<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/android/#over-the-air-updates">Androidページ</a>には、アプリが何を検証し、何にネイティブビルドが必要かを書いています。</p>
 <p>ほかにも、65ページで再構築後にPostgresへ置き換わったデータモデルを説明し、35ページで2026年7月16日に提供を終了したiOSに触れていました。当時存在しなかった拡張機能のインストール方法を説明する節までありました。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="どう直したのか">どう直したのか<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0#%E3%81%A9%E3%81%86%E7%9B%B4%E3%81%97%E3%81%9F%E3%81%AE%E3%81%8B" class="hash-link" aria-label="どう直したのかへの直接リンク" title="どう直したのかへの直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="どう直したのか">どう直したのか<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/#%E3%81%A9%E3%81%86%E7%9B%B4%E3%81%97%E3%81%9F%E3%81%AE%E3%81%8B" class="hash-link" aria-label="どう直したのかへの直接リンク" title="どう直したのかへの直接リンク" translate="no">​</a></h2>
 <p>全ページを削除しました。新しいページはソースコードを確認して書いています。エクスポート形式はエクスポート処理が読むテーブル一覧から、プランの上限はプランの設定から、Androidの最低要件はビルドファイルから、管理機能は実際の管理画面から確認しました。</p>
-<p>一部だけ完成している機能は、どこまでできているかをページに明記しています。該当する7件は、<a class="" href="https://lifewell-docs.aoneahsan.com/ja/about/changelog">3.0.0で変わったこと</a>にまとめました。</p>
+<p>一部だけ完成している機能は、どこまでできているかをページに明記しています。該当する7件は、<a class="" href="https://lifewell-docs.aoneahsan.com/ja/about/changelog/">3.0.0で変わったこと</a>にまとめました。</p>
 <p>確認できる数値は確認しました。以前のドキュメントはAndroidの最低バージョンを7.0としていましたが、ビルド設定の値は28、つまりAndroid 9です。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="このサイトが守る基準">このサイトが守る基準<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0#%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8C%E5%AE%88%E3%82%8B%E5%9F%BA%E6%BA%96" class="hash-link" aria-label="このサイトが守る基準への直接リンク" title="このサイトが守る基準への直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="このサイトが守る基準">このサイトが守る基準<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/#%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8C%E5%AE%88%E3%82%8B%E5%9F%BA%E6%BA%96" class="hash-link" aria-label="このサイトが守る基準への直接リンク" title="このサイトが守る基準への直接リンク" translate="no">​</a></h2>
 <p><strong>ページには、製品が実際にできることだけを書きます。</strong></p>
 <p>これからできることでも、開発予定にあることでも、聞こえのよい説明でもありません。未実装なら未実装と書きます。操作に見えるほどの働きがないなら、3つ先の節ではなく、その操作のすぐ隣で伝えます。</p>
 <p>守るのが難しいのは、嘘をつくからではありません。正しかった説明を書いたあと、製品が変わっても戻って確認しないことが原因です。そこで、動作を述べるページにはその動作の実装場所を示しています。エクスポート形式のページも、実際のエクスポートと同じ一覧に照らして作られるため、存在しない形式を説明できません。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="古いアドレスの行き先">古いアドレスの行き先<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0#%E5%8F%A4%E3%81%84%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E8%A1%8C%E3%81%8D%E5%85%88" class="hash-link" aria-label="古いアドレスの行き先への直接リンク" title="古いアドレスの行き先への直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="古いアドレスの行き先">古いアドレスの行き先<a href="https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0/#%E5%8F%A4%E3%81%84%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E8%A1%8C%E3%81%8D%E5%85%88" class="hash-link" aria-label="古いアドレスの行き先への直接リンク" title="古いアドレスの行き先への直接リンク" translate="no">​</a></h2>
 <p><code>/docs/**</code>以下のアドレスはすべて転送されます。ドキュメントはサイトのルートに移りました。これにより、アプリのエクスポート画面がリンクする<code>/reference/export-format</code>を開けます。</p>
-<p>扱う内容がなくなったページは、現状を説明するページに転送します。拡張機能の操作ガイドは<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/browser-extension">ブラウザー拡張機能</a>に移り、完成済みのChromeとFirefox向け機能と公開状況を説明します。iOSのページは<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/ios">iOS</a>へ移り、提供を終了した日付と再開の条件を示します。</p>]]></content>
+<p>扱う内容がなくなったページは、現状を説明するページに転送します。拡張機能の操作ガイドは<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/browser-extension/">ブラウザー拡張機能</a>に移り、完成済みのChromeとFirefox向け機能と公開状況を説明します。iOSのページは<a class="" href="https://lifewell-docs.aoneahsan.com/ja/platforms/ios/">iOS</a>へ移り、提供を終了した日付と再開の条件を示します。</p>]]></content>
         <author>
             <name>LifeWellチーム</name>
             <uri>https://lifewell.aoneahsan.com</uri>
         </author>
-        <category label="お知らせ" term="お知らせ"/>
-        <category label="LifeWellの記事" term="LifeWellの記事"/>
-        <category label="ドキュメント" term="ドキュメント"/>
-        <category label="リリース" term="リリース"/>
     </entry>
 </feed>

@@ -11,7 +11,7 @@
 
 ## Переход на LifeWell
 
-- [Переход на LifeWell из другого приложения](https://lifewell-docs.aoneahsan.com/ru/compare/): Пошаговые руководства по переходу на LifeWell из 32 сервисов для семейного дерева, повседневных дел и записей о здоровье. У каждого указана дата проверки.
+- [Переход на LifeWell из другого приложения](https://lifewell-docs.aoneahsan.com/ru/compare): Пошаговые руководства по переходу на LifeWell из 32 сервисов для семейного дерева, повседневных дел и записей о здоровье. У каждого указана дата проверки.
 - [Переход с FamilySearch на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/familysearch): Как перейти с FamilySearch на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
 - [Переход с Ancestry на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/ancestry): Как перейти с Ancestry на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
 - [Переход с MyHeritage на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/myheritage): Как перейти с MyHeritage на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
@@ -122,7 +122,7 @@
 
 ## Разработчикам
 
-- [Подключение LifeWell к другим приложениям](https://lifewell-docs.aoneahsan.com/ru/developers/): Четыре способа получить доступ к вашему журналу извне LifeWell — календарная подписка, токен доступа для своего кода, MCP для ИИ-помощника и вебхуки для другого приложения.
+- [Подключение LifeWell к другим приложениям](https://lifewell-docs.aoneahsan.com/ru/developers): Четыре способа получить доступ к вашему журналу извне LifeWell — календарная подписка, токен доступа для своего кода, MCP для ИИ-помощника и вебхуки для другого приложения.
 - [Токены доступа и авторизация](https://lifewell-docs.aoneahsan.com/ru/developers/authentication): Как скрипт или приложение подтверждает право читать ваш журнал LifeWell: токены с правами чтения, записи и удаления, десятиминутное правило повторного показа, OAuth, пределы запросов и ошибки.
 - [API LifeWell](https://lifewell-docs.aoneahsan.com/ru/developers/api): REST API LifeWell: базовый адрес, страницы по 20 строк по умолчанию и не более 50, а также файл OpenAPI с описанием маршрутов и полей.
 - [Подключение ИИ-помощника (MCP)](https://lifewell-docs.aoneahsan.com/ru/developers/mcp): Подключите Claude, ChatGPT, Claude Code или Cursor к своему журналу через сервер MCP LifeWell: разрешения, подтверждение удаления и отключение.

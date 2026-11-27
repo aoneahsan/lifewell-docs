@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>LifeWell · ब्लॉग</title>
-        <link>https://lifewell-docs.aoneahsan.com/hi/blog</link>
+        <link>https://lifewell-docs.aoneahsan.com/hi/blog/</link>
         <description>LifeWell टीम के अपडेट और रिलीज़ नोट: ऐप में क्या बदला और क्यों।</description>
         <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,34 +11,30 @@
         <copyright>© 2026 LifeWell · LifeWell — Zaions टीम ने प्यार से बनाया। दस्तावेज़ CC BY 4.0 लाइसेंस के अंतर्गत हैं।</copyright>
         <item>
             <title><![CDATA[दस्तावेज़ ग़लत थे, इसलिए उन्हें फिर लिखा गया]]></title>
-            <link>https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0</link>
-            <guid>https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0</guid>
+            <link>https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/</link>
+            <guid>https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/</guid>
             <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[LifeWell 3.0.0 नए बैकएंड पर दोबारा बना है। पुराने दस्तावेज़ ऐसे उत्पाद का वर्णन करते थे जो अब मौजूद नहीं है। हर पेज हटाकर कोड के आधार पर फिर लिखा गया।]]></description>
             <content:encoded><![CDATA[<p>इस साइट का पुराना संस्करण हट चुके iOS ऐप, उस समय जारी न हुए ब्राउज़र एक्सटेंशन, ऐप द्वारा अब इस्तेमाल न किए जाने वाले डेटाबेस और असल स्थिति से लगभग उलट एनालिटिक्स व्यवस्था का वर्णन करता था।</p>
 <p>यह जानबूझकर ग़लत नहीं लिखा गया था। लिखने के बाद उत्पाद बदल गया, और कोई दस्तावेज़ों को दोबारा जाँचने नहीं लौटा।</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="क्या-ग़लत-था">क्या ग़लत था<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0#%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%97%E0%A4%BC%E0%A4%B2%E0%A4%A4-%E0%A4%A5%E0%A4%BE" class="hash-link" aria-label="क्या ग़लत था का सीधा लिंक" title="क्या ग़लत था का सीधा लिंक" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="क्या-ग़लत-था">क्या ग़लत था<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/#%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%97%E0%A4%BC%E0%A4%B2%E0%A4%A4-%E0%A4%A5%E0%A4%BE" class="hash-link" aria-label="क्या ग़लत था का सीधा लिंक" title="क्या ग़लत था का सीधा लिंक" translate="no">​</a></h2>
 <p>तीन दावे साफ़-साफ़ बताने लायक हैं, क्योंकि किसी ने उन्हें पढ़ा और सही माना था।</p>
 <p><strong><code>/feed</code> को सामाजिक फ़ीड बताया गया था।</strong> वह हाल की ब्लॉग सामग्री का सार्वजनिक, पढ़ा जा सकने वाला फ़ीड है। LifeWell में कभी कोई सामाजिक फ़ीड नहीं था।</p>
 <p><strong>Firebase Analytics को बंद करके उसकी जगह दूसरी व्यवस्था लगाने की बात लिखी थी।</strong> Google Analytics 4 <em>ही</em> Firebase एनालिटिक्स की प्रॉपर्टी है—एक प्रॉपर्टी, उस तक पहुँचने के दो तरीके। वह Amplitude, Clarity और Sentry के साथ चलती है, उनकी जगह नहीं। ऐप क्या दर्ज करता है यह जानना चाहने वाले पाठक को सच का उलटा बताया गया था।</p>
-<p><strong>इंटरनेट के ज़रिए आने वाले अपडेट के बारे में लिखा था कि उन्हें अभी जोड़ा नहीं गया है।</strong> 3.0.0 के दस्तावेज़ दोबारा लिखते समय यह सही था। अब LifeWell संगत Android इंस्टॉलेशन पर हस्ताक्षरित Native Update बंडल इस्तेमाल करता है। मौजूदा <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/android#%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A4%B0%E0%A4%A8%E0%A5%87%E0%A4%9F-%E0%A4%95%E0%A5%87-%E0%A4%9C%E0%A4%BC%E0%A4%B0%E0%A4%BF%E0%A4%8F-%E0%A4%85%E0%A4%AA%E0%A4%A1%E0%A5%87%E0%A4%9F">Android पेज</a> बताता है कि ऐप क्या जाँचता है और किस बदलाव के लिए अभी भी नेटिव बिल्ड चाहिए।</p>
+<p><strong>इंटरनेट के ज़रिए आने वाले अपडेट के बारे में लिखा था कि उन्हें अभी जोड़ा नहीं गया है।</strong> 3.0.0 के दस्तावेज़ दोबारा लिखते समय यह सही था। अब LifeWell संगत Android इंस्टॉलेशन पर हस्ताक्षरित Native Update बंडल इस्तेमाल करता है। मौजूदा <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/android/#%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A4%B0%E0%A4%A8%E0%A5%87%E0%A4%9F-%E0%A4%95%E0%A5%87-%E0%A4%9C%E0%A4%BC%E0%A4%B0%E0%A4%BF%E0%A4%8F-%E0%A4%85%E0%A4%AA%E0%A4%A1%E0%A5%87%E0%A4%9F">Android पेज</a> बताता है कि ऐप क्या जाँचता है और किस बदलाव के लिए अभी भी नेटिव बिल्ड चाहिए।</p>
 <p>इसके अलावा, पैंसठ पेज उस दस्तावेज़ डेटा मॉडल का वर्णन करते थे जिसकी जगह नए संस्करण में Postgres ने ले ली थी। पैंतीस पेज 2026-07-16 को हटाए गए iOS प्लैटफ़ॉर्म का ज़िक्र करते थे। एक पूरा हिस्सा ऐसे एक्सटेंशन को इंस्टॉल और इस्तेमाल करना सिखाता था जो उस समय मौजूद नहीं था।</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="इसे-कैसे-सुधारा-गया">इसे कैसे सुधारा गया<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0#%E0%A4%87%E0%A4%B8%E0%A5%87-%E0%A4%95%E0%A5%88%E0%A4%B8%E0%A5%87-%E0%A4%B8%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%BE-%E0%A4%97%E0%A4%AF%E0%A4%BE" class="hash-link" aria-label="इसे कैसे सुधारा गया का सीधा लिंक" title="इसे कैसे सुधारा गया का सीधा लिंक" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="इसे-कैसे-सुधारा-गया">इसे कैसे सुधारा गया<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/#%E0%A4%87%E0%A4%B8%E0%A5%87-%E0%A4%95%E0%A5%88%E0%A4%B8%E0%A5%87-%E0%A4%B8%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%BE-%E0%A4%97%E0%A4%AF%E0%A4%BE" class="hash-link" aria-label="इसे कैसे सुधारा गया का सीधा लिंक" title="इसे कैसे सुधारा गया का सीधा लिंक" translate="no">​</a></h2>
 <p>हर पेज हटाया गया। नए पेज स्रोत कोड देखकर लिखे गए—एक्सपोर्ट फ़ॉर्मैट उसी टेबल रजिस्ट्री से जिसे एक्सपोर्टर पढ़ता है, प्लान सीमाएँ प्लान रजिस्ट्री से, Android का न्यूनतम संस्करण बिल्ड फ़ाइल से और एडमिन क्षमताएँ बने हुए एडमिन पेज से।</p>
-<p>जहाँ कुछ आधा बना है, पेज बताता है कि कौन सा हिस्सा बना है। ऐसी सात चीज़ें हैं; वे <a class="" href="https://lifewell-docs.aoneahsan.com/hi/about/changelog">3.0.0 में क्या बदला</a> पर एक जगह सूचीबद्ध हैं।</p>
+<p>जहाँ कुछ आधा बना है, पेज बताता है कि कौन सा हिस्सा बना है। ऐसी सात चीज़ें हैं; वे <a class="" href="https://lifewell-docs.aoneahsan.com/hi/about/changelog/">3.0.0 में क्या बदला</a> पर एक जगह सूचीबद्ध हैं।</p>
 <p>जहाँ संख्या की जाँच हो सकती थी, वहाँ की गई। पुराने दस्तावेज़ Android का न्यूनतम संस्करण 7.0 बताते थे; बिल्ड में 28 है, यानी Android 9।</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="अब-इस-साइट-का-नियम">अब इस साइट का नियम<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0#%E0%A4%85%E0%A4%AC-%E0%A4%87%E0%A4%B8-%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F-%E0%A4%95%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" class="hash-link" aria-label="अब इस साइट का नियम का सीधा लिंक" title="अब इस साइट का नियम का सीधा लिंक" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="अब-इस-साइट-का-नियम">अब इस साइट का नियम<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/#%E0%A4%85%E0%A4%AC-%E0%A4%87%E0%A4%B8-%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F-%E0%A4%95%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" class="hash-link" aria-label="अब इस साइट का नियम का सीधा लिंक" title="अब इस साइट का नियम का सीधा लिंक" translate="no">​</a></h2>
 <p><strong>कोई पेज केवल वही बताए जो उत्पाद सचमुच करता है।</strong></p>
 <p>वह क्या करने वाला है, योजना में क्या लिखा है या कौन सा दावा अच्छा लगेगा—ये काफ़ी नहीं हैं। जो सुविधा नहीं बनी, पेज उसे <em>अभी नहीं बनी</em> कहता है। अगर कोई नियंत्रण दिखने से कम काम करता है, तो बात उसी के पास लिखी जाती है, तीन हिस्से दूर नहीं।</p>
 <p>इस मानक पर टिके रहना सुनने से मुश्किल है। ग़लती झूठ लिखने से नहीं, कोई सही बात लिखकर उत्पाद बदलने पर वापस न जाँचने से होती है। इसलिए व्यवहार के बारे में दावा करने वाले पेज अब बताते हैं कि वह व्यवहार कहाँ लागू है। एक्सपोर्ट फ़ॉर्मैट पेज उसी रजिस्ट्री से बनता है जिससे एक्सपोर्ट पढ़ता है, ताकि वह ऐसी फ़ाइल का वर्णन न करे जो ऐप बनाता ही नहीं।</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="पुराने-पते-कहाँ-गए">पुराने पते कहाँ गए<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0#%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%87-%E0%A4%AA%E0%A4%A4%E0%A5%87-%E0%A4%95%E0%A4%B9%E0%A4%BE%E0%A4%81-%E0%A4%97%E0%A4%8F" class="hash-link" aria-label="पुराने पते कहाँ गए का सीधा लिंक" title="पुराने पते कहाँ गए का सीधा लिंक" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="पुराने-पते-कहाँ-गए">पुराने पते कहाँ गए<a href="https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0/#%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%87-%E0%A4%AA%E0%A4%A4%E0%A5%87-%E0%A4%95%E0%A4%B9%E0%A4%BE%E0%A4%81-%E0%A4%97%E0%A4%8F" class="hash-link" aria-label="पुराने पते कहाँ गए का सीधा लिंक" title="पुराने पते कहाँ गए का सीधा लिंक" translate="no">​</a></h2>
 <p><code>/docs/**</code> के सभी पते अब दूसरे पेज पर भेजते हैं। दस्तावेज़ साइट की जड़ पर आ गए हैं, इसलिए <code>/reference/export-format</code> खुलता है—ऐप की एक्सपोर्ट स्क्रीन भी इसी पते पर लिंक करती है।</p>
-<p>जिस विषय का पेज अब नहीं है, उसका पुराना पता सच बताने वाले पेज पर भेजता है। एक्सटेंशन की पुरानी मार्गदर्शिकाएँ <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/browser-extension">ब्राउज़र एक्सटेंशन</a> पर पहुँचती हैं, जहाँ बने हुए Chrome और Firefox एक्सटेंशन तथा उसकी प्रकाशन स्थिति का विवरण है। iOS के पुराने पेज <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/ios">iOS</a> पर पहुँचते हैं, जहाँ उसे हटाने की तारीख़ और वापस आने की शर्त लिखी है।</p>]]></content:encoded>
-            <category>घोषणा</category>
-            <category>LifeWell</category>
-            <category>दस्तावेज़</category>
-            <category>रिलीज़</category>
+<p>जिस विषय का पेज अब नहीं है, उसका पुराना पता सच बताने वाले पेज पर भेजता है। एक्सटेंशन की पुरानी मार्गदर्शिकाएँ <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/browser-extension/">ब्राउज़र एक्सटेंशन</a> पर पहुँचती हैं, जहाँ बने हुए Chrome और Firefox एक्सटेंशन तथा उसकी प्रकाशन स्थिति का विवरण है। iOS के पुराने पेज <a class="" href="https://lifewell-docs.aoneahsan.com/hi/platforms/ios/">iOS</a> पर पहुँचते हैं, जहाँ उसे हटाने की तारीख़ और वापस आने की शर्त लिखी है।</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

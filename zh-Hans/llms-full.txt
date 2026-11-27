@@ -11,7 +11,7 @@
 
 ## 迁移到 LifeWell
 
-- [从其他应用转到 LifeWell](https://lifewell-docs.aoneahsan.com/zh-Hans/compare/): 从 32 款家族树、日程管理和健康记录产品转到 LifeWell 的逐步指南，每篇都标明核查日期。
+- [从其他应用转到 LifeWell](https://lifewell-docs.aoneahsan.com/zh-Hans/compare): 从 32 款家族树、日程管理和健康记录产品转到 LifeWell 的逐步指南，每篇都标明核查日期。
 - [从 FamilySearch 转到 LifeWell](https://lifewell-docs.aoneahsan.com/zh-Hans/compare/familysearch): 了解如何从 FamilySearch 转到 LifeWell、两者的区别和费用。核查日期：2026-11-26。
 - [从 Ancestry 转到 LifeWell](https://lifewell-docs.aoneahsan.com/zh-Hans/compare/ancestry): 了解如何从 Ancestry 转到 LifeWell、两者的区别和费用。核查日期：2026-11-26。
 - [从 MyHeritage 转到 LifeWell](https://lifewell-docs.aoneahsan.com/zh-Hans/compare/myheritage): 了解如何从 MyHeritage 转到 LifeWell、两者的区别和费用。核查日期：2026-11-26。
@@ -122,7 +122,7 @@
 
 ## 开发者
 
-- [将 LifeWell 连接到其他应用](https://lifewell-docs.aoneahsan.com/zh-Hans/developers/): 外部服务访问您记录的四种方式：日历订阅源、使用访问令牌的脚本、通过 MCP 连接的 AI 助手，以及使用 Webhook 的其他应用。
+- [将 LifeWell 连接到其他应用](https://lifewell-docs.aoneahsan.com/zh-Hans/developers): 外部服务访问您记录的四种方式：日历订阅源、使用访问令牌的脚本、通过 MCP 连接的 AI 助手，以及使用 Webhook 的其他应用。
 - [访问令牌与身份验证](https://lifewell-docs.aoneahsan.com/zh-Hans/developers/authentication): 脚本或应用如何证明自己可以访问您的 LifeWell 记录：带读取、写入和删除权限的访问令牌、再次显示令牌的十分钟规则、OAuth、速率限制与错误。
 - [LifeWell API](https://lifewell-docs.aoneahsan.com/zh-Hans/developers/api): LifeWell REST API 的基础地址、默认每页 20 条且最多 50 条的游标分页，以及描述所有路由和字段的 OpenAPI 文件。
 - [连接 AI 助手（MCP）](https://lifewell-docs.aoneahsan.com/zh-Hans/developers/mcp): 通过 LifeWell MCP 服务器，让 Claude、ChatGPT、Claude Code 或 Cursor 访问您的记录。了解授权页面会问什么、如何确认删除，以及怎样断开连接。

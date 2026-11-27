@@ -11,7 +11,7 @@
 
 ## Migrar para o LifeWell
 
-- [Migrar para o LifeWell de outro aplicativo](https://lifewell-docs.aoneahsan.com/pt-BR/compare/): Guias passo a passo para migrar de 32 produtos de árvore genealógica, organização e saúde, com a data da última conferência.
+- [Migrar para o LifeWell de outro aplicativo](https://lifewell-docs.aoneahsan.com/pt-BR/compare): Guias passo a passo para migrar de 32 produtos de árvore genealógica, organização e saúde, com a data da última conferência.
 - [Migrar do FamilySearch para o LifeWell](https://lifewell-docs.aoneahsan.com/pt-BR/compare/familysearch): Como migrar do FamilySearch para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026.
 - [Migrar do Ancestry para o LifeWell](https://lifewell-docs.aoneahsan.com/pt-BR/compare/ancestry): Como migrar do Ancestry para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026.
 - [Migrar do MyHeritage para o LifeWell](https://lifewell-docs.aoneahsan.com/pt-BR/compare/myheritage): Como migrar do MyHeritage para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026.
@@ -122,7 +122,7 @@
 
 ## Desenvolvedores
 
-- [Conecte o LifeWell a outros aplicativos](https://lifewell-docs.aoneahsan.com/pt-BR/developers/): Quatro caminhos para acessar seus dados fora do LifeWell — calendário, API com token, assistente de IA por MCP e webhooks.
+- [Conecte o LifeWell a outros aplicativos](https://lifewell-docs.aoneahsan.com/pt-BR/developers): Quatro caminhos para acessar seus dados fora do LifeWell — calendário, API com token, assistente de IA por MCP e webhooks.
 - [Tokens de acesso e autenticação](https://lifewell-docs.aoneahsan.com/pt-BR/developers/authentication): Como um programa ou aplicativo comprova o acesso aos seus dados LifeWell — tokens com permissões de leitura, escrita e exclusão, regra de dez minutos, OAuth, limites e erros.
 - [A API do LifeWell](https://lifewell-docs.aoneahsan.com/pt-BR/developers/api): Endereço da API REST, paginação por cursor com 20 linhas por padrão e no máximo 50, e o arquivo OpenAPI que descreve as rotas e os campos.
 - [Conectar um assistente de IA (MCP)](https://lifewell-docs.aoneahsan.com/pt-BR/developers/mcp): Conecte Claude, ChatGPT, Claude Code ou Cursor aos seus registros pelo servidor MCP do LifeWell. Entenda o consentimento, a confirmação de exclusões e como desconectar.

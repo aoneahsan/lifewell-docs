@@ -3,7 +3,7 @@
     <channel>
         <atom:link href="https://lifewell-docs.aoneahsan.com/es/feed.xml" rel="self" type="application/rss+xml"/>
         <title>LifeWell · Blog</title>
-        <link>https://lifewell-docs.aoneahsan.com/es/blog</link>
+        <link>https://lifewell-docs.aoneahsan.com/es/blog/</link>
         <description>Novedades y notas de publicación del equipo LifeWell: qué cambió en la aplicación y por qué.</description>
         <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -12,8 +12,8 @@
         <copyright>© 2026 LifeWell · LifeWell — desarrollado con cariño por el equipo Zaions. Documentación bajo licencia CC BY 4.0.</copyright>
         <item>
             <title><![CDATA[La documentación estaba equivocada, así que la reescribimos]]></title>
-            <link>https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0</link>
-            <guid>https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0</guid>
+            <link>https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/</link>
+            <guid>https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/</guid>
             <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[LifeWell 3.0.0 se reconstruyó sobre una nueva base de datos y la documentación anterior describía un producto que ya no existía. Reescribimos cada página a partir del código.]]></description>
             <content:encoded><![CDATA[<p>La versión anterior de este sitio hablaba de una aplicación para iOS que ya se había retirado, de una
@@ -22,7 +22,7 @@ de un conjunto de herramientas de análisis casi opuesto al real.</p>
 <p>Nadie escribió aquello para engañar. La información era cierta al publicarse; el producto cambió y nadie
 volvió a revisar las páginas.</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-estaba-mal">Qué estaba mal<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0#qu%C3%A9-estaba-mal" class="hash-link" aria-label="Enlace directo a Qué estaba mal" title="Enlace directo a Qué estaba mal" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-estaba-mal">Qué estaba mal<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/#qu%C3%A9-estaba-mal" class="hash-link" aria-label="Enlace directo a Qué estaba mal" title="Enlace directo a Qué estaba mal" translate="no">​</a></h2>
 <p>Hay tres afirmaciones que conviene señalar porque alguien las leyó y confió en ellas.</p>
 <p><strong><code>/feed</code> se describía como un muro social.</strong> Es la página pública de las publicaciones recientes del blog.
 LifeWell no tiene un muro social y nunca lo tuvo.</p>
@@ -32,20 +32,20 @@ Clarity y Sentry, no en lugar de ellos. Quien quisiera saber qué registra la ap
 contraria a la realidad.</p>
 <p><strong>Se decía que las actualizaciones inalámbricas «todavía no estaban integradas».</strong> Eso era correcto cuando
 reescribimos la documentación de la versión 3.0.0. LifeWell integra ahora paquetes firmados de Native Update
-en instalaciones Android compatibles. La página actual de <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/android#over-the-air-updates">Android</a>
+en instalaciones Android compatibles. La página actual de <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/android/#over-the-air-updates">Android</a>
 explica qué verifica la aplicación y qué sigue necesitando una compilación nativa.</p>
 <p>Además, sesenta y cinco páginas describían un modelo de documentos que la reconstrucción sustituyó por
 Postgres. Treinta y cinco mencionaban una versión para iOS retirada el 16 de julio de 2026. Toda una sección
 explicaba cómo instalar y usar una extensión que no existía entonces.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-hicimos-al-respecto">Qué hicimos al respecto<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0#qu%C3%A9-hicimos-al-respecto" class="hash-link" aria-label="Enlace directo a Qué hicimos al respecto" title="Enlace directo a Qué hicimos al respecto" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-hicimos-al-respecto">Qué hicimos al respecto<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/#qu%C3%A9-hicimos-al-respecto" class="hash-link" aria-label="Enlace directo a Qué hicimos al respecto" title="Enlace directo a Qué hicimos al respecto" translate="no">​</a></h2>
 <p>Eliminamos todas las páginas. Escribimos las nuevas a partir del código: el formato de exportación proviene
 del registro de tablas que lee el propio exportador; los límites de los planes, del registro de planes; el
 mínimo de Android, del archivo de compilación; y las funciones de administración, de su superficie derivada.</p>
 <p>Cuando algo solo estaba construido a medias, la página decía cuál era la parte disponible. Había siete
-casos, reunidos en <a class="" href="https://lifewell-docs.aoneahsan.com/es/about/changelog">Qué cambió en la versión 3.0.0</a>.</p>
+casos, reunidos en <a class="" href="https://lifewell-docs.aoneahsan.com/es/about/changelog/">Qué cambió en la versión 3.0.0</a>.</p>
 <p>Comprobamos cada cifra que podía verificarse. La documentación anterior decía que Android 7.0 era el mínimo.
 El archivo de compilación fijaba el nivel 28, es decir, Android 9.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-regla-que-sigue-este-sitio">La regla que sigue este sitio<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0#la-regla-que-sigue-este-sitio" class="hash-link" aria-label="Enlace directo a La regla que sigue este sitio" title="Enlace directo a La regla que sigue este sitio" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-regla-que-sigue-este-sitio">La regla que sigue este sitio<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/#la-regla-que-sigue-este-sitio" class="hash-link" aria-label="Enlace directo a La regla que sigue este sitio" title="Enlace directo a La regla que sigue este sitio" translate="no">​</a></h2>
 <p><strong>Una página solo puede describir lo que el producto hace de verdad.</strong></p>
 <p>No lo que está a punto de hacer, lo que promete una hoja de ruta ni lo que sonaría mejor. Si algo no está
 construido, la página lo dice; no anuncia que «llegará pronto». Si un control hace menos de lo que parece,
@@ -54,17 +54,13 @@ la limitación se explica junto al control, no tres secciones después.</p>
 cierto y no volver a revisarlo cuando cambia el producto. Por eso las páginas que describen un comportamiento
 indican dónde vive en el código. La página del formato de exportación se genera desde el mismo registro que
 lee la función de exportar; así no puede describir un archivo que el producto no produce.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="adónde-fueron-las-direcciones-antiguas">Adónde fueron las direcciones antiguas<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0#ad%C3%B3nde-fueron-las-direcciones-antiguas" class="hash-link" aria-label="Enlace directo a Adónde fueron las direcciones antiguas" title="Enlace directo a Adónde fueron las direcciones antiguas" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="adónde-fueron-las-direcciones-antiguas">Adónde fueron las direcciones antiguas<a href="https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0/#ad%C3%B3nde-fueron-las-direcciones-antiguas" class="hash-link" aria-label="Enlace directo a Adónde fueron las direcciones antiguas" title="Enlace directo a Adónde fueron las direcciones antiguas" translate="no">​</a></h2>
 <p>Todas las direcciones bajo <code>/docs/**</code> redirigen ahora. La documentación pasó a la raíz del sitio. Por eso
 <code>/reference/export-format</code>, la dirección que la aplicación enlaza desde la pantalla de exportación, funciona.</p>
 <p>Una página sobre algo que ya no existe dirige a una explicación actual, en vez de mostrar un error 404. Las
-guías antiguas de la extensión llegan a <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/browser-extension">Extensión para navegador</a>, donde se
+guías antiguas de la extensión llegan a <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/browser-extension/">Extensión para navegador</a>, donde se
 explica que los paquetes de Chrome y Firefox están construidos y cuál es su estado de publicación. Las
-páginas de iOS llegan a <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/ios">iOS</a>, con la fecha en que se retiró y la condición para que vuelva.</p>]]></content:encoded>
-            <category>Anuncio</category>
-            <category>LifeWell</category>
-            <category>Documentación</category>
-            <category>Versión</category>
+páginas de iOS llegan a <a class="" href="https://lifewell-docs.aoneahsan.com/es/platforms/ios/">iOS</a>, con la fecha en que se retiró y la condición para que vuelva.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

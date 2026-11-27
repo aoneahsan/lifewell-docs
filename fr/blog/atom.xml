@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lifewell-docs.aoneahsan.com/fr/blog</id>
+    <id>https://lifewell-docs.aoneahsan.com/fr/blog/</id>
     <title>LifeWell · Articles</title>
     <updated>2026-09-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/fr/blog"/>
+    <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/fr/blog/"/>
     <subtitle>Nouvelles et notes de version de l’équipe LifeWell : ce qui a changé dans l’application et pourquoi.</subtitle>
     <icon>https://lifewell-docs.aoneahsan.com/fr/img/favicon.ico</icon>
     <rights>© 2026 LifeWell · LifeWell — développé avec amour par l’équipe Zaions. Documentation sous licence CC BY 4.0.</rights>
     <entry>
         <title type="html"><![CDATA[La documentation était inexacte. Nous l’avons réécrite.]]></title>
-        <id>https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0</id>
-        <link href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0"/>
+        <id>https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/</id>
+        <link href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/"/>
         <updated>2026-09-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[La version 3.0.0 de LifeWell est une reconstruction sur une nouvelle infrastructure. L’ancienne documentation décrivait une application qui n’existe plus. Chaque page a été réécrite à partir du code.]]></summary>
         <content type="html"><![CDATA[<p>La version précédente de ce site décrivait une application iOS supprimée, une extension de navigateur qui n’était pas encore distribuée, une base de données que l’application n’utilise plus et des outils de mesure presque à l’opposé de ceux réellement employés.</p>
 <p>Ces pages avaient été écrites de bonne foi. Puis le produit a changé, sans que personne ne revienne les corriger.</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ce-qui-était-inexact">Ce qui était inexact<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0#ce-qui-%C3%A9tait-inexact" class="hash-link" aria-label="Lien direct vers Ce qui était inexact" title="Lien direct vers Ce qui était inexact" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ce-qui-était-inexact">Ce qui était inexact<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/#ce-qui-%C3%A9tait-inexact" class="hash-link" aria-label="Lien direct vers Ce qui était inexact" title="Lien direct vers Ce qui était inexact" translate="no">​</a></h2>
 <p>Trois affirmations méritent d’être reprises, car des personnes les avaient lues et crues.</p>
 <p><strong><code>/feed</code> était présenté comme un fil social.</strong> C’est la liste publique et lisible des derniers articles du blog. LifeWell ne possède pas de fil social et n’en a jamais eu.</p>
 <p><strong>Firebase Analytics était présenté comme interdit et remplacé.</strong> Google Analytics 4 <em>est</em> la propriété Firebase Analytics — une seule propriété, désignée de deux façons — et fonctionne aux côtés d’Amplitude, de Clarity et de Sentry. Une personne qui cherchait à savoir ce que l’application mesure avait reçu l’inverse de la vérité.</p>
-<p><strong>Les mises à jour à distance étaient décrites comme « pas encore intégrées ».</strong> C’était exact lors de la réécriture pour la version 3.0.0. LifeWell intègre désormais des paquets Native Update signés sur les installations Android compatibles. La <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/android#over-the-air-updates">page Android</a> actuelle explique ce que l’application vérifie et ce qui nécessite encore une version native.</p>
+<p><strong>Les mises à jour à distance étaient décrites comme « pas encore intégrées ».</strong> C’était exact lors de la réécriture pour la version 3.0.0. LifeWell intègre désormais des paquets Native Update signés sur les installations Android compatibles. La <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/android/#over-the-air-updates">page Android</a> actuelle explique ce que l’application vérifie et ce qui nécessite encore une version native.</p>
 <p>Par ailleurs, soixante-cinq pages décrivaient un modèle de documents remplacé par Postgres, trente-cinq citaient une plateforme iOS supprimée le 16 juillet 2026, et toute une section expliquait comment installer et utiliser une extension qui n’existait pas encore.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ce-que-nous-avons-changé">Ce que nous avons changé<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0#ce-que-nous-avons-chang%C3%A9" class="hash-link" aria-label="Lien direct vers Ce que nous avons changé" title="Lien direct vers Ce que nous avons changé" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ce-que-nous-avons-changé">Ce que nous avons changé<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/#ce-que-nous-avons-chang%C3%A9" class="hash-link" aria-label="Lien direct vers Ce que nous avons changé" title="Lien direct vers Ce que nous avons changé" translate="no">​</a></h2>
 <p>Toutes les pages ont été supprimées. Leurs remplaçantes ont été écrites à partir du code source : le format d’exportation provient du registre des tables utilisé par l’exportateur lui-même, les limites des offres de leur registre, la version minimale d’Android du fichier de compilation et les fonctions d’administration de l’interface correspondante.</p>
-<p>Lorsqu’une fonction n’est construite qu’en partie, la page précise laquelle. Elles sont sept, réunies dans <a class="" href="https://lifewell-docs.aoneahsan.com/fr/about/changelog">Ce qui a changé dans la version 3.0.0</a>.</p>
+<p>Lorsqu’une fonction n’est construite qu’en partie, la page précise laquelle. Elles sont sept, réunies dans <a class="" href="https://lifewell-docs.aoneahsan.com/fr/about/changelog/">Ce qui a changé dans la version 3.0.0</a>.</p>
 <p>Nous avons vérifié les chiffres vérifiables. L’ancienne documentation indiquait Android 7.0 comme minimum ; le fichier de compilation indique le niveau 28, soit Android 9.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-règle-que-suit-désormais-ce-site">La règle que suit désormais ce site<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0#la-r%C3%A8gle-que-suit-d%C3%A9sormais-ce-site" class="hash-link" aria-label="Lien direct vers La règle que suit désormais ce site" title="Lien direct vers La règle que suit désormais ce site" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-règle-que-suit-désormais-ce-site">La règle que suit désormais ce site<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/#la-r%C3%A8gle-que-suit-d%C3%A9sormais-ce-site" class="hash-link" aria-label="Lien direct vers La règle que suit désormais ce site" title="Lien direct vers La règle que suit désormais ce site" translate="no">​</a></h2>
 <p><strong>Une page ne décrit que ce que le produit fait réellement.</strong></p>
 <p>Ni ce qu’il s’apprête à faire, ni ce que prévoit sa feuille de route, ni ce qui sonnerait mieux. Si une fonction n’est pas construite, la page le dit clairement. Si une commande fait moins que son apparence ne le laisse penser, la limite est expliquée à côté de cette commande.</p>
 <p>Cette règle demande plus de vigilance qu’il n’y paraît. Le risque n’est pas seulement de dire quelque chose de faux : c’est de laisser en place une phrase juste après que le produit a changé. Les pages qui décrivent un comportement indiquent désormais où il se trouve dans le code. La page du format d’exportation repose sur le même registre que l’exportateur, pour ne pas décrire un fichier que le produit ne crée pas.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="où-mènent-les-anciennes-adresses">Où mènent les anciennes adresses<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0#o%C3%B9-m%C3%A8nent-les-anciennes-adresses" class="hash-link" aria-label="Lien direct vers Où mènent les anciennes adresses" title="Lien direct vers Où mènent les anciennes adresses" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="où-mènent-les-anciennes-adresses">Où mènent les anciennes adresses<a href="https://lifewell-docs.aoneahsan.com/fr/blog/documentation-rewritten-for-3-0-0/#o%C3%B9-m%C3%A8nent-les-anciennes-adresses" class="hash-link" aria-label="Lien direct vers Où mènent les anciennes adresses" title="Lien direct vers Où mènent les anciennes adresses" translate="no">​</a></h2>
 <p>Toutes les adresses sous <code>/docs/**</code> redirigent maintenant. La documentation se trouve à la racine du site ; <code>/reference/export-format</code>, l’adresse ouverte depuis l’écran d’exportation de l’application, fonctionne donc.</p>
-<p>Une page consacrée à une fonction disparue redirige vers celle qui explique la situation actuelle. Les anciens guides de l’extension mènent à <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/browser-extension">Extension de navigateur</a>, qui décrit le compagnon Chrome et Firefox déjà construit et son état de publication. Les pages iOS mènent à <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/ios">iOS</a>, où figurent la date de retrait et la condition d’un éventuel retour.</p>]]></content>
+<p>Une page consacrée à une fonction disparue redirige vers celle qui explique la situation actuelle. Les anciens guides de l’extension mènent à <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/browser-extension/">Extension de navigateur</a>, qui décrit le compagnon Chrome et Firefox déjà construit et son état de publication. Les pages iOS mènent à <a class="" href="https://lifewell-docs.aoneahsan.com/fr/platforms/ios/">iOS</a>, où figurent la date de retrait et la condition d’un éventuel retour.</p>]]></content>
         <author>
             <name>L’équipe LifeWell</name>
             <uri>https://lifewell.aoneahsan.com</uri>
         </author>
-        <category label="Annonce" term="Annonce"/>
-        <category label="LifeWell" term="LifeWell"/>
-        <category label="Documentation" term="Documentation"/>
-        <category label="Version" term="Version"/>
     </entry>
 </feed>

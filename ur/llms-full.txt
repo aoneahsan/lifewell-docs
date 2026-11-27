@@ -11,7 +11,7 @@
 
 ## LifeWell پر منتقل ہونا
 
-- [دوسری ایپ سے LifeWell پر منتقل ہونا](https://lifewell-docs.aoneahsan.com/ur/compare/): خاندانی شجرے، منصوبہ بندی اور صحت کا ریکارڈ رکھنے والی 32 مصنوعات سے LifeWell پر آنے کے مرحلہ وار رہنما صفحات، ہر ایک کے ساتھ جانچ کی تاریخ۔
+- [دوسری ایپ سے LifeWell پر منتقل ہونا](https://lifewell-docs.aoneahsan.com/ur/compare): خاندانی شجرے، منصوبہ بندی اور صحت کا ریکارڈ رکھنے والی 32 مصنوعات سے LifeWell پر آنے کے مرحلہ وار رہنما صفحات، ہر ایک کے ساتھ جانچ کی تاریخ۔
 - [FamilySearch سے LifeWell پر آنا](https://lifewell-docs.aoneahsan.com/ur/compare/familysearch): FamilySearch سے LifeWell پر خاندانی شجرہ کیسے لائیں، دونوں میں کیا فرق ہے اور قیمت کیا ہے۔ 2026-11-26 کو جانچا گیا۔
 - [Ancestry سے LifeWell کی طرف](https://lifewell-docs.aoneahsan.com/ur/compare/ancestry): Ancestry سے LifeWell پر آنے کا طریقہ، دونوں میں فرق اور قیمتیں۔ 2026-11-26 کو جانچ کی گئی۔
 - [MyHeritage سے LifeWell پر آنا](https://lifewell-docs.aoneahsan.com/ur/compare/myheritage): MyHeritage سے LifeWell پر خاندانی شجرہ کیسے لائیں، دونوں میں کیا فرق ہے اور قیمت کیا ہے۔ 2026-11-26 کو جانچا گیا۔
@@ -122,7 +122,7 @@
 
 ## ڈویلپرز
 
-- [LifeWell کو دوسری ایپس سے جوڑیں](https://lifewell-docs.aoneahsan.com/ur/developers/): LifeWell سے باہر کی چیز آپ کے ریکارڈ تک چار طریقوں سے پہنچ سکتی ہے: کیلنڈر ایپ فیڈ سے، اسکرپٹ رسائی ٹوکن سے، AI معاون MCP سے، اور دوسری ایپ ویب ہکس سے۔
+- [LifeWell کو دوسری ایپس سے جوڑیں](https://lifewell-docs.aoneahsan.com/ur/developers): LifeWell سے باہر کی چیز آپ کے ریکارڈ تک چار طریقوں سے پہنچ سکتی ہے: کیلنڈر ایپ فیڈ سے، اسکرپٹ رسائی ٹوکن سے، AI معاون MCP سے، اور دوسری ایپ ویب ہکس سے۔
 - [رسائی ٹوکن اور توثیق](https://lifewell-docs.aoneahsan.com/ur/developers/authentication): اسکرپٹ یا ایپ کیسے ثابت کرتی ہے کہ اسے آپ کا LifeWell ریکارڈ پڑھنے کی اجازت ہے: پڑھنے، لکھنے اور حذف کرنے کی الگ اجازتیں، ٹوکن دوبارہ دکھانے کا 10 منٹ کا اصول، ایپس کے لیے OAuth، درخواستوں کی حدیں اور خرابیاں۔
 - [LifeWell API](https://lifewell-docs.aoneahsan.com/ur/developers/api): LifeWell REST API کا بنیادی پتہ، فہرستوں میں بنیادی طور پر 20 اور زیادہ سے زیادہ 50 قطاریں، اور ہر راستہ اور خانہ بیان کرنے والی OpenAPI فائل۔
 - [AI معاون جوڑیں (MCP)](https://lifewell-docs.aoneahsan.com/ur/developers/mcp): LifeWell MCP سرور سے Claude، ChatGPT، Claude Code یا Cursor کو اپنے ریکارڈ سے جوڑیں؛ اجازت کا صفحہ کیا پوچھتا ہے، حذف کی تصدیق کیسے ہوتی ہے اور رابطہ کیسے ختم کریں۔

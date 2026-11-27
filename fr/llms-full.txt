@@ -11,7 +11,7 @@
 
 ## Passer à LifeWell
 
-- [Passer à LifeWell depuis une autre application](https://lifewell-docs.aoneahsan.com/fr/compare/): Guides étape par étape pour passer à LifeWell depuis 32 produits de généalogie, d’organisation et de suivi de santé, avec la date de vérification de chacun.
+- [Passer à LifeWell depuis une autre application](https://lifewell-docs.aoneahsan.com/fr/compare): Guides étape par étape pour passer à LifeWell depuis 32 produits de généalogie, d’organisation et de suivi de santé, avec la date de vérification de chacun.
 - [Passer de FamilySearch à LifeWell](https://lifewell-docs.aoneahsan.com/fr/compare/familysearch): Comment passer de FamilySearch à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026.
 - [Passer d’Ancestry à LifeWell](https://lifewell-docs.aoneahsan.com/fr/compare/ancestry): Comment passer d’Ancestry à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026.
 - [Passer de MyHeritage à LifeWell](https://lifewell-docs.aoneahsan.com/fr/compare/myheritage): Comment passer de MyHeritage à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026.
@@ -122,7 +122,7 @@
 
 ## Développeurs
 
-- [Relier LifeWell à d’autres applications](https://lifewell-docs.aoneahsan.com/fr/developers/): Quatre chemins vers votre dossier depuis l’extérieur : calendrier par flux, script par jeton, assistant IA par MCP et autre application par webhook.
+- [Relier LifeWell à d’autres applications](https://lifewell-docs.aoneahsan.com/fr/developers): Quatre chemins vers votre dossier depuis l’extérieur : calendrier par flux, script par jeton, assistant IA par MCP et autre application par webhook.
 - [Jetons d’accès et authentification](https://lifewell-docs.aoneahsan.com/fr/developers/authentication): Comment un script ou une application prouve son droit de lire votre dossier LifeWell : jetons avec portées, règle des dix minutes, OAuth, limites de débit et erreurs.
 - [L’API LifeWell](https://lifewell-docs.aoneahsan.com/fr/developers/api): Adresse de base de l’API REST LifeWell, pagination par curseur de 20 lignes par défaut et 50 au maximum, et fichier OpenAPI décrivant chaque route et champ.
 - [Connecter un assistant IA (MCP)](https://lifewell-docs.aoneahsan.com/fr/developers/mcp): Reliez Claude, ChatGPT, Claude Code ou Cursor à votre dossier LifeWell par le serveur MCP ; découvrez les autorisations, la confirmation des suppressions et la déconnexion.
