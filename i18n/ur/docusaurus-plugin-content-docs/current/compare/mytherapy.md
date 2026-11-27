@@ -2,6 +2,7 @@
 sidebar_position: 25
 title: MyTherapy سے LifeWell کی طرف
 description: "MyTherapy سے LifeWell پر آنے کا طریقہ، فرق اور قیمت۔ 2026-11-26 کو جانچ کی گئی۔"
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell کی ٹیم

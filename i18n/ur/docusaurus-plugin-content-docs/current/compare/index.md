@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: دوسری ایپ سے LifeWell پر منتقل ہونا
 description: خاندانی شجرے، منصوبہ بندی اور صحت کا ریکارڈ رکھنے والی 32 مصنوعات سے LifeWell پر آنے کے مرحلہ وار رہنما صفحات، ہر ایک کے ساتھ جانچ کی تاریخ۔
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

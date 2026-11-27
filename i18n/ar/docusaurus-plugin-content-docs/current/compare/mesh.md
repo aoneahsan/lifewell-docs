@@ -2,6 +2,7 @@
 sidebar_position: 14
 title: "الانتقال من Mesh إلى LifeWell"
 description: "اختيار العائلة والأصدقاء من Mesh لسجل LifeWell، والفروق والأسعار. روجعت في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

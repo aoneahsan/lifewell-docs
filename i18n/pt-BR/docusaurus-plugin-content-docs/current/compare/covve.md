@@ -2,6 +2,7 @@
 sidebar_position: 16
 title: Migrar do Covve para o LifeWell
 description: "Como migrar do Covve para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

@@ -2,6 +2,7 @@
 sidebar_position: 21
 title: Migrar do TickTick para o LifeWell
 description: "Como migrar do TickTick para o LifeWell, as diferenças entre eles e quanto custam. Verificado em 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

@@ -2,6 +2,7 @@
 sidebar_position: 17
 title: Pasar de Cloze a LifeWell
 description: "Cómo pasar de Cloze a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo de LifeWell

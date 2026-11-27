@@ -1,0 +1,129 @@
+overview:
+  label: "Présentation"
+  permalink: /overview
+getting-started:
+  label: "Premiers pas"
+  permalink: /getting-started
+features:
+  label: "Fonctions"
+  permalink: /features
+concepts:
+  label: "Notions"
+  permalink: /concepts
+developers:
+  label: "Développeurs"
+  permalink: /developers
+domains:
+  label: "Espaces"
+  permalink: /domains
+white-label:
+  label: "Marque blanche"
+  permalink: /white-label
+people:
+  label: "Proches"
+  permalink: /people
+privacy:
+  label: "Confidentialité"
+  permalink: /privacy
+reference:
+  label: "Référence"
+  permalink: /reference
+your-data:
+  label: "Votre dossier"
+  permalink: /your-data
+everyday:
+  label: "Quotidien"
+  permalink: /everyday
+platforms:
+  label: "Plateformes"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "À propos"
+  permalink: /about
+plans:
+  label: "Offres"
+  permalink: /plans
+faq:
+  label: "Questions fréquentes"
+  permalink: /faq
+architecture:
+  label: "Structure technique"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "Web"
+  permalink: /web
+changelog:
+  label: "Historique des versions"
+  permalink: /changelog
+security:
+  label: "Sécurité"
+  permalink: /security
+export:
+  label: "Exportation"
+  permalink: /export
+health:
+  label: "Santé"
+  permalink: /health
+memories:
+  label: "Souvenirs"
+  permalink: /memories
+admin:
+  label: "Administration"
+  permalink: /admin
+account:
+  label: "Compte"
+  permalink: /account
+appearance:
+  label: "Apparence"
+  permalink: /appearance
+i18n:
+  label: "Langues"
+  permalink: /i18n
+accessibility:
+  label: "Accessibilité"
+  permalink: /accessibility
+offline:
+  label: "Hors ligne"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "IA"
+  permalink: /ai
+calendar:
+  label: "Calendrier"
+  permalink: /calendar
+webhooks:
+  label: "Webhooks"
+  permalink: /webhooks
+mind:
+  label: "Esprit"
+  permalink: /mind
+stages:
+  label: "Étapes de la vie"
+  permalink: /stages
+sharing:
+  label: "Partage"
+  permalink: /sharing
+seo:
+  label: "Référencement"
+  permalink: /seo
+tools:
+  label: "Outils"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "Extension de navigateur"
+  permalink: /extension
+comparison:
+  label: "Comparaisons"
+  permalink: /comparison

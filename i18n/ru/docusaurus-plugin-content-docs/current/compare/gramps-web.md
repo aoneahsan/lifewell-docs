@@ -2,6 +2,7 @@
 sidebar_position: 6
 title: Переход с Gramps Web на LifeWell
 description: "Как перейти с Gramps Web на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

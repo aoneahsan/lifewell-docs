@@ -1,0 +1,129 @@
+overview:
+  label: "Resumen"
+  permalink: /overview
+getting-started:
+  label: "Primeros pasos"
+  permalink: /getting-started
+features:
+  label: "Funciones"
+  permalink: /features
+concepts:
+  label: "Conceptos"
+  permalink: /concepts
+developers:
+  label: "Desarrolladores"
+  permalink: /developers
+domains:
+  label: "Áreas"
+  permalink: /domains
+white-label:
+  label: "Marca blanca"
+  permalink: /white-label
+people:
+  label: "Personas"
+  permalink: /people
+privacy:
+  label: "Privacidad"
+  permalink: /privacy
+reference:
+  label: "Referencia"
+  permalink: /reference
+your-data:
+  label: "Tu registro"
+  permalink: /your-data
+everyday:
+  label: "Vida diaria"
+  permalink: /everyday
+platforms:
+  label: "Plataformas"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "Acerca de"
+  permalink: /about
+plans:
+  label: "Planes"
+  permalink: /plans
+faq:
+  label: "Preguntas"
+  permalink: /faq
+architecture:
+  label: "Arquitectura"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "Web"
+  permalink: /web
+changelog:
+  label: "Cambios"
+  permalink: /changelog
+security:
+  label: "Seguridad"
+  permalink: /security
+export:
+  label: "Exportación"
+  permalink: /export
+health:
+  label: "Salud"
+  permalink: /health
+memories:
+  label: "Recuerdos"
+  permalink: /memories
+admin:
+  label: "Administración"
+  permalink: /admin
+account:
+  label: "Cuenta"
+  permalink: /account
+appearance:
+  label: "Apariencia"
+  permalink: /appearance
+i18n:
+  label: "Idiomas"
+  permalink: /i18n
+accessibility:
+  label: "Accesibilidad"
+  permalink: /accessibility
+offline:
+  label: "Sin conexión"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "IA"
+  permalink: /ai
+calendar:
+  label: "Calendario"
+  permalink: /calendar
+webhooks:
+  label: "Webhooks"
+  permalink: /webhooks
+mind:
+  label: "Mente"
+  permalink: /mind
+stages:
+  label: "Etapas de la vida"
+  permalink: /stages
+sharing:
+  label: "Compartir"
+  permalink: /sharing
+seo:
+  label: "Posicionamiento"
+  permalink: /seo
+tools:
+  label: "Herramientas"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "Extensión del navegador"
+  permalink: /extension
+comparison:
+  label: "Comparaciones"
+  permalink: /comparison

@@ -1,0 +1,129 @@
+overview:
+  label: "Обзор"
+  permalink: /overview
+getting-started:
+  label: "Начало работы"
+  permalink: /getting-started
+features:
+  label: "Возможности"
+  permalink: /features
+concepts:
+  label: "Понятия"
+  permalink: /concepts
+developers:
+  label: "Разработчикам"
+  permalink: /developers
+domains:
+  label: "Разделы"
+  permalink: /domains
+white-label:
+  label: "Лицензия под своим брендом"
+  permalink: /white-label
+people:
+  label: "Люди"
+  permalink: /people
+privacy:
+  label: "Конфиденциальность"
+  permalink: /privacy
+reference:
+  label: "Справка"
+  permalink: /reference
+your-data:
+  label: "Ваши записи"
+  permalink: /your-data
+everyday:
+  label: "Повседневное"
+  permalink: /everyday
+platforms:
+  label: "Платформы"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "О проекте"
+  permalink: /about
+plans:
+  label: "Планы"
+  permalink: /plans
+faq:
+  label: "Вопросы"
+  permalink: /faq
+architecture:
+  label: "Архитектура"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "Веб"
+  permalink: /web
+changelog:
+  label: "История изменений"
+  permalink: /changelog
+security:
+  label: "Безопасность"
+  permalink: /security
+export:
+  label: "Экспорт"
+  permalink: /export
+health:
+  label: "Здоровье"
+  permalink: /health
+memories:
+  label: "Воспоминания"
+  permalink: /memories
+admin:
+  label: "Администрирование"
+  permalink: /admin
+account:
+  label: "Учётная запись"
+  permalink: /account
+appearance:
+  label: "Внешний вид"
+  permalink: /appearance
+i18n:
+  label: "Языки"
+  permalink: /i18n
+accessibility:
+  label: "Доступность"
+  permalink: /accessibility
+offline:
+  label: "Без сети"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "ИИ"
+  permalink: /ai
+calendar:
+  label: "Календарь"
+  permalink: /calendar
+webhooks:
+  label: "Вебхуки"
+  permalink: /webhooks
+mind:
+  label: "Разум"
+  permalink: /mind
+stages:
+  label: "Этапы жизни"
+  permalink: /stages
+sharing:
+  label: "Общий доступ"
+  permalink: /sharing
+seo:
+  label: "Поисковая оптимизация"
+  permalink: /seo
+tools:
+  label: "Инструменты"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "Расширение браузера"
+  permalink: /extension
+comparison:
+  label: "Сравнения"
+  permalink: /comparison

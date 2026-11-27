@@ -2,6 +2,7 @@
 sidebar_position: 4
 title: Moving from MyHeritage to LifeWell
 description: "How to move from MyHeritage to LifeWell, how they differ and what each costs. Checked 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

@@ -2,6 +2,7 @@
 sidebar_position: 17
 title: ClozeからLifeWellへ移る
 description: "ClozeからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。"
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

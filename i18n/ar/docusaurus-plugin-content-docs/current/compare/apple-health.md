@@ -2,6 +2,7 @@
 sidebar_position: 28
 title: "الانتقال من Apple Health إلى LifeWell"
 description: "كيفية نقل ما تحتاجه من Apple Health إلى LifeWell، وأوجه الاختلاف والتكلفة. روجعت في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

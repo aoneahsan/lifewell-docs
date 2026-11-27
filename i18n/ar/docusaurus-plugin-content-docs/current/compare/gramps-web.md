@@ -2,6 +2,7 @@
 sidebar_position: 6
 title: "الانتقال من Gramps Web إلى LifeWell"
 description: "نقل جزء من شجرتك من Gramps Web إلى LifeWell، والفروق والتكلفة. روجعت في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

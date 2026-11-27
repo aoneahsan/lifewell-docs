@@ -2,6 +2,7 @@
 sidebar_position: 13
 title: Pasar de Monica a LifeWell
 description: "Cómo pasar de Monica a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo de LifeWell

@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: Pasar de FamilySearch a LifeWell
 description: "Cómo pasar de FamilySearch a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: El equipo de LifeWell

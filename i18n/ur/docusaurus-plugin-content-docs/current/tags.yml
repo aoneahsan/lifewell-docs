@@ -1,0 +1,129 @@
+overview:
+  label: "تعارف"
+  permalink: /overview
+getting-started:
+  label: "شروع کریں"
+  permalink: /getting-started
+features:
+  label: "خصوصیات"
+  permalink: /features
+concepts:
+  label: "بنیادی باتیں"
+  permalink: /concepts
+developers:
+  label: "ڈویلپرز"
+  permalink: /developers
+domains:
+  label: "زندگی کے شعبے"
+  permalink: /domains
+white-label:
+  label: "وائٹ لیبل"
+  permalink: /white-label
+people:
+  label: "لوگ"
+  permalink: /people
+privacy:
+  label: "رازداری"
+  permalink: /privacy
+reference:
+  label: "حوالہ"
+  permalink: /reference
+your-data:
+  label: "آپ کا ریکارڈ"
+  permalink: /your-data
+everyday:
+  label: "روزمرہ"
+  permalink: /everyday
+platforms:
+  label: "پلیٹ فارمز"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "تعارف"
+  permalink: /about
+plans:
+  label: "منصوبے"
+  permalink: /plans
+faq:
+  label: "سوالات"
+  permalink: /faq
+architecture:
+  label: "ساخت"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "ویب"
+  permalink: /web
+changelog:
+  label: "تبدیلیوں کی فہرست"
+  permalink: /changelog
+security:
+  label: "تحفظ"
+  permalink: /security
+export:
+  label: "برآمد"
+  permalink: /export
+health:
+  label: "صحت"
+  permalink: /health
+memories:
+  label: "یادیں"
+  permalink: /memories
+admin:
+  label: "انتظامیہ"
+  permalink: /admin
+account:
+  label: "اکاؤنٹ"
+  permalink: /account
+appearance:
+  label: "ظاہری شکل"
+  permalink: /appearance
+i18n:
+  label: "زبانیں"
+  permalink: /i18n
+accessibility:
+  label: "رسائی"
+  permalink: /accessibility
+offline:
+  label: "آف لائن"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "مصنوعی ذہانت"
+  permalink: /ai
+calendar:
+  label: "کیلنڈر"
+  permalink: /calendar
+webhooks:
+  label: "ویب ہکس"
+  permalink: /webhooks
+mind:
+  label: "ذہن"
+  permalink: /mind
+stages:
+  label: "زندگی کے مراحل"
+  permalink: /stages
+sharing:
+  label: "اشتراک"
+  permalink: /sharing
+seo:
+  label: "تلاش کی بہتری"
+  permalink: /seo
+tools:
+  label: "آلات"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "براؤزر ایکسٹینشن"
+  permalink: /extension
+comparison:
+  label: "موازنہ"
+  permalink: /comparison

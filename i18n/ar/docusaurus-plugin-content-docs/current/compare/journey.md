@@ -2,6 +2,7 @@
 sidebar_position: 11
 title: "الانتقال من Journey إلى LifeWell"
 description: "نقل الذكريات من Journey إلى LifeWell، والفروق والأسعار. روجعت في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

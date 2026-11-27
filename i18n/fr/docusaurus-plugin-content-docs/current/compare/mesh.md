@@ -2,6 +2,7 @@
 sidebar_position: 14
 title: Passer de Mesh à LifeWell
 description: "Comment passer de Mesh à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

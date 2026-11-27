@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Pasar a LifeWell desde otra aplicación
 description: Guías paso a paso para pasar a LifeWell desde 32 productos de árboles familiares, organización y registros de salud, con la fecha de revisión de cada uno.
+tags: [comparison]
 last_update:
   date: 2026-11-07
   author: El equipo LifeWell

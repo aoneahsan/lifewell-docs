@@ -2,6 +2,7 @@
 sidebar_position: 31
 title: Переход с Evergreen Life на LifeWell
 description: "Как перейти с Evergreen Life на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell

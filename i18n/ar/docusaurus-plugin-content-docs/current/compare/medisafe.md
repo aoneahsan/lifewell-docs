@@ -2,6 +2,7 @@
 sidebar_position: 24
 title: "الانتقال من Medisafe إلى LifeWell"
 description: "كيف تنتقل من Medisafe إلى LifeWell، وأين يختلفان، وما تكلفة كل منهما. تم التحقق في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

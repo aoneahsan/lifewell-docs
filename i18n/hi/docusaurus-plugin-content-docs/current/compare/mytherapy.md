@@ -2,6 +2,7 @@
 sidebar_position: 25
 title: MyTherapy से LifeWell पर आना
 description: "MyTherapy से LifeWell पर कैसे आएँ, दोनों में क्या अंतर है और उनकी कीमत क्या है। जाँच की तारीख: 2026-11-26।"
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell टीम

@@ -2,6 +2,7 @@
 sidebar_position: 13
 title: "الانتقال من Monica إلى LifeWell"
 description: "نقل سجلات الأشخاص من Monica إلى LifeWell، والفروق والتكلفة. روجعت في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

@@ -1,0 +1,129 @@
+overview:
+  label: "نظرة عامة"
+  permalink: /overview
+getting-started:
+  label: "ابدأ"
+  permalink: /getting-started
+features:
+  label: "الميزات"
+  permalink: /features
+concepts:
+  label: "المفاهيم"
+  permalink: /concepts
+developers:
+  label: "المطوّرون"
+  permalink: /developers
+domains:
+  label: "مجالات الحياة"
+  permalink: /domains
+white-label:
+  label: "الترخيص بعلامة أخرى"
+  permalink: /white-label
+people:
+  label: "الأشخاص"
+  permalink: /people
+privacy:
+  label: "الخصوصية"
+  permalink: /privacy
+reference:
+  label: "المرجع"
+  permalink: /reference
+your-data:
+  label: "سجلك"
+  permalink: /your-data
+everyday:
+  label: "اليوميات"
+  permalink: /everyday
+platforms:
+  label: "المنصات"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "حول"
+  permalink: /about
+plans:
+  label: "الخطط"
+  permalink: /plans
+faq:
+  label: "الأسئلة"
+  permalink: /faq
+architecture:
+  label: "البنية"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "الويب"
+  permalink: /web
+changelog:
+  label: "سجل التغييرات"
+  permalink: /changelog
+security:
+  label: "الأمان"
+  permalink: /security
+export:
+  label: "التصدير"
+  permalink: /export
+health:
+  label: "الصحة"
+  permalink: /health
+memories:
+  label: "الذكريات"
+  permalink: /memories
+admin:
+  label: "الإدارة"
+  permalink: /admin
+account:
+  label: "الحساب"
+  permalink: /account
+appearance:
+  label: "المظهر"
+  permalink: /appearance
+i18n:
+  label: "اللغات"
+  permalink: /i18n
+accessibility:
+  label: "إمكانية الوصول"
+  permalink: /accessibility
+offline:
+  label: "دون اتصال"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "الذكاء الاصطناعي"
+  permalink: /ai
+calendar:
+  label: "التقويم"
+  permalink: /calendar
+webhooks:
+  label: "إشعارات الويب"
+  permalink: /webhooks
+mind:
+  label: "الذهن"
+  permalink: /mind
+stages:
+  label: "مراحل الحياة"
+  permalink: /stages
+sharing:
+  label: "المشاركة"
+  permalink: /sharing
+seo:
+  label: "تحسين البحث"
+  permalink: /seo
+tools:
+  label: "الأدوات"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "إضافة المتصفح"
+  permalink: /extension
+comparison:
+  label: "المقارنات"
+  permalink: /comparison

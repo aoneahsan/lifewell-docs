@@ -14,7 +14,7 @@ const JSON_CATALOGUES = [
 const MARKDOWN = /\.(?:md|mdx)$/;
 const PLACEHOLDER = /\{[a-zA-Z][\w.]*\}/g;
 const EMPTY_OR_DRAFT = /^(?:TODO|FIXME|TBD|TRANSLATE|PLACEHOLDER|coming soon|\[.*?translate.*?\])$/i;
-const UNCHANGED_TERMS = new Set(['LifeWell', 'Zaions', 'Ahsan Mahmood', 'GitHub', 'LinkedIn', 'Android', 'Google Play', 'RSS', 'Atom', 'Blog', 'CC BY 4.0', 'sitemap.xml', 'feed.xml', 'llms.txt']);
+const UNCHANGED_TERMS = new Set(['LifeWell', 'Zaions', 'Ahsan Mahmood', 'GitHub', 'LinkedIn', 'Android', 'Google Play', 'RSS', 'Atom', 'Blog', 'Webhooks', 'CC BY 4.0', 'sitemap.xml', 'feed.xml', 'llms.txt']);
 const issues: string[] = [];
 
 function file(relative: string): string { return path.join(ROOT, relative); }
@@ -167,6 +167,29 @@ function compareBlogTaxonomy(locale: string): void {
   });
   if (!existsSync(file(`${targetDir}/authors.yml`))) issues.push(`missing file ${targetDir}/authors.yml`);
 }
+function compareDocsTaxonomy(locale: string): void {
+  const source = read('docs/tags.yml');
+  const targetPath = `i18n/${locale}/docusaurus-plugin-content-docs/current/tags.yml`;
+  const target = read(targetPath);
+  const parse = (value: string): Map<string, {label: string; permalink: string}> => new Map(
+    [...value.matchAll(/^([a-z][a-z0-9-]*):\n {2}label: (.+)\n {2}permalink: (.+)$/gm)].map((match) => {
+      let label = '';
+      try { label = JSON.parse(match[2]) as string; }
+      catch { issues.push(`${targetPath}: invalid quoted tag label for ${match[1]}`); }
+      return [match[1], {label, permalink: match[3]}];
+    }),
+  );
+  const english = parse(source);
+  const translated = parse(target);
+  if (english.size === 0) issues.push('docs/tags.yml: no tags found');
+  for (const [key, entry] of english) {
+    const localized = translated.get(key);
+    if (!localized) { issues.push(`${targetPath}: missing ${key}`); continue; }
+    if (localized.permalink !== entry.permalink) issues.push(`${targetPath}: ${key} permalink changed`);
+    compareText(entry.label, localized.label, `${targetPath}:${key}`, locale);
+  }
+  for (const key of translated.keys()) if (!english.has(key)) issues.push(`${targetPath}: extra ${key}`);
+}
 function checkEnglishSource(): void {
   const code = json('i18n/en/code.json') as Record<string, unknown> | null;
   if (!code) return;
@@ -176,6 +199,15 @@ function checkEnglishSource(): void {
     for (const match of text.matchAll(/(?:translate\(\{\s*id:\s*|<Translate\s+id=)["']([^"']+)["']/g)) {
       if (!(match[1] in code)) issues.push(`i18n/en/code.json: missing source key ${match[1]} from src/${name}`);
     }
+  }
+  const taxonomy = read('docs/tags.yml');
+  const tagKeys = new Set([...taxonomy.matchAll(/^([a-z][a-z0-9-]*):$/gm)].map((match) => match[1]));
+  for (const name of filesIn('docs', (fileName) => MARKDOWN.test(fileName)).filter((entry) => !entry.startsWith('i18n/') && !['MANUAL-TASKS.md', 'PACKAGES.md'].includes(entry))) {
+    const source = read(`docs/${name}`);
+    const frontMatter = source.startsWith('---') ? source.split('---', 3)[1] : '';
+    const tags = frontMatter.match(/^tags:\s*\[([^\]]+)\]/m)?.[1].split(',').map((tag) => tag.trim());
+    if (!tags?.length) { issues.push(`docs/${name}: missing tags`); continue; }
+    for (const tag of tags) if (!tagKeys.has(tag)) issues.push(`docs/${name}: undefined tag ${tag}`);
   }
 }
 
@@ -188,6 +220,7 @@ if (!englishOnly) {
   for (const locale of LOCALES.filter((entry) => entry !== 'en' && (!requestedLocale || entry === requestedLocale))) {
     for (const relative of JSON_CATALOGUES) compareCatalogue(relative, locale);
     compareContent('docs', `i18n/${locale}/docusaurus-plugin-content-docs/current`, locale, new Set(['MANUAL-TASKS.md', 'PACKAGES.md']));
+    compareDocsTaxonomy(locale);
     compareContent('blog', `i18n/${locale}/docusaurus-plugin-content-blog`, locale);
     compareBlogTaxonomy(locale);
     const productDir = `src/content/ecosystem/${locale}`;

@@ -2,6 +2,7 @@
 sidebar_position: 6
 title: Passer de Gramps Web à LifeWell
 description: "Comment passer de Gramps Web à LifeWell, ce qui les distingue et leurs tarifs. Vérifié le 26 novembre 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

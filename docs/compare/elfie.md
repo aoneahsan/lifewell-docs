@@ -2,6 +2,7 @@
 sidebar_position: 32
 title: Moving from Elfie to LifeWell
 description: "How to move from Elfie to LifeWell, how they differ and what each costs. Checked 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

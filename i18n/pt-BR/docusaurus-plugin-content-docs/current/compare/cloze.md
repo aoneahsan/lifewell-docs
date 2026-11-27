@@ -2,6 +2,7 @@
 sidebar_position: 17
 title: Migrar do Cloze para o LifeWell
 description: "Como migrar do Cloze para o LifeWell, as diferenças e os preços de cada um. Conferido em 26/11/2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

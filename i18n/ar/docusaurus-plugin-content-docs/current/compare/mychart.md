@@ -2,6 +2,7 @@
 sidebar_position: 29
 title: "الانتقال من MyChart إلى LifeWell"
 description: "كيف تنتقل من MyChart إلى LifeWell، وأين يختلفان، وما تكلفة كل منهما. تم التحقق في 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: فريق LifeWell

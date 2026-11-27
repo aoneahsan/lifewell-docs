@@ -2,6 +2,7 @@
 sidebar_position: 30
 title: Withings+ سے LifeWell کی طرف
 description: "Withings+ سے LifeWell پر آنے کا طریقہ، فرق اور قیمتیں۔ 2026-11-26 کو جانچ کی گئی۔"
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell کی ٹیم

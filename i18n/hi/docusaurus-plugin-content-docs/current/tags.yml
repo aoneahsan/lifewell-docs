@@ -1,0 +1,129 @@
+overview:
+  label: "सिंहावलोकन"
+  permalink: /overview
+getting-started:
+  label: "शुरू करें"
+  permalink: /getting-started
+features:
+  label: "सुविधाएँ"
+  permalink: /features
+concepts:
+  label: "अवधारणाएँ"
+  permalink: /concepts
+developers:
+  label: "डेवलपर"
+  permalink: /developers
+domains:
+  label: "जीवन के क्षेत्र"
+  permalink: /domains
+white-label:
+  label: "व्हाइट लेबल"
+  permalink: /white-label
+people:
+  label: "लोग"
+  permalink: /people
+privacy:
+  label: "गोपनीयता"
+  permalink: /privacy
+reference:
+  label: "संदर्भ"
+  permalink: /reference
+your-data:
+  label: "आपका रिकॉर्ड"
+  permalink: /your-data
+everyday:
+  label: "रोज़मर्रा"
+  permalink: /everyday
+platforms:
+  label: "प्लैटफ़ॉर्म"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "परिचय"
+  permalink: /about
+plans:
+  label: "प्लान"
+  permalink: /plans
+faq:
+  label: "सवाल"
+  permalink: /faq
+architecture:
+  label: "संरचना"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "वेब"
+  permalink: /web
+changelog:
+  label: "बदलाव"
+  permalink: /changelog
+security:
+  label: "सुरक्षा"
+  permalink: /security
+export:
+  label: "निर्यात"
+  permalink: /export
+health:
+  label: "स्वास्थ्य"
+  permalink: /health
+memories:
+  label: "यादें"
+  permalink: /memories
+admin:
+  label: "प्रशासन"
+  permalink: /admin
+account:
+  label: "खाता"
+  permalink: /account
+appearance:
+  label: "रूप-रंग"
+  permalink: /appearance
+i18n:
+  label: "भाषाएँ"
+  permalink: /i18n
+accessibility:
+  label: "सुलभता"
+  permalink: /accessibility
+offline:
+  label: "ऑफ़लाइन"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "AI"
+  permalink: /ai
+calendar:
+  label: "कैलेंडर"
+  permalink: /calendar
+webhooks:
+  label: "वेबहुक"
+  permalink: /webhooks
+mind:
+  label: "मन"
+  permalink: /mind
+stages:
+  label: "जीवन के पड़ाव"
+  permalink: /stages
+sharing:
+  label: "साझा करना"
+  permalink: /sharing
+seo:
+  label: "खोज अनुकूलन"
+  permalink: /seo
+tools:
+  label: "टूल"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "ब्राउज़र एक्सटेंशन"
+  permalink: /extension
+comparison:
+  label: "तुलनाएँ"
+  permalink: /comparison

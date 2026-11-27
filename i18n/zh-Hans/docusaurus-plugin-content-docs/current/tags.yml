@@ -1,0 +1,129 @@
+overview:
+  label: "概览"
+  permalink: /overview
+getting-started:
+  label: "开始使用"
+  permalink: /getting-started
+features:
+  label: "功能"
+  permalink: /features
+concepts:
+  label: "概念"
+  permalink: /concepts
+developers:
+  label: "开发者"
+  permalink: /developers
+domains:
+  label: "生活领域"
+  permalink: /domains
+white-label:
+  label: "白标"
+  permalink: /white-label
+people:
+  label: "人物"
+  permalink: /people
+privacy:
+  label: "隐私"
+  permalink: /privacy
+reference:
+  label: "参考资料"
+  permalink: /reference
+your-data:
+  label: "你的记录"
+  permalink: /your-data
+everyday:
+  label: "日常"
+  permalink: /everyday
+platforms:
+  label: "平台"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "关于"
+  permalink: /about
+plans:
+  label: "套餐"
+  permalink: /plans
+faq:
+  label: "常见问题"
+  permalink: /faq
+architecture:
+  label: "架构"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "网页"
+  permalink: /web
+changelog:
+  label: "更新记录"
+  permalink: /changelog
+security:
+  label: "安全"
+  permalink: /security
+export:
+  label: "导出"
+  permalink: /export
+health:
+  label: "健康"
+  permalink: /health
+memories:
+  label: "回忆"
+  permalink: /memories
+admin:
+  label: "管理"
+  permalink: /admin
+account:
+  label: "账户"
+  permalink: /account
+appearance:
+  label: "外观"
+  permalink: /appearance
+i18n:
+  label: "语言"
+  permalink: /i18n
+accessibility:
+  label: "无障碍"
+  permalink: /accessibility
+offline:
+  label: "离线"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "人工智能"
+  permalink: /ai
+calendar:
+  label: "日历"
+  permalink: /calendar
+webhooks:
+  label: "网络钩子"
+  permalink: /webhooks
+mind:
+  label: "心理"
+  permalink: /mind
+stages:
+  label: "人生阶段"
+  permalink: /stages
+sharing:
+  label: "共享"
+  permalink: /sharing
+seo:
+  label: "搜索优化"
+  permalink: /seo
+tools:
+  label: "工具"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "浏览器扩展"
+  permalink: /extension
+comparison:
+  label: "比较"
+  permalink: /comparison

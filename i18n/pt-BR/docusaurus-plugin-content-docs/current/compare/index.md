@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Migrar para o LifeWell de outro aplicativo
 description: Guias passo a passo para migrar de 32 produtos de árvore genealógica, organização e saúde, com a data da última conferência.
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Equipe LifeWell

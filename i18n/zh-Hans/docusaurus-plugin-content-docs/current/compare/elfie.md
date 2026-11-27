@@ -2,6 +2,7 @@
 sidebar_position: 32
 title: 从 Elfie 转到 LifeWell
 description: "了解如何从 Elfie 转到 LifeWell、两者的区别和费用。核查日期：2026-11-26。"
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell 团队

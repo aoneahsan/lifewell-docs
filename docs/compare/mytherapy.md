@@ -2,6 +2,7 @@
 sidebar_position: 25
 title: Moving from MyTherapy to LifeWell
 description: "How to move from MyTherapy to LifeWell, how they differ and what each costs. Checked 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

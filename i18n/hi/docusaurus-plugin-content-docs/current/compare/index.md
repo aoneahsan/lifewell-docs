@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: दूसरे ऐप से LifeWell पर आएँ
 description: परिवार वृक्ष, आयोजक और स्वास्थ्य रिकॉर्ड के 32 उत्पादों से LifeWell पर आने की चरणबद्ध मार्गदर्शिकाएँ, जाँच की तारीख़ सहित।
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: LifeWell टीम

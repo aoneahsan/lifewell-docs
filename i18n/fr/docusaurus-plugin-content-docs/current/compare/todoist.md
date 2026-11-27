@@ -2,6 +2,7 @@
 sidebar_position: 20
 title: Passer de Todoist à LifeWell
 description: "Comment passer de Todoist à LifeWell, ce qui les distingue et ce qu'ils coûtent. Vérifié le 26 novembre 2026."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: L’équipe LifeWell

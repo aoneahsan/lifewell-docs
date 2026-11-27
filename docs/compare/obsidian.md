@@ -2,6 +2,7 @@
 sidebar_position: 23
 title: Moving from Obsidian to LifeWell
 description: "How to move from Obsidian to LifeWell, how they differ and what each costs. Checked 2026-11-26."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: The LifeWell team

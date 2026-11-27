@@ -1,0 +1,129 @@
+overview:
+  label: "概要"
+  permalink: /overview
+getting-started:
+  label: "はじめに"
+  permalink: /getting-started
+features:
+  label: "機能"
+  permalink: /features
+concepts:
+  label: "基本事項"
+  permalink: /concepts
+developers:
+  label: "開発者向け"
+  permalink: /developers
+domains:
+  label: "生活の領域"
+  permalink: /domains
+white-label:
+  label: "ホワイトラベル"
+  permalink: /white-label
+people:
+  label: "人"
+  permalink: /people
+privacy:
+  label: "プライバシー"
+  permalink: /privacy
+reference:
+  label: "参考資料"
+  permalink: /reference
+your-data:
+  label: "自分の記録"
+  permalink: /your-data
+everyday:
+  label: "日々の暮らし"
+  permalink: /everyday
+platforms:
+  label: "対応環境"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "このサイトについて"
+  permalink: /about
+plans:
+  label: "プラン"
+  permalink: /plans
+faq:
+  label: "よくある質問"
+  permalink: /faq
+architecture:
+  label: "構成"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "ウェブ"
+  permalink: /web
+changelog:
+  label: "変更履歴"
+  permalink: /changelog
+security:
+  label: "セキュリティ"
+  permalink: /security
+export:
+  label: "エクスポート"
+  permalink: /export
+health:
+  label: "健康"
+  permalink: /health
+memories:
+  label: "思い出"
+  permalink: /memories
+admin:
+  label: "管理"
+  permalink: /admin
+account:
+  label: "アカウント"
+  permalink: /account
+appearance:
+  label: "外観"
+  permalink: /appearance
+i18n:
+  label: "言語"
+  permalink: /i18n
+accessibility:
+  label: "アクセシビリティ"
+  permalink: /accessibility
+offline:
+  label: "オフライン"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "AI"
+  permalink: /ai
+calendar:
+  label: "カレンダー"
+  permalink: /calendar
+webhooks:
+  label: "ウェブフック"
+  permalink: /webhooks
+mind:
+  label: "心"
+  permalink: /mind
+stages:
+  label: "人生の段階"
+  permalink: /stages
+sharing:
+  label: "共有"
+  permalink: /sharing
+seo:
+  label: "検索最適化"
+  permalink: /seo
+tools:
+  label: "ツール"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "ブラウザー拡張機能"
+  permalink: /extension
+comparison:
+  label: "比較"
+  permalink: /comparison

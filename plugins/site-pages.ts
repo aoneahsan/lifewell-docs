@@ -11,7 +11,6 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { access, copyFile, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { setTimeout as delay } from 'node:timers/promises';
 import { load } from 'cheerio';
 import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { LoadedContent as DocsContent } from '@docusaurus/plugin-content-docs';
@@ -20,6 +19,7 @@ import { APPS_LASTMOD } from '../src/data/platforms';
 import roster from '../src/data/ecosystem.json';
 import {isOwnedDestination} from '../src/data/linkPolicy';
 import {consolidateLocaleSitemaps} from './locale-sitemap';
+import {escapeXmlAttribute, localizeFeedMetadata, writeLocalizedMachinePages} from './localized-machine-pages';
 
 /**
  * Docusaurus writes every route module's path into the client bundle, so the absolute path createData returns
@@ -148,10 +148,6 @@ export function withoutLocale(pathname: string): string {
  */
 const listedByCategory = new Map<string, string[]>();
 const sourceDates = new Map<string, string>();
-
-/** How long `postBuild` waits for the blog plugin's RSS file, and how often it looks. */
-const RSS_WAIT_MS = 30_000;
-const RSS_POLL_MS = 25;
 
 /**
  * A doc as its card shows it.
@@ -302,52 +298,6 @@ function collect(allContent: AllContent, blogPermalink: string, siteDir: string,
 }
 
 /**
- * Whether an error is a missing file's.
- *
- * @param error - anything a file read rejected with
- * @returns true for `ENOENT`
- */
-function isMissingFile(error: unknown): boolean {
-  return typeof error === 'object' && error !== null && 'code' in error && error.code === 'ENOENT';
-}
-
-/**
- * Reads the blog's RSS file once it is written in full. Docusaurus runs every plugin's `postBuild` at the same time,
- * so the blog plugin may still be writing it. The build starts by clearing its output folder, so a complete file
- * (one that ends with `</rss>`) is this build's.
- *
- * @param file - absolute path of the blog's `rss.xml` in the build output
- * @returns the file's text
- * @throws when the file is not complete within {@link RSS_WAIT_MS}
- */
-async function readWrittenRss(file: string): Promise<string> {
-  const deadline = Date.now() + RSS_WAIT_MS;
-  for (;;) {
-    const text = await readFile(file, 'utf8').catch((error: unknown) => {
-      if (isMissingFile(error)) return '';
-      throw error;
-    });
-    if (text.trimEnd().endsWith('</rss>')) return text;
-    if (Date.now() >= deadline) {
-      throw new Error(
-        `site-pages: ${file} was not written within ${RSS_WAIT_MS / 1000} s. The blog's RSS feed (feedOptions.type) must stay on.`
-      );
-    }
-    await delay(RSS_POLL_MS);
-  }
-}
-
-/**
- * Escapes a value for an XML attribute in double quotes.
- *
- * @param value - the raw value
- * @returns the escaped value
- */
-function escapeXmlAttribute(value: string): string {
-  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-}
-
-/**
  * The blog's RSS feed, made to live at the site root: a stylesheet reference relative to the blog folder (which would
  * miss from the root) made absolute, the Atom namespace declared, and one `atom:link rel="self"` naming the file's
  * own address. Items, dates and categories stay exactly as the blog plugin wrote them.
@@ -445,11 +395,13 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
   return function sitePagesPlugin(context: LoadContext): Plugin {
     const base = context.baseUrl.replace(/\/$/, '');
     let hasPosts = false;
+    let machinePages: SitePagesData | undefined;
     return {
       name: 'site-pages',
 
       async allContentLoaded({ allContent, actions }) {
         const data = collect(allContent, `${base}${blogPath}`, context.siteDir, context.i18n.currentLocale, base);
+        machinePages = data;
         hasPosts = data.posts.length > 0;
         const site = generatedModule(context.generatedFilesDir, await actions.createData('site-pages.json', JSON.stringify(data)));
         actions.addRoute({
@@ -477,9 +429,18 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
           defaultLocale: context.i18n.defaultLocale,
           locales: siteConfig.i18n.locales,
         });
+        if (!machinePages) throw new Error('site-pages: translated machine pages were not collected');
+        await writeLocalizedMachinePages({
+          outDir,
+          siteDir: context.siteDir,
+          locale: context.i18n.currentLocale,
+          siteUrl: siteConfig.url,
+          pages: machinePages,
+          stripLocale: withoutLocale,
+        });
         // With no post the blog writes no feed, so there is nothing to copy.
         if (!hasPosts) return;
-        const rss = await readWrittenRss(path.join(outDir, blogPath, 'rss.xml'));
+        const rss = await localizeFeedMetadata({outDir, siteDir: context.siteDir, locale: context.i18n.currentLocale, blogPath});
         const feed = rootFeed({
           rss,
           selfUrl: new URL(`${base}/feed.xml`, siteConfig.url).href,

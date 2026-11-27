@@ -1,0 +1,129 @@
+overview:
+  label: "Overview"
+  permalink: /overview
+getting-started:
+  label: "Get started"
+  permalink: /getting-started
+features:
+  label: "Features"
+  permalink: /features
+concepts:
+  label: "Concepts"
+  permalink: /concepts
+developers:
+  label: "Developers"
+  permalink: /developers
+domains:
+  label: "Areas"
+  permalink: /domains
+white-label:
+  label: "White-label"
+  permalink: /white-label
+people:
+  label: "People"
+  permalink: /people
+privacy:
+  label: "Privacy"
+  permalink: /privacy
+reference:
+  label: "Reference"
+  permalink: /reference
+your-data:
+  label: "Your record"
+  permalink: /your-data
+everyday:
+  label: "Everyday"
+  permalink: /everyday
+platforms:
+  label: "Platforms"
+  permalink: /platforms
+api:
+  label: "API"
+  permalink: /api
+about:
+  label: "About"
+  permalink: /about
+plans:
+  label: "Plans"
+  permalink: /plans
+faq:
+  label: "Questions"
+  permalink: /faq
+architecture:
+  label: "Architecture"
+  permalink: /architecture
+android:
+  label: "Android"
+  permalink: /android
+web:
+  label: "Web"
+  permalink: /web
+changelog:
+  label: "Changelog"
+  permalink: /changelog
+security:
+  label: "Security"
+  permalink: /security
+export:
+  label: "Export"
+  permalink: /export
+health:
+  label: "Health"
+  permalink: /health
+memories:
+  label: "Memories"
+  permalink: /memories
+admin:
+  label: "Admin"
+  permalink: /admin
+account:
+  label: "Account"
+  permalink: /account
+appearance:
+  label: "Appearance"
+  permalink: /appearance
+i18n:
+  label: "Languages"
+  permalink: /i18n
+accessibility:
+  label: "Accessibility"
+  permalink: /accessibility
+offline:
+  label: "Offline"
+  permalink: /offline
+mcp:
+  label: "MCP"
+  permalink: /mcp
+ai:
+  label: "AI"
+  permalink: /ai
+calendar:
+  label: "Calendar"
+  permalink: /calendar
+webhooks:
+  label: "Webhooks"
+  permalink: /webhooks
+mind:
+  label: "Mind"
+  permalink: /mind
+stages:
+  label: "Life stages"
+  permalink: /stages
+sharing:
+  label: "Sharing"
+  permalink: /sharing
+seo:
+  label: "SEO"
+  permalink: /seo
+tools:
+  label: "Tools"
+  permalink: /tools
+ios:
+  label: "iOS"
+  permalink: /ios
+extension:
+  label: "Browser extension"
+  permalink: /extension
+comparison:
+  label: "Comparisons"
+  permalink: /comparison

@@ -2,6 +2,7 @@
 sidebar_position: 11
 title: Переход с Journey на LifeWell
 description: "Как перейти с Journey на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г."
+tags: [comparison]
 last_update:
   date: 2026-11-26
   author: Команда LifeWell
