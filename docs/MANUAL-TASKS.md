@@ -25,3 +25,11 @@ them if that is right. Row 3 is the search-discovery runner's `fnd-sitemap-not-s
 | # | Task | Resolution | Date |
 |---|------|-----------|------|
 | — | — | — | — |
+
+## Context guide correction · 2026-11-27
+
+The former guide line below is kept here as history; the current guide names the 3.31.0 web rebuild.
+
+```text
+3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
+```

@@ -5,7 +5,7 @@ keywords: [lifewell calendar feed, subscribe to lifewell calendar, ics feed, goo
 topics: [developers, calendar]
 sidebar_position: 6
 last_update:
-  date: 2026-11-19
+  date: 2026-11-27
   author: The LifeWell team
 ---
 
@@ -28,9 +28,11 @@ Calendar can take hours, so a change you make in LifeWell may take a while to ap
 
 ## What does the feed contain?
 
-The events in your [LifeWell calendar](../features/calendar-and-appointments.md), from 90 days ago to about
-13 months ahead, up to 2,000 of them. Nothing else in your record is reachable through a feed, and private
-notes are left out.
+Appointments, reminders, birthdays and plans you saved in your [LifeWell calendar](../features/calendar-and-appointments.md),
+including their repeats, plus birthdays drawn from the dates of birth of people who are not marked Remembered.
+The feed covers 90 days ago to about 13 months ahead, up to 2,000 dates. Derived medication times, cycle
+estimates and baby milestones are not included. Nothing else in your record is reachable through a feed, and
+private notes are left out.
 
 Times are wall-clock, as they are in LifeWell: *the dentist at 09:30* stays 09:30 wherever you are, rather
 than moving when you change time zone.

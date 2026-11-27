@@ -4,11 +4,16 @@
 
 **Mirror of `CLAUDE.md`** — byte-identical except this header.
 
-| Context Budget Last Verified | 2026-10-14; re-check due 2026-11-13. See the workspace context tracker. |
+| Last optimized | 2026-11-27 |
+| Next routine optimization eligible | 2026-12-27 |
+| Guide bytes | 8777 B |
+| Covered subtree | LifeWell docs repository |
+| Method | Kept docs routing and release boundaries; refreshed the 30-day measurement. |
+| Context tracker | `/home/ahsan/Documents/01-code/docs/tracking/project-context-budget-tracker.json` |
 |---|---|
 
-**Last Updated:** 2026-10-21. These public pages describe the LifeWell
-3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
+**Last Updated:** 2026-11-27. These public pages describe the LifeWell
+3.31.0 web rebuild. For current product work, run `cd ../lifewell && yarn status`
 and read `../STATUS.md`. The sitemap submission remains an owner task;
 the docs build alone does not complete it.
 
