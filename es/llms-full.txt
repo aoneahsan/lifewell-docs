@@ -1,30 +1,169 @@
-# LifeWell documentation — Zaions and the developer
+# LifeWell
 
-LifeWell keeps the people and moments of your life in one place. Ahsan Mahmood built it after listening to his parents tell the stories of their lives.
+> Documentación pública de LifeWell, que reúne a las personas y los momentos de tu vida: familiares, amistades, recuerdos y planes, con el bienestar alrededor. Web y Android.
 
-- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): the vision and dated LifeWell milestones.
-- [Products from Zaions](https://lifewell-docs.aoneahsan.com/ecosystem): the other products from the same maker.
+## Documentación
 
-## Other products
-- [AchatAI](https://lifewell-docs.aoneahsan.com/ecosystem/achat): Find someone without asking for their number. Official site: https://achat.aoneahsan.com
-- [CallVault](https://lifewell-docs.aoneahsan.com/ecosystem/callvault): A call you can find and listen to later. Official site: https://callvault.aoneahsan.com
-- [Capacitor Auth Manager](https://lifewell-docs.aoneahsan.com/ecosystem/capacitor-auth-manager): One Google sign-in call across web and native apps. Official site: https://www.npmjs.com/package/capacitor-auth-manager
-- [ClearHire](https://lifewell-docs.aoneahsan.com/ecosystem/clearhire): Put your work history into a structured resume. Official site: https://clearhire.aoneahsan.com
-- [Eat This](https://lifewell-docs.aoneahsan.com/ecosystem/eatthis): Look for food by nutrient, feeling or time of day. Official site: https://eatthis.aoneahsan.com/
-- [Empora](https://lifewell-docs.aoneahsan.com/ecosystem/empora): Choose the WooCommerce modules your store needs. Official site: https://empora.aoneahsan.com
-- [HabitForge](https://lifewell-docs.aoneahsan.com/ecosystem/habitforge): A check-in becomes a rope you can see. Official site: https://habitforge.aoneahsan.com
-- [LabFlow](https://lifewell-docs.aoneahsan.com/ecosystem/labflow): Keep a lab order with its sample and result. Official site: https://labflow.aoneahsan.com
-- [linux-cleanup](https://lifewell-docs.aoneahsan.com/ecosystem/linux-cleanup): See each path before Linux cleanup touches it. Official site: https://linux-cleanup.aoneahsan.com/
-- [macleanup](https://lifewell-docs.aoneahsan.com/ecosystem/macleanup): Preview macOS cleanup before choosing it. Official site: https://github.com/aoneahsan/macleanup
-- [Native Update](https://lifewell-docs.aoneahsan.com/ecosystem/native-update): Deliver a Capacitor bundle without waiting for a store release. Official site: https://nativeupdate.aoneahsan.com
-- [NetCage](https://lifewell-docs.aoneahsan.com/ecosystem/netcage): Choose which Android apps can use the network. Official site: https://netcage.aoneahsan.com
-- [PregnancyPal](https://lifewell-docs.aoneahsan.com/ecosystem/pregnancypal): Keep the changing weeks of pregnancy together. Official site: https://pregnancypal.aoneahsan.com
-- [RentParty](https://lifewell-docs.aoneahsan.com/ecosystem/rentparty): Pause a property game and keep the deeds in place. Official site: https://rentparty.aoneahsan.com
-- [SMS App](https://lifewell-docs.aoneahsan.com/ecosystem/smsapp): Send a batch of messages from your Android device. Official site: https://smsapp.aoneahsan.com
-- [Strata Storage](https://lifewell-docs.aoneahsan.com/ecosystem/strata-storage): One interface for several places an app keeps data. Official site: https://www.npmjs.com/package/strata-storage
-- [Tilawah](https://lifewell-docs.aoneahsan.com/ecosystem/tilawah): Return to a Tajweed or Tafseer lesson at your pace. Official site: https://tilawah.aoneahsan.com
-- [Trizlink](https://lifewell-docs.aoneahsan.com/ecosystem/trizlink): Keep short links and a bio page together. Official site: https://trizlink.com
-- [Video Controls Plus](https://lifewell-docs.aoneahsan.com/ecosystem/video-controls-plus): Change the pace of an HTML5 video. Official site: https://vcpeai.aoneahsan.com
-- [Waylock](https://lifewell-docs.aoneahsan.com/ecosystem/waylock): Keep chosen stops in place on a driver route. Official site: https://waylock.aoneahsan.com
-- [windowsweep](https://lifewell-docs.aoneahsan.com/ecosystem/windowsweep): Read the Windows cleanup list before removing anything. Official site: https://windowsweep.aoneahsan.com
-- [ZTools](https://lifewell-docs.aoneahsan.com/ecosystem/ztools): Find a utility and run it in your browser. Official site: https://ztools.zaions.com
+- [LifeWell](https://lifewell-docs.aoneahsan.com/es/intro): LifeWell guarda a las personas y los momentos de tu vida en un solo lugar — familiares, amistades, lo que sabes de ellos, recuerdos y planes, con el bienestar alrededor. Web y Android, bajo tu control.
+- [Planes](https://lifewell-docs.aoneahsan.com/es/plans): Free, Pro y Family: qué incluye cada plan, cómo funcionan las plazas Family, los límites gratuitos y las dos formas de pago. Precios mensuales y anuales en dólares estadounidenses.
+- [El panel de administración](https://lifewell-docs.aoneahsan.com/es/admin): Diez pantallas, tres roles, un registro de auditoría que nadie puede editar directamente y controles para cambiar planes e invitaciones sin publicar una versión.
+- [Preguntas frecuentes](https://lifewell-docs.aoneahsan.com/es/faq): Respuestas sobre costo, privacidad, exportación, uso sin conexión y los límites de LifeWell antes de confiarle los datos de tu vida.
+
+## Pasar a LifeWell
+
+- [Pasar a LifeWell desde otra aplicación](https://lifewell-docs.aoneahsan.com/es/compare/): Guías paso a paso para pasar a LifeWell desde 32 productos de árboles familiares, organización y registros de salud, con la fecha de revisión de cada uno.
+- [Pasar de FamilySearch a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/familysearch): Cómo pasar de FamilySearch a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Ancestry a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/ancestry): Cómo pasar de Ancestry a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de MyHeritage a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/myheritage): Cómo pasar de MyHeritage a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Findmypast a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/findmypast): Cómo pasar de Findmypast a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Gramps Web a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/gramps-web): Cómo pasar de Gramps Web a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Day One a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/day-one): Cómo pasar de Day One a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Storyworth a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/storyworth): Cómo pasar de Storyworth a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Remento a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/remento): Cómo pasar de Remento a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de FamilyAlbum a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/familyalbum): Cómo pasar de FamilyAlbum a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Journey a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/journey): Cómo pasar de Journey a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Tinybeans a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/tinybeans): Cómo pasar de Tinybeans a LifeWell, en qué se diferencian y cuánto cuesta cada uno. Revisado el 26 de noviembre de 2026.
+- [Pasar de Monica a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/monica): Cómo pasar de Monica a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Mesh a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/mesh): Cómo pasar de Mesh a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Dex a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/dex): Cómo pasar de Dex a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Covve a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/covve): Cómo pasar de Covve a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Cloze a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/cloze): Cómo pasar de Cloze a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Notion a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/notion): Cómo pasar de Notion a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Evernote a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/evernote): Cómo pasar de Evernote a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Todoist a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/todoist): Cómo pasar de Todoist a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de TickTick a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/ticktick): Cómo pasar de TickTick a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Any.do a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/any-do): Cómo pasar de Any.do a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Obsidian a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/obsidian): Cómo pasar de Obsidian a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Medisafe a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/medisafe): Cómo pasar de Medisafe a LifeWell, en qué se diferencian y cuánto cuesta cada uno. Revisado el 26 de noviembre de 2026.
+- [Pasar de MyTherapy a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/mytherapy): Cómo pasar de MyTherapy a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de CareClinic a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/careclinic): Cómo pasar de CareClinic a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Bearable a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/bearable): Cómo pasar de Bearable a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Apple Health a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/apple-health): Cómo pasar de Apple Health a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de MyChart a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/mychart): Cómo pasar de MyChart a LifeWell, en qué se diferencian y cuánto cuesta cada uno. Revisado el 26 de noviembre de 2026.
+- [Pasar de Withings+ a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/withings-plus): Cómo pasar de Withings+ a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Evergreen Life a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/evergreen-life): Cómo pasar de Evergreen Life a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de Elfie a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/elfie): Cómo pasar de Elfie a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+- [Pasar de One Medical a LifeWell](https://lifewell-docs.aoneahsan.com/es/compare/one-medical): Cómo pasar de One Medical a LifeWell, sus diferencias y precios. Comprobado el 26 de noviembre de 2026.
+
+## Empieza aquí
+
+- [Empieza a usar LifeWell](https://lifewell-docs.aoneahsan.com/es/category/get-started): Abre la aplicación, inicia sesión y descubre qué te preguntan las primeras cinco pantallas.
+- [Usar LifeWell en la web](https://lifewell-docs.aoneahsan.com/es/getting-started/install-web): Abre LifeWell en un navegador actual, inicia sesión con Google y empieza a registrar. Sin descarga, formulario de cuenta ni configuración previa.
+- [Instalar en Android](https://lifewell-docs.aoneahsan.com/es/getting-started/install-android): LifeWell para Android es una versión Capacitor de la misma aplicación. Descárgala en Google Play, inicia sesión con Google y consulta el mismo registro que en la web.
+- [El primer uso](https://lifewell-docs.aoneahsan.com/es/getting-started/first-run): Lo que LifeWell pregunta la primera vez que inicias sesión: cinco pasos breves, casi todos opcionales, y lo que cambia cada respuesta.
+- [Un recorrido breve](https://lifewell-docs.aoneahsan.com/es/getting-started/tour): El panel, el menú, la barra superior y el control que cambia el aspecto de LifeWell: dónde está cada cosa antes de buscarla.
+- [El recorrido por la página y la guía de la aplicación](https://lifewell-docs.aoneahsan.com/es/getting-started/tours-and-walkthrough): Dos maneras de conocer LifeWell — un recorrido breve desde el botón de señal en la barra superior y Cómo funciona LifeWell, seis pantallas con capturas reales. Además, la lista de Trabajos para tareas largas.
+
+## Las siete áreas
+
+- [Las siete áreas](https://lifewell-docs.aoneahsan.com/es/domains/overview): LifeWell organiza siete áreas alrededor de ti: primero personas, después recuerdos, vida diaria y compartir; a su alrededor, salud, mente y etapas de la vida. Puedes ocultar seis sin borrar datos. Compartir permanece visible.
+- [Personas](https://lifewell-docs.aoneahsan.com/es/domains/people): El punto de partida de LifeWell: tú, las personas importantes y lo que sabes de ellas. Árboles familiares y laborales, conexiones, lugares, mensajes, comunidad, profesionales y donación de sangre.
+- [Recuerdos](https://lifewell-docs.aoneahsan.com/es/domains/memories): Fotos, álbumes, un cuaderno de recuerdos y las descripciones que les dan sentido, con los archivos guardados en tu propio Google Drive.
+- [Lo cotidiano](https://lifewell-docs.aoneahsan.com/es/domains/everyday): Calendario, citas, notas, lugares guardados, recordatorios y lista de compras: la semana corriente que mantiene unido lo demás.
+- [Compartir](https://lifewell-docs.aoneahsan.com/es/domains/sharing): La única área sin interruptor. Qué puede mostrar un enlace, quién puede abrirlo, qué ve esa persona, cómo cerrarlo y qué datos nunca salen de tu registro.
+- [Salud](https://lifewell-docs.aoneahsan.com/es/domains/health): Seguimientos, medicamentos, alimentos, ejercicio y condiciones. Una de las áreas alrededor de las personas de tu vida, disponible si la quieres usar, sin ser el centro de LifeWell.
+- [Mente](https://lifewell-docs.aoneahsan.com/es/domains/mind): Diario, respiración guiada, sonidos para dormir, estado de ánimo, gratitud y pausas durante el trabajo, sin convertir nada en una puntuación.
+- [Etapas de la vida](https://lifewell-docs.aoneahsan.com/es/domains/stages): Ciclo, búsqueda de embarazo, ovulación, SOP, menopausia, embarazo y primeros años de una criatura: seis pantallas que dependen de una respuesta de tu perfil.
+
+## Funciones
+
+- [Funciones](https://lifewell-docs.aoneahsan.com/es/category/features): Lo que abarca más de un área.
+- [Calendario y citas](https://lifewell-docs.aoneahsan.com/es/features/calendar-and-appointments): Un calendario para la semana cotidiana y la médica, con una lista en cada cita para no olvidar las preguntas que querías hacer.
+- [Recordatorios](https://lifewell-docs.aoneahsan.com/es/features/reminders): Qué puede enviarte LifeWell, cuándo y en qué dispositivo. Tres controles generales, horas de silencio y por qué la aplicación no solicita alarmas exactas en Android.
+- [Búsqueda](https://lifewell-docs.aoneahsan.com/es/features/search): Una búsqueda para todo tu registro. La parte del servidor está construida; la página todavía no está terminada y la aplicación lo dice en vez de mostrar una lista vacía.
+- [Comunidad y chats](https://lifewell-docs.aoneahsan.com/es/features/community-and-chats): Grupos con publicaciones y respuestas, mensajes entre cuentas conectadas, bloqueo y una vía de moderación que nunca revela al autor quién lo denunció.
+- [Profesionales](https://lifewell-docs.aoneahsan.com/es/features/professionals): Un directorio de profesionales que crearon su propia ficha. LifeWell no comprueba sus credenciales; muestra su número de registro y un enlace para que puedas consultarlo.
+- [Donación de sangre](https://lifewell-docs.aoneahsan.com/es/features/blood-donation): Un directorio público de donantes, solicitudes que les llegan y una entrega de contacto concedida una sola vez a una persona y que puede retirarse.
+- [El programa de invitaciones](https://lifewell-docs.aoneahsan.com/es/features/referrals): Invita a alguien. Cuando confirma su registro, obtienes puntos, una insignia y, al alcanzar el umbral, un mes de un plan de pago. Cada cifra se configura desde la administración.
+- [La lista de compras](https://lifewell-docs.aoneahsan.com/es/features/shopping-list): Una lista hecha a partir de tus comidas y recetas, o escrita a mano, que puedes compartir como texto sencillo sin que la persona que compra necesite una cuenta.
+- [Mapas y lugares](https://lifewell-docs.aoneahsan.com/es/features/maps): Sigue las relaciones entre recuerdos, notas, personas, eventos y nombres de lugares guardados. El historial de ubicación es otra opción independiente.
+- [Herramientas y calculadoras](https://lifewell-docs.aoneahsan.com/es/features/tools): Qué calculadoras están en LifeWell, cuáles están en ZTools y por qué el directorio contiene sobre todo enlaces en vez de versiones duplicadas.
+
+## Marca blanca y licencias
+
+- [Marca blanca y licencias](https://lifewell-docs.aoneahsan.com/es/white-label/overview): Qué es una licencia de marca blanca de LifeWell, a quién le sirve, qué operamos para ti y en qué se diferencia de comprar el código fuente.
+- [Qué se entrega en cada plataforma](https://lifewell-docs.aoneahsan.com/es/white-label/what-you-get): Qué incluye una licencia de marca blanca de LifeWell para la web, Android e iOS, y qué necesitamos de ti para cada plataforma.
+- [Preparar una copia con licencia](https://lifewell-docs.aoneahsan.com/es/white-label/setup): Los pasos desde el pago hasta una copia de LifeWell publicada bajo tu nombre: correo de licencia, dominio, identidad visual y publicación.
+- [Actualizaciones y renovaciones](https://lifewell-docs.aoneahsan.com/es/white-label/updates-and-renewals): Los seis meses de actualizaciones incluidos en cada licencia y compra del código de LifeWell, qué cuenta como actualización y cómo renovar con la clave de licencia.
+- [Comprobar una licencia](https://lifewell-docs.aoneahsan.com/es/white-label/verify-a-licence): Cómo comprobar si una copia de LifeWell tiene licencia por su clave o por su sitio web, y qué significa cada respuesta.
+- [Preguntas sobre la marca blanca](https://lifewell-docs.aoneahsan.com/es/white-label/faq): Respuestas a lo que preguntan las organizaciones antes de obtener una licencia de LifeWell — código fuente, exclusividad, iOS, actualizaciones y lo que necesitamos para empezar.
+
+## Tu información
+
+- [Tu información](https://lifewell-docs.aoneahsan.com/es/category/your-data): Cómo exportarla, borrarla y saber dónde se guarda.
+- [Exportar todos tus datos](https://lifewell-docs.aoneahsan.com/es/your-data/export): Obtén una copia completa de tus datos de LifeWell en JSON, CSV o PDF. El archivo se crea en tu dispositivo y los formatos están documentados campo por campo.
+- [Eliminar tus datos](https://lifewell-docs.aoneahsan.com/es/your-data/delete): Elimina toda tu cuenta o una de las siete áreas y conserva las demás. Qué elimina cada opción, qué conserva deliberadamente y cuál funciona hoy.
+- [Dónde viven tus datos](https://lifewell-docs.aoneahsan.com/es/your-data/where-it-lives): Tus registros se guardan en una base de datos Postgres, tus fotos en tu Google Drive y, si activas el registro sin conexión, algunas entradas rápidas pendientes en tu dispositivo.
+
+## Cómo funciona
+
+- [Cómo funciona](https://lifewell-docs.aoneahsan.com/es/category/how-it-works): Arquitectura, modelo de información, privacidad, uso sin conexión y apariencia.
+- [Arquitectura](https://lifewell-docs.aoneahsan.com/es/concepts/architecture): Una aplicación estática de página única sobre Postgres, con funciones perimetrales solo cuando el navegador no debe guardar algo. Qué se ejecuta dónde y por qué no hay servidor propio.
+- [El modelo de datos](https://lifewell-docs.aoneahsan.com/es/concepts/data-model): Cómo guarda LifeWell una vida: una tabla por concepto, un almacén común para todos los seguimientos y tres decisiones que organizan lo demás.
+- [Privacidad y seguridad](https://lifewell-docs.aoneahsan.com/es/concepts/privacy-and-security): Qué sale de tu dispositivo y qué no: acceso sin contraseña, reglas de base de datos por fila, análisis sin datos personales, permiso de contactos, imágenes de identificaciones y límites de lo que LifeWell afirma.
+- [Sin conexión y sincronización](https://lifewell-docs.aoneahsan.com/es/concepts/offline-and-sync): LifeWell pausa la aplicación cuando se pierde la conexión y ofrece una opción para guardar algunas entradas rápidas en este dispositivo hasta que vuelva.
+- [Apariencia](https://lifewell-docs.aoneahsan.com/es/concepts/appearance): Un icono y un panel para tema, color, redondez, densidad, tamaño de texto, tipografía, superficies y movimiento. Todo se aplica antes de mostrar la página.
+- [Idioma y unidades](https://lifewell-docs.aoneahsan.com/es/concepts/language-and-units): LifeWell ofrece diez idiomas en la aplicación, la documentación y la extensión para navegador. Tus unidades se eligen por separado.
+
+## Plataformas
+
+- [Plataformas](https://lifewell-docs.aoneahsan.com/es/category/platforms): La web, Android, la extensión para navegador y el estado de iOS.
+- [Web](https://lifewell-docs.aoneahsan.com/es/platforms/web): La versión web es la versión de referencia; incluye todo lo que hace LifeWell salvo dos funciones que Android entrega mediante el sistema operativo.
+- [Android](https://lifewell-docs.aoneahsan.com/es/platforms/android): LifeWell en Android: versión mínima 9, permisos, recordatorios locales, actualizaciones firmadas y funciones que esperan su publicación en la tienda.
+- [iOS](https://lifewell-docs.aoneahsan.com/es/platforms/ios): iOS se retiró de LifeWell el 16 de julio de 2026. Volverá cuando exista una cuenta de Apple Developer, y no antes.
+- [Extensión para navegador](https://lifewell-docs.aoneahsan.com/es/platforms/browser-extension): La extensión de LifeWell para Chrome y Firefox está construida, pero todavía no se ha publicado en ninguna de las dos tiendas. Lee qué conserva en el navegador y cómo se conecta a tu cuenta.
+
+## Referencia
+
+- [Referencia](https://lifewell-docs.aoneahsan.com/es/category/reference): El formato del archivo exportado, las direcciones conservadas y los servicios externos.
+- [Formato de los archivos de exportación](https://lifewell-docs.aoneahsan.com/es/reference/export-format): Contenido de una exportación de LifeWell, campo por campo y tabla por tabla: encabezado JSON, archivo CSV, exclusiones del PDF y datos ausentes de todos los formatos.
+- [Direcciones que se conservan](https://lifewell-docs.aoneahsan.com/es/reference/addresses): Noventa y nueve direcciones públicas de LifeWell y quince redirecciones permanentes. Reconstruir el producto cambia el código, no sus direcciones.
+- [Servicios externos](https://lifewell-docs.aoneahsan.com/es/reference/integrations): Cada servicio externo al que se conecta LifeWell, su función, los datos que recibe y qué ocurre si falta su clave.
+
+## Desarrolladores
+
+- [Conectar LifeWell con otras aplicaciones](https://lifewell-docs.aoneahsan.com/es/developers/): Cuatro formas en que algo externo puede acceder a tu registro: un calendario mediante un feed, un programa con un token, un asistente de IA por MCP y otra aplicación mediante webhooks.
+- [Tokens de acceso y autenticación](https://lifewell-docs.aoneahsan.com/es/developers/authentication): Cómo demuestra un programa o aplicación que puede leer tus datos de LifeWell: permisos de lectura, escritura y eliminación, plazo de 10 minutos para volver a mostrar un token, OAuth, límites y errores.
+- [La API de LifeWell](https://lifewell-docs.aoneahsan.com/es/developers/api): API REST de LifeWell: dirección base, paginación por cursor con 20 filas por página inicialmente y un máximo de 50, y archivo OpenAPI de rutas y campos.
+- [Conectar un asistente de IA (MCP)](https://lifewell-docs.aoneahsan.com/es/developers/mcp): Conecta Claude, ChatGPT, Claude Code o Cursor a tus datos mediante el servidor MCP de LifeWell. Consentimiento, confirmación de eliminaciones y desconexión.
+- [Webhooks](https://lifewell-docs.aoneahsan.com/es/developers/webhooks): Los webhooks de LifeWell avisan a tu servidor al cambiar tus datos. Firmas Standard Webhooks, reintentos durante más de un día y ejemplos de verificación en Node, Python y PHP.
+- [Feeds de calendario](https://lifewell-docs.aoneahsan.com/es/developers/calendar-feeds): Suscríbete a tu calendario LifeWell desde Google Calendar, Apple Calendar u Outlook con una dirección de solo lectura, y anúlala cuando quieras.
+- [Inicio de sesión en dos pasos](https://lifewell-docs.aoneahsan.com/es/developers/two-step-sign-in): Protege tu cuenta de LifeWell con una aplicación de autenticación, guarda tus códigos de recuperación y decide si recordar un navegador durante 7 días.
+- [Cambios para desarrolladores](https://lifewell-docs.aoneahsan.com/es/developers/changelog): Todos los cambios en la API, el servidor MCP, los webhooks y los calendarios de LifeWell, empezando por los más recientes.
+
+## Acerca de
+
+- [Quién crea LifeWell](https://lifewell-docs.aoneahsan.com/es/about/the-developer): El equipo LifeWell crea y mantiene la aplicación, y explica con claridad lo que el producto todavía no puede hacer.
+- [Historial de cambios](https://lifewell-docs.aoneahsan.com/es/about/changelog): LifeWell 3.0 (versión 3.22.0) fue una reconstrucción completa con una base nueva. Las versiones 3.23 a 3.25 llegaron en octubre de 2026. Cambios, eliminaciones, correcciones y reinicio de datos.
+- [Contribuir a esta documentación](https://lifewell-docs.aoneahsan.com/es/about/contributing): Cómo corregir una página, qué pertenece aquí y la regla principal: esta documentación solo puede describir lo que el producto hace de verdad.
+
+## Más de Zaions
+
+- [Productos de Zaions](https://lifewell-docs.aoneahsan.com/es/ecosystem): Los otros productos que Ahsan Mahmood crea en Zaions, con una ruta clara para visitar cada uno.
+- [Creado por Ahsan Mahmood](https://lifewell-docs.aoneahsan.com/es/about-developer): Por qué Ahsan Mahmood creó LifeWell, los hitos que lo trajeron hasta aquí y dónde encontrar su trabajo con Zaions.
+- [AchatAI para las personas que eliges](https://lifewell-docs.aoneahsan.com/es/ecosystem/achat): Encuentra a alguien sin pedirle su número.
+- [CallVault para las llamadas que quieres conservar](https://lifewell-docs.aoneahsan.com/es/ecosystem/callvault): Una llamada que puedes encontrar y escuchar después.
+- [Capacitor Auth Manager para iniciar sesión](https://lifewell-docs.aoneahsan.com/es/ecosystem/capacitor-auth-manager): Una sola llamada para iniciar sesión con Google en la web y en aplicaciones nativas.
+- [ClearHire para tu próximo currículum](https://lifewell-docs.aoneahsan.com/es/ecosystem/clearhire): Convierte tu historial laboral en un currículum estructurado.
+- [Eat This cuando la pregunta es qué comer](https://lifewell-docs.aoneahsan.com/es/ecosystem/eatthis): Busca alimentos por nutriente, por cómo te sientes o por momento del día.
+- [Empora para una tienda WooCommerce](https://lifewell-docs.aoneahsan.com/es/ecosystem/empora): Elige los módulos que necesita tu tienda WooCommerce.
+- [HabitForge y la cuerda visible](https://lifewell-docs.aoneahsan.com/es/ecosystem/habitforge): Cada registro va formando una cuerda que puedes ver.
+- [LabFlow y el recorrido por el laboratorio](https://lifewell-docs.aoneahsan.com/es/ecosystem/labflow): Mantén cada orden de laboratorio junto a su muestra y resultado.
+- [linux-cleanup y las rutas identificadas](https://lifewell-docs.aoneahsan.com/es/ecosystem/linux-cleanup): Revisa cada ruta antes de que linux-cleanup la modifique.
+- [macleanup antes de borrar](https://lifewell-docs.aoneahsan.com/es/ecosystem/macleanup): Previsualiza la limpieza de macOS antes de elegirla.
+- [Native Update para publicar aplicaciones](https://lifewell-docs.aoneahsan.com/es/ecosystem/native-update): Entrega un paquete de Capacitor sin esperar a una publicación en la tienda.
+- [NetCage para una aplicación que debe permanecer sin conexión](https://lifewell-docs.aoneahsan.com/es/ecosystem/netcage): Elige qué aplicaciones Android pueden usar la red.
+- [PregnancyPal, semana a semana](https://lifewell-docs.aoneahsan.com/es/ecosystem/pregnancypal): Reúne las semanas cambiantes del embarazo.
+- [RentParty cuando hay que pausar la partida](https://lifewell-docs.aoneahsan.com/es/ecosystem/rentparty): Pausa una partida de propiedades y conserva los títulos en su lugar.
+- [SMS App desde tu propio teléfono](https://lifewell-docs.aoneahsan.com/es/ecosystem/smsapp): Envía un lote de mensajes desde tu dispositivo Android.
+- [Strata Storage debajo de la aplicación](https://lifewell-docs.aoneahsan.com/es/ecosystem/strata-storage): Una interfaz para los distintos lugares donde una aplicación guarda información.
+- [Tilawah para aprender el Corán](https://lifewell-docs.aoneahsan.com/es/ecosystem/tilawah): Retoma una lección de Tajweed o Tafseer a tu ritmo.
+- [Trizlink para los enlaces que compartes](https://lifewell-docs.aoneahsan.com/es/ecosystem/trizlink): Reúne enlaces cortos y una página de perfil.
+- [Video Controls Plus para videos en la web](https://lifewell-docs.aoneahsan.com/es/ecosystem/video-controls-plus): Cambia el ritmo de un video HTML5.
+- [Waylock para las paradas que deben quedarse](https://lifewell-docs.aoneahsan.com/es/ecosystem/waylock): Mantén las paradas elegidas en su lugar durante una ruta.
+- [windowsweep antes de limpiar el disco](https://lifewell-docs.aoneahsan.com/es/ecosystem/windowsweep): Lee la lista de limpieza de Windows antes de borrar nada.
+- [ZTools para la tarea pequeña de ahora](https://lifewell-docs.aoneahsan.com/es/ecosystem/ztools): Encuentra una herramienta y úsala en tu navegador.
+
+## Blog
+
+- [La documentación estaba equivocada, así que la reescribimos](https://lifewell-docs.aoneahsan.com/es/blog/documentation-rewritten-for-3-0-0): LifeWell 3.0.0 se reconstruyó sobre una nueva base de datos y la documentación anterior describía un producto que ya no existía. Reescribimos cada página a partir del código.

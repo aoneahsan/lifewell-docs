@@ -1,30 +1,169 @@
-# LifeWell documentation — Zaions and the developer
+# LifeWell
 
-LifeWell keeps the people and moments of your life in one place. Ahsan Mahmood built it after listening to his parents tell the stories of their lives.
+> LifeWellの公開ドキュメントです。家族、友人、思い出、予定を1か所に残し、その周りに日々の健康も置けます。ウェブとAndroidに対応しています。
 
-- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): the vision and dated LifeWell milestones.
-- [Products from Zaions](https://lifewell-docs.aoneahsan.com/ecosystem): the other products from the same maker.
+## ドキュメント
 
-## Other products
-- [AchatAI](https://lifewell-docs.aoneahsan.com/ecosystem/achat): Find someone without asking for their number. Official site: https://achat.aoneahsan.com
-- [CallVault](https://lifewell-docs.aoneahsan.com/ecosystem/callvault): A call you can find and listen to later. Official site: https://callvault.aoneahsan.com
-- [Capacitor Auth Manager](https://lifewell-docs.aoneahsan.com/ecosystem/capacitor-auth-manager): One Google sign-in call across web and native apps. Official site: https://www.npmjs.com/package/capacitor-auth-manager
-- [ClearHire](https://lifewell-docs.aoneahsan.com/ecosystem/clearhire): Put your work history into a structured resume. Official site: https://clearhire.aoneahsan.com
-- [Eat This](https://lifewell-docs.aoneahsan.com/ecosystem/eatthis): Look for food by nutrient, feeling or time of day. Official site: https://eatthis.aoneahsan.com/
-- [Empora](https://lifewell-docs.aoneahsan.com/ecosystem/empora): Choose the WooCommerce modules your store needs. Official site: https://empora.aoneahsan.com
-- [HabitForge](https://lifewell-docs.aoneahsan.com/ecosystem/habitforge): A check-in becomes a rope you can see. Official site: https://habitforge.aoneahsan.com
-- [LabFlow](https://lifewell-docs.aoneahsan.com/ecosystem/labflow): Keep a lab order with its sample and result. Official site: https://labflow.aoneahsan.com
-- [linux-cleanup](https://lifewell-docs.aoneahsan.com/ecosystem/linux-cleanup): See each path before Linux cleanup touches it. Official site: https://linux-cleanup.aoneahsan.com/
-- [macleanup](https://lifewell-docs.aoneahsan.com/ecosystem/macleanup): Preview macOS cleanup before choosing it. Official site: https://github.com/aoneahsan/macleanup
-- [Native Update](https://lifewell-docs.aoneahsan.com/ecosystem/native-update): Deliver a Capacitor bundle without waiting for a store release. Official site: https://nativeupdate.aoneahsan.com
-- [NetCage](https://lifewell-docs.aoneahsan.com/ecosystem/netcage): Choose which Android apps can use the network. Official site: https://netcage.aoneahsan.com
-- [PregnancyPal](https://lifewell-docs.aoneahsan.com/ecosystem/pregnancypal): Keep the changing weeks of pregnancy together. Official site: https://pregnancypal.aoneahsan.com
-- [RentParty](https://lifewell-docs.aoneahsan.com/ecosystem/rentparty): Pause a property game and keep the deeds in place. Official site: https://rentparty.aoneahsan.com
-- [SMS App](https://lifewell-docs.aoneahsan.com/ecosystem/smsapp): Send a batch of messages from your Android device. Official site: https://smsapp.aoneahsan.com
-- [Strata Storage](https://lifewell-docs.aoneahsan.com/ecosystem/strata-storage): One interface for several places an app keeps data. Official site: https://www.npmjs.com/package/strata-storage
-- [Tilawah](https://lifewell-docs.aoneahsan.com/ecosystem/tilawah): Return to a Tajweed or Tafseer lesson at your pace. Official site: https://tilawah.aoneahsan.com
-- [Trizlink](https://lifewell-docs.aoneahsan.com/ecosystem/trizlink): Keep short links and a bio page together. Official site: https://trizlink.com
-- [Video Controls Plus](https://lifewell-docs.aoneahsan.com/ecosystem/video-controls-plus): Change the pace of an HTML5 video. Official site: https://vcpeai.aoneahsan.com
-- [Waylock](https://lifewell-docs.aoneahsan.com/ecosystem/waylock): Keep chosen stops in place on a driver route. Official site: https://waylock.aoneahsan.com
-- [windowsweep](https://lifewell-docs.aoneahsan.com/ecosystem/windowsweep): Read the Windows cleanup list before removing anything. Official site: https://windowsweep.aoneahsan.com
-- [ZTools](https://lifewell-docs.aoneahsan.com/ecosystem/ztools): Find a utility and run it in your browser. Official site: https://ztools.zaions.com
+- [LifeWell](https://lifewell-docs.aoneahsan.com/ja/intro): LifeWellは、家族や友人、その人たちについて知っていること、思い出や予定を1か所に残します。その周りに健康に関することも置ける、ウェブとAndroidのアプリです。
+- [プラン](https://lifewell-docs.aoneahsan.com/ja/plans): 無料、Pro、Familyの内容、Familyの席の仕組み、無料プランの範囲、支払い方法を説明します。料金は米ドルで月払いと年払いがあります。
+- [管理画面](https://lifewell-docs.aoneahsan.com/ja/admin): 10画面、3つの役割、誰も直接書き込めない監査記録、リリースなしで変更できるプラン上限と紹介制度を説明します。
+- [よくある質問](https://lifewell-docs.aoneahsan.com/ja/faq): 人生の記録をアプリに預ける前に知りたい、料金、プライバシー、持ち出し、オフラインでの利用、LifeWellがしないことについて答えます。
+
+## LifeWellへの移行
+
+- [ほかのアプリからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/): 家系図、予定管理、健康記録の32製品からLifeWellへ移るための手順。各ガイドに確認日を記載しています。
+- [FamilySearchからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/familysearch): FamilySearchからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [AncestryからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/ancestry): AncestryからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MyHeritageからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/myheritage): MyHeritageからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [FindmypastからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/findmypast): FindmypastからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Gramps WebからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/gramps-web): Gramps WebからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Day OneからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/day-one): Day OneからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [StoryworthからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/storyworth): StoryworthからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [RementoからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/remento): RementoからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [FamilyAlbumからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/familyalbum): FamilyAlbumからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [JourneyからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/journey): JourneyからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [TinybeansからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/tinybeans): TinybeansからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MonicaからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/monica): MonicaからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MeshからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/mesh): MeshからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [DexからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/dex): DexからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [CovveからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/covve): CovveからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [ClozeからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/cloze): ClozeからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [NotionからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/notion): NotionからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [EvernoteからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/evernote): EvernoteからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [TodoistからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/todoist): TodoistからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [TickTickからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/ticktick): TickTickからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Any.doからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/any-do): Any.doからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [ObsidianからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/obsidian): ObsidianからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MedisafeからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/medisafe): MedisafeからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MyTherapyからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/mytherapy): MyTherapyからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [CareClinicからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/careclinic): CareClinicからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [BearableからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/bearable): BearableからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Apple HealthからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/apple-health): Apple HealthからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [MyChartからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/mychart): MyChartからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Withings+からLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/withings-plus): Withings+からLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [Evergreen LifeからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/evergreen-life): Evergreen LifeからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [ElfieからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/elfie): ElfieからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+- [One MedicalからLifeWellへ移る](https://lifewell-docs.aoneahsan.com/ja/compare/one-medical): One MedicalからLifeWellへ移る方法、両者の違いと費用。2026-11-26確認。
+
+## はじめに
+
+- [LifeWellを始める](https://lifewell-docs.aoneahsan.com/ja/category/get-started): アプリを開いてログインし、最初の5つの画面で何を求められるかを確認します。
+- [ウェブでLifeWellを使う](https://lifewell-docs.aoneahsan.com/ja/getting-started/install-web): 現在のブラウザーでLifeWellを開き、Googleでログインして記録を始めます。ダウンロードやアカウント登録フォームは必要ありません。
+- [Androidにインストール](https://lifewell-docs.aoneahsan.com/ja/getting-started/install-android): Android版LifeWellは同じアプリのCapacitorビルドです。Google Playから入手し、Googleでログインすると、ウェブ版と同じ記録を開けます。
+- [初回の利用](https://lifewell-docs.aoneahsan.com/ja/getting-started/first-run): LifeWellに初めてログインしたときの5つの手順を説明します。ほとんどは飛ばせます。それぞれの答えが何を変えるかも分かります。
+- [短いツアー](https://lifewell-docs.aoneahsan.com/ja/getting-started/tour): LifeWellのダッシュボード、メニュー、上部バー、表示を変える設定を紹介します。探し始める前に、どこに何があるか分かります。
+- [ページツアーと操作ガイド](https://lifewell-docs.aoneahsan.com/ja/getting-started/tours-and-walkthrough): LifeWellを知る2つの方法。上部バーから開く短いページツアーと、実際の画面で全体を見せる6画面の操作ガイドです。時間のかかる処理の一覧も説明します。
+
+## 7つの領域
+
+- [7つの領域](https://lifewell-docs.aoneahsan.com/ja/domains/overview): LifeWellではあなたを中心に7つの領域があります。まず人、次に思い出、日々のこと、共有があり、健康、心、人生の段階が周りを支えます。共有以外の6つは記録を消さずにオフにできます。
+- [人](https://lifewell-docs.aoneahsan.com/ja/domains/people): LifeWellの出発点。あなた、大切な人、その人について知っていることを残します。家族と仕事の関係図、つながり、場所、会話、コミュニティ、専門職、献血者があります。
+- [思い出](https://lifewell-docs.aoneahsan.com/ja/domains/memories): 写真、アルバム、スクラップブック、あとで読み返せる説明文を残します。ファイル自体は自分のGoogle Driveに保存されます。
+- [日々のこと](https://lifewell-docs.aoneahsan.com/ja/domains/everyday): カレンダー、予定、メモ、保存した場所、リマインダー、買い物リスト。ほかの出来事を支える普段の1週間です。
+- [共有](https://lifewell-docs.aoneahsan.com/ja/domains/sharing): 切り替えのない唯一の領域です。リンクに含められる内容、相手の画面、終了方法、記録から決して出ないものを説明します。
+- [健康](https://lifewell-docs.aoneahsan.com/ja/domains/health): 測定、薬、食事、運動、症状は、大切な人の周りにある1つの領域です。必要なら使えますが、LifeWellの中心ではありません。
+- [心](https://lifewell-docs.aoneahsan.com/ja/domains/mind): 日記、呼吸や睡眠のガイド、気分、感謝、仕事中の休憩を残します。あとで読み返せますが、採点はされません。
+- [人生の段階](https://lifewell-docs.aoneahsan.com/ja/domains/stages): 月経周期、妊娠を考えること、排卵、PCOS、更年期、妊娠、子どもの幼い時期を扱います。6つの画面はプロフィールの答えで表示が変わります。
+
+## 機能
+
+- [機能](https://lifewell-docs.aoneahsan.com/ja/category/features): 複数の領域にまたがって使えるもの。
+- [カレンダーと予定](https://lifewell-docs.aoneahsan.com/ja/features/calendar-and-appointments): 日付のある出来事と予定を一緒に置き、予定ごとに質問やメモの確認リストを残せます。
+- [リマインダー](https://lifewell-docs.aoneahsan.com/ja/features/reminders): LifeWellから何が、いつ、どの端末に届くか。3つの主な切り替え、通知しない時間、Androidで正確なアラーム権限を求めない理由を説明します。
+- [検索](https://lifewell-docs.aoneahsan.com/ja/features/search): 自分の記録全体を1か所から検索します。サーバー側は完成していますが、画面は未完成で、その状態をアプリ内にも示しています。
+- [コミュニティとチャット](https://lifewell-docs.aoneahsan.com/ja/features/community-and-chats): 投稿と返信があるグループ、つながりのあるアカウント間のメッセージ、ブロック、通報者を投稿者に知らせない管理経路を説明します。
+- [専門職の一覧](https://lifewell-docs.aoneahsan.com/ja/features/professionals): 自分で掲載した専門職の一覧です。LifeWellは資格を確認していません。登録番号と登録簿へのリンクから自分で調べられます。
+- [献血](https://lifewell-docs.aoneahsan.com/ja/features/blood-donation): 公開された献血者一覧、相手に届く依頼、1人に1度だけ渡せて取り消せる連絡先の開示を説明します。
+- [紹介プログラム](https://lifewell-docs.aoneahsan.com/ja/features/referrals): 招待した人の登録が確認されるとポイントとバッジが付き、条件を満たすと有料プランが1か月延長されます。数値はすべて管理画面の設定です。
+- [買い物リスト](https://lifewell-docs.aoneahsan.com/ja/features/shopping-list): 食事やレシピから作るか手で書き、買い物をする人にアカウント不要のテキストとして共有できるリストです。
+- [つながりと場所](https://lifewell-docs.aoneahsan.com/ja/features/maps): 思い出、メモ、人、予定、保存した場所のつながりをたどれます。位置履歴は別に同意を選ぶ機能です。
+- [ツールと計算機](https://lifewell-docs.aoneahsan.com/ja/features/tools): LifeWell内にある計算機、ZToolsにある計算機、ツール一覧が主にリンクで構成される理由を説明します。
+
+## ホワイトラベルとライセンス
+
+- [ホワイトラベルとライセンス](https://lifewell-docs.aoneahsan.com/ja/white-label/overview): LifeWellのホワイトラベルライセンス、対象となる組織、運用内容、ソースコードの買い取りとの違いを説明します。
+- [プラットフォームごとの提供内容](https://lifewell-docs.aoneahsan.com/ja/white-label/what-you-get): LifeWellのホワイトラベルライセンスでウェブ、Android、iOSに何が提供され、それぞれに何を用意していただくかを説明します。
+- [ライセンス版を設定する](https://lifewell-docs.aoneahsan.com/ja/white-label/setup): 支払いから組織名での公開まで。ライセンスメール、ドメイン、ブランド表示、公開の順序を説明します。
+- [更新と期間延長](https://lifewell-docs.aoneahsan.com/ja/white-label/updates-and-renewals): LifeWellのライセンスと買い取りに含まれる6か月の更新、更新に含まれる作業、キーを使った期間延長を説明します。
+- [ライセンスを確認する](https://lifewell-docs.aoneahsan.com/ja/white-label/verify-a-licence): ライセンスキーまたはウェブサイトからLifeWellのコピーが認可されているか調べ、各結果が何を意味するか説明します。
+- [ホワイトラベルについての質問](https://lifewell-docs.aoneahsan.com/ja/white-label/faq): LifeWellのライセンスを検討する組織からよくある、ソースコード、独占性、iOS、更新、開始時に必要なものについての質問に答えます。
+
+## あなたの記録
+
+- [あなたの記録](https://lifewell-docs.aoneahsan.com/ja/category/your-data): 記録を取り出す、削除する、保存先を知る。
+- [コピーをエクスポートする](https://lifewell-docs.aoneahsan.com/ja/your-data/export): 選んだ期間の記録をJSONまたはCSVでエクスポートするか、PDFの概要を作れます。各テーブルの上限は1回につき5,000行です。
+- [記録を削除する](https://lifewell-docs.aoneahsan.com/ja/your-data/delete): アカウント全体、または7つの領域の1つだけを削除できます。何が消え、何が残り、現時点でどこまで削除できるかを説明します。
+- [記録の保存先](https://lifewell-docs.aoneahsan.com/ja/your-data/where-it-lives): 記録はPostgres、写真は自分のGoogle Driveに保存されます。オフライン記録を有効にすると、一部の簡単な入力が端末内で待機します。
+
+## 仕組み
+
+- [仕組み](https://lifewell-docs.aoneahsan.com/ja/category/how-it-works): 構成、データモデル、プライバシー、オフライン時の動作、表示設定。
+- [アーキテクチャ](https://lifewell-docs.aoneahsan.com/ja/concepts/architecture): Postgresを使う静的なシングルページアプリです。ブラウザーが保持してはいけないものだけをEdge Functionで扱う仕組みと、独自サーバーがない理由を説明します。
+- [データモデル](https://lifewell-docs.aoneahsan.com/ja/concepts/data-model): LifeWellは考え方ごとに1つのテーブルを使い、すべての記録画面を同じ保存先に結び付けます。その土台となる3つの判断を説明します。
+- [プライバシーとセキュリティ](https://lifewell-docs.aoneahsan.com/ja/concepts/privacy-and-security): 端末から出る情報と出ない情報を説明します。パスワード不要のログイン、行単位の規則、分析情報の除去、連絡先権限、身分証の写真、LifeWellがしない主張を含みます。
+- [オフラインと同期](https://lifewell-docs.aoneahsan.com/ja/concepts/offline-and-sync): 通信が失われるとLifeWellは操作を一時停止します。任意の設定で、対応する簡単な記録だけを通信が戻るまで端末内に置けます。
+- [表示設定](https://lifewell-docs.aoneahsan.com/ja/concepts/appearance): 1つのアイコンとパネルから、テーマ、色、角の丸み、密度、文字サイズ、書体、パネルの見た目、動きを変更できます。描画前に適用されます。
+- [言語と単位](https://lifewell-docs.aoneahsan.com/ja/concepts/language-and-units): LifeWellのアプリ、ドキュメント、ブラウザー拡張機能は10言語に対応します。測定単位の選択は言語とは別です。
+
+## 対応環境
+
+- [対応環境](https://lifewell-docs.aoneahsan.com/ja/category/platforms): ウェブ、Android、完成済みで未公開のブラウザー拡張機能、提供を終了したiOSアプリ。
+- [ウェブ](https://lifewell-docs.aoneahsan.com/ja/platforms/web): ブラウザーでLifeWellを使う方法と、ウェブ版におけるリマインダー、共有、オフライン時の動作を説明します。
+- [Android](https://lifewell-docs.aoneahsan.com/ja/platforms/android): Android版LifeWellの最低要件Android 9、権限、端末内リマインダー、署名付き更新、公開待ちの機能を説明します。
+- [iOS](https://lifewell-docs.aoneahsan.com/ja/platforms/ios): iOS版LifeWellは2026年7月16日に削除されました。Apple Developerアカウントが用意された場合に再び加えられます。
+- [ブラウザー拡張機能](https://lifewell-docs.aoneahsan.com/ja/platforms/browser-extension): LifeWellのChromeとFirefox向け補助機能は完成していますが、どちらのストアでも未公開です。ブラウザー内に残る情報とアカウント接続方法を説明します。
+
+## リファレンス
+
+- [リファレンス](https://lifewell-docs.aoneahsan.com/ja/category/reference): エクスポートファイルの形式、確定済みのアドレス、利用する外部サービス。
+- [エクスポートファイルの形式](https://lifewell-docs.aoneahsan.com/ja/reference/export-format): LifeWellのエクスポートに含まれる内容をフィールドとテーブルごとに説明します。JSONのヘッダー、CSVのアーカイブ、PDFで省かれる情報、どの形式にも含まれない情報。
+- [変わらないURL](https://lifewell-docs.aoneahsan.com/ja/reference/addresses): 固定されたLifeWellの公開URL99件とリダイレクト15件。再構築で変わるのはコードであり、URLではありません。
+- [外部サービス](https://lifewell-docs.aoneahsan.com/ja/reference/integrations): LifeWellが利用する外部サービス、それぞれの用途、受け取る情報、キーがない場合の動作。
+
+## 開発者向け
+
+- [LifeWellをほかのアプリにつなぐ](https://lifewell-docs.aoneahsan.com/ja/developers/): カレンダーフィード、アクセストークン、MCP、Webhookを使って、LifeWellの記録をほかのアプリから利用する4つの方法。
+- [アクセストークンと認証](https://lifewell-docs.aoneahsan.com/ja/developers/authentication): スクリプトやアプリがLifeWellの記録へアクセスする方法。読み取り・書き込み・削除の権限、再表示の10分間規則、OAuth、利用制限、エラーを説明します。
+- [LifeWell API](https://lifewell-docs.aoneahsan.com/ja/developers/api): LifeWell REST APIのベースURL、既定20件・最大50件のカーソル式ページ分割、全ルートとフィールドを記述するOpenAPIファイル。
+- [AIアシスタントを接続する（MCP）](https://lifewell-docs.aoneahsan.com/ja/developers/mcp): LifeWell MCPサーバーを通じてClaude、ChatGPT、Claude Code、Cursorを記録に接続する方法。同意画面、削除の確認、接続解除も説明します。
+- [Webhook](https://lifewell-docs.aoneahsan.com/ja/developers/webhooks): LifeWellの記録変更を自分のサーバーへ知らせるWebhook。Standard Webhooksの署名、1日強にわたる再試行、Node・Python・PHPでの検証方法。
+- [カレンダーフィード](https://lifewell-docs.aoneahsan.com/ja/developers/calendar-feeds): 読み取り専用のフィードURLを使い、Google Calendar、Apple Calendar、OutlookでLifeWellのカレンダーを購読し、いつでも取り消せます。
+- [二段階認証](https://lifewell-docs.aoneahsan.com/ja/developers/two-step-sign-in): 認証アプリでLifeWellの二段階認証を有効にし、復旧コードを保管し、ブラウザーを7日間記憶するか選びます。
+- [開発者向け変更履歴](https://lifewell-docs.aoneahsan.com/ja/developers/changelog): LifeWell API、MCPサーバー、Webhook、カレンダーフィードの変更を新しい順に記録します。
+
+## LifeWellについて
+
+- [LifeWellを作っている人](https://lifewell-docs.aoneahsan.com/ja/about/the-developer): LifeWellチームがアプリとドキュメントを開発・保守し、できないことも率直に伝えています。
+- [変更履歴](https://lifewell-docs.aoneahsan.com/ja/about/changelog): LifeWell 3.0（バージョン表記3.22.0）は新しいバックエンドへの全面的な再構築です。2026年10月には3.23から3.25が続きました。追加・削除・訂正したものと、3.0での記録のリセットを説明します。
+- [このドキュメントへの協力](https://lifewell-docs.aoneahsan.com/ja/about/contributing): ページの訂正方法、ここに書くべき内容、そして製品が実際にできることだけを説明するという基準を紹介します。
+
+## Zaionsのほかの製品
+
+- [Zaionsの製品](https://lifewell-docs.aoneahsan.com/ja/ecosystem): Ahsan MahmoodがZaionsで作るほかの製品と、その訪問先を紹介します。
+- [Ahsan Mahmoodが開発](https://lifewell-docs.aoneahsan.com/ja/about-developer): Ahsan MahmoodがLifeWellを作った理由、これまでの歩み、Zaionsでの仕事をご紹介します。
+- [選んだ相手と話すためのAchatAI](https://lifewell-docs.aoneahsan.com/ja/ecosystem/achat): 電話番号を聞かずに、話したい人を見つけられます。
+- [探したい通話を残すCallVault](https://lifewell-docs.aoneahsan.com/ja/ecosystem/callvault): あとで見つけて聴き直せる通話記録。
+- [ログインを実装するCapacitor Auth Manager](https://lifewell-docs.aoneahsan.com/ja/ecosystem/capacitor-auth-manager): ウェブとネイティブアプリで共通のGoogleログイン。
+- [次の履歴書を作るClearHire](https://lifewell-docs.aoneahsan.com/ja/ecosystem/clearhire): 職歴を整理し、履歴書にまとめられます。
+- [食べ物について考えるEat This](https://lifewell-docs.aoneahsan.com/ja/ecosystem/eatthis): 栄養素、体調、時間帯から食べ物を探せます。
+- [WooCommerceストアのためのEmpora](https://lifewell-docs.aoneahsan.com/ja/ecosystem/empora): お店に必要なWooCommerceの機能を選べます。
+- [続けた形が見えるHabitForge](https://lifewell-docs.aoneahsan.com/ja/ecosystem/habitforge): 日々の確認が、目に見えるロープになります。
+- [検査室の流れを支えるLabFlow](https://lifewell-docs.aoneahsan.com/ja/ecosystem/labflow): 検査依頼と検体、結果を一緒に管理します。
+- [対象を確認できるlinux-cleanup](https://lifewell-docs.aoneahsan.com/ja/ecosystem/linux-cleanup): Linuxの整理を始める前に、対象のパスを確認できます。
+- [削除前に確認できるmacleanup](https://lifewell-docs.aoneahsan.com/ja/ecosystem/macleanup): 削除を選ぶ前に、macOSの整理内容を確認できます。
+- [アプリ更新のためのNative Update](https://lifewell-docs.aoneahsan.com/ja/ecosystem/native-update): ストアの次回リリースを待たずに、Capacitorのバンドルを届けられます。
+- [通信を止めたいアプリのためのNetCage](https://lifewell-docs.aoneahsan.com/ja/ecosystem/netcage): Androidアプリごとにネットワーク接続を選べます。
+- [週ごとに使うPregnancyPal](https://lifewell-docs.aoneahsan.com/ja/ecosystem/pregnancypal): 妊娠中の変化する週を、一緒に記録できます。
+- [続きから遊べるRentParty](https://lifewell-docs.aoneahsan.com/ja/ecosystem/rentparty): 不動産ゲームを中断しても、権利書はそのまま残ります。
+- [自分の端末から送るSMS App](https://lifewell-docs.aoneahsan.com/ja/ecosystem/smsapp): 登録したAndroid端末からメッセージをまとめて送れます。
+- [アプリを支えるStrata Storage](https://lifewell-docs.aoneahsan.com/ja/ecosystem/strata-storage): アプリの複数の保存先を、1つの方法で扱えます。
+- [クルアーンを学ぶTilawah](https://lifewell-docs.aoneahsan.com/ja/ecosystem/tilawah): タジュウィードやタフスィールの授業に、自分のペースで戻れます。
+- [共有するリンクのためのTrizlink](https://lifewell-docs.aoneahsan.com/ja/ecosystem/trizlink): 短いリンクとプロフィール用ページを一緒に管理できます。
+- [ウェブ動画のためのVideo Controls Plus](https://lifewell-docs.aoneahsan.com/ja/ecosystem/video-controls-plus): HTML5動画の再生ペースを変えられます。
+- [大切な立ち寄り先を守るWaylock](https://lifewell-docs.aoneahsan.com/ja/ecosystem/waylock): 運転ルートで、動かしたくない立ち寄り先を固定できます。
+- [ディスク整理の前に使うwindowsweep](https://lifewell-docs.aoneahsan.com/ja/ecosystem/windowsweep): 何かを削除する前に、Windowsの整理対象を確認できます。
+- [今必要な小さなツールのためのZTools](https://lifewell-docs.aoneahsan.com/ja/ecosystem/ztools): 必要なツールを見つけ、ブラウザーで使えます。
+
+## ブログ
+
+- [ドキュメントの誤りを直すため、書き直しました](https://lifewell-docs.aoneahsan.com/ja/blog/documentation-rewritten-for-3-0-0): LifeWell 3.0.0は新しいバックエンドで再構築され、以前のドキュメントには現在の製品と異なる説明が残っていました。全ページを削除し、コードを確認して書き直しました。

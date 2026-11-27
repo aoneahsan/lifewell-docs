@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lifewell-docs.aoneahsan.com/hi/blog</id>
-    <title>LifeWell Documentation Blog</title>
+    <title>LifeWell · ब्लॉग</title>
     <updated>2026-09-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/hi/blog"/>
-    <subtitle>Updates, release notes, and deep-dives from the LifeWell project.</subtitle>
+    <subtitle>LifeWell टीम के अपडेट और रिलीज़ नोट: ऐप में क्या बदला और क्यों।</subtitle>
     <icon>https://lifewell-docs.aoneahsan.com/hi/img/favicon.ico</icon>
-    <rights>Copyright © 2026 the LifeWell team. CC BY 4.0.</rights>
+    <rights>© 2026 LifeWell · LifeWell — Zaions टीम ने प्यार से बनाया। दस्तावेज़ CC BY 4.0 लाइसेंस के अंतर्गत हैं।</rights>
     <entry>
         <title type="html"><![CDATA[दस्तावेज़ ग़लत थे, इसलिए उन्हें फिर लिखा गया]]></title>
         <id>https://lifewell-docs.aoneahsan.com/hi/blog/documentation-rewritten-for-3-0-0</id>

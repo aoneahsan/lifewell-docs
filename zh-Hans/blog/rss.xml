@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>LifeWell Documentation Blog</title>
+        <title>LifeWell · 博客</title>
         <link>https://lifewell-docs.aoneahsan.com/zh-Hans/blog</link>
-        <description>Updates, release notes, and deep-dives from the LifeWell project.</description>
+        <description>来自 LifeWell 团队的更新和发布说明：应用改了什么，以及为什么修改。</description>
         <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
-        <copyright>Copyright © 2026 the LifeWell team. CC BY 4.0.</copyright>
+        <copyright>© 2026 LifeWell · LifeWell — 由 Zaions 团队倾心开发。文档采用 CC BY 4.0 许可。</copyright>
         <item>
             <title><![CDATA[文档写错了，所以我们重写了它]]></title>
             <link>https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0</link>

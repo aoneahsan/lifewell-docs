@@ -1,43 +1,20 @@
-# LifeWell documentation
+# LifeWell
 
-> LifeWell keeps the people and moments of your life in one place. Start with yourself, add the people who matter, and keep their stories, your plans and the ordinary details around them. The public guide is at https://lifewell-docs.aoneahsan.com. Last updated: 2026-11-26.
+> Documentación pública de LifeWell, que reúne a las personas y los momentos de tu vida: familiares, amistades, recuerdos y planes, con el bienestar alrededor. Web y Android.
 
-LifeWell is made by the LifeWell team at Zaions. Ahsan Mahmood (aoneahsan) began it after listening to his parents tell the stories of their lives. The app is not a medical device and does not diagnose, treat or interpret a condition.
+## Documentación
 
-## Start here
+- [LifeWell](https://lifewell-docs.aoneahsan.com/es/intro): LifeWell guarda a las personas y los momentos de tu vida en un solo lugar — familiares, amistades, lo que sabes de ellos, recuerdos y planes, con el bienestar alrededor. Web y Android, bajo tu control.
+- [Planes](https://lifewell-docs.aoneahsan.com/es/plans): Free, Pro y Family: qué incluye cada plan, cómo funcionan las plazas Family, los límites gratuitos y las dos formas de pago. Precios mensuales y anuales en dólares estadounidenses.
+- [Las siete áreas](https://lifewell-docs.aoneahsan.com/es/domains/overview): LifeWell organiza siete áreas alrededor de ti: primero personas, después recuerdos, vida diaria y compartir; a su alrededor, salud, mente y etapas de la vida. Puedes ocultar seis sin borrar datos. Compartir permanece visible.
+- [Personas](https://lifewell-docs.aoneahsan.com/es/domains/people): El punto de partida de LifeWell: tú, las personas importantes y lo que sabes de ellas. Árboles familiares y laborales, conexiones, lugares, mensajes, comunidad, profesionales y donación de sangre.
+- [Recuerdos](https://lifewell-docs.aoneahsan.com/es/domains/memories): Fotos, álbumes, un cuaderno de recuerdos y las descripciones que les dan sentido, con los archivos guardados en tu propio Google Drive.
+- [Lo cotidiano](https://lifewell-docs.aoneahsan.com/es/domains/everyday): Calendario, citas, notas, lugares guardados, recordatorios y lista de compras: la semana corriente que mantiene unido lo demás.
+- [Compartir](https://lifewell-docs.aoneahsan.com/es/domains/sharing): La única área sin interruptor. Qué puede mostrar un enlace, quién puede abrirlo, qué ve esa persona, cómo cerrarlo y qué datos nunca salen de tu registro.
+- [Exportar todos tus datos](https://lifewell-docs.aoneahsan.com/es/your-data/export): Obtén una copia completa de tus datos de LifeWell en JSON, CSV o PDF. El archivo se crea en tu dispositivo y los formatos están documentados campo por campo.
+- [La API de LifeWell](https://lifewell-docs.aoneahsan.com/es/developers/api): API REST de LifeWell: dirección base, paginación por cursor con 20 filas por página inicialmente y un máximo de 50, y archivo OpenAPI de rutas y campos.
+- [Productos de Zaions](https://lifewell-docs.aoneahsan.com/es/ecosystem): Los otros productos que Ahsan Mahmood crea en Zaions, con una ruta clara para visitar cada uno.
+- [Creado por Ahsan Mahmood](https://lifewell-docs.aoneahsan.com/es/about-developer): Por qué Ahsan Mahmood creó LifeWell, los hitos que lo trajeron hasta aquí y dónde encontrar su trabajo con Zaions.
 
-- [Documentation home](https://lifewell-docs.aoneahsan.com/): choose a part of your record.
-- [LifeWell web app](https://lifewell.aoneahsan.com/): the live product.
-- [Get LifeWell](https://lifewell-docs.aoneahsan.com/apps): released web and Android surfaces.
-- [Features](https://lifewell.aoneahsan.com/features): what each area does before you sign in.
-- [Plans](https://lifewell.aoneahsan.com/plans): current public plan information; the signed-in page shows available ways to pay.
-- [Privacy](https://lifewell.aoneahsan.com/privacy): where records go and who can see them.
-- [Permissions](https://lifewell.aoneahsan.com/permissions): each Android permission and its purpose.
-
-## Your record
-
-People and their connections sit beside memories, everyday plans, sharing, health, mind and life stages. You decide what to enter and what to share. The web app is available in English, Simplified Chinese, Hindi, Spanish, Arabic, French, Brazilian Portuguese, Russian, Japanese and Urdu.
-
-In Android 3.31.0 or later, you can opt in to approximate background location recording. Rounded points remain on the device for up to 90 days; account sync is a second choice. The 3.31.0 binary is prepared, and its Play publication remains with the owner. The web app has no background location recorder. A limited set of quick logs can wait locally when you choose offline logging, then sync when a connection returns.
-
-## Guides and developer access
-
-- [People](https://lifewell-docs.aoneahsan.com/domains/people): the people and connections in your record.
-- [Memories](https://lifewell-docs.aoneahsan.com/domains/memories): photos, notes and the moments around them.
-- [Calendar and reminders](https://lifewell-docs.aoneahsan.com/features/calendar-and-appointments): dates and what you asked to remember.
-- [Maps](https://lifewell-docs.aoneahsan.com/features/maps): the connections view and optional Android location history.
-- [Developer API](https://lifewell-docs.aoneahsan.com/developers/api): account-authorised access.
-- [MCP](https://lifewell-docs.aoneahsan.com/developers/mcp): connect an assistant to an account with permission.
-- [Webhooks](https://lifewell-docs.aoneahsan.com/developers/webhooks): signed delivery to your own endpoint.
-
-## Who builds this
-
-- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): Ahsan Mahmood, his vision and dated LifeWell milestones.
-- [Zaions products](https://lifewell-docs.aoneahsan.com/ecosystem): other work from the same maker, with a page for each product.
-- [Ahsan Mahmood](https://aoneahsan.com) · [Zaions](https://zaions.com).
-- [Full product index](https://lifewell-docs.aoneahsan.com/llms-full.txt): details and sources for the other products.
-
-## Discovery files
-
-- [Sitemap](https://lifewell-docs.aoneahsan.com/sitemap.xml) · [RSS feed](https://lifewell-docs.aoneahsan.com/feed.xml) · [Robots policy](https://lifewell-docs.aoneahsan.com/robots.txt).
-- [App pricing record](https://lifewell.aoneahsan.com/pricing.md) and [app overview](https://lifewell.aoneahsan.com/llms.txt).
+- [Mapa del sitio](https://lifewell-docs.aoneahsan.com/es/sitemap)
+- [Novedades](https://lifewell-docs.aoneahsan.com/es/feed)

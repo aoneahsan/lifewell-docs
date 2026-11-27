@@ -1,43 +1,20 @@
-# LifeWell documentation
+# LifeWell
 
-> LifeWell keeps the people and moments of your life in one place. Start with yourself, add the people who matter, and keep their stories, your plans and the ordinary details around them. The public guide is at https://lifewell-docs.aoneahsan.com. Last updated: 2026-11-26.
+> LifeWellの公開ドキュメントです。家族、友人、思い出、予定を1か所に残し、その周りに日々の健康も置けます。ウェブとAndroidに対応しています。
 
-LifeWell is made by the LifeWell team at Zaions. Ahsan Mahmood (aoneahsan) began it after listening to his parents tell the stories of their lives. The app is not a medical device and does not diagnose, treat or interpret a condition.
+## ドキュメント
 
-## Start here
+- [LifeWell](https://lifewell-docs.aoneahsan.com/ja/intro): LifeWellは、家族や友人、その人たちについて知っていること、思い出や予定を1か所に残します。その周りに健康に関することも置ける、ウェブとAndroidのアプリです。
+- [プラン](https://lifewell-docs.aoneahsan.com/ja/plans): 無料、Pro、Familyの内容、Familyの席の仕組み、無料プランの範囲、支払い方法を説明します。料金は米ドルで月払いと年払いがあります。
+- [7つの領域](https://lifewell-docs.aoneahsan.com/ja/domains/overview): LifeWellではあなたを中心に7つの領域があります。まず人、次に思い出、日々のこと、共有があり、健康、心、人生の段階が周りを支えます。共有以外の6つは記録を消さずにオフにできます。
+- [人](https://lifewell-docs.aoneahsan.com/ja/domains/people): LifeWellの出発点。あなた、大切な人、その人について知っていることを残します。家族と仕事の関係図、つながり、場所、会話、コミュニティ、専門職、献血者があります。
+- [思い出](https://lifewell-docs.aoneahsan.com/ja/domains/memories): 写真、アルバム、スクラップブック、あとで読み返せる説明文を残します。ファイル自体は自分のGoogle Driveに保存されます。
+- [日々のこと](https://lifewell-docs.aoneahsan.com/ja/domains/everyday): カレンダー、予定、メモ、保存した場所、リマインダー、買い物リスト。ほかの出来事を支える普段の1週間です。
+- [共有](https://lifewell-docs.aoneahsan.com/ja/domains/sharing): 切り替えのない唯一の領域です。リンクに含められる内容、相手の画面、終了方法、記録から決して出ないものを説明します。
+- [コピーをエクスポートする](https://lifewell-docs.aoneahsan.com/ja/your-data/export): 選んだ期間の記録をJSONまたはCSVでエクスポートするか、PDFの概要を作れます。各テーブルの上限は1回につき5,000行です。
+- [LifeWell API](https://lifewell-docs.aoneahsan.com/ja/developers/api): LifeWell REST APIのベースURL、既定20件・最大50件のカーソル式ページ分割、全ルートとフィールドを記述するOpenAPIファイル。
+- [Zaionsの製品](https://lifewell-docs.aoneahsan.com/ja/ecosystem): Ahsan MahmoodがZaionsで作るほかの製品と、その訪問先を紹介します。
+- [Ahsan Mahmoodが開発](https://lifewell-docs.aoneahsan.com/ja/about-developer): Ahsan MahmoodがLifeWellを作った理由、これまでの歩み、Zaionsでの仕事をご紹介します。
 
-- [Documentation home](https://lifewell-docs.aoneahsan.com/): choose a part of your record.
-- [LifeWell web app](https://lifewell.aoneahsan.com/): the live product.
-- [Get LifeWell](https://lifewell-docs.aoneahsan.com/apps): released web and Android surfaces.
-- [Features](https://lifewell.aoneahsan.com/features): what each area does before you sign in.
-- [Plans](https://lifewell.aoneahsan.com/plans): current public plan information; the signed-in page shows available ways to pay.
-- [Privacy](https://lifewell.aoneahsan.com/privacy): where records go and who can see them.
-- [Permissions](https://lifewell.aoneahsan.com/permissions): each Android permission and its purpose.
-
-## Your record
-
-People and their connections sit beside memories, everyday plans, sharing, health, mind and life stages. You decide what to enter and what to share. The web app is available in English, Simplified Chinese, Hindi, Spanish, Arabic, French, Brazilian Portuguese, Russian, Japanese and Urdu.
-
-In Android 3.31.0 or later, you can opt in to approximate background location recording. Rounded points remain on the device for up to 90 days; account sync is a second choice. The 3.31.0 binary is prepared, and its Play publication remains with the owner. The web app has no background location recorder. A limited set of quick logs can wait locally when you choose offline logging, then sync when a connection returns.
-
-## Guides and developer access
-
-- [People](https://lifewell-docs.aoneahsan.com/domains/people): the people and connections in your record.
-- [Memories](https://lifewell-docs.aoneahsan.com/domains/memories): photos, notes and the moments around them.
-- [Calendar and reminders](https://lifewell-docs.aoneahsan.com/features/calendar-and-appointments): dates and what you asked to remember.
-- [Maps](https://lifewell-docs.aoneahsan.com/features/maps): the connections view and optional Android location history.
-- [Developer API](https://lifewell-docs.aoneahsan.com/developers/api): account-authorised access.
-- [MCP](https://lifewell-docs.aoneahsan.com/developers/mcp): connect an assistant to an account with permission.
-- [Webhooks](https://lifewell-docs.aoneahsan.com/developers/webhooks): signed delivery to your own endpoint.
-
-## Who builds this
-
-- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): Ahsan Mahmood, his vision and dated LifeWell milestones.
-- [Zaions products](https://lifewell-docs.aoneahsan.com/ecosystem): other work from the same maker, with a page for each product.
-- [Ahsan Mahmood](https://aoneahsan.com) · [Zaions](https://zaions.com).
-- [Full product index](https://lifewell-docs.aoneahsan.com/llms-full.txt): details and sources for the other products.
-
-## Discovery files
-
-- [Sitemap](https://lifewell-docs.aoneahsan.com/sitemap.xml) · [RSS feed](https://lifewell-docs.aoneahsan.com/feed.xml) · [Robots policy](https://lifewell-docs.aoneahsan.com/robots.txt).
-- [App pricing record](https://lifewell.aoneahsan.com/pricing.md) and [app overview](https://lifewell.aoneahsan.com/llms.txt).
+- [サイトマップ](https://lifewell-docs.aoneahsan.com/ja/sitemap)
+- [フィード](https://lifewell-docs.aoneahsan.com/ja/feed)

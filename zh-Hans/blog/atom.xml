@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lifewell-docs.aoneahsan.com/zh-Hans/blog</id>
-    <title>LifeWell Documentation Blog</title>
+    <title>LifeWell · 博客</title>
     <updated>2026-09-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lifewell-docs.aoneahsan.com/zh-Hans/blog"/>
-    <subtitle>Updates, release notes, and deep-dives from the LifeWell project.</subtitle>
+    <subtitle>来自 LifeWell 团队的更新和发布说明：应用改了什么，以及为什么修改。</subtitle>
     <icon>https://lifewell-docs.aoneahsan.com/zh-Hans/img/favicon.ico</icon>
-    <rights>Copyright © 2026 the LifeWell team. CC BY 4.0.</rights>
+    <rights>© 2026 LifeWell · LifeWell — 由 Zaions 团队倾心开发。文档采用 CC BY 4.0 许可。</rights>
     <entry>
         <title type="html"><![CDATA[文档写错了，所以我们重写了它]]></title>
         <id>https://lifewell-docs.aoneahsan.com/zh-Hans/blog/documentation-rewritten-for-3-0-0</id>

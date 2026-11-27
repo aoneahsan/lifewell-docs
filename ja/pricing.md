@@ -1,13 +1,74 @@
-# LifeWell plans
+# プラン
 
-LifeWell has Free, Pro and Family plans. Prices are in US dollars. The [plans guide](https://lifewell-docs.aoneahsan.com/plans) explains each limit and the current purchase paths; the [app plans page](https://lifewell.aoneahsan.com/plans) is the live version.
+プランは3つです。アプリ内の[プランページ](https://lifewell.aoneahsan.com/ja/plans)には現在の内容が表示され、サーバーが利用上限を判断する際と同じ表から作られます。
 
-| Plan | Monthly | Yearly | Seats |
-| --- | ---: | ---: | ---: |
-| Free | $0 | $0 | 1 |
-| Pro | $9.99 | $99.90 | 1 |
-| Family | $8.99 per seat | $89.90 per seat | 3 or more |
+料金は米ドルです。
 
-Export is available on every plan. The Free plan includes 50 people, unlimited entries, 5 GB of storage and up to 10 active consultations. Pro and Family include unlimited people, entries and active consultations, plus scheduled exports. Pro includes 50 GB of storage; Family includes 200 GB.
+| | 無料 | Pro | Family |
+|---|---|---|---|
+| 月払い | $0 | **$9.99** | **1席あたり$8.99** |
+| 年払い | $0 | **$99.90** | **1席あたり$89.90** |
+| 席数 | 1 | 1 | 3席以上、上限なし |
+| 記録できる人 | 50人 | 無制限 | 無制限 |
+| 入力件数 | 無制限 | 無制限 | 無制限 |
+| 保存容量 | 5 GB | 50 GB | 200 GB |
+| 選んだ期間のエクスポート（各テーブル最大5,000行） | 可 | 可 | 可 |
+| 読み取り専用の共有リンク | 可 | 可 | 可 |
+| 予定を設定したエクスポート | — | 可 | 可 |
+| 進行中の相談 | 最大10件 | 無制限 | 無制限 |
+| 1か月のAI推定回数 | 50 | 1,000 | 1,500 |
 
-On the web, payment is arranged manually and an administrator applies the plan. The Android Google Play Billing path is built but not switched on; no real purchase has been made through it yet.
+Familyは3席からで、3席なら月額$26.97です。購入時に席数を選び、その後で誰に渡すかを決めます。
+
+## Familyの席 \{#family-seats}
+
+席によって変わるのは、受け取った人のプランだけです。
+
+- **渡せる相手。** LifeWellで家族として既につながり、[Familyグループ](https://lifewell-docs.aoneahsan.com/ja/domains/people#connections-and-groups)にいる人に限ります。知らない人には渡せません。
+- **記録は共有されません。** 席を受け取った人の記録、入力、人、ファイルをあなたは読めず、相手もあなたの記録を読めません。あなたに分かるのは、相手が席を持つことと受け取った日付だけです。
+- **どちらからでもいつでも終了できます。**
+- **プランが終わると、すべての席も終了します。** それぞれの記録はそのまま残ります。無料プランの上限を超えた内容は、本人が別のプランを選ぶまで読み取り専用になります。
+
+## 無料プランの範囲
+
+プランは、製品のどこまで見られるかではなく、**利用にかかる運用費**で分かれます。
+
+- テーブルに1行を保存する費用は小さいため、無料プランでも50人、無制限の入力、読み取り専用の共有リンクを使えます。
+- 保存容量には費用がかかるため、無料プランではなくすのではなく、容量を小さくしています。
+- AI推定は使うたびに費用がかかるため、最も厳しい上限があります。ただし、**自分のキーを使えば、無料を含むどのプランでもこの上限はなくなります**。
+- 指定時刻に動く処理には継続的な運用が必要なため、予定を設定したエクスポートは有料プランの機能です。
+
+**エクスポートはすべてのプランで使えます。** 人生の記録を預かりながら、取り戻すためだけに料金を求めるべきではありません。
+
+## 2つの支払い方法
+
+### ウェブ
+
+`/profile/premium`にプランと支払い方法が表示されます。カード入力フォームではなく手動で手配します。支払い後に知らせていただき、管理者が申告を確認して終了日付きのプランを適用します。
+
+### Android \{#on-android}
+
+Androidの購入には**Google Play Billing**を使います。GoogleはAndroid内のデジタル商品についてこの方法を求めています。アプリ内から別の支払い先へ案内するリンクはなく、Androidの画面にはウェブ料金やその比較も表示しません。
+
+:::warning[Google Play Billingは実装済みですが有効ではありません]
+購入処理、サーバーでの検証、Googleからの更新通知は実装・コンパイルされ、記録された応答でテストされています。**実際の購入はまだ行われていません。** Playのサービスアカウントは設定されず、購入経路を有効にする設定も初期状態ではオフです。内部テスト版で端末から実際の購入を確認するまで、Androidでの購入経路は未検証として扱ってください。Playが署名したビルド以外では購入処理を試せません。
+:::
+
+## プランの上限を守る仕組み
+
+上限を守るのはサーバーです。単にボタンを隠すだけではありません。上限を超えた書き込みはデータベースが拒否するため、アプリ以外からのリクエストにも同じ制限がかかります。
+
+上限はプランの行に保存されるため、アプリを公開し直さずに変えられます。上の数字は現時点の設定です。
+
+## 付与と終了日
+
+管理者が適用するプランには終了日と付与理由が付きます。期限切れのプランは、どの画面にも表示されずエラーも出ない状態を避けるため、付与できません。
+
+[紹介特典](https://lifewell-docs.aoneahsan.com/ja/features/referrals)は、有料プランを置き換えるのではなく期間を延長します。
+
+## 変更と終了
+
+- **ウェブ** — プランは終了日まで続きます。自動更新がないため、解約する更新設定もありません。
+- **Android** — 購読の管理と解約はGoogle Playで行います。取引はGoogleが管理するため、LifeWell内に動作しない解約ボタンは置いていません。
+
+プランが終わっても、残した記録は変わりません。新しい書き込みには無料プランの上限が適用されます。以前の記録は残り、[エクスポート](https://lifewell-docs.aoneahsan.com/ja/your-data/export)はどのプランでも使えます。

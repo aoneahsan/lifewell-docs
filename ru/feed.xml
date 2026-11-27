@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <atom:link href="https://lifewell-docs.aoneahsan.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
-        <title>LifeWell Documentation Blog</title>
+        <title>LifeWell · Блог</title>
         <link>https://lifewell-docs.aoneahsan.com/ru/blog</link>
-        <description>Updates, release notes, and deep-dives from the LifeWell project.</description>
+        <description>Новости и заметки о выпусках от команды LifeWell: что изменилось в приложении и почему.</description>
         <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
-        <copyright>Copyright © 2026 the LifeWell team. CC BY 4.0.</copyright>
+        <copyright>© 2026 LifeWell · LifeWell — создано с любовью командой Zaions. Документация распространяется по лицензии CC BY 4.0.</copyright>
         <item>
             <title><![CDATA[Документация описывала прежний продукт. Мы переписали её]]></title>
             <link>https://lifewell-docs.aoneahsan.com/ru/blog/documentation-rewritten-for-3-0-0</link>

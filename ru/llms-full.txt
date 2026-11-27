@@ -1,30 +1,169 @@
-# LifeWell documentation — Zaions and the developer
+# LifeWell
 
-LifeWell keeps the people and moments of your life in one place. Ahsan Mahmood built it after listening to his parents tell the stories of their lives.
+> Открытая документация LifeWell — места для людей и моментов вашей жизни: семьи, друзей, воспоминаний и планов, с заботой о самочувствии рядом. Веб и Android.
 
-- [About the developer](https://lifewell-docs.aoneahsan.com/about-developer): the vision and dated LifeWell milestones.
-- [Products from Zaions](https://lifewell-docs.aoneahsan.com/ecosystem): the other products from the same maker.
+## Документация
 
-## Other products
-- [AchatAI](https://lifewell-docs.aoneahsan.com/ecosystem/achat): Find someone without asking for their number. Official site: https://achat.aoneahsan.com
-- [CallVault](https://lifewell-docs.aoneahsan.com/ecosystem/callvault): A call you can find and listen to later. Official site: https://callvault.aoneahsan.com
-- [Capacitor Auth Manager](https://lifewell-docs.aoneahsan.com/ecosystem/capacitor-auth-manager): One Google sign-in call across web and native apps. Official site: https://www.npmjs.com/package/capacitor-auth-manager
-- [ClearHire](https://lifewell-docs.aoneahsan.com/ecosystem/clearhire): Put your work history into a structured resume. Official site: https://clearhire.aoneahsan.com
-- [Eat This](https://lifewell-docs.aoneahsan.com/ecosystem/eatthis): Look for food by nutrient, feeling or time of day. Official site: https://eatthis.aoneahsan.com/
-- [Empora](https://lifewell-docs.aoneahsan.com/ecosystem/empora): Choose the WooCommerce modules your store needs. Official site: https://empora.aoneahsan.com
-- [HabitForge](https://lifewell-docs.aoneahsan.com/ecosystem/habitforge): A check-in becomes a rope you can see. Official site: https://habitforge.aoneahsan.com
-- [LabFlow](https://lifewell-docs.aoneahsan.com/ecosystem/labflow): Keep a lab order with its sample and result. Official site: https://labflow.aoneahsan.com
-- [linux-cleanup](https://lifewell-docs.aoneahsan.com/ecosystem/linux-cleanup): See each path before Linux cleanup touches it. Official site: https://linux-cleanup.aoneahsan.com/
-- [macleanup](https://lifewell-docs.aoneahsan.com/ecosystem/macleanup): Preview macOS cleanup before choosing it. Official site: https://github.com/aoneahsan/macleanup
-- [Native Update](https://lifewell-docs.aoneahsan.com/ecosystem/native-update): Deliver a Capacitor bundle without waiting for a store release. Official site: https://nativeupdate.aoneahsan.com
-- [NetCage](https://lifewell-docs.aoneahsan.com/ecosystem/netcage): Choose which Android apps can use the network. Official site: https://netcage.aoneahsan.com
-- [PregnancyPal](https://lifewell-docs.aoneahsan.com/ecosystem/pregnancypal): Keep the changing weeks of pregnancy together. Official site: https://pregnancypal.aoneahsan.com
-- [RentParty](https://lifewell-docs.aoneahsan.com/ecosystem/rentparty): Pause a property game and keep the deeds in place. Official site: https://rentparty.aoneahsan.com
-- [SMS App](https://lifewell-docs.aoneahsan.com/ecosystem/smsapp): Send a batch of messages from your Android device. Official site: https://smsapp.aoneahsan.com
-- [Strata Storage](https://lifewell-docs.aoneahsan.com/ecosystem/strata-storage): One interface for several places an app keeps data. Official site: https://www.npmjs.com/package/strata-storage
-- [Tilawah](https://lifewell-docs.aoneahsan.com/ecosystem/tilawah): Return to a Tajweed or Tafseer lesson at your pace. Official site: https://tilawah.aoneahsan.com
-- [Trizlink](https://lifewell-docs.aoneahsan.com/ecosystem/trizlink): Keep short links and a bio page together. Official site: https://trizlink.com
-- [Video Controls Plus](https://lifewell-docs.aoneahsan.com/ecosystem/video-controls-plus): Change the pace of an HTML5 video. Official site: https://vcpeai.aoneahsan.com
-- [Waylock](https://lifewell-docs.aoneahsan.com/ecosystem/waylock): Keep chosen stops in place on a driver route. Official site: https://waylock.aoneahsan.com
-- [windowsweep](https://lifewell-docs.aoneahsan.com/ecosystem/windowsweep): Read the Windows cleanup list before removing anything. Official site: https://windowsweep.aoneahsan.com
-- [ZTools](https://lifewell-docs.aoneahsan.com/ecosystem/ztools): Find a utility and run it in your browser. Official site: https://ztools.zaions.com
+- [LifeWell](https://lifewell-docs.aoneahsan.com/ru/intro): LifeWell помогает хранить в одном месте людей и моменты вашей жизни — семью, друзей, воспоминания и планы, а рядом с ними сведения о самочувствии. Веб и Android, записи под вашим контролем.
+- [Планы](https://lifewell-docs.aoneahsan.com/ru/plans): Free, Pro и Family: возможности планов, семейные места, границы бесплатного плана и способы оплаты. Цены в долларах США за месяц или год.
+- [Панель администратора](https://lifewell-docs.aoneahsan.com/ru/admin): Десять экранов, три роли, журнал аудита без прямой записи и управление пределами планов и реферальной программой без нового выпуска.
+- [Частые вопросы](https://lifewell-docs.aoneahsan.com/ru/faq): Ответы на вопросы перед тем, как доверить приложению личные записи: цена, конфиденциальность, экспорт, работа без связи и границы возможностей LifeWell.
+
+## Переход на LifeWell
+
+- [Переход на LifeWell из другого приложения](https://lifewell-docs.aoneahsan.com/ru/compare/): Пошаговые руководства по переходу на LifeWell из 32 сервисов для семейного дерева, повседневных дел и записей о здоровье. У каждого указана дата проверки.
+- [Переход с FamilySearch на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/familysearch): Как перейти с FamilySearch на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Ancestry на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/ancestry): Как перейти с Ancestry на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с MyHeritage на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/myheritage): Как перейти с MyHeritage на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Findmypast на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/findmypast): Как перейти с Findmypast на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Gramps Web на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/gramps-web): Как перейти с Gramps Web на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Day One на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/day-one): Как перейти с Day One на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход со Storyworth на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/storyworth): Как перейти со Storyworth на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Remento на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/remento): Как перейти с Remento на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с FamilyAlbum на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/familyalbum): Как перейти с FamilyAlbum на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Journey на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/journey): Как перейти с Journey на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Tinybeans на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/tinybeans): Как перейти с Tinybeans на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Monica на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/monica): Как перейти с Monica на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Mesh на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/mesh): Как перейти с Mesh на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Dex на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/dex): Как перейти с Dex на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Covve на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/covve): Как перейти с Covve на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Cloze на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/cloze): Как перейти с Cloze на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Notion на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/notion): Как перейти с Notion на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Evernote на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/evernote): Как перейти с Evernote на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Todoist на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/todoist): Как перейти с Todoist на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с TickTick на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/ticktick): Как перейти с TickTick на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Any.do на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/any-do): Как перейти с Any.do на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Obsidian на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/obsidian): Как перейти с Obsidian на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Medisafe на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/medisafe): Как перейти с Medisafe на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с MyTherapy на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/mytherapy): Как перейти с MyTherapy на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с CareClinic на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/careclinic): Как перейти с CareClinic на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Bearable на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/bearable): Как перейти с Bearable на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Apple Health на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/apple-health): Как перейти с Apple Health на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с MyChart на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/mychart): Как перейти с MyChart на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Withings+ на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/withings-plus): Как перейти с Withings+ на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Evergreen Life на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/evergreen-life): Как перейти с Evergreen Life на LifeWell, чем они отличаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с Elfie на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/elfie): Как перейти с Elfie на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+- [Переход с One Medical на LifeWell](https://lifewell-docs.aoneahsan.com/ru/compare/one-medical): Как перейти с One Medical на LifeWell, чем они различаются и сколько стоят. Проверено 26 ноября 2026 г.
+
+## Начало работы
+
+- [Начало работы с LifeWell](https://lifewell-docs.aoneahsan.com/ru/category/get-started): Откройте приложение, войдите и узнайте, что нужно на первых пяти экранах.
+- [LifeWell в браузере](https://lifewell-docs.aoneahsan.com/ru/getting-started/install-web): Откройте LifeWell в современном браузере, войдите через Google и начните вести записи. Без загрузки и отдельной формы регистрации.
+- [Установка на Android](https://lifewell-docs.aoneahsan.com/ru/getting-started/install-android): LifeWell для Android — нативная оболочка Capacitor вокруг того же приложения. Установите его из Google Play, войдите через Google и работайте с теми же записями, что в вебе.
+- [Первый запуск](https://lifewell-docs.aoneahsan.com/ru/getting-started/first-run): Что LifeWell спрашивает при первом входе: пять коротких шагов, большинство из которых можно пропустить, и как ответы влияют на приложение.
+- [Короткий обзор](https://lifewell-docs.aoneahsan.com/ru/getting-started/tour): Главная страница, меню, верхняя панель и настройка внешнего вида LifeWell — где искать нужное перед началом работы.
+- [Экскурсия по странице и знакомство с приложением](https://lifewell-docs.aoneahsan.com/ru/getting-started/tours-and-walkthrough): Два способа узнать LifeWell — короткая экскурсия по текущей странице и шесть экранов со снимками приложения. Длительные задачи видны в списке заданий.
+
+## Семь разделов
+
+- [Семь разделов](https://lifewell-docs.aoneahsan.com/ru/domains/overview): LifeWell объединяет семь разделов вокруг «Вас»: люди, воспоминания, повседневные дела, общий доступ, здоровье, самочувствие и этапы жизни. Шесть можно скрыть без удаления записей.
+- [Люди](https://lifewell-docs.aoneahsan.com/ru/domains/people): С чего начинается LifeWell: вы, важные вам люди и сведения о них. Семейные и рабочие деревья, связи, места, сообщения, сообщество, специалисты и донорство крови.
+- [Воспоминания](https://lifewell-docs.aoneahsan.com/ru/domains/memories): Фотографии, альбомы, памятные страницы и подписи, которые помогают их понять, — сами файлы остаются в вашем Google Drive.
+- [Повседневные дела](https://lifewell-docs.aoneahsan.com/ru/domains/everyday): Календарь, встречи, заметки, сохранённые места, напоминания и список покупок — обычная неделя, в которую укладывается остальная жизнь.
+- [Общий доступ](https://lifewell-docs.aoneahsan.com/ru/domains/sharing): Единственный раздел без переключателя: что можно передать по ссылке, кому, как это выглядит у получателя, как закрыть доступ и что никогда не покидает ваш журнал.
+- [Здоровье](https://lifewell-docs.aoneahsan.com/ru/domains/health): Показатели, лекарства, питание, физическая активность и состояния здоровья — один из разделов рядом с людьми в вашей жизни, доступный по вашему выбору.
+- [Самочувствие](https://lifewell-docs.aoneahsan.com/ru/domains/mind): Личный журнал, дыхательные упражнения, звуки для сна, настроение, благодарность и перерывы в рабочий день — записи, которые можно перечитать без оценок и баллов.
+- [Этапы жизни](https://lifewell-docs.aoneahsan.com/ru/domains/stages): Цикл, попытки зачать ребёнка, овуляция, СПКЯ, менопауза и ранние годы ребёнка — шесть экранов, видимость которых определяет один ответ в профиле.
+
+## Функции
+
+- [Функции](https://lifewell-docs.aoneahsan.com/ru/category/features): Возможности, которые связывают несколько разделов.
+- [Календарь и встречи](https://lifewell-docs.aoneahsan.com/ru/features/calendar-and-appointments): Храните события и встречи с датами вместе, а рядом с каждой встречей — список вопросов и заметки.
+- [Напоминания](https://lifewell-docs.aoneahsan.com/ru/features/reminders): Какие напоминания LifeWell может показывать, когда и на каком устройстве: три главных переключателя, тихие часы и причина отсутствия разрешения Android на точные сигналы.
+- [Поиск](https://lifewell-docs.aoneahsan.com/ru/features/search): Единый поиск по вашим записям. Серверная часть готова, но сама страница ещё не закончена; приложение говорит об этом вместо пустого списка результатов.
+- [Сообщество и чаты](https://lifewell-docs.aoneahsan.com/ru/features/community-and-chats): Группы с публикациями и ответами, личные сообщения между связанными учётными записями, блокировка и модерация без раскрытия имени пожаловавшегося человека.
+- [Специалисты](https://lifewell-docs.aoneahsan.com/ru/features/professionals): Каталог специалистов, которые сами добавили сведения о себе. LifeWell не проверяет квалификацию: показывает регистрационный номер и ссылку на реестр, чтобы вы могли проверить его самостоятельно.
+- [Донорство крови](https://lifewell-docs.aoneahsan.com/ru/features/blood-donation): Открытый список доноров, адресные запросы и однократное раскрытие контакта одному человеку с возможностью отзыва.
+- [Реферальная программа](https://lifewell-docs.aoneahsan.com/ru/features/referrals): Пригласите человека: подтверждённая регистрация приносит баллы и значок, а после достижения порога — месяц платного плана. Все значения задаёт администратор.
+- [Список покупок](https://lifewell-docs.aoneahsan.com/ru/features/shopping-list): Составьте список по блюдам и рецептам или вручную. Отправьте его обычным текстом, чтобы человеку в магазине не нужна была учётная запись.
+- [Схемы связей и места](https://lifewell-docs.aoneahsan.com/ru/features/maps): Связи между воспоминаниями, заметками, людьми, событиями и сохранёнными названиями мест. История местоположения управляется отдельно.
+- [Инструменты и калькуляторы](https://lifewell-docs.aoneahsan.com/ru/features/tools): Какие калькуляторы работают в LifeWell, какие находятся на ZTools и почему каталог инструментов в основном ведёт на другие страницы.
+
+## Лицензирование и версия под вашей маркой
+
+- [Версия под вашей маркой и лицензирование](https://lifewell-docs.aoneahsan.com/ru/white-label/overview): Что представляет собой лицензия LifeWell white-label, кому она подходит, что мы обеспечиваем и чем она отличается от покупки исходного кода.
+- [Что входит в поставку для каждой платформы](https://lifewell-docs.aoneahsan.com/ru/white-label/what-you-get): Что даёт лицензия LifeWell для веба, Android и iOS и какие материалы нам нужны для каждой платформы.
+- [Настройка копии по лицензии](https://lifewell-docs.aoneahsan.com/ru/white-label/setup): Путь от оплаты до работающей копии LifeWell под вашей маркой — письмо с лицензией, домен, оформление и размещение.
+- [Обновления и продление](https://lifewell-docs.aoneahsan.com/ru/white-label/updates-and-renewals): Шесть месяцев обновлений, входящие в каждую лицензию и покупку LifeWell, виды обновлений и продление по ключу лицензии.
+- [Проверка лицензии](https://lifewell-docs.aoneahsan.com/ru/white-label/verify-a-licence): Как проверить лицензию копии LifeWell по ключу или сайту и что означают ответы.
+- [Вопросы о лицензии white-label](https://lifewell-docs.aoneahsan.com/ru/white-label/faq): Ответы для организаций перед покупкой LifeWell: исходный код, эксклюзивность, iOS, обновления и материалы для начала работы.
+
+## Ваши данные
+
+- [Ваши данные](https://lifewell-docs.aoneahsan.com/ru/category/your-data): Как выгрузить или удалить данные и где они хранятся.
+- [Экспорт копии](https://lifewell-docs.aoneahsan.com/ru/your-data/export): Экспортируйте выбранный период в JSON или CSV либо создайте краткий PDF. За один раз выгружается не больше 5 000 строк из каждой таблицы.
+- [Удаление записей](https://lifewell-docs.aoneahsan.com/ru/your-data/delete): Удалите всю учётную запись или один из семи разделов, сохранив остальные. Что удаляется, что остаётся и как работает удаление сейчас.
+- [Где хранятся ваши записи](https://lifewell-docs.aoneahsan.com/ru/your-data/where-it-lives): Записи хранятся в базе Postgres, фотографии — в вашем Google Drive, а отдельные быстрые записи при разрешённой работе без связи временно остаются на устройстве.
+
+## Как это работает
+
+- [Как это работает](https://lifewell-docs.aoneahsan.com/ru/category/how-it-works): Архитектура, модель данных, конфиденциальность, работа без сети и оформление.
+- [Архитектура](https://lifewell-docs.aoneahsan.com/ru/concepts/architecture): Статическое одностраничное приложение над Postgres и периферийные функции только там, где браузеру нельзя доверять секрет. Что и где работает без собственного сервера.
+- [Модель данных](https://lifewell-docs.aoneahsan.com/ru/concepts/data-model): Как LifeWell хранит записи о жизни: одна таблица для каждой идеи, одно хранилище для всех показателей и три решения, которые определяют работу остальных разделов.
+- [Конфиденциальность и безопасность](https://lifewell-docs.aoneahsan.com/ru/concepts/privacy-and-security): Что покидает ваше устройство: вход без пароля, правила базы для каждой строки, очищенная аналитика, разрешение на контакты, изображения удостоверений и утверждения, которых LifeWell намеренно не делает.
+- [Работа без связи и синхронизация](https://lifewell-docs.aoneahsan.com/ru/concepts/offline-and-sync): При потере связи LifeWell приостанавливает приложение, но по вашему выбору может сохранить отдельные быстрые записи на устройстве до восстановления соединения.
+- [Оформление](https://lifewell-docs.aoneahsan.com/ru/concepts/appearance): Один значок и одна панель для темы, цвета, скругления, плотности, размера текста, шрифта, стиля поверхностей и движения. Настройки применяются до первого отображения.
+- [Язык и единицы измерения](https://lifewell-docs.aoneahsan.com/ru/concepts/language-and-units): LifeWell доступен на десяти языках в приложении, документации и расширении браузера. Единицы измерения выбираются отдельно от языка.
+
+## Платформы
+
+- [Платформы](https://lifewell-docs.aoneahsan.com/ru/category/platforms): Веб, Android, готовое, но ещё не опубликованное расширение браузера и удалённое приложение iOS.
+- [Веб-версия](https://lifewell-docs.aoneahsan.com/ru/platforms/web): Использование LifeWell в браузере: особенности напоминаний, общего доступа и работы без связи.
+- [Android](https://lifewell-docs.aoneahsan.com/ru/platforms/android): LifeWell на Android: минимум Android 9, разрешения, локальные напоминания, подписанные обновления и функции, ожидающие выпуска в магазине.
+- [iOS](https://lifewell-docs.aoneahsan.com/ru/platforms/ios): Поддержка iOS удалена из LifeWell 16 июля 2026 г. Она вернётся только после появления аккаунта Apple Developer.
+- [Расширение браузера](https://lifewell-docs.aoneahsan.com/ru/platforms/browser-extension): Дополнение LifeWell для Chrome и Firefox готово, но ещё не опубликовано в магазинах. Узнайте, что оно хранит в браузере и как подключается учётная запись.
+
+## Справочник
+
+- [Справочник](https://lifewell-docs.aoneahsan.com/ru/category/reference): Формат экспортируемых файлов, прежние адреса и все внешние сервисы.
+- [Формат экспортируемого файла](https://lifewell-docs.aoneahsan.com/ru/reference/export-format): Содержимое экспорта LifeWell по полям и таблицам: заголовок JSON, архив CSV, исключения из PDF и данные, которые не входят ни в один формат.
+- [Постоянные адреса](https://lifewell-docs.aoneahsan.com/ru/reference/addresses): Девяносто девять публичных адресов LifeWell и пятнадцать постоянных перенаправлений. При перестройке меняется код, а не адреса.
+- [Сторонние сервисы](https://lifewell-docs.aoneahsan.com/ru/reference/integrations): Все внешние сервисы LifeWell: для чего они нужны, что получают и что происходит, если ключ сервиса не задан.
+
+## Разработчикам
+
+- [Подключение LifeWell к другим приложениям](https://lifewell-docs.aoneahsan.com/ru/developers/): Четыре способа получить доступ к вашему журналу извне LifeWell — календарная подписка, токен доступа для своего кода, MCP для ИИ-помощника и вебхуки для другого приложения.
+- [Токены доступа и авторизация](https://lifewell-docs.aoneahsan.com/ru/developers/authentication): Как скрипт или приложение подтверждает право читать ваш журнал LifeWell: токены с правами чтения, записи и удаления, десятиминутное правило повторного показа, OAuth, пределы запросов и ошибки.
+- [API LifeWell](https://lifewell-docs.aoneahsan.com/ru/developers/api): REST API LifeWell: базовый адрес, страницы по 20 строк по умолчанию и не более 50, а также файл OpenAPI с описанием маршрутов и полей.
+- [Подключение ИИ-помощника (MCP)](https://lifewell-docs.aoneahsan.com/ru/developers/mcp): Подключите Claude, ChatGPT, Claude Code или Cursor к своему журналу через сервер MCP LifeWell: разрешения, подтверждение удаления и отключение.
+- [Вебхуки](https://lifewell-docs.aoneahsan.com/ru/developers/webhooks): Вебхуки LifeWell сообщают вашему серверу об изменениях журнала: подпись Standard Webhooks, повторы чуть дольше суток и примеры проверки для Node, Python и PHP.
+- [Календарные подписки](https://lifewell-docs.aoneahsan.com/ru/developers/calendar-feeds): Добавьте календарь LifeWell в Google Calendar, Apple Calendar или Outlook через адрес подписки только для чтения и отзовите доступ в любой момент.
+- [Дополнительная проверка при входе](https://lifewell-docs.aoneahsan.com/ru/developers/two-step-sign-in): Включите для LifeWell вход с кодом из приложения-аутентификатора, сохраните резервные коды и решите, запоминать ли браузер на семь дней.
+- [Изменения для разработчиков](https://lifewell-docs.aoneahsan.com/ru/developers/changelog): Все изменения API LifeWell, сервера MCP, вебхуков и календарных лент, начиная с новых.
+
+## О проекте
+
+- [Кто создаёт LifeWell](https://lifewell-docs.aoneahsan.com/ru/about/the-developer): LifeWell создаёт и поддерживает команда LifeWell. Она прямо говорит о том, чего продукт пока не умеет.
+- [История изменений](https://lifewell-docs.aoneahsan.com/ru/about/changelog): LifeWell 3.0 (версия сборки 3.22.0) полностью перестроен на новом сервере; версии 3.23–3.25 вышли в октябре 2026 года. Новые возможности, удалённые части, исправления и сброс записей при переходе на 3.0.
+- [Как помочь с документацией](https://lifewell-docs.aoneahsan.com/ru/about/contributing): Как исправить страницу, что здесь уместно и главное правило: документация описывает только то, что продукт действительно делает.
+
+## Ещё от Zaions
+
+- [Продукты Zaions](https://lifewell-docs.aoneahsan.com/ru/ecosystem): Другие продукты Ahsan Mahmood в Zaions и прямые ссылки на каждый из них.
+- [Создатель — Ahsan Mahmood](https://lifewell-docs.aoneahsan.com/ru/about-developer): Почему Ahsan Mahmood создал LifeWell, какие события привели к этому проекту и где найти его работу с Zaions.
+- [AchatAI — для выбранных вами людей](https://lifewell-docs.aoneahsan.com/ru/ecosystem/achat): Найдите человека, не спрашивая номер телефона.
+- [CallVault — для звонков, к которым стоит вернуться](https://lifewell-docs.aoneahsan.com/ru/ecosystem/callvault): Звонок, который можно найти и прослушать позже.
+- [Capacitor Auth Manager — вход в приложение](https://lifewell-docs.aoneahsan.com/ru/ecosystem/capacitor-auth-manager): Один вызов для входа через Google в вебе и нативных приложениях.
+- [ClearHire — для вашего следующего резюме](https://lifewell-docs.aoneahsan.com/ru/ecosystem/clearhire): Превратите опыт работы в структурированное резюме.
+- [Eat This — когда вопрос касается еды](https://lifewell-docs.aoneahsan.com/ru/ecosystem/eatthis): Ищите продукты по питательному веществу, самочувствию или времени дня.
+- [Empora — для магазина WooCommerce](https://lifewell-docs.aoneahsan.com/ru/ecosystem/empora): Выберите модули WooCommerce, которые нужны вашему магазину.
+- [HabitForge и видимая верёвка](https://lifewell-docs.aoneahsan.com/ru/ecosystem/habitforge): Каждая отметка меняет верёвку, которую видно на экране.
+- [LabFlow — путь через лабораторию](https://lifewell-docs.aoneahsan.com/ru/ecosystem/labflow): Храните лабораторный заказ вместе с образцом и результатом.
+- [linux-cleanup и названные пути](https://lifewell-docs.aoneahsan.com/ru/ecosystem/linux-cleanup): Увидьте каждый путь до того, как очистка Linux его затронет.
+- [macleanup — просмотр перед удалением](https://lifewell-docs.aoneahsan.com/ru/ecosystem/macleanup): Посмотрите план очистки macOS до того, как его выбрать.
+- [Native Update для выпуска приложений](https://lifewell-docs.aoneahsan.com/ru/ecosystem/native-update): Доставляйте пакеты Capacitor без ожидания каждого выпуска в магазине.
+- [NetCage — когда приложению лучше оставаться без сети](https://lifewell-docs.aoneahsan.com/ru/ecosystem/netcage): Выбирайте, каким приложениям Android доступна сеть.
+- [PregnancyPal — неделя за неделей](https://lifewell-docs.aoneahsan.com/ru/ecosystem/pregnancypal): Храните сведения об изменениях на каждой неделе беременности вместе.
+- [RentParty — когда игру нужно прервать](https://lifewell-docs.aoneahsan.com/ru/ecosystem/rentparty): Приостановите игру с недвижимостью, сохранив все права собственности.
+- [SMS App — сообщения с собственного телефона](https://lifewell-docs.aoneahsan.com/ru/ecosystem/smsapp): Отправляйте группы сообщений со своего устройства Android.
+- [Strata Storage под поверхностью приложения](https://lifewell-docs.aoneahsan.com/ru/ecosystem/strata-storage): Один интерфейс для разных мест хранения данных приложения.
+- [Tilawah — изучение Корана](https://lifewell-docs.aoneahsan.com/ru/ecosystem/tilawah): Возвращайтесь к урокам Tajweed и Tafseer в своём темпе.
+- [Trizlink — для ссылок, которыми вы делитесь](https://lifewell-docs.aoneahsan.com/ru/ecosystem/trizlink): Держите короткие ссылки и страницу биографии вместе.
+- [Video Controls Plus — управление видео в браузере](https://lifewell-docs.aoneahsan.com/ru/ecosystem/video-controls-plus): Меняйте скорость просмотра видео HTML5.
+- [Waylock — когда остановки должны остаться на месте](https://lifewell-docs.aoneahsan.com/ru/ecosystem/waylock): Оставьте выбранные остановки на месте в маршруте водителя.
+- [windowsweep — перед очисткой диска](https://lifewell-docs.aoneahsan.com/ru/ecosystem/windowsweep): Прочитайте список очистки Windows до удаления файлов.
+- [ZTools — для небольшой задачи прямо сейчас](https://lifewell-docs.aoneahsan.com/ru/ecosystem/ztools): Найдите нужный инструмент и запустите его в браузере.
+
+## Блог
+
+- [Документация описывала прежний продукт. Мы переписали её](https://lifewell-docs.aoneahsan.com/ru/blog/documentation-rewritten-for-3-0-0): LifeWell 3.0.0 был пересоздан на новой серверной платформе. Прежняя документация описывала уже не существующую версию продукта, поэтому все страницы были переписаны по исходному коду.
