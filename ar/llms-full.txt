@@ -77,7 +77,7 @@
 - [برنامج الإحالات](https://lifewell-docs.aoneahsan.com/ar/features/referrals): ادعُ شخصاً؛ التسجيل المؤكد يمنح نقاطاً وشارة، وبعد حد معين شهراً من خطة مدفوعة. كل رقم إعداد يديره المشرف.
 - [قائمة التسوق](https://lifewell-docs.aoneahsan.com/ar/features/shopping-list): قائمة تُنشأ من وجباتك ووصفاتك أو تكتبها بنفسك، وتُشارك نصاً عادياً حتى لا يحتاج من يتسوق إلى حساب.
 - [الخرائط والأماكن](https://lifewell-docs.aoneahsan.com/ar/features/maps): تتبّع الروابط بين الذكريات والملاحظات والأشخاص والأحداث وأسماء الأماكن التي حفظتها. سجل المواقع خيار منفصل.
-- [الأدوات والحاسبات](https://lifewell-docs.aoneahsan.com/ar/features/tools): أي الحاسبات تعمل داخل LifeWell وأيها على ZTools، ولماذا يغلب على دليل الأدوات أن يكون مجموعة روابط.
+- [الأدوات والحاسبات](https://lifewell-docs.aoneahsan.com/ar/features/tools): سجلات LifeWell وروابط إلى حاسبات ZTools للاستخدام مرة واحدة. تعيد عناوين الحاسبات القديمة التوجيه إلى صفحاتها المحددة على ZTools.
 
 ## الترخيص والعلامة البيضاء
 
@@ -117,7 +117,7 @@
 
 - [المرجع](https://lifewell-docs.aoneahsan.com/ar/category/reference): صيغة ملف التصدير والعناوين الثابتة وكل خدمة خارجية.
 - [صيغة ملف التصدير](https://lifewell-docs.aoneahsan.com/ar/reference/export-format): ما يوجد في تصدير LifeWell، حقلاً حقلاً وجدولاً جدولاً: ترويسة JSON وأرشيف CSV وما يتركه PDF وما لا يظهر في أي صيغة.
-- [عناوين لا تتغير](https://lifewell-docs.aoneahsan.com/ar/reference/addresses): تسعة وتسعون عنواناً عاماً لـLifeWell وخمسة عشر تحويلاً ثابتاً. تغير إعادة البناء الشيفرة، لا العناوين.
+- [عناوين لا تتغير](https://lifewell-docs.aoneahsan.com/ar/reference/addresses): عناوين LifeWell العامة الأصلية البالغ عددها 99 ما زالت تعمل؛ وتحفظ 19 إعادة توجيه دائمة العناوين التي انتقلت.
 - [خدمات الأطراف الأخرى](https://lifewell-docs.aoneahsan.com/ar/reference/integrations): كل خدمة خارجية يتصل بها LifeWell، والغرض منها وما تستقبله وما يحدث إذا غاب مفتاحها.
 
 ## للمطورين

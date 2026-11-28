@@ -77,7 +77,7 @@
 - [紹介プログラム](https://lifewell-docs.aoneahsan.com/ja/features/referrals): 招待した人の登録が確認されるとポイントとバッジが付き、条件を満たすと有料プランが1か月延長されます。数値はすべて管理画面の設定です。
 - [買い物リスト](https://lifewell-docs.aoneahsan.com/ja/features/shopping-list): 食事やレシピから作るか手で書き、買い物をする人にアカウント不要のテキストとして共有できるリストです。
 - [つながりと場所](https://lifewell-docs.aoneahsan.com/ja/features/maps): 思い出、メモ、人、予定、保存した場所のつながりをたどれます。位置履歴は別に同意を選ぶ機能です。
-- [ツールと計算機](https://lifewell-docs.aoneahsan.com/ja/features/tools): LifeWell内にある計算機、ZToolsにある計算機、ツール一覧が主にリンクで構成される理由を説明します。
+- [ツールと計算機](https://lifewell-docs.aoneahsan.com/ja/features/tools): LifeWellの記録機能と、ZToolsの単発の計算ツールへのリンク。旧計算ツールのURLは対応するZToolsのページへ転送されます。
 
 ## ホワイトラベルとライセンス
 
@@ -117,7 +117,7 @@
 
 - [リファレンス](https://lifewell-docs.aoneahsan.com/ja/category/reference): エクスポートファイルの形式、確定済みのアドレス、利用する外部サービス。
 - [エクスポートファイルの形式](https://lifewell-docs.aoneahsan.com/ja/reference/export-format): LifeWellのエクスポートに含まれる内容をフィールドとテーブルごとに説明します。JSONのヘッダー、CSVのアーカイブ、PDFで省かれる情報、どの形式にも含まれない情報。
-- [変わらないURL](https://lifewell-docs.aoneahsan.com/ja/reference/addresses): 固定されたLifeWellの公開URL99件とリダイレクト15件。再構築で変わるのはコードであり、URLではありません。
+- [変わらないURL](https://lifewell-docs.aoneahsan.com/ja/reference/addresses): LifeWellの当初の公開URL99件は今も利用できます。移動したURLは19件の恒久的なリダイレクトで保たれています。
 - [外部サービス](https://lifewell-docs.aoneahsan.com/ja/reference/integrations): LifeWellが利用する外部サービス、それぞれの用途、受け取る情報、キーがない場合の動作。
 
 ## 開発者向け

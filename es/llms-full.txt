@@ -77,7 +77,7 @@
 - [El programa de invitaciones](https://lifewell-docs.aoneahsan.com/es/features/referrals): Invita a alguien. Cuando confirma su registro, obtienes puntos, una insignia y, al alcanzar el umbral, un mes de un plan de pago. Cada cifra se configura desde la administración.
 - [La lista de compras](https://lifewell-docs.aoneahsan.com/es/features/shopping-list): Una lista hecha a partir de tus comidas y recetas, o escrita a mano, que puedes compartir como texto sencillo sin que la persona que compra necesite una cuenta.
 - [Mapas y lugares](https://lifewell-docs.aoneahsan.com/es/features/maps): Sigue las relaciones entre recuerdos, notas, personas, eventos y nombres de lugares guardados. El historial de ubicación es otra opción independiente.
-- [Herramientas y calculadoras](https://lifewell-docs.aoneahsan.com/es/features/tools): Qué calculadoras están en LifeWell, cuáles están en ZTools y por qué el directorio contiene sobre todo enlaces en vez de versiones duplicadas.
+- [Herramientas y calculadoras](https://lifewell-docs.aoneahsan.com/es/features/tools): Registros de LifeWell y enlaces a calculadoras puntuales de ZTools. Las antiguas direcciones de calculadoras redirigen a sus páginas exactas en ZTools.
 
 ## Marca blanca y licencias
 
@@ -117,7 +117,7 @@
 
 - [Referencia](https://lifewell-docs.aoneahsan.com/es/category/reference): El formato del archivo exportado, las direcciones conservadas y los servicios externos.
 - [Formato de los archivos de exportación](https://lifewell-docs.aoneahsan.com/es/reference/export-format): Contenido de una exportación de LifeWell, campo por campo y tabla por tabla: encabezado JSON, archivo CSV, exclusiones del PDF y datos ausentes de todos los formatos.
-- [Direcciones que se conservan](https://lifewell-docs.aoneahsan.com/es/reference/addresses): Noventa y nueve direcciones públicas de LifeWell y quince redirecciones permanentes. Reconstruir el producto cambia el código, no sus direcciones.
+- [Direcciones que se conservan](https://lifewell-docs.aoneahsan.com/es/reference/addresses): Las 99 direcciones públicas originales de LifeWell siguen funcionando; 19 redirecciones permanentes conservan las direcciones trasladadas.
 - [Servicios externos](https://lifewell-docs.aoneahsan.com/es/reference/integrations): Cada servicio externo al que se conecta LifeWell, su función, los datos que recibe y qué ocurre si falta su clave.
 
 ## Desarrolladores

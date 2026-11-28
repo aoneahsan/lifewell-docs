@@ -77,7 +77,7 @@
 - [دعوتی پروگرام](https://lifewell-docs.aoneahsan.com/ur/features/referrals): کسی کو دعوت دیں؛ تصدیق شدہ رجسٹریشن پر پوائنٹس اور بیج ملتے ہیں، اور مقررہ حد کے بعد ادا شدہ منصوبے کا ایک ماہ۔ ہر عدد کوڈ کے بجائے منتظم کی ترتیب ہے۔
 - [خریداری کی فہرست](https://lifewell-docs.aoneahsan.com/ur/features/shopping-list): کھانوں اور ترکیبوں سے بنی یا ہاتھ سے لکھی فہرست، جسے سادہ متن کی صورت میں بانٹا جا سکتا ہے تاکہ خریداری کرنے والے کو اکاؤنٹ نہ چاہیے۔
 - [نقشے اور جگہیں](https://lifewell-docs.aoneahsan.com/ur/features/maps): یادوں، نوٹس، افراد اور واقعات کا محفوظ جگہوں کے ناموں سے تعلق دیکھیں۔ مقام کی تاریخ ایک الگ اختیاری سہولت ہے۔
-- [ٹولز اور کیلکولیٹر](https://lifewell-docs.aoneahsan.com/ur/features/tools): LifeWell میں کون سے کیلکولیٹر ہیں، کون سے ZTools پر ہیں، اور ٹولز کی فہرست میں زیادہ تر نئے ٹولز کے بجائے روابط کیوں ہیں۔
+- [ٹولز اور کیلکولیٹر](https://lifewell-docs.aoneahsan.com/ur/features/tools): LifeWell کے ریکارڈ اور ZTools کے ایک بار استعمال ہونے والے کیلکولیٹروں کے لنک۔ پرانے کیلکولیٹر پتے ZTools کے متعلقہ صفحات پر منتقل کرتے ہیں۔
 
 ## وائٹ لیبل اور لائسنس
 
@@ -117,7 +117,7 @@
 
 - [حوالہ](https://lifewell-docs.aoneahsan.com/ur/category/reference): برآمد شدہ فائلوں کا فارمیٹ، محفوظ رکھے گئے پتے اور بیرونی خدمات کی تفصیل۔
 - [برآمد شدہ فائل کی ساخت](https://lifewell-docs.aoneahsan.com/ur/reference/export-format): LifeWell کی برآمد شدہ فائل میں کیا ہوتا ہے: JSON کا ابتدائی حصہ، CSV آرکائیو، PDF میں چھوڑی گئی معلومات اور وہ چیزیں جو کسی شکل میں شامل نہیں ہوتیں۔
-- [وہ پتے جو نہیں بدلتے](https://lifewell-docs.aoneahsan.com/ur/reference/addresses): LifeWell کے 99 عوامی پتے اور 15 مستقل ری ڈائریکٹس۔ نئی تعمیر کوڈ بدلتی ہے، پتے نہیں۔
+- [وہ پتے جو نہیں بدلتے](https://lifewell-docs.aoneahsan.com/ur/reference/addresses): LifeWell کے ابتدائی 99 عوامی پتے اب بھی کھلتے ہیں؛ 19 مستقل ری ڈائریکٹس منتقل شدہ پتوں کو برقرار رکھتے ہیں۔
 - [بیرونی خدمات](https://lifewell-docs.aoneahsan.com/ur/reference/integrations): LifeWell کن بیرونی خدمات سے رابطہ کرتا ہے، ہر خدمت کس کام کی ہے، اسے کیا معلومات ملتی ہیں، اور کلید نہ ہونے پر کیا ہوتا ہے۔
 
 ## ڈویلپرز

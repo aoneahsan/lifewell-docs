@@ -77,7 +77,7 @@
 - [Programa de indicações](https://lifewell-docs.aoneahsan.com/pt-BR/features/referrals): Convide alguém: um cadastro confirmado rende pontos, um distintivo e, após um limite, um mês de plano pago. Cada número é uma configuração administrativa.
 - [Lista de compras](https://lifewell-docs.aoneahsan.com/pt-BR/features/shopping-list): Uma lista criada a partir das suas refeições e receitas ou escrita por você, compartilhada como texto simples para que quem faz as compras não precise de conta.
 - [Mapas e lugares](https://lifewell-docs.aoneahsan.com/pt-BR/features/maps): Acompanhe as relações entre memórias, notas, pessoas, eventos e nomes de lugares salvos. O histórico de localização é uma opção separada.
-- [Ferramentas e calculadoras](https://lifewell-docs.aoneahsan.com/pt-BR/features/tools): Quais calculadoras ficam no LifeWell, quais estão no ZTools e por que o diretório de ferramentas reúne principalmente links, sem repetir as implementações.
+- [Ferramentas e calculadoras](https://lifewell-docs.aoneahsan.com/pt-BR/features/tools): Registros do LifeWell e links para calculadoras pontuais do ZTools. Os endereços antigos redirecionam para as páginas correspondentes no ZTools.
 
 ## Marca própria e licenciamento
 
@@ -117,7 +117,7 @@
 
 - [Referência](https://lifewell-docs.aoneahsan.com/pt-BR/category/reference): Formato do arquivo de exportação, endereços preservados e serviços externos.
 - [O formato do arquivo exportado](https://lifewell-docs.aoneahsan.com/pt-BR/reference/export-format): O que entra na exportação LifeWell, campo por campo e tabela por tabela — cabeçalho JSON, arquivo CSV, omissões do PDF e dados que nunca aparecem.
-- [Endereços permanentes](https://lifewell-docs.aoneahsan.com/pt-BR/reference/addresses): Noventa e nove endereços públicos e quinze redirecionamentos do LifeWell são permanentes. A reconstrução muda o código, não os endereços.
+- [Endereços permanentes](https://lifewell-docs.aoneahsan.com/pt-BR/reference/addresses): Os 99 endereços públicos originais do LifeWell continuam acessíveis; 19 redirecionamentos permanentes preservam os endereços movidos.
 - [Serviços de terceiros](https://lifewell-docs.aoneahsan.com/pt-BR/reference/integrations): Todos os serviços externos com que o LifeWell se comunica, sua finalidade, os dados recebidos e o que acontece quando uma chave não está configurada.
 
 ## Desenvolvedores

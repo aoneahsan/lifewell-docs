@@ -77,7 +77,7 @@
 - [रेफ़रल कार्यक्रम](https://lifewell-docs.aoneahsan.com/hi/features/referrals): किसी को आमंत्रित करें। पुष्टि हुए साइन अप से अंक, बैज और सीमा पूरी होने पर सशुल्क प्लान का एक महीना मिलता है। हर संख्या एडमिन सेटिंग है।
 - [ख़रीदारी की सूची](https://lifewell-docs.aoneahsan.com/hi/features/shopping-list): भोजन और रेसिपी से बनी या खुद लिखी सूची, जिसे साधारण पाठ में बाँट सकते हैं ताकि सामान लेने वाले को खाते की ज़रूरत न पड़े।
 - [नक्शे और जगहें](https://lifewell-docs.aoneahsan.com/hi/features/maps): यादों, नोट्स, लोगों और कार्यक्रमों के बीच तथा सहेजे गए स्थानों के नामों से उनके संबंध देखें; स्थान इतिहास एक अलग वैकल्पिक सुविधा है।
-- [साधन और कैलकुलेटर](https://lifewell-docs.aoneahsan.com/hi/features/tools): कौन से कैलकुलेटर LifeWell में हैं, कौन से ZTools पर हैं और साधनों की सूची ज़्यादातर लिंक क्यों देती है।
+- [साधन और कैलकुलेटर](https://lifewell-docs.aoneahsan.com/hi/features/tools): LifeWell के रिकॉर्ड और ZTools के एक बार के कैलकुलेटरों की कड़ियाँ। पुराने कैलकुलेटर पते सही ZTools पेज पर भेजते हैं।
 
 ## व्हाइट-लेबल और लाइसेंस
 
@@ -117,7 +117,7 @@
 
 - [संदर्भ](https://lifewell-docs.aoneahsan.com/hi/category/reference): एक्सपोर्ट फ़ाइल का प्रारूप, स्थायी पते और उपयोग की जाने वाली बाहरी सेवाएँ।
 - [एक्सपोर्ट फ़ाइल का फ़ॉर्मैट](https://lifewell-docs.aoneahsan.com/hi/reference/export-format): LifeWell एक्सपोर्ट में हर फ़ील्ड और तालिका में क्या है—JSON का शुरुआती भाग, CSV संग्रह, PDF से क्या छूटता है और किसी फ़ॉर्मैट में क्या नहीं आता।
-- [जो पते नहीं बदलते](https://lifewell-docs.aoneahsan.com/hi/reference/addresses): LifeWell के निन्यानवे सार्वजनिक पते और पंद्रह स्थायी रीडायरेक्ट। दोबारा बनाया ऐप कोड बदलता है, पते नहीं।
+- [जो पते नहीं बदलते](https://lifewell-docs.aoneahsan.com/hi/reference/addresses): LifeWell के शुरुआती 99 सार्वजनिक पते अब भी काम करते हैं; 19 स्थायी रीडायरेक्ट बदले हुए पते सुरक्षित रखते हैं।
 - [बाहरी सेवाएँ](https://lifewell-docs.aoneahsan.com/hi/reference/integrations): LifeWell जिन बाहरी सेवाओं से बात करता है, उनका काम, उन्हें मिलने वाली जानकारी और कुंजी न होने पर क्या होता है।
 
 ## डेवलपर

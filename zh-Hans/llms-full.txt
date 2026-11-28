@@ -77,7 +77,7 @@
 - [推荐计划](https://lifewell-docs.aoneahsan.com/zh-Hans/features/referrals): 邀请他人注册；注册获得确认后，您会获得积分、徽章，并在达到门槛后获得一个月付费方案。所有数值都由管理员设置，而非写死在代码中。
 - [购物清单](https://lifewell-docs.aoneahsan.com/zh-Hans/features/shopping-list): 根据餐食和食谱生成清单，也可以手动填写；以纯文本分享，购物的人无需账号。
 - [地图与地点](https://lifewell-docs.aoneahsan.com/zh-Hans/features/maps): 查看回忆、笔记、人物、事件与您保存的地点名称之间的联系；位置历史是一项单独的自选功能。
-- [工具与计算器](https://lifewell-docs.aoneahsan.com/zh-Hans/features/tools): 了解哪些计算器留在 LifeWell，哪些位于 ZTools，以及为什么工具目录主要提供链接而非重复实现。
+- [工具与计算器](https://lifewell-docs.aoneahsan.com/zh-Hans/features/tools): LifeWell 的记录功能及 ZTools 单次计算器链接。旧计算器地址会重定向到相应的 ZTools 页面。
 
 ## 白标与授权
 
@@ -117,7 +117,7 @@
 
 - [参考资料](https://lifewell-docs.aoneahsan.com/zh-Hans/category/reference): 导出文件格式、既有地址和所有外部服务。
 - [导出文件格式](https://lifewell-docs.aoneahsan.com/zh-Hans/reference/export-format): 逐字段、逐表说明 LifeWell 导出文件：JSON 文件头、CSV 压缩包、PDF 省略的内容，以及任何格式都不会包含的内容。
-- [不会改变的地址](https://lifewell-docs.aoneahsan.com/zh-Hans/reference/addresses): LifeWell 已固定的 99 个公开地址和 15 条重定向。重建会更换代码，不会更换地址。
+- [不会改变的地址](https://lifewell-docs.aoneahsan.com/zh-Hans/reference/addresses): LifeWell 原有的 99 个公开地址仍可访问；19 条永久重定向保留迁移后的地址。
 - [第三方服务](https://lifewell-docs.aoneahsan.com/zh-Hans/reference/integrations): LifeWell 使用的每项外部服务、用途、接收的数据，以及未配置密钥时的行为。
 
 ## 开发者
