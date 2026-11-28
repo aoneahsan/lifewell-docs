@@ -1,35 +1,18 @@
-# Manual / User-Only Tasks — Lifewell Docs
+# Account-controlled tasks — LifeWell Docs
 
-> The ONE place for everything only you (the human) can do. Fixed path: `docs/MANUAL-TASKS.md`.
-> Global spec: `~/.claude/rules/manual-tasks.md`. Excluded from the published site (see
-> `docusaurus.config.ts` → `docs.exclude`) because this repo is public.
-> Last updated: 2026-09-08
+> This file is excluded from the public docs build. The owner can point a desktop session with the logged-in Chrome profile at the root handoff; no console report needs to be copied by hand.
+>
+> Last updated: 2026-11-28
 
-## ⏳ Pending manual tasks
+## ⏳ Pending
 
-| # | Task | Why only you | Status |
-|---|------|--------------|--------|
-| 1 | **Add DNS.** In Hostinger, add a `CNAME` record `lifewell-docs` → `aoneahsan.github.io` on `aoneahsan.com`. | Only you control the `aoneahsan.com` DNS zone. | ☐ Not started |
-| 2 | **Configure GitHub Pages.** Repo **Settings → Pages**: source = **GitHub Actions**, custom domain = `lifewell-docs.aoneahsan.com`, then **Enforce HTTPS** once the certificate provisions. | Repo settings are owner-only. | ☐ Not started |
-| 3 | **Submit the sitemap.** In Search Console (`sc-domain:aoneahsan.com`) submit `https://lifewell-docs.aoneahsan.com/sitemap.xml`. The site publishes it — 63 URLs, regenerated on every build — so this is a submission gap, not a build problem. | Submitting a sitemap is a console action. No agent can do it, which is why this finding stays open in `SEARCH-DISCOVERY-ISSUES.md` rather than moving to the fixed file. | ☐ Not started |
+| # | Task | Why account access is needed | Detailed runbook | Status |
+|---|---|---|---|---|
+| 3 | **Desktop agent: verify the docs sitemap in Google Search Console.** Check the property covering `https://lifewell-docs.aoneahsan.com/`, submit `https://lifewell-docs.aoneahsan.com/sitemap.xml` if absent, and record the processing state and date. This is search-discovery finding `fnd-sitemap-not-submitted-ac34c86428`. | The signed-in Chrome profile holds the Search Console property and its reports. | `../SEARCH-ENGINE-DESKTOP-HANDOFF.md` → Google Search Console and evidence return path. | ⏳ Pending desktop evidence; submission is not indexing. |
 
-`static/CNAME` already ships `lifewell-docs.aoneahsan.com` inside `build/`, and `.github/workflows/deploy-pages.yml` builds and
-publishes on every push to `main` — these steps are all that remain.
-
-⚠️ Rows 1 and 2 read *Not started*, but on 2026-09-08 `https://lifewell-docs.aoneahsan.com` answered **200** and served the
-current build, so both appear to have been done already. Only you tick these off, so they are left as they are — please close
-them if that is right. Row 3 is the search-discovery runner's `fnd-sitemap-not-submitted-ac34c86428`. It is the one finding on that queue only you can close; everything else on it is the agent's to fix.
-
-## ✅ Completed manual tasks
+## ✅ Completed
 
 | # | Task | Resolution | Date |
-|---|------|-----------|------|
-| — | — | — | — |
-
-## Context guide correction · 2026-11-27
-
-The former guide line below is kept here as history; the current guide names the 3.31.0 web rebuild.
-
-```text
-3.22.0 rebuild. For current product work, run `cd ../lifewell && yarn status`
-```
+|---|---|---|---|
+| 1 | Add DNS for `lifewell-docs.aoneahsan.com`. | `dig` returned the CNAME `aoneahsan.github.io` and GitHub Pages addresses; the HTTPS host served the current docs build. | 2026-11-28 |
+| 2 | Configure GitHub Pages and HTTPS. | GitHub Pages API reported custom domain `lifewell-docs.aoneahsan.com`, `https_enforced: true`, source `gh-pages` at `/`; the live English and French tools HTML matched the new build byte for byte. | 2026-11-28 |
