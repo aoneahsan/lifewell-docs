@@ -1,6 +1,6 @@
 ---
 title: ٹولز اور کیلکولیٹر
-description: LifeWell میں کون سے کیلکولیٹر ہیں، کون سے ZTools پر ہیں، اور ٹولز کی فہرست میں زیادہ تر نئے ٹولز کے بجائے روابط کیوں ہیں۔
+description: LifeWell کے ریکارڈ اور ZTools کے ایک بار استعمال ہونے والے کیلکولیٹروں کے لنک۔ پرانے کیلکولیٹر پتے ZTools کے متعلقہ صفحات پر منتقل کرتے ہیں۔
 keywords: [lifewell tools, health calculators, bmi calculator, interval timer, child growth]
 topics: [features, tools]
 sidebar_position: 11
@@ -14,32 +14,26 @@ sidebar_position: 11
 
 ## LifeWell کے اندر کیا چلتا ہے؟
 
-چار کیلکولیٹر یہاں رہے، کیونکہ ZTools پر یہ نہیں ہیں:
-
-| ٹول | پتہ |
-|---|---|
-| کمر اور کولہے کا تناسب | `/tools/waist-hip-ratio` |
-| بچے کی نشوونما | `/tools/child-growth` |
-| وزن میں اضافہ | `/tools/wellness-weight-gain` |
-| وقفوں کا ٹائمر | `/tools/interval-timer` |
-
-اس کے علاوہ [`/baby-names`](https://lifewell.aoneahsan.com/baby-names) ہے، جو کیلکولیٹر کے بجائے نام دیکھنے کی جگہ ہے۔
-
-پانچوں عوامی ہیں۔ اکاؤنٹ نہیں چاہیے اور آپ کے بارے میں کچھ محفوظ نہیں کرتے۔
+LifeWell آپ کے منتخب کردہ صحت اور خاندان کے ریکارڈ محفوظ رکھتا ہے۔ بچے کی نشوونما کا گراف محفوظ بچے کے ریکارڈ میں WHO کے حوالہ جاتی اعداد استعمال کرتا ہے۔ عوامی ناموں کی فہرست بھی یہاں رہتی ہے۔
 
 ## کیا باہر منتقل ہوا؟
 
-BMI، TDEE، BMR، غذائی تناسب، پروٹین، جسمانی چربی، مثالی وزن، دل کی دھڑکن کے زون، عمر اور ورزش کا ٹائمر سب اپنے ZTools متبادل پر بھیجتے ہیں۔ LifeWell کے پرانے پتے اب بھی کام کرتے ہیں؛ وہ 404 دینے کے بجائے مستقل ری ڈائریکٹ کرتے ہیں، کیونکہ لوگوں نے ان کے روابط محفوظ کیے تھے۔
+LifeWell کے چار سابقہ کیلکولیٹر پتے اب مستقل طور پر ZTools پر منتقل کرتے ہیں:
 
-چند دوسرے پتے **ایپ کے اندر** ان کی جگہ آنے والی اسکرین پر جاتے ہیں:
-`/tools/calorie-counter` → `/health/calories`، `/tools/fasting-tracker` → `/health/fasting`،
-`/tools/sleep-tracker` → `/health/sleep`، `/tools/step-counter` → `/health/steps`۔
+| ZTools | URL |
+|---|---|
+| [کمر اور کولہے کا تناسب](https://ztools.zaions.com/waist-hip-ratio-calculator) | `waist-hip-ratio-calculator` |
+| [بچے کی نشوونما](https://ztools.zaions.com/child-growth-percentile-calculator) | `child-growth-percentile-calculator` |
+| [وزن میں اضافہ](https://ztools.zaions.com/pregnancy-weight-gain-calculator) | `pregnancy-weight-gain-calculator` |
+| [وقفوں کا ٹائمر](https://ztools.zaions.com/workout-timer) | `workout-timer` |
 
-مکمل فہرست [وہ پتے جو نہیں بدلتے](../reference/addresses.md#redirects) میں ہے۔
+دوسرے پرانے کیلکولیٹر پتے بھی ZTools پر جاتے ہیں۔ چار پرانے ریکارڈ پتے LifeWell کے محفوظ صفحات پر منتقل کرتے ہیں: `/tools/calorie-counter` → `/health/calories`، `/tools/fasting-tracker` → `/health/fasting`، `/tools/sleep-tracker` → `/health/sleep`، اور `/tools/step-counter` → `/health/steps`۔
+
+مکمل معاہدہ [نہ بدلنے والے پتے](../reference/addresses.md#redirects) میں درج ہے۔
 
 ## `/health-tools`
 
-[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) صحت سے متعلق کیلکولیٹرز کی فہرست ہے۔
+[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) ان صحت کے ریکارڈ کی فہرست ہے جو آپ LifeWell میں رکھ سکتے ہیں۔
 
 :::note[مقبولیت کے اعداد ہٹا دیے گئے ہیں]
 اس صفحے کا 2.x ورژن ہر ٹول کے پاس تلاش کی تعداد دکھاتا تھا، جیسے *3.2M*۔ ان اعداد کا کوئی ماخذ نہیں تھا اور انہیں فہرست کی ترتیب کے لیے استعمال کیا گیا تھا۔ یہ اعداد گھڑے ہوئے تھے۔ 3.0.0 میں نہیں ہیں؛ اب فہرست کسی حقیقی بنیاد پر ترتیب پاتی ہے۔

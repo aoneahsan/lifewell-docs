@@ -1,6 +1,6 @@
 ---
 title: साधन और कैलकुलेटर
-description: कौन से कैलकुलेटर LifeWell में हैं, कौन से ZTools पर हैं और साधनों की सूची ज़्यादातर लिंक क्यों देती है।
+description: LifeWell के रिकॉर्ड और ZTools के एक बार के कैलकुलेटरों की कड़ियाँ। पुराने कैलकुलेटर पते सही ZTools पेज पर भेजते हैं।
 keywords: [lifewell साधन, स्वास्थ्य कैलकुलेटर, bmi कैलकुलेटर, इंटरवल टाइमर]
 topics: [features, tools]
 sidebar_position: 11
@@ -14,30 +14,26 @@ sidebar_position: 11
 
 ## LifeWell के भीतर क्या चलता है
 
-चार कैलकुलेटर यहाँ रहे, क्योंकि ZTools पर वे नहीं हैं:
-
-| साधन | पता |
-|---|---|
-| कमर और कूल्हे का अनुपात | `/tools/waist-hip-ratio` |
-| बच्चे की बढ़त | `/tools/child-growth` |
-| वज़न बढ़ना | `/tools/wellness-weight-gain` |
-| अंतराल टाइमर | `/tools/interval-timer` |
-
-साथ में [`/baby-names`](https://lifewell.aoneahsan.com/baby-names) है, जो कैलकुलेटर नहीं, नाम देखने की जगह है।
-
-ये पाँचों सार्वजनिक हैं। इनके लिए खाता नहीं चाहिए और ये आपके बारे में कुछ सहेजते नहीं।
+LifeWell आपके चुने हुए स्वास्थ्य और परिवार के रिकॉर्ड रखता है। बच्चे का बढ़त चार्ट सहेजे गए रिकॉर्ड में WHO संदर्भ डेटा इस्तेमाल करता है। सार्वजनिक नाम सूची भी यहीं रहती है।
 
 ## कौन से साधन बाहर गए
 
-BMI, TDEE, BMR, मैक्रो, प्रोटीन, शरीर की वसा, आदर्श वज़न, हृदय गति क्षेत्र, उम्र और कसरत टाइमर के पुराने पते अब ZTools के समान साधनों पर भेजते हैं। पुराने LifeWell पते अब भी काम करते हैं। लोग उनसे लिंक कर चुके हैं, इसलिए वे 404 के बजाय स्थायी रूप से सही जगह भेजते हैं।
+LifeWell के चार पुराने कैलकुलेटर पते अब स्थायी रूप से ZTools पर भेजते हैं:
 
-कुछ पते ऐप के भीतर ही, उनकी जगह आई स्क्रीन पर भेजते हैं: `/tools/calorie-counter` → `/health/calories`, `/tools/fasting-tracker` → `/health/fasting`, `/tools/sleep-tracker` → `/health/sleep`, `/tools/step-counter` → `/health/steps`।
+| ZTools | URL |
+|---|---|
+| [कमर और कूल्हे का अनुपात](https://ztools.zaions.com/waist-hip-ratio-calculator) | `waist-hip-ratio-calculator` |
+| [बच्चे की बढ़त](https://ztools.zaions.com/child-growth-percentile-calculator) | `child-growth-percentile-calculator` |
+| [वज़न बढ़ना](https://ztools.zaions.com/pregnancy-weight-gain-calculator) | `pregnancy-weight-gain-calculator` |
+| [अंतराल टाइमर](https://ztools.zaions.com/workout-timer) | `workout-timer` |
 
-पूरी सूची [जो पते नहीं बदलते](../reference/addresses.md#रीडायरेक्ट) में है।
+अन्य पुराने कैलकुलेटर पते भी ZTools पर जाते हैं। चार पुराने रिकॉर्ड पते LifeWell के सहेजे गए पेजों पर जाते हैं: `/tools/calorie-counter` → `/health/calories`, `/tools/fasting-tracker` → `/health/fasting`, `/tools/sleep-tracker` → `/health/sleep`, और `/tools/step-counter` → `/health/steps`।
+
+पूरी सूची [न बदलने वाले पते](../reference/addresses.md#redirects) में है।
 
 ## `/health-tools`
 
-[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) स्वास्थ्य से जुड़े कैलकुलेटर की सूची है।
+[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) उन स्वास्थ्य रिकॉर्ड की सूची है जिन्हें आप LifeWell में रख सकते हैं।
 
 :::note[लोकप्रियता की संख्याएँ हटा दी गई हैं]
 इस पेज के 2.x संस्करण में हर साधन के साथ खोज की मात्रा बताई जाती थी—*3.2M* जैसी संख्याएँ। उनका कोई स्रोत नहीं था और उनसे सूची का क्रम तय होता था। वे मनगढ़ंत थीं। 3.0.0 में वे नहीं हैं; पेज अब वास्तविक आधार पर क्रम देता है।

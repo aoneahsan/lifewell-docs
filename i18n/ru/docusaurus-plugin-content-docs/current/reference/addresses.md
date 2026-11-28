@@ -1,6 +1,6 @@
 ---
 title: Постоянные адреса
-description: Девяносто девять публичных адресов LifeWell и пятнадцать постоянных перенаправлений. При перестройке меняется код, а не адреса.
+description: Первоначальные 99 публичных адресов LifeWell остаются доступными; 19 постоянных перенаправлений сохраняют перенесённые адреса.
 keywords: [адреса LifeWell, постоянные ссылки, перенаправления, карта сайта, неизменные URL]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | Основные публичные страницы | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | Статьи блога | 47 | `/blog/<slug>` |
 | Страницы возможностей | 28 | `/features/<slug>` |
-| Инструменты | 5 | `/tools` и четыре оставшихся калькулятора |
+| Инструменты | 5 | В исходной группе есть `/tools` и четыре адреса, которые теперь перенаправляют на ZTools. |
 | Отдельные страницы | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Юридические страницы | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -35,14 +35,18 @@ sidebar_position: 2
 
 При перестройке несколько повторяющихся экранов объединили. Их страницы возможностей по-прежнему открываются и описывают доступные действия, направляя человека к новому месту вместо старого.
 
-## Перенаправления
+## Перенаправления \{#redirects}
 
-Их пятнадцать, все постоянные.
+Для исходных адресов есть девятнадцать постоянных перенаправлений. Четыре прежних адреса калькуляторов также перенаправляют посетителей под каждым из девяти языковых префиксов перевода.
 
 ### На ZTools
 
 | Инструмент | Старый адрес | Новый адрес |
 |---|---|---|
+| `child-growth` | `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `waist-hip-ratio` | `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `wellness-weight-gain` | `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `interval-timer` | `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | ИМТ | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | TDEE | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | BMR | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

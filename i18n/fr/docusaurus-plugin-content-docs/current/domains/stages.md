@@ -41,7 +41,7 @@ Masqué ne veut pas dire disparu : les écrans sortent du menu, vos notes rest
 - **Croissance** — `/baby/growth`, montrée sur une courbe
 - **Étapes du développement** — `/baby/milestones`
 
-`/tools/child-growth` est le calculateur public utilisé pour la courbe de croissance. Il fonctionne sans compte.
+La courbe de croissance enregistrée utilise la table de référence de l’OMS dans LifeWell. L’ancienne adresse publique `/tools/child-growth` redirige maintenant vers le [calculateur de croissance de ZTools](https://ztools.zaions.com/child-growth-percentile-calculator).
 
 ## Prénoms \{#baby-names}
 

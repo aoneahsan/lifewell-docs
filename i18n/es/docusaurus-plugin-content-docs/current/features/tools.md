@@ -1,6 +1,6 @@
 ---
 title: Herramientas y calculadoras
-description: Qué calculadoras están en LifeWell, cuáles están en ZTools y por qué el directorio contiene sobre todo enlaces en vez de versiones duplicadas.
+description: Registros de LifeWell y enlaces a calculadoras puntuales de ZTools. Las antiguas direcciones de calculadoras redirigen a sus páginas exactas en ZTools.
 keywords: [herramientas lifewell, calculadoras de salud, calculadora imc, temporizador por intervalos]
 topics: [features, tools]
 sidebar_position: 11
@@ -16,34 +16,26 @@ Es deliberado. Si una calculadora ya existe en otro producto mantenido, no la es
 
 ## Lo que funciona dentro de LifeWell \{#what-runs-inside-lifewell}
 
-Se quedaron cuatro calculadoras que ZTools no tiene:
-
-| Herramienta | Dirección |
-|---|---|
-| Relación cintura-cadera | `/tools/waist-hip-ratio` |
-| Crecimiento infantil | `/tools/child-growth` |
-| Aumento de peso | `/tools/wellness-weight-gain` |
-| Temporizador por intervalos | `/tools/interval-timer` |
-
-Además está [`/baby-names`](https://lifewell.aoneahsan.com/baby-names), un buscador, no una calculadora.
-
-Las cinco páginas son públicas. No necesitan cuenta ni guardan nada sobre ti.
+LifeWell conserva los registros de salud y familia que decides guardar. La gráfica de crecimiento infantil usa referencias de la OMS dentro del registro guardado de cada menor. El explorador público de nombres también sigue aquí.
 
 ## Lo que se trasladó \{#what-moved-out}
 
-IMC, TDEE, BMR, macronutrientes, proteínas, grasa corporal, peso ideal, zonas de frecuencia cardíaca, edad y
-el temporizador de entrenamiento redirigen a sus equivalentes en ZTools. Las direcciones antiguas de LifeWell
-siguen funcionando: responden con una redirección permanente, no con un 404, porque otras personas las enlazaron.
+Cuatro antiguas direcciones de calculadoras de LifeWell ahora redirigen permanentemente a ZTools:
 
-Unas pocas redirigen **dentro** de LifeWell a la pantalla que las sustituyó:
-Por ejemplo, `/tools/calorie-counter` → `/health/calories` y `/tools/fasting-tracker` → `/health/fasting`.
-También `/tools/sleep-tracker` → `/health/sleep` y `/tools/step-counter` → `/health/steps`.
+| ZTools | URL |
+|---|---|
+| [Relación cintura-cadera](https://ztools.zaions.com/waist-hip-ratio-calculator) | `waist-hip-ratio-calculator` |
+| [Crecimiento infantil](https://ztools.zaions.com/child-growth-percentile-calculator) | `child-growth-percentile-calculator` |
+| [Aumento de peso](https://ztools.zaions.com/pregnancy-weight-gain-calculator) | `pregnancy-weight-gain-calculator` |
+| [Temporizador por intervalos](https://ztools.zaions.com/workout-timer) | `workout-timer` |
 
-La lista completa está en [Direcciones que no se pierden](../reference/addresses.md#redirects).
+Otras calculadoras antiguas también redirigen a ZTools. Cuatro direcciones de registro llevan a sus páginas guardadas de LifeWell: `/tools/calorie-counter` → `/health/calories`, `/tools/fasting-tracker` → `/health/fasting`, `/tools/sleep-tracker` → `/health/sleep` y `/tools/step-counter` → `/health/steps`.
+
+El contrato completo aparece en [Direcciones que no cambian](../reference/addresses.md#redirects).
 
 ## `/health-tools` \{#health-tools}
 
-[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) reúne las calculadoras relacionadas con la salud.
+[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) reúne los registros de salud que puedes guardar en LifeWell.
 
 :::note[Se eliminaron las cifras de popularidad]
 La versión 2.x mostraba junto a cada herramienta supuestas búsquedas mensuales —cifras como *3.2M* sin fuente—

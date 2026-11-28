@@ -1,6 +1,6 @@
 ---
 title: जो पते नहीं बदलते
-description: LifeWell के निन्यानवे सार्वजनिक पते और पंद्रह स्थायी रीडायरेक्ट। दोबारा बनाया ऐप कोड बदलता है, पते नहीं।
+description: LifeWell के शुरुआती 99 सार्वजनिक पते अब भी काम करते हैं; 19 स्थायी रीडायरेक्ट बदले हुए पते सुरक्षित रखते हैं।
 keywords: [lifewell पते, स्थायी लिंक, रीडायरेक्ट, साइटमैप]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | मुख्य सार्वजनिक पेज | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | ब्लॉग पोस्ट | 47 | `/blog/<slug>` |
 | सुविधा पेज | 28 | `/features/<slug>` |
-| साधन | 5 | `/tools` और बचे हुए चार कैलकुलेटर |
+| साधन | 5 | मूल साधन समूह में `/tools` और चार ऐसे पते हैं जो अब ZTools पर जाते हैं। |
 | अलग पेज | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | कानूनी और अनुपालन | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -35,16 +35,18 @@ sidebar_position: 2
 
 नए ऐप में कुछ एक जैसे पेज जोड़े गए। जहाँ ऐसा हुआ, सार्वजनिक सुविधा पेज फिर भी खुलता है और आप क्या कर सकते हैं बताता है; वह पुरानी के बजाय नई जगह दिखाता है।
 
-<a id="redirects"></a>
+## रीडायरेक्ट \{#redirects}
 
-## रीडायरेक्ट
-
-पंद्रह, सभी स्थायी।
+कुल 19 मूल पते हैं और सभी स्थायी रूप से रीडायरेक्ट होते हैं। चार पुराने कैलकुलेटर पते भी नौ अनूदित भाषा प्रीफ़िक्स में रीडायरेक्ट होते हैं।
 
 ### बाहर, ZTools पर
 
 | पुराने पते से | नए पते पर |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

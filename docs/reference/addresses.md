@@ -1,6 +1,6 @@
 ---
 title: Addresses that do not move
-description: Ninety-nine public LifeWell addresses and fifteen redirects that are frozen. A rebuild changes code, not addresses.
+description: The original ninety-nine public LifeWell addresses remain reachable; nineteen permanent redirects preserve moved URLs.
 keywords: [lifewell urls, permanent links, redirects, sitemap, frozen urls]
 topics: [reference, seo]
 sidebar_position: 2
@@ -22,7 +22,7 @@ linked from somewhere we do not control. **The rebuild changes code, not contrac
 | Core public pages | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | Blog posts | 47 | `/blog/<slug>` |
 | Feature pages | 28 | `/features/<slug>` |
-| Tools | 5 | `/tools` and the four calculators that stayed |
+| Tools | 5 | The original tools group includes `/tools` and four addresses that now redirect to ZTools. |
 | Standalone pages | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Legal and compliance | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -47,12 +47,16 @@ what you can do — it points at the new location rather than at the old one.
 
 ## Redirects
 
-Fifteen, all permanent.
+Nineteen base addresses, all permanent. The four retired calculator paths also redirect under each of the nine translated URL prefixes.
 
 ### Out, to ZTools
 
 | From | To |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

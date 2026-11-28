@@ -41,7 +41,7 @@ sidebar_position: 8
 - **نشوونما** — `/baby/growth`، ٹیبل کے بجائے چارٹ میں
 - **اہم مراحل** — `/baby/milestones`
 
-`/tools/child-growth` نشوونما کے چارٹ کے پیچھے عوامی کیلکولیٹر ہے؛ یہ اکاؤنٹ کے بغیر بھی چلتا ہے۔
+محفوظ نشوونما کا گراف LifeWell میں WHO کا حوالہ جاتی جدول استعمال کرتا ہے۔ سابقہ عوامی پتہ `/tools/child-growth` اب [ZTools کے بچے کی نشوونما کے کیلکولیٹر](https://ztools.zaions.com/child-growth-percentile-calculator) پر منتقل کرتا ہے۔
 
 ## بچوں کے نام
 

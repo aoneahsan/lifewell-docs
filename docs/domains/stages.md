@@ -45,7 +45,7 @@ app says so instead of presenting a date as a fact.
 - **Growth** — `/baby/growth`, plotted rather than tabulated
 - **Milestones** — `/baby/milestones`
 
-`/tools/child-growth` is the public calculator behind the growth chart, and it works without an account.
+The saved growth chart uses the WHO reference table within LifeWell. The former public `/tools/child-growth` URL now redirects to the [ZTools child growth calculator](https://ztools.zaions.com/child-growth-percentile-calculator).
 
 ## Baby names
 

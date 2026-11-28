@@ -41,7 +41,7 @@ sidebar_position: 8
 - **النمو:** `/baby/growth` في رسم بياني
 - **المراحل المهمة:** `/baby/milestones`
 
-`/tools/child-growth` حاسبة النمو العامة وراء الرسم، وتعمل بلا حساب.
+يستخدم مخطط النمو المحفوظ جدول منظمة الصحة العالمية المرجعي داخل LifeWell. العنوان العام السابق `/tools/child-growth` يعيد التوجيه الآن إلى [حاسبة نمو الطفل على ZTools](https://ztools.zaions.com/child-growth-percentile-calculator).
 
 ## أسماء الأطفال \{#baby-names}
 

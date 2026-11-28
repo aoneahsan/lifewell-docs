@@ -1,6 +1,6 @@
 ---
 title: "عناوين لا تتغير"
-description: "تسعة وتسعون عنواناً عاماً لـLifeWell وخمسة عشر تحويلاً ثابتاً. تغير إعادة البناء الشيفرة، لا العناوين."
+description: عناوين LifeWell العامة الأصلية البالغ عددها 99 ما زالت تعمل؛ وتحفظ 19 إعادة توجيه دائمة العناوين التي انتقلت.
 keywords: [عناوين lifewell, روابط دائمة, تحويلات, خريطة الموقع, عناوين ثابتة]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | الصفحات العامة الأساسية | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | مقالات المدونة | 47 | `/blog/<slug>` |
 | صفحات الميزات | 28 | `/features/<slug>` |
-| الأدوات | 5 | `/tools` والحاسبات الأربع التي بقيت |
+| الأدوات | 5 | تضم مجموعة الأدوات الأصلية `/tools` وأربعة عناوين تعيد التوجيه الآن إلى ZTools. |
 | الصفحات المستقلة | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | القانون والامتثال | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ sidebar_position: 2
 
 ## التحويلات \{#redirects}
 
-خمسة عشر تحويلاً دائماً.
+هناك 19 عنوانًا أساسيًا، وكل تحويل دائم. وتعيد مسارات الحاسبات الأربع السابقة التوجيه أيضًا تحت كل بادئة من بادئات اللغات التسع المترجمة.
 
 ### إلى ZTools \{#out-to-ztools}
 
 | من | إلى |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

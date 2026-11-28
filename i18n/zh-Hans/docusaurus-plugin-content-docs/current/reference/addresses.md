@@ -1,6 +1,6 @@
 ---
 title: 不会改变的地址
-description: LifeWell 已固定的 99 个公开地址和 15 条重定向。重建会更换代码，不会更换地址。
+description: LifeWell 原有的 99 个公开地址仍可访问；19 条永久重定向保留迁移后的地址。
 keywords: [lifewell 网址, 永久链接, 重定向, 站点地图, 固定网址]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | 核心公开页面 | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | 博客文章 | 47 | `/blog/<slug>` |
 | 功能介绍页 | 28 | `/features/<slug>` |
-| 工具 | 5 | `/tools` 及保留的四个计算器 |
+| 工具 | 5 | 原工具组包含 `/tools` 和四个现已重定向到 ZTools 的地址。 |
 | 独立页面 | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | 法律与合规页面 | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ Google Play 商店页面和 Data Safety 表单引用了四个法律地址。如�
 
 ## 重定向 \{#redirects}
 
-共 15 条，全部为永久重定向。
+基础地址共有 19 条永久重定向。四个已停用的计算器路径在九种翻译语言的网址前缀下也会重定向。
 
 ### 跳转到 ZTools
 
 | 原地址 | 目标地址 |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

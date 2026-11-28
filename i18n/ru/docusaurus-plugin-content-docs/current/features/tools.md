@@ -1,6 +1,6 @@
 ---
 title: Инструменты и калькуляторы
-description: Какие калькуляторы работают в LifeWell, какие находятся на ZTools и почему каталог инструментов в основном ведёт на другие страницы.
+description: Записи LifeWell и ссылки на разовые калькуляторы ZTools. Старые адреса калькуляторов перенаправляют на соответствующие страницы ZTools.
 keywords: [инструменты LifeWell, калькуляторы здоровья, калькулятор ИМТ, интервальный таймер, рост ребёнка]
 topics: [features, tools]
 sidebar_position: 11
@@ -14,32 +14,26 @@ sidebar_position: 11
 
 ## Что работает внутри LifeWell
 
-Четыре калькулятора остались, потому что на ZTools их нет:
-
-| Инструмент | Адрес |
-|---|---|
-| Соотношение талии и бёдер | `/tools/waist-hip-ratio` |
-| Рост ребёнка | `/tools/child-growth` |
-| Прибавка веса | `/tools/wellness-weight-gain` |
-| Интервальный таймер | `/tools/interval-timer` |
-
-Есть также [`/baby-names`](https://lifewell.aoneahsan.com/baby-names) — каталог имён, а не калькулятор.
-
-Все пять страниц открыты для всех. Учётная запись не нужна, и сведения о вас не сохраняются.
+LifeWell хранит выбранные вами записи о здоровье и семье. График роста ребёнка использует справочные данные ВОЗ в его сохранённой записи. Общедоступный каталог имён тоже остаётся здесь.
 
 ## Что перенесено
 
-Адреса калькуляторов ИМТ, TDEE, BMR, макронутриентов, белка, доли жира, идеального веса, зон пульса, возраста и таймера тренировки перенаправляют на соответствующие страницы ZTools. Старые адреса LifeWell продолжают работать как постоянные перенаправления, а не возвращают ошибку 404: на них уже могли ссылаться другие люди.
+Четыре прежних адреса калькуляторов LifeWell теперь постоянно перенаправляют на ZTools:
 
-Ещё несколько адресов перенаправляют **внутри LifeWell**, на заменивший их экран:
-калькулятор калорий `/tools/calorie-counter` → `/health/calories`, учёт голодания `/tools/fasting-tracker` → `/health/fasting`,
-учёт сна `/tools/sleep-tracker` → `/health/sleep`, учёт шагов `/tools/step-counter` → `/health/steps`.
+| ZTools | URL |
+|---|---|
+| [Соотношение талии и бёдер](https://ztools.zaions.com/waist-hip-ratio-calculator) | `waist-hip-ratio-calculator` |
+| [Рост ребёнка](https://ztools.zaions.com/child-growth-percentile-calculator) | `child-growth-percentile-calculator` |
+| [Прибавка веса](https://ztools.zaions.com/pregnancy-weight-gain-calculator) | `pregnancy-weight-gain-calculator` |
+| [Интервальный таймер](https://ztools.zaions.com/workout-timer) | `workout-timer` |
 
-Полный список — в разделе [Постоянные адреса](../reference/addresses.md#перенаправления).
+Другие старые адреса калькуляторов также ведут на ZTools. Четыре прежних адреса дневников ведут к сохранённым записям LifeWell: `/tools/calorie-counter` → `/health/calories`, `/tools/fasting-tracker` → `/health/fasting`, `/tools/sleep-tracker` → `/health/sleep` и `/tools/step-counter` → `/health/steps`.
+
+Полный договор об адресах описан в [Адреса, которые не меняются](../reference/addresses.md#redirects).
 
 ## `/health-tools`
 
-[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) собирает калькуляторы, связанные со здоровьем.
+[`/health-tools`](https://lifewell.aoneahsan.com/health-tools) перечисляет записи о здоровье, которые можно хранить в LifeWell.
 
 :::note[Показатели популярности убраны]
 В версии 2.x рядом с инструментами стояли числа поисковых запросов вроде *3,2 млн* без источника. По ним даже сортировали список. Эти числа были выдуманы. В версии 3.0.0 их нет, а порядок страниц опирается на реальные данные.

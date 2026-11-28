@@ -1,6 +1,6 @@
 ---
 title: Adresses qui ne changent pas
-description: Quatre-vingt-dix-neuf adresses publiques LifeWell et quinze redirections restent fixes. Une reconstruction change le code, pas les adresses.
+description: Les 99 adresses publiques d’origine de LifeWell restent accessibles ; 19 redirections permanentes préservent les adresses déplacées.
 keywords: [adresses LifeWell, liens permanents, redirections, plan du site, URL fixes]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ Elles étaient déjà publiques : indexées par les moteurs de recherche, int�
 | Pages publiques principales | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | Articles du blog | 47 | `/blog/<slug>` |
 | Pages de fonctions | 28 | `/features/<slug>` |
-| Outils | 5 | `/tools` et les quatre calculateurs conservés |
+| Outils | 5 | Le groupe d’origine comprend `/tools` et quatre adresses qui redirigent désormais vers ZTools. |
 | Pages indépendantes | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Pages juridiques et réglementaires | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ La reconstruction a réuni certains écrans autrefois séparés. Les pages de fo
 
 ## Redirections \{#redirects}
 
-Quinze redirections permanentes.
+Dix-neuf adresses de base redirigent de façon permanente. Les quatre anciennes adresses des calculateurs redirigent aussi sous chacun des neuf préfixes de langue traduits.
 
 ### Vers ZTools \{#out-to-ztools}
 
 | Depuis | Vers |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

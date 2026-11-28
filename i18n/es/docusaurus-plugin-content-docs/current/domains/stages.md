@@ -45,7 +45,7 @@ también varía. No presenta una fecha estimada como un hecho.
 - **Crecimiento** — `/baby/growth`, mostrado en un gráfico
 - **Hitos** — `/baby/milestones`
 
-`/tools/child-growth` es la calculadora pública detrás del gráfico de crecimiento y funciona sin cuenta.
+La gráfica de crecimiento guardada usa la referencia de la OMS dentro de LifeWell. La antigua dirección pública `/tools/child-growth` ahora redirige a la [calculadora de crecimiento infantil de ZTools](https://ztools.zaions.com/child-growth-percentile-calculator).
 
 ## Nombres de bebés \{#baby-names}
 

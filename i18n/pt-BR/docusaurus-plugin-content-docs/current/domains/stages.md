@@ -41,7 +41,7 @@ Sair do menu não é desaparecer: seus registros ficam guardados, e cada página
 - **Crescimento** — `/baby/growth`, mostrado em gráfico
 - **Marcos de desenvolvimento** — `/baby/milestones`
 
-`/tools/child-growth` é a calculadora pública ligada ao gráfico de crescimento e funciona sem conta.
+O gráfico de crescimento salvo usa a tabela de referência da OMS no LifeWell. O antigo endereço público `/tools/child-growth` agora redireciona para a [calculadora de crescimento infantil do ZTools](https://ztools.zaions.com/child-growth-percentile-calculator).
 
 ## Nomes de bebê
 

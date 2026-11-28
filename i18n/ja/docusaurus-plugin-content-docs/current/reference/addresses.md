@@ -1,6 +1,6 @@
 ---
 title: 変わらないURL
-description: 固定されたLifeWellの公開URL99件とリダイレクト15件。再構築で変わるのはコードであり、URLではありません。
+description: LifeWellの当初の公開URL99件は今も利用できます。移動したURLは19件の恒久的なリダイレクトで保たれています。
 keywords: [LifeWell URL, 永続リンク, リダイレクト, サイトマップ, 固定URL]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | 主な公開ページ | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | ブログ記事 | 47 | `/blog/<slug>` |
 | 機能ページ | 28 | `/features/<slug>` |
-| ツール | 5 | `/tools`と残した4つの計算ツール |
+| ツール | 5 | 元のツール群には`/tools`と、現在ZToolsへ転送される四つのURLが含まれます。 |
 | 独立したページ | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | 法的・規約関連 | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ sidebar_position: 2
 
 ## リダイレクト \{#redirects}
 
-永続リダイレクトは15件です。
+元のアドレスには恒久的なリダイレクトが19件あります。廃止した4つの計算ページも、翻訳された9言語それぞれのURLでリダイレクトされます。
 
 ### 外部のZToolsへ
 
 | 元URL | 転送先 |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

@@ -41,7 +41,7 @@ sidebar_position: 8
 - **成長** — `/baby/growth`。表ではなくグラフで表示します
 - **節目** — `/baby/milestones`
 
-`/tools/child-growth`は成長グラフに使う公開の計算機で、アカウントなしで利用できます。
+保存した成長グラフはLifeWell内でWHOの参照表を使います。以前の公開URL `/tools/child-growth` は、現在[ZToolsの子どもの成長計算ツール](https://ztools.zaions.com/child-growth-percentile-calculator)へ転送されます。
 
 ## 赤ちゃんの名前
 

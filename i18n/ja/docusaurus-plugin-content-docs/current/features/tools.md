@@ -1,6 +1,6 @@
 ---
 title: ツールと計算機
-description: LifeWell内にある計算機、ZToolsにある計算機、ツール一覧が主にリンクで構成される理由を説明します。
+description: LifeWellの記録機能と、ZToolsの単発の計算ツールへのリンク。旧計算ツールのURLは対応するZToolsのページへ転送されます。
 keywords: [lifewell tools, health calculators, bmi calculator, interval timer, child growth, 計算ツール]
 topics: [features, tools]
 sidebar_position: 11
@@ -14,28 +14,22 @@ sidebar_position: 11
 
 ## LifeWell内で動くもの
 
-ZToolsにはない次の4つの計算機が残っています。
-
-| ツール | アドレス |
-|---|---|
-| ウエストとヒップの比率 | `/tools/waist-hip-ratio` |
-| 子どもの成長 | `/tools/child-growth` |
-| 体重の増加 | `/tools/wellness-weight-gain` |
-| インターバルタイマー | `/tools/interval-timer` |
-
-さらに、計算機ではなく検索用の[赤ちゃんの名前](https://lifewell.aoneahsan.com/baby-names)があります。
-
-この5つはすべて公開されており、アカウントは不要です。あなたについての情報も保存しません。
+LifeWellには、あなたが保存を選んだ健康と家族の記録が残ります。子どもの成長グラフは、保存した子どもの記録の中でWHOの参照データを使います。公開の名前一覧もここに残ります。
 
 ## 外へ移ったもの
 
-BMI、TDEE、BMR、マクロ栄養素、たんぱく質、体脂肪、理想体重、心拍数の範囲、年齢、運動タイマーは、それぞれのZToolsページへ転送されます。以前のLifeWellのアドレスも残り、404ではなく恒久的に転送します。既にそのアドレスへリンクしている人がいるためです。
+以前のLifeWellの四つの計算ツールURLは、現在ZToolsへ恒久的に転送されます。
 
-一部は外ではなく、代わりのアプリ内画面へ転送されます。
-`/tools/calorie-counter` → `/health/calories`、`/tools/fasting-tracker` → `/health/fasting`、
-`/tools/sleep-tracker` → `/health/sleep`、`/tools/step-counter` → `/health/steps`です。
+| ZTools | URL |
+|---|---|
+| [ウエストとヒップの比率](https://ztools.zaions.com/waist-hip-ratio-calculator) | `waist-hip-ratio-calculator` |
+| [子どもの成長](https://ztools.zaions.com/child-growth-percentile-calculator) | `child-growth-percentile-calculator` |
+| [体重の増加](https://ztools.zaions.com/pregnancy-weight-gain-calculator) | `pregnancy-weight-gain-calculator` |
+| [インターバルタイマー](https://ztools.zaions.com/workout-timer) | `workout-timer` |
 
-全一覧は[変えないアドレス](../reference/addresses.md#redirects)をご覧ください。
+ほかの旧計算ツールURLもZToolsへ転送されます。四つの旧記録ツールURLはLifeWell内の保存先へ移ります：`/tools/calorie-counter` → `/health/calories`、`/tools/fasting-tracker` → `/health/fasting`、`/tools/sleep-tracker` → `/health/sleep`、`/tools/step-counter` → `/health/steps`。
+
+全ての対応は[変わらないURL](../reference/addresses.md#redirects)をご覧ください。
 
 ## `/health-tools`
 

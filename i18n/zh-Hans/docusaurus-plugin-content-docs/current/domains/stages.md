@@ -41,7 +41,7 @@ sidebar_position: 8
 - **生长**——`/baby/growth`，以图形而非表格呈现
 - **成长节点**——`/baby/milestones`
 
-`/tools/child-growth` 是生长曲线背后的公开计算器，无需账号即可使用。
+保存的生长图在 LifeWell 内使用 WHO 参考表。原公开地址 `/tools/child-growth` 现在重定向到 [ZTools 儿童生长计算器](https://ztools.zaions.com/child-growth-percentile-calculator)。
 
 ## 婴儿名字
 

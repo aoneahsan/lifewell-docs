@@ -1,6 +1,6 @@
 ---
 title: Endereços permanentes
-description: Noventa e nove endereços públicos e quinze redirecionamentos do LifeWell são permanentes. A reconstrução muda o código, não os endereços.
+description: Os 99 endereços públicos originais do LifeWell continuam acessíveis; 19 redirecionamentos permanentes preservam os endereços movidos.
 keywords: [urls LifeWell, links permanentes, redirecionamentos, mapa do site, endereços fixos]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ Eles permanecem porque já são públicos: indexados por buscadores, usados por 
 | Páginas públicas principais | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | Publicações do blog | 47 | `/blog/<slug>` |
 | Páginas de recursos | 28 | `/features/<slug>` |
-| Ferramentas | 5 | `/tools` e quatro calculadoras mantidas |
+| Ferramentas | 5 | O grupo original inclui `/tools` e quatro endereços que agora redirecionam para o ZTools. |
 | Páginas independentes | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Páginas legais e de conformidade | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -35,14 +35,18 @@ Os quatro endereços legais são mencionados na página do Google Play e no form
 
 A reconstrução uniu algumas telas duplicadas. As páginas públicas desses recursos continuam funcionando e explicam o que você pode fazer, apontando para a nova tela quando necessário.
 
-## Redirecionamentos
+## Redirecionamentos \{#redirects}
 
-São quinze, todos permanentes.
+São 19 endereços base, todos com redirecionamento permanente. Os quatro antigos caminhos de calculadoras também redirecionam em cada um dos nove prefixos de idioma traduzidos.
 
 ### Para fora, em direção ao ZTools
 
 | Origem | Destino |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

@@ -41,7 +41,7 @@ sidebar_position: 8
 - **बढ़त**—`/baby/growth`, तालिका के बजाय चार्ट में
 - **विकास के पड़ाव**—`/baby/milestones`
 
-`/tools/child-growth` बढ़त के चार्ट के पीछे सार्वजनिक कैलकुलेटर है और बिना खाते के काम करता है।
+सहेजा गया बढ़त चार्ट LifeWell में WHO संदर्भ तालिका इस्तेमाल करता है। पुराना सार्वजनिक पता `/tools/child-growth` अब [ZTools बच्चे की बढ़त कैलकुलेटर](https://ztools.zaions.com/child-growth-percentile-calculator) पर भेजता है।
 
 ## बच्चे के नाम
 

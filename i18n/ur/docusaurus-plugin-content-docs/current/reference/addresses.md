@@ -1,6 +1,6 @@
 ---
 title: وہ پتے جو نہیں بدلتے
-description: LifeWell کے 99 عوامی پتے اور 15 مستقل ری ڈائریکٹس۔ نئی تعمیر کوڈ بدلتی ہے، پتے نہیں۔
+description: LifeWell کے ابتدائی 99 عوامی پتے اب بھی کھلتے ہیں؛ 19 مستقل ری ڈائریکٹس منتقل شدہ پتوں کو برقرار رکھتے ہیں۔
 keywords: [lifewell urls, permanent links, redirects, sitemap, frozen urls]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ sidebar_position: 2
 | بنیادی عوامی صفحات | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | بلاگ تحریریں | 47 | `/blog/<slug>` |
 | خصوصیات کے صفحات | 28 | `/features/<slug>` |
-| اوزار | 5 | `/tools` اور وہ چار کیلکولیٹر جو برقرار رہے |
+| اوزار | 5 | ابتدائی ٹول گروپ میں `/tools` اور چار ایسے پتے ہیں جو اب ZTools پر جاتے ہیں۔ |
 | الگ صفحات | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | قانونی اور تعمیلی صفحات | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ sidebar_position: 2
 
 ## ری ڈائریکٹس {/* #redirects */}
 
-کل 15، اور سب مستقل۔
+بنیادی پتوں کے 19 مستقل ری ڈائریکٹس ہیں۔ چار سابقہ کیلکولیٹر راستے بھی نو ترجمہ شدہ زبانوں کے ہر URL سابقے کے تحت ری ڈائریکٹ ہوتے ہیں۔
 
 ### باہر، ZTools کی طرف
 
 | پرانا پتہ | نیا پتہ |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |

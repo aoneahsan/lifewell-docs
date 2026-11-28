@@ -1,6 +1,6 @@
 ---
 title: Direcciones que se conservan
-description: Noventa y nueve direcciones públicas de LifeWell y quince redirecciones permanentes. Reconstruir el producto cambia el código, no sus direcciones.
+description: Las 99 direcciones públicas originales de LifeWell siguen funcionando; 19 redirecciones permanentes conservan las direcciones trasladadas.
 keywords: [direcciones de lifewell, enlaces permanentes, redirecciones, mapa del sitio, urls conservadas]
 topics: [reference, seo]
 sidebar_position: 2
@@ -19,7 +19,7 @@ Se conservan porque ya son públicas: los buscadores las indexaron, aparecen en 
 | Páginas públicas principales | 9 | `/` · `/features` · `/about` · `/contact` · `/get-involved` · `/support` · `/sitemap` · `/blog` · `/feed` |
 | Publicaciones del blog | 47 | `/blog/<slug>` |
 | Páginas de funciones | 28 | `/features/<slug>` |
-| Herramientas | 5 | `/tools` y las cuatro calculadoras que permanecieron |
+| Herramientas | 5 | El grupo original incluye `/tools` y cuatro direcciones que ahora redirigen a ZTools. |
 | Páginas independientes | 3 | `/baby-names` · `/blood-donors` · `/health-tools` |
 | Páginas legales y de cumplimiento | 4 | `/privacy` · `/terms` · `/delete-account` · `/permissions` |
 
@@ -37,12 +37,16 @@ La reconstrucción unificó algunas pantallas duplicadas. Sus páginas públicas
 
 ## Redirecciones \{#redirects}
 
-Hay quince, todas permanentes.
+Hay 19 direcciones base, todas con redirección permanente. Las cuatro rutas anteriores de calculadoras también redirigen bajo cada uno de los nueve prefijos de idioma traducidos.
 
 ### Hacia ZTools \{#out-to-ztools}
 
 | Desde | Hacia |
 |---|---|
+| `/tools/child-growth` | [ZTools](https://ztools.zaions.com/child-growth-percentile-calculator) |
+| `/tools/waist-hip-ratio` | [ZTools](https://ztools.zaions.com/waist-hip-ratio-calculator) |
+| `/tools/wellness-weight-gain` | [ZTools](https://ztools.zaions.com/pregnancy-weight-gain-calculator) |
+| `/tools/interval-timer` | [ZTools](https://ztools.zaions.com/workout-timer) |
 | `/tools/bmi-calculator` | `ztools.zaions.com/bmi-calculator` |
 | `/tools/tdee-calculator` | `ztools.zaions.com/tdee-calculator-advanced` |
 | `/tools/bmr-calculator` | `ztools.zaions.com/bmr-calculator` |
